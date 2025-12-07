@@ -1,6 +1,7 @@
 // Exam State Management
 let currentQuestion = 0;
 let userAnswers = Array(questions.length).fill(null);
+let flaggedQuestions = Array(questions.length).fill(false);
 let timerInterval;
 let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
@@ -10,13 +11,90 @@ document.addEventListener('DOMContentLoaded', () => {
     loadQuestion(0);
     startTimer();
     updateProgress();
+    createQuestionNavigator();
 
     document.getElementById('prevBtn').addEventListener('click', () => navigateQuestion(-1));
     document.getElementById('nextBtn').addEventListener('click', () => navigateQuestion(1));
     document.getElementById('submitBtn').addEventListener('click', submitExam);
     document.getElementById('reviewBtn').addEventListener('click', reviewAnswers);
     document.getElementById('restartBtn').addEventListener('click', restartExam);
+    document.getElementById('toggleNavigatorBtn').addEventListener('click', toggleNavigator);
 });
+
+// Create Question Navigator
+function createQuestionNavigator() {
+    const navigator = document.getElementById('questionNavigator');
+    const grid = document.createElement('div');
+    grid.className = 'question-grid';
+
+    for (let i = 0; i < questions.length; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'question-nav-btn';
+        btn.textContent = i + 1;
+        btn.dataset.questionIndex = i;
+        btn.addEventListener('click', () => jumpToQuestion(i));
+        grid.appendChild(btn);
+    }
+
+    navigator.appendChild(grid);
+    updateQuestionNavigator();
+}
+
+// Update Question Navigator status
+function updateQuestionNavigator() {
+    const buttons = document.querySelectorAll('.question-nav-btn');
+    buttons.forEach((btn, index) => {
+        btn.className = 'question-nav-btn';
+
+        // Add status classes
+        if (index === currentQuestion) {
+            btn.classList.add('current');
+        }
+        if (userAnswers[index] !== null) {
+            btn.classList.add('answered');
+        }
+        if (flaggedQuestions[index]) {
+            btn.classList.add('flagged');
+        }
+    });
+}
+
+// Toggle Navigator visibility
+function toggleNavigator() {
+    const navigator = document.getElementById('questionNavigator');
+    navigator.classList.toggle('hidden');
+    const btn = document.getElementById('toggleNavigatorBtn');
+    btn.textContent = navigator.classList.contains('hidden') ? 'Show Questions' : 'Hide Questions';
+}
+
+// Jump to specific question
+function jumpToQuestion(index) {
+    currentQuestion = index;
+    loadQuestion(currentQuestion);
+    updateProgress();
+    updateQuestionNavigator();
+    window.scrollTo(0, 0);
+}
+
+// Toggle flag on current question
+function toggleFlag() {
+    flaggedQuestions[currentQuestion] = !flaggedQuestions[currentQuestion];
+    updateFlagButton();
+    updateQuestionNavigator();
+    updateProgress();
+}
+
+// Update flag button appearance
+function updateFlagButton() {
+    const flagBtn = document.getElementById('flagBtn');
+    if (flaggedQuestions[currentQuestion]) {
+        flagBtn.classList.add('flagged');
+        flagBtn.innerHTML = '🚩 Unflag';
+    } else {
+        flagBtn.classList.remove('flagged');
+        flagBtn.innerHTML = '🏳️ Flag for Review';
+    }
+}
 
 // Load question into the UI
 function loadQuestion(index) {
@@ -25,7 +103,10 @@ function loadQuestion(index) {
 
     const questionHTML = `
         <div class="question-container active" data-question="${index}">
-            <div class="question-number">Question ${index + 1} of ${questions.length}</div>
+            <div class="question-header">
+                <div class="question-number">Question ${index + 1} of ${questions.length}</div>
+                <button id="flagBtn" class="flag-btn" onclick="toggleFlag()">🏳️ Flag for Review</button>
+            </div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
             <div class="options">
@@ -54,6 +135,8 @@ function loadQuestion(index) {
     });
 
     updateNavigation();
+    updateFlagButton();
+    updateQuestionNavigator();
 }
 
 // Select an answer
@@ -66,6 +149,7 @@ function selectAnswer(questionIndex, optionIndex) {
     document.getElementById(`q${questionIndex}_opt${optionIndex}`).checked = true;
 
     updateProgress();
+    updateQuestionNavigator();
 }
 
 // Navigate between questions
@@ -96,11 +180,12 @@ function updateNavigation() {
 // Update progress bar
 function updateProgress() {
     const answered = userAnswers.filter(a => a !== null).length;
+    const flagged = flaggedQuestions.filter(f => f).length;
     const percentage = (currentQuestion / questions.length) * 100;
 
     document.getElementById('progressBar').style.width = percentage + '%';
     document.getElementById('progressText').textContent =
-        `Question ${currentQuestion + 1} of ${questions.length} (${answered} answered)`;
+        `Question ${currentQuestion + 1} of ${questions.length} (${answered} answered, ${flagged} flagged)`;
 }
 
 // Timer functionality
@@ -146,21 +231,30 @@ function submitExam() {
 
     // Calculate score
     let correct = 0;
+    let incorrect = 0;
     questions.forEach((q, index) => {
         if (userAnswers[index] === q.correct) {
             correct++;
+        } else if (userAnswers[index] !== null) {
+            incorrect++;
         }
     });
 
     const percentage = ((correct / questions.length) * 100).toFixed(1);
+    const passingScore = 70;
+    const passed = percentage >= passingScore;
 
     // Show results
     const resultsHTML = `
-        <div class="score">${percentage}%</div>
+        <div class="score ${passed ? 'passed' : 'failed'}">${percentage}%</div>
+        <div class="pass-status ${passed ? 'passed' : 'failed'}">
+            ${passed ? '✅ PASSED' : '❌ FAILED'}
+        </div>
         <div class="score-details">
             <p><strong>Correct:</strong> ${correct} out of ${questions.length}</p>
-            <p><strong>Incorrect:</strong> ${questions.length - correct - unanswered}</p>
+            <p><strong>Incorrect:</strong> ${incorrect}</p>
             <p><strong>Unanswered:</strong> ${unanswered}</p>
+            <p><strong>Passing Score:</strong> ${passingScore}%</p>
         </div>
     `;
 
@@ -181,6 +275,8 @@ function loadQuestionReview(index) {
     const question = questions[index];
     const userAnswer = userAnswers[index];
     const correctAnswer = question.correct;
+    const isCorrect = userAnswer === correctAnswer;
+    const wasAnswered = userAnswer !== null;
 
     const questionHTML = `
         <div class="question-container active" data-question="${index}">
@@ -206,12 +302,20 @@ function loadQuestionReview(index) {
                     `;
                 }).join('')}
             </div>
-            ${userAnswer === correctAnswer ?
-                '<p style="color: #2f855a; margin-top: 20px; font-weight: bold;">✓ Your answer is correct!</p>' :
-                userAnswer !== null ?
-                '<p style="color: #c53030; margin-top: 20px; font-weight: bold;">✗ Your answer is incorrect</p>' :
-                '<p style="color: #d69e2e; margin-top: 20px; font-weight: bold;">⚠ You did not answer this question</p>'
-            }
+            <div class="answer-feedback">
+                ${isCorrect ?
+                    '<p class="feedback correct">✓ Your answer is correct!</p>' :
+                    wasAnswered ?
+                    '<p class="feedback incorrect">✗ Your answer is incorrect</p>' :
+                    '<p class="feedback unanswered">⚠ You did not answer this question</p>'
+                }
+                ${question.explanation ? `
+                    <div class="explanation">
+                        <h4>Explanation:</h4>
+                        <p>${question.explanation}</p>
+                    </div>
+                ` : ''}
+            </div>
         </div>
     `;
 
@@ -232,6 +336,7 @@ function loadQuestionReview(index) {
 
     currentQuestion = index;
     updateProgress();
+    updateQuestionNavigator();
     window.scrollTo(0, 0);
 }
 
@@ -240,6 +345,7 @@ function restartExam() {
     if (confirm('Are you sure you want to restart the exam? All progress will be lost.')) {
         currentQuestion = 0;
         userAnswers = Array(questions.length).fill(null);
+        flaggedQuestions = Array(questions.length).fill(false);
         timeRemaining = 3 * 60 * 60;
         examSubmitted = false;
 
@@ -247,5 +353,6 @@ function restartExam() {
         loadQuestion(0);
         startTimer();
         updateProgress();
+        updateQuestionNavigator();
     }
 }

@@ -13,7 +13,8 @@ const questions = [
             "Only trading on information from third-party research",
             "Both disclosing information about target companies and trading on information from third party research"
         ],
-        correct: 3
+        correct: 3,
+        explanation: "Welsh violates Standard II(A) Material Nonpublic Information by trading on and disclosing information that is not yet public. Trading on material nonpublic information and conducting a PR campaign to disclose non-public negative information both constitute violations."
     },
     {
         id: 2,
@@ -24,7 +25,8 @@ const questions = [
             "promoting fair competition among investment management firms by disclosing manager remuneration.",
             "avoid distinguishing between fact and opinion in the presentation of investment analysis and recommendations to keep presentations simple."
         ],
-        correct: 0
+        correct: 0,
+        explanation: "Standard V(B) requires members to disclose the basic format and general principles of the investment processes used to analyze investments, prepare recommendations, and take investment actions. Transparency in methodology is essential for clients to understand how investment decisions are made."
     },
     {
         id: 3,
@@ -235,7 +237,8 @@ const questions = [
             "at the beginning of a significant move.",
             "after the announcement of a surprising but rumored news release."
         ],
-        correct: 0
+        correct: 0,
+        explanation: "Exhaustion gaps occur at the end of a significant price move and signal that the trend is running out of momentum. They typically appear when buyers (in an uptrend) or sellers (in a downtrend) make one final push before the trend reverses."
     },
 
     // ===== Questions 21-30 =====
