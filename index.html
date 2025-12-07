@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMT Level II Sample Exam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CMT Level II Sample Exam</h1>
+            <div class="exam-info">
+                <p><strong>Total Questions:</strong> 150</p>
+                <p><strong>Time Limit:</strong> 3 hours</p>
+                <p id="timer">Time Remaining: 03:00:00</p>
+            </div>
+        </header>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <p class="progress-text" id="progressText">Question 1 of 150</p>
+        </div>
+
+        <main id="examContainer">
+            <!-- Questions will be loaded here by JavaScript -->
+        </main>
+
+        <div class="navigation">
+            <button id="prevBtn" class="nav-btn" disabled>Previous</button>
+            <button id="nextBtn" class="nav-btn">Next</button>
+            <button id="submitBtn" class="submit-btn" style="display:none;">Submit Exam</button>
+        </div>
+
+        <div id="resultsModal" class="modal">
+            <div class="modal-content">
+                <h2>Exam Results</h2>
+                <div id="resultsContent"></div>
+                <button id="reviewBtn" class="btn">Review Answers</button>
+                <button id="restartBtn" class="btn">Restart Exam</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="exam.js"></script>
+</body>
+</html>

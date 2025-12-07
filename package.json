@@ -1,0 +1,23 @@
+{
+  "name": "cmt-level-ii-exam",
+  "version": "1.0.0",
+  "description": "Interactive online exam platform for CMT Level II sample questions",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "CMT",
+    "exam",
+    "technical-analysis",
+    "charting",
+    "market-technician"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cmt-level-ii-exam.git"
+  }
+}
