@@ -5,10 +5,17 @@ let flaggedQuestions = Array(questions.length).fill(false);
 let timerInterval;
 let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
+let examStartTime = null;
+
+// LocalStorage key
+const STORAGE_KEY = 'cmt_exam_progress';
 
 // Initialize exam
 document.addEventListener('DOMContentLoaded', () => {
-    loadQuestion(0);
+    // Try to load saved progress
+    loadSavedProgress();
+
+    loadQuestion(currentQuestion);
     startTimer();
     updateProgress();
     createQuestionNavigator();
@@ -19,7 +26,89 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('reviewBtn').addEventListener('click', reviewAnswers);
     document.getElementById('restartBtn').addEventListener('click', restartExam);
     document.getElementById('toggleNavigatorBtn').addEventListener('click', toggleNavigator);
+
+    // Add clear progress button listener
+    const clearBtn = document.getElementById('clearProgressBtn');
+    if (clearBtn) {
+        clearBtn.addEventListener('click', clearProgress);
+    }
 });
+
+// Save progress to localStorage
+function saveProgress() {
+    if (examSubmitted) return; // Don't save after submission
+
+    const progress = {
+        currentQuestion,
+        userAnswers,
+        flaggedQuestions,
+        timeRemaining,
+        examStartTime,
+        savedAt: new Date().toISOString()
+    };
+
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    } catch (e) {
+        console.error('Failed to save progress:', e);
+    }
+}
+
+// Load saved progress from localStorage
+function loadSavedProgress() {
+    try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (!saved) return;
+
+        const progress = JSON.parse(saved);
+
+        // Ask user if they want to resume
+        const savedDate = new Date(progress.savedAt);
+        const message = `Found saved exam from ${savedDate.toLocaleString()}.\n\nDo you want to resume where you left off?`;
+
+        if (confirm(message)) {
+            currentQuestion = progress.currentQuestion || 0;
+            userAnswers = progress.userAnswers || Array(questions.length).fill(null);
+            flaggedQuestions = progress.flaggedQuestions || Array(questions.length).fill(false);
+            timeRemaining = progress.timeRemaining || (3 * 60 * 60);
+            examStartTime = progress.examStartTime;
+
+            // Show resume notification
+            showNotification('Exam resumed! Continue from where you left off.', 'success');
+        } else {
+            // User chose not to resume, clear saved data
+            clearProgress();
+        }
+    } catch (e) {
+        console.error('Failed to load progress:', e);
+        // If there's an error, clear corrupted data
+        localStorage.removeItem(STORAGE_KEY);
+    }
+}
+
+// Clear saved progress
+function clearProgress() {
+    if (confirm('Are you sure you want to clear your saved progress and start fresh?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        showNotification('Progress cleared. Starting fresh!', 'info');
+        // Reload page to restart
+        location.reload();
+    }
+}
+
+// Show notification
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.textContent = message;
+    document.body.appendChild(notification);
+
+    // Auto-remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.add('fade-out');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
 
 // Create Question Navigator
 function createQuestionNavigator() {
@@ -73,6 +162,7 @@ function jumpToQuestion(index) {
     loadQuestion(currentQuestion);
     updateProgress();
     updateQuestionNavigator();
+    saveProgress(); // Auto-save
     window.scrollTo(0, 0);
 }
 
@@ -82,6 +172,7 @@ function toggleFlag() {
     updateFlagButton();
     updateQuestionNavigator();
     updateProgress();
+    saveProgress(); // Auto-save
 }
 
 // Update flag button appearance
@@ -150,6 +241,7 @@ function selectAnswer(questionIndex, optionIndex) {
 
     updateProgress();
     updateQuestionNavigator();
+    saveProgress(); // Auto-save
 }
 
 // Navigate between questions
@@ -157,6 +249,7 @@ function navigateQuestion(direction) {
     currentQuestion += direction;
     loadQuestion(currentQuestion);
     updateProgress();
+    saveProgress(); // Auto-save
     window.scrollTo(0, 0);
 }
 
@@ -195,6 +288,11 @@ function startTimer() {
         timeRemaining--;
         updateTimerDisplay();
 
+        // Auto-save every 30 seconds
+        if (timeRemaining % 30 === 0) {
+            saveProgress();
+        }
+
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
             alert('Time is up! The exam will now be submitted.');
@@ -228,6 +326,9 @@ function submitExam() {
 
     clearInterval(timerInterval);
     examSubmitted = true;
+
+    // Clear saved progress since exam is submitted
+    localStorage.removeItem(STORAGE_KEY);
 
     // Calculate score
     let correct = 0;
@@ -348,6 +449,9 @@ function restartExam() {
         flaggedQuestions = Array(questions.length).fill(false);
         timeRemaining = 3 * 60 * 60;
         examSubmitted = false;
+
+        // Clear saved progress
+        localStorage.removeItem(STORAGE_KEY);
 
         document.getElementById('resultsModal').classList.remove('show');
         loadQuestion(0);

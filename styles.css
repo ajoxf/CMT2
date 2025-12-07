@@ -27,9 +27,32 @@ header {
     text-align: center;
 }
 
+header {
+    position: relative;
+}
+
 header h1 {
     font-size: 2em;
     margin-bottom: 15px;
+}
+
+.clear-progress-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: all 0.2s ease;
+}
+
+.clear-progress-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
 }
 
 .exam-info {
@@ -540,5 +563,68 @@ main {
 
     .flag-btn {
         width: 100%;
+    }
+
+    .clear-progress-btn {
+        position: static;
+        margin-top: 10px;
+        width: auto;
+    }
+}
+
+/* Notifications */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 2000;
+    animation: slideIn 0.3s ease;
+    max-width: 400px;
+}
+
+.notification.success {
+    background: #48bb78;
+}
+
+.notification.info {
+    background: #4299e1;
+}
+
+.notification.warning {
+    background: #ed8936;
+}
+
+.notification.error {
+    background: #f56565;
+}
+
+.notification.fade-out {
+    animation: slideOut 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
     }
 }
