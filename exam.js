@@ -15,7 +15,9 @@ const sectionKey = selectedSection ? `_${selectedSection.id}` : '';
 const STORAGE_KEY = `cmt_exam_${selectedExam}${sectionKey}_progress`;
 
 // Initialize exam
-document.addEventListener('DOMContentLoaded', () => {
+function initializeExam() {
+    console.log('Initializing exam with', questions.length, 'questions');
+
     // Try to load saved progress
     loadSavedProgress();
 
@@ -36,7 +38,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clearBtn) {
         clearBtn.addEventListener('click', clearProgress);
     }
-});
+}
+
+// Run initialization immediately since DOM is already loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeExam);
+} else {
+    // DOM already loaded, run immediately
+    initializeExam();
+}
 
 // Save progress to localStorage
 function saveProgress() {
