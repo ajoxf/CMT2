@@ -48,6 +48,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch6_1.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch6_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch6_3',
+          title: '6.3 - Term Structure of VIX Futures and Early Warning Signals',
+          questionCount: 30,
+          file: 'sections_exam1_ch6_3.js',
+          description: '30 Questions',
+          video: 'videos/ch6_3.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch6_3.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
