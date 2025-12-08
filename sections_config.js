@@ -116,6 +116,24 @@ const examSections = {
           pdf: 'pdfs/ch9_2.pdf'       // Optional: path to PDF file
         },
         {
+          id: 'ch9_2_2',
+          title: '9.2.2 - MACD and RSI',
+          questionCount: 30,
+          file: 'sections_exam1_ch9_2_2.js',
+          description: '30 Questions',
+          video: 'videos/ch9_2_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch9_2_2.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch9_3_6',
+          title: '9.3.6 - Stochastics',
+          questionCount: 30,
+          file: 'sections_exam1_ch9_3_6.js',
+          description: '30 Questions',
+          video: 'videos/ch9_3_6.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch9_3_6.pdf'       // Optional: path to PDF file
+        },
+        {
           id: 'ch9_4',
           title: '9.4 - Bollinger Bands',
           questionCount: 30,
