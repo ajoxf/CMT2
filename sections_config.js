@@ -26,6 +26,15 @@ const examSections = {
       id: 'section_4',
       title: 'IV. Chart Pattern Analysis',
       subsections: [
+        {
+          id: 'ch4_1',
+          title: '4.1 - Classical Chart Pattern',
+          questionCount: 50,
+          file: 'sections_exam1_ch4_1.js',
+          description: '50 Questions',
+          video: 'videos/ch4_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch4_1.pdf'       // Optional: path to PDF file
+        }
         // Add subsections here
       ]
     },
@@ -92,6 +101,15 @@ const examSections = {
       id: 'section_7',
       title: 'VII. Sentiment',
       subsections: [
+        {
+          id: 'ch7_1',
+          title: '7.1 - Analyzing Sentiment in Stock Market',
+          questionCount: 50,
+          file: 'sections_exam1_ch7_1.js',
+          description: '50 Questions',
+          video: 'videos/ch7_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch7_1.pdf'       // Optional: path to PDF file
+        }
         // Add subsections here
       ]
     },

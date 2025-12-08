@@ -148,6 +148,25 @@
 
     <script src="sections_config.js"></script>
     <script>
+        // Helper function to check if a section is completed
+        function isSectionCompleted(examNum, sectionId, questionCount) {
+            try {
+                const storageKey = `cmt_exam_${examNum}_${sectionId}_progress`;
+                const saved = localStorage.getItem(storageKey);
+                if (!saved) return false;
+
+                const progress = JSON.parse(saved);
+                const userAnswers = progress.userAnswers || [];
+
+                // Check if all questions are answered (not null)
+                if (userAnswers.length !== questionCount) return false;
+
+                return userAnswers.every(answer => answer !== null);
+            } catch (e) {
+                return false;
+            }
+        }
+
         // Load all sections on page load
         window.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded');
@@ -200,9 +219,16 @@
                         mainSection.subsections.forEach(subsection => {
                             const subsectionBtn = document.createElement('button');
                             subsectionBtn.className = 'subsection-btn';
+
+                            // Check if this section is completed
+                            const isCompleted = isSectionCompleted(1, subsection.id, subsection.questionCount);
+                            if (isCompleted) {
+                                subsectionBtn.classList.add('completed');
+                            }
+
                             subsectionBtn.onclick = () => selectExam(1, subsection);
                             subsectionBtn.innerHTML = `
-                                <span class="subsection-title">${subsection.title}</span>
+                                <span class="subsection-title">${subsection.title}${isCompleted ? ' <span class="completion-check">✓</span>' : ''}</span>
                                 <span class="subsection-info">${subsection.description}</span>
                             `;
                             subsectionsContainer.appendChild(subsectionBtn);
@@ -255,9 +281,16 @@
                         mainSection.subsections.forEach(subsection => {
                             const subsectionBtn = document.createElement('button');
                             subsectionBtn.className = 'subsection-btn';
+
+                            // Check if this section is completed
+                            const isCompleted = isSectionCompleted(2, subsection.id, subsection.questionCount);
+                            if (isCompleted) {
+                                subsectionBtn.classList.add('completed');
+                            }
+
                             subsectionBtn.onclick = () => selectExam(2, subsection);
                             subsectionBtn.innerHTML = `
-                                <span class="subsection-title">${subsection.title}</span>
+                                <span class="subsection-title">${subsection.title}${isCompleted ? ' <span class="completion-check">✓</span>' : ''}</span>
                                 <span class="subsection-info">${subsection.description}</span>
                             `;
                             subsectionsContainer.appendChild(subsectionBtn);

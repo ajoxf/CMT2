@@ -1012,6 +1012,25 @@ main {
     background: #f7fafc;
 }
 
+.subsection-btn.completed {
+    background: linear-gradient(135deg, #e6f7ed 0%, #d4f4dd 100%);
+    border-color: #48bb78;
+    border-width: 2px;
+}
+
+.subsection-btn.completed:hover {
+    background: linear-gradient(135deg, #d4f4dd 0%, #c6f6d5 100%);
+    border-color: #38a169;
+    box-shadow: 0 4px 12px rgba(72, 187, 120, 0.2);
+}
+
+.completion-check {
+    color: #38a169;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 8px;
+}
+
 .subsection-title {
     font-size: 0.95em;
     font-weight: 500;
