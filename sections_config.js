@@ -50,6 +50,15 @@ const examSections = {
           pdf: 'pdfs/ch6_1.pdf'       // Optional: path to PDF file
         },
         {
+          id: 'ch6_2',
+          title: '6.2 - Volatility Risk Premium',
+          questionCount: 50,
+          file: 'sections_exam1_ch6_2.js',
+          description: '50 Questions',
+          video: 'videos/ch6_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch6_2.pdf'       // Optional: path to PDF file
+        },
+        {
           id: 'ch6_3',
           title: '6.3 - Term Structure of VIX Futures and Early Warning Signals',
           questionCount: 30,
