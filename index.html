@@ -3,50 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CMT Level II Sample Exam</title>
+    <title>CMT Level II Learning Platform</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <!-- Main Selection Screen -->
         <div id="mainSelection" class="main-selection">
-            <h1>CMT Level II Sample Exam</h1>
+            <h1>CMT Level II Learning Platform</h1>
+            <p class="subtitle">Master Technical Analysis through Interactive Learning</p>
 
-            <!-- Full Exams Section -->
+            <!-- Learning Topics Section -->
             <div class="selection-category">
-                <h2>Full Exams</h2>
-                <div class="exam-options">
-                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(1, null)">
-                        <h3>Exam 1</h3>
-                        <p>150 Questions | 3 Hours</p>
-                        <span class="exam-tag">Complete Exam</span>
-                    </button>
-                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(2, null)">
-                        <h3>Exam 2</h3>
-                        <p>150 Questions | 3 Hours</p>
-                        <span class="exam-tag">Complete Exam</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Section Practice Section -->
-            <div class="selection-category">
-                <h2>Section-wise Practice</h2>
-                <div class="section-grid">
-                    <!-- Exam 1 Sections -->
-                    <div class="exam-sections">
-                        <h3 class="exam-subtitle">Exam 1 Sections</h3>
-                        <div id="exam1Sections" class="section-options">
-                            <!-- Will be loaded dynamically -->
-                        </div>
-                    </div>
-                    <!-- Exam 2 Sections -->
-                    <div class="exam-sections">
-                        <h3 class="exam-subtitle">Exam 2 Sections</h3>
-                        <div id="exam2Sections" class="section-options">
-                            <!-- Will be loaded dynamically -->
-                        </div>
-                    </div>
+                <h2>📚 Learning Topics</h2>
+                <div id="allSections" class="section-options">
+                    <!-- Will be loaded dynamically -->
                 </div>
             </div>
         </div>
@@ -132,15 +103,15 @@
         <div class="navigation">
             <button id="prevBtn" class="nav-btn" disabled>Previous</button>
             <button id="nextBtn" class="nav-btn">Next</button>
-            <button id="submitBtn" class="submit-btn" style="display:none;">Submit Exam</button>
+            <button id="submitBtn" class="submit-btn" style="display:none;">Submit Quiz</button>
         </div>
 
         <div id="resultsModal" class="modal">
             <div class="modal-content">
-                <h2>Exam Results</h2>
+                <h2>Quiz Results</h2>
                 <div id="resultsContent"></div>
                 <button id="reviewBtn" class="btn">Review Answers</button>
-                <button id="restartBtn" class="btn">Restart Exam</button>
+                <button id="restartBtn" class="btn">Restart Quiz</button>
             </div>
         </div>
         </div>
@@ -185,20 +156,20 @@
             }
         });
 
-        // Load all sections for both exams
+        // Load all learning topics
         function loadAllSections() {
             console.log('Loading sections...');
 
-            // Load Exam 1 sections
-            const exam1Container = document.getElementById('exam1Sections');
-            const exam1Sections = examSections[1] || [];
+            // Load all sections from examSections[1] (now just general topics)
+            const sectionsContainer = document.getElementById('allSections');
+            const allSections = examSections[1] || [];
 
-            console.log('Exam 1 sections:', exam1Sections);
+            console.log('All sections:', allSections);
 
-            if (exam1Sections.length === 0) {
-                exam1Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
+            if (allSections.length === 0) {
+                sectionsContainer.innerHTML = '<p class="no-sections">No topics available yet</p>';
             } else {
-                exam1Sections.forEach(mainSection => {
+                allSections.forEach(mainSection => {
                     // Create main section header
                     const sectionHeader = document.createElement('div');
                     sectionHeader.className = 'main-section-header';
@@ -226,7 +197,7 @@
                                 subsectionBtn.classList.add('completed');
                             }
 
-                            subsectionBtn.onclick = () => selectExam(1, subsection);
+                            subsectionBtn.onclick = () => selectTopic(subsection);
                             subsectionBtn.innerHTML = `
                                 <span class="subsection-title">${subsection.title}${isCompleted ? ' <span class="completion-check">✓</span>' : ''}</span>
                                 <span class="subsection-info">${subsection.description}</span>
@@ -244,77 +215,20 @@
                         sectionHeader.style.cursor = 'pointer';
                     }
 
-                    exam1Container.appendChild(sectionHeader);
+                    sectionsContainer.appendChild(sectionHeader);
                     if (hasSubsections) {
-                        exam1Container.appendChild(subsectionsContainer);
-                    }
-                });
-            }
-
-            // Load Exam 2 sections
-            const exam2Container = document.getElementById('exam2Sections');
-            const exam2Sections = examSections[2] || [];
-
-            console.log('Exam 2 sections:', exam2Sections);
-
-            if (exam2Sections.length === 0) {
-                exam2Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
-            } else {
-                exam2Sections.forEach(mainSection => {
-                    // Create main section header
-                    const sectionHeader = document.createElement('div');
-                    sectionHeader.className = 'main-section-header';
-
-                    const hasSubsections = mainSection.subsections && mainSection.subsections.length > 0;
-
-                    sectionHeader.innerHTML = `
-                        <span class="expand-icon">${hasSubsections ? '▶' : ''}</span>
-                        <span class="section-title">${mainSection.title}</span>
-                        ${hasSubsections ? `<span class="subsection-count">(${mainSection.subsections.length} topics)</span>` : '<span class="no-topics">(Coming soon)</span>'}
-                    `;
-
-                    // Create subsections container
-                    const subsectionsContainer = document.createElement('div');
-                    subsectionsContainer.className = 'subsections-container collapsed';
-
-                    if (hasSubsections) {
-                        mainSection.subsections.forEach(subsection => {
-                            const subsectionBtn = document.createElement('button');
-                            subsectionBtn.className = 'subsection-btn';
-
-                            // Check if this section is completed
-                            const isCompleted = isSectionCompleted(2, subsection.id, subsection.questionCount);
-                            if (isCompleted) {
-                                subsectionBtn.classList.add('completed');
-                            }
-
-                            subsectionBtn.onclick = () => selectExam(2, subsection);
-                            subsectionBtn.innerHTML = `
-                                <span class="subsection-title">${subsection.title}${isCompleted ? ' <span class="completion-check">✓</span>' : ''}</span>
-                                <span class="subsection-info">${subsection.description}</span>
-                            `;
-                            subsectionsContainer.appendChild(subsectionBtn);
-                        });
-
-                        // Toggle collapse on header click
-                        sectionHeader.onclick = () => {
-                            const isCollapsed = subsectionsContainer.classList.contains('collapsed');
-                            subsectionsContainer.classList.toggle('collapsed');
-                            const icon = sectionHeader.querySelector('.expand-icon');
-                            icon.textContent = isCollapsed ? '▼' : '▶';
-                        };
-                        sectionHeader.style.cursor = 'pointer';
-                    }
-
-                    exam2Container.appendChild(sectionHeader);
-                    if (hasSubsections) {
-                        exam2Container.appendChild(subsectionsContainer);
+                        sectionsContainer.appendChild(subsectionsContainer);
                     }
                 });
             }
         }
 
-        // Exam selection handler
+        // Topic selection handler (wrapper for backward compatibility)
+        function selectTopic(section) {
+            selectExam(1, section);
+        }
+
+        // Quiz selection handler
         function selectExam(examNum, section) {
             // Store selected exam and section
             sessionStorage.setItem('selectedExam', examNum);

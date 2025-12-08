@@ -200,6 +200,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch11_1.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch11_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch11_4',
+          title: '11.4 - Elliott Waves Part 1',
+          questionCount: 30,
+          file: 'sections_exam1_ch11_4.js',
+          description: '30 Questions',
+          video: 'videos/ch11_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch11_4.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
