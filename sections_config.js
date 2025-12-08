@@ -66,6 +66,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch6_3.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch6_3.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch6_4',
+          title: '6.4 - Volatility Indexes and VIX Complex',
+          questionCount: 50,
+          file: 'sections_exam1_ch6_4.js',
+          description: '50 Questions',
+          video: 'videos/ch6_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch6_4.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
