@@ -193,13 +193,12 @@
             document.getElementById('examWrapper').style.display = 'block';
 
             // Update exam number in header
-            let headerText;
+            const headerElement = document.querySelector('.exam-header h1');
             if (section) {
-                headerText = `(${section.title})`;
+                headerElement.innerHTML = section.title;
             } else {
-                headerText = `(Exam ${examNum})`;
+                headerElement.innerHTML = `CMT Level II Sample Exam <span id="examNumber">(Exam ${examNum})</span>`;
             }
-            document.getElementById('examNumber').textContent = headerText;
 
             // Update exam info for sections
             if (section) {
