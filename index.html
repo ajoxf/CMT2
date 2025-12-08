@@ -193,11 +193,12 @@
             document.getElementById('examWrapper').style.display = 'block';
 
             // Update exam number in header
-            let headerText = `(Exam ${examNum}`;
+            let headerText;
             if (section) {
-                headerText += ` - ${section.title}`;
+                headerText = `(${section.title})`;
+            } else {
+                headerText = `(Exam ${examNum})`;
             }
-            headerText += ')';
             document.getElementById('examNumber').textContent = headerText;
 
             // Update exam info for sections
