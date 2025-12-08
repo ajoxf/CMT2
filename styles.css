@@ -629,50 +629,62 @@ main {
     }
 }
 
-/* Exam Selection Screen */
-.exam-selection {
-    padding: 60px 40px;
+/* Main Selection Screen */
+.main-selection {
+    padding: 40px;
+}
+
+.main-selection > h1 {
+    color: #2d3748;
+    font-size: 2.5em;
+    margin-bottom: 40px;
     text-align: center;
 }
 
-.exam-selection h1 {
+.selection-category {
+    margin-bottom: 50px;
+}
+
+.selection-category > h2 {
     color: #2d3748;
-    font-size: 2.5em;
-    margin-bottom: 15px;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #667eea;
 }
 
-.exam-selection h2 {
-    color: #4a5568;
-    font-size: 1.5em;
-    margin-bottom: 40px;
-    font-weight: 500;
-}
-
+/* Full Exams Section */
 .exam-options {
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
 }
 
 .exam-option-btn {
     flex: 1;
     min-width: 250px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 40px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border: none;
+    background: white;
+    color: #2d3748;
+    border: 2px solid #e2e8f0;
     border-radius: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.exam-option-btn.full-exam-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
 }
 
 .exam-option-btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
 }
 
 .exam-option-btn h3 {
@@ -683,19 +695,88 @@ main {
 .exam-option-btn p {
     font-size: 1.1em;
     opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.exam-tag {
+    display: inline-block;
+    padding: 6px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* Section Grid */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.exam-sections {
+    background: #f7fafc;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #e2e8f0;
+}
+
+.exam-subtitle {
+    color: #4a5568;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cbd5e0;
+}
+
+.no-sections {
+    text-align: center;
+    color: #a0aec0;
+    font-style: italic;
+    padding: 30px;
+}
+
+/* Header Navigation Buttons */
+.header-nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.nav-home-btn,
+.nav-back-btn {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.nav-home-btn:hover,
+.nav-back-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
-    .exam-selection {
-        padding: 40px 20px;
+    .main-selection {
+        padding: 20px;
     }
 
-    .exam-selection h1 {
+    .main-selection > h1 {
         font-size: 1.8em;
     }
 
-    .exam-selection h2 {
-        font-size: 1.2em;
+    .selection-category > h2 {
+        font-size: 1.4em;
     }
 
     .exam-options {
@@ -705,6 +786,18 @@ main {
 
     .exam-option-btn {
         min-width: 100%;
+    }
+
+    .section-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .header-nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 15px;
     }
 }
 
@@ -758,46 +851,37 @@ main {
 
 .section-option-btn {
     position: relative;
-    padding: 30px 25px;
+    padding: 20px;
+    margin-bottom: 15px;
     background: white;
     color: #2d3748;
     border: 2px solid #e2e8f0;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: block;
+    width: 100%;
 }
 
 .section-option-btn:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
     border-color: #667eea;
+    background: #f7fafc;
 }
 
-.section-option-btn.full-exam-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border: none;
-    grid-column: 1 / -1;
-    text-align: center;
-}
-
-.section-option-btn.full-exam-btn:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
-}
-
-.section-option-btn h3 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    color: inherit;
+.section-option-btn h4 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #2d3748;
 }
 
 .section-option-btn p {
-    font-size: 1em;
-    opacity: 0.9;
-    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #718096;
+    margin: 0;
 }
 
 .section-tag {

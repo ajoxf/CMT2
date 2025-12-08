@@ -8,39 +8,64 @@
 </head>
 <body>
     <div class="container">
-        <!-- Exam Selection Screen -->
-        <div id="examSelection" class="exam-selection">
+        <!-- Main Selection Screen -->
+        <div id="mainSelection" class="main-selection">
             <h1>CMT Level II Sample Exam</h1>
-            <h2>Select an Exam</h2>
-            <div class="exam-options">
-                <button class="exam-option-btn" onclick="showSectionSelection(1)">
-                    <h3>Exam 1</h3>
-                    <p>150 Questions | 3 Hours</p>
-                </button>
-                <button class="exam-option-btn" onclick="showSectionSelection(2)">
-                    <h3>Exam 2</h3>
-                    <p>150 Questions | 3 Hours</p>
-                </button>
-            </div>
-        </div>
 
-        <!-- Section Selection Screen -->
-        <div id="sectionSelection" class="section-selection" style="display: none;">
-            <h1>CMT Level II Sample Exam <span id="sectionExamNumber"></span></h1>
-            <h2>Select a Section or Full Exam</h2>
-            <button class="back-btn" onclick="backToExamSelection()">← Back to Exam Selection</button>
-            <div id="sectionOptions" class="section-options">
-                <!-- Sections will be dynamically loaded here -->
+            <!-- Full Exams Section -->
+            <div class="selection-category">
+                <h2>Full Exams</h2>
+                <div class="exam-options">
+                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(1, null)">
+                        <h3>Exam 1</h3>
+                        <p>150 Questions | 3 Hours</p>
+                        <span class="exam-tag">Complete Exam</span>
+                    </button>
+                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(2, null)">
+                        <h3>Exam 2</h3>
+                        <p>150 Questions | 3 Hours</p>
+                        <span class="exam-tag">Complete Exam</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Section Practice Section -->
+            <div class="selection-category">
+                <h2>Section-wise Practice</h2>
+                <div class="section-grid">
+                    <!-- Exam 1 Sections -->
+                    <div class="exam-sections">
+                        <h3 class="exam-subtitle">Exam 1 Sections</h3>
+                        <div id="exam1Sections" class="section-options">
+                            <!-- Will be loaded dynamically -->
+                        </div>
+                    </div>
+                    <!-- Exam 2 Sections -->
+                    <div class="exam-sections">
+                        <h3 class="exam-subtitle">Exam 2 Sections</h3>
+                        <div id="exam2Sections" class="section-options">
+                            <!-- Will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Exam Container (hidden initially) -->
         <div id="examWrapper" style="display: none;">
             <header>
+                <div class="header-nav">
+                    <button id="homeBtn" class="nav-home-btn" onclick="goHome()" title="Return to main menu">
+                        🏠 Home
+                    </button>
+                    <button id="backBtn" class="nav-back-btn" onclick="goBack()" title="Go back" style="display: none;">
+                        ← Back
+                    </button>
+                </div>
                 <h1>CMT Level II Sample Exam <span id="examNumber"></span></h1>
                 <div class="exam-info">
-                    <p><strong>Total Questions:</strong> 150</p>
-                    <p><strong>Time Limit:</strong> 3 hours</p>
+                    <p><strong>Total Questions:</strong> <span id="totalQuestions">150</span></p>
+                    <p><strong>Time Limit:</strong> <span id="timeLimit">3 hours</span></p>
                     <p id="timer">Time Remaining: 03:00:00</p>
                 </div>
                 <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
@@ -86,60 +111,60 @@
 
     <script src="sections_config.js"></script>
     <script>
-        let currentExamNum = null;
+        // Load all sections on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            loadAllSections();
 
-        // Show section selection screen
-        function showSectionSelection(examNum) {
-            currentExamNum = examNum;
+            // Check if exam was already selected (for page reloads)
+            const selectedExam = sessionStorage.getItem('selectedExam');
+            const selectedSection = sessionStorage.getItem('selectedSection');
 
-            // Hide exam selection screen
-            document.getElementById('examSelection').style.display = 'none';
+            if (selectedExam) {
+                const examNum = parseInt(selectedExam);
+                const section = selectedSection ? JSON.parse(selectedSection) : null;
+                selectExam(examNum, section);
+            }
+        });
 
-            // Show section selection screen
-            document.getElementById('sectionSelection').style.display = 'block';
+        // Load all sections for both exams
+        function loadAllSections() {
+            // Load Exam 1 sections
+            const exam1Container = document.getElementById('exam1Sections');
+            const exam1Sections = examSections[1] || [];
 
-            // Update exam number in header
-            document.getElementById('sectionExamNumber').textContent = `(Exam ${examNum})`;
+            if (exam1Sections.length === 0) {
+                exam1Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
+            } else {
+                exam1Sections.forEach(section => {
+                    const sectionBtn = document.createElement('button');
+                    sectionBtn.className = 'section-option-btn';
+                    sectionBtn.onclick = () => selectExam(1, section);
+                    sectionBtn.innerHTML = `
+                        <h4>${section.title}</h4>
+                        <p>${section.description}</p>
+                    `;
+                    exam1Container.appendChild(sectionBtn);
+                });
+            }
 
-            // Load sections for this exam
-            loadSections(examNum);
-        }
+            // Load Exam 2 sections
+            const exam2Container = document.getElementById('exam2Sections');
+            const exam2Sections = examSections[2] || [];
 
-        // Load sections dynamically
-        function loadSections(examNum) {
-            const sectionOptionsDiv = document.getElementById('sectionOptions');
-            sectionOptionsDiv.innerHTML = '';
-
-            // Add Full Exam option
-            const fullExamBtn = document.createElement('button');
-            fullExamBtn.className = 'section-option-btn full-exam-btn';
-            fullExamBtn.onclick = () => selectExam(examNum, null);
-            fullExamBtn.innerHTML = `
-                <h3>Full Exam</h3>
-                <p>150 Questions | 3 Hours</p>
-                <span class="section-tag">Complete Exam</span>
-            `;
-            sectionOptionsDiv.appendChild(fullExamBtn);
-
-            // Add section options
-            const sections = examSections[examNum] || [];
-            sections.forEach(section => {
-                const sectionBtn = document.createElement('button');
-                sectionBtn.className = 'section-option-btn';
-                sectionBtn.onclick = () => selectExam(examNum, section);
-                sectionBtn.innerHTML = `
-                    <h3>${section.title}</h3>
-                    <p>${section.description}</p>
-                    <span class="section-tag">Section Practice</span>
-                `;
-                sectionOptionsDiv.appendChild(sectionBtn);
-            });
-        }
-
-        // Back to exam selection
-        function backToExamSelection() {
-            document.getElementById('sectionSelection').style.display = 'none';
-            document.getElementById('examSelection').style.display = 'block';
+            if (exam2Sections.length === 0) {
+                exam2Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
+            } else {
+                exam2Sections.forEach(section => {
+                    const sectionBtn = document.createElement('button');
+                    sectionBtn.className = 'section-option-btn';
+                    sectionBtn.onclick = () => selectExam(2, section);
+                    sectionBtn.innerHTML = `
+                        <h4>${section.title}</h4>
+                        <p>${section.description}</p>
+                    `;
+                    exam2Container.appendChild(sectionBtn);
+                });
+            }
         }
 
         // Exam selection handler
@@ -152,9 +177,8 @@
                 sessionStorage.removeItem('selectedSection');
             }
 
-            // Hide selection screens
-            document.getElementById('examSelection').style.display = 'none';
-            document.getElementById('sectionSelection').style.display = 'none';
+            // Hide main selection screen
+            document.getElementById('mainSelection').style.display = 'none';
 
             // Show exam wrapper
             document.getElementById('examWrapper').style.display = 'block';
@@ -169,8 +193,13 @@
 
             // Update exam info for sections
             if (section) {
-                document.querySelector('.exam-info p:first-child strong').nextSibling.textContent = ` ${section.questionCount}`;
-                document.getElementById('timer').style.display = 'none'; // Hide timer for sections
+                document.getElementById('totalQuestions').textContent = section.questionCount;
+                document.getElementById('timeLimit').textContent = 'No time limit';
+                document.getElementById('timer').style.display = 'none';
+            } else {
+                document.getElementById('totalQuestions').textContent = '150';
+                document.getElementById('timeLimit').textContent = '3 hours';
+                document.getElementById('timer').style.display = 'block';
             }
 
             // Load appropriate questions file
@@ -189,17 +218,20 @@
             document.body.appendChild(script);
         }
 
-        // Check if exam was already selected (for page reloads)
-        window.addEventListener('DOMContentLoaded', function() {
-            const selectedExam = sessionStorage.getItem('selectedExam');
-            const selectedSection = sessionStorage.getItem('selectedSection');
-
-            if (selectedExam) {
-                const examNum = parseInt(selectedExam);
-                const section = selectedSection ? JSON.parse(selectedSection) : null;
-                selectExam(examNum, section);
+        // Go back to main menu
+        function goHome() {
+            if (confirm('Are you sure you want to return to the main menu? Your progress will be saved.')) {
+                // Clear session storage
+                sessionStorage.clear();
+                // Reload page to reset everything
+                window.location.reload();
             }
-        });
+        }
+
+        // Go back (currently same as home, can be customized)
+        function goBack() {
+            goHome();
+        }
     </script>
 </body>
 </html>
