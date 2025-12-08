@@ -113,6 +113,9 @@
     <script>
         // Load all sections on page load
         window.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded');
+            console.log('examSections:', window.examSections || examSections);
+
             loadAllSections();
 
             // Check if exam was already selected (for page reloads)
@@ -128,9 +131,13 @@
 
         // Load all sections for both exams
         function loadAllSections() {
+            console.log('Loading sections...');
+
             // Load Exam 1 sections
             const exam1Container = document.getElementById('exam1Sections');
             const exam1Sections = examSections[1] || [];
+
+            console.log('Exam 1 sections:', exam1Sections);
 
             if (exam1Sections.length === 0) {
                 exam1Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
@@ -150,6 +157,8 @@
             // Load Exam 2 sections
             const exam2Container = document.getElementById('exam2Sections');
             const exam2Sections = examSections[2] || [];
+
+            console.log('Exam 2 sections:', exam2Sections);
 
             if (exam2Sections.length === 0) {
                 exam2Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
