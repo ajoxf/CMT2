@@ -8,15 +8,33 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <!-- Exam Selection Screen -->
+        <div id="examSelection" class="exam-selection">
             <h1>CMT Level II Sample Exam</h1>
-            <div class="exam-info">
-                <p><strong>Total Questions:</strong> 150</p>
-                <p><strong>Time Limit:</strong> 3 hours</p>
-                <p id="timer">Time Remaining: 03:00:00</p>
+            <h2>Select an Exam</h2>
+            <div class="exam-options">
+                <button class="exam-option-btn" onclick="selectExam(1)">
+                    <h3>Exam 1</h3>
+                    <p>150 Questions | 3 Hours</p>
+                </button>
+                <button class="exam-option-btn" onclick="selectExam(2)">
+                    <h3>Exam 2</h3>
+                    <p>150 Questions | 3 Hours</p>
+                </button>
             </div>
-            <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
-        </header>
+        </div>
+
+        <!-- Exam Container (hidden initially) -->
+        <div id="examWrapper" style="display: none;">
+            <header>
+                <h1>CMT Level II Sample Exam <span id="examNumber"></span></h1>
+                <div class="exam-info">
+                    <p><strong>Total Questions:</strong> 150</p>
+                    <p><strong>Time Limit:</strong> 3 hours</p>
+                    <p id="timer">Time Remaining: 03:00:00</p>
+                </div>
+                <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
+            </header>
 
         <div class="progress-container">
             <div class="progress-bar" id="progressBar"></div>
@@ -53,9 +71,43 @@
                 <button id="restartBtn" class="btn">Restart Exam</button>
             </div>
         </div>
+        </div>
     </div>
 
-    <script src="questions.js"></script>
-    <script src="exam.js"></script>
+    <script>
+        // Exam selection handler
+        function selectExam(examNum) {
+            // Store selected exam
+            sessionStorage.setItem('selectedExam', examNum);
+
+            // Hide selection screen
+            document.getElementById('examSelection').style.display = 'none';
+
+            // Show exam wrapper
+            document.getElementById('examWrapper').style.display = 'block';
+
+            // Update exam number in header
+            document.getElementById('examNumber').textContent = `(Exam ${examNum})`;
+
+            // Load appropriate questions file
+            const script = document.createElement('script');
+            script.src = examNum === 1 ? 'questions.js' : 'questions_2.js';
+            script.onload = function() {
+                // Load exam.js after questions are loaded
+                const examScript = document.createElement('script');
+                examScript.src = 'exam.js';
+                document.body.appendChild(examScript);
+            };
+            document.body.appendChild(script);
+        }
+
+        // Check if exam was already selected (for page reloads)
+        window.addEventListener('DOMContentLoaded', function() {
+            const selectedExam = sessionStorage.getItem('selectedExam');
+            if (selectedExam) {
+                selectExam(parseInt(selectedExam));
+            }
+        });
+    </script>
 </body>
 </html>

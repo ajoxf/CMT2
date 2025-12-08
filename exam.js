@@ -7,8 +7,9 @@ let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
 let examStartTime = null;
 
-// LocalStorage key
-const STORAGE_KEY = 'cmt_exam_progress';
+// LocalStorage key (dynamic based on selected exam)
+const selectedExam = sessionStorage.getItem('selectedExam') || '1';
+const STORAGE_KEY = `cmt_exam_${selectedExam}_progress`;
 
 // Initialize exam
 document.addEventListener('DOMContentLoaded', () => {

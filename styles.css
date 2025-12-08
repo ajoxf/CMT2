@@ -628,3 +628,82 @@ main {
         opacity: 0;
     }
 }
+
+/* Exam Selection Screen */
+.exam-selection {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.exam-selection h1 {
+    color: #2d3748;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.exam-selection h2 {
+    color: #4a5568;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.exam-options {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.exam-option-btn {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 40px 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.exam-option-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.exam-option-btn h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.exam-option-btn p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .exam-selection {
+        padding: 40px 20px;
+    }
+
+    .exam-selection h1 {
+        font-size: 1.8em;
+    }
+
+    .exam-selection h2 {
+        font-size: 1.2em;
+    }
+
+    .exam-options {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .exam-option-btn {
+        min-width: 100%;
+    }
+}
