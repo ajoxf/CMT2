@@ -107,6 +107,15 @@ const examSections = {
       title: 'IX. Technical Indicators',
       subsections: [
         {
+          id: 'ch9_2',
+          title: '9.2 - Momentum and Indicator Interpretation',
+          questionCount: 30,
+          file: 'sections_exam1_ch9_2.js',
+          description: '30 Questions',
+          video: 'videos/ch9_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch9_2.pdf'       // Optional: path to PDF file
+        },
+        {
           id: 'ch9_4',
           title: '9.4 - Bollinger Bands',
           questionCount: 30,
