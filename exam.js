@@ -7,9 +7,12 @@ let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
 let examStartTime = null;
 
-// LocalStorage key (dynamic based on selected exam)
+// LocalStorage key (dynamic based on selected exam and section)
 const selectedExam = sessionStorage.getItem('selectedExam') || '1';
-const STORAGE_KEY = `cmt_exam_${selectedExam}_progress`;
+const selectedSectionData = sessionStorage.getItem('selectedSection');
+const selectedSection = selectedSectionData ? JSON.parse(selectedSectionData) : null;
+const sectionKey = selectedSection ? `_${selectedSection.id}` : '';
+const STORAGE_KEY = `cmt_exam_${selectedExam}${sectionKey}_progress`;
 
 // Initialize exam
 document.addEventListener('DOMContentLoaded', () => {

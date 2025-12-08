@@ -13,14 +13,24 @@
             <h1>CMT Level II Sample Exam</h1>
             <h2>Select an Exam</h2>
             <div class="exam-options">
-                <button class="exam-option-btn" onclick="selectExam(1)">
+                <button class="exam-option-btn" onclick="showSectionSelection(1)">
                     <h3>Exam 1</h3>
                     <p>150 Questions | 3 Hours</p>
                 </button>
-                <button class="exam-option-btn" onclick="selectExam(2)">
+                <button class="exam-option-btn" onclick="showSectionSelection(2)">
                     <h3>Exam 2</h3>
                     <p>150 Questions | 3 Hours</p>
                 </button>
+            </div>
+        </div>
+
+        <!-- Section Selection Screen -->
+        <div id="sectionSelection" class="section-selection" style="display: none;">
+            <h1>CMT Level II Sample Exam <span id="sectionExamNumber"></span></h1>
+            <h2>Select a Section or Full Exam</h2>
+            <button class="back-btn" onclick="backToExamSelection()">← Back to Exam Selection</button>
+            <div id="sectionOptions" class="section-options">
+                <!-- Sections will be dynamically loaded here -->
             </div>
         </div>
 
@@ -74,24 +84,102 @@
         </div>
     </div>
 
+    <script src="sections_config.js"></script>
     <script>
-        // Exam selection handler
-        function selectExam(examNum) {
-            // Store selected exam
-            sessionStorage.setItem('selectedExam', examNum);
+        let currentExamNum = null;
 
-            // Hide selection screen
+        // Show section selection screen
+        function showSectionSelection(examNum) {
+            currentExamNum = examNum;
+
+            // Hide exam selection screen
             document.getElementById('examSelection').style.display = 'none';
+
+            // Show section selection screen
+            document.getElementById('sectionSelection').style.display = 'block';
+
+            // Update exam number in header
+            document.getElementById('sectionExamNumber').textContent = `(Exam ${examNum})`;
+
+            // Load sections for this exam
+            loadSections(examNum);
+        }
+
+        // Load sections dynamically
+        function loadSections(examNum) {
+            const sectionOptionsDiv = document.getElementById('sectionOptions');
+            sectionOptionsDiv.innerHTML = '';
+
+            // Add Full Exam option
+            const fullExamBtn = document.createElement('button');
+            fullExamBtn.className = 'section-option-btn full-exam-btn';
+            fullExamBtn.onclick = () => selectExam(examNum, null);
+            fullExamBtn.innerHTML = `
+                <h3>Full Exam</h3>
+                <p>150 Questions | 3 Hours</p>
+                <span class="section-tag">Complete Exam</span>
+            `;
+            sectionOptionsDiv.appendChild(fullExamBtn);
+
+            // Add section options
+            const sections = examSections[examNum] || [];
+            sections.forEach(section => {
+                const sectionBtn = document.createElement('button');
+                sectionBtn.className = 'section-option-btn';
+                sectionBtn.onclick = () => selectExam(examNum, section);
+                sectionBtn.innerHTML = `
+                    <h3>${section.title}</h3>
+                    <p>${section.description}</p>
+                    <span class="section-tag">Section Practice</span>
+                `;
+                sectionOptionsDiv.appendChild(sectionBtn);
+            });
+        }
+
+        // Back to exam selection
+        function backToExamSelection() {
+            document.getElementById('sectionSelection').style.display = 'none';
+            document.getElementById('examSelection').style.display = 'block';
+        }
+
+        // Exam selection handler
+        function selectExam(examNum, section) {
+            // Store selected exam and section
+            sessionStorage.setItem('selectedExam', examNum);
+            if (section) {
+                sessionStorage.setItem('selectedSection', JSON.stringify(section));
+            } else {
+                sessionStorage.removeItem('selectedSection');
+            }
+
+            // Hide selection screens
+            document.getElementById('examSelection').style.display = 'none';
+            document.getElementById('sectionSelection').style.display = 'none';
 
             // Show exam wrapper
             document.getElementById('examWrapper').style.display = 'block';
 
             // Update exam number in header
-            document.getElementById('examNumber').textContent = `(Exam ${examNum})`;
+            let headerText = `(Exam ${examNum}`;
+            if (section) {
+                headerText += ` - ${section.title}`;
+            }
+            headerText += ')';
+            document.getElementById('examNumber').textContent = headerText;
+
+            // Update exam info for sections
+            if (section) {
+                document.querySelector('.exam-info p:first-child strong').nextSibling.textContent = ` ${section.questionCount}`;
+                document.getElementById('timer').style.display = 'none'; // Hide timer for sections
+            }
 
             // Load appropriate questions file
             const script = document.createElement('script');
-            script.src = examNum === 1 ? 'questions.js' : 'questions_2.js';
+            if (section) {
+                script.src = section.file;
+            } else {
+                script.src = examNum === 1 ? 'questions.js' : 'questions_2.js';
+            }
             script.onload = function() {
                 // Load exam.js after questions are loaded
                 const examScript = document.createElement('script');
@@ -104,8 +192,12 @@
         // Check if exam was already selected (for page reloads)
         window.addEventListener('DOMContentLoaded', function() {
             const selectedExam = sessionStorage.getItem('selectedExam');
+            const selectedSection = sessionStorage.getItem('selectedSection');
+
             if (selectedExam) {
-                selectExam(parseInt(selectedExam));
+                const examNum = parseInt(selectedExam);
+                const section = selectedSection ? JSON.parse(selectedSection) : null;
+                selectExam(examNum, section);
             }
         });
     </script>
