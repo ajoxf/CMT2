@@ -45,7 +45,9 @@ const examSections = {
           title: '6.1 - Extrapolating price from VIX',
           questionCount: 30,
           file: 'sections_exam1_ch6_1.js',
-          description: '30 Questions'
+          description: '30 Questions',
+          video: 'videos/ch6_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch6_1.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
@@ -73,7 +75,9 @@ const examSections = {
           title: '9.4 - Bollinger Bands',
           questionCount: 30,
           file: 'sections_exam1_ch9_4.js',
-          description: '30 Questions'
+          description: '30 Questions',
+          video: 'videos/ch9_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch9_4.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]

@@ -51,6 +51,43 @@
             </div>
         </div>
 
+        <!-- Learning Materials Container (hidden initially) -->
+        <div id="learningMaterialsWrapper" style="display: none;">
+            <header>
+                <div class="header-nav">
+                    <button class="nav-home-btn" onclick="goHome()" title="Return to main menu">
+                        🏠 Home
+                    </button>
+                </div>
+                <h1 id="learningTitle">Learning Materials</h1>
+            </header>
+
+            <div class="learning-content">
+                <div id="videoContainer" class="media-container" style="display: none;">
+                    <h2>📹 Video Lecture</h2>
+                    <video id="learningVideo" controls controlsList="nodownload">
+                        <source id="videoSource" src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div id="pdfContainer" class="media-container" style="display: none;">
+                    <h2>📄 Study Materials</h2>
+                    <div class="pdf-viewer">
+                        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+                    </div>
+                    <a id="pdfDownload" href="" download class="download-btn">
+                        ⬇️ Download PDF
+                    </a>
+                </div>
+
+                <div class="learning-actions">
+                    <button id="startQuizBtn" class="primary-btn">Start Quiz →</button>
+                    <button id="skipToQuizBtn" class="secondary-btn">Skip to Quiz</button>
+                </div>
+            </div>
+        </div>
+
         <!-- Exam Container (hidden initially) -->
         <div id="examWrapper" style="display: none;">
             <header>
@@ -256,6 +293,68 @@
 
             // Hide main selection screen
             document.getElementById('mainSelection').style.display = 'none';
+
+            // Check if section has learning materials (video or PDF)
+            if (section && (section.video || section.pdf)) {
+                showLearningMaterials(examNum, section);
+            } else {
+                startQuiz(examNum, section);
+            }
+        }
+
+        // Show learning materials page
+        function showLearningMaterials(examNum, section) {
+            // Hide other wrappers
+            document.getElementById('examWrapper').style.display = 'none';
+
+            // Show learning materials wrapper
+            document.getElementById('learningMaterialsWrapper').style.display = 'block';
+
+            // Update title
+            document.getElementById('learningTitle').textContent = section.title;
+
+            // Show video if available
+            const videoContainer = document.getElementById('videoContainer');
+            if (section.video) {
+                const isYouTube = section.video.includes('youtube.com') || section.video.includes('youtu.be');
+
+                if (isYouTube) {
+                    // Handle YouTube links in the future
+                    const videoId = section.video.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
+                    videoContainer.innerHTML = `
+                        <h2>📹 Video Lecture</h2>
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/${videoId}"
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen style="border-radius: 8px;"></iframe>
+                    `;
+                } else {
+                    document.getElementById('videoSource').src = section.video;
+                    document.getElementById('learningVideo').load();
+                }
+                videoContainer.style.display = 'block';
+            } else {
+                videoContainer.style.display = 'none';
+            }
+
+            // Show PDF if available
+            const pdfContainer = document.getElementById('pdfContainer');
+            if (section.pdf) {
+                document.getElementById('pdfViewer').src = section.pdf;
+                document.getElementById('pdfDownload').href = section.pdf;
+                pdfContainer.style.display = 'block';
+            } else {
+                pdfContainer.style.display = 'none';
+            }
+
+            // Setup button handlers
+            document.getElementById('startQuizBtn').onclick = () => startQuiz(examNum, section);
+            document.getElementById('skipToQuizBtn').onclick = () => startQuiz(examNum, section);
+        }
+
+        // Start the quiz
+        function startQuiz(examNum, section) {
+            // Hide learning materials
+            document.getElementById('learningMaterialsWrapper').style.display = 'none';
 
             // Show exam wrapper
             document.getElementById('examWrapper').style.display = 'block';
