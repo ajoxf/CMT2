@@ -75,6 +75,15 @@ const examSections = {
           description: '50 Questions',
           video: 'videos/ch6_4.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch6_4.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch6_5',
+          title: '6.5 - Power of Convexity in VIX Futures and Options',
+          questionCount: 30,
+          file: 'sections_exam1_ch6_5.js',
+          description: '30 Questions',
+          video: 'videos/ch6_5.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch6_5.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
