@@ -261,11 +261,13 @@
             document.getElementById('examWrapper').style.display = 'block';
 
             // Update exam number in header
-            const headerElement = document.querySelector('.exam-header h1');
-            if (section) {
-                headerElement.innerHTML = section.title;
-            } else {
-                headerElement.innerHTML = `CMT Level II Sample Exam <span id="examNumber">(Exam ${examNum})</span>`;
+            const headerElement = document.querySelector('#examWrapper header h1');
+            if (headerElement) {
+                if (section) {
+                    headerElement.innerHTML = section.title;
+                } else {
+                    headerElement.innerHTML = `CMT Level II Sample Exam <span id="examNumber">(Exam ${examNum})</span>`;
+                }
             }
 
             // Update exam info for sections
