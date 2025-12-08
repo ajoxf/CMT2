@@ -34,6 +34,24 @@ const examSections = {
           description: '50 Questions',
           video: 'videos/ch4_1.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch4_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch4_2',
+          title: '4.2 - Candlestick Patterns',
+          questionCount: 30,
+          file: 'sections_exam1_ch4_2.js',
+          description: '30 Questions',
+          video: 'videos/ch4_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch4_2.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch4_3_1',
+          title: '4.3.1 - Candlestick Analysis in Real World',
+          questionCount: 30,
+          file: 'sections_exam1_ch4_3_1.js',
+          description: '30 Questions',
+          video: 'videos/ch4_3_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch4_3_1.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
       ]
