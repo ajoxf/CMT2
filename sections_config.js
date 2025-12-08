@@ -194,7 +194,7 @@ const examSections = {
       subsections: [
         {
           id: 'ch11_1',
-          title: '11.1 - Concepts in Cycle Theory',
+          title: '11.1 - Cycle Principles',
           questionCount: 30,
           file: 'sections_exam1_ch11_1.js',
           description: '30 Questions',
