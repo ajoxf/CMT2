@@ -142,15 +142,49 @@
             if (exam1Sections.length === 0) {
                 exam1Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
             } else {
-                exam1Sections.forEach(section => {
-                    const sectionBtn = document.createElement('button');
-                    sectionBtn.className = 'section-option-btn';
-                    sectionBtn.onclick = () => selectExam(1, section);
-                    sectionBtn.innerHTML = `
-                        <h4>${section.title}</h4>
-                        <p>${section.description}</p>
+                exam1Sections.forEach(mainSection => {
+                    // Create main section header
+                    const sectionHeader = document.createElement('div');
+                    sectionHeader.className = 'main-section-header';
+
+                    const hasSubsections = mainSection.subsections && mainSection.subsections.length > 0;
+
+                    sectionHeader.innerHTML = `
+                        <span class="expand-icon">${hasSubsections ? '▶' : ''}</span>
+                        <span class="section-title">${mainSection.title}</span>
+                        ${hasSubsections ? `<span class="subsection-count">(${mainSection.subsections.length} topics)</span>` : '<span class="no-topics">(Coming soon)</span>'}
                     `;
-                    exam1Container.appendChild(sectionBtn);
+
+                    // Create subsections container
+                    const subsectionsContainer = document.createElement('div');
+                    subsectionsContainer.className = 'subsections-container collapsed';
+
+                    if (hasSubsections) {
+                        mainSection.subsections.forEach(subsection => {
+                            const subsectionBtn = document.createElement('button');
+                            subsectionBtn.className = 'subsection-btn';
+                            subsectionBtn.onclick = () => selectExam(1, subsection);
+                            subsectionBtn.innerHTML = `
+                                <span class="subsection-title">${subsection.title}</span>
+                                <span class="subsection-info">${subsection.description}</span>
+                            `;
+                            subsectionsContainer.appendChild(subsectionBtn);
+                        });
+
+                        // Toggle collapse on header click
+                        sectionHeader.onclick = () => {
+                            const isCollapsed = subsectionsContainer.classList.contains('collapsed');
+                            subsectionsContainer.classList.toggle('collapsed');
+                            const icon = sectionHeader.querySelector('.expand-icon');
+                            icon.textContent = isCollapsed ? '▼' : '▶';
+                        };
+                        sectionHeader.style.cursor = 'pointer';
+                    }
+
+                    exam1Container.appendChild(sectionHeader);
+                    if (hasSubsections) {
+                        exam1Container.appendChild(subsectionsContainer);
+                    }
                 });
             }
 
@@ -163,15 +197,49 @@
             if (exam2Sections.length === 0) {
                 exam2Container.innerHTML = '<p class="no-sections">No sections available yet</p>';
             } else {
-                exam2Sections.forEach(section => {
-                    const sectionBtn = document.createElement('button');
-                    sectionBtn.className = 'section-option-btn';
-                    sectionBtn.onclick = () => selectExam(2, section);
-                    sectionBtn.innerHTML = `
-                        <h4>${section.title}</h4>
-                        <p>${section.description}</p>
+                exam2Sections.forEach(mainSection => {
+                    // Create main section header
+                    const sectionHeader = document.createElement('div');
+                    sectionHeader.className = 'main-section-header';
+
+                    const hasSubsections = mainSection.subsections && mainSection.subsections.length > 0;
+
+                    sectionHeader.innerHTML = `
+                        <span class="expand-icon">${hasSubsections ? '▶' : ''}</span>
+                        <span class="section-title">${mainSection.title}</span>
+                        ${hasSubsections ? `<span class="subsection-count">(${mainSection.subsections.length} topics)</span>` : '<span class="no-topics">(Coming soon)</span>'}
                     `;
-                    exam2Container.appendChild(sectionBtn);
+
+                    // Create subsections container
+                    const subsectionsContainer = document.createElement('div');
+                    subsectionsContainer.className = 'subsections-container collapsed';
+
+                    if (hasSubsections) {
+                        mainSection.subsections.forEach(subsection => {
+                            const subsectionBtn = document.createElement('button');
+                            subsectionBtn.className = 'subsection-btn';
+                            subsectionBtn.onclick = () => selectExam(2, subsection);
+                            subsectionBtn.innerHTML = `
+                                <span class="subsection-title">${subsection.title}</span>
+                                <span class="subsection-info">${subsection.description}</span>
+                            `;
+                            subsectionsContainer.appendChild(subsectionBtn);
+                        });
+
+                        // Toggle collapse on header click
+                        sectionHeader.onclick = () => {
+                            const isCollapsed = subsectionsContainer.classList.contains('collapsed');
+                            subsectionsContainer.classList.toggle('collapsed');
+                            const icon = sectionHeader.querySelector('.expand-icon');
+                            icon.textContent = isCollapsed ? '▼' : '▶';
+                        };
+                        sectionHeader.style.cursor = 'pointer';
+                    }
+
+                    exam2Container.appendChild(sectionHeader);
+                    if (hasSubsections) {
+                        exam2Container.appendChild(subsectionsContainer);
+                    }
                 });
             }
         }
