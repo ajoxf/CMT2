@@ -218,12 +218,27 @@
             } else {
                 script.src = examNum === 1 ? 'questions.js' : 'questions_2.js';
             }
+
             script.onload = function() {
+                console.log('Questions file loaded:', script.src);
+                console.log('Questions available:', typeof questions !== 'undefined', questions ? questions.length : 0);
+
                 // Load exam.js after questions are loaded
                 const examScript = document.createElement('script');
                 examScript.src = 'exam.js';
+                examScript.onload = function() {
+                    console.log('exam.js loaded successfully');
+                };
+                examScript.onerror = function() {
+                    console.error('Failed to load exam.js');
+                };
                 document.body.appendChild(examScript);
             };
+
+            script.onerror = function() {
+                console.error('Failed to load questions file:', script.src);
+            };
+
             document.body.appendChild(script);
         }
 
