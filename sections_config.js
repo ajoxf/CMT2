@@ -311,6 +311,13 @@ const examSections = {
         }
         // Add more subsections here
       ]
+    },
+    {
+      id: 'section_12',
+      title: 'XII. Applying Quantitative Techniques',
+      subsections: [
+        // Add subsections here
+      ]
     }
   ],
   2: [
