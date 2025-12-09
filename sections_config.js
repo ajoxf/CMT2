@@ -290,6 +290,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch11_5.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch11_5.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch11_6_1',
+          title: '11.6.1 - Cycle Driven Market Approaches',
+          questionCount: 30,
+          file: 'sections_exam1_ch11_6_1.js',
+          description: '30 Questions',
+          video: 'videos/ch11_6_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch11_6_1.pdf'       // Optional: path to PDF file
         }
         // Add more subsections here
       ]
