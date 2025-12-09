@@ -212,6 +212,24 @@ const examSections = {
       id: 'section_10',
       title: 'X. Comparative Market Analysis',
       subsections: [
+        {
+          id: 'ch10_1',
+          title: '10.1 - Advanced Applications of Relative Strength - Part 1',
+          questionCount: 30,
+          file: 'sections_exam1_ch10_1.js',
+          description: '30 Questions',
+          video: 'videos/ch10_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch10_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch10_1_2',
+          title: '10.1.2 - Advanced Applications of Relative Strength - Part 2',
+          questionCount: 30,
+          file: 'sections_exam1_ch10_1_2.js',
+          description: '30 Questions',
+          video: 'videos/ch10_1_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch10_1_2.pdf'       // Optional: path to PDF file
+        }
         // Add subsections here
       ]
     },
