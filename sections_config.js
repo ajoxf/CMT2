@@ -5,6 +5,15 @@ const examSections = {
       id: 'section_1',
       title: 'I. Theory and History of Technical Analysis',
       subsections: [
+        {
+          id: 'ch1_1',
+          title: '1.1 - Alpha and Beta',
+          questionCount: 30,
+          file: 'sections_exam1_ch1_1.js',
+          description: '30 Questions',
+          video: 'videos/ch1_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch1_1.pdf'       // Optional: path to PDF file
+        }
         // Add subsections here
       ]
     },
