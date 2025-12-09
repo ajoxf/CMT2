@@ -98,7 +98,7 @@ const questions = [
     // ===== SECTION 2: Chart Patterns (Questions 9-20) =====
     {
         id: 9,
-        question: "Which of the following patterns resonate with price action highlighted within the black circle? [Chart shows price action with throwback pattern] (Note: This question demonstrates the multiple media files feature - add your video files to see them play)",
+        question: "Which of the following patterns resonate with price action highlighted within the black circle? [Chart shows price action with throwback pattern]",
         options: [
             "Pullback",
             "Bull trap",
@@ -106,17 +106,11 @@ const questions = [
             "Throwback"
         ],
         correct: 3,
-        hasImage: true,
-        // Example of multiple audio/video files for a question
-        mediaFiles: [
-            { url: "videos/ch4_1_part1.mp4", label: "Chapter 4 - Part 1: Introduction" },
-            { url: "videos/ch4_1_part2.mp4", label: "Chapter 4 - Part 2: Analysis" },
-            { url: "videos/ch4_1_part3.mp4", label: "Chapter 4 - Part 3: Conclusion" }
-        ]
+        hasImage: true
     },
     {
         id: 10,
-        question: "For a long trade initiated at point Z, which of the following represent an ideal stop-loss point? [Chart shows support levels at points A, B, and C] (Note: This question demonstrates audio files feature)",
+        question: "For a long trade initiated at point Z, which of the following represent an ideal stop-loss point? [Chart shows support levels at points A, B, and C]",
         options: [
             "A close below point A",
             "A close below point B",
@@ -124,12 +118,7 @@ const questions = [
             "An intra-day penetration of Point A"
         ],
         correct: 0,
-        hasImage: true,
-        // Example with audio files
-        mediaFiles: [
-            { url: "videos/ch4_2_part1.mp4", label: "Stop Loss Strategy - Part 1" },
-            { url: "videos/ch4_2_part2.mp4", label: "Stop Loss Strategy - Part 2" }
-        ]
+        hasImage: true
     },
     {
         id: 11,
@@ -1730,4 +1719,71 @@ const questions = [
         ],
         correct: 1
     }
+];
+
+// Section Metadata - Maps chapters/sections to question ranges and media files
+// Format: { chapter, section, title, startQuestion, endQuestion, mediaFiles: [{url, label}] }
+const sectionMetadata = [
+    {
+        chapter: 1,
+        section: 1,
+        title: "CFA Ethics & Standards",
+        startQuestion: 1,
+        endQuestion: 8,
+        mediaFiles: []
+    },
+    {
+        chapter: 2,
+        section: 1,
+        title: "Chart Patterns",
+        startQuestion: 9,
+        endQuestion: 20,
+        mediaFiles: []
+    },
+    {
+        chapter: 4,
+        section: 1,
+        title: "Chapter 4 - Section 1",
+        startQuestion: 21,
+        endQuestion: 30,
+        mediaFiles: [
+            { url: "videos/ch4_1_part1.mp4", label: "Part 1" },
+            { url: "videos/ch4_1_part2.mp4", label: "Part 2" },
+            { url: "videos/ch4_1_part3.mp4", label: "Part 3" }
+        ]
+    },
+    {
+        chapter: 4,
+        section: 2,
+        title: "Chapter 4 - Section 2",
+        startQuestion: 31,
+        endQuestion: 40,
+        mediaFiles: [
+            { url: "videos/ch4_2_part1.mp4", label: "Part 1" },
+            { url: "videos/ch4_2_part2.mp4", label: "Part 2" },
+            { url: "videos/ch4_2_part3.mp4", label: "Part 3" },
+            { url: "videos/ch4_2_part4.mp4", label: "Part 4" }
+        ]
+    },
+    {
+        chapter: 5,
+        section: 2,
+        title: "Chapter 5 - Section 2",
+        startQuestion: 41,
+        endQuestion: 50,
+        mediaFiles: [
+            { url: "videos/ch5_2_part1.mp4", label: "Part 1" }
+        ]
+    },
+    {
+        chapter: 9,
+        section: 2,
+        title: "Chapter 9 - Section 2",
+        startQuestion: 81,
+        endQuestion: 90,
+        mediaFiles: [
+            { url: "videos/ch9_2.mp4", label: "Chapter 9 Section 2" }
+        ]
+    }
+    // Add more sections as needed
 ];
