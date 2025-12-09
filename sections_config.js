@@ -189,6 +189,15 @@ const examSections = {
       id: 'section_8',
       title: 'VIII. Statistics for Technicians',
       subsections: [
+        {
+          id: 'ch8',
+          title: '8 - Inferential Statistics',
+          questionCount: 30,
+          file: 'sections_exam1_ch8.js',
+          description: '30 Questions',
+          video: 'videos/ch8.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch8.pdf'       // Optional: path to PDF file
+        }
         // Add subsections here
       ]
     },
