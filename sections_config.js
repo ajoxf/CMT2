@@ -70,6 +70,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch4_3_1.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch4_3_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch4_4',
+          title: '4.4 - Charts - Point and Figures',
+          questionCount: 30,
+          file: 'sections_exam1_ch4_4.js',
+          description: '30 Questions',
+          video: 'videos/ch4_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch4_4.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
       ]
