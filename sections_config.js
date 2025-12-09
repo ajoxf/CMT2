@@ -61,6 +61,15 @@ const examSections = {
       title: 'V. Trend Analysis',
       subsections: [
         {
+          id: 'ch5_1',
+          title: '5.1 - Price and Volume Analysis',
+          questionCount: 30,
+          file: 'sections_exam1_ch5_1.js',
+          description: '30 Questions',
+          video: 'videos/ch5_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch5_1.pdf'       // Optional: path to PDF file
+        },
+        {
           id: 'ch5_2',
           title: '5.2 - Market Internals',
           questionCount: 50,
@@ -68,6 +77,15 @@ const examSections = {
           description: '50 Questions',
           video: 'videos/ch5_2.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch5_2.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch5_2_2',
+          title: '5.2.2 - Market Internals',
+          questionCount: 30,
+          file: 'sections_exam1_ch5_2_2.js',
+          description: '30 Questions',
+          video: 'videos/ch5_2_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch5_2_2.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
       ]
