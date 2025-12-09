@@ -98,7 +98,7 @@ const questions = [
     // ===== SECTION 2: Chart Patterns (Questions 9-20) =====
     {
         id: 9,
-        question: "Which of the following patterns resonate with price action highlighted within the black circle? [Chart shows price action with throwback pattern]",
+        question: "Which of the following patterns resonate with price action highlighted within the black circle? [Chart shows price action with throwback pattern] (Note: This question demonstrates the multiple media files feature - add your video files to see them play)",
         options: [
             "Pullback",
             "Bull trap",
@@ -108,16 +108,15 @@ const questions = [
         correct: 3,
         hasImage: true,
         // Example of multiple audio/video files for a question
-        // Uncomment and update paths when you have actual video/audio files
-        // mediaFiles: [
-        //     { url: "videos/ch2_1_part1.mp4", label: "Pattern Introduction - Part 1" },
-        //     { url: "videos/ch2_1_part2.mp4", label: "Pattern Introduction - Part 2" },
-        //     { url: "videos/ch2_1_part3.mp4", label: "Pattern Analysis" }
-        // ]
+        mediaFiles: [
+            { url: "videos/ch4_1_part1.mp4", label: "Chapter 4 - Part 1: Introduction" },
+            { url: "videos/ch4_1_part2.mp4", label: "Chapter 4 - Part 2: Analysis" },
+            { url: "videos/ch4_1_part3.mp4", label: "Chapter 4 - Part 3: Conclusion" }
+        ]
     },
     {
         id: 10,
-        question: "For a long trade initiated at point Z, which of the following represent an ideal stop-loss point? [Chart shows support levels at points A, B, and C]",
+        question: "For a long trade initiated at point Z, which of the following represent an ideal stop-loss point? [Chart shows support levels at points A, B, and C] (Note: This question demonstrates audio files feature)",
         options: [
             "A close below point A",
             "A close below point B",
@@ -125,7 +124,12 @@ const questions = [
             "An intra-day penetration of Point A"
         ],
         correct: 0,
-        hasImage: true
+        hasImage: true,
+        // Example with audio files
+        mediaFiles: [
+            { url: "videos/ch4_2_part1.mp4", label: "Stop Loss Strategy - Part 1" },
+            { url: "videos/ch4_2_part2.mp4", label: "Stop Loss Strategy - Part 2" }
+        ]
     },
     {
         id: 11,
