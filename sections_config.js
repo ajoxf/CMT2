@@ -45,21 +45,15 @@ const examSections = {
       title: 'IV. Chart Pattern Analysis',
       subsections: [
         {
-          id: 'ch4_1_1',
-          title: '4.1.1 - Classical Chart Pattern - Part 1',
-          questionCount: 25,
-          file: 'sections_exam1_ch4_1_1.js',
-          description: '25 Questions',
-          video: 'videos/ch4_1_1.mp4',  // Optional: path to MP4 file or YouTube URL
-          pdf: 'pdfs/ch4_1.pdf'       // Optional: path to PDF file
-        },
-        {
-          id: 'ch4_1_2',
-          title: '4.1.2 - Classical Chart Pattern - Part 2',
-          questionCount: 25,
-          file: 'sections_exam1_ch4_1_2.js',
-          description: '25 Questions',
-          video: 'videos/ch4_1_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          id: 'ch4_1',
+          title: '4.1 - Classical Chart Pattern',
+          questionCount: 50,
+          file: 'sections_exam1_ch4_1.js',
+          description: '50 Questions',
+          videos: [  // Array for multiple audio files
+            'videos/ch4_1_part1.mp4',
+            'videos/ch4_1_part2.mp4'
+          ],
           pdf: 'pdfs/ch4_1.pdf'       // Optional: path to PDF file
         },
         {

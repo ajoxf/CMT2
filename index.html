@@ -258,8 +258,8 @@
             // Hide main selection screen
             document.getElementById('mainSelection').style.display = 'none';
 
-            // Check if section has learning materials (video or PDF)
-            if (section && (section.video || section.pdf)) {
+            // Check if section has learning materials (video/videos or PDF)
+            if (section && (section.video || section.videos || section.pdf)) {
                 showLearningMaterials(examNum, section);
             } else {
                 startQuiz(examNum, section);
@@ -277,24 +277,40 @@
             // Update title
             document.getElementById('learningTitle').textContent = section.title;
 
-            // Show video if available
+            // Show video(s) if available
             const videoContainer = document.getElementById('videoContainer');
-            if (section.video) {
-                const isYouTube = section.video.includes('youtube.com') || section.video.includes('youtu.be');
+            const hasVideos = section.videos || section.video;
 
-                if (isYouTube) {
-                    // Handle YouTube links in the future
-                    const videoId = section.video.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
-                    videoContainer.innerHTML = `
-                        <h2>📹 Video Lecture</h2>
-                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/${videoId}"
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen style="border-radius: 8px;"></iframe>
-                    `;
-                } else {
-                    document.getElementById('videoSource').src = section.video;
-                    document.getElementById('learningVideo').load();
-                }
+            if (hasVideos) {
+                // Handle array of videos or single video
+                const videoList = section.videos ? (Array.isArray(section.videos) ? section.videos : [section.videos]) : [section.video];
+
+                // Clear and rebuild video container
+                videoContainer.innerHTML = '<h2>🔊 Explanation in Audio</h2>';
+
+                videoList.forEach((videoSrc, index) => {
+                    const isYouTube = videoSrc.includes('youtube.com') || videoSrc.includes('youtu.be');
+
+                    if (isYouTube) {
+                        const videoId = videoSrc.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
+                        videoContainer.innerHTML += `
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/${videoId}"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen style="border-radius: 8px; margin-bottom: 1rem;"></iframe>
+                        `;
+                    } else {
+                        videoContainer.innerHTML += `
+                            <div style="margin-bottom: 1.5rem;">
+                                ${videoList.length > 1 ? `<h3 style="margin-bottom: 0.5rem;">Part ${index + 1}</h3>` : ''}
+                                <video controls controlsList="nodownload" style="width: 100%; border-radius: 8px;">
+                                    <source src="${videoSrc}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        `;
+                    }
+                });
+
                 videoContainer.style.display = 'block';
             } else {
                 videoContainer.style.display = 'none';
