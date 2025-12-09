@@ -140,6 +140,59 @@ main {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+/* Media Container for Audio/Video Files */
+.media-container {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.media-item {
+    background: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.media-label {
+    color: #2d3748;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.media-player {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.video-player {
+    max-height: 500px;
+    background: #000;
+}
+
+.audio-player {
+    height: 40px;
+}
+
+/* Multiple media items in a row for smaller screens */
+@media (min-width: 768px) {
+    .media-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 15px;
+    }
+
+    .media-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .options {
     display: flex;
     flex-direction: column;
