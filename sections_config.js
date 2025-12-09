@@ -316,7 +316,42 @@ const examSections = {
       id: 'section_12',
       title: 'XII. Applying Quantitative Techniques',
       subsections: [
-        // Add subsections here
+        {
+          id: 'ch12_1',
+          title: '12.1 - Applying Quant',
+          questionCount: 50,
+          file: 'sections_exam1_ch12_1.js',
+          description: '50 Questions',
+          video: 'videos/ch12_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch12_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch12_1_1',
+          title: '12.1.1 - Applying Quant Techniques',
+          questionCount: 50,
+          file: 'sections_exam1_ch12_1_1.js',
+          description: '50 Questions',
+          video: 'videos/ch12_1_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch12_1_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch12_2_2',
+          title: '12.2.2 - Applying Quant Techniques',
+          questionCount: 50,
+          file: 'sections_exam1_ch12_2_2.js',
+          description: '50 Questions',
+          video: 'videos/ch12_2_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch12_2_2.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch12_2_3',
+          title: '12.2.3 - Applying Quant Technique',
+          questionCount: 50,
+          file: 'sections_exam1_ch12_2_3.js',
+          description: '50 Questions',
+          video: 'videos/ch12_2_3.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch12_2_3.pdf'       // Optional: path to PDF file
+        }
       ]
     }
   ],
