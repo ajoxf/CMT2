@@ -106,7 +106,14 @@ const questions = [
             "Throwback"
         ],
         correct: 3,
-        hasImage: true
+        hasImage: true,
+        // Example of multiple audio/video files for a question
+        // Uncomment and update paths when you have actual video/audio files
+        // mediaFiles: [
+        //     { url: "videos/ch2_1_part1.mp4", label: "Pattern Introduction - Part 1" },
+        //     { url: "videos/ch2_1_part2.mp4", label: "Pattern Introduction - Part 2" },
+        //     { url: "videos/ch2_1_part3.mp4", label: "Pattern Analysis" }
+        // ]
     },
     {
         id: 10,

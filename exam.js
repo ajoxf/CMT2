@@ -187,6 +187,44 @@ function updateFlagButton() {
     }
 }
 
+// Render media files (audio/video) for a question
+function renderMediaFiles(mediaFiles, questionIndex) {
+    if (!mediaFiles || mediaFiles.length === 0) return '';
+
+    return `
+        <div class="media-container">
+            ${mediaFiles.map((media, idx) => {
+                const fileExt = media.url.split('.').pop().toLowerCase();
+                const isVideo = ['mp4', 'webm', 'ogg', 'mov'].includes(fileExt);
+                const isAudio = ['mp3', 'm4a', 'wav', 'ogg', 'aac'].includes(fileExt);
+
+                if (isVideo) {
+                    return `
+                        <div class="media-item">
+                            ${media.label ? `<div class="media-label">${media.label}</div>` : ''}
+                            <video controls preload="metadata" class="media-player video-player">
+                                <source src="${media.url}" type="video/${fileExt === 'mov' ? 'quicktime' : fileExt}">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    `;
+                } else if (isAudio) {
+                    return `
+                        <div class="media-item">
+                            ${media.label ? `<div class="media-label">${media.label}</div>` : ''}
+                            <audio controls preload="metadata" class="media-player audio-player">
+                                <source src="${media.url}" type="audio/${fileExt}">
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+                    `;
+                }
+                return '';
+            }).join('')}
+        </div>
+    `;
+}
+
 // Load question into the UI
 function loadQuestion(index) {
     const container = document.getElementById('examContainer');
@@ -200,6 +238,7 @@ function loadQuestion(index) {
             </div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
+            ${renderMediaFiles(question.mediaFiles, index)}
             <div class="options">
                 ${question.options.map((option, optIndex) => `
                     <div class="option ${userAnswers[index] === optIndex ? 'selected' : ''}" data-option="${optIndex}">
@@ -384,6 +423,7 @@ function loadQuestionReview(index) {
             <div class="question-number">Question ${index + 1} of ${questions.length}</div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
+            ${renderMediaFiles(question.mediaFiles, index)}
             <div class="options">
                 ${question.options.map((option, optIndex) => {
                     let classes = 'option review-mode';
