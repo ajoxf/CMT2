@@ -13,6 +13,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch1_1.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch1_1.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch1_1_2',
+          title: '1.1.2 - Alpha and Beta - Part 2',
+          questionCount: 30,
+          file: 'sections_exam1_ch1_1_2.js',
+          description: '30 Questions',
+          video: 'videos/ch1_1_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch1_1_2.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
       ]
