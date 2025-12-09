@@ -7,11 +7,17 @@ let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
 let examStartTime = null;
 
-// LocalStorage key
-const STORAGE_KEY = 'cmt_exam_progress';
+// LocalStorage key (dynamic based on selected exam and section)
+const selectedExam = sessionStorage.getItem('selectedExam') || '1';
+const selectedSectionData = sessionStorage.getItem('selectedSection');
+const selectedSection = selectedSectionData ? JSON.parse(selectedSectionData) : null;
+const sectionKey = selectedSection ? `_${selectedSection.id}` : '';
+const STORAGE_KEY = `cmt_exam_${selectedExam}${sectionKey}_progress`;
 
 // Initialize exam
-document.addEventListener('DOMContentLoaded', () => {
+function initializeExam() {
+    console.log('Initializing exam with', questions.length, 'questions');
+
     // Try to load saved progress
     loadSavedProgress();
 
@@ -32,7 +38,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clearBtn) {
         clearBtn.addEventListener('click', clearProgress);
     }
-});
+}
+
+// Run initialization immediately since DOM is already loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeExam);
+} else {
+    // DOM already loaded, run immediately
+    initializeExam();
+}
 
 // Save progress to localStorage
 function saveProgress() {
