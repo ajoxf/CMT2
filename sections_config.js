@@ -73,7 +73,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch4_3_1.js',
           description: '30 Questions',
-          video: 'videos/ch4_3_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch4_3_1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch4_3_1.pdf'       // Optional: path to PDF file
         },
         {
