@@ -255,11 +255,8 @@ function renderMediaFiles(mediaFiles) {
 function loadQuestion(index) {
     const container = document.getElementById('examContainer');
     const question = questions[index];
-    const questionNum = index + 1; // Convert to 1-indexed
-    const section = getSectionForQuestion(questionNum);
 
     const questionHTML = `
-        ${renderSectionHeader(section)}
         <div class="question-container active" data-question="${index}">
             <div class="question-header">
                 <div class="question-number">Question ${index + 1} of ${questions.length}</div>
@@ -451,7 +448,6 @@ function loadQuestionReview(index) {
             <div class="question-number">Question ${index + 1} of ${questions.length}</div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
-            ${renderMediaFiles(question.mediaFiles, index)}
             <div class="options">
                 ${question.options.map((option, optIndex) => {
                     let classes = 'option review-mode';
