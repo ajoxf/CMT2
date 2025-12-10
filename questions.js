@@ -106,14 +106,7 @@ const questions = [
             "Throwback"
         ],
         correct: 3,
-        hasImage: true,
-        // Example of multiple audio/video files for a question
-        // Uncomment and update paths when you have actual video/audio files
-        // mediaFiles: [
-        //     { url: "videos/ch2_1_part1.mp4", label: "Pattern Introduction - Part 1" },
-        //     { url: "videos/ch2_1_part2.mp4", label: "Pattern Introduction - Part 2" },
-        //     { url: "videos/ch2_1_part3.mp4", label: "Pattern Analysis" }
-        // ]
+        hasImage: true
     },
     {
         id: 10,
@@ -1726,4 +1719,71 @@ const questions = [
         ],
         correct: 1
     }
+];
+
+// Section Metadata - Maps chapters/sections to question ranges and media files
+// Format: { chapter, section, title, startQuestion, endQuestion, mediaFiles: [{url, label}] }
+const sectionMetadata = [
+    {
+        chapter: 1,
+        section: 1,
+        title: "CFA Ethics & Standards",
+        startQuestion: 1,
+        endQuestion: 8,
+        mediaFiles: []
+    },
+    {
+        chapter: 2,
+        section: 1,
+        title: "Chart Patterns",
+        startQuestion: 9,
+        endQuestion: 20,
+        mediaFiles: []
+    },
+    {
+        chapter: 4,
+        section: 1,
+        title: "Chapter 4 - Section 1",
+        startQuestion: 21,
+        endQuestion: 30,
+        mediaFiles: [
+            { url: "videos/ch4_1_part1.mp4", label: "Part 1" },
+            { url: "videos/ch4_1_part2.mp4", label: "Part 2" },
+            { url: "videos/ch4_1_part3.mp4", label: "Part 3" }
+        ]
+    },
+    {
+        chapter: 4,
+        section: 2,
+        title: "Chapter 4 - Section 2",
+        startQuestion: 31,
+        endQuestion: 40,
+        mediaFiles: [
+            { url: "videos/ch4_2_part1.mp4", label: "Part 1" },
+            { url: "videos/ch4_2_part2.mp4", label: "Part 2" },
+            { url: "videos/ch4_2_part3.mp4", label: "Part 3" },
+            { url: "videos/ch4_2_part4.mp4", label: "Part 4" }
+        ]
+    },
+    {
+        chapter: 5,
+        section: 2,
+        title: "Chapter 5 - Section 2",
+        startQuestion: 41,
+        endQuestion: 50,
+        mediaFiles: [
+            { url: "videos/ch5_2_part1.mp4", label: "Part 1" }
+        ]
+    },
+    {
+        chapter: 9,
+        section: 2,
+        title: "Chapter 9 - Section 2",
+        startQuestion: 81,
+        endQuestion: 90,
+        mediaFiles: [
+            { url: "videos/ch9_2.mp4", label: "Chapter 9 Section 2" }
+        ]
+    }
+    // Add more sections as needed
 ];

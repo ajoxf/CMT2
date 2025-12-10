@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMT Level II - Chapter Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .chapters-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .chapters-header {
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chapters-header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .nav-link {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .chapters-content {
+            padding: 40px 30px;
+        }
+
+        .chapter-section {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .chapter-title {
+            font-size: 1.8em;
+            color: #2d3748;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .explanation-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .explanation-header h3 {
+            font-size: 1.3em;
+            color: #4a5568;
+            margin: 0;
+        }
+
+        .part-section {
+            margin-bottom: 25px;
+        }
+
+        .part-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .media-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .no-media-message {
+            padding: 20px;
+            background: #fff5e6;
+            border-left: 4px solid #fbbf24;
+            border-radius: 5px;
+            color: #92400e;
+        }
+
+        @media (max-width: 768px) {
+            .chapters-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .chapters-header h1 {
+                font-size: 1.5em;
+            }
+
+            .chapters-content {
+                padding: 30px 20px;
+            }
+
+            .chapter-section {
+                padding: 20px 15px;
+            }
+
+            .chapter-title {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container chapters-container">
+        <header class="chapters-header">
+            <h1>📚 CMT Level II - Chapter Learning</h1>
+            <a href="index.html" class="nav-link">
+                🏠 Go to Exam
+            </a>
+        </header>
+
+        <div class="chapters-content" id="chaptersContent">
+            <!-- Chapters will be loaded here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script>
+        // Render media files (audio/video)
+        function renderMediaFiles(mediaFiles) {
+            if (!mediaFiles || mediaFiles.length === 0) {
+                return '<div class="no-media-message">📝 Media files for this chapter will be available soon.</div>';
+            }
+
+            return mediaFiles.map((media, idx) => {
+                const fileExt = media.url.split('.').pop().toLowerCase();
+                const isVideo = ['mp4', 'webm', 'ogg', 'mov'].includes(fileExt);
+                const isAudio = ['mp3', 'm4a', 'wav', 'ogg', 'aac'].includes(fileExt);
+
+                let playerHTML = '';
+                if (isVideo) {
+                    playerHTML = `
+                        <video controls preload="metadata" class="media-player video-player">
+                            <source src="${media.url}" type="video/${fileExt === 'mov' ? 'quicktime' : fileExt}">
+                            Your browser does not support the video tag.
+                        </video>
+                    `;
+                } else if (isAudio) {
+                    playerHTML = `
+                        <audio controls preload="metadata" class="media-player audio-player">
+                            <source src="${media.url}" type="audio/${fileExt}">
+                            Your browser does not support the audio tag.
+                        </audio>
+                    `;
+                }
+
+                return `
+                    <div class="part-section">
+                        <div class="part-title">${media.label || `Part ${idx + 1}`}</div>
+                        <div class="media-item">
+                            ${playerHTML}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render all chapters
+        function renderChapters() {
+            if (typeof sectionMetadata === 'undefined') {
+                document.getElementById('chaptersContent').innerHTML = `
+                    <div class="no-media-message">
+                        ⚠️ Section metadata not found. Please ensure questions.js is loaded correctly.
+                    </div>
+                `;
+                return;
+            }
+
+            const chaptersHTML = sectionMetadata.map(section => `
+                <div class="chapter-section">
+                    <h2 class="chapter-title">${section.chapter}.${section.section} - ${section.title}</h2>
+                    <div class="explanation-header">
+                        <span style="font-size: 1.5em;">🔊</span>
+                        <h3>Explanation in Audio</h3>
+                    </div>
+                    ${renderMediaFiles(section.mediaFiles)}
+                </div>
+            `).join('');
+
+            document.getElementById('chaptersContent').innerHTML = chaptersHTML;
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            renderChapters();
+        });
+    </script>
+</body>
+</html>

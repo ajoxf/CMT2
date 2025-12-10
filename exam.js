@@ -187,8 +187,34 @@ function updateFlagButton() {
     }
 }
 
-// Render media files (audio/video) for a question
-function renderMediaFiles(mediaFiles, questionIndex) {
+// Get section metadata for a given question number (1-indexed)
+function getSectionForQuestion(questionNum) {
+    if (typeof sectionMetadata === 'undefined') return null;
+    return sectionMetadata.find(section =>
+        questionNum >= section.startQuestion && questionNum <= section.endQuestion
+    );
+}
+
+// Render section header with media files
+function renderSectionHeader(section) {
+    if (!section || !section.mediaFiles || section.mediaFiles.length === 0) return '';
+
+    return `
+        <div class="section-header">
+            <h3 class="section-title">
+                Chapter ${section.chapter}.${section.section}: ${section.title}
+            </h3>
+            <div class="section-media-header">
+                <h4>📚 Explanation in Audio/Video</h4>
+                <p class="section-media-description">Listen to or watch the explanation for this chapter section:</p>
+            </div>
+            ${renderMediaFiles(section.mediaFiles)}
+        </div>
+    `;
+}
+
+// Render media files (audio/video)
+function renderMediaFiles(mediaFiles) {
     if (!mediaFiles || mediaFiles.length === 0) return '';
 
     return `
@@ -238,7 +264,6 @@ function loadQuestion(index) {
             </div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
-            ${renderMediaFiles(question.mediaFiles, index)}
             <div class="options">
                 ${question.options.map((option, optIndex) => `
                     <div class="option ${userAnswers[index] === optIndex ? 'selected' : ''}" data-option="${optIndex}">
@@ -423,7 +448,6 @@ function loadQuestionReview(index) {
             <div class="question-number">Question ${index + 1} of ${questions.length}</div>
             <div class="question-text">${question.question}</div>
             ${question.image ? `<img src="${question.image}" alt="Question ${index + 1} diagram" class="question-image">` : ''}
-            ${renderMediaFiles(question.mediaFiles, index)}
             <div class="options">
                 ${question.options.map((option, optIndex) => {
                     let classes = 'option review-mode';
