@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test CH5.2 Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 { color: #333; }
+        .test-container {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔊 Test CH5.2 Audio File</h1>
+
+    <div class="test-container">
+        <h3>Direct Audio Test</h3>
+        <p>File: videos/ch5_2_part1.mp3</p>
+        <audio controls>
+            <source src="videos/ch5_2_part1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="test-container">
+        <h3>Status Check</h3>
+        <p id="status">Checking file...</p>
+    </div>
+
+    <script>
+        const audio = document.querySelector('audio');
+        const status = document.getElementById('status');
+
+        audio.addEventListener('loadedmetadata', function() {
+            const duration = Math.floor(audio.duration);
+            const minutes = Math.floor(duration / 60);
+            const seconds = duration % 60;
+            status.innerHTML = `✅ <strong>SUCCESS!</strong><br>
+                File loaded correctly<br>
+                Duration: ${minutes}:${seconds.toString().padStart(2, '0')}<br>
+                Size: ~10 MB`;
+            status.style.color = 'green';
+        });
+
+        audio.addEventListener('error', function(e) {
+            status.innerHTML = `❌ <strong>ERROR!</strong><br>
+                Failed to load audio file<br>
+                Error: ${audio.error ? audio.error.message : 'Unknown error'}`;
+            status.style.color = 'red';
+        });
+    </script>
+</body>
+</html>
