@@ -53,7 +53,8 @@ const examSections = {
           videos: [  // Array for multiple audio files
             'videos/ch4_1_part1.mp4',
             'videos/ch4_1_part2.mp4',
-            'videos/ch4_1_part3.mp3'
+            'videos/ch4_1_part3.mp3',
+            'videos/ch4_1_part4.mp3'
           ],
           pdf: 'pdfs/ch4_1.pdf'       // Optional: path to PDF file
         },
@@ -106,7 +107,7 @@ const examSections = {
           questionCount: 50,
           file: 'sections_exam1_ch5_2.js',
           description: '50 Questions',
-          video: 'videos/ch5_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch5_2_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch5_2.pdf'       // Optional: path to PDF file
         },
         {
@@ -347,7 +348,7 @@ const examSections = {
           questionCount: 50,
           file: 'sections_exam1_ch12_2_2.js',
           description: '50 Questions',
-          video: 'videos/ch12_2_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch12_2_part2.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch12_2_2.pdf'       // Optional: path to PDF file
         },
         {
