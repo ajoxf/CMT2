@@ -7,11 +7,17 @@ let timeRemaining = 3 * 60 * 60; // 3 hours in seconds
 let examSubmitted = false;
 let examStartTime = null;
 
-// LocalStorage key
-const STORAGE_KEY = 'cmt_exam_progress';
+// LocalStorage key (dynamic based on selected exam and section)
+const selectedExam = sessionStorage.getItem('selectedExam') || '1';
+const selectedSectionData = sessionStorage.getItem('selectedSection');
+const selectedSection = selectedSectionData ? JSON.parse(selectedSectionData) : null;
+const sectionKey = selectedSection ? `_${selectedSection.id}` : '';
+const STORAGE_KEY = `cmt_exam_${selectedExam}${sectionKey}_progress`;
 
 // Initialize exam
-document.addEventListener('DOMContentLoaded', () => {
+function initializeExam() {
+    console.log('Initializing exam with', questions.length, 'questions');
+
     // Try to load saved progress
     loadSavedProgress();
 
@@ -32,7 +38,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clearBtn) {
         clearBtn.addEventListener('click', clearProgress);
     }
-});
+}
+
+// Run initialization immediately since DOM is already loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeExam);
+} else {
+    // DOM already loaded, run immediately
+    initializeExam();
+}
 
 // Save progress to localStorage
 function saveProgress() {
@@ -185,70 +199,6 @@ function updateFlagButton() {
         flagBtn.classList.remove('flagged');
         flagBtn.innerHTML = '🏳️ Flag for Review';
     }
-}
-
-// Get section metadata for a given question number (1-indexed)
-function getSectionForQuestion(questionNum) {
-    if (typeof sectionMetadata === 'undefined') return null;
-    return sectionMetadata.find(section =>
-        questionNum >= section.startQuestion && questionNum <= section.endQuestion
-    );
-}
-
-// Render section header with media files
-function renderSectionHeader(section) {
-    if (!section || !section.mediaFiles || section.mediaFiles.length === 0) return '';
-
-    return `
-        <div class="section-header">
-            <h3 class="section-title">
-                Chapter ${section.chapter}.${section.section}: ${section.title}
-            </h3>
-            <div class="section-media-header">
-                <h4>📚 Explanation in Audio/Video</h4>
-                <p class="section-media-description">Listen to or watch the explanation for this chapter section:</p>
-            </div>
-            ${renderMediaFiles(section.mediaFiles)}
-        </div>
-    `;
-}
-
-// Render media files (audio/video)
-function renderMediaFiles(mediaFiles) {
-    if (!mediaFiles || mediaFiles.length === 0) return '';
-
-    return `
-        <div class="media-container">
-            ${mediaFiles.map((media, idx) => {
-                const fileExt = media.url.split('.').pop().toLowerCase();
-                const isVideo = ['mp4', 'webm', 'ogg', 'mov'].includes(fileExt);
-                const isAudio = ['mp3', 'm4a', 'wav', 'ogg', 'aac'].includes(fileExt);
-
-                if (isVideo) {
-                    return `
-                        <div class="media-item">
-                            ${media.label ? `<div class="media-label">${media.label}</div>` : ''}
-                            <video controls preload="metadata" class="media-player video-player">
-                                <source src="${media.url}" type="video/${fileExt === 'mov' ? 'quicktime' : fileExt}">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    `;
-                } else if (isAudio) {
-                    return `
-                        <div class="media-item">
-                            ${media.label ? `<div class="media-label">${media.label}</div>` : ''}
-                            <audio controls preload="metadata" class="media-player audio-player">
-                                <source src="${media.url}" type="audio/${fileExt}">
-                                Your browser does not support the audio tag.
-                            </audio>
-                        </div>
-                    `;
-                }
-                return '';
-            }).join('')}
-        </div>
-    `;
 }
 
 // Load question into the UI
