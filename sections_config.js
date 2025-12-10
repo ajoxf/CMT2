@@ -132,7 +132,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch6_1.js',
           description: '30 Questions',
-          video: 'videos/ch6_1.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch6_1_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch6_1.pdf'       // Optional: path to PDF file
         },
         {
@@ -141,7 +141,7 @@ const examSections = {
           questionCount: 50,
           file: 'sections_exam1_ch6_2.js',
           description: '50 Questions',
-          video: 'videos/ch6_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch6_2_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch6_2.pdf'       // Optional: path to PDF file
         },
         {
@@ -150,7 +150,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch6_3.js',
           description: '30 Questions',
-          video: 'videos/ch6_3.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch6_3_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch6_3.pdf'       // Optional: path to PDF file
         },
         {
@@ -216,7 +216,11 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch9_2.js',
           description: '30 Questions',
-          video: 'videos/ch9_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          videos: [  // Array for multiple audio files
+            'videos/ch9_2_part1.mp3',
+            'videos/ch9_2_part2.mp3',
+            'videos/ch9_2_part3.mp3'
+          ],
           pdf: 'pdfs/ch9_2.pdf'       // Optional: path to PDF file
         },
         {
@@ -293,7 +297,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch11_4.js',
           description: '30 Questions',
-          video: 'videos/ch11_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch11_4_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch11_4.pdf'       // Optional: path to PDF file
         },
         {
@@ -302,7 +306,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch11_5.js',
           description: '30 Questions',
-          video: 'videos/ch11_5.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch11_5_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch11_5.pdf'       // Optional: path to PDF file
         },
         {
