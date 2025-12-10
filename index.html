@@ -291,6 +291,11 @@
                 videoList.forEach((videoSrc, index) => {
                     const isYouTube = videoSrc.includes('youtube.com') || videoSrc.includes('youtu.be');
 
+                    // Detect if file is audio or video based on extension
+                    const fileExt = videoSrc.split('.').pop().toLowerCase();
+                    const isAudio = ['mp3', 'm4a', 'wav', 'aac', 'ogg'].includes(fileExt);
+                    const isVideo = ['mp4', 'webm', 'mov', 'avi'].includes(fileExt);
+
                     if (isYouTube) {
                         const videoId = videoSrc.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
                         videoContainer.innerHTML += `
@@ -298,12 +303,24 @@
                                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen style="border-radius: 8px; margin-bottom: 1rem;"></iframe>
                         `;
-                    } else {
+                    } else if (isAudio) {
+                        // Render audio player for .mp3, .m4a, etc.
+                        videoContainer.innerHTML += `
+                            <div style="margin-bottom: 1.5rem;">
+                                ${videoList.length > 1 ? `<h3 style="margin-bottom: 0.5rem;">Part ${index + 1}</h3>` : ''}
+                                <audio controls controlsList="nodownload" style="width: 100%; border-radius: 8px;">
+                                    <source src="${videoSrc}" type="audio/${fileExt}">
+                                    Your browser does not support the audio tag.
+                                </audio>
+                            </div>
+                        `;
+                    } else if (isVideo) {
+                        // Render video player for .mp4, .webm, etc.
                         videoContainer.innerHTML += `
                             <div style="margin-bottom: 1.5rem;">
                                 ${videoList.length > 1 ? `<h3 style="margin-bottom: 0.5rem;">Part ${index + 1}</h3>` : ''}
                                 <video controls controlsList="nodownload" style="width: 100%; border-radius: 8px;">
-                                    <source src="${videoSrc}" type="video/mp4">
+                                    <source src="${videoSrc}" type="video/${fileExt}">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
