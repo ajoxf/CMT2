@@ -3,23 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CMT Level II Sample Exam</title>
+    <title>CMT Level II Learning Platform</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>CMT Level II Sample Exam</h1>
-            <div class="exam-info">
-                <p><strong>Total Questions:</strong> 150</p>
-                <p><strong>Time Limit:</strong> 3 hours</p>
-                <p id="timer">Time Remaining: 03:00:00</p>
+        <!-- Main Selection Screen -->
+        <div id="mainSelection" class="main-selection">
+            <h1>CMT Level II Learning Platform</h1>
+            <p class="subtitle">Master Technical Analysis through Interactive Learning</p>
+
+            <!-- Learning Topics Section -->
+            <div class="selection-category">
+                <h2>📚 Learning Topics</h2>
+                <div id="allSections" class="section-options">
+                    <!-- Will be loaded dynamically -->
+                </div>
             </div>
-            <div style="display: flex; gap: 10px; margin-top: 15px; justify-content: center; flex-wrap: wrap;">
-                <a href="chapters.html" class="clear-progress-btn" style="text-decoration: none; position: static;">📚 Study Chapters</a>
+
+            <!-- Full Exams Section -->
+            <div class="selection-category">
+                <h2>📝 Practice Exams</h2>
+                <div class="exam-options">
+                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(1, null)">
+                        <h3>Practice Exam 1</h3>
+                        <p>All Available Questions</p>
+                        <span class="exam-tag">Full Assessment</span>
+                    </button>
+                    <button class="exam-option-btn full-exam-btn" onclick="selectExam(2, null)">
+                        <h3>Practice Exam 2</h3>
+                        <p>All Available Questions</p>
+                        <span class="exam-tag">Full Assessment</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Learning Materials Container (hidden initially) -->
+        <div id="learningMaterialsWrapper" style="display: none;">
+            <header>
+                <div class="header-nav">
+                    <button class="nav-home-btn" onclick="goHome()" title="Return to main menu">
+                        🏠 Home
+                    </button>
+                </div>
+                <h1 id="learningTitle">Learning Materials</h1>
+            </header>
+
+            <div class="learning-content">
+                <div id="videoContainer" class="media-container" style="display: none;">
+                    <h2>🔊 Explanation in Audio</h2>
+                    <video id="learningVideo" controls controlsList="nodownload">
+                        <source id="videoSource" src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div id="pdfContainer" class="media-container" style="display: none;">
+                    <h2>📄 Study Materials</h2>
+                    <div class="pdf-viewer">
+                        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+                    </div>
+                    <a id="pdfDownload" href="" download class="download-btn">
+                        ⬇️ Download PDF
+                    </a>
+                </div>
+
+                <div class="learning-actions">
+                    <button id="startQuizBtn" class="primary-btn">Start Quiz →</button>
+                    <button id="skipToQuizBtn" class="secondary-btn">Skip to Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exam Container (hidden initially) -->
+        <div id="examWrapper" style="display: none;">
+            <header>
+                <div class="header-nav">
+                    <button id="homeBtn" class="nav-home-btn" onclick="goHome()" title="Return to main menu">
+                        🏠 Home
+                    </button>
+                    <button id="backBtn" class="nav-back-btn" onclick="goBack()" title="Go back" style="display: none;">
+                        ← Back
+                    </button>
+                </div>
+                <h1>CMT Level II Sample Exam <span id="examNumber"></span></h1>
+                <div class="exam-info">
+                    <p><strong>Total Questions:</strong> <span id="totalQuestions">150</span></p>
+                    <p><strong>Time Limit:</strong> <span id="timeLimit">3 hours</span></p>
+                    <p id="timer">Time Remaining: 03:00:00</p>
+                </div>
                 <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
-            </div>
-        </header>
+            </header>
 
         <div class="progress-container">
             <div class="progress-bar" id="progressBar"></div>
@@ -45,20 +120,291 @@
         <div class="navigation">
             <button id="prevBtn" class="nav-btn" disabled>Previous</button>
             <button id="nextBtn" class="nav-btn">Next</button>
-            <button id="submitBtn" class="submit-btn" style="display:none;">Submit Exam</button>
+            <button id="submitBtn" class="submit-btn" style="display:none;">Submit Quiz</button>
         </div>
 
         <div id="resultsModal" class="modal">
             <div class="modal-content">
-                <h2>Exam Results</h2>
+                <h2>Quiz Results</h2>
                 <div id="resultsContent"></div>
                 <button id="reviewBtn" class="btn">Review Answers</button>
-                <button id="restartBtn" class="btn">Restart Exam</button>
+                <button id="restartBtn" class="btn">Restart Quiz</button>
             </div>
+        </div>
         </div>
     </div>
 
-    <script src="questions.js"></script>
-    <script src="exam.js"></script>
+    <script src="sections_config.js"></script>
+    <script>
+        // Helper function to check if a section is completed
+        function isSectionCompleted(examNum, sectionId, questionCount) {
+            try {
+                const storageKey = `cmt_exam_${examNum}_${sectionId}_progress`;
+                const saved = localStorage.getItem(storageKey);
+                if (!saved) return false;
+
+                const progress = JSON.parse(saved);
+                const userAnswers = progress.userAnswers || [];
+
+                // Check if all questions are answered (not null)
+                if (userAnswers.length !== questionCount) return false;
+
+                return userAnswers.every(answer => answer !== null);
+            } catch (e) {
+                return false;
+            }
+        }
+
+        // Load all sections on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded');
+            console.log('examSections:', window.examSections || examSections);
+
+            loadAllSections();
+
+            // Check if exam was already selected (for page reloads)
+            const selectedExam = sessionStorage.getItem('selectedExam');
+            const selectedSection = sessionStorage.getItem('selectedSection');
+
+            if (selectedExam) {
+                const examNum = parseInt(selectedExam);
+                const section = selectedSection ? JSON.parse(selectedSection) : null;
+                selectExam(examNum, section);
+            }
+        });
+
+        // Load all learning topics
+        function loadAllSections() {
+            console.log('Loading sections...');
+
+            // Load all sections from examSections[1] (now just general topics)
+            const sectionsContainer = document.getElementById('allSections');
+            const allSections = examSections[1] || [];
+
+            console.log('All sections:', allSections);
+
+            if (allSections.length === 0) {
+                sectionsContainer.innerHTML = '<p class="no-sections">No topics available yet</p>';
+            } else {
+                allSections.forEach(mainSection => {
+                    // Create main section header
+                    const sectionHeader = document.createElement('div');
+                    sectionHeader.className = 'main-section-header';
+
+                    const hasSubsections = mainSection.subsections && mainSection.subsections.length > 0;
+
+                    sectionHeader.innerHTML = `
+                        <span class="expand-icon">${hasSubsections ? '▶' : ''}</span>
+                        <span class="section-title">${mainSection.title}</span>
+                        ${hasSubsections ? `<span class="subsection-count">(${mainSection.subsections.length} topics)</span>` : '<span class="no-topics">(Coming soon)</span>'}
+                    `;
+
+                    // Create subsections container
+                    const subsectionsContainer = document.createElement('div');
+                    subsectionsContainer.className = 'subsections-container collapsed';
+
+                    if (hasSubsections) {
+                        mainSection.subsections.forEach(subsection => {
+                            const subsectionBtn = document.createElement('button');
+                            subsectionBtn.className = 'subsection-btn';
+
+                            // Check if this section is completed
+                            const isCompleted = isSectionCompleted(1, subsection.id, subsection.questionCount);
+                            if (isCompleted) {
+                                subsectionBtn.classList.add('completed');
+                            }
+
+                            subsectionBtn.onclick = () => selectTopic(subsection);
+                            subsectionBtn.innerHTML = `
+                                <span class="subsection-title">${subsection.title}${isCompleted ? ' <span class="completion-check">✓</span>' : ''}</span>
+                                <span class="subsection-info">${subsection.description}</span>
+                            `;
+                            subsectionsContainer.appendChild(subsectionBtn);
+                        });
+
+                        // Toggle collapse on header click
+                        sectionHeader.onclick = () => {
+                            const isCollapsed = subsectionsContainer.classList.contains('collapsed');
+                            subsectionsContainer.classList.toggle('collapsed');
+                            const icon = sectionHeader.querySelector('.expand-icon');
+                            icon.textContent = isCollapsed ? '▼' : '▶';
+                        };
+                        sectionHeader.style.cursor = 'pointer';
+                    }
+
+                    sectionsContainer.appendChild(sectionHeader);
+                    if (hasSubsections) {
+                        sectionsContainer.appendChild(subsectionsContainer);
+                    }
+                });
+            }
+        }
+
+        // Topic selection handler (wrapper for backward compatibility)
+        function selectTopic(section) {
+            selectExam(1, section);
+        }
+
+        // Quiz selection handler
+        function selectExam(examNum, section) {
+            // Store selected exam and section
+            sessionStorage.setItem('selectedExam', examNum);
+            if (section) {
+                sessionStorage.setItem('selectedSection', JSON.stringify(section));
+            } else {
+                sessionStorage.removeItem('selectedSection');
+            }
+
+            // Hide main selection screen
+            document.getElementById('mainSelection').style.display = 'none';
+
+            // Check if section has learning materials (video/videos or PDF)
+            if (section && (section.video || section.videos || section.pdf)) {
+                showLearningMaterials(examNum, section);
+            } else {
+                startQuiz(examNum, section);
+            }
+        }
+
+        // Show learning materials page
+        function showLearningMaterials(examNum, section) {
+            // Hide other wrappers
+            document.getElementById('examWrapper').style.display = 'none';
+
+            // Show learning materials wrapper
+            document.getElementById('learningMaterialsWrapper').style.display = 'block';
+
+            // Update title
+            document.getElementById('learningTitle').textContent = section.title;
+
+            // Show video(s) if available
+            const videoContainer = document.getElementById('videoContainer');
+            const hasVideos = section.videos || section.video;
+
+            if (hasVideos) {
+                // Handle array of videos or single video
+                const videoList = section.videos ? (Array.isArray(section.videos) ? section.videos : [section.videos]) : [section.video];
+
+                // Clear and rebuild video container
+                videoContainer.innerHTML = '<h2>🔊 Explanation in Audio</h2>';
+
+                videoList.forEach((videoSrc, index) => {
+                    const isYouTube = videoSrc.includes('youtube.com') || videoSrc.includes('youtu.be');
+
+                    if (isYouTube) {
+                        const videoId = videoSrc.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
+                        videoContainer.innerHTML += `
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/${videoId}"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen style="border-radius: 8px; margin-bottom: 1rem;"></iframe>
+                        `;
+                    } else {
+                        videoContainer.innerHTML += `
+                            <div style="margin-bottom: 1.5rem;">
+                                ${videoList.length > 1 ? `<h3 style="margin-bottom: 0.5rem;">Part ${index + 1}</h3>` : ''}
+                                <video controls controlsList="nodownload" style="width: 100%; border-radius: 8px;">
+                                    <source src="${videoSrc}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        `;
+                    }
+                });
+
+                videoContainer.style.display = 'block';
+            } else {
+                videoContainer.style.display = 'none';
+            }
+
+            // Show PDF if available
+            const pdfContainer = document.getElementById('pdfContainer');
+            if (section.pdf) {
+                document.getElementById('pdfViewer').src = section.pdf;
+                document.getElementById('pdfDownload').href = section.pdf;
+                pdfContainer.style.display = 'block';
+            } else {
+                pdfContainer.style.display = 'none';
+            }
+
+            // Setup button handlers
+            document.getElementById('startQuizBtn').onclick = () => startQuiz(examNum, section);
+            document.getElementById('skipToQuizBtn').onclick = () => startQuiz(examNum, section);
+        }
+
+        // Start the quiz
+        function startQuiz(examNum, section) {
+            // Hide learning materials
+            document.getElementById('learningMaterialsWrapper').style.display = 'none';
+
+            // Show exam wrapper
+            document.getElementById('examWrapper').style.display = 'block';
+
+            // Update exam number in header
+            const headerElement = document.querySelector('#examWrapper header h1');
+            if (headerElement) {
+                if (section) {
+                    headerElement.innerHTML = section.title;
+                } else {
+                    headerElement.innerHTML = `CMT Level II Sample Exam <span id="examNumber">(Exam ${examNum})</span>`;
+                }
+            }
+
+            // Update exam info for sections
+            if (section) {
+                document.getElementById('totalQuestions').textContent = section.questionCount;
+                document.getElementById('timeLimit').textContent = 'No time limit';
+                document.getElementById('timer').style.display = 'none';
+            } else {
+                document.getElementById('totalQuestions').textContent = '150';
+                document.getElementById('timeLimit').textContent = '3 hours';
+                document.getElementById('timer').style.display = 'block';
+            }
+
+            // Load appropriate questions file
+            const script = document.createElement('script');
+            if (section) {
+                script.src = section.file;
+            } else {
+                script.src = examNum === 1 ? 'questions.js' : 'questions_2.js';
+            }
+
+            script.onload = function() {
+                console.log('Questions file loaded:', script.src);
+                console.log('Questions available:', typeof questions !== 'undefined', questions ? questions.length : 0);
+
+                // Load exam.js after questions are loaded
+                const examScript = document.createElement('script');
+                examScript.src = 'exam.js';
+                examScript.onload = function() {
+                    console.log('exam.js loaded successfully');
+                };
+                examScript.onerror = function() {
+                    console.error('Failed to load exam.js');
+                };
+                document.body.appendChild(examScript);
+            };
+
+            script.onerror = function() {
+                console.error('Failed to load questions file:', script.src);
+            };
+
+            document.body.appendChild(script);
+        }
+
+        // Go back to main menu
+        function goHome() {
+            if (confirm('Are you sure you want to return to the main menu? Your progress will be saved.')) {
+                // Clear session storage
+                sessionStorage.clear();
+                // Reload page to reset everything
+                window.location.reload();
+            }
+        }
+
+        // Go back (currently same as home, can be customized)
+        function goBack() {
+            goHome();
+        }
+    </script>
 </body>
 </html>
