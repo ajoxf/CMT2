@@ -82,7 +82,12 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch4_4.js',
           description: '30 Questions',
-          video: 'videos/ch4_4.mp4',  // Optional: path to MP4 file or YouTube URL
+          videos: [  // Array for multiple audio files
+            'videos/ch4_4_part1.mp3',
+            'videos/ch4_4_part2.mp3',
+            'videos/ch4_4_part3.mp3',
+            'videos/ch4_4_part4.mp3'
+          ],
           pdf: 'pdfs/ch4_4.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
@@ -200,7 +205,7 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch8.js',
           description: '30 Questions',
-          video: 'videos/ch8.mp4',  // Optional: path to MP4 file or YouTube URL
+          video: 'videos/ch8_1_part1.mp3',  // Changed to MP3 audio file
           pdf: 'pdfs/ch8.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
@@ -263,8 +268,11 @@ const examSections = {
           questionCount: 30,
           file: 'sections_exam1_ch10_1.js',
           description: '30 Questions',
-          video: 'videos/ch10_1.mp4',  // Optional: path to MP4 file or YouTube URL
-          pdf: 'pdfs/ch10_1_part1.pdf'       // Optional: path to PDF file (part2 also available)
+          videos: [  // Array for multiple audio files
+            'videos/ch10_1_part2.mp3',
+            'videos/ch10_1_part3.mp3'
+          ],
+          pdf: 'pdfs/ch10_1.pdf'       // Optional: path to PDF file
         },
         {
           id: 'ch10_1_2',
