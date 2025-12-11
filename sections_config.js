@@ -1,4 +1,17 @@
 // Configuration for exam sections with hierarchical structure
+
+// Exam-level reference materials
+const examReferences = {
+  1: {
+    pdf: 'pdfs/exam1_reference.pdf',
+    title: 'Exam 1 Reference Material'
+  },
+  2: {
+    pdf: 'pdfs/exam2_reference.pdf',
+    title: 'Exam 2 Reference Material'
+  }
+};
+
 const examSections = {
   1: [
     {

@@ -93,7 +93,12 @@
                     <p><strong>Time Limit:</strong> <span id="timeLimit">3 hours</span></p>
                     <p id="timer">Time Remaining: 03:00:00</p>
                 </div>
-                <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button id="referenceBtn" class="clear-progress-btn" title="View reference material" style="display: none;">
+                        📄 Reference Material
+                    </button>
+                    <button id="clearProgressBtn" class="clear-progress-btn" title="Clear saved progress and start fresh">Clear Progress</button>
+                </div>
             </header>
 
         <div class="progress-container">
@@ -371,10 +376,23 @@
                 document.getElementById('totalQuestions').textContent = section.questionCount;
                 document.getElementById('timeLimit').textContent = 'No time limit';
                 document.getElementById('timer').style.display = 'none';
+                // Hide reference button for sections
+                document.getElementById('referenceBtn').style.display = 'none';
             } else {
                 document.getElementById('totalQuestions').textContent = '150';
                 document.getElementById('timeLimit').textContent = '3 hours';
                 document.getElementById('timer').style.display = 'block';
+
+                // Show reference button for full exams
+                const referenceBtn = document.getElementById('referenceBtn');
+                if (examReferences[examNum]) {
+                    referenceBtn.style.display = 'inline-block';
+                    referenceBtn.onclick = function() {
+                        window.open(examReferences[examNum].pdf, '_blank');
+                    };
+                } else {
+                    referenceBtn.style.display = 'none';
+                }
             }
 
             // Load appropriate questions file
