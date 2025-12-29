@@ -22,6 +22,15 @@ const examSections = {
           description: '30 Questions',
           video: 'videos/ch1_1_2.mp4',  // Optional: path to MP4 file or YouTube URL
           pdf: 'pdfs/ch1_1_2.pdf'       // Optional: path to PDF file
+        },
+        {
+          id: 'ch1_2',
+          title: '1.2 - Fusion Analysis: Technical Analysis as Part of a Team Approach',
+          questionCount: 30,
+          file: 'sections_exam1_ch1_2.js',
+          description: '30 Questions',
+          video: 'videos/ch1_2.mp4',  // Optional: path to MP4 file or YouTube URL
+          pdf: 'pdfs/ch1_2.pdf'       // Optional: path to PDF file
         }
         // Add subsections here
       ]
