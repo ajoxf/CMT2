@@ -35,6 +35,9 @@ CH = {  # chapter ids in the course
 }
 
 # (section, position, existing lesson id or None to create, title, bank file or None = no questions yet)
+# lessons students don't need to complete (optional practice)
+OPTIONAL = {"Ch6_3_stretch"}
+
 PLAN = [
     (1, 1, "5a1af8f0-5597-45c0-ad54-c2932966cb3e", "1. Alpha and Beta - Outperforming the Benchmarks (Part 1)", "Ch1_1_part1"),
     (1, 2, "2fa69fff-a355-4ab1-b5a5-de06208a0dc9", "1. Alpha and Beta - Outperforming the Benchmarks (Part 2)", "Ch1_1_part2"),
@@ -51,6 +54,8 @@ PLAN = [
     (6, 3, "df953906-4ca0-4e11-bd5e-9fd9d7c0cc98", "3. Volatility Indexes and VIX Complex (Part 1: VIX Futures and Term Structure)", "Ch6_3_part1"),
     (6, 4, "078dc93e-4041-4ae0-8723-38a023d3a6e9", "3. Volatility Indexes and VIX Complex (Part 2: VIX Options and Hedging)", "Ch6_3_part2"),
     (6, 5, "da93d225-0e21-4aec-992c-573cb4a0101f", "3. Volatility Indexes and VIX Complex (Part 3: Convexity and Calculations)", "Ch6_3_part3"),
+    # optional: questions that go beyond the 6.3 notes; sits after "Chart Practice: Volatility Analysis" (position 6)
+    (6, 7, "05d60439-901e-44dd-842e-a79c6670cea5", "3. Volatility Indexes and VIX Complex (Stretch: Beyond the Curriculum Notes)", "Ch6_3_stretch"),
     (7, 1, "df87a899-1865-4d2c-95e3-4752bea9d585", "1. Analyzing Sentiment in the Stock Market", "Ch7_1"),
     (8, 1, "d2b46434-06c1-4bdf-8622-9087444ed473", "1. Inferential Statistics", "Ch8_1"),
     (9, 1, "3b145594-5887-44e2-a03a-6d9aedee2e81", "1. Momentum and Indicator Interpretation Part 1", "Ch9_1"),
@@ -186,12 +191,12 @@ def main():
             if same:
                 raise SystemExit(f"Refusing to create a second lesson titled {title!r}; add its id {same[0]['id']} to PLAN.")
             row = api("POST", "/rest/v1/lessons", {"course_id": COURSE, "chapter_id": CH[sec], "title": title, "type": "quiz",
-                                                   "position": pos, "is_required": True, "is_preview": False},
+                                                   "position": pos, "is_required": bank not in OPTIONAL, "is_preview": False},
                       prefer="return=representation")[0]
             lid = row["id"]
             api("POST", "/rest/v1/lesson_bodies", {"lesson_id": lid, "body": {"text": "", "files": [], "pass_pct": 70, "questions": qs}})
         else:
-            api("PATCH", f"/rest/v1/lessons?id=eq.{lid}", {"title": title, "position": pos})
+            api("PATCH", f"/rest/v1/lessons?id=eq.{lid}", {"title": title, "position": pos, "is_required": bank not in OPTIONAL})
             cur = api("GET", f"/rest/v1/lesson_bodies?lesson_id=eq.{lid}&select=body")
             body = dict(cur[0]["body"] or {}) if cur else {}
             body.update({"pass_pct": body.get("pass_pct", 70), "questions": qs})

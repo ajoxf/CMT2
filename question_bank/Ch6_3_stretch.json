@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "question": "A VIX future can trade several points above or below spot VIX for long periods without an obvious arbitrage. Why?",
+    "options": [
+      "Spot VIX cannot be held, so each future prices the VIX expected at its expiry",
+      "Arbitrageurs cannot finance the interest-rate carry on the index",
+      "Futures settle on realized volatility, which differs from spot VIX",
+      "Exchange price limits stop futures from converging until expiry"
+    ],
+    "correct": 0,
+    "hasImage": false,
+    "explanation": "Answer: A. Spot VIX cannot be held, so each future prices the VIX expected at its expiry.\n\nWhy: For a stock index, if the future is too expensive you can buy the shares, sell the future and lock in profit; this \"cost of carry\" link keeps them close. The VIX is just a calculated number, so nobody can buy and store it. Without that link, a VIX future simply reflects the market's best guess of the VIX on its own settlement date. If traders expect volatility to change, the future can sit far from today's VIX with no riskless trade available.\n\nWhy not the others:\nB – The issue is not financing cost; there is nothing to finance because the index itself cannot be bought.\nC – VIX futures settle to a VIX value (implied volatility), not to realized volatility.\nD – Price limits do not explain long-lasting gaps; the gap comes from expectations.\n\nRemember: No way to hold the VIX means no carry arbitrage, so each future is an expectation, not a copy of spot.",
+    "source": "Ch6_3_part1.json #6"
+  },
+  {
+    "id": 2,
+    "question": "On one day the S&P 500 drops 3%, and on another day it rises 3%. How does the VIX typically respond?",
+    "options": [
+      "It rises and falls by about the same amount on the two days",
+      "It falls sharply on the down day",
+      "It jumps far more on the down day than it eases on the up day",
+      "It rises on both days, because any large move lifts implied volatility"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. It jumps far more on the down day than it eases on the up day.\n\nWhy: The VIX and the S&P 500 usually move in opposite directions, but not evenly. Falling markets spark fear and a rush to buy put options for protection, which pushes implied volatility up quickly. Rising markets calm nerves only slowly, so the VIX drifts lower by a smaller amount. This lopsided reaction is called asymmetry.\n\nWhy not the others:\nA – It ignores the asymmetry: fear reacts much faster than relief.\nB – The VIX normally rises, not falls, when stocks drop sharply.\nD – On strong up days the VIX usually eases rather than rises.\n\nRemember: The VIX takes the stairs down and the elevator up.",
+    "source": "Ch6_3_part1.json #14"
+  },
+  {
+    "id": 3,
+    "question": "Spot VIX is 11, well below its long-run average near 19, and the seventh-month VIX future trades at 17.5. What best explains why the far contract sits so far above spot?",
+    "options": [
+      "Far contracts embed a cost of carrying the index",
+      "Volatility tends to mean-revert, so expected VIX further out is higher",
+      "The far contract is priced off last year's realized volatility",
+      "The far contract has a larger multiplier, so it trades at a premium"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. Volatility tends to mean-revert, so expected VIX further out is higher.\n\nWhy: Mean reversion means a value tends to drift back toward its long-run average. With spot VIX at 11, well below its average near 19, traders expect it to rise over time. A future seven months away gives plenty of time for that move, so it is priced at 17.5, close to the average. Nearer contracts sit in between, producing a steep contango curve.\n\nWhy not the others:\nA – The VIX cannot be held, so there is no carrying cost built into its futures.\nC – VIX futures price expected implied volatility at expiry, not past realized volatility.\nD – Contract size does not change the price per VIX point.\n\nRemember: Far VIX futures lean toward the long-run average because volatility mean-reverts.",
+    "source": "Ch6_3_part1.json #15"
+  },
+  {
+    "id": 4,
+    "question": "The front-month VIX future (10 days to expiry) trades at 18.0 and the second-month future (40 days to expiry) at 20.0. Interpolating linearly by days, what is the implied 30-day constant-maturity VIX futures level?",
+    "options": [
+      "18.67",
+      "19.00",
+      "19.33",
+      "20.67"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. 19.33.\n\nWhy: Neither contract expires exactly 30 days out, so we blend them by how close each is to day 30. The second month is 40 − 10 = 30 days after the first. Weight on F1 = (40 − 30) ÷ 30 = 1/3; weight on F2 = (30 − 10) ÷ 30 = 2/3. Level = 1/3 × 18.0 + 2/3 × 20.0 = 6.00 + 13.33 = 19.33. Day 30 is closer to the second contract, so it gets more weight.\n\nWhy not the others:\nA – 18.67 puts 2/3 weight on the front month, reversing the weights.\nB – 19.00 is a simple average and ignores where day 30 falls.\nD – 20.67 extrapolates beyond F2, though day 30 lies between the two expiries.\n\nRemember: Weight each future by how close its expiry is to the target date.",
+    "source": "Ch6_3_part1.json #19"
+  },
+  {
+    "id": 5,
+    "question": "Spot VIX is 24. Treating it as an annualized one-standard-deviation move, what is the approximate one-standard-deviation move expected in the S&P 500 over the next 30 days?",
+    "options": [
+      "About 2.0%",
+      "About 6.9%",
+      "About 8.0%",
+      "About 24%"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. About 6.9%.\n\nWhy: The VIX is quoted as an annualized volatility, so 24 means about a 24% one-standard-deviation move over a year. Volatility grows with the square root of time, so to scale it down to one month you divide by the square root of 12. Calculation: 24 ÷ √12 = 24 ÷ 3.464 ≈ 6.93%. So the market expects roughly a ±6.9% move over the next 30 days about two-thirds of the time.\n\nWhy not the others:\nA – 2.0% comes from dividing by 12 instead of √12, which understates the move.\nC – 8.0% comes from dividing by 3 instead of √12.\nD – 24% is the annual figure, not the 30-day figure.\n\nRemember: To convert the VIX to a monthly move, divide by √12 (about 3.46).",
+    "source": "Ch6_3_part1.json #30"
+  },
+  {
+    "id": 6,
+    "question": "An investor owns an index at 4,000 and buys a put struck at 3,800 for 60 points. At expiration the index is at 3,400. What is the net loss on the hedged position, as a percentage of 4,000?",
+    "options": [
+      "5.0%",
+      "6.5%",
+      "15.0%",
+      "16.5%"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. 6.5%.\n\nWhy: A protective put sets a floor at its strike. The index falls 4,000 → 3,400, a 600-point loss. The put pays strike minus index = 3,800 − 3,400 = 400 points. Net loss = 600 − 400 + 60 premium = 260 points. 260 ÷ 4,000 = 6.5%. A quicker way: maximum loss = (4,000 − 3,800) + 60 = 260 points, whatever happens below the strike.\n\nWhy not the others:\nA – 5.0% counts only the 200-point drop to the strike and forgets the 60-point premium.\nC – 15.0% is the unhedged loss (600 ÷ 4,000), ignoring the put's payoff.\nD – 16.5% adds the premium to the unhedged loss, as if the put paid nothing.\n\nRemember: Protective put max loss = (price − strike) + premium.",
+    "source": "Ch6_3_part2.json #2"
+  },
+  {
+    "id": 7,
+    "question": "An index is at 5,000. An investor holding it buys a 4,750 put for 70 and sells a 5,500 call for 30, both with the same expiration. If the index finishes at 5,800, what is the hedged position's return?",
+    "options": [
+      "9.2%",
+      "10.0%",
+      "15.2%",
+      "16.0%"
+    ],
+    "correct": 0,
+    "hasImage": false,
+    "explanation": "Answer: A. 9.2%.\n\nWhy: This is a collar: own the index, buy a put for protection, sell a call to help pay for it. Net premium = 70 paid − 30 received = 40 points. At 5,800 the index is above the 5,500 call strike, so gains are capped at 5,500. Gain = 5,500 − 5,000 = 500 points. Net = 500 − 40 = 460. Return = 460 ÷ 5,000 = 9.2%.\n\nWhy not the others:\nB – 10.0% ignores the 40-point net cost of the options.\nC – 15.2% takes the full 800-point gain less the 40 premium, forgetting that the short call caps gains at 5,500.\nD – 16.0% is the unhedged return (800 ÷ 5,000), ignoring both the cap and the premium.\n\nRemember: A collar's upside stops at the call strike, minus the net premium.",
+    "source": "Ch6_3_part2.json #6"
+  },
+  {
+    "id": 8,
+    "question": "A trader buys one VIX call struck at 25 for $1.50. VIX options carry a $100 multiplier. If the VIX settles at 40 at expiration, what is the profit?",
+    "options": [
+      "$150",
+      "$1,350",
+      "$1,500",
+      "$3,850"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. $1,350.\n\nWhy: At expiration a call pays the settlement value minus the strike, if positive. Payoff = 40 − 25 = 15 points. In dollars: 15 × $100 = $1,500. The premium paid was 1.50 × $100 = $150. Profit = $1,500 − $150 = $1,350.\n\nWhy not the others:\nA – $150 is just the premium paid.\nC – $1,500 is the payoff before subtracting the premium.\nD – $3,850 uses the settlement value (40) instead of the strike difference.\n\nRemember: Option profit = (payoff − premium) × multiplier.",
+    "source": "Ch6_3_part2.json #12"
+  },
+  {
+    "id": 9,
+    "question": "How are standard VIX options exercised and settled?",
+    "options": [
+      "American-style, settled in VIX futures",
+      "American-style, physically settled in index shares",
+      "European-style, cash-settled",
+      "European-style, settled in S&P 500 futures"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. European-style, cash-settled.\n\nWhy: European-style means the option can be exercised only at expiration, not before. Cash-settled means no asset changes hands; the holder simply receives the in-the-money amount in cash. VIX options settle on a special opening VIX value on expiration morning, with the cash paid based on that number.\n\nWhy not the others:\nA – VIX options are not American-style and do not deliver futures.\nB – There are no \"index shares\" to deliver; the VIX is only a calculation.\nD – Settlement is in cash, not in S&P 500 futures.\n\nRemember: VIX options: exercise only at expiry, paid in cash.",
+    "source": "Ch6_3_part2.json #31"
+  },
+  {
+    "id": 10,
+    "question": "In the VXTH design, why is the VIX-call weight cut when the front-month future is very high and dropped entirely above 50?",
+    "options": [
+      "Calls have zero delta once the VIX future exceeds 50",
+      "The strategy wants maximum exposure at the volatility peak",
+      "A higher VIX lowers option premiums, so fewer calls are needed",
+      "Volatility tends to mean-revert after extreme spikes"
+    ],
+    "correct": 3,
+    "hasImage": false,
+    "explanation": "Answer: D. Volatility tends to mean-revert after extreme spikes.\n\nWhy: Extreme VIX readings rarely last; volatility tends to fall back toward its average. When the front-month future is already very high, new calls are expensive and the next big move is more likely down. Cutting the hedge, then dropping it above 50, avoids paying peak prices for protection that is likely to lose value.\n\nWhy not the others:\nA – Calls struck near the market still have meaningful delta at high VIX levels.\nB – The design deliberately reduces, not maximizes, exposure at extremes.\nC – A higher VIX makes option premiums more expensive, not cheaper.\n\nRemember: Buy volatility protection before the spike, not at its peak.",
+    "source": "Ch6_3_part2.json #35"
+  },
+  {
+    "id": 11,
+    "question": "Spot VIX is 14 while the two-month VIX future is 17. Relative to its pricing reference, a two-month VIX call struck at 17 is best described as:",
+    "options": [
+      "Deep out-of-the-money, because spot VIX is only 14",
+      "Deep in-the-money, because spot VIX is below the strike",
+      "Worthless, because spot VIX is below the strike",
+      "Roughly at-the-money, since it is priced off the 17 future"
+    ],
+    "correct": 3,
+    "hasImage": false,
+    "explanation": "Answer: D. Roughly at-the-money, since it is priced off the 17 future.\n\nWhy: A VIX option is priced relative to the VIX future that expires on the same date, not to spot VIX. Here the two-month future is 17, the same as the strike. An option whose strike equals its underlying's price is at the money. Spot VIX at 14 matters only in that the future must converge to the VIX by expiry.\n\nWhy not the others:\nA – Comparing the strike to spot VIX is the classic mistake; the reference is the future.\nB – A call is in the money when the underlying is above the strike, not below.\nC – Before expiry, an at-the-money option still has time value.\n\nRemember: Judge a VIX option's moneyness against its matching future, not spot VIX.",
+    "source": "Ch6_3_part2.json #37"
+  },
+  {
+    "id": 12,
+    "question": "The VXTH overlay buys 30-delta VIX calls. Which description of these options is most accurate?",
+    "options": [
+      "Relatively cheap out-of-the-money calls",
+      "Deep in-the-money calls that move one-for-one with VIX futures",
+      "At-the-money calls with a delta of about 0.50",
+      "Puts that profit when implied volatility falls"
+    ],
+    "correct": 0,
+    "hasImage": false,
+    "explanation": "Answer: A. Relatively cheap out-of-the-money calls.\n\nWhy: A call's delta loosely reflects how far it is from the money. At-the-money calls have delta near 0.50; deep in-the-money ones approach 1. A 30-delta call is out of the money, with a strike above the current VIX future. That makes it fairly cheap while still able to rise sharply in a spike.\n\nWhy not the others:\nB – Deep in-the-money calls have delta near 1, not 0.30.\nC – At-the-money calls have delta near 0.50, not 0.30.\nD – The strategy uses calls, which gain from rising volatility, not puts.\n\nRemember: 30-delta = out of the money and relatively cheap.",
+    "source": "Ch6_3_part2.json #45"
+  },
+  {
+    "id": 13,
+    "question": "Monthly returns of a strategy are +6%, -3%, +1%, -4%. Using a 0% minimum acceptable return and dividing by the total number of months, what is the downside deviation?",
+    "options": [
+      "1.75%",
+      "2.5%",
+      "3.5%",
+      "5.0%"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. 2.5%\n\nWhy: Downside deviation measures only the bad side. Set any return above 0% to zero and square the shortfalls: +6% → 0, −3% → 9, +1% → 0, −4% → 16. Sum = 25. Divide by all 4 months: 25 ÷ 4 = 6.25. Square root: √6.25 = 2.5%.\n\nWhy not the others:\nA – 1.75% averages the losses over four months ((3 + 4) ÷ 4) without squaring and taking the square root.\nC – 3.5% is the average of the two losses (7 ÷ 2), not a deviation.\nD – 5.0% is √25, which skips dividing by the number of months.\n\nRemember: Downside deviation: square the shortfalls below the target, average, then take the square root.",
+    "source": "Ch6_3_part2.json #48"
+  },
+  {
+    "id": 14,
+    "question": "A VIX call has a delta of 0.20 and a gamma of 0.05 with respect to its VIX future. If the future rises 4 points, approximately how much does the call's price rise (using delta plus the gamma adjustment)?",
+    "options": [
+      "About 0.40",
+      "About 0.80",
+      "About 1.20",
+      "About 1.60"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. About 1.20.\n\nWhy: Delta gives the first estimate of the price change; gamma (how fast delta itself changes) adds a correction for bigger moves. Formula: change ≈ delta × move + ½ × gamma × move². Delta part = 0.20 × 4 = 0.80. Gamma part = 0.5 × 0.05 × 4² = 0.5 × 0.05 × 16 = 0.40. Total ≈ 0.80 + 0.40 = 1.20. The gamma term is why gains accelerate as the move grows.\n\nWhy not the others:\nA – 0.40 is only the gamma adjustment, missing the delta part.\nB – 0.80 uses delta alone and ignores gamma.\nD – 1.60 uses the full gamma × move² (0.05 × 16 = 0.80) without the ½ factor.\n\nRemember: Option change ≈ delta × move + ½ × gamma × move².",
+    "source": "Ch6_3_part3.json #1"
+  },
+  {
+    "id": 15,
+    "question": "An exchange-traded product holds a short position in short-term VIX futures, rebalanced daily. Over a long period dominated by contango with occasional spikes, what pattern is most likely?",
+    "options": [
+      "Steady losses with occasional large gains in spikes",
+      "Gradual roll gains punctuated by sharp losses in spikes",
+      "A price that tracks spot VIX one-for-one over time",
+      "Gains in all conditions, with no exposure to spikes"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. Gradual roll gains punctuated by sharp losses in spikes.\n\nWhy: A short VIX futures position is the reverse of a long one. In contango, each short contract is sold high and slides down toward the lower spot VIX, so the fund earns small, steady gains. When a crisis sends the VIX soaring, the short position loses heavily and fast. The pattern is a slow climb interrupted by sudden, deep drops.\n\nWhy not the others:\nA – Steady losses with occasional spikes describes a long VIX futures product.\nC – Futures, and products holding them, do not track spot VIX one-for-one.\nD – Short volatility is highly exposed to spikes; that is its main risk.\n\nRemember: Short VIX futures: collect small gains in calm, suffer big losses in spikes.",
+    "source": "Ch6_3_part3.json #5"
+  },
+  {
+    "id": 16,
+    "question": "VIX futures carry a $1,000 multiplier per index point. A trader long one contract sees the price rise from 18.00 to 26.00. What is the gain?",
+    "options": [
+      "$80",
+      "$800",
+      "$8,000",
+      "$26,000"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. $8,000\n\nWhy: Futures profit = price change × multiplier × number of contracts. Price change = 26.00 − 18.00 = 8.00 points. Gain = 8.00 × $1,000 × 1 = $8,000. The multiplier turns index points into dollars, and VIX futures use $1,000 per point while VIX options use $100, so always check which contract you are pricing.\n\nWhy not the others:\nA – $80 applies a multiplier of 10 instead of 1,000.\nB – $800 applies the $100 VIX option multiplier, not the $1,000 futures multiplier.\nD – $26,000 is the notional value at the new price, not the gain.\n\nRemember: Futures P&L = points moved × multiplier.",
+    "source": "Ch6_3_part3.json #7"
+  },
+  {
+    "id": 17,
+    "question": "A $10 million portfolio wants VIX calls that pay about $1 million in total if the VIX settles at 40. Each call contract would pay $2,000 at that level and costs $120 today. What is the approximate upfront cost?",
+    "options": [
+      "$6,000",
+      "$60,000",
+      "$120,000",
+      "$600,000"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. $60,000\n\nWhy: First find how many contracts deliver the target payout: $1,000,000 ÷ $2,000 per contract = 500 contracts. Then the cost: 500 × $120 = $60,000. That is 0.6% of the $10 million portfolio, showing how cheap out-of-the-money VIX calls can be relative to their crash payoff.\n\nWhy not the others:\nA – $6,000 drops a zero, as if only 50 contracts were bought.\nC – $120,000 doubles the number of contracts needed.\nD – $600,000 uses 5,000 contracts, ten times too many.\n\nRemember: Contracts = target payoff ÷ payoff per contract; cost = contracts × premium.",
+    "source": "Ch6_3_part3.json #8"
+  },
+  {
+    "id": 18,
+    "question": "Apart from rising implied volatility, what option feature makes an out-of-the-money VIX call's gains accelerate as the VIX keeps climbing?",
+    "options": [
+      "Its delta stays fixed at 0.30 as the VIX rises",
+      "Positive gamma: its delta rises toward 1 as it goes in the money",
+      "Time decay adds to its value as the spike unfolds",
+      "Its vega falls to zero as the VIX rises, removing drag"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. Positive gamma: its delta rises toward 1 as it goes in the money.\n\nWhy: Gamma is how much delta changes as the underlying moves. An out-of-the-money call starts with a low delta, so early rises add little value. As the VIX keeps climbing, the call moves toward and into the money and its delta grows toward 1. Each extra point then adds more value than the last, so gains accelerate.\n\nWhy not the others:\nA – Delta does not stay fixed; it rises, which is exactly the source of acceleration.\nC – Time decay reduces option value; it never adds to it.\nD – Vega usually stays meaningful in a spike; falling vega would not create acceleration.\n\nRemember: Positive gamma makes a call's delta grow, so its gains speed up.",
+    "source": "Ch6_3_part3.json #11"
+  },
+  {
+    "id": 19,
+    "question": "The index is at 4,200. An investor buys a 4,000-strike put for 50 points to protect a long index position. Ignoring other costs, what index level at expiration is needed for the hedged position to break even?",
+    "options": [
+      "4,000",
+      "4,050",
+      "4,150",
+      "4,250"
+    ],
+    "correct": 3,
+    "hasImage": false,
+    "explanation": "Answer: D. 4,250\n\nWhy: Owning the index plus a put, the investor paid 50 points for protection. To break even, the index must rise enough to cover that cost. Breakeven = 4,200 + 50 = 4,250. Below that the hedged position loses; its worst loss is (4,200 − 4,000) + 50 = 250 points.\n\nWhy not the others:\nA – 4,000 is the put strike, which sets the floor, not the breakeven.\nB – 4,050 adds the premium to the strike, mixing up the floor with the breakeven of a different position.\nC – 4,150 subtracts the premium instead of adding it.\n\nRemember: Protective put breakeven = purchase price + premium.",
+    "source": "Ch6_3_part3.json #13"
+  },
+  {
+    "id": 20,
+    "question": "A trader holds one VIX call struck at 25 into expiration. Spot VIX closes at 31 the evening before settlement, but the special opening quotation used to settle the option on expiration morning is 27. With a $100 multiplier, what does the call pay?",
+    "options": [
+      "$0",
+      "$200",
+      "$600",
+      "$2,000"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. $200\n\nWhy: VIX options do not settle on the prior evening's close. They settle on a special opening quotation calculated from actual opening option prices on expiration morning. Here that value is 27. Payoff = (27 − 25) × $100 = $200. The 31 close the night before is irrelevant.\n\nWhy not the others:\nA – $0 would apply only if the settlement value were at or below 25.\nC – $600 uses the previous evening's close (31), not the settlement value.\nD – $2,000 applies the $1,000 futures multiplier instead of $100.\n\nRemember: VIX options settle on the expiration-morning special quotation, not the prior close.",
+    "source": "Ch6_3_part3.json #14"
+  },
+  {
+    "id": 21,
+    "question": "A hedger compares VIX calls struck at 20 and at 30 when the front-month future is 17. What is the main trade-off of choosing the 30 strike?",
+    "options": [
+      "It costs more but pays off in smaller volatility spikes",
+      "It pays off sooner because it is further out-of-the-money",
+      "It is cheaper but needs a much larger spike to pay off",
+      "It removes basis risk relative to the 20-strike call"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. It is cheaper but needs a much larger spike to pay off.\n\nWhy: With the future at 17, a 30-strike call is much further out of the money than a 20-strike. That makes it cheaper, because it is less likely to finish in the money. But the VIX must climb above 30 before it pays anything at expiry, so it helps only in a severe spike. The 20 strike costs more but pays in moderate spikes too.\n\nWhy not the others:\nA – This describes the 20-strike call, not the 30.\nB – Further out of the money means it pays later, not sooner.\nD – Both are VIX calls; changing strike does not change basis risk relative to the portfolio.\n\nRemember: Higher strike = cheaper hedge, but only pays in bigger disasters.",
+    "source": "Ch6_3_part3.json #18"
+  },
+  {
+    "id": 22,
+    "question": "A one-month at-the-money S&P 500 put costs 2.0% of the index. With implied volatility unchanged, roughly what would a three-month at-the-money put cost?",
+    "options": [
+      "0.7%",
+      "2.0%",
+      "3.5%",
+      "6.0%"
+    ],
+    "correct": 2,
+    "hasImage": false,
+    "explanation": "Answer: C. 3.5%\n\nWhy: With implied volatility unchanged, an at-the-money option's price grows roughly with the square root of time, not in a straight line. Three months is 3 times one month, so the price scales by √3 ≈ 1.73. Estimated cost = 2.0% × 1.73 ≈ 3.5%.\n\nWhy not the others:\nA – 0.7% divides by √3 instead of multiplying.\nB – 2.0% ignores the extra time entirely.\nD – 6.0% scales the price in a straight line with time (3 × 2%), which overstates it.\n\nRemember: At-the-money option prices grow with the square root of time.",
+    "source": "Ch6_3_part3.json #21"
+  },
+  {
+    "id": 23,
+    "question": "A hedger buys a VIX 20 call for 1.80 and sells a VIX 35 call for 0.50 with the same expiration. What is the maximum profit per unit at expiration?",
+    "options": [
+      "1.30",
+      "13.70",
+      "15.00",
+      "16.30"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. 13.70\n\nWhy: This is a bull call spread. Net cost = 1.80 − 0.50 = 1.30. Its maximum payoff is the difference between strikes, reached when the VIX settles at or above 35: 35 − 20 = 15.00. Maximum profit = 15.00 − 1.30 = 13.70 per unit.\n\nWhy not the others:\nA – 1.30 is the net cost, which is the maximum loss, not the profit.\nC – 15.00 is the maximum payoff before subtracting the cost.\nD – 16.30 adds the cost instead of subtracting it.\n\nRemember: Call spread max profit = strike width − net premium.",
+    "source": "Ch6_3_part3.json #24"
+  },
+  {
+    "id": 24,
+    "question": "An investor owns the index at 4,000 and sells a 4,100 call for 60 (a buy-write). If the index ends at 3,700, what is the position's loss as a percentage of 4,000?",
+    "options": [
+      "1.5%",
+      "6.0%",
+      "7.5%",
+      "8.5%"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. 6.0%\n\nWhy: A buy-write means owning the index and selling a call against it. The index falls 4,000 → 3,700, a 300-point loss. The call expires worthless, and the investor keeps the 60 premium. Net = −300 + 60 = −240 points. −240 ÷ 4,000 = −6.0%.\n\nWhy not the others:\nA – 1.5% is the premium as a share of 4,000, not the net loss.\nC – 7.5% is the unhedged loss, ignoring the premium received.\nD – 8.5% adds the premium to the loss, as if it had been paid rather than received.\n\nRemember: A covered call cushions a decline only by the premium collected.",
+    "source": "Ch6_3_part3.json #25"
+  },
+  {
+    "id": 25,
+    "question": "Why do buy-write (covered call) and put-write programs not function as tail-risk hedges?",
+    "options": [
+      "They need VIX futures to implement and roll",
+      "They are short volatility and keep most crash losses",
+      "They are long volatility, so they lag in calm markets",
+      "They cap losses at the strike of the option sold"
+    ],
+    "correct": 1,
+    "hasImage": false,
+    "explanation": "Answer: B. They are short volatility and keep most crash losses.\n\nWhy: In a buy-write you sell calls; in a put-write you sell puts. Either way you collect premium and are short volatility, meaning you benefit when markets stay calm. In a crash the premium is small compared with the loss: the covered-call holder still owns the falling index, and the put writer must buy at the strike. So these strategies keep most of the downside.\n\nWhy not the others:\nA – Both use SPX options and need no VIX futures.\nC – Selling options is short volatility, not long.\nD – Selling options caps gains, not losses; losses below the strike remain.\n\nRemember: Selling options earns income but leaves you exposed in a crash.",
+    "source": "Ch6_3_part3.json #26"
+  },
+  {
+    "id": 26,
+    "question": "A $2.4 million portfolio moves one-for-one with the S&P 500 (beta 1.0). The index is at 4,800 and SPX options have a $100 multiplier. How many put contracts are needed to cover the portfolio's notional value?",
+    "options": [
+      "5",
+      "48",
+      "50",
+      "500"
+    ],
+    "correct": 0,
+    "hasImage": false,
+    "explanation": "Answer: A. 5\n\nWhy: One SPX option covers index × multiplier in value: 4,800 × $100 = $480,000. With beta 1.0, the portfolio moves like the index, so no beta adjustment is needed. Contracts = $2,400,000 ÷ $480,000 = 5.\n\nWhy not the others:\nB – 48 divides the index level by 100 rather than computing notional per contract.\nC – 50 is ten times too many, as if each contract covered $48,000.\nD – 500 divides portfolio value by the index level without applying the multiplier.\n\nRemember: Contracts = portfolio value × beta ÷ (index × multiplier).",
+    "source": "Ch6_3_part3.json #28"
+  }
+]

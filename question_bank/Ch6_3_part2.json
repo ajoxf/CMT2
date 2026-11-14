@@ -13,19 +13,6 @@
     "explanation": "Answer: D. They tend to move inversely to the S&P 500, gaining in corrections.\n\nWhy: When stocks fall, fear rises and the VIX usually jumps; when stocks rise, the VIX tends to drift down. That negative relationship means a long VIX call gains value exactly when an equity portfolio is losing. Because a call's loss is limited to its premium, it also gives large upside in a crash for a small, known cost. That combination makes VIX calls a popular hedge.\n\nWhy not the others:\nA – VIX calls usually lose value when the S&P 500 rises, not gain.\nB – VIX calls are strongly, negatively linked to the S&P 500; that link is the whole point of the hedge.\nC – VIX reflects expected (implied) volatility, not past realized swings.\n\nRemember: VIX calls hedge stocks because the VIX tends to spike when stocks fall."
   },
   {
-    "id": 2,
-    "question": "An investor owns an index at 4,000 and buys a put struck at 3,800 for 60 points. At expiration the index is at 3,400. What is the net loss on the hedged position, as a percentage of 4,000?",
-    "options": [
-      "5.0%",
-      "6.5%",
-      "15.0%",
-      "16.5%"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. 6.5%.\n\nWhy: A protective put sets a floor at its strike. The index falls 4,000 → 3,400, a 600-point loss. The put pays strike minus index = 3,800 − 3,400 = 400 points. Net loss = 600 − 400 + 60 premium = 260 points. 260 ÷ 4,000 = 6.5%. A quicker way: maximum loss = (4,000 − 3,800) + 60 = 260 points, whatever happens below the strike.\n\nWhy not the others:\nA – 5.0% counts only the 200-point drop to the strike and forgets the 60-point premium.\nC – 15.0% is the unhedged loss (600 ÷ 4,000), ignoring the put's payoff.\nD – 16.5% adds the premium to the unhedged loss, as if the put paid nothing.\n\nRemember: Protective put max loss = (price − strike) + premium."
-  },
-  {
     "id": 3,
     "question": "Why do VIX puts generally trade in lower volume than VIX calls?",
     "options": [
@@ -63,19 +50,6 @@
     "correct": 3,
     "hasImage": false,
     "explanation": "Answer: D. VIX call volume exceeds put volume in crises, the reverse of SPX options.\n\nWhy: S&P 500 investors protect against drops by buying puts on the index, so SPX put volume rises in a sell-off. A sell-off also lifts the VIX, so the matching hedge in VIX options is a call. The two markets therefore show opposite patterns: SPX hedging shows up as puts, VIX hedging shows up as calls.\n\nWhy not the others:\nA – VIX option crisis hedging shows up mainly in calls, not puts.\nB – Rebound bets do exist, but crisis activity in VIX options is dominated by calls.\nC – SPX crisis hedging is dominated by puts, not calls.\n\nRemember: Fear shows as SPX puts and as VIX calls: opposite sides, same worry."
-  },
-  {
-    "id": 6,
-    "question": "An index is at 5,000. An investor holding it buys a 4,750 put for 70 and sells a 5,500 call for 30, both with the same expiration. If the index finishes at 5,800, what is the hedged position's return?",
-    "options": [
-      "9.2%",
-      "10.0%",
-      "15.2%",
-      "16.0%"
-    ],
-    "correct": 0,
-    "hasImage": false,
-    "explanation": "Answer: A. 9.2%.\n\nWhy: This is a collar: own the index, buy a put for protection, sell a call to help pay for it. Net premium = 70 paid − 30 received = 40 points. At 5,800 the index is above the 5,500 call strike, so gains are capped at 5,500. Gain = 5,500 − 5,000 = 500 points. Net = 500 − 40 = 460. Return = 460 ÷ 5,000 = 9.2%.\n\nWhy not the others:\nB – 10.0% ignores the 40-point net cost of the options.\nC – 15.2% takes the full 800-point gain less the 40 premium, forgetting that the short call caps gains at 5,500.\nD – 16.0% is the unhedged return (800 ÷ 5,000), ignoring both the cap and the premium.\n\nRemember: A collar's upside stops at the call strike, minus the net premium."
   },
   {
     "id": 7,
@@ -141,19 +115,6 @@
     "correct": 0,
     "hasImage": false,
     "explanation": "Answer: A. A quarterly 5% OTM put partly funded by a quarterly 10% OTM call.\n\nWhy: A collar holds the index, buys an out-of-the-money (OTM) put for protection, and sells an OTM call to help pay for it. The quarterly (\"3M\") version uses three-month options: a put about 5% below the index and a call about 10% above it. The call premium covers part of the put cost, and gains above the call strike are given up.\n\nWhy not the others:\nB – A monthly put with no call is a protective put program, not a collar.\nC – A put alone with no call sold is also not a collar.\nD – A put spread funded by a call describes a zero-cost put-spread collar, and it is not quarterly.\n\nRemember: Collar = long OTM put + short OTM call; the 3M version uses quarterly options."
-  },
-  {
-    "id": 12,
-    "question": "A trader buys one VIX call struck at 25 for $1.50. VIX options carry a $100 multiplier. If the VIX settles at 40 at expiration, what is the profit?",
-    "options": [
-      "$150",
-      "$1,350",
-      "$1,500",
-      "$3,850"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. $1,350.\n\nWhy: At expiration a call pays the settlement value minus the strike, if positive. Payoff = 40 − 25 = 15 points. In dollars: 15 × $100 = $1,500. The premium paid was 1.50 × $100 = $150. Profit = $1,500 − $150 = $1,350.\n\nWhy not the others:\nA – $150 is just the premium paid.\nC – $1,500 is the payoff before subtracting the premium.\nD – $3,850 uses the settlement value (40) instead of the strike difference.\n\nRemember: Option profit = (payoff − premium) × multiplier."
   },
   {
     "id": 13,
@@ -390,19 +351,6 @@
     "explanation": "Answer: B. Q\n\nWhy: Q, the quarterly collar, has the smallest maximum drawdown (−22%) and the lowest downside deviation (5.5%) of all four strategies. Its return (5.2%) is the lowest, but the investor said they would accept a lower return. A collar gives up upside above its call strike in exchange for a cheaper, steadier floor.\n\nWhy not the others:\nA – H has a higher return, but its drawdown (−31%) and downside deviation (7.6%) are larger than Q's.\nC – P has a deeper drawdown (−33%) and higher downside deviation (7.2%) than Q.\nD – U is unhedged, with the worst drawdown (−48%) and the highest downside deviation.\n\nRemember: Match the strategy to the stated priority: smallest losses point to the collar."
   },
   {
-    "id": 31,
-    "question": "How are standard VIX options exercised and settled?",
-    "options": [
-      "American-style, settled in VIX futures",
-      "American-style, physically settled in index shares",
-      "European-style, cash-settled",
-      "European-style, settled in S&P 500 futures"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. European-style, cash-settled.\n\nWhy: European-style means the option can be exercised only at expiration, not before. Cash-settled means no asset changes hands; the holder simply receives the in-the-money amount in cash. VIX options settle on a special opening VIX value on expiration morning, with the cash paid based on that number.\n\nWhy not the others:\nA – VIX options are not American-style and do not deliver futures.\nB – There are no \"index shares\" to deliver; the VIX is only a calculation.\nD – Settlement is in cash, not in S&P 500 futures.\n\nRemember: VIX options: exercise only at expiry, paid in cash."
-  },
-  {
     "id": 32,
     "question": "S&P 500 options trade at 20% implied volatility while volatility subsequently realized averages 15%. A volatility trader who systematically sells such options is trying to capture what?",
     "options": [
@@ -442,19 +390,6 @@
     "explanation": "Answer: D. Their own implied volatility rises in spikes, amplifying gains.\n\nWhy: A VIX future gains point-for-point with its price. A VIX call gains from that price move too, but also from a second effect: in a spike, traders pay more for VIX options, so the options' own implied volatility (\"vol of vol\") rises. That inflates the call's value beyond what the price move alone would justify. Together with rising delta, this gives calls extra convexity.\n\nWhy not the others:\nA – An option's delta changes; a fixed delta of 1 would make it linear like a future.\nB – VIX options are priced off the VIX future of the same expiry, not spot VIX.\nC – Options do have time decay; futures do not.\n\nRemember: VIX calls gain from both the price move and rising vol of vol."
   },
   {
-    "id": 35,
-    "question": "In the VXTH design, why is the VIX-call weight cut when the front-month future is very high and dropped entirely above 50?",
-    "options": [
-      "Calls have zero delta once the VIX future exceeds 50",
-      "The strategy wants maximum exposure at the volatility peak",
-      "A higher VIX lowers option premiums, so fewer calls are needed",
-      "Volatility tends to mean-revert after extreme spikes"
-    ],
-    "correct": 3,
-    "hasImage": false,
-    "explanation": "Answer: D. Volatility tends to mean-revert after extreme spikes.\n\nWhy: Extreme VIX readings rarely last; volatility tends to fall back toward its average. When the front-month future is already very high, new calls are expensive and the next big move is more likely down. Cutting the hedge, then dropping it above 50, avoids paying peak prices for protection that is likely to lose value.\n\nWhy not the others:\nA – Calls struck near the market still have meaningful delta at high VIX levels.\nB – The design deliberately reduces, not maximizes, exposure at extremes.\nC – A higher VIX makes option premiums more expensive, not cheaper.\n\nRemember: Buy volatility protection before the spike, not at its peak."
-  },
-  {
     "id": 36,
     "question": "What is the primary advantage of SPX put options over VIX calls for hedging?",
     "options": [
@@ -466,19 +401,6 @@
     "correct": 1,
     "hasImage": false,
     "explanation": "Answer: B. They move with the index itself, without basis risk.\n\nWhy: An SPX put is written on the S&P 500 index, so it pays directly when the index falls below the strike. A VIX call pays only if the VIX rises enough, and the VIX does not always react in line with the size of an index decline. With SPX puts the hedge and an index portfolio match closely, so there is no basis risk.\n\nWhy not the others:\nA – SPX puts are often more expensive per unit of protection, not always cheaper.\nC – VIX calls usually offer more convexity in crashes, not less.\nD – Volume is not the main hedging advantage; direct linkage to the index is.\n\nRemember: SPX puts pay on the index level itself, so there's no basis mismatch."
-  },
-  {
-    "id": 37,
-    "question": "Spot VIX is 14 while the two-month VIX future is 17. Relative to its pricing reference, a two-month VIX call struck at 17 is best described as:",
-    "options": [
-      "Deep out-of-the-money, because spot VIX is only 14",
-      "Deep in-the-money, because spot VIX is below the strike",
-      "Worthless, because spot VIX is below the strike",
-      "Roughly at-the-money, since it is priced off the 17 future"
-    ],
-    "correct": 3,
-    "hasImage": false,
-    "explanation": "Answer: D. Roughly at-the-money, since it is priced off the 17 future.\n\nWhy: A VIX option is priced relative to the VIX future that expires on the same date, not to spot VIX. Here the two-month future is 17, the same as the strike. An option whose strike equals its underlying's price is at the money. Spot VIX at 14 matters only in that the future must converge to the VIX by expiry.\n\nWhy not the others:\nA – Comparing the strike to spot VIX is the classic mistake; the reference is the future.\nB – A call is in the money when the underlying is above the strike, not below.\nC – Before expiry, an at-the-money option still has time value.\n\nRemember: Judge a VIX option's moneyness against its matching future, not spot VIX."
   },
   {
     "id": 38,
@@ -572,19 +494,6 @@
     "explanation": "Answer: C. +$0.60\n\nWhy: Delta tells how much the option price changes per 1-point move in its underlying. With delta 0.30, a 2-point rise in the future gives about 0.30 × 2 = 0.60 increase in the option price (per unit, before the multiplier).\n\nWhy not the others:\nA – 0.15 halves the delta instead of multiplying it by the 2-point move.\nB – 0.30 is the change for a 1-point move, not 2 points.\nD – 2.00 would require a delta of 1.\n\nRemember: Option price change ≈ delta × underlying change."
   },
   {
-    "id": 45,
-    "question": "The VXTH overlay buys 30-delta VIX calls. Which description of these options is most accurate?",
-    "options": [
-      "Relatively cheap out-of-the-money calls",
-      "Deep in-the-money calls that move one-for-one with VIX futures",
-      "At-the-money calls with a delta of about 0.50",
-      "Puts that profit when implied volatility falls"
-    ],
-    "correct": 0,
-    "hasImage": false,
-    "explanation": "Answer: A. Relatively cheap out-of-the-money calls.\n\nWhy: A call's delta loosely reflects how far it is from the money. At-the-money calls have delta near 0.50; deep in-the-money ones approach 1. A 30-delta call is out of the money, with a strike above the current VIX future. That makes it fairly cheap while still able to rise sharply in a spike.\n\nWhy not the others:\nB – Deep in-the-money calls have delta near 1, not 0.30.\nC – At-the-money calls have delta near 0.50, not 0.30.\nD – The strategy uses calls, which gain from rising volatility, not puts.\n\nRemember: 30-delta = out of the money and relatively cheap."
-  },
-  {
     "id": 46,
     "question": "What is the primary benefit of the VXTH strategy's dynamic approach?",
     "options": [
@@ -609,19 +518,6 @@
     "correct": 0,
     "hasImage": false,
     "explanation": "Answer: A. VIX calls cap the loss at the premium and show greater convexity.\n\nWhy: A call buyer can lose only the premium paid, while a long futures position can lose more if the VIX falls. Calls also have a curved payoff: gains speed up as the VIX climbs, helped by rising option implied volatility. Futures move roughly one-for-one and lag spot. That makes calls more efficient tail protection in crises.\n\nWhy not the others:\nB – Futures have linear exposure and open-ended losses; it is calls that have capped losses and convexity.\nC – VIX calls are priced off futures and do not track spot one-for-one.\nD – Long VIX futures do face roll costs in contango.\n\nRemember: VIX calls: limited loss, accelerating gains; VIX futures: linear and costly to roll."
-  },
-  {
-    "id": 48,
-    "question": "Monthly returns of a strategy are +6%, -3%, +1%, -4%. Using a 0% minimum acceptable return and dividing by the total number of months, what is the downside deviation?",
-    "options": [
-      "1.75%",
-      "2.5%",
-      "3.5%",
-      "5.0%"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. 2.5%\n\nWhy: Downside deviation measures only the bad side. Set any return above 0% to zero and square the shortfalls: +6% → 0, −3% → 9, +1% → 0, −4% → 16. Sum = 25. Divide by all 4 months: 25 ÷ 4 = 6.25. Square root: √6.25 = 2.5%.\n\nWhy not the others:\nA – 1.75% averages the losses over four months ((3 + 4) ÷ 4) without squaring and taking the square root.\nC – 3.5% is the average of the two losses (7 ÷ 2), not a deviation.\nD – 5.0% is √25, which skips dividing by the number of months.\n\nRemember: Downside deviation: square the shortfalls below the target, average, then take the square root."
   },
   {
     "id": 49,

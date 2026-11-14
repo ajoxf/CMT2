@@ -1,18 +1,5 @@
 [
   {
-    "id": 1,
-    "question": "A VIX call has a delta of 0.20 and a gamma of 0.05 with respect to its VIX future. If the future rises 4 points, approximately how much does the call's price rise (using delta plus the gamma adjustment)?",
-    "options": [
-      "About 0.40",
-      "About 0.80",
-      "About 1.20",
-      "About 1.60"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. About 1.20.\n\nWhy: Delta gives the first estimate of the price change; gamma (how fast delta itself changes) adds a correction for bigger moves. Formula: change ≈ delta × move + ½ × gamma × move². Delta part = 0.20 × 4 = 0.80. Gamma part = 0.5 × 0.05 × 4² = 0.5 × 0.05 × 16 = 0.40. Total ≈ 0.80 + 0.40 = 1.20. The gamma term is why gains accelerate as the move grows.\n\nWhy not the others:\nA – 0.40 is only the gamma adjustment, missing the delta part.\nB – 0.80 uses delta alone and ignores gamma.\nD – 1.60 uses the full gamma × move² (0.05 × 16 = 0.80) without the ½ factor.\n\nRemember: Option change ≈ delta × move + ½ × gamma × move²."
-  },
-  {
     "id": 2,
     "question": "Spot VIX holds steady at 15 for a month. A trader bought the front-month VIX future at 18.0 at the start of the month and holds it to settlement. What is the percentage return?",
     "options": [
@@ -52,19 +39,6 @@
     "explanation": "Answer: D. $15.50\n\nWhy: A 3,000% gain means the price rose by 30 times its original value. Gain = 0.50 × 30 = $15.00. New price = original + gain = 0.50 + 15.00 = $15.50. Equivalently, new price = 0.50 × (1 + 30) = $15.50.\n\nWhy not the others:\nA – $1.50 treats 3,000% as a 300% gain (×3).\nB – $3.00 has no consistent link to a 3,000% gain.\nC – $15.00 is the gain alone; it forgets to add back the original $0.50.\n\nRemember: New price = old price × (1 + percentage gain)."
   },
   {
-    "id": 5,
-    "question": "An exchange-traded product holds a short position in short-term VIX futures, rebalanced daily. Over a long period dominated by contango with occasional spikes, what pattern is most likely?",
-    "options": [
-      "Steady losses with occasional large gains in spikes",
-      "Gradual roll gains punctuated by sharp losses in spikes",
-      "A price that tracks spot VIX one-for-one over time",
-      "Gains in all conditions, with no exposure to spikes"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. Gradual roll gains punctuated by sharp losses in spikes.\n\nWhy: A short VIX futures position is the reverse of a long one. In contango, each short contract is sold high and slides down toward the lower spot VIX, so the fund earns small, steady gains. When a crisis sends the VIX soaring, the short position loses heavily and fast. The pattern is a slow climb interrupted by sudden, deep drops.\n\nWhy not the others:\nA – Steady losses with occasional spikes describes a long VIX futures product.\nC – Futures, and products holding them, do not track spot VIX one-for-one.\nD – Short volatility is highly exposed to spikes; that is its main risk.\n\nRemember: Short VIX futures: collect small gains in calm, suffer big losses in spikes."
-  },
-  {
     "id": 6,
     "question": "A long VIX futures fund loses about 5% of its value to contango roll each month while spot VIX stays roughly unchanged. Compounded over 12 months, approximately what cumulative loss results?",
     "options": [
@@ -76,32 +50,6 @@
     "correct": 1,
     "hasImage": false,
     "explanation": "Answer: B. 46%\n\nWhy: Losses compound: each month you keep 95% of what was left. After 12 months the value is 0.95¹² ≈ 0.540 of the start. Cumulative loss = 1 − 0.540 = 0.46, about 46%. Simply multiplying 5% × 12 = 60% overstates it, because each month's loss is taken from a smaller base.\n\nWhy not the others:\nA – 5% is just one month's loss.\nC – 54% is the value remaining, not the loss.\nD – 60% adds the monthly losses instead of compounding them.\n\nRemember: Compound repeated losses: remaining value = (1 − loss)ⁿ."
-  },
-  {
-    "id": 7,
-    "question": "VIX futures carry a $1,000 multiplier per index point. A trader long one contract sees the price rise from 18.00 to 26.00. What is the gain?",
-    "options": [
-      "$80",
-      "$800",
-      "$8,000",
-      "$26,000"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. $8,000\n\nWhy: Futures profit = price change × multiplier × number of contracts. Price change = 26.00 − 18.00 = 8.00 points. Gain = 8.00 × $1,000 × 1 = $8,000. The multiplier turns index points into dollars, and VIX futures use $1,000 per point while VIX options use $100, so always check which contract you are pricing.\n\nWhy not the others:\nA – $80 applies a multiplier of 10 instead of 1,000.\nB – $800 applies the $100 VIX option multiplier, not the $1,000 futures multiplier.\nD – $26,000 is the notional value at the new price, not the gain.\n\nRemember: Futures P&L = points moved × multiplier."
-  },
-  {
-    "id": 8,
-    "question": "A $10 million portfolio wants VIX calls that pay about $1 million in total if the VIX settles at 40. Each call contract would pay $2,000 at that level and costs $120 today. What is the approximate upfront cost?",
-    "options": [
-      "$6,000",
-      "$60,000",
-      "$120,000",
-      "$600,000"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. $60,000\n\nWhy: First find how many contracts deliver the target payout: $1,000,000 ÷ $2,000 per contract = 500 contracts. Then the cost: 500 × $120 = $60,000. That is 0.6% of the $10 million portfolio, showing how cheap out-of-the-money VIX calls can be relative to their crash payoff.\n\nWhy not the others:\nA – $6,000 drops a zero, as if only 50 contracts were bought.\nC – $120,000 doubles the number of contracts needed.\nD – $600,000 uses 5,000 contracts, ten times too many.\n\nRemember: Contracts = target payoff ÷ payoff per contract; cost = contracts × premium."
   },
   {
     "id": 9,
@@ -130,19 +78,6 @@
     "explanation": "Answer: B. About 83\n\nWhy: Portfolio loss = 10% × $10,000,000 = $1,000,000. A 60% rise in a future at 20 is 0.60 × 20 = 12 points. Each contract then gains 12 × $1,000 = $12,000. Contracts needed = $1,000,000 ÷ $12,000 ≈ 83.\n\nWhy not the others:\nA – About 50 corresponds to a gain of $20,000 per contract, which would need a 100% rise.\nC – About 100 assumes $10,000 per contract, i.e., a 50% rise.\nD – About 167 assumes only $6,000 per contract, i.e., a 30% rise.\n\nRemember: Hedge ratio = loss to offset ÷ gain per contract."
   },
   {
-    "id": 11,
-    "question": "Apart from rising implied volatility, what option feature makes an out-of-the-money VIX call's gains accelerate as the VIX keeps climbing?",
-    "options": [
-      "Its delta stays fixed at 0.30 as the VIX rises",
-      "Positive gamma: its delta rises toward 1 as it goes in the money",
-      "Time decay adds to its value as the spike unfolds",
-      "Its vega falls to zero as the VIX rises, removing drag"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. Positive gamma: its delta rises toward 1 as it goes in the money.\n\nWhy: Gamma is how much delta changes as the underlying moves. An out-of-the-money call starts with a low delta, so early rises add little value. As the VIX keeps climbing, the call moves toward and into the money and its delta grows toward 1. Each extra point then adds more value than the last, so gains accelerate.\n\nWhy not the others:\nA – Delta does not stay fixed; it rises, which is exactly the source of acceleration.\nC – Time decay reduces option value; it never adds to it.\nD – Vega usually stays meaningful in a spike; falling vega would not create acceleration.\n\nRemember: Positive gamma makes a call's delta grow, so its gains speed up."
-  },
-  {
     "id": 12,
     "question": "A manager keeps 1% of the portfolio in one-month VIX calls every month regardless of conditions. In a calm year, 10 of the 12 monthly purchases expire worthless and the other two just return their cost. Roughly what is the annual drag on returns?",
     "options": [
@@ -154,32 +89,6 @@
     "correct": 2,
     "hasImage": false,
     "explanation": "Answer: C. 10%\n\nWhy: Each month the manager spends 1% of the portfolio on calls, 12% over the year. Ten purchases expire worthless: 10 × 1% = 10% lost. The other two return their cost, so they lose nothing. Net drag ≈ 10% of returns, a large cost in a calm year.\n\nWhy not the others:\nA – 1% is a single month's purchase, not the annual drag.\nB – 5% would mean only five worthless months.\nD – 12% counts all twelve purchases as losses, ignoring the two that returned their cost.\n\nRemember: Constant tail hedging can cost a lot when nothing bad happens."
-  },
-  {
-    "id": 13,
-    "question": "The index is at 4,200. An investor buys a 4,000-strike put for 50 points to protect a long index position. Ignoring other costs, what index level at expiration is needed for the hedged position to break even?",
-    "options": [
-      "4,000",
-      "4,050",
-      "4,150",
-      "4,250"
-    ],
-    "correct": 3,
-    "hasImage": false,
-    "explanation": "Answer: D. 4,250\n\nWhy: Owning the index plus a put, the investor paid 50 points for protection. To break even, the index must rise enough to cover that cost. Breakeven = 4,200 + 50 = 4,250. Below that the hedged position loses; its worst loss is (4,200 − 4,000) + 50 = 250 points.\n\nWhy not the others:\nA – 4,000 is the put strike, which sets the floor, not the breakeven.\nB – 4,050 adds the premium to the strike, mixing up the floor with the breakeven of a different position.\nC – 4,150 subtracts the premium instead of adding it.\n\nRemember: Protective put breakeven = purchase price + premium."
-  },
-  {
-    "id": 14,
-    "question": "A trader holds one VIX call struck at 25 into expiration. Spot VIX closes at 31 the evening before settlement, but the special opening quotation used to settle the option on expiration morning is 27. With a $100 multiplier, what does the call pay?",
-    "options": [
-      "$0",
-      "$200",
-      "$600",
-      "$2,000"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. $200\n\nWhy: VIX options do not settle on the prior evening's close. They settle on a special opening quotation calculated from actual opening option prices on expiration morning. Here that value is 27. Payoff = (27 − 25) × $100 = $200. The 31 close the night before is irrelevant.\n\nWhy not the others:\nA – $0 would apply only if the settlement value were at or below 25.\nC – $600 uses the previous evening's close (31), not the settlement value.\nD – $2,000 applies the $1,000 futures multiplier instead of $100.\n\nRemember: VIX options settle on the expiration-morning special quotation, not the prior close."
   },
   {
     "id": 15,
@@ -221,19 +130,6 @@
     "explanation": "Answer: C. Buy-and-hold, 0.47 vs 0.44.\n\nWhy: Sharpe ratio = (return − risk-free rate) ÷ standard deviation. It shows the excess return earned per unit of total risk. Collar: (6 − 2) ÷ 9 = 4 ÷ 9 = 0.44. Buy-and-hold: (9 − 2) ÷ 15 = 7 ÷ 15 = 0.47. Buy-and-hold is slightly higher.\n\nWhy not the others:\nA – 0.67 and 0.60 skip subtracting the risk-free rate (6 ÷ 9, 9 ÷ 15).\nB – The numbers are swapped: 0.47 belongs to buy-and-hold, not the collar.\nD – 0.47 and 0.44 are not equal.\n\nRemember: Sharpe = excess return ÷ standard deviation; subtract the risk-free rate first."
   },
   {
-    "id": 18,
-    "question": "A hedger compares VIX calls struck at 20 and at 30 when the front-month future is 17. What is the main trade-off of choosing the 30 strike?",
-    "options": [
-      "It costs more but pays off in smaller volatility spikes",
-      "It pays off sooner because it is further out-of-the-money",
-      "It is cheaper but needs a much larger spike to pay off",
-      "It removes basis risk relative to the 20-strike call"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. It is cheaper but needs a much larger spike to pay off.\n\nWhy: With the future at 17, a 30-strike call is much further out of the money than a 20-strike. That makes it cheaper, because it is less likely to finish in the money. But the VIX must climb above 30 before it pays anything at expiry, so it helps only in a severe spike. The 20 strike costs more but pays in moderate spikes too.\n\nWhy not the others:\nA – This describes the 20-strike call, not the 30.\nB – Further out of the money means it pays later, not sooner.\nD – Both are VIX calls; changing strike does not change basis risk relative to the portfolio.\n\nRemember: Higher strike = cheaper hedge, but only pays in bigger disasters."
-  },
-  {
     "id": 19,
     "question": "In a calm, slowly rising market, what is the main ongoing cost of continuously holding protective options?",
     "options": [
@@ -258,19 +154,6 @@
     "correct": 0,
     "hasImage": false,
     "explanation": "Answer: A. -2.3%\n\nWhy: Portfolio return = sum of each weight × its return. Index part: 0.95 × (−4%) = −3.8%. VIX futures part: 0.05 × 30% = +1.5%. Total = −3.8% + 1.5% = −2.3%. A small VIX allocation can offset a meaningful share of an equity decline.\n\nWhy not the others:\nB – −4.0% ignores the VIX futures position.\nC – −5.3% subtracts the VIX gain instead of adding it.\nD – +1.5% is only the VIX contribution, ignoring the index loss.\n\nRemember: Portfolio return = weighted sum of each holding's return."
-  },
-  {
-    "id": 21,
-    "question": "A one-month at-the-money S&P 500 put costs 2.0% of the index. With implied volatility unchanged, roughly what would a three-month at-the-money put cost?",
-    "options": [
-      "0.7%",
-      "2.0%",
-      "3.5%",
-      "6.0%"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. 3.5%\n\nWhy: With implied volatility unchanged, an at-the-money option's price grows roughly with the square root of time, not in a straight line. Three months is 3 times one month, so the price scales by √3 ≈ 1.73. Estimated cost = 2.0% × 1.73 ≈ 3.5%.\n\nWhy not the others:\nA – 0.7% divides by √3 instead of multiplying.\nB – 2.0% ignores the extra time entirely.\nD – 6.0% scales the price in a straight line with time (3 × 2%), which overstates it.\n\nRemember: At-the-money option prices grow with the square root of time."
   },
   {
     "id": 22,
@@ -299,45 +182,6 @@
     "explanation": "Answer: D. S&P 500 puts, because they pay on the index level itself.\n\nWhy: VIX calls pay off best when the VIX spikes sharply, which typically happens in fast crashes. In a slow grind lower, fear builds gradually and the VIX may barely move, here from only 15 to 20. An S&P 500 put, by contrast, gains whenever the index falls below its strike, however fast or slow the fall. So index puts would have hedged this decline better.\n\nWhy not the others:\nA – A modest VIX rise may leave out-of-the-money VIX calls worthless; they do not soar on any decline.\nB – The inverse link is loose in slow declines; the VIX rose only 5 points here.\nC – Contango roll costs would have eaten much of a small VIX rise.\n\nRemember: VIX hedges need a spike; index puts pay on the decline itself."
   },
   {
-    "id": 24,
-    "question": "A hedger buys a VIX 20 call for 1.80 and sells a VIX 35 call for 0.50 with the same expiration. What is the maximum profit per unit at expiration?",
-    "options": [
-      "1.30",
-      "13.70",
-      "15.00",
-      "16.30"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. 13.70\n\nWhy: This is a bull call spread. Net cost = 1.80 − 0.50 = 1.30. Its maximum payoff is the difference between strikes, reached when the VIX settles at or above 35: 35 − 20 = 15.00. Maximum profit = 15.00 − 1.30 = 13.70 per unit.\n\nWhy not the others:\nA – 1.30 is the net cost, which is the maximum loss, not the profit.\nC – 15.00 is the maximum payoff before subtracting the cost.\nD – 16.30 adds the cost instead of subtracting it.\n\nRemember: Call spread max profit = strike width − net premium."
-  },
-  {
-    "id": 25,
-    "question": "An investor owns the index at 4,000 and sells a 4,100 call for 60 (a buy-write). If the index ends at 3,700, what is the position's loss as a percentage of 4,000?",
-    "options": [
-      "1.5%",
-      "6.0%",
-      "7.5%",
-      "8.5%"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. 6.0%\n\nWhy: A buy-write means owning the index and selling a call against it. The index falls 4,000 → 3,700, a 300-point loss. The call expires worthless, and the investor keeps the 60 premium. Net = −300 + 60 = −240 points. −240 ÷ 4,000 = −6.0%.\n\nWhy not the others:\nA – 1.5% is the premium as a share of 4,000, not the net loss.\nC – 7.5% is the unhedged loss, ignoring the premium received.\nD – 8.5% adds the premium to the loss, as if it had been paid rather than received.\n\nRemember: A covered call cushions a decline only by the premium collected."
-  },
-  {
-    "id": 26,
-    "question": "Why do buy-write (covered call) and put-write programs not function as tail-risk hedges?",
-    "options": [
-      "They need VIX futures to implement and roll",
-      "They are short volatility and keep most crash losses",
-      "They are long volatility, so they lag in calm markets",
-      "They cap losses at the strike of the option sold"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. They are short volatility and keep most crash losses.\n\nWhy: In a buy-write you sell calls; in a put-write you sell puts. Either way you collect premium and are short volatility, meaning you benefit when markets stay calm. In a crash the premium is small compared with the loss: the covered-call holder still owns the falling index, and the put writer must buy at the strike. So these strategies keep most of the downside.\n\nWhy not the others:\nA – Both use SPX options and need no VIX futures.\nC – Selling options is short volatility, not long.\nD – Selling options caps gains, not losses; losses below the strike remain.\n\nRemember: Selling options earns income but leaves you exposed in a crash."
-  },
-  {
     "id": 27,
     "question": "An investor wants a fixed floor under an S&P 500 holding and refuses to cap upside. Which hedge fits best?",
     "options": [
@@ -349,19 +193,6 @@
     "correct": 2,
     "hasImage": false,
     "explanation": "Answer: C. A protective SPX put bought outright.\n\nWhy: A put gives the right to sell the index at the strike, so losses below that level are offset: that is the fixed floor. Buying it outright, without selling a call, leaves all upside open. The cost is the premium paid. It is the only choice offering both a floor and unlimited upside.\n\nWhy not the others:\nA – A collar sells a call, which caps upside, conflicting with the investor's wish.\nB – A buy-write caps upside and gives no real floor.\nD – Short VIX futures lose money in sell-offs, adding risk instead of a floor.\n\nRemember: Floor with full upside = buy a put and sell nothing."
-  },
-  {
-    "id": 28,
-    "question": "A $2.4 million portfolio moves one-for-one with the S&P 500 (beta 1.0). The index is at 4,800 and SPX options have a $100 multiplier. How many put contracts are needed to cover the portfolio's notional value?",
-    "options": [
-      "5",
-      "48",
-      "50",
-      "500"
-    ],
-    "correct": 0,
-    "hasImage": false,
-    "explanation": "Answer: A. 5\n\nWhy: One SPX option covers index × multiplier in value: 4,800 × $100 = $480,000. With beta 1.0, the portfolio moves like the index, so no beta adjustment is needed. Contracts = $2,400,000 ÷ $480,000 = 5.\n\nWhy not the others:\nB – 48 divides the index level by 100 rather than computing notional per contract.\nC – 50 is ten times too many, as if each contract covered $48,000.\nD – 500 divides portfolio value by the index level without applying the multiplier.\n\nRemember: Contracts = portfolio value × beta ÷ (index × multiplier)."
   },
   {
     "id": 29,

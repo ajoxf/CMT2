@@ -65,19 +65,6 @@
     "explanation": "Answer: A. The 6-month volatility index (VIX6M).\n\nWhy: The standard VIX uses S&P 500 option prices to estimate expected volatility over the next 30 days. The exchange publishes sister indexes built the same way over other horizons: 9 days, 3 months, 6 months and 1 year. For a spot reading over about six months, the 6-month index is the direct match. It is a current reading of implied volatility, not a forecast traded for a future date.\n\nWhy not the others:\nB – The 9-day index measures a very short horizon, the opposite of what is wanted.\nC – The 1-year index covers twice the desired horizon.\nD – A front-month future reflects the expected 30-day VIX at a near date, not six-month implied volatility today.\n\nRemember: Match the index to the horizon: VIX9D, VIX (30 days), VIX3M, VIX6M, VIX1Y."
   },
   {
-    "id": 6,
-    "question": "A VIX future can trade several points above or below spot VIX for long periods without an obvious arbitrage. Why?",
-    "options": [
-      "Spot VIX cannot be held, so each future prices the VIX expected at its expiry",
-      "Arbitrageurs cannot finance the interest-rate carry on the index",
-      "Futures settle on realized volatility, which differs from spot VIX",
-      "Exchange price limits stop futures from converging until expiry"
-    ],
-    "correct": 0,
-    "hasImage": false,
-    "explanation": "Answer: A. Spot VIX cannot be held, so each future prices the VIX expected at its expiry.\n\nWhy: For a stock index, if the future is too expensive you can buy the shares, sell the future and lock in profit; this \"cost of carry\" link keeps them close. The VIX is just a calculated number, so nobody can buy and store it. Without that link, a VIX future simply reflects the market's best guess of the VIX on its own settlement date. If traders expect volatility to change, the future can sit far from today's VIX with no riskless trade available.\n\nWhy not the others:\nB – The issue is not financing cost; there is nothing to finance because the index itself cannot be bought.\nC – VIX futures settle to a VIX value (implied volatility), not to realized volatility.\nD – Price limits do not explain long-lasting gaps; the gap comes from expectations.\n\nRemember: No way to hold the VIX means no carry arbitrage, so each future is an expectation, not a copy of spot."
-  },
-  {
     "id": 7,
     "question": "On Day A, F1 = 14.0 and F3 = 16.8. On Day B, F1 = 20.0 and F3 = 21.0. Measuring slope as (F3 - F1) / F1, which day shows the steeper contango?",
     "options": [
@@ -169,32 +156,6 @@
     "explanation": "Answer: B. VIX is a non-tradeable 30-day index; futures are tradeable claims on its value at set expiries.\n\nWhy: The VIX Index is a calculation from S&P 500 option prices that estimates expected volatility over the next 30 days. You cannot buy the index itself. VIX futures are exchange-traded contracts that settle to the VIX value on a specific future date. So each future reflects where traders expect the VIX to be at that date, which may differ a lot from today's VIX.\n\nWhy not the others:\nA – Both the VIX and its futures relate to implied (expected) volatility, not realized volatility.\nC – The VIX cannot be bought directly; futures are the way to gain exposure.\nD – Each future reflects the 30-day VIX measured at its own settlement date, not from today.\n\nRemember: VIX = untradeable 30-day number today; VIX futures = tradeable bets on that number later."
   },
   {
-    "id": 14,
-    "question": "On one day the S&P 500 drops 3%, and on another day it rises 3%. How does the VIX typically respond?",
-    "options": [
-      "It rises and falls by about the same amount on the two days",
-      "It falls sharply on the down day",
-      "It jumps far more on the down day than it eases on the up day",
-      "It rises on both days, because any large move lifts implied volatility"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. It jumps far more on the down day than it eases on the up day.\n\nWhy: The VIX and the S&P 500 usually move in opposite directions, but not evenly. Falling markets spark fear and a rush to buy put options for protection, which pushes implied volatility up quickly. Rising markets calm nerves only slowly, so the VIX drifts lower by a smaller amount. This lopsided reaction is called asymmetry.\n\nWhy not the others:\nA – It ignores the asymmetry: fear reacts much faster than relief.\nB – The VIX normally rises, not falls, when stocks drop sharply.\nD – On strong up days the VIX usually eases rather than rises.\n\nRemember: The VIX takes the stairs down and the elevator up."
-  },
-  {
-    "id": 15,
-    "question": "Spot VIX is 11, well below its long-run average near 19, and the seventh-month VIX future trades at 17.5. What best explains why the far contract sits so far above spot?",
-    "options": [
-      "Far contracts embed a cost of carrying the index",
-      "Volatility tends to mean-revert, so expected VIX further out is higher",
-      "The far contract is priced off last year's realized volatility",
-      "The far contract has a larger multiplier, so it trades at a premium"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. Volatility tends to mean-revert, so expected VIX further out is higher.\n\nWhy: Mean reversion means a value tends to drift back toward its long-run average. With spot VIX at 11, well below its average near 19, traders expect it to rise over time. A future seven months away gives plenty of time for that move, so it is priced at 17.5, close to the average. Nearer contracts sit in between, producing a steep contango curve.\n\nWhy not the others:\nA – The VIX cannot be held, so there is no carrying cost built into its futures.\nC – VIX futures price expected implied volatility at expiry, not past realized volatility.\nD – Contract size does not change the price per VIX point.\n\nRemember: Far VIX futures lean toward the long-run average because volatility mean-reverts."
-  },
-  {
     "id": 16,
     "question": "Weeks after a crisis begins, F1 has started to fall but the sixth-month VIX future remains well above its pre-crisis level. What does this suggest?",
     "options": [
@@ -232,19 +193,6 @@
     "correct": 3,
     "hasImage": false,
     "explanation": "Answer: D. The fourth-month VIX future.\n\nWhy: Each VIX future settles to the VIX value on its own expiration date. So the contract expiring about four months out is priced on what traders expect the VIX to be at that time. Buying or selling it is the most direct way to express a view on the VIX four months from now.\n\nWhy not the others:\nA – Spot VIX is today's reading and cannot be traded directly.\nB – The front-month future reflects the expected VIX in about one month, not four.\nC – A one-month option is tied to the one-month future and adds option features like time decay and strike choice.\n\nRemember: Pick the VIX future whose expiry matches the date you have a view on."
-  },
-  {
-    "id": 19,
-    "question": "The front-month VIX future (10 days to expiry) trades at 18.0 and the second-month future (40 days to expiry) at 20.0. Interpolating linearly by days, what is the implied 30-day constant-maturity VIX futures level?",
-    "options": [
-      "18.67",
-      "19.00",
-      "19.33",
-      "20.67"
-    ],
-    "correct": 2,
-    "hasImage": false,
-    "explanation": "Answer: C. 19.33.\n\nWhy: Neither contract expires exactly 30 days out, so we blend them by how close each is to day 30. The second month is 40 − 10 = 30 days after the first. Weight on F1 = (40 − 30) ÷ 30 = 1/3; weight on F2 = (30 − 10) ÷ 30 = 2/3. Level = 1/3 × 18.0 + 2/3 × 20.0 = 6.00 + 13.33 = 19.33. Day 30 is closer to the second contract, so it gets more weight.\n\nWhy not the others:\nA – 18.67 puts 2/3 weight on the front month, reversing the weights.\nB – 19.00 is a simple average and ignores where day 30 falls.\nD – 20.67 extrapolates beyond F2, though day 30 lies between the two expiries.\n\nRemember: Weight each future by how close its expiry is to the target date."
   },
   {
     "id": 20,
@@ -375,18 +323,5 @@
     "correct": 2,
     "hasImage": false,
     "explanation": "Answer: C. Hue shows the spread's sign (green contango, red backwardation); intensity shows spread width.\n\nWhy: The heat map is a grid of colored cells, each for one contract pair on one date. The color tells you direction: green for a positive spread (later contract higher, contango) and red for a negative one (backwardation). The shade tells you size: darker cells mean bigger spreads. Reading both lets you see at a glance how stressed each part of the curve is.\n\nWhy not the others:\nA – Intensity reflects the size of the spread, not spot VIX's distance from its average.\nB – The map colors VIX futures spreads, not S&P 500 price changes.\nD – The rows already show which contracts are compared; shade shows spread size, not time to expiry.\n\nRemember: Color = sign of the spread; shade = how big it is."
-  },
-  {
-    "id": 30,
-    "question": "Spot VIX is 24. Treating it as an annualized one-standard-deviation move, what is the approximate one-standard-deviation move expected in the S&P 500 over the next 30 days?",
-    "options": [
-      "About 2.0%",
-      "About 6.9%",
-      "About 8.0%",
-      "About 24%"
-    ],
-    "correct": 1,
-    "hasImage": false,
-    "explanation": "Answer: B. About 6.9%.\n\nWhy: The VIX is quoted as an annualized volatility, so 24 means about a 24% one-standard-deviation move over a year. Volatility grows with the square root of time, so to scale it down to one month you divide by the square root of 12. Calculation: 24 ÷ √12 = 24 ÷ 3.464 ≈ 6.93%. So the market expects roughly a ±6.9% move over the next 30 days about two-thirds of the time.\n\nWhy not the others:\nA – 2.0% comes from dividing by 12 instead of √12, which understates the move.\nC – 8.0% comes from dividing by 3 instead of √12.\nD – 24% is the annual figure, not the 30-day figure.\n\nRemember: To convert the VIX to a monthly move, divide by √12 (about 3.46)."
   }
 ]
