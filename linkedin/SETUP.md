@@ -14,12 +14,12 @@ Files in this folder:
    - **Organization size:** 2-10 employees
    - **Organization type:** Privately held
    - **Logo:** `fincoursa-logo-400.png`
-   - **Tagline:** Practical finance and AI courses, taught by senior practitioners. CMT exam preparation, trading and AI in finance.
+   - **Tagline:** Practical finance and AI courses for professionals and active traders, taught by senior practitioners.
 3. Tick the verification box and click **Create page**.
 4. On the new page: **Edit page** →
    - **Header → Cover image:** `fincoursa-banner-1128x191.png`
    - **Details → Overview (About):** paste the text below
-   - **Specialties** (add each): CMT exam preparation, Technical analysis, Trading education, AI in finance, Financial modelling, Risk management, Corporate training
+   - **Specialties** (add each): Technical analysis, Trading education, AI in finance, Financial modelling, Risk management, Corporate training
    - **Location:** your headquarters city
    - **Buttons → Custom button:** "Visit website", linking to https://www.fincoursa.com
 
@@ -27,7 +27,7 @@ Files in this folder:
 
 FinCoursa is an online academy for finance professionals and active traders. Our courses are built and taught by practitioners, with practice questions, worked explanations and chart-based exercises.
 
-We start with CMT exam preparation and technical analysis, and add practical AI in Finance courses for research, reporting, risk and automation.
+Courses cover trading and technical analysis, markets and risk, and practical AI in finance for research, reporting and automation.
 
 Teams and universities can license courses, run cohorts with live sessions, and start with a free pilot.
 
@@ -42,7 +42,7 @@ They must be connected to you on LinkedIn first.
 
 **Post for the old profile:**
 
-FinCoursa now has its official LinkedIn page. Course launches, practice questions and offers will be posted there from now on, and this profile will close in two weeks.
+FinCoursa now has its official LinkedIn page. Course launches, market insights and offers will be posted there from now on, and this profile will close in two weeks.
 
 Follow the page to keep up: https://www.linkedin.com/company/fincoursa
 
