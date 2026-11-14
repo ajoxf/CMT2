@@ -31,12 +31,12 @@
     "id": 103,
     "question": "A fusion analyst will overweight Sector GHI only when its relative strength has broken above resistance AND upgrades outnumber downgrades. At which marked point are both conditions first met?",
     "options": [
-      "A",
-      "C",
-      "B",
-      "D"
+      "Point A",
+      "Point B",
+      "Point C",
+      "Point D"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": true,
     "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_sector_rs_rev.png",
     "concept": "Sector RS breakout plus improving revisions"

@@ -649,6 +649,13 @@ def rebalance():
             rest = [o for j, o in enumerate(q["options"]) if j != q["correct"]]
             q["options"] = rest[:t] + [key] + rest[t:]
             q["correct"] = t
+        # options that name the chart's marked points ("Point A".."Point D") go back in letter order,
+        # so option A is point A (done after the shuffle so other questions keep their positions)
+        for q in qs:
+            if all(re.fullmatch(r"Point [A-D]", o) for o in q["options"]):
+                key = q["options"][q["correct"]]
+                q["options"] = sorted(q["options"])
+                q["correct"] = q["options"].index(key)
 
 
 def main():

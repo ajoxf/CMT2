@@ -287,7 +287,7 @@ def ch1_2_sector_rs_revisions():
     tech = {k: rs[i] > lvl and rs[:i + 1].max() > lvl for k, i in pts.items()}
     fund = {k: rr[i] > 1.0 for k, i in pts.items()}
     assert not tech["A"] and not fund["A"] and tech["B"] and not fund["B"] and tech["C"] and fund["C"]
-    options, k = ["A", "B", "C", "D"], 2
+    options, k = ["Point A", "Point B", "Point C", "Point D"], 2
     add("Ch1_2", img,
         "A fusion analyst will overweight Sector GHI only when its relative strength has broken above "
         "resistance AND upgrades outnumber downgrades. At which marked point are both conditions first met?",

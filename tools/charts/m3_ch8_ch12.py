@@ -620,7 +620,10 @@ def ch12_1_mar():
     for name, eq, col in (("System A", a, ACCENT), ("System B", b, ACCENT2)):
         dd, pk, tr = max_dd(eq)
         cagr = (eq[-1] / eq[0]) ** (1 / years) - 1
-        out[name] = (cagr, dd, eq[-1] / eq[0] - 1)
+        # work from the figures printed on the chart (CAGR to 0.1%, peak and trough to the dollar),
+        # so the answer matches what a student calculates from them
+        dd_shown = (round(eq[pk]) - round(eq[tr])) / round(eq[pk])
+        out[name] = (round(cagr * 100, 1) / 100, dd_shown, eq[-1] / eq[0] - 1)
         ax.plot(xs, eq, color=col, lw=1.5, label=f"{name}: CAGR {cagr * 100:.1f}%")
         ax.annotate(f"peak ${eq[pk]:,.0f}", (xs[pk], eq[pk]), (xs[pk] - 0.9, eq[pk] + 12000), color=col,
                     fontsize=8, arrowprops=dict(arrowstyle="->", color=col))
