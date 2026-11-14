@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Using the statistics printed on the chart, what is the t-statistic for the hypothesis that the strategy's true mean monthly return is zero, and is the result significant at the 5% level (two-tailed critical value about 2.01)?",
+    "options": [
+      "t \u2248 2.40; significant at the 5% level",
+      "t \u2248 0.35; not significant at the 5% level",
+      "t \u2248 16.6; significant at the 5% level",
+      "t \u2248 2.40; not significant at the 5% level, because the mean is smaller than one standard deviation"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_tstat_hist.png",
+    "concept": "t-statistic of a mean return"
+  },
+  {
+    "id": 102,
+    "question": "Using the printed statistics and a z-value of 1.96, what is the approximate 95% confidence interval for the model's true mean weekly return, and what does it imply?",
+    "options": [
+      "-3.62% to +4.22%; it includes zero, so the model has no edge",
+      "+0.10% to +0.50%; it excludes zero, so the mean is significantly positive at 5%",
+      "-0.09% to +0.69%; the mean is significantly positive because the sample mean is above zero",
+      "-0.09% to +0.69%; it includes zero, so the mean is not significantly different from zero at 5%"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_ci_hist.png",
+    "concept": "Confidence interval for a mean"
+  },
+  {
+    "id": 103,
+    "question": "Which statement correctly interprets the regression shown?",
+    "options": [
+      "About 45% of the variation in the stock's monthly returns is explained by the index, and the stock has tended to move about 1.01% for each 1% move in the index",
+      "The correlation between the two series is 0.45, and the stock has tended to move about 1.01% for each 1% move in the index",
+      "Because r\u00b2 is below 0.5, the slope is not meaningful and the stock has no systematic relationship with the index",
+      "About 55% of the variation is explained by the index, and the slope of 1.01 is the stock's average monthly excess return"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_regression.png",
+    "concept": "Interpreting slope and r-squared"
+  },
+  {
+    "id": 104,
+    "question": "Compared with the normal curve fitted to the same mean and standard deviation, how is this return distribution best described, and what is the risk implication?",
+    "options": [
+      "Platykurtic (thin-tailed); a normal model would overstate the frequency of extreme days",
+      "Approximately normal (mesokurtic); the normal model fits the tails well",
+      "Leptokurtic (fat-tailed, with a taller peak); a normal model would understate how often extreme moves occur",
+      "Negatively skewed but normal-tailed; only the average loss is understated by a normal model"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_fat_tails.png",
+    "concept": "Fat tails and kurtosis"
+  },
+  {
+    "id": 105,
+    "question": "The shaded area is the p-value of a one-tailed test. Which conclusion is correct at the 5% significance level?",
+    "options": [
+      "Do not reject H0, because the statistic of 1.80 is below the 1.96 critical value",
+      "Reject H0: p \u2248 0.036 < 0.05 (a two-tailed test would give p \u2248 0.072 and not reject)",
+      "Reject H0; there is a 96.4% probability that the signal's true mean is positive",
+      "Do not reject H0; a p-value of 0.036 means there is only a 3.6% chance that the alternative hypothesis is true"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_pvalue.png",
+    "concept": "p-value interpretation, one vs two tails"
+  }
+]

@@ -3,14 +3,70 @@
     "id": 101,
     "question": "Price makes a higher high at the end of the chart while RSI makes a lower high. What is this called and how should it be used?",
     "options": [
-      "A hidden bullish divergence that favours adding to long positions",
       "Bearish (negative) divergence; a warning of fading momentum that needs price confirmation, such as a break of support",
+      "A hidden bullish divergence that favours adding to long positions",
       "Bullish (positive) divergence; momentum is confirming the new high",
       "Positive reversal; it signals the uptrend will accelerate"
     ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch9_2_rsi_divergence.png",
+    "concept": "RSI bearish divergence"
+  },
+  {
+    "id": 102,
+    "question": "At point A the 10-period rate of change crosses above its zero line. What does this tell you?",
+    "options": [
+      "Price has just crossed above its 10-period moving average, confirming that a new uptrend is under way",
+      "ROC has reached an overbought level, so a pullback is likely",
+      "The close is now above the close of 10 periods earlier: momentum has turned positive",
+      "Price has risen 10% from its low"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_roc_zero.png",
+    "concept": "ROC zero-line crossing"
+  },
+  {
+    "id": 103,
+    "question": "Up-trendlines are drawn on both price and its 10-bar momentum. What is the best interpretation of the sequence shown?",
+    "options": [
+      "Price broke its trendline first and momentum then confirmed, which is the normal sequence",
+      "The momentum break was an early warning that the advance was losing force; the later break of the price trendline confirmed it",
+      "Because momentum was still above zero when its trendline broke, the break signalled bullish continuation",
+      "The momentum break is a complete sell signal on its own, so the price trendline break adds no information"
+    ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch9_2_rsi_divergence.png",
-    "concept": "RSI bearish divergence"
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_mom_trendline.png",
+    "concept": "Momentum trendline break leads price"
+  },
+  {
+    "id": 104,
+    "question": "After a long decline, RSI surges to the extreme reading at M within weeks of the low. How is such a 'mega-overbought' reading best interpreted?",
+    "options": [
+      "As a sign of exceptional upside momentum typical of the early stage of a new advance; the first pullback is more likely to be a buying opportunity than the final top",
+      "As a reliable sell signal, because a reading this far above 70 normally marks an intermediate top in a bear-market rally",
+      "As a bearish divergence, because RSI has risen faster than price",
+      "As evidence that the rally is exhausted and the prior decline will resume"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_mega_overbought.png",
+    "concept": "Mega-overbought after a major low"
+  },
+  {
+    "id": 105,
+    "question": "The lower panel is a percentage price oscillator: (10-SMA \u2212 30-SMA) \u00f7 30-SMA \u00d7 100. Using the printed values, what is its reading on the last bar (marked '?'), and what does it indicate?",
+    "options": [
+      "-8.89%; the long-term average is above the short-term average, a bearish reading",
+      "+8.16%; the short-term average is above the long-term average, upside momentum",
+      "+8.89%; the gap is bearish because the short-term average has crossed the long-term average from above",
+      "+8.89%; the short-term average is above the long-term average, upside momentum"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_price_osc.png",
+    "concept": "Price oscillator from two moving averages"
   }
 ]

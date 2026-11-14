@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Stock JKL is making new highs while the consensus EPS estimate has been cut for several months. What is the most appropriate fusion-analysis conclusion?",
+    "options": [
+      "Both disciplines agree, because price leads earnings and the market is looking through the cuts, so add to the position",
+      "Sell short immediately, because downward estimate revisions reliably lead price lower within weeks",
+      "The disciplines disagree, so conviction is lower; hold with tighter stops and let a break of trend confirm the warning",
+      "Disregard the revisions, since a new closing high means the technical evidence now outweighs them"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_eps_divergence.png",
+    "concept": "Fundamental/technical divergence lowers conviction"
+  },
+  {
+    "id": 102,
+    "question": "Both stocks reported the same positive earnings surprise and briefly traded above resistance. Which offers the stronger fusion (fundamental + technical) long set-up?",
+    "options": [
+      "ABC: the surprise is confirmed by a sustained breakout; DEF's failure after good news is a warning",
+      "DEF: the pullback after good news offers a cheaper entry into the same improved fundamental story",
+      "They are equally attractive, since both had the same surprise and both broke above resistance",
+      "DEF: a breakout that fails after good news is a bullish shakeout that usually precedes a stronger advance"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_surprise_breakout.png",
+    "concept": "Earnings catalyst confirmed vs failed breakout"
+  },
+  {
+    "id": 103,
+    "question": "A fusion analyst will overweight Sector GHI only when its relative strength has broken above resistance AND upgrades outnumber downgrades. At which marked point are both conditions first met?",
+    "options": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_sector_rs_rev.png",
+    "concept": "Sector RS breakout plus improving revisions"
+  },
+  {
+    "id": 104,
+    "question": "Stock MNO's rally has come entirely from P/E expansion while earnings have been flat. Which response best reflects a fusion approach for a current holder?",
+    "options": [
+      "Sell short now, because a P/E this far above its long-run average signals that a major top is imminent",
+      "Add to the position, because the expanding P/E confirms that earnings growth is about to accelerate",
+      "Close the position now and re-enter only after the P/E has reverted to its 18\u00d7 ten-year average",
+      "Accept the valuation risk but let the trend time the exit: stay long until a technical breakdown"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_multiple_expansion.png",
+    "concept": "Valuation is a poor timing tool; technicals time it"
+  },
+  {
+    "id": 105,
+    "question": "A fundamental screen flags Stock PQR as undervalued at the latest bar. What would a fusion analyst do?",
+    "options": [
+      "Watch-list it and wait for technical evidence of a trend change, such as a sustained close above the 200-day average",
+      "Buy now, because a P/E well below the sector average limits downside risk regardless of the price trend",
+      "Buy half now and average down on further weakness, lowering the cost basis toward fair value",
+      "Sell short, because the falling P/E confirms that the company's fundamentals are deteriorating"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_value_downtrend.png",
+    "concept": "Fundamentals select, technicals time the entry"
+  }
+]

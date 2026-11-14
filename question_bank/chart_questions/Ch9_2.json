@@ -10,7 +10,7 @@
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch9_2_2_macd_cross.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch9_2_2_macd_cross.png",
     "concept": "MACD signal-line crossover"
   },
   {
@@ -18,13 +18,55 @@
     "question": "What does the stochastic oscillator show at point Y?",
     "options": [
       "%K crosses below %D in overbought territory",
-      "%K crosses above %D in or near oversold territory, a potential buy setup best taken in the direction of the larger trend",
       "%D crosses above 80, confirming a new uptrend",
+      "%K crosses above %D in or near oversold territory, a potential buy setup best taken in the direction of the larger trend",
       "A failure swing that signals a top"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch9_3_6_stoch_cross.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch9_3_6_stoch_cross.png",
     "concept": "Stochastic crossover in oversold zone"
+  },
+  {
+    "id": 103,
+    "question": "Price makes a lower low at L2, but the MACD histogram trough at L2 is shallower than at L1. How should this be interpreted?",
+    "options": [
+      "Bullish divergence: downside momentum is waning, an early warning that still needs price confirmation",
+      "Bearish confirmation: the lower price low shows the downtrend is intact",
+      "A buy signal, because the histogram has crossed above the zero line",
+      "No signal, because histogram divergences are only valid once the histogram has crossed back above its zero line"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_hist_div.png",
+    "concept": "MACD histogram divergence"
+  },
+  {
+    "id": 104,
+    "question": "After the first few weeks, RSI holds within the shaded 40\u201380 zone, with pullbacks bottoming near 40\u201350. Under RSI range rules, what does this behaviour indicate?",
+    "options": [
+      "A bull-market range: the 40\u201350 zone tends to act as support, so dips toward it are potential buying areas",
+      "A bear-market range, in which the 40\u201350 zone acts as resistance",
+      "No buy signal has been given during the advance, because RSI has not fallen to the classic oversold level of 30",
+      "Each move above 70 is an overbought sell signal within the range"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_rsi_bull_range.png",
+    "concept": "RSI bull-market range"
+  },
+  {
+    "id": 105,
+    "question": "On the RSI panel, which pattern is completed at point F (dotted line = the RSI low between the two RSI peaks)?",
+    "options": [
+      "A bottom (bullish) failure swing that signals a resumption of the advance",
+      "A positive reversal, which projects a further rise in price",
+      "A bullish divergence, because RSI's second peak is lower while price holds close to its earlier high",
+      "A top failure swing: RSI fails to regain 70, then breaks below its intervening low"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_failure_swing.png",
+    "concept": "RSI top failure swing"
   }
 ]

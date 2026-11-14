@@ -4,13 +4,69 @@
     "question": "Each successive rally in this chart reaches a higher price high, but volume is lighter on each rally. What is the most appropriate interpretation?",
     "options": [
       "The advance is confirmed and buying pressure is increasing",
-      "Demand is weakening beneath the uptrend, a warning that the trend may be nearing exhaustion",
       "Lighter volume shows sellers are absent, which confirms the advance",
-      "It signals an immediate reversal, so the position should be reversed short now"
+      "It signals an immediate reversal, so the position should be reversed short now",
+      "Demand is weakening beneath the uptrend, a warning that the trend may be nearing exhaustion"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch5_1_volume_divergence.png",
+    "concept": "Volume non-confirmation"
+  },
+  {
+    "id": 102,
+    "question": "Price makes a higher high at the end of the chart while On-Balance Volume makes a lower high. What is the best interpretation?",
+    "options": [
+      "A bullish confirmation: OBV is still well above its starting level, so accumulation remains intact and the higher price high is validated",
+      "A bearish divergence: volume flow is not confirming the new price high, warning of distribution",
+      "A bullish divergence, because OBV fell while price rose, implying sellers are exhausted",
+      "No signal, because OBV only matters when it crosses its own zero line"
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch5_1_volume_divergence.png",
-    "concept": "Volume non-confirmation"
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_obv_divergence.png",
+    "concept": "OBV divergence"
+  },
+  {
+    "id": 103,
+    "question": "After an extended decline, Stock KLM trades on about 5.2\u00d7 its average volume with a wide range and a close well off the low, followed by a sharp bounce. What is this, and what would best confirm a durable low?",
+    "options": [
+      "A selling climax; a bottom is better confirmed if a later retest of the low area occurs on much lighter volume and holds above the climax low",
+      "A selling climax; a bottom is confirmed only if the retest undercuts the climax low on even heavier volume",
+      "A breakaway move lower; the heavy volume confirms a new leg of the downtrend has begun",
+      "A blow-off top; the long lower shadow shows that supply is now overwhelming demand"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_selling_climax.png",
+    "concept": "Selling climax and secondary test"
+  },
+  {
+    "id": 104,
+    "question": "Two closes above resistance are marked A and B. Using the breakout-day volume relative to its 20-day average (values annotated), which breakout carried stronger volume confirmation?",
+    "options": [
+      "Breakout A, because a breakout on light volume (0.8\u00d7 average) shows there are few sellers left",
+      "Breakout B, at about 2.0\u00d7 average volume, though volume is irrelevant to breakout validity",
+      "Breakout B, at about 2.4\u00d7 average volume; A came on below-average volume and lacked conviction",
+      "Both equally, since each produced a close above resistance"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_breakout_volume.png",
+    "concept": "Breakout volume confirmation"
+  },
+  {
+    "id": 105,
+    "question": "Average volume is annotated for each swing leg (red = declining legs, green = rebounds). What does the volume pattern say about the trend?",
+    "options": [
+      "Volume expands on declines and contracts on rebounds, confirming the downtrend; rebounds look corrective",
+      "Heavy volume on each decline signals capitulation, so the downtrend is likely complete",
+      "Light volume on rebounds shows sellers are absent, a bullish sign that the trend is turning",
+      "Volume is not informative in downtrends because prices can fall of their own weight"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_downtrend_volume.png",
+    "concept": "Volume-confirmed downtrend"
   }
 ]

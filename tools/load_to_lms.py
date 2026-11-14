@@ -6,7 +6,8 @@ Writes through the project's REST API. The secret key is injected by the session
 
   python3 tools/load_to_lms.py            # dry run: print the plan, change nothing
   python3 tools/load_to_lms.py --apply    # write lessons + quiz bodies, then verify
-  python3 tools/load_to_lms.py --apply --charts   # also chart-practice lessons (images must be uploaded)
+  python3 tools/load_to_lms.py --charts            # dry run of the Chart Practice lessons
+  python3 tools/load_to_lms.py --charts --apply    # write them (images must already be in course-images)
 
 Lesson bodies are merge-saved like the app's saveLessonBody(): text/files/join_url are kept, only
 pass_pct and questions are replaced. A database trigger moves each "correct" into quiz_answer_keys.
@@ -70,6 +71,59 @@ PLAN = [
     (12, 3, "eaf0370b-efd5-46cc-ab91-bf57fa93b813", "2. Applying Quantitative Techniques (Part 2)", "Ch12_2_part2"),
     (12, 4, "d7e8704c-4868-4b91-ac47-374a384ee1fb", "2. Applying Quantitative Techniques (Part 3)", "Ch12_2_part3"),
 ]
+
+
+# Chart Practice lesson appended to each section: (section, title, chart files in unit order)
+CHART_PLAN = [
+    (1, "Chart Practice: Theory and History", ["Ch1_1", "Ch1_2"]),
+    (4, "Chart Practice: Chart Pattern Analysis", ["Ch4_1", "Ch4_2", "Ch4_3", "Ch4_4"]),
+    (5, "Chart Practice: Trend Analysis", ["Ch5_1", "Ch5_2"]),
+    (6, "Chart Practice: Volatility Analysis", ["Ch6_1", "Ch6_2", "Ch6_3"]),
+    (7, "Chart Practice: Sentiment", ["Ch7_1"]),
+    (8, "Chart Practice: Statistics for Technicians", ["Ch8_1"]),
+    (9, "Chart Practice: Technical Indicators", ["Ch9_1", "Ch9_2", "Ch9_4"]),
+    (10, "Chart Practice: Comparative Market Analysis", ["Ch10_1"]),
+    (11, "Chart Practice: Cycle Analysis", ["Ch11_1", "Ch11_2", "Ch11_4", "Ch11_5"]),
+    (12, "Chart Practice: Systems and Quantitative Methods", ["Ch12_1", "Ch12_2"]),
+]
+
+
+def chart_questions(files):
+    out = []
+    for f in files:
+        qs = json.load(open(os.path.join(BANK, "chart_questions", f"{f}.json")))
+        out += to_lms(qs, f"chart-{f.lower()}", image_ok=True)
+    return out
+
+
+def load_charts():
+    for sec, title, files in CHART_PLAN:
+        qs = chart_questions(files)
+        assert all(q["image"] for q in qs), f"missing image link in {title}"
+        existing = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&title=eq.{urllib.request.quote(title)}&select=id")
+        if existing:
+            lid = existing[0]["id"]
+            cur = api("GET", f"/rest/v1/lesson_bodies?lesson_id=eq.{lid}&select=body")
+            body = dict(cur[0]["body"] or {}) if cur else {}
+            body.update({"pass_pct": body.get("pass_pct", 70), "questions": qs})
+            api("PATCH", f"/rest/v1/lesson_bodies?lesson_id=eq.{lid}", {"body": body})
+        else:
+            last = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&select=position&order=position.desc&limit=1")
+            pos = (last[0]["position"] if last else 0) + 1
+            lid = api("POST", "/rest/v1/lessons", {"course_id": COURSE, "chapter_id": CH[sec], "title": title, "type": "quiz",
+                                                    "position": pos, "is_required": True, "is_preview": False},
+                      prefer="return=representation")[0]["id"]
+            api("POST", "/rest/v1/lesson_bodies", {"lesson_id": lid, "body": {"text": "", "files": [], "pass_pct": 70, "questions": qs}})
+        print(f"  chart lesson {title} ({len(qs)} questions)")
+    # verify
+    for sec, title, files in CHART_PLAN:
+        l = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&title=eq.{urllib.request.quote(title)}&select=id")[0]
+        live = api("GET", f"/rest/v1/lesson_bodies?lesson_id=eq.{l['id']}&select=body")[0]["body"]["questions"]
+        ak = api("GET", f"/rest/v1/quiz_answer_keys?lesson_id=eq.{l['id']}&select=answers")[0]["answers"]
+        want = chart_questions(files)
+        ok = len(live) == len(want) and all(a["prompt"] == b["prompt"] and a["image"] == b["image"] and "correct" not in a
+                                            and ak.get(b["id"]) == b["correct"] for a, b in zip(live, want))
+        print(f"  verify {title}: {'OK' if ok else 'MISMATCH'}")
 
 
 def api(method, path, body=None, prefer=None):
@@ -153,7 +207,12 @@ def verify():
 
 
 if __name__ == "__main__":
-    if "--verify" in sys.argv:
+    if "--charts" in sys.argv and "--apply" in sys.argv:
+        load_charts()
+    elif "--charts" in sys.argv:
+        for sec, title, files in CHART_PLAN:
+            print(f"S{sec:>2}  {title:<52} {len(chart_questions(files)):>3} chart questions")
+    elif "--verify" in sys.argv:
         verify()
     else:
         main()

@@ -10,7 +10,63 @@
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch4_4_pf_triple_top.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch4_4_pf_triple_top.png",
     "concept": "P&F triple-top breakout"
+  },
+  {
+    "id": 102,
+    "question": "Price has broken out of the shaded base in C8. Using a horizontal count across the shaded base and projecting from the lowest box in the base, what is the upside price objective?",
+    "options": [
+      "$26",
+      "$38",
+      "$41",
+      "$45"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_pf_horizontal.png",
+    "concept": "P&F horizontal count = columns \u00d7 box \u00d7 reversal"
+  },
+  {
+    "id": 103,
+    "question": "Using a vertical count on column C2 (the first X column off the low), projected from the lowest X in that column, what is the upside price objective?",
+    "options": [
+      "$78",
+      "$84",
+      "$102",
+      "$112"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_pf_vertical.png",
+    "concept": "P&F vertical count with a $2 box"
+  },
+  {
+    "id": 104,
+    "question": "C4 gave a double-bottom sell signal by falling one box below C2's low to 21. How should the action in C4\u2013C5 be interpreted?",
+    "options": [
+      "A bear trap; the sell was reversed when C5 exceeded C3's high, printing an X at 29",
+      "A valid sell signal; C5 is only a 3-box reversal rally that does not affect it",
+      "A bull trap; the buy in C5 at 29 should be faded",
+      "A bear trap, but the sell is only reversed once C5 exceeds C1's high, printing an X at 31"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_pf_bear_trap.png",
+    "concept": "P&F bear trap (reversed sell signal)"
+  },
+  {
+    "id": 105,
+    "question": "A 45\u00b0 bullish support line is drawn starting in the box directly below the lowest O of C1 and rising one box per column. At what price does the line sit in column C9?",
+    "options": [
+      "$26",
+      "$27",
+      "$28",
+      "$29"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_pf_support_line.png",
+    "concept": "P&F 45-degree bullish support line"
   }
 ]

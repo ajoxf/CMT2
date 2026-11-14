@@ -4,13 +4,69 @@
     "question": "This trade distribution has many small losses and a few very large winners. Which type of trading model typically produces this profile?",
     "options": [
       "Mean-reversion model with a high win rate",
-      "Trend-following model: low win rate, positively skewed results",
       "Market-making model with symmetric results",
+      "Trend-following model: low win rate, positively skewed results",
       "A breakout model, which must have a win rate above 50% to be profitable"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch12_1_trade_hist.png",
+    "concept": "Trend-following trade profile"
+  },
+  {
+    "id": 102,
+    "question": "Using the CAGR in the legend and the marked peak and trough of each system's maximum drawdown, which system has the higher MAR (Calmar-style) ratio, CAGR \u00f7 maximum drawdown, and what is it?",
+    "options": [
+      "System A, MAR \u2248 0.52",
+      "System B, MAR \u2248 1.43",
+      "System B, MAR \u2248 8.81",
+      "System A, MAR \u2248 3.71"
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch12_1_trade_hist.png",
-    "concept": "Trend-following trade profile"
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_mar.png",
+    "concept": "MAR ratio from equity curves"
+  },
+  {
+    "id": 103,
+    "question": "Which reading of these results is most appropriate?",
+    "options": [
+      "X looks overfitted; Y is the most robust, keeping most of its edge out of sample",
+      "System X is the most robust, because its in-sample Sharpe ratio is by far the highest",
+      "System Y is overfitted, because its out-of-sample Sharpe ratio is lower than in-sample",
+      "System Z is the most robust, because it has the lowest in-sample Sharpe ratio and so cannot be curve-fitted"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_overfit.png",
+    "concept": "In-sample vs out-of-sample degradation"
+  },
+  {
+    "id": 104,
+    "question": "Which statement correctly describes the walk-forward test shown?",
+    "options": [
+      "The parameters are optimised once on 2012\u20132015 and then held fixed through 2024",
+      "The reported result is the average of the in-sample windows, since they use the most data",
+      "Each of the 9 one-year test windows is traded 4 times because the windows overlap, so each year's result is an average",
+      "9 optimisations; the result chains the 9 one-year test segments (2016\u20132024), each using parameters fitted on the prior 4 years"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_walk_forward.png",
+    "concept": "Walk-forward analysis design"
+  },
+  {
+    "id": 105,
+    "question": "What is the system's expectancy (average expected profit per trade)?",
+    "options": [
+      "$127.50",
+      "$262.50",
+      "$375.00",
+      "$622.50"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_expectancy.png",
+    "concept": "Expectancy from win rate and payoff"
   }
 ]

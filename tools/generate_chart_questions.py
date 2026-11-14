@@ -632,6 +632,25 @@ CORE = [ch4_1_head_and_shoulders, ch4_1_rectangle, ch4_2_patterns, ch4_4_point_a
         ch11_4_elliott, ch12_1_trade_distribution, ch12_2_drawdown]
 
 
+def rebalance():
+    """Spread correct answers evenly over A-D per file (deterministic). Option sets that are all numbers,
+    or that differ only by a number, stay in ascending order; their key position is left as it falls."""
+    import random
+    import re
+    num_only = re.compile(r"^[\s$±~≈<>-]*[\d.,]+\s*(%|x|R|points?|days?|bars?|weeks?)?\s*$", re.I)
+    for ch, qs in BANK.items():
+        rng = random.Random(ch)
+        movable = [q for q in qs if not all(num_only.match(o) for o in q["options"])
+                   and len({re.sub(r"-?\d[\d,]*(?:\.\d+)?", "#", o) for o in q["options"]}) > 1]
+        targets = [i % 4 for i in range(len(movable))]
+        rng.shuffle(targets)
+        for q, t in zip(movable, targets):
+            key = q["options"][q["correct"]]
+            rest = [o for j, o in enumerate(q["options"]) if j != q["correct"]]
+            q["options"] = rest[:t] + [key] + rest[t:]
+            q["correct"] = t
+
+
 def main():
     """Run the core set, then every tools/charts/*.py module's register() function.
 
@@ -653,6 +672,7 @@ def main():
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         mod.register()
+    rebalance()
     total = 0
     for ch, qs in sorted(BANK.items()):
         with open(os.path.join(OUT, f"{ch}.json"), "w") as f:

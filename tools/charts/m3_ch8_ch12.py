@@ -199,8 +199,7 @@ def ch8_pvalue():
     img = save(fig, P + "pvalue.png")
     options = [f"Do not reject H0, because the statistic of {zobs:.2f} is below the 1.96 critical value",
                f"Reject H0; there is a {(1 - p1) * 100:.1f}% probability that the signal's true mean is positive",
-               f"Reject H0, because the one-tailed p-value of about {p1:.3f} is below 0.05; had the test been "
-               f"two-tailed, p would be about {p2:.3f} and H0 would not be rejected",
+               f"Reject H0: p ≈ {p1:.3f} < 0.05 (a two-tailed test would give p ≈ {p2:.3f} and not reject)",
                f"Do not reject H0; a p-value of {p1:.3f} means there is only a {p1 * 100:.1f}% chance that the "
                f"alternative hypothesis is true"]
     add("Ch8_1", img,
@@ -229,11 +228,10 @@ def ch9_1_roc_zero():
     img = save(fig, P + "roc_zero.png")
     add("Ch9_1", img,
         "At point A the 10-period rate of change crosses above its zero line. What does this tell you?",
-        ["Price has just crossed above its 10-period moving average",
+        ["Price has just crossed above its 10-period moving average, confirming that a new uptrend is under way",
          "ROC has reached an overbought level, so a pullback is likely",
          "Price has risen 10% from its low",
-         "The close is now above the close of 10 periods earlier, so momentum has turned positive; the signal "
-         "is stronger if price also breaks a downtrend line or resistance"], 3, "ROC zero-line crossing")
+         "The close is now above the close of 10 periods earlier: momentum has turned positive"], 3, "ROC zero-line crossing")
 
 
 def ch9_1_momentum_trendline():
@@ -308,7 +306,8 @@ def ch9_1_mega_overbought():
     add("Ch9_1", img,
         "After a long decline, RSI surges to the extreme reading at M within weeks of the low. How is such a "
         "'mega-overbought' reading best interpreted?",
-        ["As a reliable sell signal, because any reading above 70 marks an intermediate top",
+        ["As a reliable sell signal, because a reading this far above 70 normally marks an intermediate top in a "
+         "bear-market rally",
          "As a sign of exceptional upside momentum typical of the early stage of a new advance; the first "
          "pullback is more likely to be a buying opportunity than the final top",
          "As a bearish divergence, because RSI has risen faster than price",
@@ -377,9 +376,9 @@ def ch9_2_hist_divergence():
         "should this be interpreted?",
         ["Bearish confirmation: the lower price low shows the downtrend is intact",
          "A buy signal, because the histogram has crossed above the zero line",
-         "Bullish divergence: downside momentum is fading; it is an early warning that needs confirmation, "
-         "such as MACD crossing its signal line and price breaking resistance",
-         "No signal, because divergences on the histogram only count once it is above zero"], 2,
+         "Bullish divergence: downside momentum is waning, an early warning that still needs price confirmation",
+         "No signal, because histogram divergences are only valid once the histogram has crossed back above its "
+         "zero line"], 2,
         "MACD histogram divergence")
 
 
@@ -403,10 +402,11 @@ def ch9_2_rsi_bull_range():
         "After the first few weeks, RSI holds within the shaded 40–80 zone, with pullbacks bottoming near "
         "40–50. Under RSI range rules, what does this behaviour indicate?",
         ["A bear-market range, in which the 40–50 zone acts as resistance",
-         "No buy signal has been given during the advance, because RSI never fell to 30",
+         "No buy signal has been given during the advance, because RSI has not fallen to the classic oversold "
+         "level of 30",
          "Each move above 70 is an overbought sell signal within the range",
-         "A bull-market range: the 40–50 zone acts as support, so dips toward it are buying opportunities, "
-         "and readings near 70–80 are not reliable sell signals"], 3, "RSI bull-market range")
+         "A bull-market range: the 40–50 zone tends to act as support, so dips toward it are potential buying "
+         "areas"], 3, "RSI bull-market range")
 
 
 def ch9_2_failure_swing():
@@ -441,11 +441,11 @@ def ch9_2_failure_swing():
     add("Ch9_2", img,
         "On the RSI panel, which pattern is completed at point F (dotted line = the RSI low between the two "
         "RSI peaks)?",
-        ["A top (bearish) failure swing: RSI's second peak fails to exceed 70 and RSI then breaks below the "
-         "intervening low",
+        ["A top failure swing: RSI fails to regain 70, then breaks below its intervening low",
          "A bottom (bullish) failure swing that signals a resumption of the advance",
          "A positive reversal, which projects a further rise in price",
-         "A bullish divergence, because RSI's second peak is lower while price holds near its high"], 0,
+         "A bullish divergence, because RSI's second peak is lower while price holds close to its earlier "
+         "high"], 0,
         "RSI top failure swing")
 
 
@@ -470,9 +470,8 @@ def ch9_4_walk_band():
         "In the shaded period, closes repeatedly press against the upper band while staying above the middle "
         "band. What does this indicate?",
         ["Each tag of the upper band is an overbought condition and a sell signal",
-         "Price is 'walking the band', a sign of a strong uptrend; touches of the upper band are not sell "
-         "signals by themselves",
-         "The bands are in a squeeze, so a volatility breakout is about to start",
+         "Price is 'walking the band', a sign of trend strength rather than a sell signal",
+         "The bands are in a squeeze, which signals that a volatility breakout is about to begin",
          "Price must return to the lower band before the uptrend can continue"], 1, "Walking the upper band")
 
 
@@ -528,10 +527,10 @@ def ch9_4_w_bottom():
         "Low 2 is slightly below low 1 in price, but low 1 closed outside the lower band while low 2 closed "
         "inside it. What is this pattern and what confirms it?",
         ["A breakdown: the new price low shows the downtrend will continue",
-         "A W-bottom that is invalid because the second price low is lower than the first",
+         "A W-bottom that is invalid, because the second price low is lower than the first and so no higher "
+         "low has formed",
          "A double top, confirmed when price falls back below the middle band",
-         "A Bollinger W-bottom: the higher relative (%b) low shows waning selling pressure; it is confirmed by "
-         "a strong advance through the interim high between the two lows"], 3, "Bollinger W-bottom")
+         "A Bollinger W-bottom, confirmed by a strong rally above the high between the two lows"], 3, "Bollinger W-bottom")
 
 
 # --------------------------------------------------------------------------- Ch10_1
@@ -561,7 +560,8 @@ def ch10_1_rs_leads():
         ["The stock is underperforming the index, because its price is below its prior high",
          "The RS line is leading: the stock is outperforming the index, a sign of leadership that often "
          "precedes a price breakout",
-         "A bearish divergence: price has failed to confirm the RS line, so the stock should be sold",
+         "A bearish divergence: price has failed to confirm the RS line's new high, so the stock should be sold "
+         "into strength",
          "The stock's price has made a new high relative to its own history"], 1, "RS line leads price")
 
 
@@ -671,8 +671,7 @@ def ch12_1_overfit():
         "Which reading of these results is most appropriate?",
         ["System X is the most robust, because its in-sample Sharpe ratio is by far the highest",
          "System Y is overfitted, because its out-of-sample Sharpe ratio is lower than in-sample",
-         "System X shows the hallmark of overfitting (sharp out-of-sample collapse); System Y is the most "
-         "robust, keeping most of its in-sample performance out of sample",
+         "X looks overfitted; Y is the most robust, keeping most of its edge out of sample",
          "System Z is the most robust, because it has the lowest in-sample Sharpe ratio and so cannot be "
          "curve-fitted"], 2, "In-sample vs out-of-sample degradation")
 
@@ -708,8 +707,8 @@ def ch12_1_walk_forward():
          "The reported result is the average of the in-sample windows, since they use the most data",
          f"Each of the {n} one-year test windows is traded {is_len} times because the windows overlap, so each "
          f"year's result is an average",
-         f"There are {n} optimisations; the reported result chains the {n} one-year out-of-sample segments "
-         f"({first}–{last}), each traded with parameters chosen only on the preceding {is_len} years"], 3,
+         f"{n} optimisations; the result chains the {n} one-year test segments ({first}–{last}), each using "
+         f"parameters fitted on the prior {is_len} years"], 3,
         "Walk-forward analysis design")
 
 
@@ -754,7 +753,7 @@ def ch12_2_signal_test():
         for bb in bars:
             ax.text(bb.get_x() + bb.get_width() / 2, bb.get_height() + 0.05, f"{bb.get_height():.2f}",
                     ha="center", fontsize=8)
-    ax.set_xticks(x, [f"{h} days" for h in hp])
+    ax.set_xticks(x, [f"{h} day" + ("s" if h > 1 else "") for h in hp])
     ax.set_ylabel("Average forward return (%)")
     ax.set_ylim(0, 3.3)
     ax.legend(loc="upper left")
@@ -781,9 +780,9 @@ def ch12_2_profit_factor():
             ax.text(bb.get_x() + bb.get_width() / 2, bb.get_height() + 800, f"${bb.get_height():,.0f}",
                     ha="center", fontsize=8)
     ax.set_xticks(x, years)
-    ax.set_ylim(0, 72_000)
-    ax.set_ylabel("$")
-    ax.legend(loc="upper right")
+    ax.set_ylim(0, 80_000)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.StrMethodFormatter("${x:,.0f}"))
+    ax.legend(loc="upper center", ncol=2)
     ax.set_title("Gross profit and gross loss by year, hypothetical system")
     img = save(fig, P + "profit_factor.png")
     options, k = opts_with(round(pf, 2), [round(gl.sum() / gp.sum(), 2), round((gp.sum() - gl.sum()) / gl.sum(), 2),
@@ -852,10 +851,9 @@ def ch12_2_heatmap():
     add("Ch12_2", img,
         "Which parameter set is the better choice for live trading, and why?",
         [f"P, because it produced the highest return in the test ({grid[pi, pj]:.1f}%)",
-         "R, because longer averages always generate fewer false signals",
-         "Q, because it sits in a broad plateau where neighbouring settings perform similarly, so its results "
-         "are less likely to be a product of curve-fitting",
-         "P, after re-optimising on a finer grid around it to locate the exact peak"], 2,
+         "R, because the longest averages generate the fewest whipsaw trades",
+         "Q, because neighbouring settings perform similarly, so it is less likely to be curve-fitted",
+         "P, after re-optimising on a finer grid around it to locate the exact peak more precisely"], 2,
         "Robust plateau vs isolated optimisation peak")
 
 

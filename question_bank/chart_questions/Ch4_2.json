@@ -3,28 +3,70 @@
     "id": 101,
     "question": "Which two-candle pattern is shown in the highlighted box at the end of this decline?",
     "options": [
-      "Bullish engulfing",
       "Bearish harami",
+      "Bullish engulfing",
       "Dark cloud cover",
       "Tweezer top"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch4_2_engulfing.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch4_2_engulfing.png",
     "concept": "Bullish engulfing recognition"
   },
   {
     "id": 102,
     "question": "The highlighted candle has a small real body near the top of its range and a lower shadow more than twice the body length. Given the trend in which it appears, how should it be classified, and what does it require before acting on it?",
     "options": [
-      "A hammer; it is bullish and needs no confirmation",
       "A hanging man; it is a potential top warning that needs bearish confirmation on the next session",
+      "A hammer; it is bullish and needs no confirmation",
       "A shooting star; it confirms the uptrend will continue",
       "An inverted hammer; it signals an immediate downside breakaway gap"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch4_2_hanging_man.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch4_2_hanging_man.png",
     "concept": "Hammer vs hanging man context"
+  },
+  {
+    "id": 103,
+    "question": "Which three-candle pattern is outlined at the end of this decline?",
+    "options": [
+      "Morning star",
+      "Evening star",
+      "Bullish harami",
+      "Three black crows"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_morning_star.png",
+    "concept": "Morning star recognition"
+  },
+  {
+    "id": 104,
+    "question": "After an advance, Day 2 opens above Day 1's high and closes lower (prices labelled). Does the outlined pair qualify as dark cloud cover?",
+    "options": [
+      "Yes \u2014 opening above the prior high and closing lower is all that dark cloud cover requires",
+      "Yes \u2014 it is a bearish engulfing pattern because Day 2 closed inside Day 1's body",
+      "No \u2014 it is a piercing line, the bullish counterpart of dark cloud cover",
+      "No \u2014 the 54.0 close fails to penetrate below the 53.0 midpoint of Day 1's white body"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_dark_cloud_test.png",
+    "concept": "Dark cloud cover midpoint rule"
+  },
+  {
+    "id": 105,
+    "question": "How should the outlined candle be classified in this context, and what would confirm it?",
+    "options": [
+      "An inverted hammer; the intraday push through resistance is a bullish sign of buying pressure",
+      "A hanging man; it needs a gap up next session to confirm the bearish reversal",
+      "A shooting star rejected at resistance; a lower close next session would confirm it",
+      "A gravestone doji, which signals that the advance is likely to continue"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_shooting_star.png",
+    "concept": "Shooting star at resistance"
   }
 ]

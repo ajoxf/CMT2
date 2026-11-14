@@ -3,14 +3,14 @@
     "id": 101,
     "question": "Which statement correctly describes the two VIX futures curves?",
     "options": [
-      "Curve A is in backwardation and is typical of a market panic",
       "Curve A is in contango, typical of calm markets; Curve B is in backwardation, typical of stress",
+      "Curve A is in backwardation and is typical of a market panic",
       "Both curves are in contango",
       "Curve B shows that traders expect volatility to rise further over the next seven months"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch6_3_term_structure.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch6_3_term_structure.png",
     "concept": "Contango vs backwardation"
   },
   {
@@ -18,13 +18,55 @@
     "question": "If the curve keeps the shape of Curve A and spot VIX stays unchanged, what tends to happen to a long position held in the second-month (M2) contract as it approaches expiry?",
     "options": [
       "It gains, because futures converge up to spot",
-      "It loses value as the futures price rolls down toward the lower spot level (negative roll yield)",
       "It gains, because the futures price rises toward the higher back-month prices",
-      "It gains, because contango implies rising spot volatility"
+      "It gains, because contango implies rising spot volatility",
+      "It loses value as the futures price rolls down toward the lower spot level (negative roll yield)"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch6_3_term_structure.png",
+    "concept": "Roll yield in contango"
+  },
+  {
+    "id": 103,
+    "question": "Using the marked points, compare the percentage moves of the index and VIX during the sell-off. Which statement is correct?",
+    "options": [
+      "VIX rose about 150% while the index fell about 12%: VIX moves inversely and far more in percentage terms, spiking during sell-offs",
+      "VIX rose about 21% while the index fell about 12%: the two move roughly in proportion",
+      "VIX rose about 150%, showing that VIX spiked before the decline and predicted it",
+      "VIX and the index both fell about 12%, showing a positive correlation in stress"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vix_inverse.png",
+    "concept": "VIX vs index asymmetry"
+  },
+  {
+    "id": 104,
+    "question": "On the final day, the first- and second-month VIX futures are as annotated. What is the M2 \u2212 M1 spread and what does its move below zero indicate?",
+    "options": [
+      "+1.5: the curve is in normal contango, consistent with a calm market",
+      "\u22121.5: the front of the curve has inverted into backwardation, signalling acute near-term stress",
+      "\u22121.5: the curve is in deeper contango, signalling complacency among option buyers",
+      "+1.5: the curve is in backwardation, so long front-month VIX futures face negative roll yield"
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch6_3_term_structure.png",
-    "concept": "Roll yield in contango"
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_m1_m2_spread.png",
+    "concept": "VIX futures spread inversion"
+  },
+  {
+    "id": 105,
+    "question": "Compare the two hedges using the payoffs annotated at \u221210% and \u221220% index moves. Which statement is correct?",
+    "options": [
+      "Both hedges are linear in the index move; the VIX calls simply carry a larger hedge ratio, which is why their payoff is higher at \u221220%",
+      "The VIX call payoff roughly doubles when the decline doubles, exactly like the futures hedge",
+      "The VIX calls are convex: limited cost in rallies and accelerating gains as the decline deepens",
+      "The futures hedge is convex because its losses are capped in a rally"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vix_call_convexity.png",
+    "concept": "VIX call convexity"
   }
 ]

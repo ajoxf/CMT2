@@ -10,7 +10,63 @@
     ],
     "correct": 1,
     "hasImage": true,
-    "image": "question_bank/chart_questions/img/ch12_2_drawdown.png",
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch12_2_drawdown.png",
     "concept": "Maximum drawdown"
+  },
+  {
+    "id": 102,
+    "question": "Which holding period shows the largest edge of the signal over the unconditional average?",
+    "options": [
+      "10 days",
+      "20 days",
+      "40 days",
+      "60 days"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_signal_test.png",
+    "concept": "Signal test: excess forward returns"
+  },
+  {
+    "id": 103,
+    "question": "What is the system's profit factor for the full four-year period?",
+    "options": [
+      "0.53",
+      "0.66",
+      "1.53",
+      "1.66"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_profit_factor.png",
+    "concept": "Profit factor"
+  },
+  {
+    "id": 104,
+    "question": "What is the system's expectancy per trade, expressed in R?",
+    "options": [
+      "+0.21R",
+      "+0.62R",
+      "+0.75R",
+      "+1.36R"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_r_multiples.png",
+    "concept": "Expectancy from R-multiple distribution"
+  },
+  {
+    "id": 105,
+    "question": "Which parameter set is the better choice for live trading, and why?",
+    "options": [
+      "Q, because neighbouring settings perform similarly, so it is less likely to be curve-fitted",
+      "P, because it produced the highest return in the test (21.5%)",
+      "R, because the longest averages generate the fewest whipsaw trades",
+      "P, after re-optimising on a finer grid around it to locate the exact peak more precisely"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_heatmap.png",
+    "concept": "Robust plateau vs isolated optimisation peak"
   }
 ]

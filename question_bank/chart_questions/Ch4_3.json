@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Candles A and B are both hammers of similar shape. Which is the more reliable bullish signal?",
+    "options": [
+      "A, because it formed on a decline into support, which gives it a reference level and a logical stop",
+      "B, because a hammer in mid-range has more room to run before it meets resistance at 50",
+      "They are equally reliable, since a candlestick's signal comes from its shape rather than its location",
+      "B, because support at 40 has already been tested and is therefore more likely to break this time"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_hammer_context.png",
+    "concept": "Pattern location: support vs mid-range"
+  },
+  {
+    "id": 102,
+    "question": "H1 and H2 are both hammers. Using the next session's close relative to the hammer's range as the confirmation test, which hammer(s) received bullish confirmation?",
+    "options": [
+      "H1 only",
+      "H2 only",
+      "Both H1 and H2",
+      "Neither"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_hammer_confirm.png",
+    "concept": "Confirmed vs unconfirmed candlestick signal"
+  },
+  {
+    "id": 103,
+    "question": "A trader buys on confirmation of the outlined bullish engulfing pattern and places the protective stop at the pattern's low. What is the risk per share?",
+    "options": [
+      "$0.40",
+      "$2.00",
+      "$2.20",
+      "$2.40"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_stop_risk.png",
+    "concept": "Stop placement below pattern low"
+  },
+  {
+    "id": 104,
+    "question": "A bearish engulfing pattern (outlined) formed just above support. What is the best interpretation of the price action that followed?",
+    "options": [
+      "The sell signal stays valid until price closes below 45, so the rally is a bull trap to be shorted",
+      "Engulfing patterns need a third session to complete, so the bearish signal is still pending",
+      "The bearish signal failed: it formed into support, and the close above the pattern high negates it",
+      "The pattern was valid; the rally is normal noise after a reversal signal and does not alter it"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_bearish_fail.png",
+    "concept": "Bearish pattern failing at support"
+  },
+  {
+    "id": 105,
+    "question": "A trader buys at the close of the outlined bullish engulfing pattern, with a stop at the pattern low and a target at overhead resistance. What is the trade's reward-to-risk ratio?",
+    "options": [
+      "0.43 : 1",
+      "0.75 : 1",
+      "1.33 : 1",
+      "1.75 : 1"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_reward_risk.png",
+    "concept": "Nearby resistance limits the reward of a candle signal"
+  }
+]
