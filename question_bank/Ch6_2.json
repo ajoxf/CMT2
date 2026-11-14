@@ -9,7 +9,8 @@
       "The premium paid by option buyers to sellers"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Compensation option sellers earn for bearing volatility risk\n\nWhy: Implied volatility (the volatility priced into options) has tended to be higher, on average, than the volatility that actually follows. That gap is the volatility risk premium (VRP). It exists because option sellers take on the risk of sudden, large moves and demand to be paid for it, much as an insurer charges premiums above expected claims. Over time, sellers collect this extra margin as their reward for bearing the risk.\n\nWhy not the others:\nB – Historical versus future volatility is not the definition; the VRP compares implied (priced) volatility with realized volatility.\nC – The cost of buying protection is the option price itself, not the risk premium embedded in it.\nD – Option buyers pay the whole premium to sellers; the VRP is only the excess above fair expected value.\n\nRemember: The VRP is the insurance margin option sellers earn for carrying volatility risk."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "−3.5 points, earned by option sellers"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 3.5 points, earned by option sellers\n\nWhy: The VRP is implied volatility minus the volatility later realized. Here: 19 − 15.5 = 3.5 volatility points. A positive gap means options were, on average, priced for more movement than actually happened. The people who sold those options collected premiums based on 19 but only had to cover moves consistent with 15.5, so the sellers earned the premium.\n\nWhy not the others:\nA – When implied exceeds realized, buyers overpaid, so they do not earn the premium.\nB – 34.5 comes from adding the two numbers instead of subtracting.\nD – The spread is positive (19 is higher than 15.5), not negative.\n\nRemember: VRP = implied − realized; when positive, sellers are the winners."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Realized volatility is trending higher after a shock"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Implied volatility is at low-to-moderate levels during calm markets\n\nWhy: In calm markets, option prices still include a cushion for possible shocks, but actual price swings stay small. So implied volatility tends to sit steadily above realized volatility, and the gap is both positive and consistent. During crashes, actual swings can suddenly outrun even very high implied volatility, so the gap shrinks or turns negative. The premium is therefore most reliable when things are quiet.\n\nWhy not the others:\nB – During crash spikes, realized volatility often catches up with or exceeds implied, shrinking the gap.\nC – Realized above implied means the premium is negative, the opposite of a wide positive gap.\nD – Rising realized volatility after a shock tends to narrow the gap, not widen it.\n\nRemember: The VRP is steadiest in calm markets and least reliable in crises."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "When VIX is above 40"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Implied volatility exceeds the volatility that is subsequently realized\n\nWhy: The spread is calculated as implied volatility minus realized volatility. If options were priced for more movement than actually happened, the result is positive. For example, implied of 18 and later realized of 14 gives 18 − 14 = +4, a positive spread. This is the normal state of affairs and is what allows option sellers to earn a premium over time.\n\nWhy not the others:\nA – Realized above implied gives a negative spread.\nB – Equal values give a spread of zero, not a positive one.\nD – A VIX above 40 is a level, not a spread; in fact such periods often have small or negative spreads.\n\nRemember: Positive spread = options priced for more movement than actually occurred."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "A higher standard deviation but identical returns"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A smaller maximum drawdown because collected premium cushions declines\n\nWhy: A cash-secured put writer sells puts and keeps cash ready to buy the index if assigned. Each month it collects premium, which offsets part of any loss when the market falls. It still loses in big declines, but less than an investor fully invested in the index. Maximum drawdown means the biggest peak-to-trough loss, and the premium cushion typically makes that loss smaller.\n\nWhy not the others:\nA – The premium income reduces, rather than enlarges, the worst losses.\nB – Collecting premium changes the payoff, so drawdowns are not identical.\nD – Put-writing usually lowers standard deviation, and returns differ as well.\n\nRemember: Premium income acts as a shock absorber, softening drawdowns."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "The short call caps upside, so it moves less than the index"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The short call caps upside, so it moves less than the index\n\nWhy: Beta measures how much a strategy moves compared with the market; 1.0 means it moves one-for-one. A covered call owns the index and sells a call on it. When the index rallies past the call's strike, the gains above that level go to the call buyer. Because the strategy captures only part of the upside, and the premium cushions some downside, it moves less than the index overall, giving a beta below 1.\n\nWhy not the others:\nA – The investor still owns the index, so net equity exposure is reduced, not zero.\nB – A long call has positive delta; selling one creates negative delta that only partly offsets the stock.\nC – Where the premium is invested does not cause the lower beta; the capped upside does.\n\nRemember: Selling calls trims upside, which lowers beta."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Lower than 16%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Lower than 16%\n\nWhy: Standard deviation measures how widely returns swing. Selling an at-the-money call means the portfolio gives up gains above today's price but collects premium. Big up months are cut off, and down months are softened by the premium. With both extremes trimmed, the spread of returns narrows, so the overlay's standard deviation should be below the portfolio's 16%.\n\nWhy not the others:\nA – Selling calls reduces, not adds to, the range of returns.\nB – The overlay changes the payoff, so volatility cannot stay exactly the same.\nC – A short call caps upside but does not protect against large declines, so volatility does not drop near zero.\n\nRemember: Covered calls shrink the swings: lower standard deviation than the stock alone."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Raising cash"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Buying volatility with long calls or puts (or spreads on them)\n\nWhy: If implied volatility is below the volatility the market is actually delivering, options are cheap relative to the movement taking place. A buyer pays a price based on low expected swings but benefits from the bigger swings that occur. That reverses the usual situation: instead of sellers earning a premium, buyers have the edge. So the conditions favor owning options rather than selling them.\n\nWhy not the others:\nA – Selling options when they are underpriced relative to actual movement means collecting too little for the risk.\nC – Waiting ignores a clear relative-value opportunity.\nD – Raising cash does not act on the volatility mismatch at all.\n\nRemember: When implied is below realized, options are cheap: be a buyer."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Providing collateral"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Underwriting insurance\n\nWhy: An option seller collects a premium up front and agrees to pay out if a large move happens, just as an insurance company collects premiums and pays claims after accidents. Insurers price policies above the expected cost of claims so they earn a margin over time. Option sellers do the same, and that margin is the volatility risk premium. Both face the danger of rare but very large losses.\n\nWhy not the others:\nA – Lending money earns interest for giving up cash, not for taking on the risk of big price moves.\nC – Commodity trading has no specific link to how option selling works.\nD – Collateral may support an option position, but it does not describe the economic role of the seller.\n\nRemember: Selling options is like selling insurance: steady premiums, occasional big claims."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Realized volatility fell faster than the VIX"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It narrowed, at times turning negative\n\nWhy: When the VIX spikes above 40, the market is in turmoil. Implied volatility is high, but actual price swings can be even more violent. So the usual gap between implied and later realized volatility shrinks, and in some crises realized volatility ends up higher than implied, making the spread negative. That is when option sellers suffer their worst losses.\n\nWhy not the others:\nA – The gap generally shrinks in crises rather than widening.\nB – The spread changes a lot across market conditions; it is not constant.\nD – In crises, realized volatility tends to stay high or rise, not fall faster than the VIX.\n\nRemember: In panics, the VRP shrinks and can flip negative."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "It suffers larger drawdowns in declines"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Strong rallies above the strike are given up\n\nWhy: A buy-write owns the index and sells calls each month. If the index rises above the call's strike, the extra gain goes to the call buyer. In a long bull market there are many strong months, and each time the strategy gives up the gains above the strike. Those missed gains add up, so it usually trails buy-and-hold over long rising periods even though the premiums help.\n\nWhy not the others:\nA – The strategy collects, rather than pays, option premiums.\nC – Its beta is below 1, not above, because upside is capped.\nD – It usually has smaller drawdowns, thanks to the premium cushion.\n\nRemember: Covered calls lag in strong bull markets because they sell away the big up months."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "A sudden crash in which realized swings outpace the jump in implied volatility"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A sudden crash in which realized swings outpace the jump in implied volatility\n\nWhy: Implied volatility is set in advance, based on expectations. In a sudden crash, prices can swing far more than anyone expected. Even if implied volatility jumps, the actual swings that follow may be larger still. That is the classic situation where realized volatility exceeds implied, making the volatility risk premium negative for that period.\n\nWhy not the others:\nA – Calm, steady rallies usually see realized volatility well below implied.\nB – Quiet periods with steady decay favor sellers because little movement occurs.\nC – Shrinking daily ranges mean realized volatility is falling, which keeps it below implied.\n\nRemember: Implied falls below realized mainly when sudden shocks surprise the market."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "The median removes the effect of interest rates on option prices"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Occasional large negative crisis readings skew the mean, so the median is more robust\n\nWhy: The mean (average) is pulled strongly by extreme values. Most months, implied volatility exceeds realized by a modest amount, but in a few crisis months the spread turns sharply negative. Those rare large negatives can drag the mean down a lot. The median is the middle value when readings are sorted, so it is barely affected by a few extremes and gives a better picture of the typical month.\n\nWhy not the others:\nA – A mean can be calculated with negative numbers without any problem.\nC – Annualization affects all readings equally and does not distort the mean in this way.\nD – Interest rates are unrelated to the choice between mean and median.\n\nRemember: Use the median when a few extreme values could distort the average."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Selling index call options"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Selling index call options\n\nWhy: An investor who already owns a broad index portfolio can sell call options on that index. They collect the call premium, which includes the volatility risk premium, and their existing holdings cover the obligation if the market rallies. This is essentially a covered call. It earns extra income at the cost of giving up some upside.\n\nWhy not the others:\nA – Buying puts means paying the premium, so the investor pays the VRP rather than earning it.\nB – Long VIX futures are a bet on rising volatility and usually lose value in calm markets.\nC – Shorting the index changes market exposure but does not involve collecting option premium.\n\nRemember: Own the index, sell calls on it: that is how a long investor harvests the VRP."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Put spread strategy"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Cash-secured put strategy\n\nWhy: Selling a put obliges you to buy the underlying at the strike price if the buyer exercises. A cash-secured put means you keep enough cash or Treasury bills on hand to pay for that purchase in full. This makes the position fully collateralized, with no borrowing. The investor collects the put premium and earns interest on the cash while waiting.\n\nWhy not the others:\nA – A protective put is bought, not sold, to insure a stock already owned.\nB – A naked put is sold without full cash backing, relying on margin.\nD – A put spread combines a bought put and a sold put at different strikes.\n\nRemember: Cash-secured put = sell a put and hold the full cash to buy if assigned."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "To arbitrage price differences"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. To hedge against losses\n\nWhy: In the VRP framework, most option buyers are not speculators; they are investors seeking protection. They buy puts to guard their portfolios against sharp drops, much as homeowners buy fire insurance. Because they value that protection, they are willing to pay more than its statistically expected value. That willingness to overpay for safety is what creates the premium sellers earn.\n\nWhy not the others:\nA – Generating income is the seller's goal, not the buyer's.\nC – Some buyers speculate, but the framework stresses hedging as the main reason for overpaying.\nD – Arbitrage seeks risk-free price gaps and does not explain persistent demand for protection.\n\nRemember: Buyers pay up for insurance, and that creates the VRP."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Only during high volatility periods"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. All asset classes\n\nWhy: The VRP comes from a general human trait: people will pay extra to protect against big, sudden losses. That desire is not limited to stocks. Options on bonds, currencies, commodities and individual shares all tend to show implied volatility above realized volatility on average. Wherever options let investors buy protection, sellers can typically earn a premium.\n\nWhy not the others:\nA – The premium is not limited to equities.\nB – It appears in options on individual assets as well as indexes.\nD – The premium is most reliable in calm periods, not only during high volatility.\n\nRemember: Wherever people buy insurance through options, the VRP tends to appear."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Greater built-in leverage"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Lower drawdowns and standard deviations\n\nWhy: Both strategies collect option premium every period. That income cushions losses in falling markets, so the worst declines (drawdowns) are smaller. Selling options also caps or reduces gains in strong months, so returns swing less overall, meaning lower standard deviation. The main appeal is therefore a smoother ride, not higher returns.\n\nWhy not the others:\nB – Over long bull markets, these strategies often earn slightly less than buy-and-hold.\nC – Their beta is below 1, not higher.\nD – These strategies are not leveraged; the cash-secured and covered structures avoid leverage.\n\nRemember: Option-writing strategies trade some upside for a smoother ride."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Market crashes are imminent"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Implied volatility overestimates realized volatility\n\nWhy: When the VIX is at moderate or low levels, markets are fairly calm, but option prices still carry a cushion for possible shocks. As a result, the volatility that actually follows has tended to be lower than the VIX implied. In other words, implied volatility overestimated what happened, leaving a positive spread for option sellers.\n\nWhy not the others:\nA – Realized volatility exceeding implied is more typical of crisis periods, not calm ones.\nC – The two are rarely equal; a premium is usually present.\nD – A VIX at or below 20 reflects calm conditions and does not signal an imminent crash.\n\nRemember: In calm markets, the VIX has tended to overstate the swings that follow."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Hedging portfolio risk"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Collecting option premiums by selling options\n\nWhy: Capturing the VRP means getting paid the extra margin built into option prices. The only way to do that is to be on the selling side: write options, collect the premium, and keep the difference if actual volatility turns out lower than implied. Covered calls, cash-secured puts and option spreads are all ways to do this.\n\nWhy not the others:\nA – Buying options means paying the premium, not collecting it.\nB – VIX futures trading is a separate activity and does not directly collect option premium.\nD – Hedging usually involves buying protection, which pays the VRP rather than earning it.\n\nRemember: To capture the VRP, you must be the option seller."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Buy straddles"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Sell call or put options\n\nWhy: If implied volatility stays above realized volatility, options are priced for more movement than will actually happen. Selling them lets the trader collect a premium that exceeds the cost of the moves that occur. Whether calls or puts, the seller earns the difference. This is the core idea behind harvesting the volatility risk premium.\n\nWhy not the others:\nB – Buying calls means paying an overpriced premium.\nC – Buying puts also means paying for overpriced volatility.\nD – Long straddles bet on more movement than implied, the opposite of this expectation.\n\nRemember: Implied above realized means sell options."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "−6%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. −6%\n\nWhy: Beta tells you how much a strategy tends to move for each 1% move in the market. Expected move = beta × market move. Here: 0.6 × (−10%) = −6%. So the strategy would be expected to fall about 6%, less than the index, because its market sensitivity is only 60% of the index's.\n\nWhy not the others:\nA – −16% would require a beta of 1.6, not 0.6.\nB – −10% would require a beta of 1.0.\nC – +6% gets the sign wrong; a positive beta moves in the same direction as the market.\n\nRemember: Expected move = beta × market move."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Put writers own the stock and also hold cash"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Differences in premium richness, roll timing and collateral interest\n\nWhy: In theory, a covered call and a cash-secured put at the same strike have nearly the same payoff, a relationship known as put-call parity. In practice, the actual results differ because puts often carry richer premiums than calls, the strategies may roll on different dates, and the cash backing the puts earns interest. Those practical differences can give put-writing a smaller maximum drawdown in some periods.\n\nWhy not the others:\nB – Put writers are assigned when the market falls below the strike, which is exactly when losses occur.\nC – A covered call is fully backed by the stock it holds, so it is not leveraged.\nD – Put writers hold cash, not the stock; owning both describes a different position.\n\nRemember: Similar payoffs on paper can diverge in practice because of pricing and timing details."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Replace the need for equity exposure in a portfolio"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Capture VRP and enhance returns\n\nWhy: A portfolio of Treasury securities earns interest and also serves as collateral. On top of that, the investor can sell option spreads, collecting premium that includes the volatility risk premium. A spread limits the maximum loss because one option is bought to offset the one sold. The aim is to add extra income above the Treasury yield.\n\nWhy not the others:\nA – Selling option spreads does not hedge the Treasuries' interest-rate risk.\nC – The option position adds risk, so the return is neither fixed nor risk-free.\nD – The overlay supplements a portfolio; it does not replace equity exposure.\n\nRemember: Treasuries as collateral plus sold spreads = interest plus VRP."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "It can become negative or significantly compressed"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It can become negative or significantly compressed\n\nWhy: When the VIX is above 40, markets are in crisis and price swings are violent. Even though implied volatility is high, the realized volatility that follows can be just as high or higher. So the usual cushion between implied and realized shrinks sharply, and sometimes realized comes in above implied, making the premium negative. Option sellers can suffer heavy losses in such periods.\n\nWhy not the others:\nA – The premium shrinks rather than increases in extreme stress.\nB – It varies strongly across market conditions; it is not constant.\nC – Implied and realized volatility do not move in lockstep; realized can overtake implied in crises.\n\nRemember: Extreme stress squeezes the VRP and can flip it negative."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Annualized volatility"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Historical volatility over the subsequent 21 trading days\n\nWhy: To test whether implied volatility forecast the future well, you compare it with what actually happened next. Twenty-one trading days is about one calendar month, matching the VIX's 30-day horizon. So you measure the actual volatility of returns over the 21 trading days that follow the implied reading. That gives a fair, like-for-like comparison of forecast versus outcome.\n\nWhy not the others:\nA – Forward-looking expectations describe implied volatility, not realized.\nB – The past 21 days would measure what happened before the forecast, not the outcome it predicted.\nD – The measure is usually annualized for comparison, but the key point is which period it covers.\n\nRemember: To grade a forecast, measure the volatility that came after it."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Buyers overpaid for protection"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The VRP was negative and short options likely lost money\n\nWhy: The VRP is implied minus realized volatility. Here: 30 − 55 = −25 points. The seller was paid for 30-level volatility but faced 55-level swings. Large swings make options far more valuable at expiration or force costly hedging, so the seller likely lost money. This is the insurance analogy's \"big claim\" scenario.\n\nWhy not the others:\nB – The premium collected was too small for the moves that occurred, so the seller did not profit.\nC – Realized came in 25 points above implied, so the forecast was far off.\nD – Buyers paid for 30 but received protection against 55, so they underpaid, not overpaid.\n\nRemember: Realized above implied means the option seller pays the claim."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "About 80%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. About 15%\n\nWhy: Annualized standard deviation measures how widely yearly returns tend to vary. For a broad U.S. large-cap stock index over long periods, this has typically been in the mid-teens, around 15%. That is also roughly where the VIX tends to hover in normal times. Individual stocks are much more volatile, and bonds or cash much less.\n\nWhy not the others:\nA – About 2% is closer to the volatility of very short-term cash-like assets.\nC – About 45% is typical of a single volatile stock or a crisis period, not a long-run index average.\nD – About 80% is extreme and seen only in speculative assets or panics.\n\nRemember: A broad stock index typically swings about 15% a year."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "VIX is above 40 and rising"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Implied volatility is rich relative to expected realized\n\nWhy: A covered call sells a call against stock you own. Its income comes from the call premium. When implied volatility is high compared with the movement you actually expect, that premium is rich: you are being paid more than the likely moves justify. That is when selling calls is most attractive, because you earn the volatility risk premium on top of holding the stock.\n\nWhy not the others:\nA – Expecting a big rally argues against capping your upside by selling calls.\nB – In extreme downturns, a covered call still loses on the stock and the premium offers limited protection.\nD – A VIX above 40 and rising signals a crisis, when realized volatility often exceeds implied.\n\nRemember: Sell calls when option prices are rich relative to the movement you expect."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Eliminating all market risk"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Eliminating all market risk\n\nWhy: VIX options and futures are flexible tools. Because the VIX usually jumps when stocks fall, long VIX positions can hedge against crashes, which is tail risk hedging. They can also be used to manage overall portfolio risk and to build trading strategies seeking extra return, or alpha. But no hedge removes every form of market risk; there are always costs, imperfect correlations and timing gaps.\n\nWhy not the others:\nA – Tail risk hedging is a common use, since the VIX tends to spike in crashes.\nB – Portfolio risk management is a standard use of these products.\nC – Traders do use them in strategies aiming to generate alpha.\n\nRemember: VIX products can reduce risk, but nothing eliminates it entirely."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Individual stocks and all optionable asset classes"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Individual stocks and all optionable asset classes\n\nWhy: The VRP exists because buyers will pay extra for protection against sharp moves, and sellers demand a reward for taking that risk. That logic applies anywhere options trade: individual shares, stock indexes, bonds, currencies and commodities. So the principle of selling options to collect this premium is not limited to one index or one type of contract.\n\nWhy not the others:\nA – The S&P 500 is just one example; the premium is not exclusive to it.\nB – Individual stock and non-equity options also carry the premium.\nC – Having listed futures is not a requirement for the premium to exist.\n\nRemember: Any asset with options can carry a volatility risk premium."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Higher returns with equal risk"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Lower returns with lower risk/drawdowns\n\nWhy: Writing puts or calls collects premium, which cushions declines and narrows return swings. The price for that smoother path is giving up some upside in strong rallies, because gains above the strike are surrendered. Over long periods, these strategies have tended to earn somewhat less than buy-and-hold but with smaller drawdowns and lower volatility. That is the basic trade-off.\n\nWhy not the others:\nA – These strategies reduce risk, not increase it.\nC – Returns are usually a bit lower, not equal, because upside is capped.\nD – Higher returns with equal risk would be a free lunch these strategies do not provide.\n\nRemember: Option-writing gives up some return for a smoother ride."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Cash-secured puts on the index"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Long index options bought before the shock\n\nWhy: If realized volatility jumps above the implied volatility priced a month earlier, the options were too cheap for the moves that followed. The people who bought them, especially puts as markets fell, benefited from swings far larger than they paid for. Their options gained a lot of value. This is the situation where the usual VRP flows the other way, from sellers to buyers.\n\nWhy not the others:\nB – Short puts lose heavily when the market drops sharply.\nC – Covered calls still own the falling index, and the small call premium offers little protection.\nD – Cash-secured puts are assigned at the strike as prices plunge, producing losses.\n\nRemember: When realized beats implied, option buyers win."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Increase portfolio beta"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Capture the volatility risk premium\n\nWhy: With the VIX at 18, markets are in a moderate, fairly calm state, the kind of setting where implied volatility has tended to exceed realized volatility. Selling S&P 500 puts collects premium that includes that excess. If the market stays calm or rises, the seller keeps the premium. The trade is a way to earn the volatility risk premium, while accepting the risk of losses if the market falls sharply.\n\nWhy not the others:\nA – Selling puts profits if the market holds up, so it is not a bet on decline.\nC – Hedging long stock would involve buying puts, not selling them.\nD – Increasing beta is not the main purpose; the aim is to collect premium.\n\nRemember: Selling puts in calm markets is a classic way to collect the VRP."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Simultaneously sell call options"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Have cash to purchase the stock if assigned\n\nWhy: When you sell a put, you may be required to buy the underlying at the strike price. A cash-covered (cash-secured) put means you keep the full amount needed for that purchase set aside in cash. For example, selling one put with a strike of 50 on 100 shares requires 50 × 100 = 5,000 in cash. This keeps the position unleveraged.\n\nWhy not the others:\nA – Owning the stock is part of a covered call, not a cash-covered put.\nC – A margin account alone allows leverage; it is not the full cash backing required.\nD – Selling calls at the same time would create a different strategy.\n\nRemember: Cash-covered put = enough cash on hand to buy the shares at the strike."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "They have lower standard deviations than cash"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They move less than the index, reducing market sensitivity\n\nWhy: Beta measures how much a strategy moves for each 1% move in the market. Betas of 0.55 and 0.65 mean the strategies tend to move about 55% and 65% as much as the index. For example, a 10% index drop would suggest moves of about −5.5% and −6.5%. So they still follow the market, just with lower sensitivity.\n\nWhy not the others:\nA – A beta well above zero means they are still linked to equities, not uncorrelated.\nB – With beta below 1, they tend to lag the index in strong rallies.\nD – They carry equity risk, so their volatility is higher than cash, not lower.\n\nRemember: Beta below 1 = moves less than the market, in both directions."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "When VIX is below its long-run average"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When implied volatility sits below realized volatility\n\nWhy: Buying options means paying a premium based on implied volatility. If implied is below the volatility the market is actually delivering, the options are cheap relative to the movement. A buyer then benefits from swings larger than those priced in. That is when long option positions have the best value.\n\nWhy not the others:\nB – A VIX above 40 means options are very expensive; a high level alone does not make buying attractive.\nC – Implied above realized means options are rich, which favors sellers.\nD – A low VIX alone does not mean options are cheap compared with actual movement.\n\nRemember: Buy options when they are priced for less movement than is actually occurring."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Owning the underlying and selling call options"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Owning the underlying and selling call options\n\nWhy: A covered call, also called a buy-write, means you own the stock or index and sell call options on it. The shares you own \"cover\" the obligation to deliver them if the buyer exercises. You collect the call premium as income, but you give up gains above the strike price. It is the most common way long investors harvest option premium.\n\nWhy not the others:\nA – Buying calls and selling puts creates a bullish, leveraged position, not a covered call.\nB – Selling naked calls means having no shares to cover, which carries unlimited risk.\nC – Buying protective puts is insurance on a holding, the opposite of selling options.\n\nRemember: Covered call = own the shares, sell the call."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Is inferior, because it earns a lower return"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Is likely superior, since it gives up little return for much less risk\n\nWhy: Risk-adjusted return looks at how much return you earn per unit of risk. Using volatility as risk: if the index's volatility is V, the put-write strategy has about (2/3) × V. Index: 10 ÷ V. Put-write: 9 ÷ (0.667 × V) ≈ 13.5 ÷ V. So the put-write strategy earns about 13.5 units of return per unit of risk against 10 for the index, which is better on a risk-adjusted basis.\n\nWhy not the others:\nB – It gives up only 1 point of return while cutting risk by a third, so it is not clearly inferior.\nC – Equal risk-adjusted performance would need equal return per unit of risk, which is not the case.\nD – Looking only at raw return ignores the large difference in risk.\n\nRemember: Compare return per unit of risk, not just return."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Buy VIX futures"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Sell volatility through short options\n\nWhy: The VIX at 15 means options are priced for about 15% volatility, while realized volatility has historically been around 12%. The gap is 15 − 12 = 3 points in favor of the seller. Selling options collects premium based on the higher figure while likely facing smaller actual moves, which captures the volatility risk premium. Risk management still matters, because shocks can reverse the gap.\n\nWhy not the others:\nA – Buying options means paying for 15-level volatility when only about 12 is expected.\nB – Long straddles also pay the overpriced premium and need bigger moves to profit.\nD – Long VIX futures bet on rising volatility, the opposite of this view.\n\nRemember: Implied above expected realized means sell volatility."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "5.50"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 2.50\n\nWhy: The seller receives 4.00 when the call is sold. At expiration, the call is worth 1.50, which is the amount the seller must effectively pay out to settle or buy it back. Premium kept = 4.00 − 1.50 = 2.50. That 2.50 is the seller's profit before costs.\n\nWhy not the others:\nA – 1.50 is what the call is worth at expiration, which the seller gives up, not what they keep.\nC – 4.00 would be kept only if the call expired worthless.\nD – 5.50 adds the two numbers instead of subtracting.\n\nRemember: Seller's profit = premium received − value at expiration."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Express directional views without committing to the underlying"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Express directional views without committing to the underlying\n\nWhy: Options let a trader act on a view about direction, such as expecting a rise, without buying or selling the asset itself. For example, buying a call gives upside exposure for a limited outlay, and selling a put earns premium in exchange for agreeing to buy at a lower price. This flexibility lets traders shape risk and capital use to fit their outlook.\n\nWhy not the others:\nA – Options still respond to the underlying's price; they shape that exposure rather than removing it.\nB – Only selling options earns the VRP; buying options pays it.\nC – Options always carry volatility exposure; their price depends on it.\n\nRemember: Options let you express a view without owning the asset outright."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "When VIX spiked above 40"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. When VIX spiked above 40\n\nWhy: In calm or moderate markets, the VIX has usually sat comfortably above the volatility that followed, leaving a solid premium for sellers. But during extreme spikes above 40, actual price swings became so violent that they often matched or exceeded the elevated VIX. The gap between the two narrowed sharply and sometimes turned negative.\n\nWhy not the others:\nA – A VIX below 15 is typically a calm period with a steady positive spread.\nB – The 15–20 range has historically shown a healthy positive spread.\nC – Stable periods are when the spread is most reliable, not narrowest.\n\nRemember: The VIX-to-realized gap shrinks most in extreme spikes."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "Selling the position and buying index futures instead"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Selling call options against the position\n\nWhy: If a portfolio moves closely with the S&P 500, the investor can sell index call options against it. The portfolio's gains offset the calls' losses if the market rallies, so the calls are effectively covered. The investor collects premium, including the volatility risk premium, which adds to returns in flat or modestly rising markets, at the cost of capping some upside.\n\nWhy not the others:\nA – Buying puts costs premium, which lowers returns rather than enhancing them.\nB – Leverage adds risk and is not a way of harvesting option premium.\nD – Swapping the portfolio for futures changes how the exposure is held, not how much income it earns.\n\nRemember: Sell calls against a highly correlated portfolio to earn extra premium."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "Avoiding market exposure"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Earning the premium for underwriting options\n\nWhy: The option seller acts like an insurer. They take on the risk of large price moves and are paid a premium for doing so. Because buyers tend to overpay for protection, the premium usually exceeds the expected cost of the risk over time. The seller's motive is to collect that excess, which is the volatility risk premium.\n\nWhy not the others:\nB – Hedging is usually the motive of buyers, not sellers.\nC – Protecting against losses describes buying insurance, not selling it.\nD – Selling options adds market exposure; it does not avoid it.\n\nRemember: Option sellers are paid to underwrite risk, like insurers."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "It has 30% less volatility than the market in all periods"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It moves about 70% as much as the market\n\nWhy: Beta measures how sensitive a strategy is to market moves. A beta of 0.7 means that, on average, when the market moves 1%, the strategy moves about 0.7%. For example, a 10% market rise would suggest about 0.7 × 10% = 7% for the strategy. It is an average relationship, not a guarantee in every period.\n\nWhy not the others:\nB – Correlation measures how closely two series move together, which is a different statistic from beta.\nC – Beta describes average sensitivity, not a fixed share of returns in all conditions.\nD – Beta is not the same as relative volatility, and nothing holds \"in all periods.\"\n\nRemember: Beta 0.7 = about 70% of the market's move, on average."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "VRP can be captured through various option strategies"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. VRP can only be captured when VIX is below 20\n\nWhy: The question asks for the false statement. The VRP is most reliable when the VIX is moderate or low, but there is no rule that it can only be captured below 20. Sellers can collect premium at any VIX level; it is simply riskier and less dependable at extreme levels. The other three statements correctly describe the VRP.\n\nWhy not the others:\nA – True: the premium is found across asset classes that have options.\nC – True: it is the reward sellers earn for providing protection against volatility.\nD – True: covered calls, cash-secured puts and spreads are all ways to capture it.\n\nRemember: The VRP is most reliable when the VIX is calm, but not limited to it."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "The spread between implied and realized volatility"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The spread between implied and realized volatility\n\nWhy: The VRP is the difference between implied volatility (what options are priced for) and realized volatility (what actually happens). A trader harvesting it needs to know whether that spread is wide, narrow or negative. A wide positive spread supports selling options; a narrow or negative one warns of trouble. Watching only one side gives an incomplete picture.\n\nWhy not the others:\nA – The VIX level alone does not show whether options are rich relative to actual movement.\nB – Historical volatility alone ignores what the options market is pricing.\nC – Interest rates affect option prices a little but do not measure the VRP.\n\nRemember: The VRP lives in the gap between implied and realized, so watch that gap."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Market-neutral returns"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Reduced drawdowns and volatility with modest return reduction\n\nWhy: These strategies collect option premium, which cushions losses and narrows return swings. The trade-off is that some upside is given up in strong rallies, so long-run returns tend to be a little lower than buy-and-hold. They suit investors who want a smoother ride and can accept slightly less return.\n\nWhy not the others:\nA – They cap or limit upside, so they do not maximize gains in strong bull markets.\nC – They are not leveraged and usually have beta below 1.\nD – They still carry substantial equity exposure, so they are not market-neutral.\n\nRemember: Option-writing strategies suit investors who prefer smoother rides over maximum upside."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "No consistent relationship existed"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. VIX overestimated realized volatility\n\nWhy: When the VIX has been at or below 20, markets were generally calm, but option prices still included a cushion for possible shocks. The volatility actually realized over the next 21 trading days, about one month, has typically come in lower than the VIX implied. So the VIX overestimated the swings that followed, leaving a positive premium for option sellers.\n\nWhy not the others:\nA – Underestimation is more typical of crisis periods, not calm ones.\nB – A persistent gap exists, so the VIX was not an exact forecast.\nD – The relationship has been fairly consistent in calm markets, with implied above realized.\n\nRemember: In calm markets, the VIX has tended to overstate next month's swings."
   }
 ]

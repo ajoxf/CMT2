@@ -9,7 +9,8 @@
       "Use a top-down approach starting with broad indices, then sectors, then individual stocks"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Work top-down: broad indices first, then sectors, then individual stocks.\n\nWhy: The Principle of Cyclicality says markets move in repeating cycles, and Hurst observed that related securities often share similar cycles. The broad index reflects the common cycles most clearly because it averages out each stock's own noise. Identifying those cycles first gives a framework; you then check sectors and individual stocks, which share the common cycles but add their own variations.\n\nWhy not the others:\nA – Forcing the same periods on all securities ignores their real differences.\nB – Starting with individual stocks means starting with the noisiest data.\nC – Ignoring the broader market throws away the common cycles that drive most securities.\n\nRemember: Find the cycles in the index first, then confirm them in sectors and stocks."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Only exact multiples of 10"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The most common harmonic relationships are multiples of 2 and 3.\n\nWhy: The Principle of Harmonicity says cycles are linked by simple whole-number ratios. Most often a longer cycle divides into two or three shorter cycles. For example, a 40-week cycle contains two 20-week cycles, and a dominant cycle may also contain three cycles of one-third its length. This is what makes a nested hierarchy of cycles possible.\n\nWhy not the others:\nA – Multiples of 5 and 7 are not the usual harmonic links.\nB – Multiples of 4 and 6 happen only as combinations of 2 and 3, not as the basic ratios.\nD – Exact multiples of 10 have no special role in cycle theory.\n\nRemember: Cycles usually split into halves or thirds."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "A low at the 1/4 point that appears only in bear markets"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A mid-cycle dip is a composite low near the dominant cycle's peak, caused by adding its 2nd harmonic.\n\nWhy: When a 2nd harmonic (a cycle half as long) is added to a dominant cycle with troughs aligned, the 2nd harmonic bottoms right in the middle of the dominant cycle, which is where the dominant cycle peaks. The sum shows a small dip at that point, between two highs. This shape is a clue that a dominant cycle with a 2nd harmonic is present.\n\nWhy not the others:\nA – The dip sits in the middle of the cycle, not at its start.\nC – The dip is part of the cycle structure, not an outside shock.\nD – It forms near the midpoint, not the 1/4 point, and appears in any market.\n\nRemember: Two humps with a dip in between point to a dominant cycle plus its 2nd harmonic."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "At the very start and very end of the cycle"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The two highs form near the 1/3 and 2/3 points, either side of a mid-cycle dip.\n\nWhy: Take a dominant cycle with troughs at 0 and 1 and a peak at 1/2. Its 2nd harmonic has troughs at 0, 1/2 and 1 and peaks at 1/4 and 3/4. Adding them with the harmonic at half the amplitude, the harmonic's trough at 1/2 pulls the middle down, creating a dip. Working it through: with the cycle as 360°, the composite's slope is zero where cos(angle) = −0.5, which is at 120° and 240°, that is, at 1/3 and 2/3 of the cycle, slightly closer to the middle than the harmonic's own peaks.\n\nWhy not the others:\nA – A single high at 1/2 is what the dominant cycle would show alone.\nC – 1/4 and 3/4 are the harmonic's own peaks; the dominant cycle pulls the composite highs inward.\nD – The start and end of the cycle are troughs, not highs.\n\nRemember: Dominant + 2nd harmonic = highs near 1/3 and 2/3, with a dip at 1/2."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "The mid-cycle dip shifts toward the 1/4 point of the cycle"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The dip disappears, and the 3rd harmonic reinforces the dominant cycle's high.\n\nWhy: A 3rd harmonic has a period one-third as long, so its troughs fall at 0, 1/3, 2/3 and 1, and one of its peaks falls at 1/2. That peak lines up with the dominant cycle's peak, adding height instead of cutting a dip. The composite therefore shows a single, stronger high around the midpoint.\n\nWhy not the others:\nA – The dip only exists when a 2nd harmonic's trough is at the midpoint.\nC – The 3rd harmonic does not create two dips at the midpoint.\nD – It does not move a dip to 1/4; it removes the midpoint dip.\n\nRemember: 2nd harmonic cuts a dip at mid-cycle; 3rd harmonic builds a peak there."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "When a dominant cycle splits into two equal sub-cycles"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. An inversion is when price makes a swing high at a point where a cycle low was expected.\n\nWhy: Cycle analysis projects when a trough should arrive. If price instead forms a peak at that time, the cycle appears flipped, or inverted. This does not mean the cycle has vanished; it usually means other cycles are overpowering it at that moment.\n\nWhy not the others:\nA – Completing in half the time is a different issue, not an inversion.\nB – A sudden change in amplitude is not what inversion means.\nD – Splitting into sub-cycles describes harmonics, not inversion.\n\nRemember: Inversion = a high where you expected a low."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "A shift of the 2nd harmonic so its troughs align with dominant peaks"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Either a weaker 2nd harmonic with a stronger larger cycle, or a 3rd harmonic is present.\n\nWhy: Explanation one: the 2nd harmonic's trough is expected at mid-cycle, but if it is weak and the larger cycle is near its peak, the larger cycle's high dominates, so price makes a high instead of a low. Explanation two: a 3rd harmonic peaks at the midpoint, turning the expected low into a high. Both are common reasons for an inversion.\n\nWhy not the others:\nB – A stronger 2nd harmonic would make the mid-cycle low deeper, not turn it into a high.\nC – A longer period shifts timing but does not typically flip a low into a high.\nD – Harmonics stay tied to their dominant cycle; they do not shift to make troughs line up with peaks.\n\nRemember: Inversions usually come from a weak 2nd harmonic or the presence of a 3rd harmonic."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Because longer cycles peak before shorter cycles bottom"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Cycle troughs tend to coincide, while their crests do not.\n\nWhy: The Principle of Synchronicity says cycles of different lengths tend to bottom at the same time. When several cycles turn up together, their combined push makes a quick, sharp low. Crests, however, fall at different times for different cycles, so the market peaks in stages, giving tops a broader, rounded shape.\n\nWhy not the others:\nA – The idea comes from cycle timing, not from comparing emotions.\nC – Volume may differ but is not the explanation in cycle theory.\nD – The point is that troughs align; this option misstates the timing.\n\nRemember: Lows line up across cycles, so bottoms are sharp; highs do not, so tops are broad."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "A nearly flat line, because the harmonics largely cancel out"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Sharp, well-defined lows and broad, multi-peaked (rolling) highs.\n\nWhy: When a dominant cycle and its 2nd and 4th harmonics are added, all three bottom together at the start of the dominant cycle, creating a sharp low. Their peaks occur at different times, so the high region shows several small humps instead of one clean peak. That is the rolling top seen in many real markets.\n\nWhy not the others:\nA – This reverses the shapes; the lows are sharp and the highs are broad.\nC – The shapes are not symmetrical because only troughs align.\nD – The harmonics do not cancel; troughs reinforce each other.\n\nRemember: Composite cycles show V-shaped lows and rolling tops."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Amplitude and period are unrelated except in annual cycles"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Longer cycles have larger amplitudes and set the trend for shorter ones.\n\nWhy: Amplitude is the size of a cycle's swing. The Principle of Proportionality says longer cycles have bigger swings. Because shorter cycles ride on top of longer ones, the longer cycle's direction works like the trend: shorter cycles rise more when the longer cycle is rising and fall more when it is falling.\n\nWhy not the others:\nA – Amplitudes are not equal; they grow with period.\nC – This reverses the relationship.\nD – Amplitude and period are linked generally, not just for annual cycles.\n\nRemember: Longer cycle = bigger swing = the trend shorter cycles ride on."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "The 9-month cycle is the 18-month cycle shifted by half a period"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The 9-month cycle is the 2nd harmonic of the 18-month cycle.\n\nWhy: A 2nd harmonic is a cycle half as long as the larger cycle, so two of them fit inside it. 18 ÷ 2 = 9, so the 9-month cycle fits twice into the 18-month cycle. Hurst's model links cycles in this nested way.\n\nWhy not the others:\nB – They are nested and related, not independent.\nC – A 3rd harmonic of 18 months would be 18 ÷ 3 = 6 months.\nD – A phase shift is not the same as a harmonic relationship.\n\nRemember: Half the period = 2nd harmonic; one third = 3rd harmonic."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Hurst's model includes cycles shorter than one week while Garrett's does not"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Hurst used calendar days and multiples of 2 and 3; Garrett used trading days and only multiples of 3.\n\nWhy: Both models list a set of nominal (approximate) cycle lengths, but they are built differently. Hurst measured in calendar days and linked cycles by halves and thirds. Garrett measured in trading days and used a strict factor of three between levels. The idea is the same, nested cycles, but the units and ratios differ.\n\nWhy not the others:\nB – This swaps the units.\nC – Neither model is limited to commodity markets.\nD – Short cycles are not the key difference between the two models.\n\nRemember: Hurst: calendar days, 2s and 3s. Garrett: trading days, 3s."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "30-week"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The 20-week cycle sits immediately below the 40-week cycle.\n\nWhy: Hurst's nominal model mostly halves each level to get the next shorter cycle. 40 ÷ 2 = 20, so the 20-week cycle is the 2nd harmonic of the 40-week cycle and sits just below it in the hierarchy.\n\nWhy not the others:\nA – 13 weeks is roughly one third of 40, not the next level in the model.\nC – 26 weeks does not fit the 2:1 step.\nD – 30 weeks is not a nominal Hurst cycle.\n\nRemember: In Hurst's model, 40 weeks steps down to 20 weeks."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "The cycle amplitude shrinks over time"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Left translation means the cycle's crest forms before the midpoint, measured trough to trough.\n\nWhy: Measure a cycle from one low to the next. If the high comes early, in the left half, the cycle is left translated: it spends less time rising and more time falling. This often means a longer cycle is pushing prices down and shortening the up-phase.\n\nWhy not the others:\nA – A crest after the midpoint is right translation.\nB – On-time troughs say nothing about where the crest falls.\nD – Shrinking amplitude is a different idea.\n\nRemember: Left translation = early crest; right translation = late crest."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "It is rising (bullish)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Right translation suggests the longer-term trend is rising.\n\nWhy: For a 40-day cycle, the midpoint is day 20. A crest around day 28 is late, so the cycle is right translated: it spends more time rising than falling. That usually happens when a longer cycle underneath is rising, lifting the shorter cycle and extending its advance.\n\nWhy not the others:\nA – A falling trend tends to cause left translation, with early crests.\nB – A flat trend would tend to leave the crest near the midpoint.\nC – Translation does carry information about the underlying trend.\n\nRemember: Late crests point to a rising trend underneath."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Only in commodity markets"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Left translation is most common in bear markets and falling longer-term trends.\n\nWhy: When a longer cycle is falling, it drags each shorter cycle down. The shorter cycle's rally runs out of steam early, so its crest comes before the midpoint, and more time is spent falling. This early-peak pattern is typical of downtrends.\n\nWhy not the others:\nA – Rising trends tend to produce right translation.\nB – Translation depends on trend direction, not just low volatility.\nD – It appears in all markets, not only commodities.\n\nRemember: Early peaks are a hallmark of falling trends."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "As the average of the two longest cycles"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Price is the simple additive sum of all active cycles, plus noise.\n\nWhy: The Principle of Summation says what you see on a chart is the total of many cycles added together, plus random noise. Long cycles give the broad trend, shorter cycles add swings on top, and noise adds jitter. Breaking price down into these pieces is the basis for cycle analysis.\n\nWhy not the others:\nB – The cycles are added, not multiplied.\nC – Shorter cycles are real parts of the price, not just noise.\nD – Averaging two cycles ignores the many others that contribute.\n\nRemember: Price = cycle + cycle + cycle + noise."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "How closely the market tracks other major indices"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Check whether price has respected 3rd-harmonic lows in recent dominant cycles.\n\nWhy: If a 3rd harmonic is active, earlier dominant cycles should show lows near the 1/3 and 2/3 points. Looking back to see whether those lows formed is the most direct test. If they did, a 3rd harmonic likely explains the current inversion.\n\nWhy not the others:\nA – Volume does not reveal which harmonic is present.\nB – RSI divergence is a momentum signal, not a test of harmonic structure.\nD – How closely a market tracks others does not identify its harmonics.\n\nRemember: To test for a 3rd harmonic, look for lows at the 1/3 and 2/3 points in past cycles."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "At the mid-cycle dip, before the second composite high"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. After the crest has formed, in the latter half before the next trough.\n\nWhy: A cycle rises from its trough to its crest and then falls to the next trough. Once the crest is in, the remaining part of the cycle is mostly downhill, so selling short there aligns the trade with the cycle's falling phase. The risk is clear because the crest gives a nearby level above which the idea is wrong.\n\nWhy not the others:\nA – Near the expected trough, the cycle is about to turn up, a poor time to short.\nC – Just after the trough, the cycle is starting its rise.\nD – At the mid-cycle dip, another high may still be ahead.\n\nRemember: Short after the crest, buy after the trough."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Because only one cycle is active at any given time"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Cycles fade, harmonics shift, and shocks can distort amplitudes.\n\nWhy: Real markets are not perfect sine waves. The Principle of Variation reminds analysts that cycle lengths and sizes vary. A cycle may weaken for a time, a harmonic may change, or a news shock may create an unusually large move. Cycle tools are therefore guides, not exact timers.\n\nWhy not the others:\nA – Variation means cycles are imperfect, not useless.\nB – Cycles appear in all kinds of markets.\nD – Many cycles are active at once, which is the point of summation.\n\nRemember: Expect cycles to be approximate, not perfect."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "200 days"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The 2nd harmonic of a 100-day cycle has a period of 50 days.\n\nWhy: A harmonic is a shorter cycle that fits a whole number of times into the dominant cycle. The 2nd harmonic fits exactly twice, so its period is half the dominant period: 100 ÷ 2 = 50 days. Each 100-day cycle therefore contains two 50-day cycles, and their troughs line up with the dominant cycle's troughs at day 0 and day 100, with an extra 50-day trough at day 50, the middle of the dominant cycle.\n\nWhy not the others:\nA – 33 days is about 100 ÷ 3, the 3rd harmonic.\nC – 75 days does not fit a whole number of times into 100.\nD – 200 days is twice as long, a larger cycle, not a harmonic.\n\nRemember: nth harmonic = dominant period ÷ n."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Crest-to-crest spacing measures the 2nd harmonic instead"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Nested cycles tend to bottom together, so troughs are sharper than crests.\n\nWhy: Because cycles of different lengths tend to share troughs, lows are clearer, more defined points on the chart. Crests are spread out and rolling, so it is hard to pick an exact peak. Measuring from trough to trough gives a more reliable estimate of a cycle's length.\n\nWhy not the others:\nB – Crests are less regular because cycles peak at different times.\nC – Volume is not the reason analysts use troughs.\nD – Crest-to-crest spacing still measures the same cycle, just less precisely.\n\nRemember: Measure cycles from low to low; lows are sharper."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "It sharpens timing and shows which parts of the market move together"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Grouping like-period cycles sharpens timing and shows which parts of the market move together.\n\nWhy: When several securities share a cycle length, their combined turns help confirm when a low or high is due. It also shows which groups tend to rise and fall together, which helps with diversification and with spotting broader turns.\n\nWhy not the others:\nA – Individual charts still need checking because each security has its own quirks.\nB – Shared cycles do not make every security turn on the same day.\nC – Different markets can have different cycles, so one period cannot be used for all.\n\nRemember: Group securities by shared cycles to confirm timing."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Every harmonic becomes left translated near major tops"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Component cycles crest at different times, so the highs form in stages.\n\nWhy: Troughs of nested cycles tend to line up, but crests do not. As each component cycle peaks at its own time, the composite makes one high, eases, then makes another, forming a broad, rolling top instead of a sharp peak.\n\nWhy not the others:\nA – If all crested together, you would get a sharp top.\nB – Inversion is a special case, not why every top is rolling.\nD – Left translation affects when crests form, not why tops are rolling in general.\n\nRemember: Staggered crests produce rolling tops."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Average the turning points projected by the two models"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Let the data and cycle tools show which cycles are actually present.\n\nWhy: Nominal models give expected cycle lengths, but each market has its own rhythm. The sensible approach is to measure real cycles in the data and then see which model fits better, rather than forcing data into a fixed template.\n\nWhy not the others:\nB – Calendar days are not best for every market.\nC – Trading days are not best for every market either.\nD – Averaging two models' projections can blur real turning points.\n\nRemember: Let the market's own data choose the model."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "It spends more of the cycle rising than falling"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The cycle spends more of its time rising than falling.\n\nWhy: If the crest forms after the midpoint, the rise lasts more than half the cycle, so the fall must take less than half. This is right translation, typical of a rising longer-term trend.\n\nWhy not the others:\nA – That would apply if the crest formed early, in the left half.\nB – Equal time would mean the crest sits at the midpoint.\nC – An inversion is a high at an expected low, not a late crest.\n\nRemember: Late crest = longer rise, shorter fall."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "10 points (double the amplitude)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The dominant cycle's expected amplitude is 10 points, double the 2nd harmonic's.\n\nWhy: The Principle of Proportionality says amplitude grows with period. A 2nd harmonic has half the dominant cycle's period, so it should have roughly half the amplitude. Working backwards: dominant amplitude = 5 × 2 = 10 points.\n\nWhy not the others:\nA – Equal amplitudes contradict proportionality.\nB – 2.5 points would make the longer cycle smaller, the wrong direction.\nC – 15 points would match a 3rd harmonic of 5 points, not a 2nd harmonic.\n\nRemember: Double the period, roughly double the amplitude."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "A major news event or shock that overpowers larger cycles"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A major news event or shock that overpowers larger cycles.\n\nWhy: Normally, longer cycles have larger swings. A sudden shock, such as unexpected news, can cause a short-term move far larger than the cycle would normally produce. During that time, amplitude no longer matches period.\n\nWhy not the others:\nA – Normal trading is what keeps amplitude in proportion.\nB – Changing data frequency alters the view, not the underlying amplitudes.\nC – A phase change shifts timing but does not create an outsized swing.\n\nRemember: Shocks can overpower cycles and break proportionality."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "It is the largest price swing within any cycle"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Its shape comes from adding the 2nd harmonic, so it marks the dominant cycle.\n\nWhy: A mid-cycle dip shows up only when a dominant cycle and its 2nd harmonic combine. Seeing two highs with a dip between them suggests you are looking at one dominant cycle, with its 2nd harmonic's low at the midpoint. That makes it a practical way to spot the dominant cycle on a chart.\n\nWhy not the others:\nA – It appears only when the cycle structure produces it.\nC – It is not limited to bull markets.\nD – It is a small dip, not the largest swing.\n\nRemember: Spot two humps with a dip between them, and you have likely found the dominant cycle."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "The cycle's period is shortening over time"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A longer cycle is in its declining phase, pulling the shorter cycle down.\n\nWhy: Shorter cycles ride on longer ones. If the longer cycle is falling, each short-cycle rally is cut short, so crests come early. That is left translation. It reflects the falling trend underneath.\n\nWhy not the others:\nA – A 3rd harmonic affects shape around the midpoint, not repeated early crests.\nC – A rising longer cycle produces right translation, with late crests.\nD – A shorter period changes timing overall, not the crest's position within the cycle.\n\nRemember: Repeated early crests mean the larger trend is down."
   }
 ]

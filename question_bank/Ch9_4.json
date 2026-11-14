@@ -9,7 +9,8 @@
       "The volatility cycle of the security"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. %b shows where the current price sits relative to the Bollinger Bands.\n\nWhy: Bollinger Bands are a moving average (the middle band) with an upper and lower band set a number of standard deviations away. %b turns the price's location inside that envelope into a single number. A reading of 0 means price is on the lower band, 0.5 (or 50) means it is on the middle band, and 1 (or 100) means it is on the upper band. Because it is scaled to the bands, %b lets you compare price position across time and across different securities.\n\nWhy not the others:\nB – The width of the bands is measured by a different indicator, BandWidth, not %b.\nC – Counting standard deviations from the mean describes a z-score; %b is scaled to the band edges, not to one standard deviation.\nD – %b does not track a volatility cycle; volatility expansion and contraction are studied with BandWidth.\n\nRemember: %b answers \"where is price?\" and BandWidth answers \"how wide are the bands?\""
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "%b = (UpperBB - Last price) / (UpperBB - LowerBB)"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. %b = ((Last price − LowerBB) / (UpperBB − LowerBB)) × 100.\n\nWhy: %b asks how far price has travelled from the lower band, as a share of the total distance between the bands. The top of the fraction is the distance from the lower band to price; the bottom is the full band width. If price is on the lower band, the top is zero, so %b = 0. If price is on the upper band, the top equals the bottom, so %b = 1, or 100 when multiplied by 100. Many platforms show it as a decimal (0 to 1) instead of 0 to 100; the idea is the same.\n\nWhy not the others:\nA – (Upper − Lower) / Middle is the BandWidth formula, which measures band width, not price position.\nB – (Price − Middle) / standard deviation is a z-score style measure, not %b.\nD – (Upper − Price) / (Upper − Lower) measures distance down from the upper band, so it runs backwards: it would read 0 at the upper band.\n\nRemember: %b is simply price's position between the bands: (price − lower) divided by (upper − lower)."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "2 or 200"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. At the upper band, %b equals 1 (or 100 on a percentage scale).\n\nWhy: Use the formula %b = (Price − Lower) / (Upper − Lower). When price sits exactly on the upper band, Price − Lower is the same as Upper − Lower, so the fraction equals 1. On a scale that multiplies by 100, that is 100. The scale is anchored: 0 at the lower band, 0.5 at the middle band and 1 at the upper band.\n\nWhy not the others:\nB – 0 is the reading when price is on the lower band, not the upper one.\nC – 0.5 (50) is the reading at the middle band, halfway between the two outer bands.\nD – 2 (200) would mean price is a whole band width above the upper band, far outside it.\n\nRemember: Lower band = 0, middle band = 0.5, upper band = 1: memorise these three anchor points."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "0.75 (75)"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. %b = 0.25 (25).\n\nWhy: %b measures where price sits between the lower and upper bands. Step 1: distance from the lower band to price = 48 − 46 = 2. Step 2: total distance between the bands = 54 − 46 = 8. Step 3: %b = 2 ÷ 8 = 0.25, or 25 on a 0–100 scale. So price is one quarter of the way up from the lower band, below the middle band (which would read 0.50).\n\nWhy not the others:\nA – 0.16 does not come from the formula; it may come from mixing up the distances, such as dividing by the middle band.\nC – 0.50 would require price to sit on the middle band at 50, not at 48.\nD – 0.75 is (54 − 48) ÷ 8, which measures distance down from the upper band, the formula turned upside down.\n\nRemember: %b = (price − lower) ÷ (upper − lower); always subtract the lower band first."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "It turns negative"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. %b can rise above 100 (above 1) when price closes above the upper band.\n\nWhy: %b is not a bounded oscillator like a stochastic that is forced between 0 and 100. It is a simple ratio: (Price − Lower) / (Upper − Lower). If price climbs above the upper band, the top of the fraction becomes larger than the bottom, so the result is greater than 1 (above 100). For example, with bands at 46 and 54 and price at 56, %b = (56 − 46) / 8 = 1.25. Likewise, price below the lower band gives a negative %b.\n\nWhy not the others:\nB – There is no cap in the formula; capping at 100 is a misconception borrowed from bounded oscillators.\nC – Nothing in the calculation resets %b to 0; 0 simply means price is on the lower band.\nD – A negative reading happens only when price is below the lower band, not above the upper band.\n\nRemember: %b above 1 means price is outside the upper band; below 0 means outside the lower band."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "ADX (Average Directional Index)"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. %b was inspired by George Lane's Stochastics.\n\nWhy: Stochastics measures where the close sits within the recent high-to-low range, expressed from 0 to 100. %b borrows the same idea but swaps the price range for the Bollinger Band range: it shows where price sits between the lower and upper bands. The structure is the same, (value − low end) / (high end − low end), which is why the two look alike. The key difference is that %b can go outside 0–100 because price can leave the bands, while a stochastic cannot leave its own range.\n\nWhy not the others:\nA – RSI compares average gains with average losses; it is not a position-in-range measure.\nB – MACD is the difference between two moving averages, not a location within a range.\nD – ADX measures trend strength from directional movement, unrelated to the %b construction.\n\nRemember: %b is a stochastic-style calculation that uses the Bollinger Bands as its range."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "The number of trading days in a trend"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. BandWidth measures the distance between the upper and lower Bollinger Bands.\n\nWhy: Band width depends on volatility. The bands are set a number of standard deviations from the middle average, so when prices swing more, the standard deviation grows and the bands spread apart; when prices calm down, the bands pinch together. BandWidth puts that distance into one number, usually divided by the middle band so it can be compared across price levels and securities. It is the main tool for spotting volatility extremes such as the Squeeze and the Bulge.\n\nWhy not the others:\nA – Price position relative to the bands is what %b measures.\nB – The moving average period is a setting the analyst chooses, not something an indicator measures.\nD – BandWidth says nothing about how many days a trend has lasted; it reads volatility.\n\nRemember: BandWidth is a volatility gauge: wide bands mean high volatility, narrow bands mean low volatility."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "BandWidth = UpperBB / LowerBB"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. BandWidth = (UpperBB − LowerBB) / MiddleBB.\n\nWhy: The raw gap between the bands is Upper − Lower. A gap of 8 points means something very different on a 50 stock than on a 500 stock, so the gap is divided by the middle band (the moving average) to turn it into a relative, percentage-like figure. Example: upper 54, lower 46, middle 50 gives (54 − 46) / 50 = 0.16, or 16% of the average price. This normalisation lets you compare volatility over long histories and across securities.\n\nWhy not the others:\nB – (Upper + Lower) / 2 is just the middle band again, an average, not a width.\nC – Multiplying by the middle band makes the number grow with price, the opposite of normalising it.\nD – Upper / Lower is a ratio of two levels and is not the standard definition of BandWidth.\n\nRemember: BandWidth is the band gap divided by the middle band, so it is comparable at any price level."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "The variance of the 20-period returns"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. With default settings, BandWidth equals four times the 20-period coefficient of variation.\n\nWhy: The coefficient of variation (CV) is standard deviation divided by the mean, a way to express volatility relative to the average. With 2-standard-deviation bands, the upper band is MA + 2σ and the lower band is MA − 2σ, so Upper − Lower = 4σ. BandWidth divides this by the middle band (the MA): 4σ / MA = 4 × (σ / MA) = 4 × CV. That is why BandWidth is a clean, normalised measure of volatility.\n\nWhy not the others:\nA – Two times the CV would only apply to the distance from the middle band to one outer band, not the full width.\nC – σ / 2 is not normalised by price and does not match the formula's 4σ / MA.\nD – Variance is standard deviation squared and is not part of the BandWidth calculation.\n\nRemember: Upper − lower = 4σ, divide by the mean, and BandWidth = 4 × coefficient of variation."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "They remain constant over time"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Volatility cycles tend to be extreme seeking.\n\nWhy: \"Extreme seeking\" means volatility tends to swing from one extreme to the other rather than settling at an average. A stretch of very quiet trading tends to be followed by a burst of high volatility, and a period of very high volatility tends to give way to calm. This back-and-forth between low and high regimes is the basis for the Squeeze (very low volatility that often precedes a big move) and the Bulge (very high volatility that often comes near the end of a move).\n\nWhy not the others:\nA – Mean reverting implies volatility drifts back to an average and stays there, which understates the swings between extremes.\nC – Volatility cycles are not tied to the regular phases of the economic cycle.\nD – Volatility clearly changes over time; that change is what band width shows.\n\nRemember: Volatility moves from one extreme to the other: quiet leads to loud, loud leads to quiet."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "No predictable pattern"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Extremely low volatility is typically followed by high volatility.\n\nWhy: Volatility tends to alternate between extremes. When the bands narrow sharply, the market is in a period of balance where buyers and sellers are evenly matched. Such balance rarely lasts; when it breaks, price often moves quickly and volatility expands. This is the logic behind the Bollinger Band Squeeze: an unusually low BandWidth warns that a larger move is likely, even though it does not say which way.\n\nWhy not the others:\nA – Settling at an average level ignores the tendency of volatility to swing to the opposite extreme.\nB – Low volatility can persist for a while, but the typical outcome is expansion, not continuation.\nD – There is a recognised tendency, low followed by high, so it is not unpredictable.\n\nRemember: A tight squeeze stores energy; expect volatility to expand afterwards."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "When price returns to its average after every move"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Stationarity means a series' mean and variance stay roughly constant over time.\n\nWhy: A stationary series wanders around a stable average with a stable amount of scatter. That matters for Bollinger Bands because the bands are built on a moving average and standard deviation. When the mean and variance are steady, moves to the outer bands are more likely to be stretched and to snap back, so band touches work well as reversal or mean-reversion signals. Trending prices are usually not stationary, so band touches there can mean strength rather than excess.\n\nWhy not the others:\nB – A steady trend is the opposite of stationarity, because the mean keeps changing.\nC – Fixed band width is not a definition; bands always adjust with volatility.\nD – Returning to the average describes mean reversion, a result of stationarity, not its definition.\n\nRemember: Stationary = stable mean and stable variance, which makes band extremes more reliable for fading."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Pair-traded assets such as currencies or spreads"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Pair-traded assets such as currencies or spreads often show stationarity.\n\nWhy: In a pairs trade you buy one asset and sell a closely related one, so you are trading the spread between them. Because the two legs share common drivers, the spread tends to move around a stable average with steady variability, which is the definition of stationarity. Some currency rates behave similarly over certain periods. With a stable mean and variance, a move to an outer Bollinger Band is more likely to reverse, making these series well suited to band-based mean-reversion trading.\n\nWhy not the others:\nA – Growth stocks in strong trends have a moving mean, so they are not stationary.\nB – Commodities in persistent trends also drift, breaking the constant-mean condition.\nC – Illiquid real estate has sparse, lumpy prices that are poorly suited to band analysis.\n\nRemember: Spreads and pairs tend to be stationary, so Bollinger Band extremes work best on them."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Two narrow inside bars that follow a single wide-range bar"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Ideally, both bars of a Two-Bar Reversal have ranges larger than the prior range as measured by ATR.\n\nWhy: Average True Range (ATR) is the typical size of a bar's range, including gaps, over a recent period. A Two-Bar Reversal is a sharp push outside a band followed by a sharp push back. It is most convincing when both bars are wider than normal, meaning each has a range bigger than the current ATR. Large bars show real force: the first bar shows strong momentum, and the second shows an equally strong rejection. Small bars would signal hesitation rather than a decisive reversal.\n\nWhy not the others:\nB – Bars smaller than ATR show weak, low-energy trading, the opposite of a forceful reversal.\nC – The pattern is not two closes at the same price at opposite bands; both bars occur at the same band.\nD – Narrow inside bars after one wide bar describe consolidation, not a two-bar reversal.\n\nRemember: A good Two-Bar Reversal uses two big bars: a strong push out and an equally strong push back."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "It closes inside the Bollinger Bands"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The first bar closes above the upper Bollinger Band.\n\nWhy: At the upper band, a Two-Bar Reversal starts with a strong bar that pushes and closes outside the upper band. That close looks like a breakout and draws in buyers. The second bar then closes back inside the band, showing that the move outside could not hold. The failed breakout is the reversal signal. The mirror image happens at the lower band.\n\nWhy not the others:\nA – A close below the lower band belongs to the pattern at the lower band, not the upper one.\nC – A close at the middle band shows no excursion outside the bands, so there is no setup.\nD – If the first bar closes inside the bands, there is no breakout to fail.\n\nRemember: Bar one closes outside the band; bar two closes back inside it."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "It must be a doji candle"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The second bar closes back inside the upper Bollinger Band.\n\nWhy: The second bar is the confirmation. After the first bar closes above the upper band, the second bar must reverse and close back inside, ideally with a large range. This shows the breakout failed and sellers took control. If the second bar also closed outside, the market would be \"walking the band\", which is a sign of trend strength, not reversal.\n\nWhy not the others:\nA – A second close above the band means price is still outside, which suggests continuation.\nC – Closing all the way at the lower band in one bar is not required and would be unusual.\nD – A doji shows indecision; the pattern calls for a decisive move back inside, not a specific candle type.\n\nRemember: The reversal is confirmed when the second bar returns inside the band."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "50 periods"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The default ATR setting is 14 periods.\n\nWhy: Average True Range was introduced by Welles Wilder, who used a 14-period lookback for several of his indicators. True Range for one bar is the largest of: high − low, high − previous close, or previous close − low, so it includes gaps. ATR averages this over 14 bars. In Two-Bar Reversal analysis, ATR is the yardstick for judging whether each bar is larger than normal.\n\nWhy not the others:\nA – 10 periods is sometimes used, but it is not the standard default.\nC – 20 periods is the default for Bollinger Bands, which is a common mix-up.\nD – 50 periods is far longer than the standard and would be slow to respond.\n\nRemember: ATR defaults to 14 periods; Bollinger Bands default to 20."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "The middle band and potentially the lower band"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Price typically retraces to the middle band and potentially the lower band.\n\nWhy: A Two-Bar Reversal at the upper band shows that a push to an extreme failed. Once momentum fades, price often reverts toward its average. The middle band is the 20-period moving average, so it is the natural first target. If selling pressure continues, price can carry through to the lower band. Traders often use the middle band to take partial profits and the lower band as a further target.\n\nWhy not the others:\nA – A quick resumption higher is what the reversal argues against.\nB – The low of the second bar is a short-term reference, not the typical target.\nC – A new high above the first bar's close would cancel the reversal.\n\nRemember: After a failed push outside a band, look first to the middle band, then to the opposite band."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "By indicating the direction of the next breakout"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. %b reads above 1 or below 0 when price briefly closes outside the bands.\n\nWhy: %b turns band position into a number: 1 is the upper band and 0 is the lower band. In a Two-Bar Reversal at the upper band, the first bar's close above the band gives %b above 1, and the second bar's close back inside drops it below 1. At the lower band, %b dips below 0 then returns above 0. Scanning for this quick move out and back in is an easy way to find candidates.\n\nWhy not the others:\nA – Band width is measured by BandWidth, not %b.\nC – A low in standard deviation is a volatility signal tied to the Squeeze, not to %b.\nD – %b shows where price is, not where the next breakout will go.\n\nRemember: For a Two-Bar Reversal, watch %b poke past 1 (or 0) and then snap back."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "At a fixed percentage below entry"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The stop goes just below the low of the reversal.\n\nWhy: A long trade from a lower-band Two-Bar Reversal rests on one idea: the push to the low failed. The low of the reversal pattern is the point that proves or disproves that idea. If price later falls below that low, the reversal has failed and the trade should be closed. Placing the stop just beneath it keeps the risk small and tied to the pattern's logic.\n\nWhy not the others:\nA – A stop at the upper band would be above a long entry, which makes no sense; the upper band is a profit target.\nB – The middle band is above entry for a lower-band reversal, so it is a target, not a stop.\nD – A fixed percentage ignores the chart structure that defines when the setup has failed.\n\nRemember: Place the stop where the pattern is proved wrong: just beyond the reversal extreme."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "When BandWidth reaches a 125-period low"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A Squeeze occurs when BandWidth reaches a 125-period low.\n\nWhy: The Squeeze is defined by volatility, not by price. BandWidth measures how far apart the bands are relative to the middle band. When BandWidth falls to its lowest level of the last 125 periods, volatility is unusually compressed. Because volatility tends to swing between extremes, this compression often comes before a strong move.\n\nWhy not the others:\nA – Price cannot normally touch both bands at once; this is not a definition of anything.\nB – Parallel bands describe steady volatility, not a minimum.\nC – %b at 50 only means price is on the middle band; it says nothing about volatility.\n\nRemember: Squeeze = BandWidth at a 125-period low; it is a volatility event."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "It's a standard statistical measure"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 125 periods is roughly half a trading year.\n\nWhy: A trading year has about 250 trading days, so 125 days is about six months. That window is long enough to show what \"low\" volatility really means for the security, but short enough to adjust as conditions change. A BandWidth low over six months is therefore a meaningful volatility extreme.\n\nWhy not the others:\nB – 125 is not in the Fibonacci sequence (the nearby numbers are 89 and 144).\nC – A full trading year is about 250 days, not 125.\nD – It is not a formal statistical constant; it is a practical lookback window.\n\nRemember: 125 trading days is about half a year, the standard lookback for Squeezes and Bulges."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "It is where trends are born"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The Squeeze is where trends are born.\n\nWhy: During a Squeeze volatility is at an extreme low and the market is balanced. When the balance breaks, a new directional move often starts, and the bands widen quickly as volatility expands. So very low volatility tends to mark the starting point of new trends.\n\nWhy not the others:\nA – \"Where trends go to die\" describes the Bulge, the high-volatility extreme.\nB – A Squeeze does not by itself point to a reversal; the next move can go either way.\nC – A Squeeze is followed by more volatility, not the end of it.\n\nRemember: Squeeze = trends are born; Bulge = trends go to die."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Yes, it resolves in the direction of the prior trend"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. No, the Squeeze does not indicate direction.\n\nWhy: A Squeeze tells you that volatility is unusually low and that a bigger move is likely, but not which way it will go. The bands are just compressing around price. Traders use other clues for direction, such as the breakout bar itself, volume, or indicators of accumulation and distribution. Assuming a direction ahead of time is a common trap; false first moves (\"head fakes\") happen often.\n\nWhy not the others:\nA – A slight tilt in the bands is not a reliable directional signal in a Squeeze.\nB – Where price sits relative to the middle band does not set the breakout direction.\nD – Squeezes can resolve with or against the prior trend.\n\nRemember: The Squeeze says \"get ready\", not \"which way\"; let the breakout show the direction."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Fade the first move out of the Squeeze"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Wait for a breakout bar that confirms the direction.\n\nWhy: Since the Squeeze gives no direction, the sensible approach is to let the market show its hand. Traders wait for price to break and close outside a band, ideally with supporting signs such as rising volume, then trade in that direction. Waiting costs a little of the move, but it avoids guessing wrong.\n\nWhy not the others:\nA – Entering when BandWidth hits a low commits before any direction is known.\nC – Range-trading between the bands assumes the calm will last, which a Squeeze warns against.\nD – Fading the first move can work against head fakes, but it is not the main recommended approach.\n\nRemember: In a Squeeze, patience pays: trade the confirmed breakout, not the compression."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "When price consolidates between the bands"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A Bulge is a 125-period high in volatility.\n\nWhy: The Bulge is the mirror image of the Squeeze. When BandWidth rises to its highest level of the last 125 periods, the bands are unusually wide, meaning price has been moving very strongly. Because volatility tends to swing between extremes, such high readings often come near the end of a strong move.\n\nWhy not the others:\nA – A 125-period low in volatility is the Squeeze.\nB – Horizontal bands only show steady conditions, not a volatility extreme.\nD – Consolidation between the bands tends to narrow them, the opposite of a Bulge.\n\nRemember: Bulge = BandWidth at a 125-period high, the opposite of a Squeeze."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "A continuation pattern"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The Bulge is where trends go to die.\n\nWhy: A Bulge appears after a powerful move has pushed volatility to an extreme. Such bursts are hard to keep going, so the trend often loses energy, pauses or reverses soon after. The very wide bands signal that the move may be near its end rather than just starting.\n\nWhy not the others:\nA – \"Where trends are born\" describes the Squeeze.\nC – A Bulge is already high volatility; the next shift is usually toward less volatility.\nD – A Bulge warns of exhaustion, not a continuation signal.\n\nRemember: Very wide bands warn that a move is tiring; Bulges come near the end of trends."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "When BandWidth touches the upper reference line and then turns down"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The key signal is when BandWidth touches the upper reference line and then turns down.\n\nWhy: Reaching a high level alone is not enough because volatility can keep rising while a move is still in progress. The useful signal comes when BandWidth peaks and starts to fall. That turn shows the bands have begun to contract and the energy behind the move is fading, so the trend may be ending.\n\nWhy not the others:\nA – Touching the line only marks high volatility; without the turn down, the move may still be running.\nB – A break above the upper band is a price event, not the BandWidth signal that defines the Bulge.\nC – A flattening average can follow a Bulge, but it is not the defining signal.\n\nRemember: Watch for BandWidth to peak and turn down; that is the Bulge signal."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "As a signal to reverse at once from long to short"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The Bulge is used to guide an exit or to scale back after a strong move.\n\nWhy: Since the Bulge suggests a trend may be ending, traders who are already in the move use it as a warning to protect profits, by tightening stops, taking partial profits or exiting. It is a risk management tool more than a signal to start a new position.\n\nWhy not the others:\nB – A Bulge comes late in a move, a poor time to open a fresh position in that direction.\nC – Adding as volatility peaks increases exposure just as the move is likely to fade.\nD – A Bulge suggests the trend is ending, not that an immediate reversal is confirmed.\n\nRemember: Squeeze helps you get in; Bulge helps you get out."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Price with Bollinger Bands, %b indicator, BandWidth indicator"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Top: price with Bollinger Bands; middle: %b; bottom: BandWidth.\n\nWhy: The usual layout puts the main information first. The top panel shows price with the three bands so you can see trend and band touches. The middle panel shows %b, which tracks where price sits within the bands. The bottom panel shows BandWidth, which tracks volatility for Squeezes and Bulges. Together they show position and volatility at a glance.\n\nWhy not the others:\nA – Volume is not part of the standard three-panel layout, and price should be on top.\nB – This puts the price chart at the bottom, which is reversed.\nC – This swaps BandWidth for volume, leaving out the volatility panel.\n\nRemember: Price on top, then %b (position), then BandWidth (volatility)."
   }
 ]

@@ -9,7 +9,8 @@
       "Exit signals occur much less often than entry signals"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. An exit only applies once a position is open, so it depends on the entry.\n\nWhy: An entry rule can be tested on its own: every time it fires, measure what happened next. An exit rule has no meaning by itself, because you can only exit a trade you are already in. So its result depends on which entries came first, when they happened and at what price. You cannot cleanly separate the exit's quality from the entry's, which makes exits harder to test.\n\nWhy not the others:\nA – Computing power is not the real problem; the difficulty is logical dependence on the entry.\nC – Exits can use exactly the same indicators as entries.\nD – How often exits occur is not what makes them hard to test; their dependence on entries is.\n\nRemember: An exit is only as testable as the entry that opened the trade."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Trending and ranging"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Swing charts have two states: up and down.\n\nWhy: A swing chart reduces price action to a series of swings. At any moment the chart is either in an up swing or a down swing, and it switches only when price reverses by enough to meet its rule. With just two states there is no grey area, so the trend reading is clear: up or down.\n\nWhy not the others:\nA – Swing charts have no sideways state; they are always swinging one way or the other.\nB – Strength is not a state of a swing chart; it only records direction.\nD – Trending versus ranging describes market behaviour, not the two states of a swing chart.\n\nRemember: Swing charts only know two things: up or down."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "They lead price turns by design rather than lagging"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Two states, with fixed rules defining a change of direction.\n\nWhy: A good exit indicator must say clearly when the trend has changed. A swing chart is always either up or down, and a fixed rule (such as a reversal of a set size) decides when it flips. Because that rule is objective, two people or a computer would always agree on the exit date, which makes it easy to code and test.\n\nWhy not the others:\nA – Swing charts have only two states, not many; that simplicity is the strength.\nB – Swing charts are usually built from highs and lows, not closing prices only.\nD – Swing charts confirm turns after they happen; they lag rather than lead.\n\nRemember: Objective exits need clear rules, and swing charts give a simple up-or-down verdict."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "A swing that reverses only after a move of set ATRs from the last turn"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A swing that reverses only after a move of a set number of ATRs from the last turn.\n\nWhy: ATR (Average True Range) measures how much a security typically moves per bar. A volatility swing uses ATR to decide when a swing has reversed: price must move a set number of ATRs, say 2, against the current swing before a new swing begins. Because ATR adapts to each security, the reversal distance automatically widens for volatile markets and narrows for quiet ones.\n\nWhy not the others:\nA – Reversals here are based on price range (ATR), not on volume.\nB – It uses the security's own ATR, not the level of a volatility index.\nC – A fixed percentage move is a percentage swing, not a volatility swing.\n\nRemember: Volatility swing = reversal measured in ATRs, so it adapts to how much the market moves."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Increase exits during strong, steady trends"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Fewer reversals and later exits, giving trades more room.\n\nWhy: With a multiple of 2, price must fall 2 ATRs from the last top for the swing to turn down. With 4, it must fall twice as far. Small pullbacks no longer create new down swings, so there are fewer swing lows close to price. The trade survives normal dips and exits only after a larger reversal: fewer reversals, later exits, more room.\n\nWhy not the others:\nA – A larger multiple means bigger moves are needed, so exits come less often and later, not more.\nC – The swing lows depend on the ATR multiple, so changing it changes the exits.\nD – Strong steady trends rarely produce a 4-ATR pullback, so exits there would fall, not rise.\n\nRemember: Wider swing setting = fewer turns, later exits, more breathing room."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Stops should be added only after optimization"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Stops should always be in place in live trading, whatever the tests show.\n\nWhy: A backtest without stops may look fine because history happened to recover from every dip. Live trading can produce events the test never saw: crashes, company failures, sudden gaps. A stop limits the damage from such events. Running tests without stops is only a research step to learn about the strategy; when real money is involved, stops protect against the unknown.\n\nWhy not the others:\nB – Unexpected losses can hit any market, not only volatile ones.\nC – A good no-stop test only shows the past; it cannot rule out a future disaster.\nD – Stops are a basic safety measure, not something to wait on until after optimization.\n\nRemember: Test without stops to learn; trade with stops to survive."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Stops always reduce returns, so they distort the test"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Baseline results are needed to choose suitable stop types.\n\nWhy: Running the first strategy test without stops shows how trades naturally behave: how far winners fall before recovering, how deep losers go, how long trades last. These baseline numbers tell you which stops suit the strategy. For example, if winners often dip 20% before rising, a 10% stop would cut too many of them. Without the baseline you would be guessing.\n\nWhy not the others:\nA – Stops are very important; they are left out at first only to gather information.\nC – Stops can be coded at any time; the order is about learning, not coding.\nD – Stops do not always reduce returns; they can raise risk-adjusted results.\n\nRemember: First see how trades behave without stops, then pick stops that fit that behaviour."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "10% (10 securities)"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 4–5% per position, which means about 20–25 securities.\n\nWhy: In an equal-weight portfolio every position gets the same share of equity. At 4–5% each you hold about 20–25 positions (100 ÷ 5 = 20; 100 ÷ 4 = 25). That gives reasonable diversification while keeping each position large enough to matter. It is a sensible starting point that can be adjusted after testing.\n\nWhy not the others:\nA – 1–2% means 50–100 holdings, which spreads capital very thin.\nB – 2–3% is still a large number of positions to start with.\nD – 10% means only 10 holdings, too concentrated for good diversification.\n\nRemember: Start around 4–5% per position: roughly 20–25 holdings."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "30 to 40"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About 20 to 25 holdings is usually regarded as well diversified.\n\nWhy: Diversification lowers risk by spreading money across holdings so that one bad stock does less harm. The benefit is large at first, then flattens: going from 1 to 20 holdings removes much of the stock-specific risk, but adding more gives little extra. Around 20–25 holdings captures most of the benefit without making the portfolio hard to manage.\n\nWhy not the others:\nA – 10–15 still leaves noticeable stock-specific risk.\nB – 15–20 is close but slightly below the range usually quoted.\nD – 30–40 adds little extra diversification while making the portfolio harder to manage.\n\nRemember: Around 20–25 holdings gets most of the diversification benefit."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Total portfolio value: cash plus holdings"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The equity plot shows total portfolio value: cash plus holdings.\n\nWhy: Equity is everything the portfolio is worth at a moment: the market value of open positions plus any cash. The equity plot tracks this total each day over the test, so you see how the account would have grown and where it fell. Breaking it into cash and holdings can show how much money was actually invested.\n\nWhy not the others:\nA – Holdings alone leave out cash, so they understate the total.\nB – Cash alone ignores the value of open positions.\nC – Strategy minus benchmark is a relative-performance line, not equity.\n\nRemember: Equity = cash + holdings; the equity plot is the account value over time."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Stops are triggering too rarely to free capital"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Positions are exited but entries are not generating new trades.\n\nWhy: When a position is closed, its money returns to cash. Normally a new signal soon uses that cash. If cash keeps piling up for long periods, exits are happening but not enough entry signals are appearing to reinvest the money. The strategy is under-invested, and idle cash drags down returns.\n\nWhy not the others:\nB – A fully invested strategy would show low, not rising, cash.\nC – Commissions reduce cash; they do not make it build up.\nD – Fewer stop exits would free less capital, not more.\n\nRemember: Cash piling up means the exits are working but the entries are not keeping up."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Narrow the universe to the strongest signals"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Reduce position size so more positions are held.\n\nWhy: With 5% per position the portfolio holds about 20 positions (100 ÷ 5). Once all 20 slots are filled, new signals are skipped until something closes. Smaller positions, say 2.5%, allow about 40 slots, so more of the 1,600 signals can be taken. The trade-off is more trades and smaller individual positions.\n\nWhy not the others:\nA – 10% positions would cut the slots to about 10, capturing even fewer signals.\nC – Longer holds keep slots busy for longer, so fewer new signals can be taken.\nD – Narrowing the universe reduces the number of signals rather than helping to capture them.\n\nRemember: Smaller positions mean more slots, and more slots catch more signals."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "The rolling correlation with the benchmark"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Returns over a fixed look-back, measured on every day.\n\nWhy: A rolling return is the return over a fixed window, such as one year, calculated again each day as the window moves forward. Day 1 shows the return over the prior year, day 2 the year ending a day later, and so on. Plotting these shows what an investor starting on any day would have earned over that window.\n\nWhy not the others:\nA – Rolling returns look back at what happened; they do not forecast.\nB – Rate of change of equity is a momentum-style reading, not a fixed-window return series.\nD – Rolling correlation measures co-movement, not return.\n\nRemember: Rolling return = the same-length window, measured again every day."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "They automatically adjust returns for inflation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. They show whether returns were steady, not just start to end.\n\nWhy: An equity plot mainly shows start and end values; a big total return can hide years of poor or negative results. Rolling returns show the result for every possible starting date over a fixed window. If they are mostly positive and stable, the strategy worked whenever you started. If they swing a lot, your result would depend heavily on your timing.\n\nWhy not the others:\nA – They are not simpler; they take more calculation than one equity line.\nC – Risk measures such as drawdown and volatility are still needed.\nD – Inflation is not removed unless you adjust for it separately.\n\nRemember: Rolling returns show what you would have got had you started on any day."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The percentage of losing trades"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Each decline of the equity curve below its most recent high.\n\nWhy: Drawdown is how far equity sits below its highest value so far. When equity makes a new high, drawdown is zero. When it falls, the plot dips 'underwater' by the percentage below that peak and stays below zero until a new high is reached. It shows how deep and how long each losing period was.\n\nWhy not the others:\nB – Drawdown is measured from the latest peak, not from the starting value.\nC – It is not a correlation with market volatility.\nD – The percentage of losing trades is a trade statistic, not equity drawdown.\n\nRemember: Drawdown = distance below the last peak; zero only at a new high."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "82%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The maximum drawdown is 45%.\n\nWhy: Maximum drawdown is the largest percentage fall from a peak to a later low. Fall = 2.40 million − 1.32 million = 1.08 million. Divide by the peak: 1.08 ÷ 2.40 = 0.45, so 45%. Always divide by the peak, not the low, because it shows how much of the value at its best was lost.\n\nWhy not the others:\nA – 18% badly understates the loss; a $1.08 million fall from $2.40 million is close to half the peak.\nC – 55% is the low as a share of the peak (1.32 ÷ 2.40), what remains rather than what was lost.\nD – 82% comes from dividing the fall by the low (1.08 ÷ 1.32), the wrong base.\n\nRemember: Drawdown = (peak − trough) ÷ peak."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Total return ÷ number of years"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Average monthly return × 12.\n\nWhy: Returns add up over time, so a simple annual figure is the average monthly return multiplied by the number of months in a year. A 1% average monthly return becomes 1% × 12 = 12% a year. This is the arithmetic annualized return; it does not include compounding, which CAGR handles.\n\nWhy not the others:\nA – ×252 is used for daily returns, not monthly ones.\nC – ×√12 is used to annualize volatility, not return.\nD – Total return divided by years is a crude average, not the method from monthly returns.\n\nRemember: Returns scale with time (×12); volatility scales with the square root of time (×√12)."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Monthly Standard Deviation × √12"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Monthly standard deviation × √12.\n\nWhy: Volatility is the standard deviation of returns. When independent monthly returns are combined over a year, their variances (standard deviation squared) add up: annual variance = 12 × monthly variance. Taking the square root gives annual standard deviation = monthly standard deviation × √12 ≈ × 3.46. So a 4% monthly figure becomes about 13.9% a year.\n\nWhy not the others:\nA – ×12 is for returns; it would greatly overstate volatility.\nB – Dividing by 12 would make annual volatility smaller than monthly, which is backwards.\nC – ×252 is a daily count, and it would still need a square root.\n\nRemember: Annualize return by ×12, but volatility by ×√12."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "The average monthly return multiplied by 12"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Total return expressed as a compounded annual rate.\n\nWhy: CAGR is the steady yearly growth rate that would turn the starting value into the ending value. Formula: (ending ÷ starting)^(1/years) − 1. If $100 becomes $200 in 5 years: 2^(1/5) − 1 ≈ 14.9% a year. It smooths an uneven path into one compounded rate.\n\nWhy not the others:\nB – A simple average of yearly returns ignores compounding and usually overstates growth.\nC – The median picks the middle year and ignores the path.\nD – Monthly × 12 is the arithmetic annualized return, not a compounded rate.\n\nRemember: CAGR answers: what steady yearly rate gets me from start to finish?"
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "The longest time needed to regain a prior equity peak after a drawdown"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The longest time needed to regain a prior equity peak after a drawdown.\n\nWhy: After equity falls from a peak, it takes time to climb back to that level. Maximum drawdown recovery time is the longest such stretch in the test, measured from the peak, through the low, to the day equity first exceeds that peak again. It shows the worst period an investor would have spent waiting to get back to even.\n\nWhy not the others:\nA – An average across all drawdowns is different from the single longest one.\nB – The length of the whole test is not a drawdown measure.\nC – Holding periods of losing trades concern individual trades, not portfolio recovery.\n\nRemember: Recovery time asks: in the worst case, how long until you were back at the old high?"
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "To show the return at the benchmark's volatility"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. To show the return at the benchmark's volatility.\n\nWhy: Two strategies with the same return are not equal if one was far bumpier. Risk-adjusted measures put returns on a common footing so they can be compared fairly. One clear way is to restate a strategy's return as if it had taken the same volatility as the benchmark. Then you compare like with like: which earned more for the same amount of risk.\n\nWhy not the others:\nA – Risk-adjusted measures describe risk; they do not remove it from the portfolio.\nB – Ignoring risk is the opposite of risk adjustment.\nC – The risk-free rate is an input, not something these measures estimate.\n\nRemember: Risk-adjusted returns compare results fairly by levelling the risk taken."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Portfolio return rescaled to benchmark volatility, then compared"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Portfolio return rescaled to benchmark volatility, then compared.\n\nWhy: M² (Modigliani-squared) rescales the portfolio's excess return so its volatility matches the benchmark's. Formula: M² = risk-free rate + Sharpe ratio × benchmark volatility. Example: Sharpe 0.8, benchmark volatility 15%, risk-free 2%: M² = 2% + 0.8 × 15% = 14%. Compare this with the benchmark's return; the result is in percent, which is easy to read.\n\nWhy not the others:\nA – Total return ignores the risk taken.\nB – Relative volatility is an input, not the result M² reports.\nC – Correlation is not what M² measures.\n\nRemember: M² = what the portfolio would have returned at the benchmark's level of risk."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "The strategy has a beta below 1"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Return above what its beta predicts versus the benchmark.\n\nWhy: CAPM says expected return = risk-free rate + beta × (benchmark return − risk-free rate). Alpha is the actual return minus that expected return. Example: risk-free 2%, benchmark 10%, beta 1.2: expected = 2% + 1.2 × 8% = 11.6%. If the strategy earned 14%, alpha = 14% − 11.6% = 2.4%: extra return not explained by market exposure.\n\nWhy not the others:\nA – Higher volatility is not alpha; alpha is return beyond what risk predicts.\nB – Perfect correlation is measured by correlation or r², not alpha.\nD – Beta below 1 is about market sensitivity, not excess return.\n\nRemember: Alpha = what you earned minus what your beta said you should earn."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The strategy has zero correlation with the market"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A beta of 1 means it tends to move by the same proportion as the market.\n\nWhy: Beta measures how much a strategy moves when the market moves. Beta of 1 means that, on average, if the market rises 5% the strategy rises about 5%, and if the market falls 5% it falls about 5%. Beta above 1 means bigger swings; below 1, smaller swings.\n\nWhy not the others:\nA – No market risk would be a beta near 0, not 1.\nB – Beta says nothing about outperforming; that is alpha.\nD – Zero correlation would give a beta near 0.\n\nRemember: Beta 1 = moves with the market, one for one."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Drawdown and win rate"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Correlation and volatility drive beta.\n\nWhy: Beta = correlation × (strategy volatility ÷ market volatility). So two things decide it: how closely the strategy moves with the market (correlation) and how large its moves are compared with the market's (relative volatility). Example: correlation 0.8, strategy volatility 20%, market 16%: beta = 0.8 × 20 ÷ 16 = 1.0.\n\nWhy not the others:\nA – Alpha and total returns are outputs, not drivers of beta.\nB – Price level and volume do not enter the beta calculation.\nD – Drawdown and win rate are trade or equity statistics, unrelated to beta.\n\nRemember: Beta = how closely you move with the market × how big your moves are."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "The maximum drawdown relative to the benchmark"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. r² measures how tightly points fit the regression line.\n\nWhy: When strategy returns are plotted against market returns, a regression line is drawn through the points. r² (the coefficient of determination) runs from 0 to 1 and shows how much of the strategy's movement is explained by the market. Close to 1 means points hug the line; close to 0 means they are scattered and the market explains little.\n\nWhy not the others:\nA – Total return is not a regression statistic.\nB – The slope of the line is beta, not r².\nD – Drawdown is an equity measure, not a goodness-of-fit measure.\n\nRemember: r² tells you how much the market explains; beta tells you the slope."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Net Profit / Total Capital"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Profit factor = gross profit ÷ gross loss.\n\nWhy: Gross profit adds up all winning trades; gross loss adds up all losing trades (as a positive number). Dividing one by the other shows how many dollars were won for each dollar lost. Example: $300,000 won and $150,000 lost gives a profit factor of 300 ÷ 150 = 2.0.\n\nWhy not the others:\nA – Net profit ÷ gross loss gives a different number, one less than the profit factor.\nB – Gross profit per trade is an average size, not a ratio of wins to losses.\nD – Net profit ÷ capital is a return on capital.\n\nRemember: Profit factor = dollars won per dollar lost."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Greater than 2"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A profit factor of 1 means losses equal profits.\n\nWhy: Profit factor = gross profit ÷ gross loss. If both are the same, say $500,000 each, the ratio is 500,000 ÷ 500,000 = 1. The strategy breaks even before costs. Above 1 it makes money; below 1 it loses money.\n\nWhy not the others:\nB – Zero would mean no gross profit at all.\nC – 2 means profits are twice the losses.\nD – Above 2 is a strongly profitable strategy, not break-even.\n\nRemember: Profit factor 1 = break-even; you need more than 1 to make money."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Percentage figures are always larger than dollar figures"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Position sizes grow with reinvestment, so only percentages stay comparable.\n\nWhy: In a compounding strategy, each position is a share of current equity. As the account grows, position dollar sizes grow too. A 5% gain early on might be $500; the same 5% gain years later might be $5,000. Dollar averages are dominated by later, bigger trades. Percentage returns treat every trade equally.\n\nWhy not the others:\nB – Ease of calculation is not the reason; comparability is.\nC – Percentages do not automatically include stops or slippage.\nD – Percentages are not always larger; the point is a fair comparison.\n\nRemember: With growing positions, compare trades in percent, not dollars."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "The position sizing must be miscalculated"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. One trade may supply too much of the profit to recur.\n\nWhy: If one position was held for many years, it probably captured a rare, long trend and produced a large share of the total profit. Results that depend heavily on one exceptional trade are fragile: if that trade had not happened, or does not happen again, performance could be much weaker. Check how the strategy does without it.\n\nWhy not the others:\nA – Holding for years shows exits were loose, not conservative.\nB – Aggressive exits would close trades quickly, not hold them for years.\nD – A long hold says nothing about how the size was calculated.\n\nRemember: Be wary when one big trade carries the whole strategy."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Avg Win - Avg Loss"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Expected value = (win% × average win) − (loss% × average loss).\n\nWhy: Expectancy is the average amount you can expect per trade. Weight the average win by how often you win, and the average loss by how often you lose, then subtract. Example: 40% wins of $3,000 and 60% losses of $1,000: 0.40 × 3,000 − 0.60 × 1,000 = 1,200 − 600 = $600 per trade.\n\nWhy not the others:\nB – Adding the loss term instead of subtracting it counts losses as gains.\nC – Win% ÷ loss% is a ratio of frequencies, ignoring trade sizes.\nD – Average win minus average loss ignores how often each happens.\n\nRemember: Expectancy = how often × how much for wins, minus the same for losses."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "It means the exit strategy is already close to optimal"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. No single trade should drive results; that outlier may not recur.\n\nWhy: If the largest winning trade is nearly the same as the total profit, the rest of the trades together roughly broke even. So the strategy's success rests on one event. A sound strategy should earn its profit from many trades, so that missing one outlier does not destroy the result.\n\nWhy not the others:\nA – One big trend captured once is not evidence of capturing trends reliably.\nC – Conservative exits would limit big winners, not create one dominant trade.\nD – Dependence on one trade does not show exits are optimal.\n\nRemember: If one trade is most of the profit, the strategy is a lottery ticket."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "The worst open loss during trades that ended profitable"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. MAE is the worst open loss during trades that ended profitable.\n\nWhy: Maximum Adverse Excursion (MAE) is the deepest point a trade went against you while open. Looking at it for winning trades shows how much pain they had to endure before recovering. If winners often fell 15% before turning into profits, that tells you how much room a stop must allow.\n\nWhy not the others:\nA – A closed loss is a final result; MAE is about open, interim losses.\nB – Portfolio drawdown is measured on total equity, not per trade.\nC – Consecutive losers is a streak count, not excursion.\n\nRemember: MAE = how far a trade went against you before it ended."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Stops set beyond winners' typical MAE rarely cut them off early"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Stops set beyond winners' typical MAE rarely cut them off early.\n\nWhy: MAE shows how far winning trades usually dip before recovering. If most winners never dip more than 12%, a stop at 15% would rarely stop out a winner, but would cut losers that keep falling. Setting the stop just beyond the typical winner's MAE protects against large losses without killing good trades too early.\n\nWhy not the others:\nA – Position size uses risk per trade and equity, not MAE directly.\nB – The risk-free rate comes from interest rates.\nC – Correlation with the benchmark is unrelated to MAE.\n\nRemember: Put the stop just beyond where winners usually dip."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "The peak open profit during profitable trades"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. MFE is the peak open profit during profitable trades.\n\nWhy: Maximum Favorable Excursion (MFE) is the highest open profit a trade reached while open. Comparing it with the final profit shows how much was given back before exit. If winners reached 40% but closed at 10%, the exit is giving back too much, and a profit target or trailing stop may help.\n\nWhy not the others:\nA – The average closed profit is a result at exit, not the peak during the trade.\nB – Gross profit sums all winners, not a single trade's peak.\nC – Largest closed profit is measured at exit, not at the peak.\n\nRemember: MFE = the best a trade looked; compare it with what you kept."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Regression"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The R stands for Risk.\n\nWhy: An R-multiple expresses a trade's result in units of the initial risk. 1R is the amount you planned to lose if the stop was hit. A trade that made twice the risk is +2R; one that lost the full risk is −1R. This makes trades of different sizes and prices comparable.\n\nWhy not the others:\nB – Return is what is measured, but R is the unit of risk it is measured in.\nC – R-multiple is a ratio, but R itself stands for risk.\nD – Regression is unrelated to R-multiples.\n\nRemember: R = your initial risk; results are counted in multiples of it."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "One ATR of the security"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Risk is entry price minus stop price.\n\nWhy: With a stop, the most you plan to lose per share is the gap between where you bought and where the stop sits. Buy at $40 with a stop at $37: risk = 40 − 37 = $3 per share. That $3 is 1R. Each trade's profit or loss is then divided by $3 to get its R-multiple.\n\nWhy not the others:\nA – Position size sets total dollars at risk but is not the per-share risk unit.\nB – Portfolio value is not the trade's risk.\nD – ATR may help set the stop, but R is the actual entry-to-stop distance.\n\nRemember: 1R = entry − stop."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "12R"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The trade's R-multiple is 3R.\n\nWhy: First find the risk: entry − stop = 50 − 46 = $4. That is 1R. Then the profit: exit − entry = 62 − 50 = $12. R-multiple = profit ÷ risk = 12 ÷ 4 = 3. The trade earned three times what it risked.\n\nWhy not the others:\nA – 1.24 is the exit price divided by the entry (62 ÷ 50), a price ratio, not an R-multiple.\nB – 2R would need a profit of $8.\nD – 12R wrongly treats the $12 profit as R units without dividing by the $4 risk.\n\nRemember: R-multiple = profit ÷ (entry − stop)."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Average R above 1, so average profit exceeds average risk"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Average R above 1, so average profit exceeds average risk.\n\nWhy: Average R-multiple tells you how much you make per unit of risk across all trades. Above 0 means you make money, but small. Above 1 means the average trade earned more than the amount it risked, a strong sign that rewards outweigh risk. That is the usual target.\n\nWhy not the others:\nA – Above 0 is profitable but below the target.\nB – Below 1 means reward per trade is smaller than the risk taken.\nC – Exactly 1 is not the goal; the aim is to exceed it.\n\nRemember: Aim for an average above 1R: each trade earns more than it risked."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Return relative to downside deviation only"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Excess return over the risk-free rate per unit of volatility.\n\nWhy: Sharpe ratio = (portfolio return − risk-free rate) ÷ standard deviation. It tells you how much extra return you got for each unit of total volatility. Example: return 12%, risk-free 2%, volatility 20%: (12 − 2) ÷ 20 = 0.5. Higher is better.\n\nWhy not the others:\nB – Return ÷ max drawdown is the Calmar ratio.\nC – Excess return ÷ beta is the Treynor ratio.\nD – Return ÷ downside deviation is the Sortino ratio.\n\nRemember: Sharpe = excess return ÷ total volatility."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "Sortino ignores the risk-free rate, while Sharpe subtracts it"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Sharpe uses total volatility, Sortino only downside volatility.\n\nWhy: Both divide excess return by a measure of risk. Sharpe uses standard deviation, which counts upward and downward moves alike. Sortino uses downside deviation, which counts only harmful moves below a target. Investors rarely mind upside surprises, so Sortino does not penalise them.\n\nWhy not the others:\nB – Either can use monthly or annual data.\nC – Beta is used by Treynor, not Sharpe.\nD – Both subtract the risk-free rate or a target return.\n\nRemember: Sortino is Sharpe that only counts the bad volatility."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Return per unit of downside deviation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Active return relative to tracking error.\n\nWhy: Active return is the portfolio's return minus the benchmark's. Tracking error is the standard deviation of that difference over time. Information ratio = active return ÷ tracking error. Example: beating the benchmark by 3% a year with 6% tracking error gives 3 ÷ 6 = 0.5. It shows how consistently a manager adds value.\n\nWhy not the others:\nA – Total return ignores both the benchmark and risk.\nC – Excess return per unit of beta is the Treynor ratio.\nD – Return per unit of downside deviation is the Sortino ratio.\n\nRemember: Information ratio = beat the benchmark by how much, how steadily."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "Uses downside deviation instead of standard deviation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Treynor uses beta instead of standard deviation.\n\nWhy: Both ratios start with excess return (return − risk-free rate). Sharpe divides by standard deviation, total risk. Treynor divides by beta, which measures only market (systematic) risk. Treynor suits a portfolio that is one part of a diversified whole.\n\nWhy not the others:\nA – Neither ratio is defined by gross versus net returns.\nC – Both subtract the risk-free rate.\nD – Downside deviation is used by Sortino.\n\nRemember: Treynor = excess return ÷ beta; Sharpe = excess return ÷ standard deviation."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "When beta is negative"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The Treynor ratio cannot be used when beta is negative.\n\nWhy: Treynor = excess return ÷ beta. If beta is negative, the sign of the ratio flips. A strategy with positive excess return and negative beta gets a negative Treynor ratio, which looks bad even though it did well. Results become meaningless, so the ratio should not be used.\n\nWhy not the others:\nA – Negative returns give a negative ratio, which can still be read.\nB – High volatility does not break the formula.\nC – A zero risk-free rate is simply subtracted as zero.\n\nRemember: Never divide by a negative beta: the Treynor ratio breaks."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "Gross profit to gross loss"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Average annual return compared with maximum drawdown.\n\nWhy: Calmar ratio = average annual return ÷ maximum drawdown. It shows how much yearly return you got for the worst fall you had to endure. Example: 15% a year with a 30% maximum drawdown: 15 ÷ 30 = 0.5. Higher is better.\n\nWhy not the others:\nA – Return ÷ standard deviation is Sharpe-like, not Calmar.\nC – Winners ÷ losers is a win/loss ratio.\nD – Gross profit ÷ gross loss is the profit factor.\n\nRemember: Calmar = yearly return ÷ worst drawdown."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "A is good, B superb"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A is below average and B is excellent.\n\nWhy: SQN (System Quality Number) is roughly the average R-multiple ÷ its standard deviation × √(number of trades), usually capped at 100 trades. Tharp's guide rates about 1.6–1.9 as below average, 2.0–2.4 average, 2.5–2.9 good, 3.0–5.0 excellent and above 5 superb. So 1.7 is below average and 3.4 excellent.\n\nWhy not the others:\nA – This reverses them; the higher number, 3.4, is the better one.\nC – 1.7 and 3.4 are far apart and fall in different bands.\nD – 1.7 is below good, and 3.4 is below superb.\n\nRemember: SQN bands: under 2 weak, 2–2.5 average, 2.5–3 good, 3–5 excellent, above 5 superb."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "50 trades"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. SQN needs at least 30 trades to be deemed reliable.\n\nWhy: SQN uses the average and standard deviation of R-multiples, which are unreliable with few trades. About 30 is a common statistical rule of thumb for a sample to be large enough. With fewer than 30 trades, SQN can look very good or very bad purely by chance.\n\nWhy not the others:\nA – 10 trades are too few for stable statistics.\nB – 20 trades are still below the usual threshold.\nD – 50 is safer but above the usual minimum.\n\nRemember: SQN needs at least 30 trades to mean anything."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "The Sortino ratio ignores the risk-free rate entirely"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Much of its volatility is upside, while downside deviation is small.\n\nWhy: Sharpe divides excess return by total volatility, including big up moves. Sortino divides by downside deviation only. If Sortino (2.2) is much higher than Sharpe (0.6), the denominator for Sortino is much smaller: the strategy's swings are mainly upward, and its harmful downside moves are modest.\n\nWhy not the others:\nA – Large gaps are normal when returns are skewed, so the two need not be close.\nB – Losing months can exist; they are just small.\nD – Both subtract the risk-free rate.\n\nRemember: Sortino far above Sharpe means most of the bumps are on the upside."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "A longer holding period so winners can run further"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Investigate a protective stop plus an exit that captures more of the gain.\n\nWhy: Winners dipped as far as −70% before recovering (MAE), so holders endured huge open losses. They also reached as high as +90% (MFE) but the average win is only +12%, so much profit was given back. Two fixes follow: a stop to cap deep losses, and an exit (such as a trailing stop or target) that keeps more of the peak gain.\n\nWhy not the others:\nB – Larger positions would magnify both problems.\nC – Removing filters adds trades but does not fix losses or give-backs.\nD – Holding longer would likely give back even more.\n\nRemember: Large MAE calls for a stop; a big gap between MFE and the final win calls for a better exit."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "Adding more securities to the universe for more trades"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Better filters and stops that cut losses while preserving gross profit.\n\nWhy: Net profit = gross profit − gross loss. If both are large, the strategy is making big gains but losing nearly as much. The best lever is to cut the losses: filters that remove poor trades before entry and stops that limit losses once in a trade. If gross profit holds, net profit rises.\n\nWhy not the others:\nA – Bigger positions raise losses as much as gains.\nC – Removing exits could let losers grow too.\nD – More trades of the same quality repeat the same problem.\n\nRemember: When gross loss eats your gross profit, attack the losses."
   }
 ]

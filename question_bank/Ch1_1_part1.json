@@ -9,7 +9,8 @@
       "The portion of return explained by the portfolio's market exposure"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Alpha is the return a portfolio earns above (or below) its benchmark.\n\nWhy: Alpha measures value added by the manager. You start with what the portfolio actually returned and compare it with a yardstick, usually a benchmark index or the return expected for the risk taken. If the portfolio beat that yardstick, alpha is positive; if it fell short, alpha is negative. In its risk-adjusted form (Jensen's alpha), the yardstick is the CAPM expected return, which already accounts for beta.\n\nWhy not the others:\nA – Total return is the raw result; alpha is only the part left over after comparing with a benchmark.\nC – Volatility relative to the market describes beta, a risk measure, not excess return.\nD – The return explained by market exposure is the beta-driven part, which is exactly what alpha subtracts out.\n\nRemember: Alpha is the 'extra' the manager delivered beyond what the benchmark or the risk taken would have given."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "The investment tends to move about half as much as the market"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A beta of 1.0 means the investment tends to move in line with the market.\n\nWhy: Beta measures how sensitive an asset is to market moves. It is a multiplier: if the market rises 1%, an asset with beta β is expected to move β × 1% on average. With β = 1.0, a 10% market gain implies roughly a 10% gain for the asset, and a 5% market drop implies about a 5% drop. So the asset carries about the same market risk as the index itself.\n\nWhy not the others:\nB – Moving about twice as much as the market describes a beta of roughly 2.0.\nC – Beta near zero signals little market sensitivity; uncorrelated returns would give a beta near 0, not 1.\nD – Moving about half as much as the market describes a beta of roughly 0.5.\n\nRemember: Beta is a multiplier on market moves: 1.0 means 'moves with the market.'"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Realized return of the fund over the period"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Rf is the risk-free rate, often proxied by a Treasury yield such as the 10-year.\n\nWhy: In Jensen's alpha, Rf is the return you could earn without taking any market risk. It is the starting point of the CAPM expected return: Rf + β × (Rm − Rf). Government bond yields are used as the proxy because default risk is treated as negligible. Many analysts use short-term Treasury bills, others use the 10-year yield; what matters is using the same choice consistently.\n\nWhy not the others:\nB – The benchmark index return is Rm, not Rf.\nC – The required return given beta is the whole bracket Rf + β × (Rm − Rf), not Rf alone.\nD – The realized return of the fund is Rp, the number alpha is measured from.\n\nRemember: Rf is the 'no-risk' baseline every CAPM calculation starts from."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "In assets whose prices fluctuate randomly around fair value"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Technicians look for alpha where identifiable trends let prices beat the averages for extended periods.\n\nWhy: Technical analysis assumes prices move in trends that persist long enough to be spotted and followed. If a trend can be identified early and held, a trader can earn more than the market average, which is alpha. So, to a technician, the source of alpha is trend persistence in price behavior, not cheapness on a valuation screen.\n\nWhy not the others:\nA – Low valuations relative to earnings are a fundamental (value) source of return, not the technician's focus.\nC – High dividend yields are an income or value screen, again a fundamental idea.\nD – If prices only fluctuated randomly around fair value there would be no trends to exploit, so no technical alpha.\n\nRemember: For a technician, alpha comes from finding and riding persistent trends."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Moving averages, oscillators and price-envelope tools such as Bollinger Bands"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Moving averages, oscillators and price envelopes such as Bollinger Bands.\n\nWhy: The goal is to spot trend breakouts and trend continuations, so the right tools are those built directly from price that define trend and its boundaries. Moving averages show trend direction and crossovers; oscillators measure momentum and overbought or oversold swings; envelopes like Bollinger Bands mark when price pushes outside its normal range, which often signals a breakout. Together they are the core trend-timing toolkit.\n\nWhy not the others:\nA – P/E and price-to-book are valuation ratios; they say whether something is cheap, not when a trend breaks out.\nB – Breadth measures describe participation across the whole market, not the trend of an individual price series.\nC – Sentiment gauges such as the put/call ratio flag crowd extremes, which is a contrary tool rather than a breakout tool.\n\nRemember: To catch breakouts and continuations, use price-based trend tools: averages, oscillators, envelopes."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "As useful whenever price signals are confirmed by volume"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A strict EMH believer would see it as unlikely to repay the effort.\n\nWhy: The Efficient Markets Hypothesis says prices already reflect available information. In its weak form, all past price and volume data are already priced in, so patterns in past prices cannot predict future returns well enough to beat the market after costs. A strict believer therefore expects any 'new trend' found in price action to be chance or to vanish once traded, making the research a poor use of time.\n\nWhy not the others:\nB – Slow adjustment to news contradicts the EMH; it is an argument against efficiency.\nC – A strict believer does not carve out exceptions for small caps; that is a softer, anomaly-based view.\nD – Volume confirmation is a technical idea; under weak-form EMH volume data is also already priced in.\n\nRemember: Strict EMH: past prices are already in the price, so chart research should not pay."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "As a hypothesis that has been decisively disproven"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Fama called it a useful approximation that, like any model, is not entirely true.\n\nWhy: Even the hypothesis's best-known advocate treats it as a model. A model simplifies reality so we can reason about it; it is valuable when it describes behavior reasonably well, even if it is not perfect. Seeing EMH this way leaves room for anomalies and for competing models, which is why technicians should understand it rather than simply accept or dismiss it.\n\nWhy not the others:\nA – Calling it an exact description at all times overstates the claim; no model is perfectly true.\nC – The idea is not restricted to large-cap U.S. stocks; it is meant as a general model.\nD – Calling it decisively disproven overstates the case against it; it remains a working approximation.\n\nRemember: EMH is a model: useful, widely used, but not literally true at every moment."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Adaptive Market Hypothesis (AMH) and Fractal Market Hypothesis (FMH)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The Adaptive Market Hypothesis (AMH) and the Fractal Market Hypothesis (FMH).\n\nWhy: Besides the EMH, two alternative frameworks try to explain how markets really behave. The AMH sees markets as an evolving ecosystem where participants adapt, so efficiency rises and falls over time. The FMH focuses on investors with different time horizons and explains stability and crises through liquidity among them. Both allow for periods when prices are predictable, which matters for technical analysis.\n\nWhy not the others:\nA – Random walk theory is essentially a version of the efficient-market view, and chaos theory is not one of the two named alternatives.\nB – MPT and CAPM are portfolio and pricing models, not competing models of market efficiency.\nC – Behavioral finance and prospect theory inform these ideas but are not the two named market hypotheses.\n\nRemember: Three market models to know: EMH, AMH (adaptation) and FMH (time horizons)."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "William Sharpe"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Andrew Lo.\n\nWhy: Andrew Lo, an MIT finance professor, proposed the Adaptive Market Hypothesis. He applied ideas from evolution to markets: participants compete, learn and adapt, and strategies that work attract followers until they stop working. As a result, market efficiency is not fixed but changes with conditions and with the mix of participants.\n\nWhy not the others:\nA – Eugene Fama is associated with the Efficient Markets Hypothesis.\nB – Harry Markowitz developed Modern Portfolio Theory and mean-variance optimization.\nD – William Sharpe is known for the CAPM and the Sharpe ratio.\n\nRemember: Lo = Adaptive (evolution); Fama = Efficient; Peters = Fractal."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Participants' behavior evolves as expectations and biases shift"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Participants' behavior evolves as expectations and biases shift.\n\nWhy: The AMH treats the market like an ecosystem. Investors are not perfectly rational; they use rules of thumb, have biases, and change their behavior as conditions change. Because the population of participants and their expectations keeps evolving, prices do not always adjust smoothly and fully to new information. Efficiency is therefore something that varies over time rather than a constant state.\n\nWhy not the others:\nA – Information overload is not the core AMH explanation; the focus is on how people adapt and behave.\nB – Transaction costs are a market friction, not the behavioral evolution the AMH emphasizes.\nC – Regulation is not the mechanism; the AMH centers on changing human behavior.\n\nRemember: AMH: efficiency changes because people and their biases change."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "When prices follow a random walk around fair value"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. When price moves reflect behavioral biases more than new information.\n\nWhy: In an efficient market, prices move because new information arrives. In Lo's adaptive view, a market is inefficient when the dominant driver of price changes is investor psychology, such as fear, greed, anchoring or herding, rather than genuinely new facts. Those biased moves can create persistent patterns that technical analysts can study.\n\nWhy not the others:\nA – Information arriving quickly is not itself inefficiency; what matters is whether prices respond to it or to biases.\nB – Low volume alone does not define inefficiency in this framework.\nD – A random walk around fair value is the picture of an efficient market, the opposite of the answer.\n\nRemember: Inefficient = prices driven more by bias than by news."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Prior price extremes are psychologically salient reference points that influence trading decisions"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Prior price extremes act as psychologically important reference points.\n\nWhy: A 52-week high or low is just a past price; it carries no new earnings or business information. Yet volume rises when price crosses it. The most sensible explanation is psychological: investors anchor on these well-publicized levels and treat them as meaningful, so crossing them triggers buying or selling. That is evidence that behavior, not only information, drives trading.\n\nWhy not the others:\nA – The levels themselves contain no new earnings information; that is the whole point of the finding.\nB – Index rebalancing is not tied to a stock's 52-week range and does not explain the pattern.\nC – The finding shows volume does depend on where price sits in its range, the opposite of this option.\n\nRemember: 52-week highs and lows matter because people watch them, not because they contain news."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "It is explained entirely by institutional selling pressure"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Trading behavior changes even though the price level reveals nothing new about fundamentals.\n\nWhy: Efficient-market theory says trading should respond to new information. Crossing a 52-week extreme provides no new information about the company, yet traders act anyway. That gap between behavior and information is evidence of a behavioral influence on prices, which supports the adaptive view and gives technicians a reason to watch these levels.\n\nWhy not the others:\nB – The finding does not show fundamentals have changed; the fact that they have not is what makes it important.\nC – The levels are not shown to line up with earnings announcements.\nD – Institutional selling alone does not explain heavier volume at both highs and lows.\n\nRemember: When behavior changes without new information, you are seeing psychology in the price."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "The market is still semi-strong-form efficient, so charts add nothing"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Past price data may contain exploitable information, so technical rules could earn excess returns.\n\nWhy: Weak-form efficiency means past prices cannot predict future prices. Serial correlation means today's return is statistically related to yesterday's, so the past does help predict the future. If the market fails weak-form tests, the information that technical analysis uses, namely past prices, may hold real predictive value, and trend rules could add return beyond the market's.\n\nWhy not the others:\nB – Failing weak-form tests says nothing that limits excess returns to insiders; that relates to strong-form efficiency.\nC – A weak-form failure does not imply fundamental analysis is useless; that is unrelated.\nD – Semi-strong efficiency includes weak-form; a market that fails weak-form cannot be semi-strong efficient.\n\nRemember: Fail weak-form efficiency, and past prices become useful to the technician."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Prices follow a perfect random walk"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Some predictability exists in historical price data, which technical methods may exploit.\n\nWhy: The three efficiency forms are nested: weak (past prices priced in), semi-strong (all public information priced in) and strong (all information, even private, priced in). If a market is not weak-form efficient, history of prices is not fully reflected, so patterns in past prices can carry some predictive power. That is the opening technical analysis needs.\n\nWhy not the others:\nA – This describes a weak-form efficient market, the opposite of the situation given.\nB – Failing the weak form does not tell you specifically whether public fundamental data is priced in.\nD – A perfect random walk is what weak-form efficiency implies, not its failure.\n\nRemember: Not weak-form efficient = the past contains clues."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "The trend is more likely to persist than to reverse"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The trend is more likely to persist than to reverse.\n\nWhy: If investors absorb new information slowly, prices adjust step by step rather than all at once. Each wave of late adopters keeps pushing price in the same direction as they catch up. So a strong move already under way is likely to continue for a while. This slow diffusion of information is one of the key reasons trend-following can work.\n\nWhy not the others:\nA – Quick reversals by arbitrageurs describe fast, efficient correction, not slow absorption.\nB – Slow absorption makes direction more predictable, not less.\nC – Price still absorbs the information, just gradually; volume does not replace price.\n\nRemember: Slow information absorption creates trend persistence."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "5.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Portfolio beta = 1.25.\n\nWhy: A portfolio's beta is the weighted average of its holdings' betas. With four equally weighted stocks, each weight is 25%. Sum of betas = 0.8 + 1.0 + 1.4 + 1.8 = 5.0. Average = 5.0 ÷ 4 = 1.25. So the portfolio is expected to move about 1.25 times as much as the market.\n\nWhy not the others:\nA – 1.00 assumes the portfolio simply matches the market, ignoring the actual betas.\nC – 1.40 is one holding's beta, not the average.\nD – 5.00 is the sum of the betas; you must divide by the number of equal-weighted holdings.\n\nRemember: Portfolio beta is the weighted average of the individual betas."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "18%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Alpha = 6%.\n\nWhy: Jensen's alpha compares actual return with the CAPM expected return. Expected return = Rf + β × (Rm − Rf). Market excess return = 12% − 4% = 8%. Beta-adjusted premium = 1.5 × 8% = 12%. Expected return = 4% + 12% = 16%. Alpha = 22% − 16% = 6%. The portfolio earned more than its risk level justified.\n\nWhy not the others:\nA – 4% is the risk-free rate, not the result of the alpha calculation.\nC – 10% is the simple 22% − 12% difference, which ignores beta and the risk-free rate.\nD – 18% is 22% − 4%, the excess over the risk-free rate before adjusting for market risk.\n\nRemember: Alpha = actual − [Rf + β × (Rm − Rf)]; always compute the expected return first."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "The market risk premium scaled by the portfolio's beta"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It is the market risk premium scaled by the portfolio's beta.\n\nWhy: (Rm − Rf) is the market risk premium: the extra return the market earned over the risk-free rate. Multiplying it by beta scales that premium up or down to match how much market risk the portfolio carries. Adding Rf gives the return the portfolio 'should' have earned for its risk, and alpha is whatever is left above or below that.\n\nWhy not the others:\nA – Excess return over the benchmark is closer to alpha itself, not the beta term.\nB – The no-risk return is Rf, which sits outside this term.\nC – Tracking error is the volatility of the difference from an index, not part of the alpha formula.\n\nRemember: β × (Rm − Rf) is the reward the portfolio earns just for taking market risk."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "12.0%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Expected return = 11.4%.\n\nWhy: CAPM says expected return = Rf + β × (E(Rm) − Rf). Market risk premium = 10% − 3% = 7%. Scaled by beta: 1.2 × 7% = 8.4%. Add the risk-free rate: 3% + 8.4% = 11.4%. Because beta is above 1, the stock's required return is above the market's 10%.\n\nWhy not the others:\nA – 8.4% is only the beta-scaled premium; you forgot to add the 3% risk-free rate.\nB – 10.0% is the market return, which applies only to a beta of 1.0.\nD – 12.0% is 1.2 × 10%, which wrongly scales the whole market return instead of only the premium.\n\nRemember: CAPM: start at Rf, then add beta times the market premium."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Using the higher-beta portfolio's benchmark for both managers"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Use the same period, benchmark and risk-free rate for both managers.\n\nWhy: Alpha depends on its inputs: the time window, the benchmark used for Rm and the risk-free rate. Change any of these and alpha changes, even if the managers' skill does not. To compare like with like, hold all three constant so the only difference left is the managers' actual results and betas.\n\nWhy not the others:\nA – Letting each manager pick inputs lets them flatter their own numbers, so the comparison is not fair.\nC – Total return ignores risk; alpha is valuable precisely because it adjusts for risk.\nD – Using one manager's benchmark for both may mismeasure the other; consistency should be chosen, not tied to beta.\n\nRemember: Compare alphas only when they are measured with the same yardstick."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "It has no meaningful relationship with the market's movements"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It is expected to move about 1.6 times as much as the market and add to portfolio volatility.\n\nWhy: Beta of 1.6 means that, on average, a 1% market move is associated with about a 1.6% move in the stock. Adding a higher-beta stock to a diversified portfolio raises the portfolio's weighted-average beta, so the portfolio becomes more sensitive to market swings, both up and down.\n\nWhy not the others:\nB – Moving 60% less than the market would be a beta of about 0.4.\nC – Beta is a risk sensitivity, not a promised outperformance figure.\nD – A beta of 1.6 indicates a strong relationship with the market, not no relationship.\n\nRemember: Higher beta = bigger swings with the market and more portfolio risk."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Leveraged long index ETFs"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Regulated utility stocks.\n\nWhy: Beta reflects how much a business's value swings with the economy and the market. Regulated utilities sell essential services with stable demand and controlled pricing, so their earnings vary little through the cycle. That stability usually gives them betas well below 1.0, which is why they are called defensive.\n\nWhy not the others:\nA – Semiconductor demand is highly cyclical, so these stocks usually have betas above 1.0.\nC – Small-cap biotech stocks are volatile and speculative, typically with high betas.\nD – A leveraged long index ETF is designed to move a multiple of the index, so its beta is above 1.0.\n\nRemember: Stable, essential businesses have low betas; cyclical or leveraged ones have high betas."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Rp"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Alpha = Rp − Rf.\n\nWhy: Start from α = Rp − [Rf + β × (Rm − Rf)]. If β = 0, the term β × (Rm − Rf) becomes 0, so the expected return is just Rf. That leaves α = Rp − Rf. In words, a portfolio with no market sensitivity should only earn the risk-free rate, so anything above it counts as alpha.\n\nWhy not the others:\nA – Rp − Rm would follow if beta were 1 and the risk-free rate were ignored, not if beta were 0.\nB – Rm − Rf is the market risk premium, which drops out entirely when beta is 0.\nD – Rp alone ignores the risk-free baseline that still remains in the formula.\n\nRemember: With zero beta, the expected return is just the risk-free rate."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "20%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. CAPM attributes 5% excess return to market exposure.\n\nWhy: The part of return CAPM credits to market exposure is β × (Rm − Rf). Here the market premium Rm − Rf = 10% and β = 0.5. So the market-driven excess return = 0.5 × 10% = 5%. A half-beta portfolio is expected to earn half of the market's premium.\n\nWhy not the others:\nA – 2.5% would require a beta of 0.25 or halving the result twice.\nC – 10% is the full market premium, which applies only to a beta of 1.0.\nD – 20% doubles the premium, as if beta were 2.0.\n\nRemember: Market-driven excess return = beta × market premium."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Both have alpha of 12%"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. X alpha = 12%, Y alpha = 9%.\n\nWhy: Market premium = 14% − 4% = 10%. Portfolio X: expected = 4% + 1.4 × 10% = 4% + 14% = 18%; alpha = 30% − 18% = 12%. Portfolio Y: expected = 4% + 0.5 × 10% = 4% + 5% = 9%; alpha = 18% − 9% = 9%. X still has the higher alpha, but the gap is much smaller than the gap in raw returns because X took more risk.\n\nWhy not the others:\nB – 16% and 4% are each portfolio's return minus the 14% market return, which ignores beta and Rf.\nC – 18% is X's expected return, not its alpha, and 9% for Y is correct only by coincidence.\nD – The two alphas differ once each is adjusted for its own beta.\n\nRemember: Always compute each portfolio's own expected return before comparing alphas."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Alpha cannot be computed without the portfolio's standard deviation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It has a positive alpha of 2% despite lagging the market.\n\nWhy: Expected return = Rf + β × (Rm − Rf) = 4% + 0.5 × (12% − 4%) = 4% + 4% = 8%. Actual return = 10%. Alpha = 10% − 8% = +2%. Because the portfolio took only half the market's risk, it was expected to earn less than the market; earning 10% beats that expectation.\n\nWhy not the others:\nA – Lagging the market's raw return does not mean negative alpha once lower risk is taken into account.\nC – −2% is simply 10% − 12%, a raw comparison that ignores beta.\nD – Jensen's alpha uses beta, not standard deviation, so it can be computed here.\n\nRemember: Low-beta portfolios can trail the market and still have positive alpha."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Alpha ignores the benchmark's return whenever beta is below 1.0"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. With a lower beta, less of its return is expected from market exposure.\n\nWhy: Alpha subtracts the return a portfolio should have earned for its market risk. A low-beta portfolio has a lower expected return, so its 'hurdle' is lower. It can therefore post a smaller total return than a high-beta portfolio yet beat its own hurdle by a similar or larger amount, giving it equal or higher alpha.\n\nWhy not the others:\nA – Alpha does not reward volatility; higher beta actually raises the hurdle.\nB – Jensen's alpha includes the market return through the beta term, not just the risk-free rate.\nD – The benchmark return is used at every beta level; nothing is ignored below 1.0.\n\nRemember: Alpha is measured against a hurdle that rises with beta."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Avoid reference to academic models, which reject technical analysis"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Reconcile its results with one or more established models of market behavior.\n\nWhy: Academically trained readers judge new findings against models they already accept, such as the EMH, AMH or FMH. Research that explains why an effect can exist within, or why it challenges, these models is far more credible than a list of profitable trades. Connecting the result to theory also makes it less likely to be dismissed as luck or data mining.\n\nWhy not the others:\nB – One profitable year is too short a sample and could easily be luck.\nC – A few chart examples are anecdotes, not systematic evidence.\nD – Ignoring academic models makes the work less persuasive to exactly the audience named.\n\nRemember: Tie new alpha claims to accepted market models to be taken seriously."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Investors ignored past price extremes when making decisions"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Investors traded on new 52-week highs or lows even without accompanying fundamental news.\n\nWhy: In an efficient market, trading should follow new information. The research found volume rising at 52-week extremes even when nothing new was known about the company. That suggests anchoring: investors fix on these salient past prices and act when they are crossed. Behavior that responds to a reference point rather than to information is a sign of informational inefficiency.\n\nWhy not the others:\nA – Trading around earnings would be a reaction to information, which is consistent with efficiency.\nB – If volume rose only with good news, the cause would be the news, not the price level.\nD – The finding is that investors paid attention to past extremes, not that they ignored them.\n\nRemember: Trading on a price level with no news behind it is a behavioral footprint."
   }
 ]

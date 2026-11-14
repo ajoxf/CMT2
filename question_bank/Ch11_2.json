@@ -9,7 +9,8 @@
       "Pre-election year and election year"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The pre-election year and the election year tend to be strongest.\n\nWhy: The Presidential cycle is the idea that U.S. stock returns follow the four-year presidential term. The usual explanation is political: early in a term, unpopular policies such as spending cuts or tightening tend to be pushed through, while later in the term the administration prefers growth-friendly policies ahead of the next election. As a result, the third (pre-election) year has historically been the strongest, with the fourth (election) year also above average.\n\nWhy not the others:\nA – The first year and mid-term year are historically the weaker half.\nB – The mid-term year is usually weak, so this pairing mixes a weak year with a strong one.\nC – The first year of a new term tends to be soft, so this pairing is also mixed.\n\nRemember: Second half of the term strong, first half weak."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "A 3-year or 156-week cycle"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The four-year cycle is closer to 3.5 years, or about 180 weeks.\n\nWhy: Although commonly called a four-year cycle, measured lows in stocks have tended to arrive somewhat sooner than every four years. Converting: 3.5 years × 52 weeks ≈ 182 weeks, usually rounded to a nominal 180 weeks. Cycle periods are always approximate, so the label is a convenient name rather than an exact timing.\n\nWhy not the others:\nA – 200 weeks is close to four years exactly (about 3.85 years), longer than observed.\nC – 4.5 years would be longer than both the label and the observed period.\nD – 3 years is shorter than the typical observed spacing.\n\nRemember: The \"four-year cycle\" is really about 3.5 years (≈180 weeks)."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Weeks 240 and 480"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The next two peaks would be expected around weeks 180 and 360.\n\nWhy: A cycle repeats at its period. If one peak is at week 0 and the period is 180 weeks, the next peak is at 0 + 180 = week 180, and the one after at 180 + 180 = week 360. In practice these are time windows, not exact dates, because cycle lengths vary.\n\nWhy not the others:\nA – Week 90 is half a period, where a trough would be expected, not a peak.\nC – 208 weeks is about four calendar years, not the stated 180-week period.\nD – 240 weeks uses the wrong period.\n\nRemember: Add the period again and again to project future turns, then treat each as a window."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "A 3x1 relationship, three units of price per unit of time"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A 1x1 relationship, with price and time in balance (squared).\n\nWhy: In Gann-style analysis, price and time are said to be \"squared\" when one unit of price change matches one unit of time. Here the index falls 30% in 30 days: 30 ÷ 30 = 1, so one percent per day, a 1x1 balance. Gann followers watch for reversals when price and time square like this, which matches the sharp reversal in the question.\n\nWhy not the others:\nA – 2x1 would be 60% in 30 days, two price units per time unit.\nC – 1x2 would be 15% in 30 days, one price unit per two time units.\nD – 3x1 would be 90% in 30 days.\n\nRemember: Price units equal time units = 1x1 = price and time squared."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Percentage retracements of the prior price swing only"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Gann Fans measure one to four units of price per unit of time, and the reverse.\n\nWhy: A Gann Fan is a set of lines drawn from a significant high or low at different price-per-time slopes. The central 1x1 line moves one unit of price per unit of time. Steeper lines (2x1, 3x1, 4x1) move more price per unit of time, and flatter lines (1x2, 1x3, 1x4) move less. Price holding above or below these lines helps judge trend strength.\n\nWhy not the others:\nB – The 1x1 line is only one line of the fan.\nC – Fibonacci ratios are a separate method, not the basis of Gann angles.\nD – Retracements measure price only, while the fan combines price and time.\n\nRemember: A Gann Fan is a spread of price-per-time angles around the 1x1."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Time is irrelevant when a Fibonacci price target is in play"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A price-time confluence can mark a low before a price target is reached.\n\nWhy: Analysts often watch price targets such as a 61.8% Fibonacci retracement. But price-time analysis argues that time matters too. If price and time square, for example at a 1x1 point, the move may end there even if it stops short of the price target. In this case price turned about 4% above the Fibonacci level, showing that time can end a move before price reaches its target.\n\nWhy not the others:\nA – The example shows a reversal before the Fibonacci level was reached.\nB – Reversals can happen away from exact Fibonacci levels.\nD – The lesson is that time can matter even when a price target is in view.\n\nRemember: A move can end because time is up, not just because price hit a level."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "About 32 days"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About 16 days.\n\nWhy: The time-doubling idea projects that a later leg in a move may last a multiple of the first leg, with doubling a common choice. The first leg lasted 8 days, so the projection is 8 × 2 = 16 days. This is treated as a window to watch, ideally alongside price signals, not a fixed date.\n\nWhy not the others:\nA – 4 days halves the first leg instead of doubling it.\nB – 8 days repeats the first leg and does not apply doubling.\nD – 32 days doubles twice.\n\nRemember: Time doubling: first leg × 2 gives the next time target."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Because fundamentals typically turn positive at that moment"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Price and time can align, for example a percentage decline equal to the number of days, marking exhaustion.\n\nWhy: Breaking a prior low normally looks bearish. But in Gann-influenced analysis, if the decline has reached a point where price and time balance, such as a 20% fall over 20 days, the move may be exhausted. Sellers may have done their work, and a reversal can follow even though support was broken.\n\nWhy not the others:\nB – A retest from below is a support/resistance idea, not the Gann explanation.\nC – A falling moving average usually acts as resistance, not support.\nD – The explanation is technical, not a change in fundamentals.\n\nRemember: When price and time square, a decline can end, even past a broken low."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Fixed-period cycles cannot be projected forward at all"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Periods vary, so projected turns are windows to be confirmed with price.\n\nWhy: A cycle measured at 180 weeks will not repeat at exactly 180 weeks every time. Real cycles stretch and shrink. Projecting forward gives a period when a turn is more likely, but the analyst should wait for price evidence, such as a trend break or reversal pattern, before acting.\n\nWhy not the others:\nB – Cycle projections are not exact to the day.\nC – Cycle projections can apply to any market.\nD – Fixed-period cycles can be projected; the caution is about precision.\n\nRemember: Cycle projections give windows; price confirms the turn."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "That events recur at regular intervals, in markets as in nature"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The belief that events recur at regular intervals, in markets as in nature.\n\nWhy: Cycle analysis rests on the view that many natural and human systems repeat in rhythms, such as seasons, tides or business activity. If such rhythms exist in markets, past timing can help anticipate future turning points. The phrase expresses that core assumption of repetition.\n\nWhy not the others:\nA – The phrase assumes cycles can be anticipated, not that they are random.\nB – It links markets to natural rhythms rather than rejecting them.\nC – It is applied beyond astronomy, including to markets.\n\nRemember: Cycle analysis assumes the past repeats at regular intervals."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Linear progressions without repetition"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Cycles are rhythms that repeat with predictable regularity.\n\nWhy: A cycle is a pattern of rises and falls that comes back at roughly the same interval. That regularity is what makes cycles useful: if you know a cycle's typical length, you can estimate when its next low or high may arrive.\n\nWhy not the others:\nA – Random fluctuations do not repeat in a regular way.\nC – News-driven moves are irregular, the opposite of cycles.\nD – A straight line without repetition is not a cycle.\n\nRemember: A cycle is a rhythm that repeats."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "John Murphy, Martin Pring, and Steve Nison"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Clement Juglar, Edward Dewey, J.M. Hurst and W.D. Gann.\n\nWhy: These four are linked to cycle study. Juglar described a business cycle of several years. Dewey promoted the systematic study of cycles across many fields. Hurst developed principles for analysing nested market cycles. Gann combined price and time relationships with cycle ideas.\n\nWhy not the others:\nA – Graham, Buffett and Lynch are known for fundamental investing.\nB – Dow, Elliott and Wyckoff are known for trend, wave and market-structure analysis, not primarily cycles.\nD – Murphy, Pring and Nison are known for general technical analysis and candlesticks.\n\nRemember: Juglar, Dewey, Hurst and Gann are the cycle pioneers."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "The capital asset pricing model"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Reliable cycles challenge the random-walk hypothesis.\n\nWhy: The random-walk hypothesis says price changes are independent, so past prices cannot help predict future ones. If cycles reliably repeat, past timing would carry information about future turns, which conflicts with a random walk.\n\nWhy not the others:\nA – The strong-form efficient market hypothesis is about all information, including private data; cycles most directly challenge the random walk.\nC – The dividend discount model is a valuation method, not a statement about price behaviour.\nD – CAPM relates expected return to market risk; it does not deal with price cycles.\n\nRemember: If cycles are real, prices are not a pure random walk."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Economic data moves too slowly to affect prices"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Economic explanations do not reliably line up with market peaks and troughs.\n\nWhy: Stock markets often peak while the economy still looks strong and bottom while it looks weak. Because markets tend to move ahead of the economy, good GDP or low unemployment figures do not match the timing of market turns. That makes them weak explanations for when cycles rise and fall.\n\nWhy not the others:\nA – Data delays exist, but the core issue is the poor timing match.\nC – Markets respond to many factors, not only monetary policy.\nD – The problem is the mismatch in timing, not just the slow pace of data.\n\nRemember: Markets lead the economy, so economic data poorly explains market turns."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Fundamental valuation of individual companies"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Dewey emphasised the systematic study of historical data to find repeating patterns.\n\nWhy: Dewey's approach was to collect long histories of data, in markets and many other areas, and look carefully for rhythms that repeat. The aim was to identify cycles objectively from evidence rather than from opinion or short-term impressions.\n\nWhy not the others:\nA – Reading current sentiment is not a historical study.\nB – Short-term intraday patterns were not his focus.\nD – Valuing individual companies is fundamental analysis, not cycle study.\n\nRemember: Dewey: study long histories to find cycles."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Short cycles reverse direction whenever long cycles turn"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Shorter cycles sit inside longer ones, so structures recur across time frames.\n\nWhy: Nesting means cycles fit inside each other like boxes. A long cycle contains a few medium cycles, and each medium cycle contains a few short ones. Because the same structure repeats at different scales, the analyst can see similar patterns on daily, weekly and monthly charts.\n\nWhy not the others:\nA – Shorter cycles also matter; they shape the swings within the trend.\nB – Time frames are linked through nesting, not separate.\nD – Short cycles do not have to reverse whenever long cycles turn.\n\nRemember: Cycles are nested: small inside medium inside large."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "A series whose volatility is rising"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A Hurst exponent above 0.5 indicates persistent (trending) behaviour.\n\nWhy: The Hurst exponent (H) measures whether a series tends to continue or reverse its moves. H = 0.5 means a random walk, with no memory. H above 0.5 means moves tend to be followed by moves in the same direction, so the series trends. H below 0.5 means moves tend to reverse.\n\nWhy not the others:\nA – Mean reversion matches H below 0.5.\nB – A random walk matches H = 0.5.\nD – H measures persistence, not rising volatility.\n\nRemember: H > 0.5 trends, H = 0.5 random, H < 0.5 mean reverts."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Natural laws and patterns influenced by time and price"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Gann held that markets follow natural laws and patterns influenced by time and price.\n\nWhy: Gann believed that market moves are governed by orderly relationships, especially between price and time, and drew on geometry, numbers and natural cycles to describe them. He saw markets as structured, not random.\n\nWhy not the others:\nA – Gann rejected the idea of randomness.\nB – His work was not based on earnings or valuation.\nC – He relied heavily on mathematical relationships, not only crowd psychology.\n\nRemember: Gann: markets obey natural laws of time and price."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "It applies only to commodity markets, not stocks"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The 45-degree (1x1) angle acts as support or resistance that prices often revert to over time.\n\nWhy: In Gann analysis, the 45-degree line represents one unit of price per unit of time, the balance between the two. A trend above this line is seen as strong; falling below it suggests weakening. Prices often come back to this line, so it acts as a support or resistance guide.\n\nWhy not the others:\nA – Gann did not treat it as a speed limit for trends; steeper angles exist.\nC – The angle does not give an exact date for a top.\nD – Gann applied his methods to stocks as well as commodities.\n\nRemember: The 45-degree line is the 1x1 balance and acts as support or resistance."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Measures of crowd sentiment from surveys"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Gann incorporated astrological principles and celestial movements.\n\nWhy: Alongside price and time geometry, Gann drew on astronomy and astrology, believing that planetary cycles could relate to market cycles. This is one of the more debated parts of his work, but it is part of what he used.\n\nWhy not the others:\nA – Earnings and GDP data are fundamental inputs, not his unusual element.\nB – Central bank announcements are not part of his method.\nD – Survey-based sentiment measures are a later, separate development.\n\nRemember: Gann looked to the heavens as well as the chart."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Potential exhaustion points, by counting consecutive closes"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. TD Sequential is designed to find potential exhaustion points by counting closes.\n\nWhy: TD Sequential counts bars that close higher or lower than a close a few bars earlier. A setup phase counts nine such bars in a row, and a countdown phase counts further qualifying bars to thirteen. Completing these counts suggests the trend may be running out of energy and could pause or reverse.\n\nWhy not the others:\nA – It looks for exhaustion, not continuation after breakouts.\nB – It works on any time frame and focuses on turning points, not secular trends.\nC – It is based on price closes, not volume.\n\nRemember: TD Sequential counts closes to spot trend exhaustion."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Combo needs no setup phase before its countdown begins"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. TD Combo's countdown starts on the first bar of the setup, with stricter conditions.\n\nWhy: In TD Sequential, the countdown begins after the nine-bar setup is completed. TD Combo begins counting from the first bar of the setup and uses stricter rules for which bars qualify. The result can be an earlier but more demanding count toward exhaustion.\n\nWhy not the others:\nB – Neither indicator counts volume bars.\nC – Combo does not need a failed setup to start.\nD – Combo still uses a setup phase; it just starts counting earlier.\n\nRemember: Combo counts from bar one of the setup, under tighter rules."
   },
   {
     "id": 25,
@@ -273,7 +295,8 @@
       "Only after accepting that price movements are entirely random"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Use cycles together with other tools, not as standalone signals.\n\nWhy: Cycles vary in length and size, and not every major turn falls exactly on a cycle point. Combining cycle timing with price confirmation, trend tools and momentum improves reliability. Cycles tell you when to watch; other tools tell you whether the turn is happening.\n\nWhy not the others:\nA – Cycles can still be useful for timing.\nB – Relying on one cycle ignores the others that shape price.\nD – Using cycles assumes some order, not complete randomness.\n\nRemember: Cycles say when to look; other tools confirm what is happening."
   },
   {
     "id": 26,
@@ -285,7 +308,8 @@
       "Mean-reverting (anti-persistent) behaviour"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A Hurst exponent below 0.5 suggests mean-reverting (anti-persistent) behaviour.\n\nWhy: When H is below 0.5, a rise tends to be followed by a fall and the other way round, so the series keeps returning to its average. That is mean reversion. H = 0.5 is a random walk and H above 0.5 means trending.\n\nWhy not the others:\nA – Strong trends match H above 0.5.\nB – H describes persistence, not volatility.\nC – A pure random walk is H = 0.5.\n\nRemember: H below 0.5 means moves tend to reverse."
   },
   {
     "id": 27,
@@ -297,7 +321,8 @@
       "Only the election year"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The first two years (post-election and midterm) have historically been weaker.\n\nWhy: Under the Presidential cycle idea, new administrations tend to introduce tougher or unpopular policies early in the term, when the next election is far off. Markets have tended to perform worse in these first two years and better in the last two, as policies turn more growth-friendly before the election.\n\nWhy not the others:\nB – The last two years are historically the stronger half.\nC – Returns have not been evenly spread across the term.\nD – The election year is generally among the better years, not the weakest.\n\nRemember: Weak first half, strong second half of the term."
   },
   {
     "id": 29,
@@ -309,7 +334,8 @@
       "About 7 to 11 years"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The Juglar cycle lasts about 7 to 11 years.\n\nWhy: Clement Juglar studied fluctuations in business activity and credit and found a recurring cycle of roughly 7–11 years, often linked to business investment. It is one of several classic economic cycles of different lengths.\n\nWhy not the others:\nA – About 40 months is the shorter Kitchin (inventory) cycle.\nB – About 18 years matches longer cycles such as the Kuznets cycle.\nC – 50–60 years is the long-wave (Kondratieff) cycle.\n\nRemember: Juglar = roughly 7–11-year business cycle."
   },
   {
     "id": 30,
@@ -321,6 +347,7 @@
       "Project the next leg's length from the size of the bounce in points"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Project multiples of the first leg's duration and watch for price-time confluence.\n\nWhy: Price-time analysis takes the length of the first leg, here 10 days, and projects multiples of it, such as 20 or 30 days, as possible end points for the next leg. The analyst then watches for price to reach a meaningful level at the same time. When time and price line up, a turn is more likely.\n\nWhy not the others:\nB – Assuming exactly 10 days ignores the multiples idea and cycle variation.\nC – Ignoring time throws away half of the method.\nD – The size of the bounce in points does not set a time target.\n\nRemember: Project time from earlier legs, then look for price to agree."
   }
 ]

@@ -9,7 +9,8 @@
       "What is the risk, what is the reward, and what is the probability"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When the move started, which direction prices should move, and how far the move can carry.\n\nWhy: Before risking money, a chartist needs three answers. When: has the move actually begun, usually confirmed by a breakout from a pattern? Which way: is the breakout up or down? How far: what is the likely size of the move, usually estimated by a measured target from the pattern? These three questions turn a picture on a chart into a tradable plan with direction, timing and objective.\n\nWhy not the others:\nA – Entry, exit and size are trade-management questions, not the three pattern questions named.\nC – Pattern, volume and trend are things you examine, not the three questions about the move.\nD – Risk, reward and probability are useful but not the specific three questions.\n\nRemember: Three questions: when did it start, which way, and how far?"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "As useless and best ignored"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. As rough guidelines for potential, not as rules.\n\nWhy: Measured targets come from simple geometry: the pattern's height projected from the breakout. Markets do not follow geometry exactly, so moves often fall short or run well past the target. The classical authors therefore treated targets as a general sense of how much potential a move has, to be combined with judgment and stops, not as precise exit points.\n\nWhy not the others:\nB – Treating targets as exact automatic exits gives them false precision.\nC – Targets apply to continuation as well as reversal patterns.\nD – They are useful as estimates; the advice is to use them loosely, not ignore them.\n\nRemember: Pattern targets are a guide to potential, not a promise."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "It displays the volume histogram more accurately"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Breakouts register sooner and long-term trends are easier to analyze.\n\nWhy: On a semi-log (logarithmic) scale, equal vertical distances show equal percentage changes. That keeps long-term trends comparable whether the price is 10 or 100. In a strong uptrend, the steepening curve of a linear chart is straightened out, so trendlines and pattern boundaries are crossed earlier on a log chart, giving earlier signals.\n\nWhy not the others:\nB – A log scale does not make every pattern easier to see; some look similar on both scales.\nC – Choosing a scale for bigger downside targets is not the reason given.\nD – The price scale does not change how volume bars are displayed.\n\nRemember: Log scale = equal percentages, clearer long trends, earlier breaks."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Point measurements are more accurate on semi-log charts"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Both choices give conservative targets, because a given point move is a larger percentage at lower prices.\n\nWhy: Say a pattern is 20 points tall between 60 and 80. Projected downward from 60 in points, the target is 60 − 20 = 40, a 33% fall. In percentage terms, 20 ÷ 80 = 25%, so the target is 60 × 0.75 = 45, closer and more conservative. Upward from 80, adding 20 points gives 100 (+25%), while adding 33% gives about 107. Points give the smaller upside target and percentages the smaller downside target, so each choice keeps targets conservative.\n\nWhy not the others:\nA – The aim is conservative, not aggressive, targets.\nC – Percentage measuring makes downside targets smaller, not bigger.\nD – The choice is about conservatism, not the accuracy of points on log charts.\n\nRemember: Down in percent, up in points: both keep targets modest."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Measuring using ATR multiples"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Measuring using percentage changes.\n\nWhy: For a bearish pattern, the target is projected down from the breakdown level. A percentage drop gets smaller in dollar terms as price falls, so a percentage-based target sits closer to the breakdown than a full point-based projection. For example, a 20-point pattern topping at 80 with a 60 neckline gives 45 using 25% and 40 using 20 points; 45 is the conservative choice.\n\nWhy not the others:\nA – Points produce a deeper, more aggressive downside target.\nB – Fibonacci ratios are a different tool, not the conservative pattern measurement.\nD – ATR multiples are used for breakout filters, not for pattern targets here.\n\nRemember: Bearish target? Measure the depth as a percentage."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Subtract the percentage distance from the head to neckline from the neckline"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Subtract the percentage distance from head to neckline from the neckline.\n\nWhy: First find the pattern depth as a percentage: (head − neckline) ÷ head. Then reduce the neckline by that percentage to get the downside objective. For instance, head 100 and neckline 80: depth = 20 ÷ 100 = 20%, so target = 80 × (1 − 0.20) = 64. Using percentages on the downside keeps the target conservative.\n\nWhy not the others:\nA – Adding the depth to the neckline would give an upside target, wrong for a top.\nB – Multiplying neckline by width has no meaning as a measured move.\nC – Twice the depth exaggerates the target well beyond the classical method.\n\nRemember: H&S top target = neckline reduced by the head-to-neckline percentage."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "$52"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Price objective = $45.\n\nWhy: Depth in dollars = 80 − 60 = 20. As a percentage of the head: 20 ÷ 80 = 25%. Apply that drop to the neckline: 60 × (1 − 0.25) = 60 × 0.75 = 45. So the objective after the neckline break is $45, more conservative than the point method's 60 − 20 = $40.\n\nWhy not the others:\nA – $40 subtracts the full 20 points, the point method, not the percentage method asked for.\nC – $48 corresponds to a 20% drop from the neckline, not the 25% depth.\nD – $52 is too shallow and matches no correct depth measurement.\n\nRemember: Percentage depth = (head − neckline) ÷ head, then apply it to the neckline."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "As an absolute point or dollar distance added to the neckline"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. As an absolute point or dollar distance added to the neckline.\n\nWhy: For a bullish head-and-shoulders bottom, measure the distance from the head (the lowest low) up to the neckline in points, then add that same number of points to the neckline. For example, head 40 and neckline 50: depth = 10, target = 50 + 10 = 60. A percentage projection upward would give a higher target, so points are the conservative choice.\n\nWhy not the others:\nA – A percentage projection upward gives a larger, less conservative target.\nB – Fibonacci extensions are a different technique, not the classical measured move.\nC – Doubling the depth is aggressive, not conservative.\n\nRemember: Bullish target? Measure the depth in points."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Double the base width of the triangle and add it to the apex"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Extend a line from the first rally's high, parallel to the lower boundary.\n\nWhy: Edwards and Magee used a geometric method for symmetrical triangles. From the top of the first rally that begins the pattern, draw a line parallel to the triangle's lower (rising) boundary. After an upside breakout, price was expected to travel roughly to that parallel line. It is effectively a channel projection.\n\nWhy not the others:\nA – Measuring the widest point and projecting from the breakout is the modern method.\nC – The 3% rule is a breakout filter, not a target method.\nD – Doubling the base width is not a classical measurement.\n\nRemember: Edwards & Magee triangle target = a parallel line from the first rally's high."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "They project the target from the apex instead of the breakout"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. They add the depth at the widest point to the breakout level.\n\nWhy: Modern classical chartists simplify the measurement. They take the triangle's height at its widest part, usually its start, and project that distance from the breakout point. For an upside break the height is added; for a downside break it is subtracted. It is quick, consistent and similar to how other patterns are measured.\n\nWhy not the others:\nA – Triangles are still widely used for targets.\nC – Not every triangle target is measured in percentages; direction matters.\nD – The projection starts at the breakout, not at the apex.\n\nRemember: Modern triangle target = widest height projected from the breakout."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "$62"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Target = $54.\n\nWhy: Depth at the widest point = 48 − 40 = 8. The breakout is upward at $46. Target = breakout + depth = 46 + 8 = 54. The method projects the triangle's full height from where price leaves the pattern.\n\nWhy not the others:\nA – $52 adds only 6, not the full height of 8.\nC – $56 adds the height to the top of the widest part, 48 + 8, rather than to the breakout.\nD – $62 adds twice the height to the breakout, 46 + 16.\n\nRemember: Triangle target = breakout + widest height."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "By adding or subtracting the widest depth from the breakout level"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Add or subtract the widest depth from the breakout level.\n\nWhy: Ascending and descending triangles have one flat boundary and one sloping boundary. Measure the height at the widest part, from the flat line to the first reaction point. Add it to the breakout for an upside break or subtract it for a downside break. Classical chartists often express the downside depth as a percentage to stay conservative.\n\nWhy not the others:\nA – Drawing a parallel line is Edwards and Magee's method for symmetrical triangles.\nB – The 3% rule confirms breakouts; it does not set targets.\nC – Pattern duration is not used to calculate price targets.\n\nRemember: Right-angle triangles: project the widest height from the breakout."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "$52"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Price objective = $48.\n\nWhy: Depth = 75 − 60 = 15. As a percentage of the highest point: 15 ÷ 75 = 20%. Apply that drop to the breakdown level: 60 × (1 − 0.20) = 60 × 0.80 = 48. The point method would give 60 − 15 = 45, so the percentage method produces the more conservative target.\n\nWhy not the others:\nA – $45 subtracts the full 15 points, the point method rather than the percentage method.\nC – $50 does not match either measurement of the pattern.\nD – $52 is too shallow for the 20% depth.\n\nRemember: Percentage depth for a breakdown: height ÷ top, then reduce the breakdown level."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "The trading timeframe should be shortened"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The price move that follows its completion is likely to be larger.\n\nWhy: A large, clearly defined pattern means a lot of buying and selling has taken place over a long period. The more energy that builds up during consolidation, the bigger the eventual move tends to be once the pattern resolves. Small, poorly defined patterns usually produce smaller moves.\n\nWhy not the others:\nA – Size and clarity tend to increase, not reduce, reliability.\nB – Larger, clearer patterns are not more prone to failure.\nD – Pattern size does not require a shorter trading timeframe.\n\nRemember: Bigger, cleaner patterns tend to launch bigger moves."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "5 to 10 times"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 2 to 3 times the initial target.\n\nWhy: A rectangle that is both tight (narrow range) and long (many months or years) shows a long battle between buyers and sellers. When it finally breaks, the move can travel two to three times the basic measured target. The basic target is a minimum guide, and long consolidations often justify a larger extended objective.\n\nWhy not the others:\nA – 1 to 1.5 times understates what long, tight patterns can produce.\nC – 4 to 5 times exceeds the usual guideline.\nD – 5 to 10 times is far beyond the classical rule of thumb.\n\nRemember: Long, tight rectangles can run 2–3× the basic target."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "$36"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Initial price objective = $32.\n\nWhy: Depth = 50 − 40 = 10. As a percentage of the upper boundary: 10 ÷ 50 = 20%. Apply it to the breakdown: 40 × (1 − 0.20) = 40 × 0.80 = 32. The point method would give 40 − 10 = 30, so the percentage method is more conservative.\n\nWhy not the others:\nA – $30 uses the full 10-point depth, the point method.\nC – $34 corresponds to a 15% drop, not 20%.\nD – $36 corresponds to only a 10% drop.\n\nRemember: Rectangle breakdown: depth ÷ top boundary, then cut the lower boundary by that percentage."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "From the breakout point to the flag's low"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. From where price leaves the previous congestion to the peak of the flag or pennant.\n\nWhy: Flags and pennants are small pauses after a sharp move called the flagpole. The flagpole is measured from the point where price broke out of its earlier congestion area to the top of the flag (or bottom, in a bear flag). That distance is then projected from the flag's breakout to set the target.\n\nWhy not the others:\nA – Measuring from the very start of the trend overstates the pole.\nC – The flag's own high-to-low range is small and is not the measurement used.\nD – Breakout to flag low is not how the pole is defined.\n\nRemember: Flag target: measure the pole, then add it to the flag breakout."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "5% daily close"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A 3% daily close beyond the boundary.\n\nWhy: Edwards and Magee wanted a filter to avoid false breakouts. Their rule was that price should close at least 3% beyond the pattern boundary before the breakout is considered confirmed. A close just a few cents past the line could easily reverse, but a 3% move on a closing basis is stronger evidence.\n\nWhy not the others:\nA – 1% is too small a filter in their rule.\nB – 2% is not their stated threshold.\nD – 5% is larger than their rule.\n\nRemember: Edwards & Magee: confirm with a 3% close beyond the line."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "It doesn't work on semi-log charts"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It results in acting too late following a breakout.\n\nWhy: A fixed 3% filter is a large dollar amount for an expensive stock. At $500, 3% is $15; the stock must run $15 past the line before you act. By then much of the initial move may be over and the reward-to-risk is worse. Low-priced or very volatile stocks may need more filter, while high-priced, calm ones may need less.\n\nWhy not the others:\nA – Being too late is the issue; 'too conservative' is vague and not the specific problem named.\nB – A larger filter reduces, not increases, false signals.\nD – The rule is not tied to the chart's scale.\n\nRemember: A fixed 3% filter can make you late on high-priced stocks."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "$265.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A close at or above $257.50.\n\nWhy: The 3% rule requires a close 3% beyond resistance. 3% of $250 = 0.03 × 250 = $7.50. Confirmation level = 250 + 7.50 = $257.50. Any close at or above this confirms the breakout under the rule.\n\nWhy not the others:\nA – $253.00 is only a 1.2% move.\nC – $260.00 is a 4% move, more than required.\nD – $265.00 is a 6% move, double the rule.\n\nRemember: Confirmation = boundary × 1.03 for upside breaks."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Volume-weighted measurements"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Average True Range (ATR) multiples.\n\nWhy: A fixed percentage filter treats every stock the same, but some move far more than others each day. ATR measures an instrument's typical daily range, including gaps. Using a multiple of ATR (for example 0.5× or 1×) as the breakout filter scales the requirement to each market's own volatility.\n\nWhy not the others:\nA – Standard deviation is a volatility measure but is not the suggested breakout filter.\nB – Bollinger Band width measures volatility contraction, not a breakout filter here.\nD – Volume-weighted measures do not directly scale to price volatility.\n\nRemember: Volatility-adjusted breakout filter = a multiple of ATR."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "$84.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A close at or above $82.40.\n\nWhy: An inverse head-and-shoulders is bullish, so confirmation is a close 3% above the neckline. 3% of $80 = 0.03 × 80 = $2.40. Confirmation level = 80 + 2.40 = $82.40. Requiring a close, not just an intraday poke above the line, helps screen out false breakouts that quickly slip back into the pattern.\n\nWhy not the others:\nA – $80.80 is only 1% above the neckline.\nC – $83.00 is 3.75% above, more than required.\nD – $84.00 is 5% above, more than required.\n\nRemember: 3% rule: neckline × 1.03 for a bullish break."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "3.0"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Reward-to-risk ratio = 2.0.\n\nWhy: Reward = target − entry = 60 − 52 = 8. Risk = entry − stop = 52 − 48 = 4. Ratio = 8 ÷ 4 = 2.0. The trade aims to make twice as much as it risks.\n\nWhy not the others:\nA – 0.5 is risk ÷ reward, the ratio upside down.\nB – 1.5 does not match these numbers.\nD – 3.0 would need a reward of 12 or a risk of about 2.67.\n\nRemember: Reward-to-risk = (target − entry) ÷ (entry − stop)."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The ratio cannot be computed without the win rate"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The reward-to-risk ratio is 1.5, so potential profit is 150% of potential loss.\n\nWhy: Reward-to-risk = reward ÷ risk = 6 ÷ 4 = 1.5. That means for every $1 risked, the trade aims to make $1.50, so the potential profit is 150% of the potential loss.\n\nWhy not the others:\nA – 0.67 is risk ÷ reward, the ratio inverted.\nC – 2.5 does not follow from 6 and 4.\nD – The ratio only needs reward and risk; win rate is a separate input for expectancy.\n\nRemember: Divide reward by risk, not the other way round."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "By using leverage to magnify the potential gain"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Enter earlier, use a tighter stop, or both.\n\nWhy: With the target fixed, the ratio is (target − entry) ÷ (entry − stop). Entering at a lower price (for a long) increases the reward; placing the stop closer to the entry reduces the risk. Both raise the ratio. The trade-off is that early entries and tight stops can be hit by false moves more often.\n\nWhy not the others:\nA – Waiting for stronger confirmation means a higher entry, which lowers the ratio.\nC – Position size changes dollar amounts but not the ratio itself.\nD – Leverage magnifies gains and losses equally, leaving the ratio unchanged.\n\nRemember: Better ratio = lower entry or closer stop."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "A momentum indicator"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A volatility indicator showing average price variation over a lookback period.\n\nWhy: ATR averages the True Range over a chosen number of periods, often 14. True Range captures how far price moved in each period, including any gap from the prior close. The average therefore tells you how much an instrument typically moves, which is useful for setting stops and breakout filters.\n\nWhy not the others:\nA – Averaging open and close prices gives a price level, not volatility.\nC – High minus low is a single period's range and ignores gaps; ATR is an average.\nD – ATR measures volatility, not momentum or direction.\n\nRemember: ATR = typical movement, gaps included."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "The high minus the low plus the close minus the open"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The largest of high − low, |high − prior close| and |low − prior close|.\n\nWhy: True Range improves on the simple high − low range by accounting for gaps. If a stock closed at 50 and opens and trades between 54 and 56, high − low is only 2, but the move from the prior close is 56 − 50 = 6. True Range takes the largest of the three measures, here 6, so gaps count as volatility.\n\nWhy not the others:\nA – High − low alone ignores gaps from the prior close.\nB – This describes an average of ranges, closer to ATR, and still ignores gaps.\nD – Adding the open-to-close difference is not part of the definition.\n\nRemember: True Range = the biggest of three distances, so gaps are counted."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Entry $104, stop $96"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Entry $102, stop $98.\n\nWhy: Buffer = 0.5 × ATR = 0.5 × 4 = $2. Buy-stop entry = boundary + buffer = 100 + 2 = $102. Protective stop = boundary − buffer = 100 − 2 = $98. The entry waits for price to clear resistance by a volatility-based margin, and the stop sits the same distance inside the pattern.\n\nWhy not the others:\nA – Entry at $100 uses no buffer, and the stop is a full ATR away.\nC – $103 and $97 use a buffer of 0.75 × ATR.\nD – $104 and $96 use a full 1 × ATR buffer.\n\nRemember: ATR buffer = multiple × ATR, placed on both sides of the boundary."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "3.3"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Reward-to-risk ratio = 2.5.\n\nWhy: Reward = target − entry = 112 − 102 = 10. Risk = entry − stop = 102 − 98 = 4. Ratio = 10 ÷ 4 = 2.5. The trade aims to make $2.50 for every $1 risked.\n\nWhy not the others:\nA – 1.5 does not follow from these numbers.\nB – 2.0 would need a reward of 8 for the same risk.\nD – 3.3 would need a risk of about 3, or comes from mixing the boundary and the entry.\n\nRemember: Always measure reward and risk from the actual entry price."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "It's objective because it eliminates emotion, adaptive because it follows trends"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Objective because it can be applied across asset classes; adaptive because it reflects the instrument's volatility.\n\nWhy: An ATR rule is objective because the same calculation works the same way on stocks, futures, currencies or indexes, with no subjective judgment about the filter size. It is adaptive because ATR changes with each market's own volatility, so a calm market gets a small filter and a wild one gets a larger filter.\n\nWhy not the others:\nB – Many tools use math and change daily; this misses the cross-asset and volatility points.\nC – Approval by any author does not make a rule objective.\nD – ATR does not follow trends, and removing emotion is not what 'adaptive' means here.\n\nRemember: ATR rules: one method for all markets, scaled to each market's volatility."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "The activity of market makers managing inventory"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Pauses or consolidations within uptrends or downtrends.\n\nWhy: Most classical patterns, such as rectangles, triangles and flags, form when a trend stops to rest while buyers and sellers rebalance. The pattern ends when one side wins and price breaks out, either resuming the prior trend (continuation) or reversing it. Seeing patterns as consolidations explains why breakouts from them often lead to strong moves.\n\nWhy not the others:\nB – Patterns reflect real shifts in supply and demand, not random noise.\nC – Patterns are not limited to institutional accumulation; they also form during distribution.\nD – Market-maker inventory is not the meaning of chart patterns.\n\nRemember: Chart patterns are the market catching its breath inside a trend."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Mean reversion (rangebound) and breakout strategies"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Mean reversion (range-bound) and breakout strategies.\n\nWhy: A chart pattern offers two ways to trade. While price stays inside the pattern, a range trader buys near support and sells near resistance, expecting price to revert toward the middle. Once price breaks out, a breakout trader enters in the direction of the break, expecting a trend move toward the measured target.\n\nWhy not the others:\nA – Long-term versus short-term describes holding period, not the two pattern strategies.\nB – Trend-following and contrarian are broad styles, not the specific pattern approaches named.\nC – Momentum and value are factor styles, not chart-pattern strategies.\n\nRemember: Inside the pattern: trade the range. After the break: trade the breakout."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Selling near the top and buying near the bottom until a breakout"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Sell near the top and buy near the bottom until a breakout.\n\nWhy: In a range-bound pattern price keeps bouncing between support and resistance. A mean-reversion trader sells or shorts near resistance and buys near support, expecting each move to reverse back toward the other boundary. The strategy works only while the range holds, so the trader switches approach once a breakout is confirmed.\n\nWhy not the others:\nA – Buying breakouts is a breakout strategy, not mean reversion.\nB – Holding one position through the range ignores the swings inside it.\nC – Waiting for the breakout is the other strategy.\n\nRemember: Range trading: sell resistance, buy support, until the range breaks."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "A sideways range above the average, capped near that swing high"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A sideways range above the average, capped near that swing high.\n\nWhy: After a long decline, the first push back above the 40-week moving average often marks the start of a base rather than an immediate new uptrend. The first swing high tends to become resistance, and price often moves sideways between it and the area near the average. A range trader watches for that range to form so there are clear levels to trade.\n\nWhy not the others:\nA – Expecting an immediate run to new highs ignores the usual basing period after a long decline.\nB – A head-and-shoulders bottom forms before or during the turn, not as the next step above the average.\nC – A retest of the prior low is possible but is not the pattern a range trader is watching for.\n\nRemember: First swing high after a decline often caps a new base."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Buy at market and place a stop above the high"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Sell or short near resistance, expecting a move back toward support.\n\nWhy: A bearish engulfing candle, a large black body that fully covers the previous white body, shows sellers overwhelming buyers. Appearing right at the upper boundary of an established range, it signals that resistance is holding. A range trader takes that as the cue to sell or short, targeting the lower boundary.\n\nWhy not the others:\nA – Buying here would bet against the bearish signal at resistance.\nB – Waiting for a doji ignores a clear reversal signal already in place.\nD – Buying at market is the opposite of what the bearish signal suggests.\n\nRemember: Bearish engulfing at resistance = sell signal for range traders."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Three consecutive down candles closing near their lows"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A two-candle outside reversal where a black body covers the prior white body.\n\nWhy: A bearish engulfing pattern has two candles. The first is a white (up) candle. The second is a black (down) candle that opens at or above the first one's close and closes below its open, so its body completely 'engulfs' the first. It shows buyers in control at first, then sellers taking over decisively.\n\nWhy not the others:\nA – A small candle followed by a downside gap is a different pattern.\nB – A single candle with a long upper shadow and small body is a shooting star.\nD – Three consecutive black candles describes three black crows.\n\nRemember: Bearish engulfing: a black body swallows the prior white body."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Cover the short and consider going long toward the upper boundary"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Cover the short and consider going long toward the upper boundary.\n\nWhy: A bullish engulfing candle, a white body completely covering the prior black body, shows buyers taking over. At the lower boundary of a range, it confirms support is holding. A range trader therefore closes the short taken near resistance and may buy, aiming for a move back to the top of the range.\n\nWhy not the others:\nA – Adding to the short ignores a bullish signal at support.\nB – No breakout has occurred, so the range strategy still applies.\nC – A bullish engulfing at support shows support holding, not failing.\n\nRemember: Bullish engulfing at support = cover shorts, consider longs."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Because moving averages flatten exactly at the boundaries"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Repeated reactions confirm where supply and demand are concentrated.\n\nWhy: One bounce off a level could be chance. When price reverses at the same upper and lower boundaries at least twice each, it shows that sellers reliably appear near the top and buyers near the bottom. That repetition defines the range clearly, making entries, stops and targets easier to place.\n\nWhy not the others:\nA – Volume does not have to decline for a range to be valid.\nC – Every range eventually breaks; repeated tests do not prevent that.\nD – Moving averages do not need to flatten at the boundaries.\n\nRemember: Two tests of each side confirm the range."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Dragonfly doji; demand is strong"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A shooting star; resistance may hold.\n\nWhy: A shooting star has a small body near the low of the candle and a long upper shadow. Buyers pushed price up during the session, but sellers drove it back down before the close. At range resistance, this rejection suggests sellers are defending the level and price may turn lower.\n\nWhy not the others:\nA – A hammer has a long lower shadow and appears after declines, not at resistance.\nB – A bullish harami is a two-candle pattern with a small body inside a larger prior one.\nD – A dragonfly doji has a long lower shadow and almost no body.\n\nRemember: Long upper shadow at resistance = shooting star, sellers rejecting higher prices."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "A higher high or a lower low on the next swing"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A breakout, or a pullback toward support.\n\nWhy: When price nears resistance in a range, one of two things happens. Either buyers overwhelm the sellers and price breaks out, or sellers hold the line and price falls back toward support. Traders watch for clues, such as candle signals and volume, to judge which outcome is developing and act accordingly.\n\nWhy not the others:\nA – Opening gaps can occur but are not the two key scenarios.\nC – Volume is a clue to watch, not one of the outcomes.\nD – Higher highs or lower lows describe swing structure, not the specific resistance test.\n\nRemember: At resistance: it either breaks out or turns back."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "A bearish reversal pattern has been confirmed"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Demand is strengthening, with the average acting as support.\n\nWhy: In a rectangle, pullbacks normally reach the lower boundary. When one stops early, at a rising 40-week moving average, buyers are stepping in at a higher price than before. That shows growing demand, and the rising average is acting as support, a hint that the eventual breakout may be to the upside.\n\nWhy not the others:\nA – The pullback held above the lower boundary, so the range has not failed.\nB – A rising long-term average is a useful reference even inside a rectangle.\nD – A higher low at support is a bullish, not bearish, sign.\n\nRemember: Shallower pullbacks to a rising average = buyers getting stronger."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Impatient buyers absorbing supply, favoring an upside break"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Impatient buyers absorbing supply, favoring an upside break.\n\nWhy: Each test of resistance uses up some of the sellers waiting there. When price returns to resistance more often and pullbacks become shallower, buyers are getting more eager and are not letting price fall far. Eventually the supply at resistance is absorbed and price breaks out to the upside.\n\nWhy not the others:\nA – More frequent tests with shallow dips show stronger, not weaker, demand.\nB – Rising lows point toward an upside, not downside, break.\nC – Sellers losing ground is what shallow pullbacks reveal.\n\nRemember: Frequent tests plus shallow dips = supply being absorbed."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "Neutral, no classification possible"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Bullish continuation.\n\nWhy: A pattern's classification depends on the prior trend and the breakout direction. The rectangle formed during an uptrend and broke out to the upside, so the trend resumed. That makes it a continuation pattern, and because the direction is up, a bullish continuation.\n\nWhy not the others:\nA – A reversal would require a break against the prior trend, which did not happen.\nC – A bearish continuation would need a prior downtrend and a downside break.\nD – With a known trend and breakout, the pattern can be classified.\n\nRemember: Uptrend in, upside break out = bullish continuation."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "A breakout on a gap that is filled the next day"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A long, tight consolidation.\n\nWhy: The longer and tighter a rectangle, the more buying and selling pressure builds up inside it. When it finally resolves, that stored energy tends to produce a bigger move, often two to three times the basic measured target. Short, loose patterns store less energy and tend to produce smaller moves.\n\nWhy not the others:\nB – Short, loose patterns tend to produce smaller moves.\nC – Falling volume after the breakout suggests weak follow-through.\nD – A gap that is quickly filled suggests the breakout lacks strength.\n\nRemember: Long and tight = bigger potential move."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "4,000 to 5,000"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Extended objective of 2,500 to 3,000.\n\nWhy: Pattern height = 1,500 − 1,000 = 500. Basic target = 1,500 + 500 = 2,000. Extended targets use two to three times the height: 1,500 + 2 × 500 = 2,500 and 1,500 + 3 × 500 = 3,000. So a reasonable extended range is 2,500 to 3,000.\n\nWhy not the others:\nB – 2,000 is the basic target only, not the extended one.\nC – 1,750 to 2,000 is below or equal to the basic target.\nD – 4,000 to 5,000 uses five to seven times the height, far beyond the guideline.\n\nRemember: Extended target = breakout + 2 to 3 × pattern height."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "Fast, steady, and steep price movements"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Fast, steady and steep price movements.\n\nWhy: Flags and pennants need a flagpole: a sharp, almost vertical move on strong momentum. After such a move, price pauses briefly in a small flag or pennant before continuing. Without that steep run, a sideways pause is just an ordinary consolidation, not a flag.\n\nWhy not the others:\nA – Slow, gradual moves do not form the flagpole.\nB – Sideways, choppy action is the opposite of the required sharp move.\nC – Gaps can appear, but filled gaps are not the defining feature.\n\nRemember: No steep flagpole, no flag."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "Descending triangle"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A bull flag.\n\nWhy: The gap and sharp rally form a strong flagpole and end the downtrend. The narrow, slightly downward-sloping channel that follows, on lighter volume, is a short pause where profit-taking is mild. That is the classic bull flag, which usually breaks out upward and continues the new advance.\n\nWhy not the others:\nA – A bear flag follows a sharp decline and slopes upward.\nB – A head-and-shoulders top is a larger reversal pattern with three peaks.\nD – A descending triangle has a flat lower boundary and falling highs, not a narrow channel after a sharp rally.\n\nRemember: Sharp rally then a gentle downward drift on light volume = bull flag."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "$57"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Minimum objective = $51.\n\nWhy: Flagpole = peak of flag − point where price left congestion = 46 − 40 = 6. Project that distance from the flag breakout: 45 + 6 = 51. The flag acts as a half-way pause, so the move after the break is expected to roughly equal the pole.\n\nWhy not the others:\nA – $49 adds only 4, not the full pole of 6.\nC – $52 adds the pole to the flag peak (46 + 6) rather than to the breakout.\nD – $57 adds roughly twice the pole.\n\nRemember: Flag target = breakout + pole length."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "A mathematical system of precise calculations"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A craft in which practitioners use the tools they trust.\n\nWhy: Classical charting combines rules with judgment. There are guidelines for measuring targets and confirming breakouts, but recognizing patterns and deciding how to act on them depends on experience. Like any craft, practitioners refine methods over time and rely on the tools that have worked for them.\n\nWhy not the others:\nB – Pattern work involves judgment and is not governed by exact, testable laws.\nC – It has clear structure and methods, so it is not formless art.\nD – Calculations are used, but charting is not a precise mathematical system.\n\nRemember: Charting is a craft: guidelines plus experienced judgment."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "When the moving average flattens"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. After a confirmed breakout takes place.\n\nWhy: Range trading assumes the boundaries hold. Once price breaks out and the break is confirmed, for example with a 3% close or an ATR filter, that assumption no longer holds. The trader then switches to a breakout strategy, trading in the direction of the break toward the measured target.\n\nWhy not the others:\nB – One test of resistance does not end the range; ranges often test boundaries several times.\nC – Rising volume is a clue, but without a confirmed break the range is intact.\nD – A flattening average does not mark a breakout.\n\nRemember: Switch strategies only when the breakout is confirmed."
   }
 ]

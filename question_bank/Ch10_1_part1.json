@@ -9,7 +9,8 @@
       "They are valid only on daily data, not on weekly or monthly charts"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A raw ratio's size depends on the two price levels, so values have no shared meaning.\n\nWhy: A raw relative strength ratio is just security price ÷ benchmark price. Its level depends on the units involved. A 40 stock against a 2,000 index gives 0.02, while a 400 stock against the same index gives 0.20. Neither number says the second stock is stronger; only the direction of each line over time matters. That is why ratios cannot be ranked against each other, and why normalised measures such as the JdK RS-Ratio were developed.\n\nWhy not the others:\nB – Volatility can make ratios noisy, but noise is not why their levels cannot be compared.\nC – Dividend adjustment may refine a ratio, but it does not solve the scale problem.\nD – Raw ratios work on any time frame; frequency is not the issue.\n\nRemember: A raw RS line has meaning in its slope, not its level."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "The ratio has been calculated incorrectly"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The benchmark must be rising faster than the stock.\n\nWhy: The relative strength line is stock price ÷ benchmark price. It falls whenever the benchmark gains more in percentage terms than the stock, even if the stock is rising. A stock making higher highs and higher lows is in an absolute uptrend, so the falling RS line can only mean the benchmark is climbing more quickly. The stock is going up but underperforming.\n\nWhy not the others:\nA – A falling RS line means underperformance, not outperformance.\nB – If the benchmark were falling while the stock rose, the ratio would rise.\nD – A rising stock with a falling ratio is common and fully consistent.\n\nRemember: Absolute trend and relative trend are separate; a rising stock can still be a relative laggard."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Price trend down, relative trend up; the market fell faster"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The price trend is up, the relative trend is down: the market rose faster.\n\nWhy: There are two separate questions: is the index rising in price (absolute trend), and is it beating the broad market (relative trend)? Index ABC is rising, so its absolute trend is up. Its RS line against the market is falling, so the market gained more in percentage terms. Both statements are true at once.\n\nWhy not the others:\nB – The relative trend is down, not up, because the RS line is declining.\nC – The price trend is up, since the index rose steadily.\nD – This describes a falling index that falls less than the market, the reverse of the facts.\n\nRemember: Always state two trends: the price trend and the relative trend."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "200"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A JdK RS-Ratio reading of 100 means relative performance is in line with the benchmark.\n\nWhy: The JdK RS-Ratio normalises relative strength so every security is measured on the same scale around 100. Above 100 means the security is in a relative uptrend (outperforming); below 100 means it is in a relative downtrend (underperforming). 100 itself is the neutral line, where the security is keeping pace with the benchmark.\n\nWhy not the others:\nA – 0 is not the centre of the scale; the measure is built around 100.\nB – 50 is the midpoint of bounded oscillators such as RSI, not the RS-Ratio.\nD – 200 has no special meaning on this scale.\n\nRemember: On the RS-Ratio (and RS-Momentum) scale, 100 is the benchmark."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "DEF is outperforming its benchmark"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A reading of 115 means DEF is outperforming its benchmark.\n\nWhy: The JdK RS-Ratio is centred on 100, the benchmark. Any reading above 100 shows a relative uptrend, and the further above 100, the stronger the relative trend. A reading of 115 is well above neutral, so DEF is clearly outperforming. Note that the number is a normalised score, not a literal percentage of extra return.\n\nWhy not the others:\nA – Above 100 means leading, not lagging, and the reading is not a percentage gap.\nB – Neutral would be a reading near 100.\nC – The RS-Ratio measures relative trend, not volatility.\n\nRemember: Above 100 = outperforming; below 100 = underperforming."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "To forecast absolute price targets for every security in a portfolio"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To assess a whole universe at once, without thousands of separate comparisons.\n\nWhy: With traditional RS lines, you compare one security with its benchmark on one chart. To understand a universe of, say, 500 stocks, you would need 500 charts, and comparing them with each other would require a huge number of pairs. Relative Rotation Graphs (RRGs) solve this by putting every security on one chart using two normalised measures, so the analyst can see at a glance who is leading, lagging and turning.\n\nWhy not the others:\nA – RRGs complement chart analysis; they do not replace it.\nB – RRGs are not a version of RSI, which measures a single security's own momentum.\nD – RRGs show relative trends, not absolute price targets.\n\nRemember: RRGs exist to show a whole universe's relative strength on a single picture."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Neither, because both ratios are far from 1.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Stock B, because its relative strength line has turned up through its average.\n\nWhy: Raw ratio levels depend on each stock's price and the benchmark's level, so 2.10 versus 0.45 says nothing about which is stronger. What matters is the direction of each RS line. Stock A's line has just fallen below its 30-week moving average, a sign the relative trend is turning down. Stock B's has risen above its average, a sign of a new relative uptrend. A manager looking for relative leaders should prefer B.\n\nWhy not the others:\nA – A higher raw ratio is not a sign of strength; levels cannot be compared across stocks.\nC – Ratio levels say nothing about valuation or cheapness.\nD – Distance from 1.00 is meaningless for raw ratios, since their levels depend on price units.\n\nRemember: Judge raw RS lines by direction and crossovers, never by their level."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "JdK RS-Ratio and JdK RS-Momentum"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The two building blocks are the JdK RS-Ratio and the JdK RS-Momentum.\n\nWhy: An RRG is a scatter plot with two axes. The JdK RS-Ratio (horizontal axis) measures the trend in relative strength, normalised around 100. The JdK RS-Momentum (vertical axis) measures the rate of change of that RS-Ratio, also normalised around 100. Together they place each security in one of four quadrants: Leading, Weakening, Lagging or Improving.\n\nWhy not the others:\nA – Moving averages and volume are not the inputs to RRG coordinates.\nB – Price momentum and relative volume are not the RRG axes; both axes are relative to a benchmark.\nC – Absolute strength and volatility are not part of the RRG calculation.\n\nRemember: RRG = RS-Ratio (trend) on the x-axis and RS-Momentum (its rate of change) on the y-axis."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "The security is underperforming the benchmark"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Below 100 means the security is underperforming its benchmark.\n\nWhy: The JdK RS-Ratio is scaled so that 100 equals the benchmark. A reading below 100 places the security in a relative downtrend: it is doing worse than the benchmark. It does not say whether the security's own price is rising or falling.\n\nWhy not the others:\nA – Outperforming would be shown by a reading above 100.\nB – Moving in line with the benchmark is shown by readings around 100.\nC – The RS-Ratio is relative; a security can underperform while its own price rises.\n\nRemember: Below 100 on the RS-Ratio means a relative laggard, whatever its absolute price does."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "An overbought warning that a relative decline is due"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Readings well above 100 show strong relative performance.\n\nWhy: The RS-Ratio scale is centred on 100. The further a reading sits above 100, the stronger the relative uptrend. Readings of 104–106 are well above neutral, showing the security is clearly beating its benchmark. Unlike a bounded oscillator, a high reading is not automatically a warning sign.\n\nWhy not the others:\nB – Weakness is shown by readings below 100.\nC – The level does carry meaning: distance from 100 shows the strength of the relative trend.\nD – The RS-Ratio is not an overbought/oversold oscillator; high values show strength.\n\nRemember: Further above 100 = stronger relative uptrend."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "It must first be adjusted for inflation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The same reading can occur whether the line is rising or falling.\n\nWhy: A level of, say, 103 tells you the security is outperforming, but not whether that outperformance is growing or fading. A security rising toward 103 is gaining strength; one falling back toward 103 from 108 is losing it. Those situations call for different actions, so you also need the direction and speed of change, which is what RS-Momentum provides.\n\nWhy not the others:\nA – Volume is not part of the reason; the issue is missing direction.\nC – The RS-Ratio can be calculated for any security with a benchmark, not just equities.\nD – Inflation adjustment does not address the missing direction.\n\nRemember: A level without a direction is half the story; pair RS-Ratio with RS-Momentum."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "It gauges the volatility of the raw relative strength line"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. RS-Momentum measures the direction and speed of change in the RS-Ratio.\n\nWhy: RS-Momentum is the momentum of the RS-Ratio itself. If the RS-Ratio is rising, RS-Momentum is above 100; if it is falling, RS-Momentum is below 100. The further from 100, the faster the change. It turns the question \"is the relative trend improving or deteriorating?\" into a number on the same scale.\n\nWhy not the others:\nA – RS-Momentum works alongside RS-Ratio; both are needed for an RRG.\nC – It measures the change in relative strength, not the security's own price momentum.\nD – It does not measure volatility.\n\nRemember: RS-Momentum = the speedometer for the RS-Ratio."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Standard deviation calculation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. RS-Momentum is based on a rate-of-change approach.\n\nWhy: Rate of change (ROC) compares a current value with an earlier value to measure how fast something is moving. RS-Momentum applies that idea to the RS-Ratio and then normalises the result around 100. So positive change in the RS-Ratio pushes RS-Momentum above 100, and negative change pushes it below.\n\nWhy not the others:\nA – A moving average crossover is a signal method, not how RS-Momentum is calculated.\nC – Smoothing may be used along the way, but the core idea is rate of change.\nD – Standard deviation measures dispersion, not momentum.\n\nRemember: RS-Momentum is a rate of change of the RS-Ratio, scaled around 100."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "They tend to move in opposite directions to each other"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. RS-Momentum tends to lead RS-Ratio, warning of a coming turn.\n\nWhy: Momentum measures speed. Before a rising line tops, it first slows down, so its momentum starts falling while the line itself is still rising. Likewise, a falling RS-Ratio slows before it bottoms, so RS-Momentum turns up first. That is why RS-Momentum acts as an early warning of turns in the RS-Ratio.\n\nWhy not the others:\nA – They do not turn together; momentum turns first.\nB – This reverses the order: the ratio lags momentum.\nD – They are related, not opposite; one is the rate of change of the other.\n\nRemember: Momentum turns first, the ratio follows."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "It crosses below 100 at the same moment"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The RS-Ratio is usually topping out and starting to decline.\n\nWhy: RS-Momentum above 100 means the RS-Ratio is rising; below 100 means it is falling. So when RS-Momentum drops through 100, the RS-Ratio has stopped rising. It is at a peak and beginning to decline. On an RRG this often shows as a move from Leading into Weakening.\n\nWhy not the others:\nB – A bottom in the RS-Ratio matches RS-Momentum rising through 100, not falling.\nC – Accelerating gains would push RS-Momentum higher, not below 100.\nD – The RS-Ratio usually stays above 100 for a while after momentum turns down.\n\nRemember: Momentum crossing down through 100 = the RS-Ratio is peaking."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "It is rising at an accelerating pace"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The RS-Ratio is usually bottoming and beginning to turn up.\n\nWhy: When RS-Momentum crosses above 100, the RS-Ratio has switched from falling to rising, meaning it has just made a low. The ratio itself may still be below 100 (underperforming), but the relative trend is starting to improve. On an RRG this is the move from Lagging into Improving.\n\nWhy not the others:\nA – A topping RS-Ratio matches RS-Momentum falling through 100.\nB – The RS-Ratio typically crosses 100 later, because momentum leads.\nD – Acceleration in an established rise would show as momentum well above 100, not just crossing it.\n\nRemember: Momentum crossing up through 100 = the RS-Ratio is bottoming."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "The traditional RSI indicator"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The JdK RS-Ratio is the core measure of relative strength.\n\nWhy: The RS-Ratio tells you whether a security is actually in a relative uptrend or downtrend versus the benchmark. RS-Momentum adds information about direction and speed, but it describes changes in the RS-Ratio, so the RS-Ratio is the primary measure. A security with strong momentum but a low RS-Ratio is still underperforming.\n\nWhy not the others:\nB – The raw RS line is the input, but it cannot be compared across securities.\nC – RS-Momentum is secondary; it measures how the RS-Ratio is changing.\nD – RSI measures a security's own momentum and is not part of the RRG framework.\n\nRemember: RS-Ratio is the main gauge of relative trend; RS-Momentum is the supporting gauge."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Sector B"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Sector B (102, 101) is outperforming and still gaining relative momentum.\n\nWhy: You need both readings above 100: RS-Ratio above 100 means outperforming, RS-Momentum above 100 means that outperformance is still growing. Check each: A (103, 97) has momentum below 100; B (102, 101) has both above 100; C (98, 104) has ratio below 100; D (101, 96) has momentum below 100. Only B qualifies, placing it in the Leading quadrant.\n\nWhy not the others:\nA – Sector A outperforms, but momentum of 97 means it is losing relative strength (Weakening).\nB – Sector C has rising momentum but a ratio of 98, so it still underperforms (Improving).\nC – Sector D outperforms, but momentum of 96 shows it is fading (Weakening).\n\nRemember: Leading = both RS-Ratio and RS-Momentum above 100."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "A bar chart"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. An RRG is based on a modified scatter plot.\n\nWhy: In a scatter plot, each item is placed by two values, one on each axis. An RRG places each security by its RS-Ratio (x-axis) and RS-Momentum (y-axis). It is \"modified\" because it adds a tail of recent positions and divides the chart into four quadrants around the 100/100 centre.\n\nWhy not the others:\nA – Candlestick charts show price over time for one security, not many securities by two measures.\nB – Line charts plot a single value over time.\nD – Bar charts also show price over time, not a two-measure snapshot.\n\nRemember: An RRG is a scatter plot of RS-Ratio against RS-Momentum, with tails."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "The underlying relative trend, by smoothing out noise"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A 30-week moving average helps identify the underlying relative trend by smoothing noise.\n\nWhy: Raw RS lines can be choppy. Adding a 30-week simple moving average gives a smoother reference. When the RS line is above a rising average, the relative trend is up; when it is below a falling average, the relative trend is down. Crossovers suggest the trend may be changing.\n\nWhy not the others:\nA – A long, slow average is not designed to find short-term extremes.\nB – A moving average gives trend context, not precise entry and exit prices.\nC – The RS-Ratio's 100 level is a separate measure, not shown by an average on the raw line.\n\nRemember: Use a long moving average on the RS line to see the relative trend."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "The security's volatility relative to the benchmark"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A relative strength strategy must account for the trend of the benchmark as well as the security.\n\nWhy: Relative strength only tells you how a security compares with its benchmark. If the benchmark is falling sharply, a security that falls less will show rising relative strength, but buying it still loses money. So investors must also know whether the benchmark itself is rising or falling to judge whether outperformance means a gain or just a smaller loss.\n\nWhy not the others:\nB – The RS line alone ignores whether the overall market is going up or down.\nC – Absolute trend alone ignores the relative comparison that is the point of the method.\nD – Relative volatility is not the main missing piece; the benchmark's trend is.\n\nRemember: Relative strength is a comparison; always check where the benchmark itself is heading."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "They are divided by each security's beta"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. RS-Momentum readings are normalised around 100, like the RS-Ratio.\n\nWhy: Raw momentum values differ in size from one security to another, just as raw ratios do. Normalising them around 100 puts every security on the same scale, so a reading of 102 means the same thing for any security. That is what allows both measures to be plotted on one RRG.\n\nWhy not the others:\nA – Converting to percentage returns measures absolute performance, not the change in relative strength.\nC – A log scale changes display, not comparability between securities.\nD – Dividing by beta is a risk adjustment, not how RS-Momentum is normalised.\n\nRemember: Both RRG axes are normalised around 100, so every security shares one scale."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Both readings show the security underperforming"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The level alone is not enough; the RS-Ratio's direction matters.\n\nWhy: In March, XYZ reads 104 and rising, so it is outperforming and gaining strength (Leading). In May, it reads 104 and falling, so it is still outperforming but losing strength (Weakening). The same number carries different meanings depending on direction, which is why RS-Momentum is paired with the RS-Ratio.\n\nWhy not the others:\nA – The readings match in level but differ in direction, so their meaning differs.\nC – A reading of 104 is not a fixed sell signal; it shows outperformance.\nD – 104 is above 100, which means outperforming, not underperforming.\n\nRemember: Same level, different direction, different message."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "It forecasts the future price of each security"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. An RRG shows an entire universe on one chart instead of many.\n\nWhy: Without RRGs, studying 100 securities means 100 RS charts plus mental comparisons. An RRG places every security on one scatter plot using normalised RS-Ratio and RS-Momentum, so leaders, laggards and turning points are visible at once. It is a way to see relative trends across a whole group.\n\nWhy not the others:\nB – Individual charts are still useful for detail and confirmation.\nC – RRGs rank relative trends, not absolute returns.\nD – RRGs describe current relative trends; they do not forecast prices.\n\nRemember: One RRG replaces a stack of separate RS charts."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "The benchmark itself must be in an absolute downtrend"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The security is still outperforming but losing relative strength.\n\nWhy: An RS-Ratio above 100 means the security is beating its benchmark. A declining RS-Ratio means that lead is shrinking, so RS-Momentum would be below 100. This combination puts it in the Weakening quadrant: still ahead, but fading.\n\nWhy not the others:\nA – Underperforming would require an RS-Ratio below 100.\nC – A relative measure cannot tell you the absolute price trend.\nD – A falling RS-Ratio can happen whether the benchmark is rising or falling.\n\nRemember: Above 100 but falling = Weakening: still leading, losing ground."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Unchanged, because the ratio of the two prices is the same"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The RS line ends unchanged, because both rose by the same percentage.\n\nWhy: The RS line is LMN price ÷ index level. If both rise 12%, both parts of the fraction are multiplied by 1.12, which cancels out. For example, 50 ÷ 2,000 = 0.025, and 56 ÷ 2,240 = 0.025. Equal percentage moves leave the ratio unchanged, no matter how many points each one gained.\n\nWhy not the others:\nA – The ratio only rises when the stock beats the index in percentage terms.\nB – Point gains do not matter for a ratio; only percentage changes do.\nC – 24% has no basis; the two 12% changes cancel.\n\nRemember: Ratios move on percentage differences, not point differences."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "It measures each security's beta to the benchmark"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It puts every security on one normalised scale, so no pairwise comparisons are needed.\n\nWhy: Because the RS-Ratio is centred on 100 for every security, readings can be sorted directly: 106 is stronger than 102 in relative terms, regardless of price. This avoids comparing every pair of securities and gives a quick list of leaders and laggards.\n\nWhy not the others:\nA – The RS-Ratio ranks relative trends, not future absolute gains.\nC – It has nothing to do with intrinsic value.\nD – It does not measure beta, which is sensitivity to the market.\n\nRemember: A normalised RS-Ratio lets you rank a universe in one list."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "It rises from 0.0200 to 0.0220"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The RS line rises from 0.0200 to about 0.0210, showing outperformance.\n\nWhy: Compute the ratio at each point. Start: 40 ÷ 2,000 = 0.0200. End: 44 ÷ 2,100 = 0.02095, about 0.0210. The stock rose (44 − 40) ÷ 40 = 10%, while the index rose (2,100 − 2,000) ÷ 2,000 = 5%. Because the stock gained more in percentage terms, the ratio rises.\n\nWhy not the others:\nA – Point gains do not matter; percentage gains do, and the stock's is larger.\nB – The ratio stays flat only if both rise by the same percentage.\nD – 0.0220 would be 44 ÷ 2,000, which ignores the index's gain.\n\nRemember: To read an RS line, compare percentage changes: 10% beats 5%, so the ratio rises."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "A flat line, because both are falling"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The RS line rises, signalling relative outperformance.\n\nWhy: If the security falls 5% and the benchmark falls 10%, the ratio (security ÷ benchmark) goes up, because the bottom of the fraction shrinks more than the top. So the RS line rises even though the security is losing money. This is relative outperformance during a decline, which is why the benchmark's own trend must also be checked.\n\nWhy not the others:\nA – A declining RS line would require the security to fall faster than the benchmark.\nB – The absolute trend is down, but the relative trend is up.\nD – The line is flat only if both fall by the same percentage.\n\nRemember: Falling less than the market still lifts the RS line."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "It is normalized, so every security can be ranked on one scale"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The RS-Ratio is normalised, so every security can be ranked on one scale.\n\nWhy: Raw ratios depend on price levels, so they cannot be compared across securities. The JdK RS-Ratio converts each security's relative trend to a scale centred on 100. That shared scale lets analysts rank a whole universe and plot it on one RRG.\n\nWhy not the others:\nA – The RS-Ratio is more complex to calculate than a raw ratio.\nB – A benchmark is still required; everything is measured against it.\nC – The RS-Ratio is a trend measure; RS-Momentum is the faster, leading one.\n\nRemember: Normalisation is the RS-Ratio's key benefit: one scale for everything."
   }
 ]

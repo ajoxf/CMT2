@@ -9,7 +9,8 @@
       "The divergence pattern and the overbought/oversold levels"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Whether the MACD line is above or below zero, and whether it is rising or falling.\n\nWhy: MACD is the difference between a fast and a slow exponential moving average of price. Its position relative to zero tells you the trend: above zero means the fast average is above the slow one, so the trend is up; below zero means it is down. Its direction tells you momentum: rising means the trend is gaining strength, falling means it is losing strength. Together, those two facts give a quick picture of both trend and momentum.\n\nWhy not the others:\nB – The gap between lines and the number of crossovers are details, not the two core judgments.\nC – The histogram and signal-line slope are useful, but they come after the zero-line position and direction.\nD – Divergences and extremes add evidence, but they are not the two basic determinations.\n\nRemember: For MACD, first ask: above or below zero, and rising or falling?"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "When the MACD reaches historical extremes"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When the MACD is above zero and rising.\n\nWhy: MACD above zero means the faster average is above the slower one, so the trend is up. MACD rising means the gap is widening, so upward momentum is strengthening. When both are true, trend and momentum agree in the bullish direction. That is the most favorable environment for being long, because you are trading with a strong, improving trend.\n\nWhy not the others:\nB – Below zero and rising shows improving momentum, but the trend is still down.\nC – A signal-line crossover is a trigger, not a description of the most favorable condition.\nD – Extremes can mean the move is stretched and due to pause.\n\nRemember: Best conditions: MACD above zero and rising."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "MACD crosses above its signal line, preferably while far above zero"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. MACD crosses above its signal line, preferably while MACD is below zero.\n\nWhy: The signal line is a moving average of MACD itself. A basic buy signal occurs when MACD crosses above that signal line, showing momentum has turned up. The signal tends to work better when MACD is below zero at the time. That means the market has been weak and somewhat oversold, so there is more room for a recovery. Buying when MACD is already far above zero often means buying late in a move.\n\nWhy not the others:\nA – A histogram turning positive is the same as a signal-line cross, but the preferred location is below zero, not above.\nB – A zero-line cross is a slower, trend-confirming event, and a negative divergence is bearish.\nD – Buying when MACD is far above zero often means buying when the move is stretched.\n\nRemember: Best MACD buys: crossing above the signal line from below zero."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "When they occur during high volatility periods"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When they follow a positive or negative divergence.\n\nWhy: A divergence happens when price and MACD disagree. For example, price makes a lower low but MACD makes a higher low (positive divergence), showing selling pressure is fading. When a basic MACD buy or sell signal comes right after a divergence, two pieces of evidence point the same way. The divergence shows the trend is weakening, and the crossover shows momentum has actually turned. That combination raises confidence in the signal.\n\nWhy not the others:\nB – Volume can help, but divergence confirmation is the specific factor described.\nC – Historical extremes alone do not confirm a crossover signal.\nD – High volatility can actually cause more whipsaws.\n\nRemember: A MACD signal right after a divergence is a higher-confidence signal."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Act only on signals that agree with the slope of a price MA"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Act only on signals that agree with the slope of a price MA.\n\nWhy: A whipsaw is a signal that quickly reverses and causes a small loss. One simple filter is to look at the slope of a moving average of price. If that average is rising, take only MACD buy signals; if it is falling, take only sell signals. This keeps you trading in the direction of the main trend and screens out many counter-trend signals that tend to fail.\n\nWhy not the others:\nA – Lengthening the settings slows signals but adds lag and does not align them with the trend.\nB – Waiting for the histogram adds little, since it confirms the same crossover.\nC – Volume filters may help, but they are not the trend-alignment method described.\n\nRemember: Filter MACD signals with the slope of a price moving average."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "When the MACD makes a new low"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. When the MACD makes a new low.\n\nWhy: A stop signal protects you when a trade fails. After buying on a MACD signal, the trade is working as long as MACD holds above the low it made before the buy. If MACD drops to a new low below that point, momentum has broken down further rather than recovering. That shows the buy signal has failed, and the position should be closed to limit the loss.\n\nWhy not the others:\nA – A cross below the signal line is a normal sell signal, not the protective stop.\nB – A zero-line cross is a slower trend signal, not the stop rule described.\nC – A price moving-average break is a different method, not the MACD-based stop.\n\nRemember: If MACD falls to a new low after a buy, the buy has failed: get out."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "A slower MACD is more reliable, so it is used for whichever signal is riskier"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Markets tend to fall faster than they rise, so a faster MACD is used for buy signals.\n\nWhy: Declines are often sharp and end in quick, V-shaped bottoms, while advances tend to be slower and tops form more gradually. A faster MACD reacts quickly, which is useful for catching sharp bottoms, so it is used for buy signals. A slower MACD is less sensitive, which helps you stay in a gradually rising market and avoid selling too early at a drawn-out top. So each speed is matched to the type of turn it needs to catch.\n\nWhy not the others:\nA – This reverses both the observation and the assignment of speeds.\nB – The choice is based on how markets turn, not on how many trades each side has.\nD – The slower MACD is used for sells to avoid early exits, not because one side is riskier.\n\nRemember: Fast MACD for buys (sharp bottoms), slow MACD for sells (gradual tops)."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "19, 39, 9 for buy signals and 13, 26, 9 for sell signals"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 13, 26, 9 for buy signals and 19, 39, 9 for sell signals.\n\nWhy: The three numbers in a MACD setting are the fast average, the slow average and the signal line. For buy signals, the faster combination 13, 26, 9 reacts quickly to sharp market bottoms. For sell signals, the slower combination 19, 39, 9 reacts more gradually, which helps you stay in during slow, rounding tops. Both use a 9-period signal line.\n\nWhy not the others:\nA – These numbers are not the settings for this system.\nB – Using the standard 12, 26, 9 for both sides would defeat the idea of different speeds.\nD – This reverses the settings, using the slow MACD for buys and the fast one for sells.\n\nRemember: Buys 13-26-9 (fast); sells 19-39-9 (slow)."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Until the faster MACD makes a new low below zero"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Until the slower MACD rises above zero, then falls below its signal line.\n\nWhy: In this system, the faster MACD gets you in and the slower MACD gets you out. The slower MACD should first rise above zero, confirming that an uptrend is in place. After that, the sell signal comes when the slower MACD crosses below its signal line. This lets you ride the advance and exit only when the slower, less sensitive indicator shows that upward momentum is truly fading.\n\nWhy not the others:\nA – Using the faster MACD for exits would get you out too early, which is what the system avoids.\nC – Waiting for a zero-line cross gives up too much profit.\nD – A new low in the fast MACD below zero is not the exit rule described.\n\nRemember: Enter on the fast MACD; exit when the slow MACD, after rising above zero, crosses below its signal line."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "The first sell signal after a very successful buy can often be ignored"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The first sell signal after a very successful buy can often be ignored.\n\nWhy: In a strong uptrend with no negative divergence, momentum is powerful and the trend often keeps going. The first sell signal in such a trend is frequently just a brief pause. Ignoring that first signal can keep you in the trade for more of the move. A negative divergence would be different, because it shows momentum is actually weakening.\n\nWhy not the others:\nA – Exiting on the first sell signal often means leaving a strong trend too early.\nB – Adding to the position on a sell signal is not the guidance; the point is simply not to exit.\nC – Tightening stops at every signal works against riding a strong trend.\n\nRemember: In a strong trend with no divergence, the first MACD sell can often be ignored."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Range-bound markets with clear boundaries"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Gradual, low volatility directional trends.\n\nWhy: MACD works by measuring the gap between two moving averages. In a slow, steady trend with low volatility, prices move smoothly and the averages stay close together and parallel. MACD then gives few clear swings and its crossovers are small and unreliable. It works much better when prices move with more energy, creating clear swings in the gap between the averages.\n\nWhy not the others:\nA – Energetic trending markets give MACD clear swings to work with.\nB – Strong trends with clear momentum are where MACD does well.\nD – In ranges with clear swings, MACD can still produce usable signals.\n\nRemember: MACD struggles in slow, quiet trends."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "The histogram must first make a new low below zero before turning up"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A strong price case, a clear positive divergence, or a significant trendline break.\n\nWhy: In a slow, low-volatility trend, MACD often stays above zero and gives weak signals. A buy signal that occurs above zero is normally less reliable, because MACD is not starting from a weak, oversold position. To trust such a signal, you need extra evidence: a strong case from price itself, a clear positive divergence, or the break of an important trendline. That supporting evidence makes up for the weaker setup.\n\nWhy not the others:\nA – A volume surge on one day is not the stated requirement.\nC – A swing-high break is a useful price signal, but it is not the specific set of conditions listed.\nD – A new histogram low below zero is not required for buys above zero.\n\nRemember: MACD buys above zero need extra support from price, divergence or a trendline break."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "The histogram (MACD minus its EMA) to price"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The histogram (MACD minus its EMA) to price.\n\nWhy: The MACD histogram is the difference between the MACD line and its signal line, which is an exponential moving average of MACD. It shows whether MACD is pulling away from or moving toward its signal line, which is the rate of change of momentum. Instead of comparing the MACD line with price to find divergences, this approach compares the histogram with price, which can reveal shifts in momentum earlier.\n\nWhy not the others:\nA – Comparing MACD with its signal line is what creates the histogram, not the divergence comparison.\nB – Zero-line crossovers are trend signals, not the divergence method described.\nC – The signal line alone is slower and is not the line being compared with price.\n\nRemember: Histogram = MACD − signal line; watch its divergences with price."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "As a rear-view mirror confirming what price already did"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. As a car's headlight at night, lighting the road ahead.\n\nWhy: The MACD histogram measures whether momentum is speeding up or slowing down. Changes in the histogram often happen before changes in price. So it is described as a headlight: it helps you see a little way ahead, giving early warning of possible turns. It does not show the whole road, but it shows what is coming sooner than price alone.\n\nWhy not the others:\nA – A trailing stop follows behind price; the histogram is meant to look ahead.\nC – The histogram is not designed to filter out quiet markets.\nD – A rear-view mirror shows the past, the opposite of the headlight idea.\n\nRemember: The histogram is a headlight: it hints at turns before price makes them."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "MACD has crossed above zero, confirming a new uptrend"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. MACD is pulling farther above its signal line (positive velocity and acceleration).\n\nWhy: The histogram is MACD minus its signal line. When the histogram is above zero and rising, MACD is above its signal line and the gap is getting wider. That means bullish momentum is not only present but increasing. In motion terms, it is like a car that is moving forward and also speeding up. That shows buyers are firmly in control.\n\nWhy not the others:\nB – MACD falling toward its signal line would make the histogram shrink, not rise.\nC – The histogram measures momentum change, not overbought conditions or tops.\nD – A histogram rising above zero is a signal-line cross, not a MACD zero-line cross.\n\nRemember: Histogram rising above zero = bullish momentum that is gathering speed."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Volume must be lower on the second price high"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Between the two highs, the histogram must dip below zero.\n\nWhy: A negative histogram divergence happens when price makes a higher high but the histogram makes a lower high. For it to be valid, the histogram must fall below zero between the two peaks. That dip \"breaks the back\" of the first rally, showing that momentum really turned negative before price pushed to a new high. Without the dip, the lower histogram peak might just be a pause within the same rally.\n\nWhy not the others:\nA – Staying above zero between the highs is exactly what disqualifies the divergence.\nB – No set margin for the second price high is required.\nD – Volume is not part of this specific rule.\n\nRemember: For a valid histogram divergence, the histogram must cross zero between the two peaks."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "When MACD crosses below its signal line"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When the histogram ticks down from its lower high.\n\nWhy: Once a valid negative divergence is in place, with price at a higher high and the histogram at a lower high after dipping below zero, you still need a trigger. The trigger is the first downturn in the histogram from that lower second peak. That tick down shows momentum is actually starting to weaken again. Waiting for it avoids selling while momentum is still rising.\n\nWhy not the others:\nA – Waiting for a zero cross gives up much of the early part of the move.\nC – Price making a lower high is not part of the setup, which needs a higher price high.\nD – A MACD crossover is a separate and later signal.\n\nRemember: Sell when the histogram first ticks down from its lower second peak."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "They lead price by a fixed number of bars"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. They are rarer than ordinary divergences, which makes them stronger.\n\nWhy: Histogram divergences have a strict rule: the histogram must cross zero between the two peaks or troughs. That rule filters out many weak setups, so true histogram divergences do not happen often. Because they are rare and require a real swing in momentum, the ones that do occur are considered especially powerful signals.\n\nWhy not the others:\nB – They are less frequent than ordinary divergences, not more.\nC – They can be found on any time frame, not only weekly and monthly charts.\nD – No indicator leads price by a fixed number of bars.\n\nRemember: Histogram divergences are rare, and that rarity makes them strong."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "3, 10, 5 using simple moving averages throughout"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 3, 10, 16 with simple moving averages instead of exponential.\n\nWhy: The 3/10 oscillator is a faster version of MACD. It is the difference between a 3-period and a 10-period moving average, with a 16-period average of that difference as the slower line. It uses simple moving averages, not the exponential averages of a standard MACD. The short settings make it react quickly and highlight sharp bursts of momentum.\n\nWhy not the others:\nB – A 9-period exponential signal line is the standard MACD setup, not this one.\nC – The order and type of averages are wrong.\nD – A 5-period slow line is not part of this oscillator.\n\nRemember: 3/10 oscillator = 3 and 10 simple averages, with a 16-period slow line."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "To reduce the number of signal-line crossovers"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To make momentum spikes, which often mark trend starts or exhaustion, stand out.\n\nWhy: Short settings make the oscillator very responsive. When price moves with unusual force, the oscillator shows a sharp spike. Those spikes often appear at the start of a new trend or at the exhaustion of an old one. A slower indicator would smooth them out. The faster version is designed to make these momentum bursts easy to see.\n\nWhy not the others:\nA – Faster settings let more noise in; they are not designed to filter for major trends only.\nB – Short settings focus on short-term bursts, not long cycles.\nD – Faster settings produce more crossovers, not fewer.\n\nRemember: Faster MACD settings make momentum bursts jump off the chart."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "The slow line crosses below zero, then the fast line rallies above it"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The slow line crosses above zero, then the fast line pulls back below zero.\n\nWhy: When the slower line crosses above zero for the first time after a decline, it suggests a new uptrend may be starting. Rather than chasing that move, the trader waits for the first pullback, when the fast line dips back to or below zero. That pullback offers a lower-risk entry in the direction of the new trend. So the setup is: trend change first, then buy the first pullback.\n\nWhy not the others:\nA – This uses the fast line alone and skips the pullback.\nC – A cross below zero is an early bullish turn, not the described first-cross setup.\nD – This describes a bearish trend change followed by a rally, the opposite of a buy.\n\nRemember: First cross: wait for the slow line to turn positive, then buy the first pullback."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "A divergence, a signal-line crossover, and an extreme reading"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A setup (condition), a trigger, and follow-through (confirmation).\n\nWhy: A complete trade signal has three parts. The setup is the background condition that makes a trade worth looking for, such as an uptrend or a pullback. The trigger is the specific event that says \"act now,\" such as a crossover or a break of a high. Follow-through is price moving in your favor after you act, which confirms the signal. Missing any one of the three makes the signal weaker.\n\nWhy not the others:\nA – Price, volume and momentum may all help, but they are not the three parts of a signal.\nB – Support, resistance and trendlines are tools, not the structure of a signal.\nD – These are possible triggers or setups, not the framework itself.\n\nRemember: Every valid signal = setup + trigger + follow-through."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "In an uptrend, price pulls back to its 20-period MA while the oscillator dips below zero"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. In an uptrend, price pulls back to its 20-period MA while the oscillator dips below zero.\n\nWhy: The goal is to buy a pullback within an existing uptrend. A pullback to the 20-period moving average brings price back to a common area of support in a trend. When the fast oscillator dips below zero at the same time, it shows the short-term selling has run its course. The combination offers a lower-risk entry in the direction of the bigger trend.\n\nWhy not the others:\nA – Buying new highs is a breakout approach, not a pullback buy.\nB – A new oscillator high during a pullback is not the stated condition.\nC – Price falling below the average as the oscillator turns down signals a weakening trend, not a buy.\n\nRemember: In an uptrend, buy the pullback to the 20-period average when the oscillator dips below zero."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "When RSI holds between 40 and 60 for an extended period"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When RSI moves beyond 70 or 30 and then crosses back toward 50.\n\nWhy: RSI ranges from 0 to 100, with 70 and 30 as the usual overbought and oversold lines. Simply reaching 70 or 30 does not mark a turn, because strong trends can keep RSI at extremes. A possible top is suggested when RSI goes above 70 and then turns back down, crossing back toward 50. A possible bottom is suggested when RSI falls below 30 and then turns back up. The turn back from the extreme is what matters.\n\nWhy not the others:\nB – A 50 crossover reflects trend shifts, not tops and bottoms at extremes.\nC – First reaching 70 or 30 is only a warning; it does not mark the turn.\nD – Holding between 40 and 60 suggests no clear trend, not a top or bottom.\n\nRemember: For RSI tops and bottoms, wait for the move back out of the extreme."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "RSI peaks above 70, pulls back, rallies to a lower peak, then breaks its pullback low"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. RSI peaks above 70, pulls back, rallies to a lower peak, then breaks its pullback low.\n\nWhy: A failure swing is a pattern in RSI itself. In the bearish version, RSI first rises above 70 and then pulls back. It then rallies again but fails to reach its earlier high, making a lower peak. The signal comes when RSI falls below the low of its earlier pullback. That break shows momentum has truly failed to recover, which warns of a possible top.\n\nWhy not the others:\nA – A higher second peak above 70 shows continuing strength, not a failure.\nB – This describes a decline that keeps falling, not a failed rally.\nC – A new high above 70 is a success, not a failure.\n\nRemember: Bearish failure swing: high above 70, lower high, then a break below the pullback low."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Buying 30, selling 70 and trading divergences misreads RSI in trends"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Buying 30, selling 70 and trading divergences misreads RSI in trends.\n\nWhy: The usual approach is to buy when RSI is oversold at 30, sell when it is overbought at 70, and trade divergences as reversal signals. The criticism is that this works poorly in trending markets. In a strong uptrend, RSI can stay high and rarely hit 30, so selling at 70 means fighting the trend. RSI should instead be read in light of the trend, using its typical ranges.\n\nWhy not the others:\nA – The criticism is about interpretation, not the look-back length.\nB – RSI can be used on daily charts as well as longer ones.\nC – The point is not that failure swings are the only valid signal.\n\nRemember: Read RSI with the trend, not as a simple 30/70 switch."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "As confirmation that the trend is exhausted"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. As signs of strong trending conditions, not reversal signals.\n\nWhy: In this view, RSI above 70 shows that buying pressure is very strong, which is typical of a powerful uptrend. RSI below 30 shows very strong selling pressure, typical of a powerful downtrend. These readings confirm the strength of the trend rather than predict a turn. So instead of selling at 70, a trader might look to buy dips in the uptrend.\n\nWhy not the others:\nA – Trading against extremes is exactly the approach being criticized.\nC – The readings are informative, not noise.\nD – Extremes show strength, not exhaustion.\n\nRemember: RSI above 70 or below 30 often signals strength, not a reversal."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "RSI stays above 70"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. RSI stays above 40.\n\nWhy: RSI tends to move within different ranges depending on the trend. In an uptrend, RSI typically moves between about 40 and 80, and pullbacks usually stop around 40. In a downtrend, it typically moves between about 20 and 60. If RSI holds above 40 during pullbacks, the uptrend is intact. A drop below that level suggests the trend may be weakening.\n\nWhy not the others:\nB – 50 is a midpoint, but uptrend pullbacks often dip below it to around 40.\nC – 60 is the top of the typical downtrend range, not the uptrend floor.\nD – Holding above 70 all the time is unrealistic, even in strong uptrends.\n\nRemember: In uptrends, RSI tends to hold above about 40."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Divergences are meaningful only in range-bound markets"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Bearish divergences are features of uptrends; bullish ones of downtrends.\n\nWhy: A bearish divergence happens when price makes a higher high but RSI makes a lower high. In this view, this pattern often shows up during corrections within an uptrend, not at major tops. Likewise, bullish divergences (lower price low, higher RSI low) often appear during bounces within downtrends. So a divergence by itself is treated as part of the existing trend, not as a reliable reversal signal.\n\nWhy not the others:\nA – Treating bearish divergences as top signals is the traditional view this approach questions.\nC – This reverses the pairing of divergence type and trend.\nD – Divergences do appear in trending markets, so they are not limited to ranges.\n\nRemember: Bearish divergences tend to occur in uptrends; bullish ones in downtrends."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "As a completed bullish failure swing"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. As a sign that the bullish RSI range has broken.\n\nWhy: In an uptrend, RSI typically stays above about 40. Here RSI has held above 40, but now price makes a lower low and RSI falls below 30. That means RSI has left its bullish range and entered the range typical of a downtrend. Instead of a buying chance, this suggests the uptrend may have ended. The oversold reading is a sign of a trend change, not a bargain.\n\nWhy not the others:\nA – A positive divergence needs RSI to make a higher low while price makes a lower low; here both are lower.\nC – The drop below 30 shows the uptrend's range has broken, so the uptrend may not be intact.\nD – A bullish failure swing needs a specific sequence of RSI lows and a break of a high, not shown here.\n\nRemember: When RSI breaks below its uptrend floor, the trend itself may be changing."
   }
 ]

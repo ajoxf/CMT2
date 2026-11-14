@@ -9,7 +9,8 @@
       "X-axis shows JdK RS-Ratio, Y-axis shows JdK RS-Momentum"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The x-axis shows JdK RS-Ratio and the y-axis shows JdK RS-Momentum.\n\nWhy: An RRG places each security by two normalised relative measures. Moving right means a stronger relative trend (higher RS-Ratio). Moving up means that relative trend is improving faster (higher RS-Momentum). The vertical and horizontal lines at 100 split the chart into four quadrants: Leading (top right), Weakening (bottom right), Lagging (bottom left) and Improving (top left).\n\nWhy not the others:\nA – Price and volume are not RRG axes; both axes are relative measures.\nB – Time is not an axis; time is shown only through the tail.\nC – Volatility is not plotted on an RRG.\n\nRemember: Right = stronger relative trend; up = improving relative momentum."
   },
   {
     "id": 32,
@@ -21,7 +22,8 @@
       "At 1.00, the raw ratio of security to benchmark"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The axes cross at 100, the benchmark, where relative performance is neutral.\n\nWhy: Both the RS-Ratio and RS-Momentum are normalised so that 100 represents the benchmark. The centre point (100, 100) is therefore the benchmark itself. A security plotted there is moving in line with the benchmark. Distance from the centre shows how different its relative trend and momentum are.\n\nWhy not the others:\nA – The scale is built around 100, not 0.\nB – 50 is the midpoint of bounded oscillators, not RRG measures.\nD – Raw ratio values are not used on RRG axes; they are normalised first.\n\nRemember: The centre of an RRG (100, 100) is the benchmark."
   },
   {
     "id": 33,
@@ -33,7 +35,8 @@
       "LAGGING (bottom left)"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. LEADING (top right) holds securities in a relative uptrend that is still strengthening.\n\nWhy: In the top-right quadrant, the RS-Ratio is above 100 (outperforming) and RS-Momentum is above 100 (the outperformance is growing). That combination is the strongest relative position.\n\nWhy not the others:\nA – IMPROVING has rising momentum but an RS-Ratio below 100, so it is not yet in a relative uptrend.\nC – WEAKENING is in a relative uptrend but with fading momentum.\nD – LAGGING is underperforming with falling momentum, the weakest position.\n\nRemember: Leading = top right: outperforming and getting stronger."
   },
   {
     "id": 34,
@@ -45,7 +48,8 @@
       "LAGGING - it is underperforming and losing momentum"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. WEAKENING: still outperforming but losing momentum.\n\nWhy: Read each axis. RS-Ratio 105 is above 100, so the security is in a relative uptrend. RS-Momentum 95 is below 100, so that uptrend is losing pace. Above 100 on the x-axis and below 100 on the y-axis is the bottom-right quadrant, Weakening.\n\nWhy not the others:\nB – Leading requires momentum above 100 as well, and here it is 95.\nC – Improving requires an RS-Ratio below 100, and here it is 105.\nD – Lagging requires both readings below 100.\n\nRemember: Ratio above 100, momentum below 100 = Weakening (bottom right)."
   },
   {
     "id": 35,
@@ -57,7 +61,8 @@
       "Diagonally between opposite quadrants"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Securities typically rotate clockwise.\n\nWhy: Because RS-Momentum turns before RS-Ratio, the path follows a set order. A security moves from Improving (top left) to Leading (top right) as its ratio rises above 100, then to Weakening (bottom right) as momentum fades, then to Lagging (bottom left) as the ratio falls below 100, and back to Improving as momentum recovers. That order traces a clockwise circle.\n\nWhy not the others:\nA – Counter-clockwise movement is unusual and usually short-lived.\nB – Movement is two-dimensional, not just side to side.\nD – Diagonal jumps between opposite quadrants are rare.\n\nRemember: RRG rotation is clockwise: Improving → Leading → Weakening → Lagging."
   },
   {
     "id": 36,
@@ -69,7 +74,8 @@
       "That securities rotate from outperformance to underperformance and back"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Scatter plots revealed that securities rotate from outperformance to underperformance and back.\n\nWhy: On line charts, relative strength looks like separate wiggles for each security. Plotting RS-Ratio against RS-Momentum shows those wiggles as loops around the benchmark. This makes clear that relative trends rise and fall in a repeating rotation rather than staying fixed.\n\nWhy not the others:\nA – Sector returns are not perfectly correlated; that is why they rotate relative to each other.\nB – Momentum tends to lead the ratio, but not by a fixed number of periods.\nC – The opposite was revealed: relative trends do change, in a rotation.\n\nRemember: Scatter plots turned relative strength from wiggles into visible rotations."
   },
   {
     "id": 37,
@@ -81,7 +87,8 @@
       "Weakening"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Lagging holds securities with both RS-Ratio and RS-Momentum below 100.\n\nWhy: RS-Ratio below 100 means a relative downtrend, and RS-Momentum below 100 means that downtrend is still deepening. Together they place a security in the bottom-left quadrant, Lagging, the weakest relative position.\n\nWhy not the others:\nB – Leading has both readings above 100.\nC – Improving has the ratio below 100 but momentum above 100.\nD – Weakening has the ratio above 100 but momentum below 100.\n\nRemember: Both readings below 100 = Lagging (bottom left)."
   },
   {
     "id": 38,
@@ -93,7 +100,8 @@
       "Its correlation with the benchmark over time"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The tail shows recent observations, revealing the path and pace of rotation.\n\nWhy: Each point on a tail is where the security plotted at an earlier date. Joining them shows the direction it has been travelling and how fast. Long gaps between points mean a quick move; points bunched together mean slow movement. This history helps judge whether a rotation is gathering speed or fading.\n\nWhy not the others:\nA – Tails show past positions, not forecasts.\nB – The tail does not show a high-low volatility range.\nD – Correlation is not displayed on an RRG.\n\nRemember: The tail is the security's recent track: direction plus speed."
   },
   {
     "id": 39,
@@ -105,7 +113,8 @@
       "One quarter"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. On a weekly RRG, each tail point is one week.\n\nWhy: Each point on a tail is one data observation at the chart's chosen frequency. On a weekly chart, each point is one week, so a five-point tail covers the last five weeks. On a daily chart, each point would be a day.\n\nWhy not the others:\nA – Days apply to a daily RRG, not a weekly one.\nC – Months would need a monthly RRG.\nD – Quarters are not the observation unit for a weekly chart.\n\nRemember: Tail point = one bar of the chart's frequency."
   },
   {
     "id": 40,
@@ -117,7 +126,8 @@
       "Show all sectors, each with a single-point tail"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Show just one or two securities with a long tail.\n\nWhy: A long tail traces a security's path over many periods, which is what you need to study its rotation over time. But long tails on many securities overlap and clutter the chart. Limiting the view to one or two securities keeps the long tails readable.\n\nWhy not the others:\nA – Many securities with long tails create a tangle that is hard to read.\nB – Short tails cannot show a long-term path.\nD – A single point shows only the current position, with no history.\n\nRemember: Few securities with long tails for depth; many securities with short tails for breadth."
   },
   {
     "id": 41,
@@ -129,7 +139,8 @@
       "Move clockwise through all four quadrants in turn"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Ideally a security moves clockwise through all four quadrants in turn.\n\nWhy: The textbook rotation follows Improving → Leading → Weakening → Lagging → Improving. This order comes from momentum turning before the ratio: momentum rises first (Improving), then the ratio rises above 100 (Leading), then momentum fades (Weakening), then the ratio falls below 100 (Lagging).\n\nWhy not the others:\nA – Counter-clockwise rotation is the reverse and is rarely observed.\nB – Jumping straight from Leading to Lagging skips Weakening and is unusual.\nC – Oscillating between Improving and Weakening means crossing diagonally, which is rare.\n\nRemember: Ideal rotation: a clockwise lap through all four quadrants."
   },
   {
     "id": 42,
@@ -141,7 +152,8 @@
       "The benchmark has reversed its absolute trend direction"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A strong relative trend is pausing, with a correction inside the larger trend.\n\nWhy: On the right side of the RRG, the RS-Ratio is above 100, so the security is outperforming. A move from Leading to Weakening shows momentum fading, but if it then returns to Leading without crossing into Lagging, the RS-Ratio never fell below 100. The relative uptrend held; it simply paused and resumed, much like a pullback in a price uptrend.\n\nWhy not the others:\nA – The uptrend did not end, since the RS-Ratio stayed above 100.\nC – The return to Leading shows it moved away from Lagging.\nD – RRGs measure relative trend, not the benchmark's absolute direction.\n\nRemember: A right-side sub-rotation is a relative pullback within a relative uptrend."
   },
   {
     "id": 43,
@@ -153,7 +165,8 @@
       "A right-side sub-rotation within a relative uptrend"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. This is a left-side sub-rotation that never reaches Leading.\n\nWhy: On the left side, the RS-Ratio is below 100. Moving from Lagging into Improving means momentum picked up, but returning to Lagging without crossing into Leading means the RS-Ratio never rose above 100. The relative downtrend paused, then resumed, like a bear-market rally in price terms.\n\nWhy not the others:\nA – A full rotation would pass through all four quadrants, including Leading.\nC – The security never reached Leading, so it could not fail out of it.\nD – A right-side sub-rotation occurs above 100, in Leading and Weakening.\n\nRemember: A left-side sub-rotation is a relative bounce within a relative downtrend."
   },
   {
     "id": 44,
@@ -165,7 +178,8 @@
       "Which RRG quadrant the security occupied"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The bar colour shows which RRG quadrant the security was in at that time.\n\nWhy: Colouring each price bar by RRG quadrant combines two views on one chart: the security's own price and its relative position. For example, green might mark Leading and red Lagging, so you can see on the price chart when the security was outperforming or underperforming.\n\nWhy not the others:\nA – The colouring is not based on volume.\nB – It does not show whether price is above a moving average.\nC – It shows relative position, not the absolute trend.\n\nRemember: Quadrant-coloured bars put RRG status straight onto a price chart."
   },
   {
     "id": 45,
@@ -177,7 +191,8 @@
       "They cannot change, because RRG positions are absolute measures"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Every RRG value is measured relative to the chosen benchmark.\n\nWhy: RS-Ratio and RS-Momentum come from comparing each security with the benchmark. Switching to an equal-weighted index changes the benchmark's returns, so every comparison changes. A sector that beat the cap-weighted index may not beat an equal-weighted one, so its position on the chart can move.\n\nWhy not the others:\nA – Benchmark volume is not part of the calculation.\nB – The direction of rotation does not reverse because of the benchmark choice.\nD – RRG positions are relative, not absolute, so they depend on the benchmark.\n\nRemember: Change the benchmark and you change the whole RRG."
   },
   {
     "id": 46,
@@ -189,7 +204,8 @@
       "The correction was not deep enough to make it an underperformer"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The correction was not deep enough to make it an underperformer.\n\nWhy: Leading and Weakening are both on the right side, where the RS-Ratio is above 100. Staying on that side means the security kept outperforming throughout. Its momentum dipped, then recovered, but the relative uptrend was never broken.\n\nWhy not the others:\nA – A full reversal would require crossing into Lagging.\nB – A relative downtrend means RS-Ratio below 100, which never happened.\nC – Improving is on the left side; the security stayed on the right.\n\nRemember: Staying right of 100 means the relative uptrend survived the dip."
   },
   {
     "id": 47,
@@ -201,7 +217,8 @@
       "Weakening"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A security in LEADING most often moves next into WEAKENING.\n\nWhy: In the Leading quadrant, both readings are above 100. Momentum turns before the ratio, so the most common next step is that RS-Momentum drops below 100 while the RS-Ratio is still above 100. That moves the security down into Weakening, the next quadrant clockwise.\n\nWhy not the others:\nA – Leading to Improving is counter-clockwise and rare.\nB – Leading to Lagging is a diagonal jump that requires both lines to drop below 100 at once, which is rare.\nC – Rotations are not random; clockwise moves dominate.\n\nRemember: Leading usually rolls into Weakening next."
   },
   {
     "id": 48,
@@ -213,7 +230,8 @@
       "They usually remain in Lagging"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Securities in LAGGING most often move next into IMPROVING.\n\nWhy: In Lagging, both readings are below 100. As the relative decline slows, RS-Momentum turns up and crosses 100 before the RS-Ratio does. That lifts the security into Improving, the next quadrant clockwise.\n\nWhy not the others:\nA – Jumping diagonally to Leading is rare because both readings must cross 100 at once.\nB – Lagging to Weakening is counter-clockwise and uncommon.\nD – Securities do not usually stay in Lagging; they tend to rotate onward.\n\nRemember: Lagging usually lifts into Improving next."
   },
   {
     "id": 49,
@@ -225,7 +243,8 @@
       "Counter-clockwise moves, such as Leading back to Improving"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Counter-clockwise moves, such as Leading back to Improving, are rarely observed.\n\nWhy: Because momentum leads the ratio, relative trends usually turn in a clockwise order. Moving counter-clockwise, such as from Leading to Improving, would require the RS-Ratio to drop below 100 while momentum stays above 100, which goes against the normal lead-lag relationship. Such moves happen but are uncommon.\n\nWhy not the others:\nA – Leading to Weakening is the most common clockwise move.\nB – Lagging to Improving is also a common clockwise move.\nC – Weakening to Lagging is a normal clockwise step.\n\nRemember: Clockwise is common; counter-clockwise is rare."
   },
   {
     "id": 50,
@@ -237,7 +256,8 @@
       "Weakening securities usually jump directly to Improving"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Moving on into Lagging is more common, but returns to Leading are frequent.\n\nWhy: From Weakening, the next clockwise step is Lagging, where the RS-Ratio drops below 100. That is the more common outcome. But many securities only correct briefly and hook back into Leading. So Weakening is a less predictable starting point than Leading or Lagging.\n\nWhy not the others:\nA – Hooking back into Leading is frequent but not the most common outcome.\nC – Securities do not usually stall in Weakening for long.\nD – Weakening to Improving is a diagonal jump and rare.\n\nRemember: Weakening is a fork in the road: usually to Lagging, often back to Leading."
   },
   {
     "id": 51,
@@ -249,7 +269,8 @@
       "Because the benchmark itself rotates clockwise each cycle"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. RS-Momentum turns before RS-Ratio, so the momentum line of 100 is crossed first.\n\nWhy: Leading → Weakening and Lagging → Improving both involve a crossing of the horizontal 100 line, which is a change in RS-Momentum. Because momentum leads the ratio, it is usually the first reading to cross 100 when a relative trend changes. That makes these two transitions the most frequent.\n\nWhy not the others:\nB – This reverses the order; the ratio lags momentum.\nC – Moves do not happen on a fixed timetable.\nD – The benchmark is the centre of the chart; it does not rotate.\n\nRemember: Momentum crosses 100 first, so up-and-down moves between quadrants are the most common."
   },
   {
     "id": 52,
@@ -261,7 +282,8 @@
       "No quadrant shows a predictable next move"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The most predictable next moves begin from LEADING and LAGGING.\n\nWhy: From Leading, securities usually move to Weakening; from Lagging, they usually move to Improving. Both are driven by the leading behaviour of momentum, so they happen with high consistency. From Weakening and Improving, outcomes are more mixed, since securities can either continue clockwise or hook back.\n\nWhy not the others:\nB – Weakening and Improving are the less predictable starting points.\nC – Lagging is just as predictable as Leading.\nD – Research does show clear tendencies from certain quadrants.\n\nRemember: Leading and Lagging have the most predictable next steps."
   },
   {
     "id": 53,
@@ -273,7 +295,8 @@
       "Because RRG positions remain valid for only a single bar of data"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Leading most often rolls into Weakening, so much of the gain may already be past.\n\nWhy: By the time a security is in Leading, its relative trend has usually been improving for a while. Since the most common next move is to Weakening, buying only at Leading can mean arriving after much of the outperformance has happened. Watching Improving can help spot candidates earlier.\n\nWhy not the others:\nA – Leading usually moves to Weakening, not straight to Lagging.\nC – RRGs say nothing about fundamental valuation.\nD – RRG positions reflect trends that last more than one bar.\n\nRemember: Leading often means late; Improving can be early."
   },
   {
     "id": 54,
@@ -285,7 +308,8 @@
       "The point farthest from the chart's center"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The head, marked at the end of the tail, is the most recent observation.\n\nWhy: A tail is drawn from older points to newer ones, with the latest point usually shown by a larger dot or arrowhead. That head is the security's current RS-Ratio and RS-Momentum. The other end is the oldest point in the window.\n\nWhy not the others:\nB – The start of the tail is the oldest observation.\nC – Distance from the centre has nothing to do with time.\nD – Distance from the centre does not identify the most recent point.\n\nRemember: The head of the tail is \"now\"; the far end is the past."
   },
   {
     "id": 55,
@@ -297,7 +321,8 @@
       "Scatter plots project each security's future price path directly"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Plotting two normalised measures against each other puts many securities on one chart.\n\nWhy: A time-series line chart shows one value over time, so comparing many securities would need many lines or charts. A scatter plot places each security by two values, here RS-Ratio and RS-Momentum, so a whole universe fits on one picture. Normalisation makes all those positions comparable.\n\nWhy not the others:\nA – A benchmark is still required for every RRG.\nC – Line charts can show relative strength; they just do not scale well to many securities.\nD – RRGs show current relative position, not future price paths.\n\nRemember: Scatter plot + normalised axes = many securities on one comparable chart."
   },
   {
     "id": 56,
@@ -309,7 +334,8 @@
       "All sectors with maximum length tails"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Show all sectors with shorter tails.\n\nWhy: To see how sectors interact, you need all of them on screen. Short tails still show recent direction and speed but keep the chart from becoming a tangle of overlapping lines.\n\nWhy not the others:\nA – One or two securities with long tails suit studying a single sector in depth, not the whole universe.\nC – No tails hides direction, which is key to reading rotation.\nD – Long tails on every sector make the chart unreadable.\n\nRemember: Wide view = all securities, short tails."
   },
   {
     "id": 57,
@@ -321,7 +347,8 @@
       "Projected price targets for each security"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. An RRG shows the rotation of relative trends, not necessarily performance.\n\nWhy: An RRG tells you how each security's relative trend versus the benchmark is changing. It does not tell you whether a security made or lost money. A security in Leading could still be falling in price if the benchmark is falling faster. So it is a map of relative trend, not a returns table.\n\nWhy not the others:\nB – Absolute performance is not shown; everything is relative.\nC – The benchmark is the core of the chart.\nD – RRGs do not produce price targets.\n\nRemember: An RRG maps relative trends, not profits."
   },
   {
     "id": 58,
@@ -333,7 +360,8 @@
       "It is in Improving and will most likely fall back into Lagging"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It is in IMPROVING and will most likely move into LEADING.\n\nWhy: RS-Ratio 95 (below 100) and RS-Momentum 105 (above 100) put the security in the top-left quadrant, Improving. Its relative trend is still down but is getting better. The next clockwise step is Leading, which happens when the RS-Ratio rises above 100.\n\nWhy not the others:\nA – Lagging requires momentum below 100.\nB – Weakening requires an RS-Ratio above 100.\nD – Falling back into Lagging can happen, but the more likely path is onward to Leading.\n\nRemember: Improving usually continues into Leading."
   },
   {
     "id": 59,
@@ -345,7 +373,8 @@
       "A country index"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Each point represents an economic sector.\n\nWhy: GICS (Global Industry Classification Standard) groups companies into levels, and the top level is the sector, such as technology or health care. An RRG of these classifications against the index shows how each sector is rotating relative to the overall market.\n\nWhy not the others:\nB – Individual stocks belong to lower levels of a classification, not the top level.\nC – Currency pairs are not part of an equity classification system.\nD – Country indexes are not GICS levels.\n\nRemember: Top-level GICS = sectors, the classic sector-rotation RRG."
   },
   {
     "id": 60,
@@ -357,6 +386,7 @@
       "Q is about to enter Lagging because it is far from the center"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Sector Q has a much stronger relative trend; Sector P is behaving much like the benchmark.\n\nWhy: Both sectors are in Leading, but distance from the 100/100 centre matters. P at (101, 100.5) is almost on top of the benchmark, so it is barely different. Q at (108, 104) is far out, showing a strong relative uptrend that is still gaining momentum.\n\nWhy not the others:\nA – Being near the centre means near-neutral, not stronger.\nC – Sharing a quadrant does not mean equal strength; distance from the centre also counts.\nD – Being far from the centre in Leading means strength, not an imminent move to Lagging.\n\nRemember: On an RRG, distance from the centre shows how strong a relative move is."
   }
 ]

@@ -9,7 +9,8 @@
       "There is no practical difference, because both reverse at the same time"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A momentum reversal is only a warning; a reversal must be confirmed by price itself.\n\nWhy: Momentum measures the speed of price change, not price itself. Momentum often turns before price, because a trend usually slows down before it reverses. But a trend can slow down and then keep going, so a momentum reversal alone does not prove the price trend has changed. It is a warning that the trend is losing strength. Action should wait until price confirms, for example by breaking a trendline, support level or moving average.\n\nWhy not the others:\nA – However well defined, a momentum reversal is still only a warning, not a trading signal by itself.\nB – The usual order is the reverse: momentum tends to turn first, and price confirms later.\nD – Momentum and price usually do not turn at the same moment; momentum tends to lead.\n\nRemember: Momentum warns; price confirms."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Momentum tends to break its trendlines before price"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Momentum tends to break its trendlines before price.\n\nWhy: Momentum is based on the rate of price change. As a rally loses steam, the rate of change slows first, even while price is still rising. So a trendline drawn on the momentum indicator often breaks earlier than the matching trendline on price. That early break is a useful heads-up that the price trend may soon weaken, but it still needs to be confirmed by price.\n\nWhy not the others:\nA – This reverses the usual order; momentum normally leads price.\nB – The two breaks seldom happen at exactly the same time.\nC – There is a fairly reliable tendency for momentum to lead, so the relationship is predictable.\n\nRemember: Momentum trendlines usually break first, giving advance warning."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Its angle, whether it parallels a price trendline, and its last touch"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Its length, the number of times it has been touched, and its angle.\n\nWhy: The same three tests apply to trendlines on momentum as on price. Length: a line that has held for a long time is more important than a short one. Touches: the more times the indicator has bounced off the line, the more the line has been proven. Angle: a very steep line is easy to break and less meaningful, while a moderate angle is more sustainable and its break is more significant.\n\nWhy not the others:\nB – Volume and distance from equilibrium are not the standard trendline tests.\nC – The indicator's look-back period and current reading do not measure a trendline's significance.\nD – A parallel price line or the last touch are not among the three standard criteria.\n\nRemember: Judge any trendline by its length, touches and angle."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "A trendline gains significance the more often it is crossed without effect"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A line that acted as support may become resistance once broken, and vice versa.\n\nWhy: Polarity means a level or line switches roles after it is broken. If a rising trendline has supported an indicator or price, and it is then broken, that same line often acts as resistance on the next rally. The opposite also applies: broken resistance can become support. This happens because traders remember the level and react to it again from the other side.\n\nWhy not the others:\nA – Polarity is not about drawing matching lines on price and momentum.\nC – This reverses the meaning of breaks: breaking an up-trendline is bearish.\nD – A line crossed often without effect loses significance, not gains it.\n\nRemember: Broken support becomes resistance; broken resistance becomes support."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Trendlines cannot be drawn on momentum indicators"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Moving averages are objective, removing the judgment in drawing lines.\n\nWhy: Two analysts can draw different trendlines on the same chart, because they may choose different points to connect. A moving average has a fixed formula, so everyone with the same settings gets exactly the same line and the same crossover signals. That objectivity makes moving averages easy to program and test in quantitative work, where rules must be precise.\n\nWhy not the others:\nB – Moving averages are not necessarily faster; they lag price by design.\nC – A moving average needs a full look-back period of data, not fewer points.\nD – Trendlines can be drawn on momentum indicators, and often are.\n\nRemember: Moving averages remove the guesswork that trendlines involve."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Crossovers cannot be combined with divergences"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Momentum is jagged, so crossovers whipsaw often.\n\nWhy: Momentum indicators move up and down sharply from bar to bar. When you add a moving average to a jagged line, the indicator crosses back and forth over that average frequently, especially in sideways markets. Each cross is a signal, so many of them reverse quickly, which is called a whipsaw. That is the main problem with momentum crossover systems. Smoothing the indicator or adding filters can reduce it.\n\nWhy not the others:\nB – The bigger problem with jagged momentum is too many signals, not too few or too late.\nC – Crossovers happen in all markets, and especially often in sideways ones.\nD – Crossovers can be combined with divergences and other tools.\n\nRemember: Jagged momentum plus a moving average equals frequent whipsaws."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "How many periods the moving average covers"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. How far from equilibrium the crossover takes place.\n\nWhy: Equilibrium is the indicator's neutral level, such as zero for rate of change or 50 for RSI. Where a crossover happens tells you something about what may follow. A crossover far from equilibrium, at an extreme, often just releases an overstretched condition and leads to a consolidation or a counter-trend move. A crossover near equilibrium is more likely to mark a real change in trend direction. So the location of the crossover affects how you read its quality.\n\nWhy not the others:\nA – Volume can add context, but it is not the extra factor being described here.\nC – Using closing prices is good practice, but it does not judge signal quality.\nD – The average's length matters when setting up the tool, not when judging a single crossover.\n\nRemember: Where a momentum crossover happens matters as much as the crossover itself."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "A signal that the uptrend is exhausted"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A good signal to open a long position or cover a short.\n\nWhy: Two independent pieces of evidence agree. First, price has closed above a rising 40-day moving average, so the price trend is up. Second, the moving average of the momentum indicator is already sloping upward, so the underlying momentum is improving. When the price trend and momentum both point up together, the signal is stronger than either one alone. That makes this a sound time to buy or to close out a short position.\n\nWhy not the others:\nA – Both elements are bullish, so there is no reason to call it weak.\nC – The signals agree; they do not conflict.\nD – Rising momentum argues against exhaustion, not for it.\n\nRemember: Price above a rising average, with momentum rising too, is a strong buy setup."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Readings that carry meaning only in strongly trending markets"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Conditions that warn of possible change, not signals in themselves.\n\nWhy: \"Overbought\" means price has risen a lot in a short time, and \"oversold\" means it has fallen a lot. These readings describe a stretched condition, not a guaranteed turn. In a strong trend, an indicator can stay overbought or oversold for a long time while price keeps moving the same way. So these readings are best treated as alerts to watch for a turn, with the actual signal coming from something else, such as a crossback, a divergence or a price break.\n\nWhy not the others:\nA – Acting as soon as a threshold is hit often means fighting a strong trend.\nB – Overbought and oversold readings are useful warnings even without a divergence.\nD – They are most useful as trading signals in ranges, not only in strong trends.\n\nRemember: Overbought and oversold are warnings, not orders."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Act only on oversold readings, since overbought readings fail in ranges"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Sell when it drops back below overbought; buy when it rises back above oversold.\n\nWhy: In a trading range, price moves back and forth between support and resistance, and oscillators swing between their extremes. Rather than acting the moment the indicator reaches an extreme, the better approach is to wait for it to turn and cross back out of the zone. A drop back below the overbought line shows upward momentum is fading, which is a sell. A rise back above the oversold line shows selling is easing, which is a buy.\n\nWhy not the others:\nA – Buying overbought and selling oversold reverses the range-trading logic.\nB – Selling the moment it touches overbought risks selling too early while momentum is still rising.\nD – Both overbought and oversold readings work in ranges.\n\nRemember: In a range, trade the crossback out of the extreme zone."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Overbought readings are buy signals; oversold readings are sell signals"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Oversold readings are buy signals; overbought readings show strength.\n\nWhy: In an uptrend, the main direction is up. Oversold readings happen during pullbacks and often mark good times to buy in the direction of the trend. Overbought readings in an uptrend are usually not good sell signals. They simply show how strong buying is, and the indicator can stay overbought while price keeps climbing. So you act on signals that agree with the trend and treat counter-trend signals with caution.\n\nWhy not the others:\nA – Treating overbought as a sell in an uptrend fights the trend.\nB – Oversold readings in an uptrend are buying chances, not warnings of failure.\nD – This flips the logic; oversold, not overbought, is where to buy.\n\nRemember: In an uptrend, buy the oversold dips; overbought just means strong."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Oversold readings are buy signals; overbought readings are sell signals"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Overbought readings are sell signals; oversold readings show weakness.\n\nWhy: In a downtrend, the main direction is down. Rallies push the indicator into overbought territory, and those moments are often good times to sell or go short in the direction of the trend. Oversold readings in a downtrend are not reliable buy signals. They show how heavy the selling is, and the indicator can stay oversold as price keeps falling. So you favor signals that agree with the trend.\n\nWhy not the others:\nA – Buying on overbought readings goes against the downtrend.\nB – This is the uptrend rule; in a downtrend, oversold is weakness, not a buy.\nD – Treating oversold as a buy in a downtrend fights the trend.\n\nRemember: In a downtrend, sell the overbought rallies; oversold just means weak."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Because the overbought exit agrees with the trend and old support now acts as resistance"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Because the overbought exit agrees with the trend and old support now acts as resistance.\n\nWhy: Several things line up. The main trend is down, so a sell signal agrees with it. The RSI's moving average leaving the overbought zone shows the rally's momentum is fading. At the same time, price has rallied into a former support level and failed. By the principle of polarity, broken support often becomes resistance. When an oscillator signal, the trend and a price level all agree, the short signal is much stronger.\n\nWhy not the others:\nA – A cross of 50 is not part of the setup described.\nB – In a downtrend, an overbought reading is a selling chance, not a warning of an upside breakout.\nC – Overbought exits are more reliable when they agree with the trend.\n\nRemember: The best signals line up oscillator, trend and price level together."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "It becomes and stays oversold, rarely reaching overbought"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It becomes and stays oversold, rarely reaching overbought.\n\nWhy: In a persistent downtrend, selling pressure is strong most of the time. A momentum oscillator such as RSI spends much of its time in the lower part of its range and often stays oversold. Rallies are weak, so the indicator rarely gets up into overbought territory. This shift in the indicator's range is a useful clue that the trend is down.\n\nWhy not the others:\nA – Even swings between extremes describe a sideways market, not a downtrend.\nB – Repeated overbought readings are typical of an uptrend, not a downtrend.\nC – Hovering at the midpoint suggests no strong trend at all.\n\nRemember: In a downtrend, the oscillator lives in the lower zone."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "A series of overbought readings that accompanies a negative divergence"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. An initial thrust off a bull market's final low that sets a multiyear overbought reading.\n\nWhy: A mega-overbought condition happens at the start of a new bull market. After the final low of a bear market, prices surge so strongly that a long-term momentum indicator reaches its highest reading in many years. This shows an unusually powerful wave of buying. Instead of signaling a top, such a reading usually reflects the start of a strong new uptrend.\n\nWhy not the others:\nA – An ordinary extreme reading is not enough; it must be a multiyear high right after a major low.\nC – It occurs early in a bull market, not late near the top.\nD – A series of overbought readings with a negative divergence is a topping warning, the opposite idea.\n\nRemember: Mega-overbought is an extreme momentum surge at the very start of a bull market."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "After a setback or consolidation, prices generally go higher"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. After a setback or consolidation, prices generally go higher.\n\nWhy: A mega-overbought reading shows huge buying power coming in after a major low. Prices usually pause or pull back after such a sharp burst because the advance cannot continue at that speed. But the strength behind the move tends to last. After the consolidation or correction, prices generally move to new highs. So the reading points to a healthy new uptrend, not to a top.\n\nWhy not the others:\nA – The low before the thrust usually holds; breaking it would contradict the concept.\nB – A lengthy distribution phase marks the end of a bull market, not its start.\nC – This treats it as an ordinary overbought top, which misreads the signal.\n\nRemember: After a mega-overbought surge, the pause is usually followed by higher prices."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "After a mega-overbought reading, for an investor with a long horizon"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. After a mega-overbought reading, for an investor with a long horizon.\n\nWhy: Normally, buying when momentum is overbought is risky because a pullback often follows. A mega-overbought reading is the exception. It signals a powerful new bull market, so although a short-term dip is possible, prices tend to go much higher over time. An investor with a long time horizon can accept the short-term pullback in exchange for the likely long-term gains.\n\nWhy not the others:\nA – A short-term positive divergence does not justify buying at overbought.\nB – An established uptrend alone does not make buying at any overbought reading wise.\nC – A short-term trader is the person most likely to be hurt by the usual pullback.\n\nRemember: Buying overbought only makes sense after a mega-overbought reading, with a long horizon."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "The reading should be faded with a short-term short position"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Prices may correct, but the low before the thrust is unlikely to be revisited for years.\n\nWhy: A mega-overbought reading appears right after a bear market's final low. The surge shows that the balance between buyers and sellers has changed in a big way. A correction often follows the surge, but it usually stays well above the low that came before the thrust. That low tends to hold for years, because it marked the end of the bear market.\n\nWhy not the others:\nB – A retest of the bear-market low would contradict the strength the reading shows.\nC – The reading points to the start of a bull market, not its quick end.\nD – Fading the reading with a short trade goes against a powerful new trend.\n\nRemember: The low before a mega-overbought thrust usually holds for years."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "It is typically broken during the first correction"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It is generally not revisited for many years, if ever.\n\nWhy: The low that comes just before a mega-overbought thrust is usually the final low of a bear market. The thrust that follows shows a major change in demand. Because the move marks the start of a new long-term uptrend, prices typically do not return to that low for many years, and sometimes never. This is a useful guide for long-term investors.\n\nWhy not the others:\nA – A quick retest within weeks is not what this concept describes.\nC – It is a long-term turning point, not a level for short-term swing trades.\nD – It is typically not broken during the first correction.\n\nRemember: The low before a mega-overbought surge tends to be a long-lasting bottom."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "(Current MA − MA n periods ago) / MA n periods ago × 100"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. (Current price, or a short MA, − longer MA) / longer MA × 100.\n\nWhy: A price oscillator, also called a trend deviation indicator, measures how far price is from its trend. The trend is represented by a longer moving average. You take the current price (or a short moving average), subtract the longer average, divide by the longer average, and multiply by 100 to get a percentage. Example: price 105, 50-period average 100: (105 − 100) ÷ 100 × 100 = 5%.\n\nWhy not the others:\nB – This is the stochastic formula, which locates the close within a high-low range.\nC – High minus low over close is a range or volatility measure.\nD – This is a rate of change of the moving average, not the price's distance from it.\n\nRemember: Price oscillator = percent distance between price and its longer moving average."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "The oscillator uses exponential smoothing, whereas ROC uses simple smoothing"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The oscillator compares price with its 50-period MA; ROC compares it with the price 50 periods ago.\n\nWhy: A 1/50 price oscillator compares today's price (a one-period \"average\") with the average of the last 50 prices. A 50-period rate of change compares today's price with one single price, the one from 50 periods ago. Because the oscillator uses an average of many prices, it is smoother. The rate of change can jump just because the one old price dropping out of the window was unusual.\n\nWhy not the others:\nB – This swaps the two definitions.\nC – Neither indicator is bounded between 0 and 100.\nD – The difference is what price is compared with, not the type of smoothing.\n\nRemember: Price oscillator compares with an average; ROC compares with one old price."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Price closes below a declining MA while momentum's MA is already turning down"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Price closes below a declining MA while momentum's MA is already turning down.\n\nWhy: A strong bearish signal needs the price trend and momentum to agree. When price closes below its moving average and that average is itself falling, the trend is clearly down. When the momentum indicator's moving average is also turning down, the underlying force behind the move is weakening too. Two independent signals pointing down at the same time make a strong sell signal.\n\nWhy not the others:\nA – A rising price average and rising momentum both conflict with a sell signal.\nB – Momentum oversold and turning up points toward a bounce, not a strong sell.\nC – Price holding above a rising average contradicts the bearish momentum reading.\n\nRemember: Strong sells come when price is under a falling average and momentum is turning down."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Crossbacks through these levels occur only in strongly trending markets"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. In strong trends the opposite extreme is rarely reached, so exits are hard to define.\n\nWhy: A simple oscillator system might buy when the indicator crosses back above oversold and sell when it crosses back below overbought. In a strong uptrend, though, the indicator may never fall to oversold, and in a strong downtrend it may never rise to overbought. That leaves the system without a clear exit, or keeps it from re-entering in the trend's direction. So crossovers of these levels work best in trading ranges.\n\nWhy not the others:\nA – In strong trends the problem is too few opposite signals, not too many crossbacks.\nB – Re-optimizing levels for each security is not the main challenge described.\nD – Crossbacks happen most often in ranges, not only in strong trends.\n\nRemember: In a strong trend, the oscillator may never reach the opposite extreme."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The rate of change is rising while price falls"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The rate of price change has turned positive.\n\nWhy: Momentum measures the rate of price change, which is like velocity. When a momentum indicator such as rate of change moves above zero, the current price is now higher than it was a set number of periods ago. That means price change is positive, or positive velocity. It confirms that prices are rising over that window, but it does not say whether they are speeding up.\n\nWhy not the others:\nA – Rising at an increasing rate would be positive acceleration, which is a different idea.\nC – Crossing zero is the neutral line, not an overbought extreme.\nD – Momentum above zero means price is higher than before, not falling.\n\nRemember: Momentum above zero means price is higher than it was n periods ago."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Momentum signals only work when they are confirmed by rising volume"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Sound entries can still give short trades, so quick disciplined exits are part of the method.\n\nWhy: No signal works every time. A buy signal can be valid, based on good evidence at the time, and still be followed by a quick reversal. That does not make the signal wrong. It shows why exit rules exist: they keep losses small when a trade does not work out. Taking the exit as planned protects capital so you can act on the next signal.\n\nWhy not the others:\nA – A losing trade does not mean the entry rules were broken.\nC – Widening the exit to avoid being stopped out lets small losses grow.\nD – Volume confirmation can help, but it is not a requirement for momentum signals.\n\nRemember: Good signals can fail; disciplined exits keep failures small."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "It confirms that the existing trend will continue"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. There is a greater likelihood of a trend reversal.\n\nWhy: Equilibrium is the indicator's neutral level, such as zero. When momentum crosses its moving average close to equilibrium, it is not unwinding an extreme. Instead, the balance between buyers and sellers is shifting from roughly even to one side. That kind of change is more often linked with a real trend reversal than a crossover far from equilibrium.\n\nWhy not the others:\nA – A crossover near equilibrium is not weaker because of room to move; it is more often tied to a trend change.\nC – Short counter-trend moves are more typical of crossovers far from equilibrium.\nD – The crossover points to a possible change in trend, not continuation.\n\nRemember: Crossovers near equilibrium more often mean a real trend change."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "An acceleration of the prevailing trend"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A consolidation or a counter-trend move.\n\nWhy: When momentum is far from equilibrium, price has moved a long way very fast and is stretched. A crossover there often just shows that the extreme is being worked off. The usual result is a pause (consolidation) or a move against the trend, not a full reversal. Think of a sprinter slowing after a burst; they have not turned around, they are catching their breath.\n\nWhy not the others:\nB – Major reversals are more often linked with crossovers closer to equilibrium.\nC – A crossover at an extreme usually brings a pause, not a fresh trend in that direction.\nD – The crossover shows momentum easing, not the trend accelerating.\n\nRemember: Crossovers at extremes usually mean a breather, not a reversal."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "An overbought sell signal, since RSI is far above its 70 line"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A mega-overbought style thrust that typically precedes further gains.\n\nWhy: The stock breaks out of a long trading range with a price gap, and RSI jumps to a level not seen in many years. That kind of explosive momentum right after a long base shows a major shift in demand, similar to a mega-overbought condition. Such thrusts usually point to strength ahead. A pause or pullback may come first, but further gains tend to follow.\n\nWhy not the others:\nB – An exhaustion top happens late in a long move, not right after a breakout from a base.\nC – Extreme momentum on the breakout argues for its success, not its failure.\nD – An extreme reading after a long base is a sign of power, not a simple overbought sell.\n\nRemember: A multiyear momentum surge out of a base usually signals strength, not a top."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "It makes the RSI lag turning points in price by more"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It becomes more sensitive and reaches extremes more often.\n\nWhy: RSI compares the size of recent up moves with recent down moves over a set number of periods. Using fewer periods, 9 instead of 14, means each new price change has a bigger effect on the result. The indicator becomes more sensitive, swings more widely, and reaches overbought and oversold levels more often. The trade-off is more signals, including more false ones.\n\nWhy not the others:\nA – A shorter period makes RSI less smooth, not more.\nB – The thresholds stay the same; the period length does not move 70 to 50.\nD – A shorter period reduces lag; it does not increase it.\n\nRemember: Shorter RSI = more sensitive = more extremes and more false alarms."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "A car still rolling forward after the driver eases off the gas"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A car still rolling forward after the driver eases off the gas.\n\nWhy: A momentum divergence while price is still rising means price keeps making new highs, but momentum makes lower highs. In other words, the advance continues but at a slower rate. A car still rolling forward after the driver lifts off the accelerator captures this: it is still moving in the same direction, but losing speed. That loss of speed often comes before a stop or reversal.\n\nWhy not the others:\nA – An accelerating car means momentum is rising, the opposite of a divergence.\nB – Braking hard and reversing describes an actual price reversal, not a divergence.\nC – Constant speed means momentum is flat, not weakening.\n\nRemember: A divergence is price still moving forward while the speed behind it fades."
   }
 ]

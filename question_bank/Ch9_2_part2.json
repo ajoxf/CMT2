@@ -9,7 +9,8 @@
       "The raw stochastic before any smoothing is applied"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The slower line: %D, or %D Slow in slow and full versions.\n\nWhy: The stochastic has two lines. %K is the fast line that shows where the close sits within the recent high-low range. %D is a moving average of %K, so it is smoother. Divergences are judged on the smoother line because the fast line is jumpy and creates many small, false peaks and troughs. In the slow and full versions, the line used is the slower %D (sometimes called %D Slow). Using the smoother line gives cleaner, more reliable divergences.\n\nWhy not the others:\nB – The fast %K line is too jumpy for reliable divergence analysis.\nC – Switching lines depending on which is near an extreme is inconsistent and unreliable.\nD – The raw, unsmoothed stochastic is even noisier than %K.\n\nRemember: Look for stochastic divergences on the smoother %D line."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Price closing above its prior high"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. %K crossing below %D after the second, lower %D peak.\n\nWhy: A bearish divergence happens when price makes a higher high but %D makes a lower high, showing upward momentum is fading. The divergence is the setup, but you still need a trigger to act. The trigger is the fast line, %K, crossing below the slower %D after that second, lower %D peak. That crossover shows momentum is actually turning down.\n\nWhy not the others:\nB – A drop below 50 happens later and gives up part of the move.\nC – %K crossing above %D is a bullish crossover, the wrong direction.\nD – Price closing above its prior high is bullish and does not trigger a sell.\n\nRemember: Divergence sets it up; %K crossing below %D pulls the trigger."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "It signals that the uptrend is about to accelerate"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It raises the odds that the next rally high is a significant top.\n\nWhy: A bear setup is a pattern in the stochastic, during an uptrend, that warns the trend may be getting tired. It does not mean you should sell right away, and it does not prove the trend has reversed. It increases the chance that the next rally will stall and form an important top. Traders can use that warning to watch closely, tighten risk, or prepare to act on a trigger.\n\nWhy not the others:\nB – A setup is a warning; it is not itself a sell signal.\nC – The setup comes before a possible reversal; it does not confirm one.\nD – A bear setup points to weakness, not acceleration.\n\nRemember: A bear setup warns that the next high could be a major top."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "An overbought or oversold signal that calls for immediate action"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Extreme weakness or strength; the trend usually resumes after a pause.\n\nWhy: A stochastic reading of 100% means price closed at the very top of its recent range, and 0% means it closed at the very bottom. These readings show extreme strength or weakness. Rather than marking an immediate turn, they usually mean the trend is very powerful. After a short pause or pullback, prices often move further in the same direction.\n\nWhy not the others:\nA – An extreme reading does not mark a definite top or bottom.\nC – An immediate reversal is not what usually follows; the trend usually continues.\nD – Acting immediately at an extreme risks fighting a powerful trend.\n\nRemember: 0% or 100% shows a powerful trend, not a guaranteed turn."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Divergences that fail to produce a price reversal"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Structures that may signal a turn in the indicator's own trend next period.\n\nWhy: A hinge is a slowing in the stochastic line just before it turns. For example, if %D has been rising quickly and then rises only a little, the line is \"bending,\" like a door on a hinge. That flattening suggests the indicator may change direction in the next period. A hinge is a warning about the indicator's own path, which can then lead to a crossover or signal.\n\nWhy not the others:\nA – Sharp reversals in the fast line describe warnings, not hinges.\nB – Crosses of %K and %D are crossovers, not hinges.\nD – Failed divergences are a separate idea.\n\nRemember: A hinge is the stochastic line flattening just before it turns."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Sharp reversals in %K or %D that may precede a price turn by a few bars"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Sharp reversals in %K or %D that may precede a price turn by a few bars.\n\nWhy: Warnings are sudden, sharp changes in direction in the stochastic lines. Because the stochastic reacts quickly to where price closes within its range, a sudden reversal in %K or %D can hint that price is about to turn. Such a warning often comes just a few bars before the price reversal itself, so it gives a small head start.\n\nWhy not the others:\nA – A cross of the 50% level is not what a warning is.\nB – Hinges come before a turn; they do not confirm one that already happened.\nC – Divergences that fail to produce reversals are called failed divergences.\n\nRemember: A warning is a sharp stochastic reversal that may come just before price turns."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "85% as overbought and 15% as oversold"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 75% as overbought and 25% as oversold.\n\nWhy: The stochastic runs from 0% to 100%. The indicator's developer described readings above 75% as overbought and below 25% as oversold. These levels mark where the close is near the top or bottom of its recent range. Many traders today use 80% and 20% instead, but 75/25 are the levels he cited. Either way, the readings are warnings, not automatic trade signals.\n\nWhy not the others:\nA – 70 and 30 are the standard levels for RSI, not the stochastic.\nC – 80 and 20 are a popular modern convention, but they are not the levels he specifically mentioned.\nD – 85 and 15 are stricter than the levels he described.\n\nRemember: The stochastic's developer cited 75% and 25% as overbought and oversold."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Stochastic Pop for uptrends and Stochastic Poop for downtrends"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Stochastic Pop for uptrends and Stochastic Poop for downtrends.\n\nWhy: These two strategies trade in the direction of a strong move. The Pop is used in uptrends: when the stochastic pushes into overbought territory, it is treated as a sign of strength, so traders buy rather than sell. The Poop is the mirror image for downtrends: when the stochastic falls into oversold territory, traders sell rather than buy. Both treat extremes as momentum, not reversal.\n\nWhy not the others:\nA – \"Stochastic Bull and Bear\" are not the names of these strategies.\nB – \"Rise and Fall\" are not the names used.\nC – \"Swing Up and Swing Down\" are not the names used.\n\nRemember: Pop buys strength in uptrends; Poop sells weakness in downtrends."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Only the %D line changes; %K stays identical"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The 21-period version is smoother but has a similar shape.\n\nWhy: Both indicators measure the same thing: where the close sits within its recent range. A 21-period look-back covers more data than a 5-period one, so each new bar has less effect. The 21-period stochastic is therefore smoother, moves less sharply, and gives fewer signals. Because it is based on the same prices, its overall shape and major turns still look broadly similar to the 5-period version.\n\nWhy not the others:\nA – They use the same price data, so their shapes are related, not completely different.\nC – A longer setting reaches extremes less often, not more.\nD – Changing the look-back changes %K too, not just %D.\n\nRemember: Longer stochastic = smoother, same general shape, fewer signals."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "A warning"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A failed divergence.\n\nWhy: A bullish divergence happens when price makes a lower low but the stochastic makes a higher low, suggesting selling is fading. If price then keeps falling to new lows anyway, the divergence did not lead to a reversal. That is called a failed divergence. It reminds traders that a divergence is a warning, not a guarantee, and that a protective stop is needed.\n\nWhy not the others:\nB – A successful divergence would be followed by a price reversal.\nC – A hinge is the indicator flattening before it turns, not a failed signal.\nD – A warning is a sharp indicator reversal before a price turn, not a failure.\n\nRemember: When price ignores a divergence and keeps going, it is a failed divergence."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Using enough independent evidence without so many tools that decisions stall"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Using enough independent evidence without so many tools that decisions stall.\n\nWhy: Using more than one indicator helps confirm signals and avoid mistakes. But each tool should add something new. Too many indicators often say the same thing, or conflict so often that you can never make a decision. That is sometimes called \"analysis paralysis.\" The challenge is balance: use enough independent tools, each measuring something different, to build a clear picture without drowning in signals.\n\nWhy not the others:\nA – No indicator works in every environment, and searching for one is not the main challenge here.\nB – Relying on a single indicator is the opposite of combining indicators.\nC – Waiting for every indicator to agree often means never acting at all.\n\nRemember: Use enough indicators to confirm, but not so many that you cannot decide."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Price, volume, open interest, sentiment, and breadth"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Trend, momentum, volatility, volume, and trend strength.\n\nWhy: To avoid using several tools that measure the same thing, indicators can be grouped by what they reveal. Trend tools show direction, such as moving averages. Momentum tools show the speed of change, such as RSI. Volatility tools show the size of price swings, such as bands. Volume tools show participation. Trend-strength tools show how strong a trend is, such as ADX. Choosing one from each group gives a broad, non-overlapping view.\n\nWhy not the others:\nA – Divergences and patterns are ways of reading charts, not separate indicator types.\nB – Leading and lagging describe timing, not what kind of information an indicator gives.\nD – Sentiment and breadth are useful but are not the five types listed.\n\nRemember: Cover trend, momentum, volatility, volume and trend strength once each."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Conflicting evidence"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. High confidence in a strong uptrend.\n\nWhy: The composite scores four conditions, adding +1 for each bullish condition and −1 for each bearish one. So the score can run from −4 (all bearish) to +4 (all bullish). A reading of +4 means every one of the four conditions is bullish at the same time: price is above the fast average, the fast average is above a rising slow average, trend strength is rising, and a breakout has occurred. That full agreement gives high confidence in a strong uptrend.\n\nWhy not the others:\nB – A moderate reading would be around +1 or +2, not the maximum.\nC – The composite measures trend agreement, not overbought conditions.\nD – A score of +4 means complete agreement, not conflict.\n\nRemember: The top score in a composite means every condition agrees."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Volume is above average"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Price is above a fast moving average.\n\nWhy: A fast (short-period) moving average follows price closely and shows the recent trend. If price is above it, recent prices are higher than their short-term average, which is the simplest first sign of a short-term uptrend. More detailed checks can then be added, such as whether the fast average is above a slower one, or whether trend strength is rising.\n\nWhy not the others:\nB – A rising ADX shows the trend is getting stronger but not its direction.\nC – A move above the upper band shows strength or volatility, not the basic trend check.\nD – Above-average volume shows participation, not direction.\n\nRemember: The first trend check: is price above its fast moving average?"
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The fast MA is below a slower, rising MA"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The fast MA is above a slower MA that is itself rising.\n\nWhy: An established uptrend shows up in the order and slope of moving averages. When the fast average is above the slow average, recent prices are higher than longer-term prices. When the slow average is also rising, the longer-term trend is pointing up too. Together, these show the uptrend is in place on more than one time frame, not just a brief move.\n\nWhy not the others:\nA – A single cross above the fast average could be a brief move, not an established trend.\nC – Flat, close averages suggest a sideways market.\nD – A fast average below the slow one shows short-term weakness.\n\nRemember: Fast MA above a rising slow MA confirms an established uptrend."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "They work better in trending markets but fail in ranges"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. They provide faster signals but increase the risk of false or whipsaw signals.\n\nWhy: An indicator with a short calculation period reacts quickly to each new price. That speed is helpful because signals arrive sooner. The cost is that it also reacts to random noise. More signals are produced, and many of them reverse quickly, which causes whipsaws (small losses from false signals). This is the basic trade-off between speed and reliability.\n\nWhy not the others:\nA – Shorter periods give faster signals, not slower ones.\nC – No indicator removes lag completely, and computing power is not the issue.\nD – Shorter settings are not tied specifically to working in trends.\n\nRemember: Short settings give speed at the cost of more false signals."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "They remove lag but reduce signal accuracy"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They reduce false signals but lag, which can hurt reward-to-risk.\n\nWhy: A longer calculation period averages over more data, so the indicator is smoother and gives fewer false signals. But it reacts more slowly. By the time it signals, price may already have moved a long way. Entering late means less potential gain and often a wider stop, which weakens the reward-to-risk balance. That is the other side of the speed-versus-reliability trade-off.\n\nWhy not the others:\nA – Longer settings give fewer false signals and slower reactions, not the reverse.\nB – Longer settings lag more, not less.\nD – Longer settings increase lag; they do not remove it.\n\nRemember: Long settings are calmer but late."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "The calculation period is too short"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The calculation period is too short.\n\nWhy: An oscillator with a very short look-back reacts strongly to every price move. In any trending period, it quickly rises to the top or falls to the bottom of its range and stays there. Its readings then give little useful information because it is always at an extreme. Lengthening the period lets the indicator move more freely through its range.\n\nWhy not the others:\nA – A strong trend can push an oscillator to extremes, but constantly stuck readings point to the setting.\nB – A period that is too long has the opposite effect: the oscillator rarely reaches its extremes.\nC – The oscillator is not broken; it just needs a better setting.\n\nRemember: Stuck at the extremes? The period is too short."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "The oscillator is properly calibrated"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The calculation period is too long.\n\nWhy: An oscillator with a very long look-back averages over so much data that it becomes sluggish. It barely moves and rarely reaches its upper or lower extremes. That means it rarely gives overbought or oversold signals. Shortening the period makes the indicator more responsive so it uses more of its range.\n\nWhy not the others:\nB – A period that is too short makes the oscillator hit its extremes too often.\nC – Low volatility can play a part, but the usual cause is an overly long setting.\nD – An oscillator that never reaches its extremes is not well calibrated.\n\nRemember: Never reaching the extremes? The period is too long."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Oscillator signals are valid only in sideways markets"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Extremes can persist in a strong trend, so counter-trend trades keep losing.\n\nWhy: In a strong trend, an oscillator can stay overbought (in an uptrend) or oversold (in a downtrend) for a long time. Someone who sells every overbought reading in an uptrend may be stopped out over and over as prices keep rising. Oscillators show stretched conditions, but they do not stop a powerful trend. Trading against the main trend on oscillator signals alone therefore tends to produce repeated losses.\n\nWhy not the others:\nA – The main danger is that extremes persist, not that the signals are too late.\nB – Oscillators often reach extremes in strong trends; they just stay there.\nD – Oscillators can be useful in trends when used in the trend's direction.\n\nRemember: Oscillators can stay at extremes for a long time in strong trends."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Oversold signals and positive divergences"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Oversold signals and positive divergences.\n\nWhy: In a bullish market, the main trend is up. The best trades go with that trend. Oversold readings occur during pullbacks and often mark good buying points. Positive divergences, where price makes a lower low but the oscillator makes a higher low, show selling is fading. Both point to buying with the trend, which is where the odds are best.\n\nWhy not the others:\nA – Overbought signals and negative divergences point to selling, against the uptrend.\nB – Negative divergences are bearish and go against the trend.\nC – Reversal signals that fight the main trend have lower odds of success.\n\nRemember: In bull markets, focus on bullish oscillator signals."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Overbought signals and negative divergences"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Overbought signals and negative divergences.\n\nWhy: In a bearish trend, the main direction is down, so the best trades are sells or shorts. Overbought readings happen during rallies within the downtrend and often mark good selling points. Negative divergences, where price makes a higher high but the oscillator makes a lower high, show buying is fading. Both point to selling with the trend.\n\nWhy not the others:\nA – Oversold signals and positive divergences are buying signals, against the downtrend.\nB – Bullish reversal signals fight the main trend.\nC – Buying at support in a downtrend goes against the trend and often fails.\n\nRemember: In bear markets, focus on bearish oscillator signals."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Because oscillator formulas lag price by a fixed number of bars"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Because the same reading can mean different things in different conditions.\n\nWhy: An oscillator reading needs context. For example, an overbought reading in a sideways market may signal a good time to sell, but the same reading in a strong uptrend may simply show strength. Other analysis, such as trend direction, support and resistance, or price patterns, tells you which situation you are in. That context is what turns a reading into a useful signal.\n\nWhy not the others:\nA – Oscillators can give valid signals; they just work better with context.\nB – Volume can help, but it is not required for every oscillator signal.\nD – Oscillators do not lag price by a fixed number of bars.\n\nRemember: An oscillator reading means little until you know the market's context."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Fundamental analysis and macroeconomic indicators"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Pattern recognition, support/resistance, and trend identification.\n\nWhy: Oscillators show momentum and stretched conditions, but not where price is likely to turn or which way the trend points. Pattern recognition shows formations such as tops, bottoms and continuation patterns. Support and resistance show the price levels where buying or selling tends to appear. Trend identification shows the main direction. Combining these with oscillators gives a fuller and more reliable picture.\n\nWhy not the others:\nB – Moving averages alone give only one extra view, not a full picture.\nC – More oscillators with similar settings repeat the same information.\nD – Fundamental data may help investors, but the pairing described here is with other technical tools.\n\nRemember: Pair oscillators with patterns, support/resistance and trend."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Avoid indicators entirely and rely only on chart patterns"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Keep the analysis simple and let price have the final word.\n\nWhy: Indicators are calculated from price, so they can never be more important than price itself. A simple set of well-chosen tools is easier to understand and act on than a crowded chart. When indicators and price disagree, price is the final judge, because price is what determines whether a trade makes or loses money.\n\nWhy not the others:\nA – Too many indicators repeat each other and can freeze decisions.\nC – Relying on a single indicator gives no confirmation and misses other information.\nD – Avoiding indicators entirely gives up useful tools for measuring momentum and trend.\n\nRemember: Keep it simple; price has the final word."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Generating fully automatic trade orders"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Establishing conditions and triggers.\n\nWhy: Indicators help you describe the market's condition, such as whether it is trending, overbought or losing momentum. They can also provide triggers, specific events like a crossover that tell you when to act. They are not good at predicting exactly how far price will move, and they do not replace studying price itself. Used for conditions and triggers, they support a clear trading plan.\n\nWhy not the others:\nA – Indicators are poor at forecasting the size of future moves.\nC – Indicators come from price and cannot replace it.\nD – Indicators can be automated, but they are not best described as automatic order generators.\n\nRemember: Indicators set the scene and pull the trigger; they do not forecast the target."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Volume should not be considered with momentum indicators"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Consider both horizontal and vertical volume.\n\nWhy: Vertical volume is the usual volume bar shown under each price bar; it shows how much traded over time. Horizontal volume, also called volume at price, shows how much traded at each price level, often as sideways bars on the side of the chart. Vertical volume helps judge the strength of a move, while horizontal volume shows where support and resistance are likely. Using both gives a more complete view of participation.\n\nWhy not the others:\nA – Horizontal volume alone misses how participation changes over time.\nB – Vertical volume alone misses which price levels attracted the most trading.\nD – Volume adds information that momentum indicators do not provide.\n\nRemember: Vertical volume shows when; horizontal volume shows where."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "A bounded index such as RSI plus an unbounded one such as ROC"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A bounded index such as RSI plus an unbounded one such as ROC.\n\nWhy: A bounded indicator such as RSI always stays between fixed limits, such as 0 and 100, which makes overbought and oversold levels easy to define. An unbounded indicator such as rate of change has no fixed limits, so it shows the true size of a move. Using one of each gives two different views of momentum. Pairing two similar indicators would simply repeat the same information.\n\nWhy not the others:\nA – Two identical oscillators give exactly the same information.\nB – RSI and the stochastic with the same look-back often move very similarly, adding little.\nC – Two rate-of-change measures are the same type of indicator.\n\nRemember: Pair a bounded and an unbounded momentum tool for a fuller view."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "By momentum divergences"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. By bar ranges and bands.\n\nWhy: Volatility is the size of price swings. Bar ranges, the distance between each bar's high and low, show directly how much price is moving. Bands, such as those set a certain number of standard deviations around a moving average, widen when volatility rises and narrow when it falls. These tools measure volatility directly, while oscillators and divergences measure momentum.\n\nWhy not the others:\nA – Oscillator extremes show momentum, not volatility.\nB – Moving-average convergence relates to trend and momentum, not volatility.\nD – Momentum divergences show weakening momentum, not the size of swings.\n\nRemember: Measure volatility with bar ranges and bands."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "It works only on daily data, not on weekly or monthly charts"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It can be adapted to gauge overbought/oversold and other conditions.\n\nWhy: A composite model adds up points for a set of conditions, giving a single score. The idea is flexible. You can swap in different criteria to build composites for overbought and oversold conditions, volume, or volatility, not just trend direction. It can also use any number of conditions and any time frame. That adaptability is a key strength.\n\nWhy not the others:\nA – It is not limited to trend direction; it can be built for many purposes.\nC – It does not have to use exactly four criteria.\nD – It can be applied to weekly or monthly data as well as daily.\n\nRemember: A scoring model is a flexible framework you can build for many purposes."
   }
 ]

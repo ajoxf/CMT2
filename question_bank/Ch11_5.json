@@ -9,7 +9,8 @@
       "A double zigzag of similar depth to wave 2"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A sideways correction such as a flat, triangle, or double three.\n\nWhy: The guideline of alternation says the market rarely repeats itself in the same way twice in a row. Inside an impulse, waves 2 and 4 are the two corrections, and they tend to differ in form. If wave 2 was sharp (a zigzag that moves steeply against the trend), wave 4 is likely to be sideways, drifting in a range as a flat, triangle or combination. This helps you plan the shape and duration of wave 4 before it forms.\n\nWhy not the others:\nA – Expecting another sharp move is the opposite of what alternation suggests.\nB – A deep zigzag would repeat wave 2's sharp style, and wave 4 dropping below wave 2's low is not the expectation.\nD – A double zigzag is still a sharp correction, so it does not alternate with a sharp wave 2.\n\nRemember: Sharp wave 2 → sideways wave 4 (and vice versa)."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Sharp corrections make no new extreme beyond the end of the prior impulse"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Sharp corrections make no new extreme beyond the end of the prior impulse.\n\nWhy: A sharp correction, such as a zigzag, moves steadily against the trend and never revisits or exceeds the peak (in an uptrend) where the prior impulse ended. A sideways correction, such as an expanded flat, often pokes to a new high during wave B before falling. So the simple test is: did the correction make a new extreme beyond the impulse's end? If not, it is sharp.\n\nWhy not the others:\nA – Sharp corrections are usually quicker, not longer, than sideways ones.\nB – No exact 50% depth defines a sharp correction; depth varies.\nC – Flats and triangles are sideways corrections, the opposite category.\n\nRemember: Sharp = no new extreme; sideways = often a new extreme."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Sharp retracements and single abc zigzags"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Flats, triangles, and double threes.\n\nWhy: Sideways corrections spend time moving in a range rather than cutting deep against the trend. Flats (3-3-5), triangles (3-3-3-3-3) and combinations like double threes all have this range-bound character. Zigzags and double zigzags are the sharp family. Knowing the two groups lets you apply alternation between waves 2 and 4.\n\nWhy not the others:\nA – Single, double and triple zigzags are all sharp corrections.\nB – Ending diagonals are motive patterns, and zigzags are sharp.\nD – Sharp retracements and abc zigzags belong to the sharp group.\n\nRemember: Sideways family: flats, triangles, combinations."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Within the prior fourth wave of one lesser degree, often near its end"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Within the prior fourth wave of one lesser degree, often near its end.\n\nWhy: Elliott noticed that corrections, especially fourth waves, tend to stop in the price zone of the earlier, smaller fourth wave. For example, a wave 4 correction often ends within the range of the fourth subwave inside wave 3, frequently near that subwave's low (in an uptrend). This gives an early, practical target for where support may appear.\n\nWhy not the others:\nA – 61.8% of the whole impulse is a Fibonacci idea, not this depth guideline.\nB – Falling to the start of wave 1 would erase the entire impulse.\nC – Wave 2's ending level is not the reference; in an impulse wave 4 must also stay out of wave 1's range.\n\nRemember: Corrections often end in the previous fourth wave of lesser degree."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "The beginning of wave 1 and end of wave 5"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The ends of waves 2 and 4.\n\nWhy: To build an Elliott channel, first connect the low points of the two corrections — the ends of waves 2 and 4 (in an uptrend). This line is the base. Then draw a parallel line through the end of wave 3. The channel gives a rough target for where wave 5 may end.\n\nWhy not the others:\nA – Waves 1 and 3 can be used for an early channel, but the base line here connects 2 and 4.\nC – Waves 1 and 5 are not connected to form the base.\nD – The start of wave 1 and end of wave 5 describe the whole move, not a channel base.\n\nRemember: Base line = 2 to 4; parallel line through 3."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Starting at the projected end of wave 5"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Starting at the end of wave 3.\n\nWhy: Once the 2-4 base line is drawn, you copy its angle and place the parallel line so it touches the end of wave 3. The space between the two lines is the channel. Wave 5 is then expected to end near the upper (parallel) line in an uptrend.\n\nWhy not the others:\nA – The start of wave 1 is not the anchor for the parallel line.\nC – The end of wave 2 is already on the base line.\nD – Wave 5's end is what the channel tries to project, so it cannot be the starting point.\n\nRemember: Parallel line touches wave 3; wave 5 aims for it."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "A new impulse wave sequence is beginning"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The end of the wave will meet or fall short of the trendline.\n\nWhy: Volume shows how much force is behind a move. If wave 5 approaches the top of its channel while volume is shrinking, the move lacks fuel. In that case the guideline is that wave 5 will just touch or fall short of the upper line rather than break through it. Heavy volume, by contrast, raises the chance of an overshoot.\n\nWhy not the others:\nA – A big penetration needs heavy volume, not declining volume.\nC – Shrinking volume points to weakness, not acceleration.\nD – Falling volume near the line hints at the end of the current move, not a fresh impulse.\n\nRemember: Light volume at the channel line → wave 5 meets or falls short."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "When wave 3 fails to exceed the high of wave 1"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When a fifth wave penetrates the upper trendline on heavy volume.\n\nWhy: A throwover happens when wave 5 pushes briefly through the channel's upper line (in an uptrend) with heavy volume, often a sign of a final burst of buying. Elliott linked heavy volume near the line to this overshoot. It is usually followed by a reversal back inside the channel and beyond.\n\nWhy not the others:\nB – Wave 4 overlapping wave 1 is a rule violation, not a throwover.\nC – A correction exceeding 100% of the impulse signals a wrong count, not a throwover.\nD – Wave 3 failing to pass wave 1 would also be a rule problem, not a throwover.\n\nRemember: Throwover = fifth wave overshoots the channel on heavy volume."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Use arithmetic scale only, as Elliott originally intended"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. If price does not fit a channel on one scale, try the other.\n\nWhy: Arithmetic scale shows equal price changes as equal distances. Logarithmic scale shows equal percentage changes as equal distances. A strongly accelerating move may only form a neat channel on a log chart, while other moves fit better arithmetically. The practical approach is to use whichever scale gives a clean channel.\n\nWhy not the others:\nA – There is no rule linking scale to asset type.\nB – Log scale is useful, but it does not suit every move.\nD – Using only arithmetic scale ignores cases where log scale fits much better.\n\nRemember: Channel on one scale; if it fails, switch scales."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Renewed panic as the prior lows are tested again"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Mostly a rebound from depressed levels; few believe a new trend has begun.\n\nWhy: Wave 1 begins right after a decline, when the news is bad and sentiment is poor. The first rise looks like a simple bounce, so most people expect the downtrend to continue and use it to sell. Because belief is low, wave 1 is often modest and hard to spot.\n\nWhy not the others:\nB – Widespread optimism comes later, mainly in wave 3 and wave 5.\nC – Broad participation and better fundamentals are features of wave 3.\nD – Renewed panic as lows are tested describes wave 2.\n\nRemember: Wave 1: a bounce that few believe in."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Broadening strength as fundamentals begin to improve"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Fear returns as lows are tested; most still see the trend as down.\n\nWhy: Wave 2 gives back much of wave 1, so investors fear the bear market is coming back. Since many never believed wave 1, they see the pullback as proof that the trend is still down. Even so, wave 2 does not break below wave 1's start, which is the key technical clue that a new uptrend may be forming.\n\nWhy not the others:\nA – Growing confidence fits wave 3, after wave 2 holds.\nB – Peak enthusiasm belongs near the end of wave 5.\nD – Improving fundamentals and broad strength fit wave 3.\n\nRemember: Wave 2: fear returns, but the prior low holds."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Wave 5"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Wave 3.\n\nWhy: Wave 3 is when the new trend is recognised widely. More investors buy, breadth (the number of stocks rising) expands, and momentum is strongest. It is also governed by a hard rule: wave 3 is never the shortest of waves 1, 3 and 5. Together these traits make wave 3 the most powerful wave of an impulse.\n\nWhy not the others:\nA – Wave 1 has limited participation since few trust the new trend.\nB – Wave 2 is a correction, not an actionary wave.\nD – Wave 5 often shows narrower breadth and weaker momentum than wave 3.\n\nRemember: Wave 3: widest participation, strongest momentum, never shortest."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Caution prevails as investors doubt the advance"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Breadth and fundamentals lag wave 3, but optimism runs high.\n\nWhy: By wave 5 the trend has been going a long time, and optimism is at or near its peak. Yet beneath the surface, fewer stocks join the advance, momentum indicators may diverge, and fundamentals are no longer improving as fast as in wave 3. Price makes a new high, but on weaker internal strength.\n\nWhy not the others:\nA – Fear and sharp deterioration describe declines, not a fifth wave advance.\nC – Broad strength matched by fundamentals is the wave 3 picture.\nD – Caution and doubt describe wave 1 or wave 2.\n\nRemember: Wave 5: high optimism, weaker breadth."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Yes, they usually include a new price extreme"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Yes, they usually include a new price extreme.\n\nWhy: Sideways corrections, such as expanded flats, often make a new high (in an uptrend) during wave B, beyond where the impulse officially ended. This is part of what makes them 'sideways' instead of sharp. Sharp corrections, like zigzags, do not make this new extreme.\n\nWhy not the others:\nA – This reverses the definitions: sharp corrections are the ones that make no new extreme.\nB – Market direction does not decide this; it applies in rising and falling trends.\nC – New extremes are common in flats too, not only triangles.\n\nRemember: Sideways corrections often poke to a new extreme."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Double threes and complex combinations"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Zigzags (single or double).\n\nWhy: A sharp correction moves steadily and deeply against the trend. The zigzag's 5-3-5 shape, with strong five-wave legs in A and C, produces exactly that. When a zigzag is not deep enough, a second one is added, forming a double zigzag. Both remain sharp corrections.\n\nWhy not the others:\nB – Flats, including expanded flats, are sideways corrections.\nC – Triangles are sideways, and 'wedges' are diagonals, not corrections.\nD – Double threes and combinations are sideways corrections.\n\nRemember: Sharp corrections = zigzags (single or double)."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "At the same level as wave 2"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Near the level of the fourth wave of wave 3.\n\nWhy: The depth guideline says a correction often ends in the area of the prior fourth wave of one lesser degree. Wave 2 ending near the fourth subwave of wave 1 is an example of this. Applying the same logic, wave 4 should end near the fourth subwave inside wave 3, the most recent smaller fourth wave.\n\nWhy not the others:\nA – The start of wave 1 would erase the impulse and break the rules.\nB – No exact 50% target exists in the depth guideline.\nD – Wave 4 is not expected to match wave 2's level; it relates to wave 3's fourth subwave.\n\nRemember: Each correction targets the preceding smaller fourth wave."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "They share the same characteristics, including heavy volume"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They share the same characteristics, including heavy volume.\n\nWhy: A throwover is an overshoot of a channel or diagonal boundary on heavy volume. The same idea applies in falling markets: a final wave pushes below the lower channel line on heavy volume before reversing. The pattern is symmetrical; only the direction changes.\n\nWhy not the others:\nA – Heavy volume, not light volume, accompanies throwovers in both directions.\nB – Throwovers can occur in declines too.\nC – A throwover is defined relative to a channel line, so one is needed.\n\nRemember: Throwovers work the same up or down — overshoot plus heavy volume."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Indifference, with very low participation and volume"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Complacency and confidence, with news flow still largely positive.\n\nWhy: When wave 5 finishes a major top, the trend has been rising for a long time, so people feel safe and confident. News is mostly good because fundamentals often lag price. This complacency is a sign the crowd is fully invested, leaving few new buyers to push prices higher.\n\nWhy not the others:\nB – Fear and crisis talk belong at bottoms, near the end of declines.\nC – Balanced assessments are rare at extremes; tops show excess optimism.\nD – Low participation and indifference fit early wave 1, not a top.\n\nRemember: Tops feel safe — complacency is the warning."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "A rally on steadily expanding breadth and volume"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A narrow, weak rally with non-confirmations, often amid renewed optimism.\n\nWhy: After the first decline (wave A), wave B bounces. Many think the bull market is back, so optimism returns. But the rally is narrow: fewer stocks join, indices disagree, and indicators fail to confirm new strength. It is a corrective move, not a new trend.\n\nWhy not the others:\nB – Broad breadth is a feature of real advances like wave 3, not wave B.\nC – B exceeding the prior top with strong breadth would be more like a new impulse.\nD – Expanding breadth and volume contradict the weak, narrow nature of a B wave.\n\nRemember: Wave B is a 'sucker rally' — hopeful but narrow."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "As a buying opportunity within an ongoing bull trend"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. As a buying opportunity within an ongoing bull trend.\n\nWhy: At the start of a new decline, the crowd still believes in the bull market. So when price first drops below support, many see it as a dip to buy rather than a warning. Only later, when the decline deepens, does belief change.\n\nWhy not the others:\nA – Recognising a bear market comes later, usually in wave 3 or C.\nB – Exiting everything is rare this early; most still feel bullish.\nC – Most participants do pay attention, but they read it as a dip, not as noise.\n\nRemember: Early declines are bought as dips."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Brief, sharp declines quickly reversed on heavy buying"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Broad, persistent declines as fundamentals catch up with price.\n\nWhy: In a falling market, the third wave down (or wave C of a large correction) is the strongest phase. Most stocks fall together, the decline keeps going, and fundamentals finally worsen, confirming what price has been signalling. This mirrors wave 3 in a rising market.\n\nWhy not the others:\nA – Narrow, selective selling fits the early stages, not the main phase.\nB – Choppy sideways action and returning optimism fit a B wave or a fourth wave.\nD – Quick reversals on heavy buying would contradict a destructive phase.\n\nRemember: Wave 3 down or C: broad, relentless selling."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "A double three combination"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A sharp zigzag retracement.\n\nWhy: Alternation works in both directions. A triangle is a sideways correction. If wave 4 is a triangle, then wave 2 most likely took the opposite, sharp form — a zigzag that dropped steeply without a new extreme. Knowing one correction helps you guess the other.\n\nWhy not the others:\nB – Two triangles would repeat the same style, against alternation.\nC – A flat is also sideways, so it does not alternate with a triangle.\nD – Double threes are sideways too, again not alternating.\n\nRemember: If wave 4 is sideways, wave 2 was probably sharp."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "A possible throwover penetration of the upper channel line"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A possible throwover penetration of the upper channel line.\n\nWhy: Volume measures the strength behind a move. If wave 5 nears the upper channel line on heavy volume — more than in wave 3 — buyers are aggressive. Elliott linked this to a throwover, where price briefly pushes through the line before the trend ends.\n\nWhy not the others:\nA – Falling short is the expectation with declining volume, not rising volume.\nB – Heavy volume makes a reversal before reaching the line less likely.\nC – Heavy volume points to an overshoot, not necessarily a complex extension.\n\nRemember: Heavy volume at the channel top → watch for a throwover."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The start of the entire impulse sequence"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The fourth wave within wave 3, especially near its end.\n\nWhy: The depth guideline says corrections, especially fourth waves, often stop in the zone of the prior fourth wave of one lesser degree. Inside wave 3 there are five subwaves; its fourth subwave is the most recent smaller correction. That zone, especially near its end, is the first area to look for support for wave 4.\n\nWhy not the others:\nA – 38.2% of wave 3 is a Fibonacci idea, but the question asks about the depth guideline.\nC – Wave 2's end is not the reference point for this guideline.\nD – Going back to the impulse's start would cancel the impulse.\n\nRemember: Look first at the fourth wave inside wave 3."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Both wave 1 and wave 5 will also be extended"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. They tend toward equality, or else a 0.618 relationship.\n\nWhy: Since usually only one actionary wave extends, if wave 3 extends, waves 1 and 5 tend to be of similar size. If they are not equal, they often relate by the Fibonacci ratio 0.618 (one is about 61.8% of the other). This gives a useful target for wave 5.\n\nWhy not the others:\nA – 1.618 times wave 3 is not part of the equality guideline.\nC – Wave 5 is not required to be shorter than wave 1.\nD – Usually only one wave extends, so all three extending is unlikely.\n\nRemember: Wave 3 extended → waves 1 and 5 tend to be equal (or 0.618)."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Bear markets end when valuations reach historical lows"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Declines tend to end within the prior fourth wave of one lesser degree.\n\nWhy: The Elliott depth guideline offers a concrete way to estimate how far a bear market might go: it often ends in the price zone of the previous fourth wave of one lesser degree inside the prior advance. This gives analysts a target area rather than a guess.\n\nWhy not the others:\nA – A 61.8% retracement is a Fibonacci idea, not the main Elliott depth insight.\nB – The theory does offer a way to estimate depth, so 'cannot be estimated' is wrong.\nD – Valuations are a fundamental tool, not an Elliott guideline.\n\nRemember: Bear markets often stop at the prior fourth wave of lesser degree."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Draw a line from the beginning of wave 1 parallel to the 2-4 connection"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Draw a parallel line to the 2-4 line, starting at the end of wave 3.\n\nWhy: The Elliott channel has two lines. The base line connects the ends of waves 2 and 4. The second line is parallel to it and passes through the end of wave 3. Wave 5 is then expected to end near this upper line (in an uptrend).\n\nWhy not the others:\nA – A 1-3 line is not the standard completion of the 2-4 channel.\nC – A horizontal Fibonacci target is a different method, not channelling.\nD – The start of wave 1 is not the anchor for the parallel line.\n\nRemember: Parallel to 2-4, through wave 3."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Broadening strength, improving fundamentals, and the trend seen as up"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Broadening strength, improving fundamentals, and the trend seen as up.\n\nWhy: During wave 3, the market's rise is no longer doubted. Breadth widens, news and fundamentals improve, and many investors now see the trend as up. That widespread belief fuels the strongest part of the advance.\n\nWhy not the others:\nA – Weak fundamentals and pessimism fit the start of a trend, not wave 3.\nB – Peak optimism and fully priced fundamentals describe the end of wave 5.\nC – Confusion and sideways action fit corrective waves like wave 4.\n\nRemember: Wave 3: the trend is recognised and fundamentals improve."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "A triangle that necessarily includes a new price extreme"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A sharp zigzag correction that does not include a new price extreme.\n\nWhy: A flat with a new extreme is a sideways correction. Alternation suggests wave 4 will take the opposite form: sharp. Sharp corrections are zigzags that move steadily against the trend and do not make a new extreme beyond the end of the impulse.\n\nWhy not the others:\nB – Another flat would repeat the same form, against alternation.\nC – A correction over 78.6% would be unusually deep and is not what alternation predicts.\nD – A triangle is sideways, like the flat, so it would not alternate.\n\nRemember: Sideways wave 2 → sharp wave 4."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Bottom: complacency; Top: deep pessimism and panic"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Bottom: deep pessimism and fear; Top: confidence and complacency.\n\nWhy: Sentiment swings to extremes at turning points. At a major bottom (start of wave 1), the news is bad, fear is high, and few expect a rise. At a major top (end of wave 5), confidence and complacency dominate. These extremes are part of why the crowd is usually wrong at turns.\n\nWhy not the others:\nA – Sentiment is extreme, not neutral, at major turns.\nC – This reverses the moods: greed comes at tops, fear at bottoms.\nD – Complacency belongs at tops and panic at bottoms, not the other way round.\n\nRemember: Fear at bottoms, complacency at tops."
   }
 ]

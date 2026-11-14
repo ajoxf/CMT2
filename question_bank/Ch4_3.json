@@ -9,7 +9,8 @@
       "Single candles take longer to form than multi-candle patterns"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Single candles give a quick but narrow read; multi-candle patterns show sentiment over time.\n\nWhy: A single candle sums up one session: who won that day and by how much. It forms quickly, so it can alert you early, but it is a narrow view and one day can be noise. A multi-candle pattern links several sessions together, so it shows how the balance between buyers and sellers is changing over time. That wider view adds context but takes longer to appear.\n\nWhy not the others:\nA – This reverses the two: it is the multi-candle pattern that gives broader context and the single candle that is a snapshot.\nC – Both types benefit from confirmation; multi-candle patterns are not exempt.\nD – Single candles form in one session, so they are quicker, not slower, than multi-candle patterns.\n\nRemember: One candle is a snapshot; several candles are a short film of sentiment."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Buyers have regained full control of the trend"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Indecision, and a possible loss of upside momentum.\n\nWhy: A doji means the session closed at about the same price it opened, so neither buyers nor sellers won. After a strong uptrend, where buyers had been winning day after day, a sudden draw suggests their push is fading. It is a warning that momentum may be slowing, not proof that a reversal has begun. Confirmation from the next candles is still needed.\n\nWhy not the others:\nA – A doji shows balance, which argues against strong bullish continuation.\nB – A single doji cannot confirm a reversal; it only raises the possibility.\nD – Buyers in full control would produce long bullish candles, not a candle with no body.\n\nRemember: A doji after a rally says 'the buyers paused', not yet 'the sellers won'."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Large body in the middle with short shadows"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Small body at the top with a long lower shadow.\n\nWhy: A hammer is built like its name: a small 'head' (the real body) at the top of the candle and a long 'handle' (the lower shadow) below it, with little or no upper shadow. The shape shows price fell sharply during the session but buyers pushed it back up near the open by the close. After a decline that rejection of low prices hints at a possible bottom.\n\nWhy not the others:\nB – A hammer's long shadow is below a small body; a long upper shadow puts the rejection on the wrong side.\nC – Shadows on both sides with a small body describe a spinning top or doji.\nD – A large body with short shadows is a strong trend candle, not a hammer.\n\nRemember: Hammer: small head on top, long handle below."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Large bearish, small indecision, large bullish candle"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Large bearish, small indecision, large bullish candle.\n\nWhy: A morning star is a three-candle bottom reversal. First, a large bearish candle shows sellers in control. Second, a small-bodied candle (the star) shows selling has stalled and the market is undecided. Third, a large bullish candle shows buyers have taken over, ideally closing deep into the first candle's body. The sequence moves from selling, to pause, to buying.\n\nWhy not the others:\nA – This is the reverse order and describes an evening star, a top reversal.\nB – Three bullish candles in a row describe three white soldiers.\nC – Three bearish candles in a row describe three black crows.\n\nRemember: Morning star: down, pause, up, like the sun rising after the night."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "They may give false signals without confirmation from later candles"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They may give false signals without confirmation from later candles.\n\nWhy: A candlestick pattern describes what buyers and sellers did over one or a few sessions. Taken alone, without regard to trend, support, resistance, volume or the next few candles, it can easily be a random wiggle. Many patterns fail. Checking for confirmation, such as a follow-through candle in the expected direction, filters out many of these false signals.\n\nWhy not the others:\nA – Most candlestick patterns form in one to three sessions, so slowness is not their main problem.\nB – They are not useless in all conditions; their reliability improves with context and confirmation.\nC – Volume data is widely available; the limitation is the lack of confirmation, not missing data.\n\nRemember: A candle pattern is a hint; confirmation makes it evidence."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Little on its own; without a nearby support level or confirmation it is low-probability"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Little on its own; without a nearby support level or confirmation it is low-probability.\n\nWhy: A bullish engulfing pattern says buyers overpowered sellers for a day. In the middle of a trading range, price is moving back and forth with no important level nearby, so such shifts happen often and mean little. With only average volume and no support underneath, nothing backs up the signal. It should get little weight unless later price action confirms it.\n\nWhy not the others:\nA – Reliability depends heavily on location; a pattern in the middle of a range is weaker than one at support.\nB – A bullish engulfing pattern does not become bearish just because the range has not broken.\nC – A gap lower the next day would undermine a bullish pattern, not make it meaningful.\n\nRemember: Location matters: a pattern in no-man's-land carries little weight."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "A bearish reversal signal, as sellers erased the early gains by the close"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A bearish reversal signal, as sellers erased the early gains by the close.\n\nWhy: A shooting star has a small body near the low and a long upper shadow. After an uptrend it means buyers pushed price up strongly during the session, but sellers drove it back down to close near the open. That failed rally shows higher prices were rejected, which is a warning that the uptrend may be turning down. Confirmation on the next candle strengthens it.\n\nWhy not the others:\nA – The intraday rally failed by the close, so it signals weakness, not bullish continuation.\nB – The shape points to a possible reversal, not specifically to sideways movement.\nC – After an uptrend the rejected rally gives a bearish tilt, so it is not neutral.\n\nRemember: Shooting star: a rally that burned out by the close."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "They appear mainly at major market tops"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They combine information from several sessions, filtering out one-off noise.\n\nWhy: Any single session can be distorted by a news headline or a thin market. A multi-candle pattern requires the behaviour to show up over two or three sessions in a logical order, such as selling, then a pause, then buying. That extra evidence makes it less likely the signal is random, so these patterns tend to be more reliable.\n\nWhy not the others:\nA – Multi-candle patterns form more slowly, not more quickly, than single candles.\nB – They still benefit from confirmation by later price action.\nD – They appear at bottoms as well as tops, and their reliability is not about where they appear most.\n\nRemember: More sessions, more evidence, less noise."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "The downtrend is likely to accelerate from here"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Buyers rejected lower prices, so support may hold and a reversal is possible.\n\nWhy: Support is a price level where buying has stopped declines before. A hammer shows that during the session sellers pushed below, but buyers stepped in and drove price back near the top. When this happens right at support, two pieces of evidence agree: the level attracted buyers again, and the candle shows them winning by the close. That raises the odds the level holds and price turns up.\n\nWhy not the others:\nA – The hammer shows buyers beating sellers, not sellers about to break the level.\nC – A hammer at support has a bullish bias, not a neutral one.\nD – A rejection of lower prices argues against the decline speeding up.\n\nRemember: Hammer at support: the floor was tested and buyers held it."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "The market will remain range-bound around support"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Buying pressure is overtaking selling, so the decline may be losing momentum.\n\nWhy: In a bullish engulfing pattern, a bullish body fully covers the prior bearish body, showing buyers overpowered sellers in one session. Near support, a level where buyers have stepped in before, this shift matches the expected behaviour of the level. Together they suggest the decline is running out of steam and a reversal up is possible.\n\nWhy not the others:\nA – An engulfing bullish candle shows buyers winning, not selling pressure dominating.\nC – The pattern suggests support is holding, not failing.\nD – A strong bullish candle at support points to a possible move up, not to a quiet range.\n\nRemember: Bullish engulfing at support: the floor plus a strong buyer equals a possible turn."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Price will consolidate quietly at this level"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Support may be failing, and the decline could continue.\n\nWhy: Support only works if buyers keep defending it. If bearish candle patterns, such as long down candles or bearish engulfing patterns, form right at support, sellers are winning at the very place buyers should be strongest. That suggests demand at the level is weakening, the support may break, and the downtrend could carry on lower.\n\nWhy not the others:\nB – Bearish patterns at support show sellers winning there, which weakens the level rather than reinforcing it.\nC – Bearish patterns do not signal a bullish reversal.\nD – Strong bearish patterns show active selling, not quiet consolidation.\n\nRemember: Bearish candles at support are cracks in the floor."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "A bullish breakout is imminent"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The resistance level is holding and a downward reversal is likely as sellers regained control.\n\nWhy: Resistance is a price level where selling has stopped advances before. A shooting star shows that buyers pushed price higher but sellers drove it back down by the close. When that happens at resistance, the level did its job once again, rejecting higher prices. The combination makes a turn lower more likely, especially if the next candle confirms it.\n\nWhy not the others:\nB – The candle shows the push above resistance failed, which argues against a breakout.\nC – A rejection at resistance has a bearish tilt rather than signalling sideways movement.\nD – A failed rally is the opposite of an imminent bullish breakout.\n\nRemember: Shooting star at resistance: the ceiling pushed the buyers back down."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "A new support level is forming"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Sellers are overpowering buyers, pointing to a possible reversal lower.\n\nWhy: In a bearish engulfing pattern, a large bearish body completely covers the prior bullish body, showing sellers wiped out the previous day's buying and more. At resistance, a level where sellers have appeared before, this is exactly the behaviour you expect if the level is holding. The two together point to a possible move down.\n\nWhy not the others:\nA – A bearish engulfing candle shows sellers winning, not buyers in control.\nC – A large bearish body is decisive, not indecisive; indecision shows as small bodies.\nD – The pattern says resistance is holding, not that a new support is forming.\n\nRemember: Bearish engulfing at resistance: sellers defend the ceiling with force."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "The pattern is invalid at resistance"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Resistance may give way and price could break through and keep rising.\n\nWhy: At resistance, sellers normally appear and push price back. If instead bullish candle patterns, such as strong up candles or bullish engulfing patterns, form at that level, buyers are winning where sellers should be strongest. That suggests the supply at the level is being absorbed, and the resistance may break with price continuing higher.\n\nWhy not the others:\nB – Bullish candles at resistance show sellers are not defending the level successfully.\nC – Bullish patterns point up, not to a bearish reversal.\nD – Patterns at resistance are not invalid; their meaning just depends on which side is winning there.\n\nRemember: Bullish candles at resistance can mean the ceiling is about to crack."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Support and resistance remove the need for confirmation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. These are levels where price has reacted before, so a pattern there carries more weight.\n\nWhy: Support and resistance are price levels where many traders have bought or sold in the past, so the market tends to react there again. A candlestick pattern shows who is winning right now. When a reversal pattern forms at such a level, the pattern and the level point the same way, giving two independent reasons to expect a turn. That is why location makes patterns more meaningful.\n\nWhy not the others:\nA – Patterns are equally easy to see anywhere; the level adds meaning, not visibility.\nC – Volume is not always higher at these levels, and that is not the main reason.\nD – Support and resistance add weight but do not remove the need for confirmation.\n\nRemember: A pattern at a level where the market has turned before is a pattern with backup."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "It appears on the chart but has not yet been validated by follow-up price movement"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It appears on the chart but has not yet been validated by follow-up price movement.\n\nWhy: An unconfirmed pattern is one that has fully formed but has not yet been followed by price moving in the direction it suggests. For example, a hammer has printed at a low, but the next candle has not yet closed higher. Until that follow-through arrives, the pattern is only a possible signal, and it may still fail.\n\nWhy not the others:\nA – Already being validated by a follow-through move is the definition of a confirmed pattern.\nB – Low volume can weaken a pattern, but it is not what 'unconfirmed' means.\nC – Location away from support or resistance lowers quality, but confirmation refers to later price action.\n\nRemember: Unconfirmed means 'formed but not yet followed through'."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "An unconfirmed pattern that failed"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. An unconfirmed pattern that failed.\n\nWhy: A hammer at the bottom of a downtrend suggests a possible turn up, but it needs the following candles to move higher to be confirmed. Here the next candles kept falling instead. The expected follow-through never came, so the pattern was never confirmed and the signal failed. This is why traders wait for confirmation before acting.\n\nWhy not the others:\nA – A confirmed reversal would need the next candles to rise, which did not happen.\nB – A hammer is a reversal pattern, and here no bullish move followed.\nC – A hanging man forms after an uptrend; a candle at the end of a downtrend is not a hanging man.\n\nRemember: If the next candles go the wrong way, the pattern failed; let it go."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "It allows a wider stop-loss without extra risk"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It lowers the chance of acting on a false signal, at the cost of a later entry.\n\nWhy: Waiting for confirmation means you act only after price has started to move the way the pattern suggests. Many patterns that fail are filtered out this way, so fewer trades are based on false signals. The price of that safety is that part of the move has already happened, so the entry is later and usually at a less favourable price.\n\nWhy not the others:\nA – Waiting usually gives a worse entry price, because price has already moved in the expected direction.\nC – Confirmation does not replace support and resistance analysis; both work together.\nD – A wider stop always means more risk per share; confirmation does not change that.\n\nRemember: Confirmation trades a little profit for a lot more confidence."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Both carry the same risk of failure"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Confirmed patterns carry less risk of a false signal because price has already moved as expected.\n\nWhy: With an unconfirmed pattern, you are betting that the follow-through will come, and often it does not. A confirmed pattern has already shown that follow-through, so the chance it is simply a false signal is lower. The trade-off is that some of the potential gain has been given up by entering later.\n\nWhy not the others:\nA – Confirmed patterns carry less risk of being false; entering later reduces reward, not the failure risk.\nB – Entering earlier on an unconfirmed pattern increases the chance of acting on a signal that fails.\nD – The two do not carry equal risk; confirmation filters out many failures.\n\nRemember: Confirmed = lower failure risk, later entry; unconfirmed = earlier entry, higher failure risk."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "A larger position size to offset the uncertainty"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Other tools such as volume, moving averages or oscillators.\n\nWhy: When a pattern has not yet been confirmed by price, a trader can look for supporting evidence elsewhere. Volume shows how many people took part. Moving averages, which smooth price over a set period, show the underlying trend. Oscillators, such as momentum indicators, show whether a market is stretched. If these tools agree with the pattern, the signal is stronger.\n\nWhy not the others:\nB – Entering immediately on an unconfirmed pattern alone is exactly the risky approach to avoid.\nC – Candle color alone says too little to validate a pattern.\nD – Increasing position size on an uncertain signal raises risk instead of managing it.\n\nRemember: No confirmation yet? Look for agreement from other tools."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Any candlestick pattern without considering support or resistance"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A confirmed bullish engulfing pattern at a support level with increasing volume.\n\nWhy: The strongest setups line up several pieces of evidence. Here, the bullish engulfing pattern shows buyers taking over; the support level is a place where buyers have stepped in before; rising volume shows broad participation; and confirmation shows price has already followed through. Each factor alone is useful, but all four together give the best odds.\n\nWhy not the others:\nA – An unconfirmed hammer in the middle of a trend has no level and no follow-through to support it.\nB – An isolated doji with no context only shows indecision.\nD – Ignoring support and resistance throws away one of the most important context clues.\n\nRemember: Best setups stack evidence: pattern + level + volume + confirmation."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Three small-bodied bearish candles with long lower shadows"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Three long bearish candles, each opening in or near the prior body and closing near its low.\n\nWhy: Three black crows is a bearish reversal pattern that usually appears after an uptrend. It has three long down candles in a row. Each opens within or near the previous candle's body and then sells off to close near its low. The steady pattern of lower closes with no meaningful bounce shows sellers taking firm control.\n\nWhy not the others:\nA – Three bullish candles closing near their highs describe three white soldiers, the bullish opposite.\nB – The crows normally open inside the prior body; gapping below each prior low is not the definition.\nD – Small bodies with long lower shadows show buyers fighting back, which is not the crows' message.\n\nRemember: Three black crows: three long down days, each closing near its low."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "As a neutral pattern with no trading implications"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. As a confirmed bearish reversal with high reliability for downward movement.\n\nWhy: An evening star is a three-candle top pattern: a long up candle, a small star, then a strong down candle. Forming near resistance adds weight, because sellers have pushed price down from that level before. The continued bearish candles that follow are the confirmation, showing price is actually moving lower. Pattern, location and follow-through all agree.\n\nWhy not the others:\nB – The follow-through has already happened, so it is no longer unconfirmed.\nC – An evening star is a bearish pattern, and it is followed here by falling prices.\nD – With strong context and confirmation it clearly has trading implications.\n\nRemember: Evening star + resistance + follow-through = a confirmed top."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "They are easier to misread than single candles"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. They take longer to form, so early parts of a move may be missed.\n\nWhy: A multi-candle pattern needs two, three or more sessions to complete. By the time it is finished, price may already have moved a fair amount in the new direction. That delay is the main cost of their extra reliability: you get a clearer signal but enter later than you would with a single-candle signal.\n\nWhy not the others:\nB – Multi-candle patterns are generally more reliable, not less.\nC – They convey more information about sentiment because they cover several sessions.\nD – Being harder to misread is not their weakness; the main drawback is timing.\n\nRemember: Multi-candle patterns are surer but slower."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Treat it as a continuation of the downtrend"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Consider a long position, given a confirmed reversal at support.\n\nWhy: Here the evidence lines up. The morning star shows selling, then a pause, then buying. It formed at key support, where buyers have stepped in before. The third candle is strong and on high volume, showing broad participation in the turn. Together these make a long (buying) position reasonable to consider, with risk managed, for example a stop below the pattern's low.\n\nWhy not the others:\nA – Shorting ignores the evidence that the downtrend has just been rejected at support.\nC – No fourth bearish candle is needed; a bearish candle would actually cancel the bullish signal.\nD – A morning star is a reversal pattern, not a continuation of the downtrend.\n\nRemember: When pattern, level and volume agree, the reversal deserves respect."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Several candles give more evidence that a reversal or continuation is genuine"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Several candles give more evidence that a reversal or continuation is genuine.\n\nWhy: Each candle is one piece of evidence about who is winning. When several candles in a row tell a consistent story, such as sellers losing strength and buyers taking over, the case for a real change is stronger than one candle alone could make. That interplay helps separate genuine shifts from random one-day moves.\n\nWhy not the others:\nA – Candle patterns work best together with support and resistance, not instead of it.\nB – More candles take more time to form, not less.\nC – No pattern can guarantee a large move; it only improves the odds.\n\nRemember: Candles that agree with each other make a stronger case."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "A second doji immediately afterward"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Follow-through by the next candle(s) in the reversal direction, ideally on rising volume.\n\nWhy: A doji shows indecision, and here it forms at a level where price has turned three times before, so the location is strong. What is still missing is proof that price will actually reverse. Follow-through, meaning the next candle or two moving clearly in the reversal direction, provides that proof, and rising volume shows many traders are behind the move.\n\nWhy not the others:\nA – Falling volume on the next candle would show weak participation and weaken the signal.\nB – A gap against the expected reversal would argue that the trend is continuing.\nD – Another doji only adds more indecision; it does not show a direction.\n\nRemember: A doji at a strong level still needs the next candle to move, ideally on rising volume."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "It confirms that the downtrend will continue"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It shows a strong sentiment shift as buyers overwhelm sellers.\n\nWhy: In a bullish engulfing pattern, the bearish candle shows sellers in control, and then the next session opens lower yet closes above the first candle's open. Buyers erased the prior day's selling entirely and more. The larger the bullish body compared to the bearish one, the clearer the swing in sentiment from sellers to buyers.\n\nWhy not the others:\nB – A large bullish candle shows buying pressure growing, not fading.\nC – Indecision shows as small bodies; a large engulfing body is decisive.\nD – The pattern argues that the downtrend may be ending, not continuing.\n\nRemember: Bullish engulfing: buyers do not just stop the sellers, they overrun them."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "An unconfirmed engulfing pattern at support on light volume"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A confirmed multi-candle pattern at key support or resistance, with rising volume.\n\nWhy: Probability improves as independent pieces of evidence agree. A multi-candle pattern is more reliable than a single candle. Confirmation shows price has followed through. A key support or resistance level is where the market has turned before. Rising volume shows broad participation. This option is the only one that combines all four.\n\nWhy not the others:\nA – A single hammer entered immediately has no confirmation and no supporting level.\nB – The middle of a trading range lacks a nearby level, which weakens even a confirmed pattern.\nD – An unconfirmed pattern on light volume has neither follow-through nor participation.\n\nRemember: The best setup has it all: multi-candle, confirmed, at a key level, on rising volume."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "A sign the market will stay range-bound at this level"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A confirmed bearish reversal at resistance, favoring further decline.\n\nWhy: Several factors line up here. The resistance level has been tested multiple times and held, showing persistent selling there. A bearish engulfing pattern shows sellers overpowering buyers. Two more bearish candles confirm the move down, and rising volume shows growing participation in the selling. Together this is a confirmed reversal that favours lower prices.\n\nWhy not the others:\nA – Two follow-through candles mean the pattern is already confirmed.\nB – Bearish candles on rising volume point away from an upside break.\nD – Strong, confirmed selling suggests a move lower, not a continued range.\n\nRemember: Repeated resistance + bearish engulfing + follow-through on rising volume = a strong sell setup."
   }
 ]

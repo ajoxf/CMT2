@@ -9,7 +9,8 @@
       "(Advancing stocks / Up volume) / (Declining stocks / Down volume)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. (Advancing stocks / Up volume) / (Declining stocks / Down volume)\n\nWhy: TRIN compares how many stocks are on each side with how much volume is on each side. The textbook form is (advancers ÷ decliners) ÷ (up volume ÷ down volume). Option D is the same thing rearranged: it compares the number of advancing stocks per unit of up volume with the number of declining stocks per unit of down volume. Example: 2,000 advancers, 1,000 decliners, 1,500 up volume, 500 down volume. Issue ratio = 2. Volume ratio = 3. TRIN = 2 ÷ 3 = 0.67, and option D gives (2,000 ÷ 1,500) ÷ (1,000 ÷ 500) = 1.33 ÷ 2 = 0.67, the same answer.\n\nWhy not the others:\nA – Multiplying the two ratios instead of dividing gives a meaningless number (here 2 × 3 = 6).\nB – Subtracting one ratio from the other is not how the index is built.\nC – Adding stock counts to volume mixes units that cannot be combined.\n\nRemember: TRIN = issue ratio ÷ volume ratio = (A/D) ÷ (UV/DV)."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "2"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 1\n\nWhy: TRIN equals the advance-decline issue ratio divided by the up-down volume ratio. When the two ratios are equal, volume is spread evenly between rising and falling stocks relative to their numbers, and the result is exactly 1. For example, if advancers outnumber decliners 2 to 1 and up volume outweighs down volume 2 to 1, TRIN = 2 ÷ 2 = 1. Below 1 leans bullish; above 1 leans bearish.\n\nWhy not the others:\nA – TRIN is a ratio of positive numbers, so it cannot be 0 in practice and 0 is not its balance point.\nB – A reading of 0.5 is strongly bullish, not neutral.\nD – A reading of 2 is strongly bearish, not neutral.\n\nRemember: TRIN of 1 means volume is perfectly balanced with the number of issues."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Market equilibrium"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Bullish: more volume per advancing issue than per declining issue\n\nWhy: A TRIN below 1 means the volume ratio is bigger than the issue ratio. In plain terms, each rising stock is attracting more trading volume, on average, than each falling stock. That shows buyers are putting heavier money behind the advancing side. For example, if the issue ratio is 1.3 and the volume ratio is 2.0, TRIN = 1.3 ÷ 2.0 = 0.65. Readings under 1 are read as bullish for the day.\n\nWhy not the others:\nA – Heavier volume in declining stocks would push TRIN above 1, not below.\nB – Neutral is a reading of 1, not 0.65.\nD – Equilibrium is the same as neutral, a reading of 1.\n\nRemember: TRIN below 1 = money is flowing more heavily into advancers."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Overbought conditions requiring caution"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Bearish: more volume per declining issue than per advancing issue\n\nWhy: TRIN above 1 means the issue ratio is larger than the volume ratio. Each falling stock is, on average, drawing more trading volume than each rising stock. That indicates heavier selling pressure behind the decliners. For example, an issue ratio of 1.0 and a volume ratio of 0.6 gives TRIN = 1.0 ÷ 0.6 ≈ 1.67, a bearish reading for that day.\n\nWhy not the others:\nB – Strong advancing volume pushes TRIN below 1, not above.\nC – Balanced volume gives a reading near 1, not clearly above it.\nD – Above 1 on a single day reflects selling pressure; very high readings are often treated as oversold, not overbought.\n\nRemember: TRIN above 1 = volume is crowding into the declining stocks."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "50-day EMA and 200-day EMA"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 19-day EMA and 39-day EMA\n\nWhy: The McClellan Oscillator starts with daily net advances (advancers minus decliners). You then calculate a 19-day exponential moving average (EMA) and a 39-day EMA of that series. An EMA is an average that gives more weight to recent days. The oscillator is the 19-day EMA minus the 39-day EMA. When short-term breadth is stronger than longer-term breadth, the reading is positive.\n\nWhy not the others:\nA – 5 and 35 are not the periods used in this indicator.\nB – 10 and 20 are common settings elsewhere but not for the McClellan Oscillator.\nD – 50 and 200 are long-term price moving average periods, far too slow for this breadth oscillator.\n\nRemember: McClellan Oscillator = 19-day EMA minus 39-day EMA of net advances."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "-200 and +200"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. +100 and -100\n\nWhy: Because the oscillator is the gap between a faster and a slower average of net advances, it swings back and forth around zero. In normal conditions, most readings fall between about +100 and −100. Readings near those edges are considered overbought (near +100) or oversold (near −100). Readings beyond them are unusual and show exceptionally strong breadth momentum.\n\nWhy not the others:\nA – 0 to 100 describes bounded oscillators like RSI; the McClellan Oscillator goes negative.\nC – ±50 is too narrow; readings regularly exceed 50 in either direction.\nD – ±200 is far beyond normal readings and would only be reached in rare extremes.\n\nRemember: The McClellan Oscillator usually lives between +100 and −100."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "To confirm price breakouts in individual stocks"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. As an overbought or oversold indicator\n\nWhy: The McClellan Oscillator measures short-term momentum in market breadth. When it rises toward +100, breadth has been unusually strong for a short time, which is often called overbought. When it falls toward −100, breadth has been unusually weak, often called oversold. Traders use these readings to judge when a short-term breadth swing has gone far and may be due to pause or reverse.\n\nWhy not the others:\nA – Long-term trends are better judged with its cumulative version, the Summation Index.\nB – It is built from advancing and declining issues, not volume.\nD – It is a market-wide breadth tool, not a breakout confirmer for individual stocks.\n\nRemember: The McClellan Oscillator is a short-term overbought/oversold gauge of breadth."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "The market will remain range-bound"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. An unusually forceful momentum burst that may launch a more durable trend\n\nWhy: Readings beyond +100 or −100 show breadth momentum stronger than normal. Very strong positive readings often appear when a big, broad rally begins, which can signal that a lasting uptrend is under way. Extreme readings can mean overbought or oversold in normal conditions, but when breadth is this powerful it often reflects a genuine shift in the market's direction rather than a quick reversal.\n\nWhy not the others:\nA – Extreme readings do not almost always reverse at once; they can mark the start of strong moves.\nB – An extreme reading is not a guaranteed signal of an imminent reversal.\nD – Forceful momentum is the opposite of a range-bound market.\n\nRemember: Breadth extremes can be a launch pad, not just a stop sign."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "A momentum indicator built from individual stock prices"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A cumulative total of McClellan Oscillator readings, similar to an advance-decline line\n\nWhy: The Summation Index adds each day's McClellan Oscillator reading to the previous total, building a running sum. Just as the advance-decline line is a running total of daily net advances, the Summation Index is a running total of the oscillator. Because it accumulates, it moves more slowly and smoothly than the oscillator and reflects longer-term breadth trends.\n\nWhy not the others:\nB – An exponential average of the oscillator would be a signal line, not a cumulative sum.\nC – No reciprocal or rescaling defines this index.\nD – It is built from breadth data (advances and declines), not individual stock prices.\n\nRemember: Summation Index = running total of the McClellan Oscillator."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "It reacts faster to short-term breadth swings"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It is better suited to spotting major cyclical turns\n\nWhy: Because the Summation Index adds up the oscillator's readings over time, it filters out short-term noise and shows the bigger trend in breadth. That makes it useful for identifying major, longer-term turning points in the market, such as the start or end of an intermediate or primary trend. The oscillator, by contrast, is better for short-term overbought and oversold swings.\n\nWhy not the others:\nA – A smoother, slower line gives fewer signals, not more.\nB – It requires the oscillator first, so it is not easier to calculate.\nD – Accumulating readings makes it slower, not faster, to react to short-term swings.\n\nRemember: Oscillator for short swings; Summation Index for big turns."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "A 10-day MA of the Arms Index"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A 10-day MA of (Advancers / (Advancers + Decliners))\n\nWhy: Each day you compute the share of moving stocks that rose: advancers ÷ (advancers + decliners). For example, 1,800 advancers and 600 decliners gives 1,800 ÷ 2,400 = 75%. You then take a 10-day moving average of those daily percentages. The result shows whether buying has been broad over the last two weeks and is the basis for detecting a breadth thrust.\n\nWhy not the others:\nB – Up volume divided by total volume is a volume measure, not this breadth indicator.\nC – New highs versus new lows is a leadership measure.\nD – Averaging TRIN gives a different indicator, sometimes called an open or smoothed Arms Index.\n\nRemember: Zweig Breadth Thrust = 10-day average of advancers ÷ (advancers + decliners)."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Falls below 30%"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Moves from under 40% to over 62%\n\nWhy: A breadth thrust means the market goes from very weak breadth to very strong breadth in a short time. The signal fires when the 10-day average of the advancers percentage climbs from below 40% (oversold) to above about 62% (very strong). This must happen quickly, within roughly ten trading days. It shows a sudden, broad wave of buying sweeping through the market.\n\nWhy not the others:\nB – Crossing 50% is an ordinary event and does not show a thrust from an oversold level.\nC – An 80% reading on a 10-day average is extremely rare and not the defined trigger.\nD – Falling below 30% describes weakness, not a thrust.\n\nRemember: Zweig thrust = from below 40% to above about 62%, fast."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Infrequent, and typically near the start of major rallies"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Infrequent, and typically near the start of major rallies\n\nWhy: The thrust needs the breadth average to swing from deeply oversold to strongly positive within a short time, which rarely happens. When it does, it usually reflects a powerful shift from selling to broad buying, so the signals have tended to appear near the beginning of significant advances. Their rarity is part of what makes them noteworthy.\n\nWhy not the others:\nA – These signals are rare and appear only occasionally, not monthly.\nB – They are not moderately frequent; most market conditions never produce one.\nC – They are bullish signals linked to the start of rallies, not warnings near tops.\n\nRemember: Breadth thrusts are rare, bullish, and tend to start big rallies."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "A selling panic followed by a buying panic"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A selling panic followed by a buying panic\n\nWhy: A day on which about 90% of volume and issues decline is a selling panic: almost everyone is rushing to sell. If, soon afterwards, the market posts one or more days of overwhelming upside breadth, buyers are now rushing in, which is a buying panic. This sequence shows that selling has exhausted itself and demand has returned forcefully, a classic pattern at important bottoms.\n\nWhy not the others:\nA – A 90% down day is the opposite of a gradual, light-volume capitulation.\nB – The method measures total market breadth, not a rotation between size groups.\nC – It is based on breadth extremes, not on a moving average breakout.\n\nRemember: Panic selling then panic buying is the breadth signature of a bottom."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The TRIN reaching 2.0 or higher"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 90% declining and down volume days\n\nWhy: The method identifies a selling panic as a day on which about 90% of the volume is in declining stocks and about 90% of the points or issues are on the downside. Such near-total selling shows that investors are dumping stocks almost indiscriminately. These extreme days are the first part of the bottoming setup; the second part is the follow-up buying.\n\nWhy not the others:\nB – A support breach is a price-chart event, not the breadth-based definition used here.\nC – Three down days in a row says nothing about how extreme the selling was.\nD – TRIN is not part of this method's definition of a selling panic.\n\nRemember: In this method, a selling panic = a 90% down day."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "One 90% upside day, or several 80% upside days close together"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. One 90% upside day, or several 80% upside days close together\n\nWhy: After a selling panic, the method looks for proof that buyers have returned in force. That proof is either a single 90% upside day, where about 90% of volume and points are on the upside, or two or more 80% upside days within a short period. Either shows a buying panic, confirming that the panic selling has likely marked a bottom.\n\nWhy not the others:\nA – A golden cross is a slow moving-average signal, not part of this breadth method.\nB – The McClellan Oscillator is a separate indicator not used in this test.\nC – New highs exceeding new lows is a leadership measure, not the required follow-up.\n\nRemember: Confirmation = one 90% up day, or a cluster of 80% up days."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "New 52-week lows divided by new 52-week highs"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. New 52-week lows divided by new 52-week highs\n\nWhy: The 40:1 Ratio compares how many stocks are hitting new 52-week lows with how many are hitting new 52-week highs. Divide lows by highs; when lows outnumber highs by 40 times or more, the indicator flags an extreme of fear. For example, 800 new lows and 20 new highs gives 800 ÷ 20 = 40, which meets the threshold.\n\nWhy not the others:\nA – Advancers versus decliners is a breadth ratio, not this leadership-based measure.\nB – Up volume versus down volume is a volume ratio.\nC – Declining versus advancing volume is also a volume ratio, not new lows versus new highs.\n\nRemember: 40:1 Ratio = new lows ÷ new highs, flagging extreme fear at 40 or more."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "It gives either a 'yes' or 'no' reading"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It gives either a 'yes' or 'no' reading\n\nWhy: Binary means two states. The 40:1 Ratio does not grade conditions on a sliding scale; it simply asks whether new lows outnumber new highs by at least 40 to 1. If they do, the answer is \"yes\" and the signal is on; if not, it is \"no.\" This makes it a simple on/off alert for extreme selling conditions.\n\nWhy not the others:\nA – It does use two inputs, but that is not what binary means here.\nB – It is not restricted to two types of market.\nC – It does not require two confirmations; one threshold check decides it.\n\nRemember: Binary = on or off: either lows beat highs 40 to 1, or they do not."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Hindenburg Omen signals near market tops"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 90% down days, when new lows exceed new highs at least 40-fold\n\nWhy: A 40:1 reading happens when new 52-week lows swamp new highs, which only occurs during intense, widespread selling. Those same panic conditions also tend to produce 90% down days, when almost all volume and issues fall. So the two extremes often appear together, both pointing to the kind of capitulation that can come near a bottom.\n\nWhy not the others:\nB – Breadth thrusts are signs of strong buying, the opposite condition.\nC – 90% up days are buying panics that follow selling extremes, not the moment of the 40:1 reading.\nD – The Hindenburg Omen involves many highs and lows at once near tops, not a lopsided flood of lows.\n\nRemember: 40:1 readings and 90% down days are twins of panic selling."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "The absolute value of (new highs - new lows) / total issues"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The smaller of the new-high and new-low counts, divided by total issues traded\n\nWhy: Each day you look at the number of new 52-week highs and new 52-week lows, take whichever is smaller, and divide it by the total issues traded. For example, 150 highs, 90 lows and 3,000 issues gives 90 ÷ 3,000 = 3%. The reading is high only when both highs and lows are numerous at the same time, which shows a divided, unstable market.\n\nWhy not the others:\nA – Using the larger count would measure one-sided leadership, not a split market.\nB – Highs minus lows is net new highs, a different indicator.\nD – The absolute net difference also measures one-sidedness, not how divided the market is.\n\nRemember: High-Low Logic = the smaller of highs or lows ÷ total issues."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Typically above 5%"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Often below 1%\n\nWhy: Because the indicator uses the smaller of new highs or new lows, it is usually tiny. In most markets, one side dominates: in rallies there are few new lows, and in declines there are few new highs. So the smaller count is typically only a small fraction of the thousands of listed stocks, often well under 1%. Higher readings stand out because they are rare.\n\nWhy not the others:\nB – Readings of 10% to 20% would be extraordinarily high and almost never seen.\nC – Around 50% would require half the market to be at yearly extremes on the minority side.\nD – Readings above 5% are rare, not typical.\n\nRemember: The High-Low Logic Index is normally tiny because one side usually dominates."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Periods when breadth and new highs expand together"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When many stocks make new highs and many make new lows at once\n\nWhy: A healthy market is usually one-sided: many new highs and few new lows in a rally. The High-Low Logic Index rises only when both counts are large together. That shows a split market, where some stocks are breaking out while many others are breaking down. Such internal disagreement can signal instability and has been linked to weak future returns.\n\nWhy not the others:\nA – One-sided trending markets give low readings on this indicator.\nC – It does not measure overbought breadth directly; it measures how divided leadership is.\nD – Breadth and new highs expanding together is a sign of health, which the indicator would not flag.\n\nRemember: High-Low Logic flags a divided market: many highs and many lows together."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Forewarn of potential market crashes"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Forewarn of potential market crashes\n\nWhy: The Hindenburg Omen, named after a famous airship disaster, is a warning signal. It looks for a market that is still rising overall but has a large number of stocks making new highs and new lows at the same time, along with weakening breadth momentum. That combination suggests internal instability, and the signal was designed to give early notice of the conditions that can precede a sharp decline.\n\nWhy not the others:\nA – It is a bearish warning, not a buying signal.\nB – It does not measure volatility directly; it uses breadth and leadership data.\nC – It warns of trouble in a rising market rather than confirming the trend.\n\nRemember: The Hindenburg Omen is an early-warning signal for sharp declines."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The McClellan Oscillator must cross its signal line"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The McClellan Oscillator must be negative, suggesting weak breadth\n\nWhy: The Hindenburg Omen combines several conditions. One is that short-term breadth momentum is weakening. The McClellan Oscillator measures that momentum; a negative reading means the faster average of net advances is below the slower one, so breadth is deteriorating. That weakness, together with many highs and lows at once in a still-rising market, is what the signal looks for.\n\nWhy not the others:\nA – A reading above +100 shows strong breadth, which contradicts the warning.\nC – A rising oscillator suggests improving breadth, not the weakness needed.\nD – A signal-line crossover is not one of the conditions.\n\nRemember: Hindenburg Omen needs a negative McClellan Oscillator."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "The high-low logic reading exceeds 2.2%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The TRIN must be below 0.5\n\nWhy: The Hindenburg Omen's conditions are built from leadership and breadth data: a still-rising market (a rising average), a high count of both new highs and new lows (a high-low logic reading above 2.2%), and a negative McClellan Oscillator showing weakening breadth. TRIN, the Arms Index, is not part of the recipe. A TRIN below 0.5 would actually indicate very strong buying, which does not fit a warning signal.\n\nWhy not the others:\nA – A rising trend is required, because the omen warns of trouble inside an uptrend.\nB – A negative McClellan Oscillator is a required condition.\nD – A high reading of both new highs and new lows, above the 2.2% threshold, is a core condition.\n\nRemember: Hindenburg Omen ingredients: uptrend, many highs and lows, negative McClellan; no TRIN."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "A short-term oversold reading that favors buying the dip"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Deteriorating internal participation that can foreshadow a bear market\n\nWhy: The share of stocks above their 200-day averages fell from 70% to 37%, so nearly half of the stocks that were in long-term uptrends have dropped out. Yet the index is only slightly below its high, meaning a narrowing group of large stocks is propping it up. This kind of steady erosion beneath a firm index is a classic sign of a maturing top and can come before a bear market.\n\nWhy not the others:\nA – A drop of this size in long-term participation is not routine or harmless.\nC – Narrowing to fewer leaders is a warning, not a confirming rotation.\nD – The 200-day measure tracks long-term trends, so this is not a short-term oversold signal.\n\nRemember: A steady index with collapsing participation is a top in the making."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "The period immediately after a market peak"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The first notable burst of new lows in a mature bull market\n\nWhy: In the seasonal analogy, \"fall\" is when leaves start dropping: the first sign that the long summer of a bull market is ending. A fall day is the first noticeable jump in new 52-week lows after a bull market has been running for a while. It means a meaningful number of stocks are now breaking down, which can be an early hint that a major top is forming.\n\nWhy not the others:\nA – Ordinary down days happen constantly and are not what the term means.\nB – The definition is about new lows, not falling volume.\nD – The term describes a warning before a peak, not the period after one.\n\nRemember: A fall day is the first notable burst of new lows late in a bull market."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "The concept requires a rising 50-day average of new lows"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Early in a new bull market, lingering new lows are residue of the prior bear and are not a warning\n\nWhy: When a bull market is young, some stocks are still finishing their bear-market declines, so new lows can pop up for a while. Those lows are leftovers from the old trend, not a sign of new trouble. Only after the bull market has matured, and new lows have mostly disappeared, does a fresh surge in new lows carry warning value. That is why the fall day concept applies to an established bull market.\n\nWhy not the others:\nA – The concept has nothing to do with a 200-day average turning up.\nC – Early new lows are normal residue and do not show the rally is failing.\nD – No rising average of new lows is part of the definition.\n\nRemember: New lows only warn once the bull market is mature; early on, they are leftovers."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "A 90% up day followed within a week by an 80% up day"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. % above 50-day MA back above 80%, and % above 200-day MA back above 40%\n\nWhy: A spring day signals that a new bull market may be emerging. Two things are required. First, a strong short-term surge: more than 80% of stocks back above their 50-day averages, showing broad, intense buying. Second, long-term repair: more than 40% of stocks back above their 200-day averages, showing the improvement is spreading into longer trends. The high short-term bar makes sense because short averages react quickly.\n\nWhy not the others:\nA – This swaps the thresholds; 80% above the 200-day line is far too high so early in a recovery.\nC – These conditions mix in TRIN and new highs, which are not part of this definition.\nD – This describes a breadth-panic confirmation, not spring days.\n\nRemember: Spring days: 80% above the 50-day and 40% above the 200-day."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Ignore fall days but act immediately on the first spring day"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Be on watch for a major top after just one fall day, but wait for both spring day indicators before turning bullish\n\nWhy: The approach is deliberately cautious in both directions. A single fall day is enough to raise your guard, because tops build slowly and early warnings are valuable. But turning bullish after a bear market is riskier, since bear-market rallies can be sharp and fool investors. So both spring day conditions should be met before treating a new bull market as likely.\n\nWhy not the others:\nB – This reverses the logic, making it slow to warn and quick to turn bullish.\nC – The two signals are treated differently because the risks of being wrong differ.\nD – Ignoring fall days throws away an early warning, and acting on one spring condition is too hasty.\n\nRemember: Get alert quickly, but turn bullish only on full confirmation."
   }
 ]

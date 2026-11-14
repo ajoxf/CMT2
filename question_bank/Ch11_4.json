@@ -9,7 +9,8 @@
       "Five waves"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Five waves.\n\nWhy: A motive wave is a wave that moves in the same direction as the trend of one larger degree. Elliott found that this trend-carrying move always breaks into five smaller waves: three that push with the trend (waves 1, 3 and 5) and two that pause against it (waves 2 and 4). Corrective waves, by contrast, normally break into three. So 'five with the trend, three against it' is the basic rhythm of the whole theory.\n\nWhy not the others:\nA – Three waves is the usual count for a corrective pattern such as a zigzag or flat, not a motive one.\nB – Seven waves can appear in complex corrections (double threes), but not as the count of a motive wave.\nC – Nine waves can appear when one wave of an impulse extends and its subwaves become visible, but the pattern is still counted as five.\n\nRemember: Motive waves move in fives; corrections move in threes."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Less than 100% of wave 1"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Wave 2 must retrace less than 100% of wave 1.\n\nWhy: Wave 2 corrects wave 1, and it can be very deep, but it can never go past the point where wave 1 began. If an up-move's pullback falls below wave 1's starting low, the count is wrong: what you called wave 1 was not the start of a new impulse. This is a hard rule, not a guideline. Fibonacci levels such as 50% or 61.8% are common places for wave 2 to end, but they are typical, not limits.\n\nWhy not the others:\nA – 50% is a common retracement depth, not a maximum; wave 2 can go deeper.\nB – 61.8% is a frequent Fibonacci target for wave 2, but it is a tendency, not a rule.\nC – 78.6% is another popular retracement level, but wave 2 may legally go beyond it as long as it stays under 100%.\n\nRemember: Wave 2 never moves beyond the start of wave 1 — it retraces less than 100%."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Wave 5"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Wave 3.\n\nWhy: The actionary waves in an impulse are 1, 3 and 5 — the ones moving with the trend. One firm rule says wave 3 can never be the shortest of these three. In practice it is very often the longest and strongest, because by then many participants recognise the new trend and join in. That is why wave 3 so often shows the biggest price gains and the strongest momentum.\n\nWhy not the others:\nA – Wave 1 is often modest because few believe the new trend yet; it can be the shortest actionary wave.\nB – Wave 2 is a corrective wave, so it is not one of the actionary waves being compared.\nD – Wave 5 can be long (extended) at times, but it may also be the shortest; the 'never shortest' rule belongs to wave 3.\n\nRemember: Wave 3 is never the shortest of waves 1, 3 and 5 — and is usually the longest."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Impulse and diagonal"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Impulse and diagonal.\n\nWhy: Motive waves all move in five waves with the larger trend, but they come in two forms. An impulse is the classic form: wave 3 is not the shortest and wave 4 stays out of wave 1's price range. A diagonal is a wedge-shaped five-wave pattern where wave 4 usually does overlap wave 1 and the subwaves often look like threes. Both are 'motive' because they carry the trend forward.\n\nWhy not the others:\nA – Zigzag and flat are both corrective patterns, not motive waves.\nB – Triangles and combinations are also corrective families.\nC – Extension and truncation are variations that can occur within motive waves, not the two types of motive wave.\n\nRemember: Motive = impulse (no overlap) or diagonal (wedge with overlap)."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Wave 4 must be a triangle pattern"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Wave 4 cannot overlap wave 1's price territory.\n\nWhy: In an impulse, wave 4 may not move into the price range covered by wave 1. In an uptrend, that means wave 4's low must stay above wave 1's high. This keeps the impulse 'clean' and is one of the three hard rules of an impulse (along with the wave 2 and wave 3 rules). If wave 4 does overlap, the pattern is either a diagonal or the count is wrong.\n\nWhy not the others:\nA – There is no rule that wave 4 must be shorter than wave 2; their sizes can vary.\nB – A 50% retracement is not required; wave 4 often retraces less, such as 38.2% of wave 3.\nD – Wave 4 is often a sideways pattern like a triangle, but it can also be a flat or combination — triangle is not required.\n\nRemember: In an impulse, wave 4 never enters wave 1's territory."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "The overlap between wave 4 and wave 1"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. An extension is an elongated impulse with exaggerated subdivisions.\n\nWhy: Sometimes one of the actionary waves (1, 3 or 5) stretches out much longer than the others. When it does, its own five internal subwaves become large and easy to see, so the whole impulse can look like nine waves instead of five. This stretched wave is called an extension. It reflects especially strong momentum in that part of the trend.\n\nWhy not the others:\nB – A wave failing to reach its expected point describes truncation (a short fifth wave), not an extension.\nC – Corrective patterns inside a motive wave are waves 2 and 4, not extensions.\nD – Overlap between wave 4 and wave 1 breaks the impulse rule and points to a diagonal, not an extension.\n\nRemember: Extension = one actionary wave stretched long, with clearly visible subwaves."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Extensions are optional and may not occur"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. One and only one subwave.\n\nWhy: Among waves 1, 3 and 5, an extension usually shows up in just one of them. This makes it a useful planning tool: if wave 3 has already extended, you would expect waves 1 and 5 to be more normal in size and roughly similar to each other. If waves 1 and 3 are about equal, wave 5 becomes the likely candidate to extend.\n\nWhy not the others:\nA – All three subwaves extending would erase the contrast that defines an extension.\nB – Two extensions in one impulse is not the normal pattern; the guideline is a single extended wave.\nD – While a perfectly balanced impulse is possible, the typical case is that one wave extends, so 'optional and may not occur' misses the guideline.\n\nRemember: Expect only one of waves 1, 3 and 5 to extend."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "When a corrective wave turns into a motive wave"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When wave 5 fails to move beyond the end of wave 3.\n\nWhy: Normally wave 5 in an uptrend makes a new high above wave 3. Truncation (also called a failed fifth) is the exception: wave 5 completes its five subwaves but stops below wave 3's high (or above wave 3's low in a downtrend). It signals that the trend has run out of strength and often precedes a sharp move the other way.\n\nWhy not the others:\nA – Wave 3 being the shortest is simply forbidden by the impulse rules; it is not called truncation.\nC – Wave 4 overlapping wave 1 breaks an impulse rule and suggests a diagonal, not truncation.\nD – A correction turning into a motive wave is a relabelling issue, not the definition of truncation.\n\nRemember: Truncation = a fifth wave that does not exceed wave 3's extreme."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "A sharp, deep second wave"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. After a particularly strong third wave.\n\nWhy: When wave 3 is very powerful, it may use up much of the trend's energy and carry price far ahead. Wave 4 then corrects, and the following wave 5 has trouble pushing beyond wave 3's extreme. So a failed fifth wave most often follows an unusually strong wave 3. Spotting a very strong wave 3 is a hint to watch wave 5 for a shortfall.\n\nWhy not the others:\nA – A weak first wave has no particular link to a short fifth wave.\nB – An extended fifth wave is the opposite of truncation, since an extended wave travels much farther.\nD – A sharp, deep wave 2 relates to alternation with wave 4, not to truncation.\n\nRemember: A very strong wave 3 can leave wave 5 too weak to make a new extreme."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "By noting that the presumed fifth wave contains five subwaves"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. By noting that the presumed fifth wave contains five subwaves.\n\nWhy: A truncated fifth can be confused with a correction, because price fails to make a new extreme. The test is internal structure: a real fifth wave is motive, so it should subdivide into five smaller waves. If the move you call wave 5 clearly shows five subwaves, it is a valid but truncated fifth. If it only has three, it is more likely a correction.\n\nWhy not the others:\nA – Wave 4 overlapping wave 1 would break the impulse rules; it does not verify truncation.\nB – Truncation is about where wave 5 ends relative to wave 3, not a percentage retracement.\nC – An extension in wave 5 would make it longer, which is the opposite of truncation.\n\nRemember: Confirm a failed fifth by counting five subwaves inside it."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Diagonals typically contain an extended third wave"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Diagonals show overlap and three-wave subwaves, like corrections.\n\nWhy: A diagonal is a motive pattern, but it looks more ragged than an impulse. It forms a wedge between two converging trendlines, wave 4 usually overlaps wave 1's territory, and in the common ending form each subwave subdivides into three. These correction-like features are exactly what separate it from a clean impulse, where wave 4 stays out of wave 1's range.\n\nWhy not the others:\nB – This describes an impulse; diagonals typically do allow wave 4 to overlap wave 1.\nC – Diagonals appear in motive positions such as wave 1, wave 5, wave A or wave C, not only in corrective positions.\nD – An extended third wave is a feature of impulses; diagonals tend to contract with a shorter wave 3.\n\nRemember: Diagonal = wedge-shaped motive wave with overlap and three-wave pieces."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "In wave 3 position"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. In the fifth wave position.\n\nWhy: An ending diagonal shows up when the trend is tired and about to finish. It most often forms as wave 5 of an impulse (and also as wave C of a correction). Its converging wedge shape reflects slowing momentum, and it is often followed by a swift reversal back to where the diagonal began.\n\nWhy not the others:\nB – Wave 1 is where a leading diagonal may appear, not an ending diagonal.\nC – Wave 2 is a corrective position, so it cannot host a motive diagonal.\nD – Wave 3 is the strongest wave and is normally an impulse, not a weakening wedge.\n\nRemember: Ending diagonals end trends — think wave 5 or wave C."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "In the wave 3 position of extended impulses"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. In the wave 1 position of impulses and wave A of zigzags.\n\nWhy: A leading diagonal is a diagonal that starts a move rather than ending one. Because it begins a new sequence, it appears in first positions: wave 1 of an impulse or wave A of a zigzag (zigzag A waves are fives). Its subwaves usually count 5-3-5-3-5, which helps tell it apart from the 3-3-3-3-3 ending type.\n\nWhy not the others:\nB – Wave 5 and wave C are the positions of ending diagonals, not leading ones.\nC – Wave B of flats and triangles are corrective three-wave positions, not motive starts.\nD – Wave 3 is not where a diagonal is expected; wave 3 is usually a powerful impulse.\n\nRemember: Leading diagonals lead: wave 1 or wave A."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "A deep retracement"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A deep retracement.\n\nWhy: A leading diagonal in wave 1 shows overlap and hesitation, so the market is still uncertain about the new trend. The wave 2 that follows tends to retrace a large part of the diagonal, testing the lows (in an uptrend) before wave 3 takes off. Expecting a deep pullback keeps the analyst from assuming the trend failed too early.\n\nWhy not the others:\nA – An extended third wave can come later, but the immediate follow-up to a leading diagonal is the deep wave 2.\nB – A truncated fifth relates to a strong wave 3, not to a leading diagonal.\nC – Wave 2 is corrective, so it would not be another motive diagonal.\n\nRemember: After a leading diagonal, brace for a deep wave 2."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Five categories"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Four categories.\n\nWhy: Elliott corrective patterns are grouped into four families: zigzags (5-3-5, sharp), flats (3-3-5, sideways), triangles (3-3-3-3-3, contracting or expanding ranges), and combinations (two or three simpler corrections joined by connecting waves, often called double or triple threes). Knowing these four families gives a short checklist when labelling any correction.\n\nWhy not the others:\nA – Two categories leaves out families; sharp vs sideways is a style split, not the full list.\nC – Three categories usually omits combinations, which are a family of their own.\nD – There is no fifth family; variations like expanded flats or double zigzags sit inside the four.\n\nRemember: Four correction families: zigzag, flat, triangle, combination."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "5-5-5"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 5-3-5.\n\nWhy: A zigzag is a sharp three-wave correction labelled A-B-C. Wave A is a five-wave move against the trend, wave B is a three-wave bounce, and wave C is another five-wave move in the same direction as A. Because A and C are both fives, the pattern travels a long way quickly, which is why zigzags are called sharp corrections.\n\nWhy not the others:\nA – 3-3-3 is not a single zigzag; triangle legs are threes, and combinations join threes.\nB – 3-3-5 is the structure of a flat, where wave A is only a three.\nD – 5-5-5 is not a standard corrective structure; wave B in corrections is a three.\n\nRemember: Zigzag = 5-3-5; flat = 3-3-5."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "A-B-C"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A-B-C.\n\nWhy: Corrective waves are labelled with letters so they are never confused with the numbered waves of an impulse. A single zigzag is a three-wave move, so it is labelled A-B-C. In a bull market, the zigzag is a downward correction: A down, B up, C down. Letter case or brackets change with wave degree, but the letters stay the same.\n\nWhy not the others:\nA – Numbers are reserved for motive waves, and a correction is not labelled 1-2-3.\nB – W-X-Y is used for double corrections, such as a double zigzag, not a single one.\nC – Five letters a-b-c-d-e belong to a triangle, not a three-wave zigzag.\n\nRemember: Single correction = A-B-C; double = W-X-Y."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Exactly at the Fibonacci 61.8% retracement level"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Noticeably lower than the start of wave A.\n\nWhy: Picture a zigzag correcting an uptrend. Wave A drops, wave B bounces, and wave C drops again. In a zigzag, wave B is a weak bounce, so its top stays clearly below the point where wave A started. That gap is what makes a zigzag sharp and directional, unlike a flat, where wave B climbs back to about where A began.\n\nWhy not the others:\nA – B reaching the start of A is the hallmark of a regular flat, not a zigzag.\nB – B going above the start of A describes an expanded flat.\nD – 61.8% is a common Fibonacci level but not a defining point for the end of wave B.\n\nRemember: In a zigzag, wave B stays well short of wave A's starting point."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "An ending diagonal labeled (C)"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. An intervening 'three' labelled (X).\n\nWhy: A double zigzag happens when one zigzag does not correct far enough, so the market adds a second. The two zigzags are joined by a connecting wave labelled X. Because X moves against the correction, it is itself corrective, so it unfolds in three waves, most often a zigzag. The full structure is zigzag, three, zigzag.\n\nWhy not the others:\nA – X is a connecting correction, so it is a three, not a five.\nB – The connector is labelled X, and it is not an impulse.\nD – An ending diagonal is a motive pattern for wave 5 or C, not the link between zigzags.\n\nRemember: Double zigzag = W (zigzag) + X (three) + Y (zigzag)."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "a and c"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. (W) and (Y).\n\nWhy: In double and triple corrections, each simple correction is labelled with W, Y and (for a triple) Z, while the connecting waves are labelled X. So a double zigzag reads W-X-Y. This separate lettering stops analysts from confusing a compound correction with the A-B-C of a single correction.\n\nWhy not the others:\nA – A and C are the end legs of a single zigzag, not the two zigzags of a double.\nB – Numbers are used only for motive waves.\nD – Lower-case a and c are a single correction's legs at a smaller degree, not the double zigzag labels.\n\nRemember: Compound corrections use W-X-Y(-X-Z)."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "5-5-5"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 3-3-5.\n\nWhy: A flat is a sideways correction labelled A-B-C. Wave A is only a three-wave move, which shows the counter-trend force is weak. Wave B is also a three and usually returns near A's start. Wave C is a five-wave move that ends near or beyond A's end. The 3-3-5 shape is the key difference from a zigzag's 5-3-5.\n\nWhy not the others:\nB – 3-3-3 is the shape of combination pieces or triangle legs, not a flat.\nC – 5-3-5 is a zigzag, which is sharper than a flat.\nD – 5-5-5 is not a standard Elliott corrective structure.\n\nRemember: Flat = 3-3-5 — the weak 'three' in wave A keeps it sideways."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Flats typically retrace the entire preceding impulse"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Less than zigzags.\n\nWhy: A zigzag's wave A is a strong five-wave push, so zigzags cut deep into the prior move. A flat's wave A is only a three, and wave B climbs back toward the start, so the pattern drifts sideways rather than down. As a result, flats usually give back a smaller share of the preceding impulse. They signal that the larger trend is strong.\n\nWhy not the others:\nA – Zigzags, not flats, are the deeper corrections.\nB – The two differ in depth; that difference is part of what defines them.\nD – A flat retracing the entire impulse would be extreme and is not typical.\n\nRemember: Flats move sideways and retrace less; zigzags are sharp and deeper."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Wave 4"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Wave 4.\n\nWhy: The guideline of alternation says waves 2 and 4 tend to differ in form. Wave 2 is often a sharp zigzag. Wave 4 is then more likely to be a sideways pattern, such as a flat or triangle. That is why flats are frequently seen in the wave 4 position of an impulse.\n\nWhy not the others:\nA – Wave 1 is a motive wave, so it is not a flat correction.\nB – Wave 2 more often takes the sharp zigzag form, though it can be a flat.\nC – Wave 3 is the strongest motive wave, not a correction.\n\nRemember: Sharp wave 2, sideways wave 4 — flats like the fourth-wave slot."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Far short of the start of wave A"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About at the level of the beginning of wave A.\n\nWhy: In a regular flat, the three legs are roughly the same size. Wave A moves against the trend, wave B returns to about where A started, and wave C ends near where A ended. The result is a neat sideways box. Variations are named for how B and C miss or exceed those levels.\n\nWhy not the others:\nA – B well beyond the start of A describes an expanded flat.\nB – Ending at 50% of A would be too shallow for a flat and is not the defining feature.\nD – B ending far short of A's start is typical of a zigzag.\n\nRemember: Regular flat: B returns to A's start, C ends near A's end."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Waves A, B, and C are all equal in length"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Wave B exceeds the start of A, and wave C ends well beyond A's end.\n\nWhy: An expanded flat is a 3-3-5 pattern whose range widens. Wave B pushes past where A began, making a new extreme in the trend direction. Then wave C falls (in a bull-market correction) well past where A ended. This is actually the most common type of flat, and its false new high from wave B can trap traders.\n\nWhy not the others:\nA – B ending well short of A's start describes a zigzag, not an expanded flat.\nC – C stopping short of A's end describes a running flat.\nD – Equal legs fit the regular flat, not the expanded version.\n\nRemember: Expanded flat: B overshoots A's start, C overshoots A's end."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "It unfolds as an ending diagonal"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It falls short of where wave A ended.\n\nWhy: In a running flat, wave B still pushes beyond A's start, but wave C is weak and does not even reach the level where wave A ended. The correction 'runs' in the direction of the main trend. This signals that the underlying trend is very strong, because the correction cannot finish its normal path.\n\nWhy not the others:\nB – C going well beyond A's end describes an expanded flat.\nC – C ending at A's level describes a regular flat.\nD – Wave C in a flat is normally an impulse, and a diagonal C does not define a running flat.\n\nRemember: Running flat: wave C falls short — the trend is too strong to correct."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Seven waves"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Five waves.\n\nWhy: An Elliott triangle is a sideways correction made of five overlapping waves that bounce between two trendlines. Each wave stays largely inside the range of the earlier waves, which is why they overlap. Triangles show balance between buyers and sellers before the trend resumes.\n\nWhy not the others:\nA – Three waves is the count of zigzags and flats, not triangles.\nC – Four waves would leave the triangle unfinished.\nD – Seven waves is a double-three count, not a triangle.\n\nRemember: Triangle = five overlapping waves, A through E."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "5-5-5-5-5"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. 3-3-3-3-3.\n\nWhy: Each of the five legs of a triangle is itself a correction, so each subdivides into three waves. That gives a 3-3-3-3-3 structure. This is a good test: if a leg clearly unfolds in five waves, it is probably not part of a triangle.\n\nWhy not the others:\nB – 3-3-5-3-5 mixes in fives, which do not belong in a triangle's legs.\nC – 5-3-5-3-5 is the typical shape of a leading diagonal.\nD – 5-5-5-5-5 would make a motive structure, not a correction.\n\nRemember: Every triangle leg is a three: 3-3-3-3-3."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "With Roman numerals i-ii-iii-iv-v"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. With letters (A-B-C-D-E, case depending on degree).\n\nWhy: Triangles are corrective, so their waves are labelled with letters, not numbers. Because there are five legs, the letters run A-B-C-D-E. The letter style (capital, lower-case, brackets) shows the degree, just as with other corrections. Seeing five lettered legs tells you at once that the pattern is a correction, not a trend move.\n\nWhy not the others:\nA – Numbers are for motive waves like impulses.\nB – W-X-Y-X-Z labels a triple combination, not a triangle.\nD – Roman numerals are used for impulse waves at certain degrees, not triangles.\n\nRemember: Triangles are lettered A-B-C-D-E."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Contracting, barrier, and expanding"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Contracting, barrier, and expanding.\n\nWhy: Elliott triangles are grouped by how their boundary lines behave. In a contracting triangle the lines converge. In a barrier triangle one line is roughly flat while the other converges toward it. In an expanding triangle the lines diverge, so swings get larger. These shapes describe the range over time.\n\nWhy not the others:\nA – Ascending, descending and symmetrical are classical chart-pattern names, not the Elliott triangle categories.\nB – Regular, expanded and running are the types of flats.\nC – Single, double and triple describe zigzag or combination counts.\n\nRemember: Elliott triangles: contracting, barrier, expanding."
   }
 ]

@@ -9,7 +9,8 @@
       "Too much risk is taken relative to the reward per trade"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Too much risk is being taken relative to the reward per trade.\n\nWhy: An R-multiple measures a trade's result in units of initial risk (1R = entry minus stop). An average of 0.1R means each trade, on average, earns only one-tenth of what it puts at risk. Example: risking $1,000 per trade to make an average of $100. The strategy is barely profitable for the risk it carries, so the risk side (stops, entries or sizing) needs work.\n\nWhy not the others:\nA – 0.1R is barely above break-even, not highly profitable.\nB – A reward of one-tenth of the risk shows risk control is far from optimal.\nC – R-multiples measure size of results per unit of risk, not win rate.\n\nRemember: An average of 0.1R means you risk ten to make one: too much risk for the reward."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "To exit if an apparent secondary correction becomes a primary reversal"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. To exit if an apparent secondary correction becomes a primary reversal.\n\nWhy: Dow Theory sees three trends: primary (major, lasting months or years), secondary (corrections against it, lasting weeks or months) and minor (day-to-day). A pullback in an uptrend might be just a secondary correction, or the start of a primary reversal. You cannot tell in advance. A stop protects you if the 'correction' turns out to be the real trend change.\n\nWhy not the others:\nA – Stops limit risk; they are not a reason to add leverage.\nB – Exiting on every minor wiggle would cause constant whipsaws; Dow Theory treats minor trends as noise.\nC – Locking in gains at every new high is not the Dow Theory logic for stops.\n\nRemember: A stop is insurance in case today's correction is really a change of the primary trend."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Fixed stops and trailing stops"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Fixed stops and trailing stops are the two main types.\n\nWhy: Stops can be grouped by how they move. A fixed stop is set at entry and stays at that level for the life of the trade. A trailing stop moves with price as the trade gains, locking in part of the profit, and never moves back. Most specific stops (percentage, ATR-based, time-based) can be described as one of these two kinds.\n\nWhy not the others:\nA – Entry stops are orders to open trades, not a type of protective stop.\nB – Profit and loss describe outcomes, not stop types.\nC – Time and price are ways of setting a stop, not the main two categories.\n\nRemember: Stops either stay put (fixed) or follow price (trailing)."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "To determine the position size of the trade"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A fixed stop is set at entry and left unchanged as a safety net.\n\nWhy: A fixed stop is placed when the trade is opened, for example 10% below the entry price, and is not moved. Its job is to cap the maximum loss on that trade. Because it does not follow price, it does not lock in profits as the trade rises; it simply stops a small loss turning into a disaster.\n\nWhy not the others:\nB – Locking in profits is the role of a trailing stop.\nC – Moving higher with price describes a trailing stop.\nD – Stop distance can help with sizing, but it is not the stop's purpose.\n\nRemember: Fixed stop = set once at entry, there to cap the loss."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "At prior support or resistance levels"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Traders typically place price stops at prior support or resistance levels.\n\nWhy: Support is a price where buying has previously stopped a decline; resistance is where selling has stopped a rise. A long trade's stop is often placed just below support, because if price breaks that level the reason for the trade is likely wrong. For shorts, the stop goes just above resistance.\n\nWhy not the others:\nA – Round numbers can attract orders, but they are not the standard logic for placing stops.\nB – A stop at entry would remove room for normal movement and be hit too often.\nC – A fixed distance from the day's high is not tied to market structure.\n\nRemember: Put the stop where the market would prove you wrong: past support or resistance."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "From a multiple of the security's ATR"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. From the maximum loss accepted, e.g. 20% below $100 = $80.\n\nWhy: A fixed percent stop is set a chosen percentage below the entry price. You decide how much of the position's value you are willing to lose, then work out the level. Buy at $100 with a 20% stop: 20% of 100 = $20; stop = 100 − 20 = $80. If price falls to $80 the position is closed.\n\nWhy not the others:\nB – A share of the portfolio's value relates to position sizing, not where this stop sits.\nC – The benchmark's return has nothing to do with a position's stop.\nD – A multiple of ATR describes a volatility stop.\n\nRemember: Percent stop = entry price × (1 − chosen percent)."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "To avoid losses from overnight price gaps"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To exit after a set period so capital isn't left idle.\n\nWhy: A time stop closes a position after a fixed number of days or weeks, whatever the price. If an idea was expected to work within a certain period and has not, the money is better used elsewhere. It frees capital stuck in trades that are going nowhere and returns it to new signals.\n\nWhy not the others:\nA – Locking in profits at a set gain is a profit target.\nB – Time stops shorten holding time, not extend it.\nD – Overnight gaps are not prevented by a time stop.\n\nRemember: A time stop says: if it hasn't worked by now, move the money on."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "When returns are strong for about 10 days and then flatten"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. When returns are strong for about 10 days and then flatten.\n\nWhy: A signal test shows average returns for each day after entry. If gains build for about 10 days and then the line goes flat, holding longer earns nothing extra while tying up money. A time stop at about 10 days captures the useful part and frees the capital for the next signal.\n\nWhy not the others:\nA – If signals recover after a weak start, a time stop could cut trades before the gains arrive.\nB – High volatility calls for stops based on price or ATR, not time.\nC – Large drawdowns call for price or equity stops.\n\nRemember: Use a time stop when the test shows the gains arrive early and then stop."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "They move up and down together with price"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Trailing stops follow price as trades gain, moving only one way.\n\nWhy: A trailing stop starts below entry for a long trade. As price makes new highs, the stop is raised to stay a set distance below the highest price. If price falls back, the stop stays where it is; it never moves down. So it gradually locks in more profit as the trade goes well.\n\nWhy not the others:\nA – Staying fixed at the entry level describes a fixed stop.\nB – The distance can be any percentage or ATR multiple, not always 10%.\nD – Moving down with price would undo the profit it locked in.\n\nRemember: Trailing stops move one way only: up behind a long position."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "It is removed once the trade turns profitable"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It resets to the new high less the percentage, never lower.\n\nWhy: A trailing percent stop sits a set percentage below the highest price reached since entry. When price makes a new high, the stop is recalculated: new high × (1 − percent). If price falls, the high does not change, so neither does the stop. Example: 10% trail, high of $50: stop = $45. A new high of $60 lifts it to $54.\n\nWhy not the others:\nA – Staying at the opening level is a fixed stop.\nB – Moving to break-even and staying there is a different rule.\nD – Removing the stop when profitable would leave the gain unprotected.\n\nRemember: Trailing percent stop = highest price since entry × (1 − percent)."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "$80.00"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The stop is at $76.50.\n\nWhy: A trailing stop is based on the highest price since entry, not on the entry or the current price. Highest price = $90. 15% of 90 = $13.50. Stop = 90 − 13.50 = $76.50. When price falls to $80 the high stays $90, so the stop stays at $76.50, and $80 is still above it, so the position remains open.\n\nWhy not the others:\nA – $51.00 is 15% below the $60 entry, the starting stop before price rose.\nB – $68.00 is 15% below the current $80, but trailing stops never move down with price.\nD – $80.00 is the current price, not the stop level.\n\nRemember: Always measure a trailing stop from the highest price reached."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "It prevents losses from overnight price gaps entirely"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. One percentage can be too tight for volatile stocks and too loose for quiet ones.\n\nWhy: Securities move by very different amounts. A volatile stock may swing 5% in a normal day; a quiet one 1%. A 7% stop would be hit by noise in the first and allow a huge loss in the second. A volatility stop uses each security's ATR (its typical range), so the distance automatically suits how much that security moves.\n\nWhy not the others:\nB – ATR stops need more calculation, not less.\nC – Position-sizing rules are still needed.\nD – No stop prevents gap losses; price can jump past any level.\n\nRemember: Size the stop to the stock's volatility, not one number for all."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Half-ATR"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The two-ATR stop is the most common volatility stop.\n\nWhy: ATR (Average True Range) is how much a security typically moves per bar. A stop of 2 ATRs below price gives enough room for normal swings without leaving the trade exposed to a very large loss. One ATR is often too tight (hit by normal noise); three is looser. Two ATRs is the common middle choice.\n\nWhy not the others:\nB – One ATR is usually too tight and gets hit by everyday noise.\nC – Three ATRs is used, but it is looser and less common.\nD – Half an ATR is far too tight for most trades.\n\nRemember: Two ATRs is the classic volatility stop distance."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "It adjusts only when the security's price gaps"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It watches total equity and exits everything if a drawdown limit is hit.\n\nWhy: A percent trailing stop protects each position separately. An equity stop looks at the whole account: if total equity falls a set amount from its peak (say 15%), all positions are closed or reduced. It is a portfolio-level circuit breaker against losses that come from many positions falling together.\n\nWhy not the others:\nA – Tracking each position separately is what a percent stop does, not an equity stop.\nC – An equity stop applies to the whole portfolio, longs and shorts alike.\nD – It responds to total equity declines, not only to gaps.\n\nRemember: Equity stop = a stop on the whole account, not on one trade."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "To add to winning positions at set gains"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Profit targets exit all or part of a trade at a set profit.\n\nWhy: A profit target is a level where you take gains, for example selling when a trade is up 20% or reaches a resistance level. You can exit the whole position, or sell part and let the rest run. It locks in profit when a move reaches a planned level, reducing the chance of giving the gain back.\n\nWhy not the others:\nB – Cutting losses at a preset level is a stop-loss.\nC – Waiting for a trend to confirm is an entry or exit filter.\nD – Adding to winners is pyramiding.\n\nRemember: A profit target cashes in gains at a planned level."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Increase it, because stopped trades realize losses"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A trailing stop reduces annual volatility because large open losses are cut short.\n\nWhy: Volatility measures how much returns swing. Without stops, a position can fall 40% or more before it is closed, creating deep swings in the equity curve. A trailing stop closes positions after a set fall and moves money into cash or new positions. Big downswings are trimmed, so the overall swings of returns become smaller.\n\nWhy not the others:\nA – More trades do not by themselves raise volatility; cutting large losses lowers it.\nC – Stops change trade outcomes, so they change volatility.\nD – Realizing a loss does not add volatility; the drop already happened.\n\nRemember: Cutting the big losers smooths the ride."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Maximum drawdown is unaffected, since stops act per trade"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Maximum drawdown falls materially, though maybe not to 25%.\n\nWhy: A 25% trailing stop limits each position's fall from its high to about 25%. Big portfolio declines are therefore reduced. But portfolio drawdown is not capped at 25%: several stops can hit in sequence, new trades can also lose, and gaps can jump past stops. So drawdown should fall well below 60%, but may still be above 25%.\n\nWhy not the others:\nA – Stops cut losses; they do not make drawdown worse than without them.\nC – A per-trade stop does not cap total portfolio drawdown exactly.\nD – Per-trade stops do affect the portfolio, because portfolio losses are the sum of trade losses.\n\nRemember: Per-trade stops shrink portfolio drawdown but do not cap it at the stop level."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Stops make the entry rules trigger more often"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Stopped-out positions free capital for pending signals.\n\nWhy: A fully invested strategy has no spare cash, so new signals are skipped. Stops close losing positions earlier than before. Each stopped trade returns cash to the account, which can then buy one of the waiting signals. The entry rules have not changed; more of their signals are simply being taken.\n\nWhy not the others:\nA – Stops close positions; they do not generate entry signals.\nC – The universe was unchanged.\nD – Entry rules fire the same way; only capital availability changed.\n\nRemember: Stops recycle capital, and recycled capital takes more signals."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "MAE turns positive for every trade"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. MAE shrinks to roughly the stop distance, gaps aside.\n\nWhy: MAE is the worst open loss a trade reaches. Without stops, a trade fell as far as −80% at worst. With a 25% stop, a trade is closed once it falls about 25%, so it cannot go much deeper. MAE should therefore be close to −25%. It can be a bit worse if price gaps through the stop overnight.\n\nWhy not the others:\nA – Stops limit how deep trades go, so MAE becomes less negative, not more.\nB – Stops act during the trade, which is when MAE is measured.\nD – Many trades still go against you before rising; MAE stays negative.\n\nRemember: A stop puts a floor under MAE at about the stop distance."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Only if the average loss also falls"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Yes, expectancy remains clearly positive.\n\nWhy: Expectancy = (win% × average win) − (loss% × average loss). Wins: 0.47 × 24,000 = $11,280. Losses: 0.53 × 10,000 = $5,300. Expectancy = 11,280 − 5,300 = $5,980 per trade. The win rate fell below half, but winners are 2.4 times the size of losers, so the strategy still makes money on average.\n\nWhy not the others:\nB – Win rate need not exceed 50%; what matters is win rate combined with the size of wins and losses.\nC – Expectancy is +$5,980, not negative.\nD – The strategy is already profitable at these figures.\n\nRemember: A lower win rate is fine if the winners are big enough."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Searching data exhaustively for patterns that may be mere coincidence"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Searching data exhaustively for patterns that may be mere coincidence.\n\nWhy: Data mining here means testing huge numbers of rules or settings on historical data until something looks good. With enough tries, some combination will look excellent purely by chance, like finding faces in clouds. Such patterns have no real cause behind them and usually fail on new data.\n\nWhy not the others:\nA – Analyzing large data sets is a neutral activity; the concern is the exhaustive search for chance patterns.\nB – Collecting data from exchanges is data gathering.\nC – Storing clean history is data management.\n\nRemember: Search hard enough and you will find patterns; many will be luck."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Look-ahead bias in the price data"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Spurious patterns that fail in live trading.\n\nWhy: When you test thousands of ideas, a few will look great just by chance. These are spurious patterns: they fit the past but have no real reason to continue. Once traded with real money, they behave like random entries, and results fall away. That is the main risk of heavy data mining.\n\nWhy not the others:\nB – Software and data cost money, but that is not the main danger.\nC – Data mining usually leads to too many parameters, not too few.\nD – Look-ahead bias is a separate data error.\n\nRemember: A pattern found by heavy searching may fit the past and fail the future."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "The best result tends to persist in live trading"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The wider the search, the likelier the winner reflects chance.\n\nWhy: If you test 5,000 combinations, some will look good by luck alone. The best one is the luckiest one as much as the best one. The more you try, the more extreme the top result due to chance. So the best result from a huge search should be expected to perform worse on new data.\n\nWhy not the others:\nA – More tests make the best result more likely to be luck, not more reliable.\nB – Large searches increase overfitting risk.\nD – Top results from big searches tend to fade in live trading.\n\nRemember: The more combinations you try, the more the winner owes to luck."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "13"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Seven test runs are required.\n\nWhy: List the values: 8, 10, 12, 14, 16, 18, 20. That is 7 values. Or use the formula: (end − start) ÷ step + 1 = (20 − 8) ÷ 2 + 1 = 6 + 1 = 7. The '+1' counts the starting value, which is easy to forget.\n\nWhy not the others:\nA – 6 forgets to count the starting value.\nC – 10 does not follow from the range or step.\nD – 13 counts every whole number from 8 to 20, ignoring the step of 2.\n\nRemember: Number of values = (end − start) ÷ step + 1."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "10,000 tests"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 1,000 tests are required.\n\nWhy: In a full grid search every value of one parameter is tested with every value of the others. With three parameters of 10 values each: 10 × 10 × 10 = 1,000 combinations. Each added parameter multiplies the count, not adds to it.\n\nWhy not the others:\nA – 30 is 10 + 10 + 10, adding instead of multiplying.\nB – 100 is the count for two parameters (10 × 10).\nD – 10,000 is the count for four parameters.\n\nRemember: Grid tests = steps multiplied together for every parameter."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "About 7 days"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. About 17 hours.\n\nWhy: Number of tests = 8 × 8 × 8 = 512. Time = 512 × 2 minutes = 1,024 minutes. Convert to hours: 1,024 ÷ 60 ≈ 17.1 hours. A grid search grows quickly: three small parameters already take most of a day.\n\nWhy not the others:\nA – 48 minutes is 8 × 3 × 2, adding the parameters instead of multiplying.\nC – 8.5 hours forgets the 2 minutes per test (512 minutes).\nD – 7 days greatly overestimates the 1,024 minutes.\n\nRemember: Multiply the step counts, then multiply by run time."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Tuning parameters too closely to past data"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Overfitting is tuning parameters too closely to past data.\n\nWhy: Overfitting means shaping a strategy so tightly to the past that it matches random quirks rather than lasting behaviour. It is like memorising past exam answers instead of learning the subject. The backtest looks excellent, but on new data it fails because those quirks do not repeat.\n\nWhy not the others:\nA – Holding many securities is a portfolio choice, not overfitting.\nB – Many filters can contribute, but overfitting is about tuning to past noise in general.\nC – Leverage is a risk choice.\n\nRemember: Overfit = memorised the past, cannot handle the future."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Strategies B and C are equally good"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Strategy C, with a few parameters capturing the main trend changes.\n\nWhy: There are two failure modes. Underfitting is too simple a model that misses real patterns; Strategy A, one loose rule, risks this. Overfitting is too complex a model that fits noise; Strategy B, with 12 finely tuned parameters matching every past turn, does this. Strategy C uses a few parameters to capture the main trend changes: enough to find the signal, not so many that it fits noise.\n\nWhy not the others:\nA – Strategy A is so loose it may miss the trend changes it is meant to catch, which is underfitting.\nC – Strategy B matches every past turn with 12 tuned parameters, a classic sign of overfitting.\nD – B and C are not equal; B is overfit while C is balanced.\n\nRemember: Fit the main pattern, not every wiggle: a few sensible parameters beat many tuned ones."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Identical results on every time frame"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Robustness means similar results for neighbouring parameter values.\n\nWhy: A robust strategy is not fragile. If a 50-day look-back works well, 45 and 55 should also work fairly well. That shows the edge comes from a real pattern, not a lucky setting. If results collapse when the parameter changes slightly, the good result was probably luck.\n\nWhy not the others:\nB – A high return at one exact value may be a lucky spike.\nC – Profits every year are rare and not the definition.\nD – Identical results on every time frame are unrealistic.\n\nRemember: Robust = nudge the setting and the results barely change."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Several parameter sets work about equally well"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. One look-back far outperforms neighbours like 9 and 11, hinting at luck.\n\nWhy: If look-back 10 gives excellent results but 9 and 11 are much worse, the result sits on an isolated spike. A real edge would usually show a broad region of good values. A lone spike suggests the good result is a fluke, and live performance will probably be closer to the weaker neighbours.\n\nWhy not the others:\nA – Broadly similar results across values is a sign of robustness.\nC – Steady returns across years supports robustness.\nD – Several good parameter sets point to a broad plateau, a robust result.\n\nRemember: An isolated spike in results is a warning; a plateau is reassuring."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Threshold values used in entry filter rules"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Portfolio inputs such as position size and stop levels.\n\nWhy: Optimizing entry parameters (look-backs, thresholds) easily fits noise, because there are many settings and each changes which trades occur. Portfolio inputs such as position size and stop levels shape risk and capital use, and their effects tend to be smoother and more stable. So optimization is generally more useful there.\n\nWhy not the others:\nA – Entry look-backs are the classic place where optimization overfits.\nC – The benchmark is chosen to match the universe.\nD – Entry filter thresholds are entry parameters, prone to overfitting.\n\nRemember: Optimize how you manage the portfolio more than when you enter."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Swap the slow exit for a percent trailing stop and resize positions"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Swap the slow exit for a percent trailing stop and resize positions.\n\nWhy: A weak average R-multiple means each trade earns little for its risk. A long-holding ATR exit keeps trades open for a long time and can give back large gains. A percent trailing stop limits losses and locks in gains sooner, and resizing positions (for example making them smaller) lets more signals be taken as capital is freed. Together they improve risk control and keep capital working.\n\nWhy not the others:\nA – Removing stops and adding leverage increases risk.\nB – More entry filters reduce signals and do not address exits.\nC – Holding even longer makes the slow-exit problem worse.\n\nRemember: Fix weak R with better exits and stops, and size positions to keep capital busy."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "V1 is better on every measure, since it was less volatile"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. V2 earned more at higher volatility; compare risk-adjusted measures.\n\nWhy: V2's total return (520%) beats V1's (400%), but its volatility is also higher (21% vs 18%). Higher return with higher risk does not show which is better. You need risk-adjusted measures such as Sharpe, Sortino or Calmar, and drawdowns, to see which earned more per unit of risk.\n\nWhy not the others:\nA – V2 is worse on volatility, so it is not better on every measure.\nB – V1's total return of 400% is lower than V2's 520%.\nD – V1 has lower volatility but also lower return.\n\nRemember: More return with more risk needs a risk-adjusted comparison."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Reward per unit of risk improved, still below 1R"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Reward per unit of risk improved, but is still below 1R.\n\nWhy: An R-multiple is profit divided by the initial risk. Moving from 0.1R to 0.7R means each trade now earns 0.7 of what it risks instead of 0.1 — seven times better. Protective stops cut losing trades short, so the average result improved. But 0.7 is still below the 1R target, so more work is needed.\n\nWhy not the others:\nA – 0.7R has not reached the target of above 1R.\nB – Stops limit risk per trade; they do not increase it.\nC – The average R-multiple went up, from 0.1 to 0.7.\n\nRemember: Rising R is progress; the goal is still above 1R."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Above 3R"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Above 1R.\n\nWhy: 1R is the amount risked on a trade (entry minus stop). If the average R-multiple is above 1, the average trade earned more than the amount it risked. Above 0 means only that the strategy is profitable; above 1 means its reward exceeds its risk.\n\nWhy not the others:\nA – Above 0R means profitable, but profit may still be smaller than risk.\nB – Above 0.5R means profit is still only half the risk.\nD – Above 3R is a very high bar, far beyond the threshold asked for.\n\nRemember: Above 1R, the average trade earns more than it risks."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "4.5"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The profit factor is 4.0.\n\nWhy: Profit factor = gross profit ÷ gross loss = 6.0 ÷ 1.5 = 4.0. The strategy won $4 for every $1 it lost. Values above 1 are profitable; 4 is very strong.\n\nWhy not the others:\nA – 1.5 is the gross loss, not the ratio.\nB – 3.0 comes from dividing net profit by gross loss (4.5 ÷ 1.5); the profit factor uses gross profit, not net.\nD – 4.5 is net profit in millions, not the profit factor.\n\nRemember: Profit factor = gross profit ÷ gross loss."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Falls to $2M"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Net profit rises from $5M to $7M.\n\nWhy: Net profit = gross profit − gross loss. Before: 10 − 5 = $5M. After: 9 − 2 = $7M. Gross profit fell by $1M, but gross loss fell by $3M, so net profit rises by $2M.\n\nWhy not the others:\nB – $4M would need gross loss to stay at $5M.\nC – Unchanged would need gross profit and loss to fall by the same amount.\nD – $2M is the new gross loss, not net profit.\n\nRemember: Cutting losses can raise net profit even if gross profit slips."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Trades rise because stops trigger more often"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Trades fall as positions are held longer and capital turns over less.\n\nWhy: A fast exit closes trades quickly and frees cash for new signals. A wide trailing stop keeps trades open until a large pullback, so each position lasts longer. With the same capital tied up longer, fewer new positions can be opened, so the number of trades drops.\n\nWhy not the others:\nA – Holding longer reduces trade count, even if trades gain more.\nB – Entries alone do not set the trade count; capital availability does.\nD – Wide stops trigger less often, not more.\n\nRemember: Hold longer, trade less: capital turns over more slowly."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "A profit factor that has fallen below 1"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Too few opportunities to keep a portfolio fully used.\n\nWhy: About 14 trades a year across a large universe means only one or two new positions a month. Even if each trade is good, a portfolio of 20 or so positions would sit largely in cash. Idle capital earns little and drags down overall returns. The next step is to find more signals or adjust rules so capital is used.\n\nWhy not the others:\nA – The per-trade statistics are described as strong.\nC – Nothing suggests volatility is too high.\nD – Strong per-trade statistics imply a profit factor above 1.\n\nRemember: Great trades are not enough if there are too few of them."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "$55,000"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The expectancy is $23,250 per trade.\n\nWhy: Expectancy = (win% × average win) − (loss% × average loss). Loss% = 100% − 45% = 55%. Win part: 0.45 × 70,000 = $31,500. Loss part: 0.55 × 15,000 = $8,250. Expectancy = 31,500 − 8,250 = $23,250.\n\nWhy not the others:\nA – $8,250 is only the loss part.\nC – $31,500 is only the win part.\nD – $55,000 is average win minus average loss, ignoring probabilities.\n\nRemember: Expectancy = weighted wins minus weighted losses."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "Unlimited"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About 25%.\n\nWhy: A 25% trailing stop closes a position once price falls 25% from its highest point since entry. In the worst case the trade never rises, so the high is the entry price and the stop is 25% below it. Without price gaps the position exits at about that level, so the worst loss is about 25%.\n\nWhy not the others:\nA – 5% would need a much tighter stop.\nB – 50% would mean the stop had failed, which only gaps could cause.\nD – A stop limits losses; without gaps they are not unlimited.\n\nRemember: Without gaps, the worst loss is roughly the stop distance."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Stops are no longer being triggered at all"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Capital is used more fully despite fewer trades.\n\nWhy: Low cash on the equity chart means most money is invested in positions. Fewer trades means positions are held longer. Together they show that capital is staying invested in fewer, longer trades rather than sitting idle. Trade count and capital use are different things.\n\nWhy not the others:\nA – Idle capital would show as high cash.\nB – Fewer trades are still trades; the strategy has not stopped.\nD – Low cash does not mean stops never trigger.\n\nRemember: Low cash means money is working, even if trades are fewer."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "It resets at each day's close"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It moves only one way (up for longs).\n\nWhy: A ratchet lets a wheel turn one way but not back. A trailing stop works the same: for a long position it rises as price makes new highs but never falls when price drops. That one-way movement locks in more of the gain as the trade goes well.\n\nWhy not the others:\nA – Moving both up and down is the opposite of a ratchet.\nC – Adjusting to volatility describes ATR stops, not the ratchet idea.\nD – A daily reset is not what 'ratchet' means.\n\nRemember: Ratchet = one-way: a trailing stop only tightens."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "None: run counts do not depend on dimensions"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Exponential: tests multiply with each added dimension.\n\nWhy: In a grid search, each parameter (dimension) multiplies the number of tests by its number of values. With 10 values each: 1 parameter = 10 tests, 2 = 100, 3 = 1,000, 4 = 10,000. Each added dimension multiplies the work, so the count grows exponentially.\n\nWhy not the others:\nA – A fixed number added per dimension would be linear growth.\nB – More dimensions never need fewer tests.\nD – Run counts depend directly on dimensions.\n\nRemember: Each new parameter multiplies the work."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "When stops are used"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When the strategy is overfitted.\n\nWhy: An overfitted strategy has been tuned to the quirks of past data. Those quirks are random and do not repeat, so the excellent backtest results rarely carry into live trading. A robust strategy, by contrast, holds up because its edge comes from a real pattern.\n\nWhy not the others:\nA – Robust strategies are the ones whose results tend to repeat.\nC – Position sizing does not by itself stop results repeating.\nD – Using stops does not stop results repeating.\n\nRemember: Overfit results look great on paper and rarely repeat."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "It relies on too few trades"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The parameters are fit to the test data.\n\nWhy: Choosing the single best historical setting means choosing the one that suited that specific past data best, including its random parts. That is fitting to the test data. On new data the luck does not repeat, so performance usually falls. A robust region of good settings is a better choice.\n\nWhy not the others:\nB – Computation time is a practical issue, not the key concern.\nC – The best-return setting need not reduce trade frequency.\nD – Picking the best set does not by itself mean too few trades.\n\nRemember: The best past setting is partly the luckiest one."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "Portfolio drawdown is measured on gross profit only"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Gaps through stops and losses on reinvested capital compound.\n\nWhy: A 25% stop limits each position's loss, but not the portfolio's. Price can gap below a stop, causing a larger loss. And after a position is stopped out, the money is reinvested in a new trade, which can also lose up to 25%. Losses in sequence compound: two 25% losses leave 0.75 × 0.75 = 56% of the capital, a 44% drawdown.\n\nWhy not the others:\nA – The stops could easily have been active; a deeper drawdown has normal causes.\nC – Trailing stops never widen; they only tighten.\nD – Drawdown is measured on equity, not gross profit.\n\nRemember: Per-trade stops do not cap portfolio drawdown: gaps and repeated losses add up."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "The strategy should now be abandoned"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The lower SQN is likely more realistic; don't rely on one measure.\n\nWhy: SQN is roughly average R ÷ standard deviation of R × √(number of trades). Thousands of trades with very similar small R-multiples give a tiny standard deviation and large trade count, which push SQN up even if each trade earns little. After stops and sizing, R-multiples vary more, so SQN falls. The new figure is probably more realistic; judge the strategy using several measures.\n\nWhy not the others:\nA – A lower SQN after changes does not prove the strategy got worse.\nB – Stops and sizing change R-multiples, so they change SQN.\nD – 'Good' is still a positive rating.\n\nRemember: SQN can be flattered by many tiny, similar trades; check other measures too."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "The largest number of signals generated"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Good results across periods and universes.\n\nWhy: The goal of optimization is not the single best backtest, but settings that work well in many conditions: different years, market phases and sets of securities. That shows the edge is robust and likely to continue. A setting that only shines in one period or universe is likely fitted to chance.\n\nWhy not the others:\nB – The best historical return is often an overfit result.\nC – Few trades are not a goal; they can leave capital idle.\nD – More signals are not the aim of optimization.\n\nRemember: Optimize for robustness, not for the best backtest."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "$78.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The two-ATR stop is at $75.00.\n\nWhy: A volatility stop sits a multiple of ATR below price. Two ATRs = 2 × $2.50 = $5.00. Stop = $80 − $5.00 = $75.00. If price falls to $75, the position is closed.\n\nWhy not the others:\nA – $72.50 is 3 ATRs below price (80 − 7.50).\nC – $77.50 is only 1 ATR below price.\nD – $78.00 is $2 below price, not related to ATR.\n\nRemember: Volatility stop = price − (multiple × ATR)."
   }
 ]

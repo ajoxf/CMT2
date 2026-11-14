@@ -9,7 +9,8 @@
       "Within ten business days"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Within two business days.\n\nWhy: Corporate insiders (officers, directors and large shareholders) must publicly report a change in their holdings of the company's stock within two business days of the trade. The filing used for this is a short \"statement of changes in ownership.\" The short deadline matters to technicians because insider buying and selling is only useful as a sentiment signal if the public learns about it quickly, while the information is still fresh.\n\nWhy not the others:\nB – Same-day reporting is not required; this confuses a fast deadline with an instant one.\nC – Five business days is longer than the actual rule and would make the data stale sooner.\nD – Ten days is the deadline for a new insider's first holdings report, not for reporting individual trades.\n\nRemember: Insider trades are reported within two business days, so the data reaches the public fast enough to use."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Insider selling is reported with a longer delay than buying"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Insiders can sell for many personal reasons unrelated to the company's outlook.\n\nWhy: An insider sale has many possible causes: paying taxes, buying a house, paying for school, diversifying a portfolio that is heavily concentrated in one stock, or estate planning. Because so many motives have nothing to do with the business, a sale tells you little about what the insider thinks of the company's future. A purchase is different. There is really only one reason to spend your own cash on the stock in the open market: you expect it to go up. That is why buying carries more information than selling.\n\nWhy not the others:\nB – Insider sales are not pre-cleared by regulators; the rule is that trades must be reported, not approved.\nC – Insider sales are public, filed under the same reporting rules as purchases.\nD – Buys and sells have the same reporting deadline, so timing is not the difference.\n\nRemember: Insiders sell for many reasons but buy for only one, so buying is the stronger signal."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "0.20; in line with its norm, neutral"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 0.25; below its norm, a less bullish insider reading.\n\nWhy: The insider buy/sell ratio is the number of purchases divided by the number of sales. This month: 60 ÷ 240 = 0.25. The meaning of a ratio comes from comparing it with its own history, not from the raw number. The long-run average is 0.40, and 0.25 is below 0.40. So insiders are buying relatively less than usual, which is a less bullish (more cautious) reading. Insiders almost always sell more than they buy, so a ratio under 1.0 is normal by itself.\n\nWhy not the others:\nA – 4.0 comes from dividing sales by purchases (240 ÷ 60), which flips the ratio.\nB – The ratio of 0.25 is correct, but 0.25 is below 0.40, not above it.\nD – 0.20 is a miscalculation, and the reading is not in line with the 0.40 norm.\n\nRemember: Judge the insider buy/sell ratio against its own long-run average, not against 1.0."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "15% of float; 12 days"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 15% of float; 12 days.\n\nWhy: Two different short-interest measures are asked for. Short interest as a percentage of float compares the shares sold short with the shares that are freely available to trade: 6,000,000 ÷ 40,000,000 = 0.15 = 15%. Days-to-cover compares short interest with normal trading activity: 6,000,000 ÷ 500,000 = 12 days. This means it would take about 12 average trading days of volume for all short sellers to buy back their shares.\n\nWhy not the others:\nA – 6.7% comes from dividing float by short interest (40 ÷ 6) and then misreading the result.\nB – Both numbers are miscalculated; neither 12% nor 15 days follows from the data.\nC – 0.08 days comes from dividing volume by short interest (500,000 ÷ 6,000,000), which inverts the ratio.\n\nRemember: Short % of float = short interest ÷ float; days-to-cover = short interest ÷ average daily volume."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Short interest divided by total market capitalization"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Aggregate short interest divided by average daily share volume.\n\nWhy: Days-to-cover estimates how long it would take short sellers to buy back all the shares they have sold short if they used the stock's normal daily volume. Short interest is the total number of shares currently sold short. Dividing it by average daily volume gives a number of days. For example, 5 million shares short ÷ 1 million shares a day = 5 days. A higher number means covering would be harder and could push prices up sharply if shorts rushed to buy.\n\nWhy not the others:\nA – Volume divided by short interest is the inverse and does not give a number of days.\nB – Shares outstanding divided by short interest measures how large the short position is, not how long it takes to cover.\nD – Market value is in dollars and short interest is in shares, so this ratio has no useful meaning.\n\nRemember: Days-to-cover = shares short ÷ average daily volume."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "It typically precedes positive earnings surprises"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Shorts may be forced to buy back shares, adding demand.\n\nWhy: A short seller has sold borrowed shares and must eventually buy them back to close the trade. So every share sold short is future buying demand. When short interest is high relative to volume, a price rise can push short sellers to cover (buy back) to limit their losses. That buying lifts the price further, which can force even more covering. This chain reaction is called a short squeeze. That is why some analysts treat high short interest as potentially bullish, even though it reflects bearish opinions.\n\nWhy not the others:\nA – High short interest says nothing good about fundamentals; it shows many traders expect a decline.\nB – Short positions express a lack of confidence, not institutional confidence.\nD – There is no rule that high short interest leads to positive earnings surprises.\n\nRemember: Today's short sellers are tomorrow's forced buyers."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Within 30 days of assuming their position"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Within 10 days of assuming their position.\n\nWhy: When someone first becomes an insider, for example a newly appointed officer or director, they must file an initial statement listing the company shares they already own. This first filing is due within 10 days of taking on the role. After that, any change in holdings must be reported within two business days. Keeping the two deadlines apart is the key: 10 days for the starting snapshot, two business days for each later trade.\n\nWhy not the others:\nA – Two days is the deadline for reporting later trades, not the initial ownership report.\nB – Five days is not the rule for either filing.\nD – Thirty days is far longer than the actual deadline.\n\nRemember: New insider: 10 days to report initial holdings; any later trade: 2 business days."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Any single insider trade above $1 million"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Three or more insiders buying or selling at around the same time.\n\nWhy: One insider trading alone can be explained by personal circumstances. When several insiders act in the same direction within a short window, it is much less likely to be coincidence. A common working definition of a \"cluster\" is three or more insiders buying (or selling) at roughly the same time. A cluster suggests that people with the best knowledge of the business share the same view, which makes the signal more meaningful.\n\nWhy not the others:\nA – Two trades over a whole quarter are too few and too spread out to show a shared view.\nC – Five trades over a full year are spread too thin in time to count as a cluster.\nD – One large trade is still one person's decision; size alone does not make a cluster.\n\nRemember: Look for three or more insiders acting the same way at the same time."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "American Association of Individual Investors (AAII)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. American Association of Individual Investors (AAII).\n\nWhy: The AAII runs a weekly survey that asks its members, who are individual (non-professional) investors, whether they feel bullish, bearish or neutral about the stock market over the next six months. The results are published and easy to access, so it is a popular gauge of how the \"average\" investor feels. Technicians usually read it as a contrarian indicator: extreme optimism or pessimism among the crowd is often a warning that the trend may turn.\n\nWhy not the others:\nA – The SEC is a regulator; it does not survey investor sentiment.\nB – FINRA oversees brokers and publishes short-interest data, not a sentiment survey of individuals.\nC – The NASD was an earlier broker regulator (now part of FINRA), not a sentiment survey.\n\nRemember: AAII = the weekly bull/bear/neutral survey of individual investors."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "When investors were evenly split between bullish and bearish"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When investors described themselves as neutral.\n\nWhy: You might expect the extreme bullish or bearish readings to be the most useful contrarian signals. But studies of the individual-investor survey found that unusually high neutral readings were the most reliable. High neutral readings show indecision: many investors are on the sidelines rather than committed. Those undecided investors are potential future buyers, and periods of high neutrality were followed by above-average stock market returns.\n\nWhy not the others:\nA – Extreme optimism is a classic contrarian warning, but it was not the most reliable signal in this survey.\nC – Extreme pessimism can mark lows, but its record here was less consistent than high neutral readings.\nD – An even split between bulls and bears is not an extreme and gives no clear signal.\n\nRemember: In the individual-investor survey, high \"neutral\" readings had the best track record."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Confirmation that the trend will stay flat"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Indecision that has historically preceded above-average gains.\n\nWhy: A large neutral group means many investors have not yet decided which way the market will go. They are holding back rather than fully invested. Historically, periods of unusually high neutral readings have been followed by better-than-average market returns. One explanation is that undecided investors have money waiting on the sidelines, and as they commit it, it supports prices. A contrarian therefore treats high neutrality as a mildly bullish backdrop.\n\nWhy not the others:\nA – High neutrality has not been a reliable warning of sharp declines.\nB – Neutral readings are not irrelevant; they have been the most useful part of the survey.\nD – Neutral respondents expect little change, but the contrarian takeaway is the opposite: gains have tended to follow.\n\nRemember: A crowd of fence-sitters has tended to come before rallies, not declines."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Caution: bullish readings above about 60% have tended to precede pullbacks"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Caution: bullish readings above about 60% have tended to precede pullbacks.\n\nWhy: Advisor-sentiment surveys are read as contrarian indicators. When almost everyone is bullish, most of those who want to buy have already bought, so there is little fresh buying left to push prices higher. A reading of about 60% or more bulls has historically warned of a market pullback. Here bulls are 62%, which is above that level, so a contrarian would turn cautious even though the trend is up.\n\nWhy not the others:\nA – Agreement with the trend is the problem, not a confirmation; crowded optimism is a warning sign.\nB – Low bears is part of the same overly optimistic picture, so it is not a buy signal.\nC – Bullish extremes carry meaning too; contrarian readings work at both ends.\n\nRemember: When advisors get very bullish (over about 60%), get careful."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "As a contrarian indicator"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. As a contrarian indicator.\n\nWhy: The advisors' sentiment report summarizes the views of investment newsletter writers. Market advisors, like most crowds, tend to be most bullish near tops and most bearish near bottoms, because they follow the trend that has already happened. So the report is used against the crowd: very high bullishness is a warning and very high bearishness is a potential buying opportunity. That is what \"contrarian\" means.\n\nWhy not the others:\nA – Trend-following would mean agreeing with the advisors, which is the opposite of how the report is used.\nB – A momentum indicator measures the speed of price change, not opinions.\nC – A volatility indicator measures the size of price swings, not sentiment.\n\nRemember: Advisor surveys are read in reverse: crowd extremes warn of turns."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Over 65%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Over 60%.\n\nWhy: The survey's publisher has noted that once more than about 60% of advisors are bullish, the market has tended to pull back. At that point optimism is crowded: most advisors who might buy are already bullish, so there are fewer new buyers left. This is a warning level, not a precise timing signal, and it is best used together with price analysis.\n\nWhy not the others:\nA – Over 50% is a common reading in normal bull markets and is not an extreme.\nB – Over 55% is the bearish threshold used for bottoms, not the bullish one for pullbacks.\nD – Over 65% is above the stated warning level; waiting for it would miss many signals.\n\nRemember: Bulls above 60% = danger zone for a pullback."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "60%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 55%.\n\nWhy: For market bottoms, the survey's publisher looks for at least 55% of advisors to be bearish. Readings that pessimistic are rare, because newsletter writers tend to lean bullish most of the time. When more than half of them turn bearish, pessimism is extreme: most of those inclined to sell have probably already sold. That has tended to happen near important market lows.\n\nWhy not the others:\nA – 45% bears is high but not extreme enough to mark a major bottom.\nB – 50% is close, but the stated threshold is higher.\nD – 60% is the bullish threshold used for tops, not the bearish threshold for bottoms.\n\nRemember: Tops: bulls over 60%. Bottoms: bears over 55%."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Because the survey measures money actually committed to short positions"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Because extreme pessimism among advisors is rare and has tended to coincide with major market lows.\n\nWhy: Advisors usually lean bullish, so a reading of more than 55% bears happens only a few times in several decades. Such extreme pessimism means fear is widespread and most selling has likely already happened. With few sellers left, even modest buying can push prices up. Historically, these rare readings have lined up with major market bottoms, which is why they are treated as strong contrarian buy signals.\n\nWhy not the others:\nA – The point is the opposite: advisors tend to be wrong at extremes, which is why they are faded.\nC – The survey measures opinions; it has nothing to do with margin calls.\nD – The survey records opinions, not money actually committed to short positions.\n\nRemember: Rare extreme bearishness = most sellers are already out."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Cyclical"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Negative.\n\nWhy: The research found that sentiment and future stock returns move in opposite directions. When investors and analysts are very optimistic, later returns tend to be lower; when they are very pessimistic, later returns tend to be higher. That is a negative (inverse) relationship. It is the statistical basis for treating sentiment as a contrarian indicator.\n\nWhy not the others:\nA – A positive relationship would mean optimism predicts gains, which is the opposite of the finding.\nC – A relationship was found, so \"none\" is incorrect.\nD – \"Cyclical\" describes repeating waves, not the direction of the link between sentiment and returns.\n\nRemember: High sentiment, lower future returns; low sentiment, higher future returns."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Days-to-cover rose from 4 to 10, and forced covering could add fuel to the breakout"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Days-to-cover rose from 4 to 10, and forced covering could add fuel to the breakout.\n\nWhy: Days-to-cover = short interest ÷ average daily volume. Before: 4,000,000 ÷ 1,000,000 = 4 days. After: 10,000,000 ÷ 1,000,000 = 10 days. So many more traders are betting against the stock. When the price then breaks above long-standing resistance, those short sellers start losing money. If they rush to buy back shares, their buying adds demand and can make the breakout stronger. That is the short-squeeze effect.\n\nWhy not the others:\nA – The ratio rose, not fell; the numbers were read backwards.\nB – Short interest changed, so the ratio changes even if volume does not.\nC – A large short position does not mean the shorts are right; a breakout against them is what triggers covering.\n\nRemember: A breakout plus heavy short interest can turn shorts into buyers."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Short position ratio"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Short interest ratio.\n\nWhy: \"Days-to-cover\" and \"short interest ratio\" are two names for the same calculation: total shares sold short divided by average daily volume. Both tell you how many days of normal trading it would take for all short sellers to buy back their shares. Knowing both names helps you recognize the same idea when it is described in different ways.\n\nWhy not the others:\nA – \"Short interest index\" is not the standard name for this ratio.\nC – \"Short coverage ratio\" sounds plausible but is not the accepted term.\nD – \"Short position ratio\" is not the standard name either.\n\nRemember: Days-to-cover is also called the short interest ratio."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Shares acquired through tender offers"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Shares acquired through options exercised below market price.\n\nWhy: When an insider exercises stock options with a strike price below the market, they are converting part of their pay into stock. This is often routine and driven by option expiration dates, tax planning or compensation schedules, not by a fresh view on the company. An open-market purchase is different: the insider chooses to spend their own money at the current price. That free choice is what makes open-market buying informative, so option exercises deserve less weight.\n\nWhy not the others:\nB – An inheritance is not an investment decision, so it is not normally counted as insider buying at all; the standard example of a discounted acquisition is the option exercise.\nC – Plan purchases also show less conviction, but the classic case contrasted with open-market buys is exercising cheap options.\nD – A tender offer is an offer to buy shares from holders, not a standard way insiders accumulate stock.\n\nRemember: An insider buying with their own cash says more than one cashing in options."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "To avoid the volatility around the release"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Company policies restrict trading before earnings releases.\n\nWhy: Most companies set \"blackout periods,\" windows before earnings reports when insiders are not allowed to trade. These internal rules protect the company and its insiders from accusations of trading on information the public does not yet have. Once the results are public, a trading window opens. That is why insider trades often cluster just after earnings announcements.\n\nWhy not the others:\nA – The timing is mainly about compliance, not about getting better prices.\nB – The waiting period comes from company policy, not from a fixed regulatory mandate.\nD – Avoiding volatility is not the main reason; the restriction exists to avoid trading on non-public information.\n\nRemember: Insider trades bunch up after earnings because blackout periods block trading before them."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "To defer capital gains taxes on the shares sold"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To provide orderly liquidation and avoid insider trading accusations.\n\nWhy: A 10b5-1 plan is a written trading plan that an insider sets up in advance, while not holding any material non-public information. It specifies when, how much, or at what prices shares will be sold (or bought). Trades then happen automatically according to the plan. This lets insiders sell shares in an orderly way over time and protects them against claims that they traded on inside knowledge. For sentiment analysis, planned sales therefore carry little information.\n\nWhy not the others:\nA – The plan's purpose is the reverse: it prevents insiders from timing trades around news.\nB – It is not designed to improve the stock's liquidity.\nD – It has no tax deferral function.\n\nRemember: A 10b5-1 sale was scheduled in advance, so it says little about the insider's current view."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "The study was inconclusive"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. No, it did not earn abnormal returns.\n\nWhy: \"Abnormal returns\" means returns above what would be expected given the market's movement and the stock's risk. Research that built portfolios copying insider trades found that portfolios mimicking insider purchases earned abnormal returns, but portfolios mimicking insider sales did not. This fits the idea that insiders sell for many non-informative reasons (diversification, taxes, spending), so their sales do not reliably predict weak performance.\n\nWhy not the others:\nA – Significant returns were found for purchases, not for sales.\nB – Even modest abnormal returns were not found for the sales portfolio.\nD – The finding was clear, not inconclusive.\n\nRemember: Copying insider buys showed an edge; copying insider sells did not."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Neutral readings are left out of the bull-bear spread, so they carry no information"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Neutral readings reflect indecision, not crowded positioning, and have preceded gains.\n\nWhy: An extreme bullish reading means the crowd is already committed, so there is little new buying left, which is a warning sign. An extreme neutral reading means many people have not committed either way. They are waiting, and their money is still available to buy. So the two are different situations: one is crowded, one is undecided. Historically, high neutral readings have been followed by above-average returns, which is why they are not treated like bullish extremes.\n\nWhy not the others:\nB – High neutral readings have not been reliable warnings of crashes.\nC – Surveys measure opinions; no capital is at risk in any survey reading.\nD – The bull-bear spread ignores neutrals, but that does not make the neutral reading uninformative.\n\nRemember: Bullish extreme = crowd is all in; neutral extreme = crowd is still waiting."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "About 75 days"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About 7.5 days.\n\nWhy: Days-to-cover = short interest ÷ average daily volume = 9,000,000 ÷ 1,200,000 = 7.5 days. This means that if short sellers used all of a normal day's trading volume, it would take about seven and a half days for them to buy back every share sold short. Higher values mean covering could put more upward pressure on the price.\n\nWhy not the others:\nA – 0.13 days comes from dividing volume by short interest (1.2 ÷ 9), which inverts the ratio.\nB – 1.33 days does not follow from these numbers; it reflects a decimal or division error.\nD – 75 days results from misplacing the decimal point by a factor of ten.\n\nRemember: Days-to-cover = shares short ÷ average daily volume."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Short the next test of $40, since resistance has held for months"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Buy only on a decisive breakout above $40, using insider buying as confirmation.\n\nWhy: Four directors buying in the open market is a cluster, a meaningful bullish sentiment clue. But insiders are often early: they may buy months before the price moves. The rectangle shows that supply at $40 has been capping the price. A decisive breakout above $40 shows that buyers have finally overcome that supply. Waiting for the breakout lets price confirm the insiders' view, and the insider buying gives extra confidence in the breakout.\n\nWhy not the others:\nA – Being early is not the same as being wrong; shorting against an insider cluster ignores the signal.\nB – Insider buying does not replace price confirmation; resistance can hold for a long time.\nD – Shorting at resistance goes against both the insider signal and the possibility of a breakout.\n\nRemember: Insiders tell you what might happen; the breakout tells you when."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Shares bought through the company's employee purchase plan"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. An open-market purchase of shares by the CFO.\n\nWhy: An open-market purchase means the insider chose to spend personal money to buy shares at the current market price. That is a voluntary decision with real money at risk, so it reflects a genuine belief that the stock is worth more. A chief financial officer also has deep knowledge of the company's finances. The other choices are acquisitions that happen through compensation or automatic plans, which carry little information about the insider's view.\n\nWhy not the others:\nB – Exercising cheap options is often routine conversion of pay, not a fresh bet.\nC – A stock grant is compensation; the officer did not choose to buy anything.\nD – Employee purchase plans run on a schedule, often at a discount, so they show little conviction.\n\nRemember: The most telling insider trade is a voluntary open-market buy with personal cash."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Long, short, and hedged"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Bullish, bearish, and expecting a correction.\n\nWhy: Instead of a neutral category, the advisors' survey uses a \"correction\" group. These are advisors who are bullish over the longer term but expect a short-term decline first. So advisors are sorted into bulls, bears, and those expecting a correction. Analysts watch the bull and bear percentages most closely for contrarian extremes.\n\nWhy not the others:\nA – Bullish, neutral and bearish are the categories of the individual-investor survey, not this advisors' survey.\nB – These words are not the categories the survey uses.\nD – Long, short and hedged describe positions, not the survey's opinion categories.\n\nRemember: The advisors' survey uses bulls, bears and \"correction,\" not \"neutral.\""
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Only newsletter writers, not other groups"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Both Wall Street strategists and individual investors.\n\nWhy: The research looked at several groups: Wall Street strategists, newsletter writers and individual investors. The sentiment of both the strategists and the individual investors was a statistically significant contrary predictor of future returns. In other words, when either group was very optimistic, later returns tended to be lower. \"Statistically significant\" means the relationship was unlikely to be due to chance alone.\n\nWhy not the others:\nA – The finding was not limited to strategists.\nB – The finding was not limited to individuals.\nD – Newsletter writers were not the only significant group.\n\nRemember: Both the professionals and the public worked as contrary indicators."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Buying securities below market price"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Selling securities that the seller does not own.\n\nWhy: A short seller borrows shares, usually from a broker, and sells them in the market. The goal is to buy the shares back later at a lower price, return them to the lender, and keep the difference as profit. Because the seller sold something they did not own, they must eventually buy it back. That future buying is why short interest can become a source of demand.\n\nWhy not the others:\nA – Buying with borrowed money is buying on margin, which is a long position.\nC – Selling at a loss is just closing a losing trade; it has nothing to do with shorting.\nD – Buying below market price describes a bargain purchase, not short selling.\n\nRemember: Short selling = sell borrowed shares now, buy them back later."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Listing on multiple exchanges"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Use of options and other derivatives instead.\n\nWhy: Short interest counts only shares sold short. In highly liquid stocks, many traders express bearish views through options, such as buying puts, or through other derivatives instead of shorting shares directly. Those bearish bets do not appear in the short-interest figures. So short interest understates total bearishness and is a weaker measure of future buying power from covering in these stocks.\n\nWhy not the others:\nA – High volume affects days-to-cover, but it is not the reason short interest loses meaning here.\nC – Earnings announcements do not change what short interest measures.\nD – Trading on several exchanges does not hide short positions from the data.\n\nRemember: When bears use options instead of shorting shares, short interest misses part of the picture."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "All employees with access to financial information"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Officers, directors, and beneficial owners of more than 10% of equity.\n\nWhy: For reporting purposes, a corporate insider is any officer or director of the company, plus anyone who beneficially owns more than 10% of a class of its equity. \"Beneficial owner\" means the person who actually enjoys the benefits of ownership, even if the shares are held in another name. These people must report their trades, which is how the public learns about insider activity.\n\nWhy not the others:\nA – The definition is wider than just the CEO and CFO.\nB – 5% is the threshold for a different ownership disclosure, not insider status for trade reporting.\nD – Ordinary employees are not covered by these reporting rules, even if they see financial data.\n\nRemember: Insider = officer, director, or owner of more than 10%."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Use the date of the next earnings announcement"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Use the date when the data became publicly available.\n\nWhy: Backtesting means testing a trading rule on past data to see how it would have performed. If you use the date the insider actually traded, your test assumes you knew about the trade before anyone could have. That is called look-ahead bias, and it makes results look better than they really could have been. The correct approach is to act only from the date the filing became public, because that is the earliest a real trader could have used it.\n\nWhy not the others:\nA – Using the trade date gives the test information it could not have had at the time.\nC – A fixed one-week delay is arbitrary and does not match when the data was actually released.\nD – The next earnings date has nothing to do with when insider data became available.\n\nRemember: In a backtest, you can only use information on the day the public could see it."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Surveys are less regulated than action-based indicators"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Surveys measure opinions while others involve capital at risk.\n\nWhy: A survey asks people what they think, and answering costs nothing. Insider purchases and short positions are different: people put real money behind their view. Sentiment indicators can therefore be grouped into opinion-based measures (surveys) and action-based measures (trades with money at stake). Action-based measures are often considered more meaningful because opinions can be cheap.\n\nWhy not the others:\nB – This reverses the two: surveys measure opinions, trades measure actions.\nC – Surveys are not generally considered more reliable than measures backed by real money.\nD – Regulation is not the distinction being made between these indicator types.\n\nRemember: Surveys tell you what people say; insider buys and short positions show what they do with money."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "As routine option-related acquisitions with little meaning"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. As a sign insiders see value, often near major market lows.\n\nWhy: The ratio's normal level is 0.3, meaning about 3 buys for every 10 sales. A jump to 1.5 means insiders are now buying more than they sell, which is five times the usual level. This is happening after a 40% decline, when public fear is likely high. Insiders know their businesses well, and heavy buying after a big drop suggests they think prices are too low. Historically, such spikes have often appeared near major market bottoms.\n\nWhy not the others:\nA – Heavy insider buying is a bullish signal, not confirmation of further decline.\nC – A move to five times the norm is far too large to dismiss as noise.\nD – The ratio is meant to track voluntary buys; the spike reflects real conviction, not routine option activity.\n\nRemember: A spike in insider buying after a big decline has often marked a major low."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "The ratio works only in bull markets"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. No single indicator marks every bottom; combine it with other evidence.\n\nWhy: An indicator that worked at two lows but gave only a weak signal at a third is behaving normally. Market conditions differ from one cycle to the next, and no indicator works every time. That does not make the indicator useless. It means the analyst should look for agreement from other tools, such as price patterns, breadth or other sentiment measures, before drawing a conclusion.\n\nWhy not the others:\nB – One weak signal does not prove the indicator stopped working.\nC – A weaker buying spike does not mean insiders were wrong; it just means the signal was not as clear.\nD – The examples were at bear-market lows, so there is no basis to say it only works in bull markets.\n\nRemember: Every indicator misses sometimes, so use several that agree."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Estate planning or portfolio diversification"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Estate planning or portfolio diversification.\n\nWhy: Insiders often hold a large share of their wealth in their company's stock. Selling some shares to diversify, to plan their estate, or to meet personal expenses is sensible money management and says nothing about the company's prospects. The other choices all describe selling because of bad news the insider knows about, which would be a bearish reason, and trading on non-public news would also be illegal.\n\nWhy not the others:\nA – Selling on knowledge of bad earnings is a bearish, and illegal, motive.\nB – Selling ahead of expected regulatory problems is also a bearish motive.\nC – Selling because a competitor is gaining ground is a bearish view of the company.\n\nRemember: Many insider sales are about personal finances, not the company's future."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "The research did not examine this question"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. No, they do not earn higher returns.\n\nWhy: You might expect top executives, who have the most information, to earn the biggest gains on their own trades. But research found that top executives did not earn higher abnormal returns than other insiders. One possible reason is that senior executives are watched most closely and face the strictest trading restrictions, so they trade more cautiously. For analysts, this means trades by lower-ranking insiders deserve attention too.\n\nWhy not the others:\nB – The research did not find significantly higher returns for top executives.\nC – Not even a marginal advantage was found.\nD – The research did examine this question directly.\n\nRemember: Rank did not mean better returns; all insider buying matters."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "-18 points; a neutral reading"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. -26 points; a potentially bullish contrarian signal.\n\nWhy: The bull-bear spread is the bullish percentage minus the bearish percentage: 22% − 48% = −26 points. A deeply negative spread means pessimism is widespread. Contrarians reason that when most people are already bearish, much of the selling has likely already happened, leaving room for prices to rise. So a strongly negative spread is read as potentially bullish.\n\nWhy not the others:\nB – The sign is wrong: bears outnumber bulls, so the spread is negative.\nC – The number is right, but contrarians read heavy pessimism as bullish, not as confirmation of declines.\nD – −18 is miscalculated, and a reading this negative is not neutral.\n\nRemember: Bull-bear spread = bulls − bears; a deep negative is a contrarian positive."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Expecting both gains and losses in different sectors"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Expecting stock prices to be unchanged over the next six months.\n\nWhy: In the individual-investor survey, each respondent says what they expect stock prices to do over the next six months. Bullish means they expect prices to rise, bearish means they expect prices to fall, and neutral means they expect prices to stay essentially unchanged. So \"neutral\" is a specific forecast of a flat market, not just a lack of opinion.\n\nWhy not the others:\nA – Expecting modest gains would place the respondent in the bullish group.\nC – \"Undecided\" is a common way to think about neutrals, but the survey defines it as expecting no change.\nD – Sector-by-sector views are not part of the survey's definition.\n\nRemember: Neutral in the survey means \"prices unchanged over six months.\""
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "The return of the prior period"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The median return over all comparable periods (the baseline).\n\nWhy: Suppose the market rose 6% in the year after a sentiment extreme. That only matters if it is better than what the market usually does. If the typical year returns 7%, then 6% is nothing special. So you compare the returns after the signal with a baseline: the typical (median) return over all similar periods. Only returns clearly above or below that baseline show that the signal has value.\n\nWhy not the others:\nB – Comparing with the best past case is cherry-picking and sets an unfair benchmark.\nC – Markets usually rise over time, so beating zero proves little.\nD – One prior period is not a fair baseline; it could be unusual itself.\n\nRemember: A signal is useful only if what follows beats the normal baseline."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "All registered investment advisory newsletters"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Independent newsletters not affiliated with brokerage houses or mutual funds.\n\nWhy: The advisors' sentiment survey reads investment newsletters written by independent advisors. These writers are not tied to brokerage firms or fund companies, so their views are not shaped by a firm's sales goals. The idea is to capture the opinion of market professionals who comment publicly, so that their extremes can be used as contrarian signals.\n\nWhy not the others:\nA – The survey focuses on independent writers, not those tied to major brokers.\nC – It does not cover institutional research publications.\nD – It is not a census of every registered advisory newsletter.\n\nRemember: The advisors' survey reads independent newsletter writers."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "Normal compensation-related selling"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A potential bearish signal worth investigating.\n\nWhy: One insider selling some shares is normal. Five insiders all selling their entire holdings within two weeks is unusual. It is a cluster (three or more acting together), and selling everything goes far beyond routine diversification. Even though insider selling is usually weaker than buying, this pattern is extreme enough to raise a warning. The right response is to investigate and look for confirmation in price action.\n\nWhy not the others:\nA – Routine rebalancing would not normally involve several insiders dumping all their shares at once.\nC – Selling usually carries less information than buying, but not none, especially at this scale.\nD – Compensation-related selling would not explain five insiders exiting completely in two weeks.\n\nRemember: Selling is usually weak evidence, but a cluster of complete exits is a red flag."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "Borrowing costs"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Losses from stock price increases.\n\nWhy: A short seller profits if the price falls and loses if it rises. Since a stock's price can rise without limit, a short seller's possible loss is also unlimited. When the price starts climbing, losses grow, and the short seller may be forced to buy back shares (cover) to stop the losses or to meet a margin call. Rising prices are therefore the main reason shorts cover.\n\nWhy not the others:\nA – Short selling is legal, so regulatory penalties are not the usual driver.\nC – Short sellers do owe dividends to the lender, but this is a smaller cost, not the main risk.\nD – Borrowing fees add cost, but a rising price is the much larger danger.\n\nRemember: Rising prices are what push short sellers to cover."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "In combination with other independent factors"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. In combination with other independent factors.\n\nWhy: Sentiment shows how the crowd feels, but extremes can last a long time before prices turn. Used alone, sentiment can give early or false signals. It works best alongside other independent evidence, such as trend, momentum, breadth or price patterns. \"Independent\" means the tools measure different things, so their agreement is more meaningful than repeating the same signal.\n\nWhy not the others:\nA – Sentiment used alone often gives early or false signals.\nB – It can be combined with technical tools too, not only fundamentals.\nC – Sentiment is used across many time frames, not only for short-term trading.\n\nRemember: Sentiment sets the scene; let other independent evidence confirm the turn."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "Lenders are reluctant to lend the shares"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Many investors expect the stock to fall.\n\nWhy: A high short interest ratio means many shares have been sold short compared with normal trading volume. Short sellers profit only if the price drops, so a large short position shows that many investors expect the stock to fall. Contrarians may then see possible future buying when those shorts cover, but the ratio itself reflects bearish expectations.\n\nWhy not the others:\nA – Investors expecting a rise would buy, not sell short.\nB – A heavy short position is a clear bearish bet, not neutrality.\nD – A large short position actually shows that lenders have lent many shares.\n\nRemember: High short interest = many bearish bets; contrarians see future buying power."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "Bearish, because insiders buying after a sharp decline are usually trying to prop up the price"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Bullish: a cluster of open-market buys after a decline is meaningful, while the planned sale carries little information.\n\nWhy: Four insiders (the CEO, CFO and two directors) bought shares in the open market within two weeks. That is a cluster of voluntary purchases with personal money, made after a 35% fall, which suggests they think the stock is undervalued. The one sale was made under a pre-arranged trading plan, which was set up in advance and does not reflect a current view. Weighing the evidence, the purchases dominate, so the overall reading is bullish.\n\nWhy not the others:\nB – A scheduled plan sale carries far less information than a cluster of voluntary buys.\nC – Buys and sells do not cancel one for one; their information value differs.\nD – There is no basis to assume insiders are buying to support the price; open-market buying usually reflects conviction.\n\nRemember: Weigh insider trades by what they reveal: voluntary buys count; planned sales barely do."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "Near a bullish reversal"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Near a bullish reversal.\n\nWhy: The research found that sentiment and future returns move in opposite directions. When analysts, newsletter writers and individual investors are all extremely bearish at the same time, pessimism is widespread and most people who wanted to sell have probably already sold. With little selling pressure left, the market is set up for a rise. That is why extreme bearishness across groups points to a likely bullish reversal.\n\nWhy not the others:\nA – Expecting further decline follows the crowd, which is the opposite of the contrarian finding.\nB – Extreme readings point to imbalance, not equilibrium.\nC – The finding concerns future returns, not volatility.\n\nRemember: When everyone is bearish, a rally is often close."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Because a significant portion of abnormal returns accrue quickly after transactions"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Because a significant portion of abnormal returns accrue quickly after transactions.\n\nWhy: Much of the extra return linked to insider buying shows up soon after the trade becomes public, as other investors notice the filings and react. If your data arrives late, the price may already have moved and the edge is gone. \"Low-latency\" means the data arrives with little delay, so you can act while most of the potential gain is still available.\n\nWhy not the others:\nA – Using data quickly is not a legal requirement for analysts.\nB – Insider filings stay in public records; they are not removed after a week.\nC – The goal is to catch the market's reaction, not to match institutional speed for its own sake.\n\nRemember: Insider signals fade fast, so the data must arrive fast."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "Wait for resistance to be broken, using insider activity as confirmation"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Wait for resistance to be broken, using insider activity as confirmation.\n\nWhy: A cluster of insider buying is a bullish clue, but insiders often buy well before the price moves. Consolidation near resistance means sellers are still supplying shares at that level. If you buy too early, the price may stay stuck or fall back. Waiting for a breakout above resistance shows that demand has finally won, and the insider buying adds confidence that the breakout is real. Combining sentiment with price confirmation gives a better entry.\n\nWhy not the others:\nA – Buying without regard to price risks entering long before any move happens.\nB – Shorting goes against the bullish insider signal; insiders being early does not make them wrong.\nC – Ignoring a meaningful insider cluster throws away useful evidence.\n\nRemember: Let insider buying alert you, and let the breakout trigger the trade."
   }
 ]

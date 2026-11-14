@@ -92,7 +92,8 @@ def chart_questions(files):
     out = []
     for f in files:
         qs = json.load(open(os.path.join(BANK, "chart_questions", f"{f}.json")))
-        out += to_lms(qs, f"chart-{f.lower()}", image_ok=True)
+        ex = chart_explanations()
+        out += to_lms(qs, f"chart-{f.lower()}", image_ok=True, notes={q["id"]: ex.get(f"{f}:{q['id']}") for q in qs})
     return out
 
 
@@ -119,10 +120,12 @@ def load_charts():
     for sec, title, files in CHART_PLAN:
         l = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&title=eq.{urllib.request.quote(title)}&select=id")[0]
         live = api("GET", f"/rest/v1/lesson_bodies?lesson_id=eq.{l['id']}&select=body")[0]["body"]["questions"]
-        ak = api("GET", f"/rest/v1/quiz_answer_keys?lesson_id=eq.{l['id']}&select=answers")[0]["answers"]
+        k = api("GET", f"/rest/v1/quiz_answer_keys?lesson_id=eq.{l['id']}&select=answers,explanations")[0]
+        ak, ex = k["answers"], k.get("explanations") or {}
         want = chart_questions(files)
         ok = len(live) == len(want) and all(a["prompt"] == b["prompt"] and a["image"] == b["image"] and "correct" not in a
-                                            and ak.get(b["id"]) == b["correct"] for a, b in zip(live, want))
+                                            and "explanation" not in a and ak.get(b["id"]) == b["correct"]
+                                            and ex.get(b["id"]) == b.get("explanation") for a, b in zip(live, want))
         print(f"  verify {title}: {'OK' if ok else 'MISMATCH'}")
 
 
@@ -137,13 +140,26 @@ def api(method, path, body=None, prefer=None):
         return json.loads(txt) if txt else None
 
 
-def to_lms(questions, prefix, image_ok=False):
+CHART_EXPLANATIONS = os.path.join(BANK, "chart_questions", "explanations.json")
+
+
+def chart_explanations():
+    return json.load(open(CHART_EXPLANATIONS)) if os.path.exists(CHART_EXPLANATIONS) else {}
+
+
+def to_lms(questions, prefix, image_ok=False, notes=None):
+    """Bank questions -> LMS quiz questions. "correct" and "explanation" are moved into the admin-only
+    quiz_answer_keys table by a database trigger; students get the explanation only after submitting."""
     out = []
     for q in questions:
         qid = f"{prefix}-q{q['id']}"
         opts = [{"id": f"{qid}{c}", "text": t} for c, t in zip("abcd", q["options"])]
         img = q.get("image") if image_ok and str(q.get("image", "")).startswith("https://") else None
-        out.append({"id": qid, "prompt": q["question"], "image": img, "options": opts, "correct": opts[q["correct"]]["id"]})
+        row = {"id": qid, "prompt": q["question"], "image": img, "options": opts, "correct": opts[q["correct"]]["id"]}
+        note = (notes or {}).get(q["id"], q.get("explanation"))
+        if note:
+            row["explanation"] = note
+        out.append(row)
     return out
 
 
@@ -189,8 +205,9 @@ def verify():
     lessons = api("GET", f"/rest/v1/lessons?course_id=eq.{COURSE}&select=id,title,position,chapter_id&order=position")
     bodies = {b["lesson_id"]: b["body"] for b in api("GET", "/rest/v1/lesson_bodies?select=lesson_id,body&lesson_id=in.(" +
                                                     ",".join(l["id"] for l in lessons) + ")")}
-    keys = {k["lesson_id"]: k["answers"] for k in api("GET", "/rest/v1/quiz_answer_keys?select=lesson_id,answers&lesson_id=in.(" +
-                                                     ",".join(l["id"] for l in lessons) + ")")}
+    keyrows = api("GET", "/rest/v1/quiz_answer_keys?select=lesson_id,answers,explanations&lesson_id=in.(" + ",".join(l["id"] for l in lessons) + ")")
+    keys = {k["lesson_id"]: k["answers"] for k in keyrows}
+    notes = {k["lesson_id"]: k.get("explanations") or {} for k in keyrows}
     by_title = {(l["chapter_id"], l["title"]): l for l in lessons}
     bad = 0
     for sec, pos, _, title, bank in PLAN:
@@ -199,10 +216,11 @@ def verify():
             print("  MISSING lesson", title); bad += 1; continue
         live = bodies.get(l["id"], {}).get("questions", [])
         want = to_lms(load(bank), bank.lower()) if bank else []
-        ak = keys.get(l["id"], {})
+        ak, ex = keys.get(l["id"], {}), notes.get(l["id"], {})
         ok = len(live) == len(want) and all(
             a["prompt"] == b["prompt"] and [o["text"] for o in a["options"]] == [o["text"] for o in b["options"]]
-            and "correct" not in a and ak.get(b["id"]) == b["correct"] for a, b in zip(live, want))
+            and "correct" not in a and "explanation" not in a and ak.get(b["id"]) == b["correct"]
+            and ex.get(b["id"]) == b.get("explanation") for a, b in zip(live, want))
         if not ok or l["position"] != pos:
             bad += 1
             print("  MISMATCH", title, len(live), len(want), l["position"], pos)

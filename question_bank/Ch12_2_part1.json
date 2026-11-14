@@ -9,7 +9,8 @@
       "It mainly serves to automate order execution"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Quantitative analysis objectively measures and compares ideas, helping counter bias.\n\nWhy: Think of the investment process as three steps: gather information, form an idea, then test it. Quantitative analysis is the testing step. It turns an idea into exact rules and measures how those rules performed on historical data, so you can compare one idea against another with numbers rather than feelings. Because the rules are fixed and the results are measured, it guards against biases such as only remembering the charts that worked.\n\nWhy not the others:\nB – It reverses the roles; the idea usually comes from technical or other analysis, and the quantitative step tests it.\nC – Testing still needs data to work on, so it does not remove the need for raw (primary) data.\nD – Automated execution is a separate practical matter; the main job here is objective measurement.\n\nRemember: Quant analysis is the referee: it measures and compares ideas so bias cannot pick the winner."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Primary is qualitative, secondary is quantitative"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Primary information is raw data; secondary information is derived from it.\n\nWhy: Primary information is the raw material, such as open, high, low, close and volume, exactly as recorded. Secondary information is anything calculated from that raw material, such as a moving average, an RSI reading or a relative-strength line. The difference is about how the data was produced (raw versus derived), not about its price, its age or whether it is words or numbers.\n\nWhy not the others:\nA – Cost has nothing to do with it; free data can be primary and paid data can be secondary.\nB – Both raw and derived data can be historical or real-time, so timing is not the dividing line.\nD – Both types here are numeric; the split is raw versus calculated, not qualitative versus quantitative.\n\nRemember: Primary = what the market printed; secondary = what you calculated from it."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "65%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A minimum probability of gain of about 60% is the common target.\n\nWhy: Probability of gain is the share of signals that showed a profit at the end of the test holding period. A coin flip gives 50%, so anything near 50% is barely better than chance once costs are included. A common rule of thumb when screening an entry idea is to aim for at least 60% of signals being winners, which shows a clear edge that has room to survive costs and real-world slippage.\n\nWhy not the others:\nA – 50% is pure chance; it shows no edge at all.\nB – 55% is a small edge that trading costs and noise can easily wipe out, so it is below the usual target.\nD – 65% would be very good, but it is higher than the usual minimum, so it is not the standard screen.\n\nRemember: Coin flip is 50%; aim for 60% or better before getting excited about a signal."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Ranking Rules"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Filter rules return true or false and screen out signals that fail a condition.\n\nWhy: A trading rule set has different jobs. A trigger says when something happens; a filter says whether conditions are acceptable. A filter rule is a yes/no test, for example 'is the market above its 50-day average?'. If the answer is false, any signal that day is ignored. Because it only returns true or false, it removes weak signals without creating new ones.\n\nWhy not the others:\nA – Trigger rules mark the moment an event occurs; they create signals rather than screen them.\nB – Value rules return a number (such as a momentum reading) used to rank signals, not a true/false gate.\nD – Ranking rules order signals by a value; they do not simply accept or reject them.\n\nRemember: Filter = a yes/no gate; if the answer is no, the signal is thrown away."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "A condition that must stay true for signals to count"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A trigger rule identifies the specific event when a condition is first met.\n\nWhy: A trigger rule fires on the bar where something changes, for example the day price first crosses above a moving average. It is about the event, not the state. A condition such as 'price is above the average' may stay true for months, but the trigger only fires on the first day it becomes true. That precise moment becomes the entry signal that is then tested.\n\nWhy not the others:\nB – Trend direction is a lasting state, which is the job of a filter, not an event-based trigger.\nC – Ranking same-day signals is done with a value rule.\nD – A condition that must remain true for signals to count is a filter rule.\n\nRemember: Trigger = the moment it happens; filter = the condition that must be in place."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Exit Rules"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Value rules are used to rank signals triggered on the same day.\n\nWhy: When several securities trigger on the same day and you cannot buy them all, you need a way to choose. A value rule returns a number for each security, such as its momentum, its distance from the RRG centre or its relative strength. Signals are then sorted by that number and the highest-ranked ones are taken first. A yes/no test cannot do this, because it gives every passing signal the same score.\n\nWhy not the others:\nA – Trigger rules decide when a signal occurs, not which signal is better.\nB – Filter rules only accept or reject; they cannot order signals from best to worst.\nD – Exit rules decide when to close a position, not which new signal to take.\n\nRemember: When you need to choose between signals, you need a number, and a value rule supplies it."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "It must return to the centre first"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Moving out of Lagging, a security typically passes next into Improving.\n\nWhy: A Relative Rotation Graph (RRG) plots relative strength against its momentum. Its four quadrants are Leading (top right), Weakening (bottom right), Lagging (bottom left) and Improving (top left). Securities tend to rotate clockwise: Leading → Weakening → Lagging → Improving → Leading. So a security climbing out of Lagging normally enters Improving first, as relative momentum turns up before relative strength itself recovers.\n\nWhy not the others:\nA – Going straight from Lagging to Leading skips the usual step; momentum improves before strength does.\nB – Weakening comes before Lagging in the clockwise cycle, not after it.\nD – There is no rule that a tail must return to the centre before changing quadrant.\n\nRemember: RRG rotates clockwise: Leading, Weakening, Lagging, Improving, then back to Leading."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "They need larger accounts to trade"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Shorter time frames produce many signals, so costs eat into returns.\n\nWhy: Every trade has a cost: commission, the bid-ask spread and slippage. Short time frames such as hourly or daily bars generate many more signals and trades than weekly bars. Each trade usually aims for a smaller move, so the fixed cost is a bigger slice of the expected profit. When costs are high, that slice can consume most or all of the edge, which is why longer time frames suit high-cost situations.\n\nWhy not the others:\nA – Short time frames are not inherently less accurate; the issue is how many trades they create.\nB – Short time frames can be backtested; the problem is costs, not testability.\nD – Account size is not the reason; even large accounts pay a cost on every trade.\n\nRemember: More trades means more costs; when costs are high, slow down the time frame."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Highly leveraged securities favour shorter time frames"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Highly leveraged securities favour shorter time frames.\n\nWhy: Leverage magnifies both gains and losses. With a leveraged instrument such as a futures contract or leveraged product, a modest price move can mean a large change in account value. Waiting for a weekly or monthly bar to close could let a loss grow far beyond what the account can take. So leveraged positions are usually analysed and monitored on shorter time frames, allowing faster reaction.\n\nWhy not the others:\nA – This is the reverse; longer time frames react too slowly for magnified risk.\nB – Leverage affects how fast risk builds, so it does matter for the time frame, not just for size.\nC – Monthly data is the slowest choice and the worst fit for fast, magnified swings.\n\nRemember: The more leverage, the faster things move, so the shorter the time frame you watch."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "The correlation between two indicators on the same chart"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It describes how clearly tradable trends stand out from short-term fluctuation.\n\nWhy: Borrowed from engineering, 'signal' is the part of price movement you can trade, the underlying trend. 'Noise' is the random short-term wiggle around it. A high signal-to-noise ratio means the trend is easy to see and follow; a low ratio means random moves hide it and cause false signals. Longer time frames usually have a better ratio because the random wiggles tend to average out.\n\nWhy not the others:\nB – Winners versus losers is a win/loss ratio, a different statistic.\nC – Volume relative to price change is not what the term means here.\nD – Correlation between two indicators measures how they move together, not trend clarity.\n\nRemember: Signal is the trend you trade; noise is the random chop around it."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "They require faster execution than most traders have"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. On short time frames, news- and opinion-driven moves swamp the tradable trend.\n\nWhy: Over minutes, hours or a single day, price is pushed around by headlines, rumours, order flow and changing opinions. These moves are large relative to the small trend that develops in that time, so the trend is hard to see. Over weeks and months these random effects tend to cancel out, leaving the underlying trend more visible. That is why short time frames carry more noise per unit of signal.\n\nWhy not the others:\nB – Short time frames actually provide more bars of data, not less.\nC – Indicators on short time frames lag less in clock time, not more.\nD – Execution speed is a practical issue, not the reason the data itself is noisy.\n\nRemember: The shorter the bar, the more the day's chatter drowns out the trend."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Mean return and probability of gain, with dispersion"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Mean return and probability of gain, with dispersion, best summarise the test.\n\nWhy: A signal test asks: after each signal, what happened over the next 21 trading days? To judge an edge you need the typical result (mean return), how often it worked (probability of gain), and how widely results varied (dispersion, such as standard deviation). Together they tell you whether the average is positive, whether it is consistent, and whether it depends on a few extreme outcomes.\n\nWhy not the others:\nA – The count and start date describe the test's size and period, not whether the idea works.\nB – One best result is an outlier and says nothing about the typical outcome.\nC – A benchmark return and the number of securities give context but do not measure the signal's own edge.\n\nRemember: Judge a signal by how much it makes on average, how often it wins, and how scattered the results are."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Reject it, because that many signals implies overfitting"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It misses the target as tested; refine with filters or reject.\n\nWhy: The analyst set a minimum probability of gain of 60%. The test shows 55%, which is 5 percentage points short. A positive mean of 0.7% and many signals (45,000) do not change that the rule fails the stated standard. The sensible next step is to try filters that remove poor signals and lift the win rate, or to drop the idea if refinement does not help.\n\nWhy not the others:\nA – A large sample makes the 55% estimate reliable, but a reliable miss is still a miss.\nC – A positive mean alone ignores the agreed win-rate threshold.\nD – Many signals does not imply overfitting; overfitting comes from over-tuned rules, and this is a simple first test.\n\nRemember: Set the bar before testing, then hold the idea to it: refine or reject if it falls short."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Require the stock to be in the Leading quadrant"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Require the benchmark to be above a short moving average.\n\nWhy: Relative strength compares a stock with a benchmark. If the benchmark falls 10% and the stock falls 5%, relative strength rises even though you would lose money owning the stock. A filter that only accepts signals when the benchmark is above a short moving average makes sure the overall market is not in decline, so relative strength is more likely to come with absolute gains.\n\nWhy not the others:\nB – Ranking by ATR orders signals by volatility; it does not stop signals in a falling market.\nC – Delaying signals shifts timing but does not address the falling-market problem.\nD – Leading quadrant is still a relative measure, so it can be met while both are falling.\n\nRemember: Relative strength can rise while you lose money; add an absolute trend filter on the market."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The filter is valid but needs a longer holding period"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The filter adds no value; its hypothesis is unsupported.\n\nWhy: A filter should improve the quality of signals by removing the bad ones. Here the mean return fell (1.1% to 0.9%) and the probability of gain fell (57% to 56%). The filter removed a third of the signals but the signals that remained were no better, actually slightly worse. The idea behind the filter (its hypothesis) is not supported by the evidence, so it should not be kept.\n\nWhy not the others:\nA – Both key statistics got worse, so the edge did not improve.\nC – Fewer trades save costs only if quality holds; here it fell, so you lose edge and opportunities.\nD – There is no evidence a longer holding period would fix it; the test simply shows no benefit.\n\nRemember: A good filter makes the remaining signals better; if the stats drop, drop the filter."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Neither can be judged until both are optimized"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. X has a stronger per-signal edge, but its signal count needs checking.\n\nWhy: Compare the per-signal numbers. X makes 2.4% per signal, four times Y's 0.6%, with a similar win rate (58% vs 57%). So X's edge per trade is much stronger. But 2,100 signals is far fewer than 55,000, so the analyst must check that X still produces enough well-spread signals to keep capital invested and that the sample is large enough to trust.\n\nWhy not the others:\nA – More signals make Y's estimate more precise, but its edge per signal is much weaker.\nC – Win rates are close, but mean return differs four-fold, so the ideas are not similar.\nD – Signal tests can be compared directly; optimization is not needed first.\n\nRemember: Look at edge per signal first, then check there are enough signals to use it."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "26.8%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. About 26.8% when 2.0% per period is compounded over twelve periods.\n\nWhy: There are about 252 trading days in a year, so 21-day periods give about 12 per year. Compounding means each period's gain earns returns in the next. Growth factor = 1.02^12. Step by step: 1.02^2 = 1.0404; ^4 = 1.0824; ^8 = 1.1717; ^12 = 1.1717 × 1.0824 = 1.2682. Annual return = 1.2682 − 1 = 26.8%.\n\nWhy not the others:\nA – 12.0% looks like 1% × 12; it uses the wrong period return.\nB – 21.0% confuses the number of days in the holding period with a percentage return.\nC – 24.0% is 2% × 12, simple addition that ignores compounding.\n\nRemember: Compounding: multiply (1 + r) by itself for each period, then subtract 1."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "An upward-heading filter and a minimum distance-from-centre filter"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. An upward-heading filter and a minimum distance-from-centre filter.\n\nWhy: On an RRG each security has a tail showing its recent path. Two features are described: the tail points upward (its heading, or direction of travel, shows rising relative momentum) and it sits well away from the centre (distance, showing a strong deviation from the benchmark). The best match is one filter on heading and one on minimum distance from the centre, both measured on the RRG itself.\n\nWhy not the others:\nA – Volume and RSI are not RRG measures, so they do not describe tail direction or distance.\nB – A 200-day average and a time stop say nothing about the tail's direction or its distance from centre.\nC – A benchmark trend filter and a momentum value rule do not directly capture heading and distance.\n\nRemember: Translate what you see into rules that measure exactly that feature."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Whether the holding period should now be shortened"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Check whether enough well-spread signals remain to stay invested.\n\nWhy: Filters improve quality by throwing signals away. Going from 60,000 to 2,000 removes about 97% of them. Before celebrating better averages, check the practical side: are there still enough signals, spread across time and securities, so that whenever capital becomes free there is something to buy? If signals bunch into a few periods, the portfolio will sit in cash much of the time.\n\nWhy not the others:\nB – Filters are expected to raise the mean; checking that it fell is not the main concern.\nC – Clearing 50% is too low a bar and was likely already met.\nD – Holding period is a separate design choice not driven by the signal count.\n\nRemember: Every filter costs signals; make sure enough are left, spread out, to keep your money working."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "A holding period that is too short"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Too few opportunities, leaving capital idle.\n\nWhy: 600 signals over 20 years is about 30 a year across many stocks, roughly 2–3 a month. A portfolio holding, say, 20 positions needs a steady stream of new entries as old ones close. With so few signals, much of the money would sit in cash earning little, which drags down overall returns even if each signal is good.\n\nWhy not the others:\nA – 600 over 20 years is a small number, not an unmanageable flood.\nC – Heavy filtering raises the risk of overfitting, but it is not near-certain; the clear issue is idle capital.\nD – Nothing in the question concerns the holding period.\n\nRemember: A great signal that rarely fires leaves your money sitting in cash."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "The distribution has a long tail of large losses"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Returns cluster tightly around the mean, so are more repeatable.\n\nWhy: Kurtosis describes how peaked a distribution is. Leptokurtic means a tall, narrow peak: many outcomes sit close to the average. In a signal test, that means most signals produce results similar to the mean, so the average is a fair guide to what to expect. A flat, wide spread would mean results vary a lot and the average is less dependable.\n\nWhy not the others:\nA – A tight cluster is a good sign for consistency, not a reason to reject.\nB – An even spread across the range describes a flat shape, the opposite of a tall peak.\nD – A long tail of losses is negative skew, a different property from peakedness.\n\nRemember: Tall and narrow means the average is what you usually get."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Each signal, drawn up for a profit and down for a loss"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Each signal is drawn up for a profit and down for a loss.\n\nWhy: The history bar is a time line of signal results. Each signal is plotted as a bar at the date it occurred: upward if the signal ended in profit, downward if it ended in loss, with the length showing size. Looking along it shows whether wins and losses are spread evenly over time or bunched in certain periods.\n\nWhy not the others:\nA – A price chart shows the security's price, not individual signal outcomes.\nB – Correlation with the benchmark is a different statistic, not shown this way.\nC – Cumulative equity belongs to strategy testing, not a per-signal display.\n\nRemember: History bar = every signal on a time line, up for wins, down for losses."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "The universe must contain survivorship bias"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A regime filter could switch the rule off during those periods.\n\nWhy: If losses were random, they would be scattered evenly through time. When losses cluster in a few periods, something about those market conditions (a 'regime', such as a bear market or a choppy sideways phase) hurts the idea. A regime filter that detects such conditions and blocks signals then could remove many losses while keeping the good signals.\n\nWhy not the others:\nB – Clustered losses show where it fails, not that it never works; the edge may be strong outside those periods.\nC – Clustering in time points to market conditions, not to the holding period.\nD – Survivorship bias would tend to inflate results throughout, not create loss clusters in certain periods.\n\nRemember: Losses that bunch in time point to a market condition you can filter out."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "An estimate of the strategy's beta to the market"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A distribution of possible compounded outcomes.\n\nWhy: Monte Carlo simulation answers 'what range of results could happen by luck of the draw?'. A random small sample of signals is picked, their returns are compounded into one total result, and this is repeated thousands of times. Each repetition gives a different total. Plotting all of them shows a distribution: the typical outcome, the good cases and the bad cases.\n\nWhy not the others:\nB – The method produces many outcomes, not one best case.\nC – Optimization searches for parameter values; Monte Carlo resamples results.\nD – Beta is found by regressing against the market, not by resampling signals.\n\nRemember: Monte Carlo reshuffles the deck thousands of times to show the range of outcomes."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Bimodal distribution"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Positive skew is the desired shape.\n\nWhy: Skew describes which side has the longer tail. Positive skew means most outcomes are moderate while a few are very large on the profit side. For a trading idea that is ideal: small losses are limited and occasional big winners lift the total. Negative skew means occasional large losses, which can wipe out many small gains.\n\nWhy not the others:\nA – Negative skew means a long tail of big losses, the shape traders want to avoid.\nB – A symmetric shape is acceptable but lacks the extra upside of a long right tail.\nD – Two peaks suggest two different behaviours mixed together, which makes results less predictable.\n\nRemember: You want the long tail on the profit side: positive skew."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "To confirm the rule captures the intended setup"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. To confirm the rule captures the intended setup.\n\nWhy: Writing an idea as code is easy to get slightly wrong: a sign flipped, a wrong look-back, a condition that fires on the wrong bar. Plotting where the rule fires on a chart lets you see with your own eyes whether the signals appear at the setups you had in mind. If they do not, the test results would describe a different idea from the one you meant to test.\n\nWhy not the others:\nA – Optimization comes much later; visualizing is a check, not a way to choose parameters.\nB – Costs are estimated from trade frequency and market data, not by viewing signals.\nC – The benchmark is chosen based on the universe being traded, not by looking at signals.\n\nRemember: Before trusting a test, look at the chart and confirm the code does what you meant."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Fewer than 5,000 signals"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Fewer than 1,000 signals is generally considered too thin.\n\nWhy: Statistics such as the mean return and probability of gain are estimates; the fewer signals, the more they bounce around by chance. With a few hundred signals, a handful of lucky or unlucky results can shift the averages a lot. As a rule of thumb, about 1,000 signals or more gives enough data for the estimates to settle down and be trusted for screening an idea.\n\nWhy not the others:\nA – 100 is far too few; random luck could dominate.\nB – 500 is better but still below the usual rule-of-thumb threshold.\nD – 5,000 is comfortable but stricter than the commonly used minimum.\n\nRemember: Aim for at least about 1,000 signals before trusting a signal test's averages."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "To remove look-ahead bias present in weekly data"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. To mirror real practice, where stops are monitored daily.\n\nWhy: Even if entries come from weekly charts, a real trader watches positions every day, and a stop can be hit on a Tuesday. If the test only looked at weekly closes, it would miss intra-week moves and stop hits and could understate drawdowns. Calculating on daily data makes the test behave like live trading.\n\nWhy not the others:\nA – More data points is a side effect, not the purpose; the aim is realism.\nC – Daily calculation takes more computing, not less.\nD – Weekly data does not automatically contain look-ahead bias; that comes from using information not yet available.\n\nRemember: Test the way you trade: if you would check daily, the test should too."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Leaving delisted or failed securities out of historical data"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Leaving delisted or failed securities out of historical data.\n\nWhy: Survivorship bias occurs when a database only holds securities that still exist today. Companies that went bankrupt, were delisted or were taken over have vanished. Testing on such data only includes the 'survivors', which were mostly the successful ones, so results look better than they really would have been. Good test data includes delisted securities.\n\nWhy not the others:\nA – Studying only winning trades is a form of selection bias, but not what survivorship bias refers to.\nB – This describes favouring long-lived strategies, not missing securities in the data.\nC – Overweighting recent conditions is recency bias.\n\nRemember: If dead companies are missing from your data, your backtest is flattered."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Optimization"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Signal testing comes immediately after visualizing the rule.\n\nWhy: The process runs roughly: set risk limits and choose a universe, define the entry rules, visualize them to make sure they capture the intended setup, then signal test them. Signal testing measures how entries performed over a fixed holding period. Only once the entry idea shows an edge do you add exit rules and move on to full strategy testing and later optimization.\n\nWhy not the others:\nA – Exits are defined after the entry idea has passed a signal test.\nC – Strategy testing needs both entries and exits, so it comes after signal testing.\nD – Optimization is one of the last steps, not the next one.\n\nRemember: Define, look, then signal-test: check the entry before building a full strategy."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Volatility of the benchmark"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Dispersion of individual signal returns.\n\nWhy: Standard deviation measures how far results typically sit from the average. In a signal test, each signal has its own return; the standard deviation of those returns shows how spread out they are. A small value means most signals land near the mean; a large value means outcomes vary widely and any one signal is less predictable.\n\nWhy not the others:\nA – Price volatility of the security is a different calculation on price changes, not on signal outcomes.\nC – Correlation with the benchmark measures co-movement, not spread.\nD – Benchmark volatility concerns the benchmark, not the signals.\n\nRemember: In a signal test, standard deviation tells you how scattered the signal results are."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "The strategy is overfit"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The idea captures a persistent trend over the period.\n\nWhy: The chart shows the average return of all signals on each day after the trigger. If that line climbs steadily in a nearly straight line, gains build smoothly day after day rather than arriving in a single burst or fading out. That pattern suggests the signal catches a trend that keeps going through the holding period.\n\nWhy not the others:\nA – A steadily rising average shows predictive power, not a lack of it.\nC – A single outlier tends to show as a jump, not a smooth straight line across the whole period.\nD – One line's shape does not show overfitting; that comes from over-tuning parameters.\n\nRemember: A smooth, steady rise after the trigger shows a persistent trend being captured."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "The benchmark has a higher risk-adjusted return"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The signal outperforms the benchmark.\n\nWhy: The chart compares two lines: the average return after signals and the benchmark's return over the same windows. If the benchmark line stays below the signal line, the securities that triggered did better than the market over the same days. That is the goal of a selection signal: beating what you would get by holding the benchmark.\n\nWhy not the others:\nB – Being below the signal line does not mean the benchmark is falling; it may still be rising, just more slowly.\nC – The chart compares returns, not volatility.\nD – Risk-adjusted returns are not shown on this chart.\n\nRemember: Signal line above benchmark line means the signals beat the market."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Buy securities whose relative trend has just begun to improve"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Buy securities whose relative trend has just begun to improve.\n\nWhy: On an RRG, Lagging means weak and falling relative strength. Improving means relative strength is still weak but its momentum has turned up. A move from Lagging to Improving is therefore the first sign that a security is starting to recover against the benchmark. The idea is to get in early, before it reaches Leading.\n\nWhy not the others:\nA – Securities that have led for months would be in Leading, not just leaving Lagging.\nB – Weakening against the benchmark is the Leading to Weakening move, and that is a sell idea.\nC – A peak in relative strength happens near the Leading to Weakening boundary, not here.\n\nRemember: Lagging to Improving is the first turn up; buy early in the rotation."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Filters bias the probability of gain upward"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. To set a baseline before adding complexity.\n\nWhy: The first test of an idea should be as simple as possible, so you know how the core idea performs on its own. That result is the baseline. When you add a filter later, you compare against it: did the mean return and win rate improve? Without a baseline you cannot tell whether a filter helps, hurts or does nothing.\n\nWhy not the others:\nA – Filters do cut signals, but that is not why you leave them out at first.\nC – Filters do not need optimizing before testing; optimization comes last.\nD – Filters are not assumed to bias results upward; they are tested to see if they help.\n\nRemember: Test the plain idea first, so every later change has something to be compared against."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "They prevent overfitting automatically by design"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They give fast results and handle universe and survivorship issues.\n\nWhy: A spreadsheet can test one idea on a few securities, but it gets slow and error-prone with thousands of securities over decades. Dedicated tools run tests quickly, manage the list of securities that were in the universe at each date and include delisted names to avoid survivorship bias. That speed and data handling is the main gain.\n\nWhy not the others:\nA – No tool is always more accurate; a careful spreadsheet can be correct, just slower.\nB – A clear, testable hypothesis is still needed; tools only run what you define.\nD – Tools make overfitting easier if misused; they do not prevent it.\n\nRemember: Good tools make testing fast and handle the data traps, but the thinking is still yours."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "When the trading account is small"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When preserving the account matters most or costs are high.\n\nWhy: Longer time frames (weekly, monthly) produce fewer signals and smoother trends, with less noise. Fewer trades means lower total costs. Smoother trends and fewer whipsaws suit someone whose priority is protecting capital. So longer time frames are preferred when costs are high or when capital preservation comes first.\n\nWhy not the others:\nA – Highly leveraged securities favour shorter time frames, so risk can be watched more closely.\nC – Wanting more frequent trades points to shorter time frames.\nD – A small account is usually linked to shorter time frames, not longer.\n\nRemember: Slow down when costs are high or when protecting capital is the priority."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Optimization requires several passes"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Each result guides small adjustments to the idea.\n\nWhy: Iterative means you go round a loop: test, look at the results, change one thing, test again. A test might show losses in a certain market phase, so you add a filter; the next test might show a weak first week, so you try delaying entry. Each pass teaches you something that guides the next small change, gradually refining the idea.\n\nWhy not the others:\nA – Repeating the same test gives the same result; iteration means changing something each round.\nB – Changing the universe can be one step, but it is not required each round.\nD – Optimization involves many runs, but iteration describes the whole learning loop.\n\nRemember: Test, learn, tweak, test again: that loop is what makes it iterative."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Restrict signals to securities rotating in a chosen direction"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Restrict signals to securities rotating in a chosen direction.\n\nWhy: On an RRG, each tail has a heading, the angle of its most recent move. Heading toward the upper right means relative strength and momentum are both rising. A heading filter only accepts signals when the tail points within a chosen range of angles, for example up and to the right. This keeps only securities moving in the desired direction of rotation.\n\nWhy not the others:\nA – Heading is a direction, not a measure of how volatile the price is.\nB – Beta comes from a regression against the benchmark, not from the tail's direction.\nC – Distance from the centre is a different RRG measure from heading.\n\nRemember: Heading = which way the tail is going; filter it to keep the right direction."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Have the highest absolute price momentum"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Securities showing larger relative-strength deviation from the benchmark.\n\nWhy: The centre of an RRG represents moving exactly in line with the benchmark. The further a security plots from the centre, the more its relative strength and momentum differ from the benchmark's. A minimum-distance filter therefore keeps only securities whose relative behaviour is strong and distinct, removing those that drift near the centre where moves are small and less meaningful.\n\nWhy not the others:\nA – Moving in line with the benchmark places a security near the centre, the opposite of what the filter selects.\nB – Distance says nothing about which quadrant was just entered.\nD – RRG measures relative, not absolute, momentum.\n\nRemember: Far from the centre = clearly different from the benchmark."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "Signals can no longer be tested because indicators only work on daily data"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Fewer signals and longer trades.\n\nWhy: A weekly bar combines five daily bars, so there are about one-fifth as many bars over the same period. Indicators move more slowly, so conditions change less often and fewer signals fire. Each signal also tends to last longer because the move must play out over weeks rather than days.\n\nWhy not the others:\nA – More signals and shorter trades come from moving to a shorter time frame, not a longer one.\nC – Indicator values differ on weekly bars, so the signals change.\nD – Most indicators work on any bar length, including weekly.\n\nRemember: Longer bars: fewer signals, longer trades."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Signal tests need a benchmark, while strategy tests do not"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Signal tests judge entries alone; strategy tests add exits, stops and sizing.\n\nWhy: A signal test asks one question: after entry, what typically happens over a fixed period? It ignores how much money you have and when you would sell. A strategy test simulates a real portfolio: starting capital, position sizes, exit rules, stops and costs, and whether cash is available when a signal fires. It shows how the full system would have performed.\n\nWhy not the others:\nB – Both are hypothetical tests on historical data; neither uses live money.\nC – Either can use daily or weekly data; time frame is not the difference.\nD – Both often compare against a benchmark.\n\nRemember: Signal test = is the entry any good? Strategy test = does the whole trading system work?"
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "It allows the exit rules to be simplified"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Signals will be available whenever capital frees up.\n\nWhy: In a signal test, every signal is counted, even if thousands happen at once. A real portfolio only holds a limited number of positions, so it cannot take them all. But a large pool of signals spread over time means that whenever a position closes and cash is freed, there is likely a new signal ready. That keeps capital working.\n\nWhy not the others:\nB – Signal count does not prove anything about overfitting; that depends on how the rules were built.\nC – Win rate is measured separately; signal count says nothing about it.\nD – The number of entry signals does not simplify exits.\n\nRemember: Lots of signals means there is always something to buy when cash comes free."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "The absolute trend is already turning up"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The absolute trend is already turning up before the trigger.\n\nWhy: The chart shows average returns before and after day 0. If returns are already rising before the signal, prices of those securities were going up before the rule fired. Many relative-strength measures react after price has begun to move, so the price trend has already turned up by the time the trigger appears. It shows the signal confirms an existing up-move.\n\nWhy not the others:\nA – Some lag is implied, but the line continuing to rise after day 0 shows the move is still being captured, not missed.\nB – Look-ahead bias means using future data; a pre-signal rise is normal for trend-confirming rules.\nC – The pre-trigger line is the signal's own securities, not the benchmark.\n\nRemember: Gains before day 0 show price was already turning up when the signal fired."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "Because the first 6 days showed the largest gains"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Because returns after day 6 were much better than before.\n\nWhy: A signal test chart shows average return for each day after entry. If the first six days are flat or negative, then gains build strongly afterwards, buying right away means holding through a weak patch. Delaying entry by six days skips that patch and enters just as the stronger phase typically begins.\n\nWhy not the others:\nB – Delaying does not reduce the number of signals; it shifts their timing.\nC – Earnings dates are not tied to a fixed six-day delay.\nD – If the first six days had the largest gains, delaying would miss them.\n\nRemember: Delay entry only when the test shows the good part comes later."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "They help analysts code ideas, so non-programmers can test them"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They help analysts code ideas, so non-programmers can test them.\n\nWhy: Turning an idea into test code used to need programming skill. AI assistants can now help write and debug that code from a plain-language description. This lets analysts without coding skills test their own ideas. The analyst still forms the idea, checks the code does what was meant, and interprets the results.\n\nWhy not the others:\nA – The analyst is still needed to form ideas, check code and judge results.\nB – Coding help is useful for any style of testing, not just high-frequency trading.\nC – Benchmark choice is a small task; their main value is helping to code and test.\n\nRemember: AI is a coding helper that lets more people test ideas, not a replacement for judgement."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "To decide which asset class to research first"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To reject ideas that trade too often or too wildly for you.\n\nWhy: Risk limits describe what you can accept: maximum drawdown, how often you can trade, how volatile your account can be. If you know them before testing, you can quickly reject ideas that break them, for example a system with a 50% drawdown when your limit is 20%. That saves time and stops you from falling in love with something you could never trade.\n\nWhy not the others:\nA – Exact position sizes are set later in strategy testing.\nB – Leverage is not optimized before the idea is tested.\nD – Asset-class choice is a separate decision from personal risk limits.\n\nRemember: Know what you can stomach before testing, so you can discard ideas that break your limits."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "Filters that kept only the higher-quality signals"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Filters that kept only the higher-quality signals.\n\nWhy: The only change described was adding direction and distance filters. Filters remove signals that fail a condition. Here the signals that remained had much better average results, so the filters removed many weak signals and kept the stronger ones. That is the purpose of a good filter: fewer signals, but better ones.\n\nWhy not the others:\nA – No change of time frame was described.\nB – No change of holding period was described.\nC – No change of benchmark was described.\n\nRemember: Good filters trade quantity for quality: fewer signals, better average results."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Weekly data, to cut trading costs"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A shorter time frame is generally favoured.\n\nWhy: Two factors push toward short time frames here. Low trading costs mean frequent trades do not eat much of the profit. A small account benefits from more frequent opportunities to grow and from tighter, faster risk control on each position. With costs low, the main drawback of short time frames (cost per trade) is reduced.\n\nWhy not the others:\nA – Longer time frames suit high costs or a focus on preserving capital, which is not the case here.\nB – Monthly data is the slowest choice and gives very few opportunities.\nD – Cutting costs matters little when costs are already low.\n\nRemember: Low costs remove the main argument against shorter time frames."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "Signal testing and define exits"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Analyze the results and optimization come after strategy testing.\n\nWhy: The full order is: set risk limits and universe, define rules, visualize, signal test, define exits, strategy test, then analyze the results and, finally, optimize. Analysis looks at returns, drawdowns and ratios to decide what to improve. Optimization comes last, searching for robust parameter values once the strategy logic is settled.\n\nWhy not the others:\nA – Defining and visualizing rules come before signal testing, early in the process.\nC – Universe and risk limits are set at the very start.\nD – Signal testing and defining exits come before strategy testing.\n\nRemember: Optimization comes last, after the strategy works and its results have been analysed."
   }
 ]

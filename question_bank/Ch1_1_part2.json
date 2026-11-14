@@ -9,7 +9,8 @@
       "Edson Gould"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Edgar Peters.\n\nWhy: Edgar Peters proposed the Fractal Market Hypothesis in the 1990s. 'Fractal' refers to patterns that look similar at different scales; in markets, price behavior over minutes, days and months shares similar shapes. Peters used this idea to argue that markets are made up of investors with many time horizons, and that the interplay between them explains both normal stability and sudden crises.\n\nWhy not the others:\nA – Andrew Lo is associated with the Adaptive Market Hypothesis.\nB – Eugene Fama is associated with the Efficient Markets Hypothesis.\nD – Edson Gould was a market technician known for timing tools, not the FMH.\n\nRemember: Peters = Fractal, Lo = Adaptive, Fama = Efficient."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "High-frequency traders arbitraging away all mispricings"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Participants with many different investment horizons providing liquidity to one another.\n\nWhy: Under the FMH, a market is stable when it contains a mix of time horizons: day traders, swing traders, pension funds and so on. When short-term traders panic and sell, longer-term investors see value and buy, and vice versa. Because each group reads the same price move differently, there is always someone on the other side, so liquidity is plentiful and price moves stay orderly.\n\nWhy not the others:\nA – If everyone shared the same information and horizon, they would all want to trade the same way at once, which creates instability.\nC – Central bank support is not the FMH's explanation of stability.\nD – High-frequency arbitrage is not the mechanism; diversity of horizons is.\n\nRemember: FMH: many horizons = someone always on the other side = stability."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "To justify passive index investing"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. To explain how investors behave during crises.\n\nWhy: Peters wanted a model that could account for what the EMH struggles with: sudden crashes, fat-tailed returns and liquidity vanishing. His answer was that crises occur when the normal mix of investor horizons collapses, for example when long-term holders start acting like short-term traders. The FMH is therefore aimed at explaining market stress and instability.\n\nWhy not the others:\nB – The FMH points to non-normal, fat-tailed returns; it was not built to explain normality.\nC – The FMH stresses many horizons, the opposite of a single shared horizon.\nD – Justifying passive investing was not its purpose.\n\nRemember: The FMH was built to explain crises, when the mix of horizons breaks down."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Investors converging on a single shared estimate of value"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Diverse investors acting on different sets of information.\n\nWhy: In the FMH, investors with different horizons pay attention to different information: short-term traders watch price action and news flow, long-term investors watch fundamentals. Uncertainty arises when these groups interpret conditions in conflicting ways and act on their own information sets. That disagreement, rather than news alone, is what produces unsettled periods.\n\nWhy not the others:\nA – News matters, but the FMH stresses who receives it and how they interpret it.\nC – Regulation is not the FMH's explanation for uncertainty.\nD – Convergence on one value estimate would reduce uncertainty, not create it.\n\nRemember: In the FMH, uncertainty comes from different investors using different information."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Volatility falls because buyers and sellers balance out"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Prices become less stable and volatility tends to rise.\n\nWhy: When many investors read conditions differently and cannot agree how to respond, orderly two-way trading gives way to confusion. Buyers step back or rush in unevenly, so each trade can move price more than usual. The result, under the FMH, is less stable prices and higher volatility until a consensus or a new balance of horizons returns.\n\nWhy not the others:\nA – The FMH does not predict better liquidity here; confusion tends to thin out the market.\nC – The disagreements do not offset neatly; they unsettle prices.\nD – Volatility rises, not falls, when participants cannot agree how to act.\n\nRemember: Confusion among participants means more volatility."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "That short selling is available to every investor"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The EMH assumption that all investors rely on one common pool of past prices.\n\nWhy: The EMH implicitly treats investors as using the same information and reacting the same way. Peters argued this is unrealistic: a day trader and a pension fund look at very different data and horizons. Once you accept that investors use different information sets, you can explain why markets are sometimes calm and sometimes unstable.\n\nWhy not the others:\nB – Instant reaction to news is a feature of the EMH, but not the specific assumption Peters targeted.\nC – Ignoring transaction costs is a common simplification but not Peters's main objection.\nD – Short-selling access was not the assumption he challenged.\n\nRemember: Peters's key objection: investors do not all use the same information."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Prices depend only on fundamentals, not on past price behavior"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Prices depend on recent news and on the asset's full price history.\n\nWhy: 'Memory associative' means the market remembers. Today's price reflects not only the latest news but also how prices have behaved in the past, such as earlier highs, lows and trends. This is a direct challenge to the random-walk idea that past prices are irrelevant, and it supports the technician's use of price history.\n\nWhy not the others:\nA – Depending only on the latest session ignores the longer history the term refers to.\nB – Being unrelated to past prices describes a random walk, the opposite of memory.\nD – Excluding past price behavior contradicts the meaning of 'memory'.\n\nRemember: Memory associative: the market's past shapes its present."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Bollinger Bands"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A Markov regime-switching model.\n\nWhy: A Markov regime-switching model assumes the market can be in one of several hidden 'states', such as calm or turbulent, each with its own average return and volatility. The model estimates the probability of being in each state and of switching between them. This fits the FMH, which expects markets to move between stable and unstable periods.\n\nWhy not the others:\nB – MACD is a moving-average momentum indicator, not a statistical state model.\nC – RSI is a momentum oscillator.\nD – Bollinger Bands are a volatility envelope around a moving average, not a regime model.\n\nRemember: Two-state market research = Markov regime switching."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Utility stocks have the highest beta in the market"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Utilities are rate-sensitive income investments, so they tend to turn before industrial stocks.\n\nWhy: Utilities are often bought for their steady dividends, much like bonds. When interest rates start to rise, their income looks less attractive and they tend to weaken; when rates fall, they gain. Because rate changes usually affect the economy with a lag, utilities often turn before industrial and cyclical stocks, which is why some technicians watch them as a leading indicator.\n\nWhy not the others:\nA – Utilities usually have modest, stable growth, not the highest growth.\nC – Utilities are a relatively small weight in most broad indexes.\nD – Utilities typically have low betas, not the highest.\n\nRemember: Utilities track interest rates, and rates often lead stocks."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Buying interest strong enough to push the price higher"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Buying interest strong enough to push the price higher.\n\nWhy: In technical terms, demand is not just the number of buyers; it is buying pressure that outweighs selling pressure. When buyers are more eager than sellers, they must pay higher prices to get filled, and the price rises. So rising prices are the visible evidence that demand dominates.\n\nWhy not the others:\nA – A broad willingness to sell describes supply, not demand.\nB – Total shares traded is volume, which counts both buyers and sellers equally.\nC – Short interest measures shares sold short, a different concept.\n\nRemember: Demand = buying pressure strong enough to lift price."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Selling interest strong enough to push the price lower"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Selling interest strong enough to push the price lower.\n\nWhy: In technical analysis, supply means selling pressure that outweighs buying pressure. When sellers are more eager than buyers, they must accept lower prices to get out, and the price falls. Falling prices are therefore the visible sign that supply dominates.\n\nWhy not the others:\nA – Aggressive buying that lifts offers describes demand.\nB – Balance between buyers and sellers describes equilibrium, not supply in excess.\nC – Shares outstanding is a corporate figure, not selling pressure in the market.\n\nRemember: Supply = selling pressure strong enough to push price down."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Pressure spreads across similar securities, so group trends may persist"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Buying or selling pressure spreads across similar securities, so group trends may persist.\n\nWhy: Investors often buy or sell whole themes or industries at once, through sector funds, ETFs or rotation strategies. That pressure hits related stocks together, so their returns move together and a group's trend can last as money keeps flowing in or out. This is why technicians study sector and industry strength, not just single stocks.\n\nWhy not the others:\nA – If every stock were priced independently, group correlation would not appear.\nB – Size differences do not explain correlation within an industry.\nC – A persistent, tradable group trend is treated as an anomaly against the EMH, not support for it.\n\nRemember: Money moves in groups, so group trends tend to persist."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "All stocks converge to the market's average P/E"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Recent top-performing portfolios tend to lag later, while recent laggards tend to do better.\n\nWhy: Mean reversion means extremes tend to move back toward the average over time. Applied to returns, the strongest recent performers tend to cool off and the weakest tend to recover. That gives investors something to anticipate: a rotation from recent winners toward recent losers over the following period.\n\nWhy not the others:\nA – Winners continuing to win is momentum, the opposite effect.\nC – A fixed one-month return to the 200-day average is not what the anomaly states.\nD – The anomaly concerns relative returns, not all stocks converging to one valuation.\n\nRemember: Mean reversion: yesterday's extremes drift back toward average."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Profit-taking in winners adds supply; bargain hunting adds demand for losers"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Profit-taking in winners adds supply, while bargain hunting adds demand for losers.\n\nWhy: After a big gain, holders of winning stocks sell to lock in profits, which adds supply and slows or reverses the advance. After a big drop, value-minded buyers see bargains and step in, which adds demand and helps the losers recover. These flows push both groups back toward average performance.\n\nWhy not the others:\nA – Index providers do not routinely remove stocks for having risen.\nB – The question asks for a supply-and-demand explanation, and earnings rebounds are not guaranteed.\nC – No rule protects top performers from short sellers.\n\nRemember: Profit-taking caps winners; bargain hunting lifts losers."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Only negative news produces lasting trends"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. After positive or negative news, prices may keep trending in the same direction.\n\nWhy: Underreaction means prices do not fully adjust on the day news is released. Many investors are slow to accept or act on the information, so price continues to drift in the direction of the news over the following days or weeks. That drift is a form of trend that technicians can follow.\n\nWhy not the others:\nA – Overshooting and reversing is overreaction, the opposite anomaly.\nB – Full adjustment on the release day is what an efficient market would do; no anomaly.\nD – Underreaction applies to both good and bad news.\n\nRemember: Underreaction creates drift: price keeps moving in the news's direction."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Short sellers keep the price from rising quickly after the news"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Order flow drives the price for a while, as many investors initially discount the news.\n\nWhy: If everyone processed the news at once, the stock would jump immediately. Instead, many investors are skeptical at first or slow to act. As they gradually accept the news, their buy orders keep arriving over several weeks, and that ongoing demand lifts the price step by step. The drift is the footprint of delayed order flow.\n\nWhy not the others:\nB – Instant, uniform processing would produce an immediate jump, not a drift.\nC – If the news were already priced in, there would be no further drift after it.\nD – Short selling would push the price down, not explain a steady rise.\n\nRemember: Drift after news = buyers arriving late, one wave after another."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Company size has no effect on returns"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Smaller companies tend to beat larger ones even after allowing for their greater volatility.\n\nWhy: The size effect is the finding that small-cap stocks have historically delivered higher returns than large caps, and the gap remains even after adjusting for their higher risk. That makes it an anomaly: if markets priced risk perfectly, the extra return would disappear once risk was accounted for.\n\nWhy not the others:\nA – The anomaly favors small caps, not large caps.\nB – The point of the anomaly is that the advantage survives the risk adjustment.\nD – The anomaly says size does matter for returns.\n\nRemember: Size effect: small caps have tended to win even after adjusting for risk."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "A sustained rise in its trading volume relative to its own average"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. A sustained rise in its trading volume relative to its own average.\n\nWhy: For thinly traded small stocks, volume is a direct window on interest. When volume rises steadily above its normal level, more buyers are showing up; combined with firm or rising prices, that is evidence of growing demand. Comparing volume with the stock's own average matters because small stocks naturally trade less than large ones.\n\nWhy not the others:\nA – A falling dividend yield can come from many causes and is not a technical demand signal.\nB – Fewer analysts means less attention, not stronger demand.\nC – More shares outstanding adds supply, not demand.\n\nRemember: Rising volume versus its own norm signals growing interest."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "P/E ratios predict volatility but not returns"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Lower P/E ratios.\n\nWhy: The P/E ratio compares price with earnings. A low P/E means investors are paying little for each unit of earnings. The value anomaly is the finding that low-P/E stocks have tended, on average, to outperform high-P/E stocks over time, more than their risk would explain.\n\nWhy not the others:\nA – High P/E stocks have tended to underperform in this anomaly.\nC – Average P/Es are not singled out as predicting outperformance.\nD – The anomaly is specifically about returns, not just volatility.\n\nRemember: Value anomaly: cheap (low P/E) has tended to beat expensive."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Prolonged weak demand, or steady selling, leaves some stocks underpriced"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Prolonged weak demand, or steady selling, leaves some stocks underpriced.\n\nWhy: A low P/E often reflects a stock investors have ignored or sold for a long time. That persistent lack of demand pushes the price below what earnings would justify. When sentiment eventually improves, demand returns and the price catches up, which is why low-P/E stocks have tended to outperform.\n\nWhy not the others:\nA – Strong demand would push high-P/E stocks up, not leave them underpriced.\nB – Heavy buying causing overvaluation would hurt future returns, the opposite of the anomaly.\nC – Share issuance is not the explanation offered for the value anomaly.\n\nRemember: Low P/E = neglected demand; when interest returns, price catches up."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Small-cap stocks tend to lag in the first weeks of the year"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Small-cap stocks tend to lead in the first weeks of the year.\n\nWhy: The January effect is a seasonal anomaly in which smaller companies tend to outperform larger ones early in the year. A common explanation is year-end tax-loss selling that depresses small stocks in December, followed by renewed buying once the new year starts.\n\nWhy not the others:\nB – The effect is linked to small caps, not large caps.\nC – A January decline is not the pattern described.\nD – Small caps tend to lead, not lag, in January.\n\nRemember: January effect: small caps tend to lead early in the year."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Index rebalancing of large caps in January lifts smaller stocks"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Strong early-year buying of smaller companies creates opportunities.\n\nWhy: In supply-and-demand terms, December selling pressure (often for tax reasons) pushes small caps lower. In January that selling stops and new money, such as fresh contributions and repurchases of stocks sold for tax purposes, flows back in. The burst of demand lifts small caps, creating the January opportunity.\n\nWhy not the others:\nA – January is when buying, not heavy selling, dominates in this explanation.\nC – Tax selling happens at year-end; it eases, not resumes, in January.\nD – The explanation is demand for small caps, not large-cap rebalancing.\n\nRemember: January effect = December selling ends, January buying returns."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Volatility depends only on the time of day, not market direction"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Falling markets tend to be more volatile than rising markets.\n\nWhy: Markets often 'take the stairs up and the elevator down'. Rallies tend to be gradual, while declines are often sharp and fast as fear spreads and investors rush to sell. That makes daily price swings larger during falling markets than during rising ones.\n\nWhy not the others:\nA – This reverses the observed pattern.\nB – Volatility is not equal; it is typically higher in declines.\nD – Time of day matters, but direction of the market does too.\n\nRemember: Up by the stairs, down by the elevator: declines are more volatile."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Lower volume in declines reduces the size of price swings"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Bursts of excess supply create larger swings, while demand-driven volatility tends to fade faster.\n\nWhy: When fear hits, many holders try to sell at once, and that sudden excess supply overwhelms buyers, producing big, abrupt price drops. Buying surges in rallies tend to be more gradual and their volatility fades more quickly. So the uneven nature of supply shocks explains why declines are more volatile.\n\nWhy not the others:\nA – This reverses the pattern; selling bursts, not rally demand, create the bigger swings.\nC – Volatility is directly linked to order imbalance between buyers and sellers.\nD – Declines often come with heavier, not lighter, volume and larger swings.\n\nRemember: Selling comes in bursts, so falls swing harder."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Evenly throughout the session"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. During the opening and closing minutes.\n\nWhy: At the open, the market must absorb overnight news and orders that built up while it was closed, so prices adjust quickly. At the close, traders square positions and large orders are executed for end-of-day pricing. Both create order imbalances and larger price swings, giving the typical intraday 'U-shaped' volatility pattern.\n\nWhy not the others:\nB – Economic releases can add volatility, but the routine daily pattern is at the open and close.\nC – Midday is usually the quietest part of the session, with the lowest volatility.\nD – Volatility is not spread evenly; it clusters at the start and end.\n\nRemember: Intraday volatility is U-shaped: high at the open and close, quiet at midday."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Volatility stays constant across both calm and crisis periods"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Price behavior differs by horizon and shifts between stable and unstable regimes.\n\nWhy: The FMH says markets contain investors with many horizons and that stability depends on their mix. So tests of the FMH look for two things: different statistical behavior at different time scales, and switches between calm and turbulent periods. Finding these supports the idea that the market is not a single, uniform process.\n\nWhy not the others:\nB – Normally distributed returns at every horizon is what the FMH disputes.\nC – The FMH depends on many horizons, not one.\nD – The FMH expects volatility to change sharply between calm and crisis periods.\n\nRemember: FMH evidence = horizon differences plus regime shifts."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Prices stabilize because short-term traders supply liquidity"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Liquidity dries up and price instability rises.\n\nWhy: Normally, long-horizon investors absorb short-term selling by buying when prices drop. In a crisis they stop buying, and many participants shift to short horizons, so everyone wants to sell at the same time. With few buyers on the other side, liquidity vanishes and prices fall sharply and erratically. This is the FMH's core explanation of crashes.\n\nWhy not the others:\nA – Losing the diversity of horizons makes the market less, not more, efficient.\nB – Volatility rises as consensus forms around selling.\nD – Short-term traders are the ones selling; they do not provide the stabilizing liquidity.\n\nRemember: When everyone becomes short-term, no one is left to buy."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Quantitative finance alone, since it supplies the statistical tests"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The EMH along with competing models such as the AMH and FMH.\n\nWhy: A credible alpha claim must explain why an inefficiency can exist. That requires knowing the EMH, which says it should not, and the alternatives, such as the AMH and FMH, which explain when and why it might. Understanding all of them lets researchers frame results in terms academic and professional readers accept.\n\nWhy not the others:\nA – The EMH alone would only argue that alpha is unlikely, without explaining exceptions.\nB – Fundamental analysis is useful but does not address market efficiency theory.\nD – Statistics help test ideas but do not supply the theoretical framework.\n\nRemember: Know the EMH and its rivals to argue convincingly for alpha."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "When the market is fully efficient"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When documented market anomalies are present.\n\nWhy: Trend tools work when price behavior is not random, for example when information spreads slowly or investors act on biases. Documented anomalies such as underreaction and momentum are exactly those conditions. Where they exist, moving averages, oscillators and envelopes have real patterns to exploit; where markets are truly efficient, they do not.\n\nWhy not the others:\nB – Market conditions matter; the tools do not work equally everywhere.\nC – Anomalies and trends occur in bear markets too, not only bull markets.\nD – A fully efficient market leaves nothing for the tools to capture.\n\nRemember: Trend tools earn alpha where anomalies make prices non-random."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Supply and demand affect only long-term prices"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. No one has precisely defined how much buying or selling causes a given price effect.\n\nWhy: Supply and demand is the logic behind price movement, but technicians cannot see the full order book of every participant. We only observe the result, price and volume, not a measured quantity of demand that maps to a specific price change. That lack of a precise, measurable link is the main practical difficulty.\n\nWhy not the others:\nB – Supply and demand operate in every market, not just futures.\nC – Volume counts shares traded, which always includes both a buyer and a seller, so it does not measure demand directly.\nD – Supply and demand drive prices over all time frames.\n\nRemember: We see the results of supply and demand, but cannot measure the forces precisely."
   }
 ]

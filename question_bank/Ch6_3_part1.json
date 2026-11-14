@@ -9,7 +9,8 @@
       "Market participants believe volatility will remain constant across all maturities"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Participants are comfortable with today's volatility but less sure about later.\n\nWhy: Contango means each later-dated VIX future is priced higher than the one before it, so the curve slopes upward. Traders are effectively saying, \"things are calm now, but more can go wrong over a longer stretch of time.\" Paying more for distant protection reflects that extra uncertainty, not fear of an immediate problem. This upward slope is the normal state of a calm or rising stock market.\n\nWhy not the others:\nB – Expecting a sharp near-term rise would push the front month up the most, which flattens or inverts the curve rather than creating contango.\nC – Fear of an imminent crash produces backwardation, where near-term futures sit above later ones.\nD – Constant expected volatility would give a flat curve, not an upward-sloping one.\n\nRemember: Contango = calm now, more uncertainty later; the curve slopes up when markets are relaxed."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "+1.2; backwardation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. +1.2; contango.\n\nWhy: The spread is the later contract minus the earlier one: F3 − F1 = 15.4 − 14.2 = +1.2. A positive number means the further-out future costs more than the near one, so the curve slopes upward. An upward-sloping VIX futures curve is called contango. The middle contract (14.9) also sits between the two, confirming a smooth upward slope.\n\nWhy not the others:\nA – This reverses the subtraction (14.2 − 15.4) and so gets both the sign and the shape wrong.\nC – +0.5 is roughly F3 − F2 (15.4 − 14.9), not F3 − F1.\nD – The size is right, but a positive spread means contango; backwardation needs a negative spread.\n\nRemember: Later minus earlier: positive spread = contango, negative spread = backwardation."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "A long-lasting volatility regime above current spot levels"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Extreme near-term risk, with volatility expected to subside over time.\n\nWhy: Here each later future is lower than the one before (44 > 35 > 29 > 26), so the curve slopes downward. That shape is backwardation. It says traders see the biggest danger right now and expect volatility to fade back toward normal as months pass. This is the classic pattern during a sharp sell-off, when demand for immediate protection is intense.\n\nWhy not the others:\nA – Rising expected volatility would require later futures to be higher, but they are lower.\nB – Equal uncertainty across horizons would show as a flat curve, not one falling 18 points.\nD – The later futures are below the front month, so the market expects volatility to come down, not stay elevated.\n\nRemember: Backwardation = panic now, calmer later; the curve slopes down during sell-offs."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "It settles at the average of all listed futures"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It converges to the VIX Index value.\n\nWhy: A VIX future is a bet on where the VIX Index will be on its settlement date. As that date approaches, there is less and less time for the VIX to move, so the future's price is pulled toward the index level. At expiration it settles to a special VIX value calculated that morning, so futures and index meet. This pull is called convergence.\n\nWhy not the others:\nA – Each contract settles to the VIX, not to another futures contract.\nC – VIX is implied (option-based) volatility; futures settle to it, not to realized historical volatility.\nD – There is no averaging across contracts; each future settles on its own to the VIX value.\n\nRemember: A VIX future always converges to the VIX Index at expiration."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "The front-month VIX futures contract"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The 6-month volatility index (VIX6M).\n\nWhy: The standard VIX uses S&P 500 option prices to estimate expected volatility over the next 30 days. The exchange publishes sister indexes built the same way over other horizons: 9 days, 3 months, 6 months and 1 year. For a spot reading over about six months, the 6-month index is the direct match. It is a current reading of implied volatility, not a forecast traded for a future date.\n\nWhy not the others:\nB – The 9-day index measures a very short horizon, the opposite of what is wanted.\nC – The 1-year index covers twice the desired horizon.\nD – A front-month future reflects the expected 30-day VIX at a near date, not six-month implied volatility today.\n\nRemember: Match the index to the horizon: VIX9D, VIX (30 days), VIX3M, VIX6M, VIX1Y."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Exchange price limits stop futures from converging until expiry"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Spot VIX cannot be held, so each future prices the VIX expected at its expiry.\n\nWhy: For a stock index, if the future is too expensive you can buy the shares, sell the future and lock in profit; this \"cost of carry\" link keeps them close. The VIX is just a calculated number, so nobody can buy and store it. Without that link, a VIX future simply reflects the market's best guess of the VIX on its own settlement date. If traders expect volatility to change, the future can sit far from today's VIX with no riskless trade available.\n\nWhy not the others:\nB – The issue is not financing cost; there is nothing to finance because the index itself cannot be bought.\nC – VIX futures settle to a VIX value (implied volatility), not to realized volatility.\nD – Price limits do not explain long-lasting gaps; the gap comes from expectations.\n\nRemember: No way to hold the VIX means no carry arbitrage, so each future is an expectation, not a copy of spot."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Both are equally steep"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Day A, at 20%.\n\nWhy: Dividing by F1 turns the spread into a percentage, so different VIX levels can be compared fairly. Day A: (16.8 − 14.0) ÷ 14.0 = 2.8 ÷ 14.0 = 20%. Day B: (21.0 − 20.0) ÷ 20.0 = 1.0 ÷ 20.0 = 5%. Day A's slope is four times steeper. Note that Day B has the higher VIX level but a flatter curve, which often happens as stress builds.\n\nWhy not the others:\nA – 5% is Day B's slope, which is the flatter of the two.\nB – 2.8 is Day A's point spread; the question asks for the slope as a ratio, which is 20%.\nD – The calculated slopes (20% and 5%) are clearly different.\n\nRemember: Scale the spread by F1 to compare slopes: (F3 − F1) ÷ F1."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "A roll date on which the expiring contract mechanically flipped the sign"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A sharp equity sell-off that pushed the VIX curve into backwardation.\n\nWhy: F3 − F1 is positive when the curve is in contango, its usual calm-market shape. For it to drop to about −10, the front month must jump well above the third month. That happens only when near-term fear spikes, which is what a sharp stock sell-off produces. Because such panics are usually brief, the spread soon returns to positive.\n\nWhy not the others:\nA – A quiet rally steepens contango, making the spread more positive, not negative.\nC – Spot VIX falling below all futures is a contango feature, which keeps the spread positive.\nD – Rolling contracts may cause small jumps, but not a deep, sustained −10 reading.\n\nRemember: A deep negative F3 − F1 spread marks a fear spike and backwardation."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Steepening contango as longer-dated futures rally"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Broad, persistent backwardation typical of a bear market.\n\nWhy: In such a heat map each row is one pair of neighboring contracts and each column is a date. Red means the later contract is cheaper than the earlier one (backwardation); deeper red means a larger gap. Every row being deep red means the whole curve, front to back, is inverted. Lasting for weeks, that points to deep, persistent stress, which fits a bear market rather than a brief scare.\n\nWhy not the others:\nA – Short-lived front-month stress would turn only the top row red, not every row.\nB – Wide contango in a calm uptrend would show as green, not red.\nD – Steepening contango would also appear green.\n\nRemember: All rows deep red for weeks = whole-curve backwardation = bear-market stress."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "As an early warning that the curve may flatten toward backwardation"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. As an early warning that the curve may flatten toward backwardation.\n\nWhy: Contango is usually widest when investors are relaxed. When spreads shrink, near-term futures are rising relative to later ones, meaning demand for near-term protection is creeping up. That can happen even while the index is still near its highs. Narrowing spreads do not prove a decline is coming, but they warn that the curve may be heading toward flat or inverted, which often comes with stress.\n\nWhy not the others:\nA – Narrowing contango means near-term volatility expectations are rising, which is not a bullish sign.\nB – Waiting for a negative spread throws away the early warning that narrowing provides.\nC – Narrowing spreads mean contango is getting flatter, not steeper.\n\nRemember: Shrinking contango near highs is the curve's early warning light."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Three"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Two.\n\nWhy: Compute each later-minus-earlier spread. F2 − F1 = 18.6 − 18.0 = +0.6. F3 − F2 = 18.4 − 18.6 = −0.2. F4 − F3 = 19.1 − 18.4 = +0.7. F5 − F4 = 19.5 − 19.1 = +0.4. F6 − F5 = 19.4 − 19.5 = −0.1. Two spreads (F3 − F2 and F6 − F5) are negative, showing small local dips inside an overall upward-sloping curve.\n\nWhy not the others:\nA – F3 and F6 are each slightly below the contract before them, so not all spreads are positive.\nC – Both the −0.2 and the −0.1 spread count, not just one.\nD – Only two of the five differences are below zero.\n\nRemember: Check every neighbor pair; a mostly upward curve can still contain small negative kinks."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Colors unchanged until the index makes a new high"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Red gradually fading to lighter shades, then turning green.\n\nWhy: During a bear market the spreads are negative, so the map is red. As fear eases, near-term futures fall faster than later ones and the negative gaps shrink, so the red becomes lighter. Once later contracts are again priced above earlier ones, the spreads turn positive and the map shows green. Recoveries tend to be gradual, so the colors change in stages.\n\nWhy not the others:\nA – Fear usually unwinds step by step, so an instant switch from deep red to deep green is unusual.\nB – Fading back to deep red describes a renewed decline, not a recovery.\nD – The curve reacts to changing fear well before the index makes a new high.\n\nRemember: Recovery on the heat map: deep red to light red to green."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "VIX covers the next 30 days; every future also covers the next 30 days from today"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. VIX is a non-tradeable 30-day index; futures are tradeable claims on its value at set expiries.\n\nWhy: The VIX Index is a calculation from S&P 500 option prices that estimates expected volatility over the next 30 days. You cannot buy the index itself. VIX futures are exchange-traded contracts that settle to the VIX value on a specific future date. So each future reflects where traders expect the VIX to be at that date, which may differ a lot from today's VIX.\n\nWhy not the others:\nA – Both the VIX and its futures relate to implied (expected) volatility, not realized volatility.\nC – The VIX cannot be bought directly; futures are the way to gain exposure.\nD – Each future reflects the 30-day VIX measured at its own settlement date, not from today.\n\nRemember: VIX = untradeable 30-day number today; VIX futures = tradeable bets on that number later."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "It rises on both days, because any large move lifts implied volatility"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It jumps far more on the down day than it eases on the up day.\n\nWhy: The VIX and the S&P 500 usually move in opposite directions, but not evenly. Falling markets spark fear and a rush to buy put options for protection, which pushes implied volatility up quickly. Rising markets calm nerves only slowly, so the VIX drifts lower by a smaller amount. This lopsided reaction is called asymmetry.\n\nWhy not the others:\nA – It ignores the asymmetry: fear reacts much faster than relief.\nB – The VIX normally rises, not falls, when stocks drop sharply.\nD – On strong up days the VIX usually eases rather than rises.\n\nRemember: The VIX takes the stairs down and the elevator up."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The far contract has a larger multiplier, so it trades at a premium"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Volatility tends to mean-revert, so expected VIX further out is higher.\n\nWhy: Mean reversion means a value tends to drift back toward its long-run average. With spot VIX at 11, well below its average near 19, traders expect it to rise over time. A future seven months away gives plenty of time for that move, so it is priced at 17.5, close to the average. Nearer contracts sit in between, producing a steep contango curve.\n\nWhy not the others:\nA – The VIX cannot be held, so there is no carrying cost built into its futures.\nC – VIX futures price expected implied volatility at expiry, not past realized volatility.\nD – Contract size does not change the price per VIX point.\n\nRemember: Far VIX futures lean toward the long-run average because volatility mean-reverts."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Traders expect elevated uncertainty to persist for months"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Traders expect elevated uncertainty to persist for months.\n\nWhy: The front-month future reacts fastest to news and is the first to ease when the immediate panic fades. The sixth-month future reflects what traders expect much later. If it stays well above its pre-crisis level, the market believes the crisis will not fully clear quickly. In other words, short-term fear is calming, but long-term worry remains.\n\nWhy not the others:\nA – A quick end would bring the sixth-month contract back down too.\nB – Normal contango would show the back month back near its usual, calm-market level.\nC – Front months typically react first; here the back month is simply slower to come down.\n\nRemember: When the back of the curve stays high, the market expects the trouble to last."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "S&P 500 forward returns"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. S&P 500 forward returns.\n\nWhy: The slope of the VIX futures curve summarizes how worried investors are about near-term versus longer-term risk. Research has linked this slope to the future returns of the stock index itself. Steep contango tends to accompany calm, rising stock markets, while flattening or backwardation tends to accompany weaker returns. That is why analysts monitor the curve as a market-timing input.\n\nWhy not the others:\nA – VIX measures expected S&P 500 volatility, not currency markets.\nB – Bond yields are driven by rates and inflation, not directly by this curve.\nC – Earnings growth is a company fundamental, not something the volatility curve is studied to predict.\n\nRemember: The VIX curve's slope is studied as a signal for future S&P 500 returns."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "The fourth-month VIX future"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The fourth-month VIX future.\n\nWhy: Each VIX future settles to the VIX value on its own expiration date. So the contract expiring about four months out is priced on what traders expect the VIX to be at that time. Buying or selling it is the most direct way to express a view on the VIX four months from now.\n\nWhy not the others:\nA – Spot VIX is today's reading and cannot be traded directly.\nB – The front-month future reflects the expected VIX in about one month, not four.\nC – A one-month option is tied to the one-month future and adds option features like time decay and strike choice.\n\nRemember: Pick the VIX future whose expiry matches the date you have a view on."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "20.67"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 19.33.\n\nWhy: Neither contract expires exactly 30 days out, so we blend them by how close each is to day 30. The second month is 40 − 10 = 30 days after the first. Weight on F1 = (40 − 30) ÷ 30 = 1/3; weight on F2 = (30 − 10) ÷ 30 = 2/3. Level = 1/3 × 18.0 + 2/3 × 20.0 = 6.00 + 13.33 = 19.33. Day 30 is closer to the second contract, so it gets more weight.\n\nWhy not the others:\nA – 18.67 puts 2/3 weight on the front month, reversing the weights.\nB – 19.00 is a simple average and ignores where day 30 falls.\nD – 20.67 extrapolates beyond F2, though day 30 lies between the two expiries.\n\nRemember: Weight each future by how close its expiry is to the target date."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Thursday"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Thursday.\n\nWhy: Compute F2 − F1 each day. Mon: 17.4 − 16.0 = 1.4. Tue: 17.9 − 16.8 = 1.1. Wed: 18.5 − 17.9 = 0.6. Thu: 19.3 − 18.9 = 0.4. Fri: 20.1 − 20.5 = −0.4. The first close below +0.5 is Thursday (0.4), so the rule fires then, a day before the curve actually inverts on Friday.\n\nWhy not the others:\nA – Wednesday's spread is 0.6, still above the 0.5 threshold.\nB – Friday is below 0.5 too, but the rule acts on the first day, which is Thursday.\nC – Both Thursday and Friday breach the threshold, so the rule clearly triggers.\n\nRemember: A threshold above zero lets you act on narrowing contango before full backwardation."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Expectations of very low volatility at that horizon"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The market is pricing extra volatility around an event in that specific period.\n\nWhy: Most of this curve rises gently, but F3 (20.4) jumps above both F2 (17.6) and F4 (18.3). A bump in one contract suggests traders expect something unusual during that contract's window. A national election is a known event that could move markets, so options covering that period are bid up, lifting F3. Contracts before and after the event do not carry that extra risk.\n\nWhy not the others:\nA – Only F3 → F4 is negative; the rest of the curve still slopes up, so this is not curve-wide backwardation.\nB – Thin liquidity can add noise, but a known event in that exact window is the clear explanation.\nD – F3 is the highest point, showing high, not low, expected volatility.\n\nRemember: A hump at one expiry usually marks a scheduled event inside that contract's window."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Y, because longer contracts carry more volatility of volatility"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. X, because it must converge to spot VIX within days.\n\nWhy: A future must equal the VIX at its settlement. With only 5 days left, contract X has little room to differ from spot, so it follows spot moves closely. Contract Y has 40 days to go, and traders expect a spike to fade partly before then because volatility mean-reverts. So Y rises by less than the 6-point jump.\n\nWhy not the others:\nA – Liquidity does not make a later contract track spot; time to expiry matters more.\nC – VIX futures only equal spot at settlement; before that they reflect expectations.\nD – Longer-dated VIX futures are actually less volatile than near ones, not more.\n\nRemember: The closer a VIX future is to expiry, the more tightly it tracks spot VIX."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Red in the back rows and green in the front row"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Mostly dark green, reflecting wide positive spreads.\n\nWhy: In this map green means a positive spread (contango) and darker shades mean bigger spreads. In a calm uptrend, spot VIX is low and expected to drift back up toward its average over time. That makes later contracts noticeably more expensive than near ones, so spreads are wide and positive. The map therefore looks mostly dark green.\n\nWhy not the others:\nB – Red signals backwardation, which goes with sell-offs rather than calm rallies.\nC – Low spot VIX usually widens contango, since later contracts sit well above a low spot.\nD – Red back rows with green front rows would imply an inverted far curve, not typical of calm markets.\n\nRemember: Calm bull market = wide contango = deep green on the heat map."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The whole curve has moved into steeper contango"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Risk concerns are short-lived and concentrated in the nearest month.\n\nWhy: Only the first pair is inverted: F1 is above F2, while every later pair still slopes upward. That means traders are paying up for protection over the next few weeks only. Further out, they expect volatility to settle back into its normal pattern. This is a localized, short-term worry, not a broad change in outlook.\n\nWhy not the others:\nA – A sustained bear market would usually invert many pairs, not just the front one.\nC – The front month is the one rising most, not the longer-dated contracts.\nD – The front of the curve has inverted, the opposite of steeper contango.\n\nRemember: One red front pair = short-term scare; many red pairs = deeper stress."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Contango, typical of calm uptrends"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Contango, typical of calm uptrends.\n\nWhy: When the index is rising steadily and the VIX is low, investors feel little immediate danger. Volatility tends to drift back toward its average over time, so later futures are priced higher than near ones. That upward slope is contango. It is the most common shape of the VIX futures curve.\n\nWhy not the others:\nA – Backwardation comes from strong demand for near-term protection, which is rare in calm uptrends.\nB – The market does have a view: it expects volatility to rise somewhat from a low level, which slopes the curve up.\nC – Expecting volatility to rise over time produces contango, not backwardation.\n\nRemember: Low VIX and steady rally go with contango."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "It pinpoints the exact market top"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It gives time to put hedges in place before a major decline.\n\nWhy: The VIX curve rarely flips from steep contango to backwardation in one step. Watching spreads narrow over time shows stress building early. That lead time lets a manager buy protection or trim risk while hedges are still relatively cheap. Waiting for full backwardation means acting after fear has spiked and protection has become expensive.\n\nWhy not the others:\nB – Waiting for confirmation is the slower approach this question contrasts against.\nC – It adds information; it does not replace watching the price trend.\nD – No indicator pinpoints an exact top; this is an early warning, not a precise timing tool.\n\nRemember: Watch the curve flatten so you can hedge before the panic, not during it."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Only the front month moves while the rest stay unchanged"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The front month rises most, with smaller rises further out.\n\nWhy: When fear spikes, demand is greatest for protection over the next few weeks, so the front-month future jumps most. Traders expect volatility to calm down eventually, so later contracts rise by less. This uneven move is what flips the curve from contango into backwardation.\n\nWhy not the others:\nA – Equal moves would keep the curve's shape unchanged, which is not what happens.\nC – Longer maturities move less because volatility is expected to mean-revert.\nD – Later contracts rise too, just by smaller amounts.\n\nRemember: In a spike, the front of the VIX curve moves most and the back least."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Watching the daily percentage change in spot VIX"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Following the third-month minus first-month spread.\n\nWhy: The F3 − F1 spread condenses the front part of the curve into one number. When positive, the curve is in normal contango; as it narrows toward zero or turns negative, stress is building. It is easy to chart and catches changes in near-term fear early, so it is a practical single gauge.\n\nWhy not the others:\nB – Tracking every spread gives more detail, but the question asks for one simple measure.\nC – The VIX level alone says nothing about the shape of the curve, which carries the early warning.\nD – Daily changes are noisy and also ignore curve shape.\n\nRemember: F3 minus F1 is a compact one-number read on the VIX curve."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Hue shows contango or backwardation; intensity shows time to expiry"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Hue shows the spread's sign (green contango, red backwardation); intensity shows spread width.\n\nWhy: The heat map is a grid of colored cells, each for one contract pair on one date. The color tells you direction: green for a positive spread (later contract higher, contango) and red for a negative one (backwardation). The shade tells you size: darker cells mean bigger spreads. Reading both lets you see at a glance how stressed each part of the curve is.\n\nWhy not the others:\nA – Intensity reflects the size of the spread, not spot VIX's distance from its average.\nB – The map colors VIX futures spreads, not S&P 500 price changes.\nD – The rows already show which contracts are compared; shade shows spread size, not time to expiry.\n\nRemember: Color = sign of the spread; shade = how big it is."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "About 24%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. About 6.9%.\n\nWhy: The VIX is quoted as an annualized volatility, so 24 means about a 24% one-standard-deviation move over a year. Volatility grows with the square root of time, so to scale it down to one month you divide by the square root of 12. Calculation: 24 ÷ √12 = 24 ÷ 3.464 ≈ 6.93%. So the market expects roughly a ±6.9% move over the next 30 days about two-thirds of the time.\n\nWhy not the others:\nA – 2.0% comes from dividing by 12 instead of √12, which understates the move.\nC – 8.0% comes from dividing by 3 instead of √12.\nD – 24% is the annual figure, not the 30-day figure.\n\nRemember: To convert the VIX to a monthly move, divide by √12 (about 3.46)."
   }
 ]

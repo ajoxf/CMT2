@@ -9,7 +9,8 @@
       "Demand volume"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Demand volume.\n\nWhy: Volume is the number of shares or contracts traded. One simple way to read it is to sort each day's volume by the direction price moved. If price closed higher, buyers were the more aggressive side, so that day's volume is treated as demand volume. Tracking demand volume against supply volume shows which side is putting more force behind the market.\n\nWhy not the others:\nA – Supply volume is the volume on days when price falls, the opposite case.\nB – In this framework every day's volume is assigned to a side; up days are not neutral.\nC – Distribution describes a broad phase of informed selling, not simply the volume on an up day.\n\nRemember: Up-day volume = demand; down-day volume = supply."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Panic volume"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Supply volume.\n\nWhy: In the framework that splits volume by price direction, a day when price falls shows that sellers were more aggressive than buyers. The volume traded that day is therefore counted as supply volume, the force of sellers pushing price down. Comparing supply volume with demand volume reveals whether selling or buying pressure is stronger.\n\nWhy not the others:\nA – Demand volume belongs to up days, when buyers are pushing price higher.\nC – Accumulation refers to a phase of informed buying, not to down-day volume.\nD – Panic volume describes an extreme sell-off, not the general label for all down-day volume.\n\nRemember: When price falls, the volume is supply."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Sideways prices on expanding volume"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Rising prices on expanding volume.\n\nWhy: In the four-phase price-volume cycle, Phase 1 (Strong Demand) is the healthiest part of an uptrend. Prices rise and volume increases along with them. Growing volume shows more and more buyers are joining in, giving the advance the fuel it needs. When price and volume move up together, they confirm each other.\n\nWhy not the others:\nA – Rising prices on declining volume describe Phase 2, Weak Demand.\nB – Falling prices on expanding volume describe Phase 3, Strong Supply.\nD – Sideways prices on expanding volume describe base building near a bottom, not Phase 1.\n\nRemember: Strong Demand: price up, volume up, together."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "High volume distribution"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. An exhaustion of supply.\n\nWhy: Before a new bull market can start, the selling of the previous downtrend has to dry up. When most willing sellers have already sold, there is little supply left to push price down. Even modest new buying can then lift prices. This exhaustion of supply sets the stage for Phase 1, Strong Demand.\n\nWhy not the others:\nA – Exhaustion of demand comes before a top and a downtrend, not before a new uptrend.\nC – Consolidation may occur, but the key condition is that sellers have run out.\nD – High-volume distribution is heavy informed selling, which leads toward declines, not bull markets.\n\nRemember: New uptrends are born when the sellers run out."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Evidence of distribution by insiders"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The energy needed to continue higher, confirming the uptrend.\n\nWhy: Rising prices need buyers willing to pay more. Higher volume during an advance shows that many participants are doing exactly that. This growing participation is the 'fuel' that keeps the trend moving and confirms that the rise reflects real demand rather than a few trades in a thin market.\n\nWhy not the others:\nA – In Phase 1, rising volume supports the trend; it is not a reversal warning.\nB – Heavy volume on up days reflects strong buying, not weak holders leaving.\nD – Distribution is a later-stage, supply-driven event; Phase 1 volume reflects demand.\n\nRemember: In an uptrend, rising volume is the fuel tank filling up."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "A sign of accumulation"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Bearish.\n\nWhy: Gartley's volume rules link price direction with volume. In an advance, rising volume shows growing demand. If volume falls while price rises, fewer buyers are willing to push higher. The rally may continue for a while, but it is losing its fuel, so the condition is read as bearish, a sign the uptrend is weakening.\n\nWhy not the others:\nB – Shrinking volume on rallies shows fading demand, which is not bullish.\nC – The price-volume disagreement is a warning, not a neutral fact.\nD – Accumulation is quiet buying, usually near bottoms; falling volume on rallies signals fading demand instead.\n\nRemember: Rallies on shrinking volume are running out of gas."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Panic selling phase"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Early distribution phase.\n\nWhy: Distribution is the process by which informed holders gradually sell their positions to other buyers, usually near a top. In Phase 2 (Weak Demand), prices are still rising, but volume is falling, showing fewer buyers. That combination is the early stage of distribution: holders begin to sell into strength while the trend still looks healthy on the surface.\n\nWhy not the others:\nA – Accumulation is buying, usually after declines; Phase 2 comes after an uptrend.\nC – Late accumulation precedes Strong Demand, not Weak Demand.\nD – Panic selling belongs to the declining part of the cycle, not to a rising-price phase.\n\nRemember: Weak Demand is early distribution: prices still rising, buyers thinning out."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Price volatility increases dramatically"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Price continues to advance as evidenced by ever higher lows.\n\nWhy: In Phase 2 (Weak Demand), volume is falling, but price has not turned yet. The uptrend is still intact, which you can see from higher lows: each pullback ends above the last one. The warning is the divergence, meaning price and volume are moving in opposite directions. The trend still looks fine on price alone but has less fuel behind it.\n\nWhy not the others:\nA – A declining price belongs to Phase 3 or 4, not Phase 2.\nC – The price trend is still up in Phase 2, not sideways.\nD – Phase 2 is marked by fading participation, not a dramatic jump in volatility.\n\nRemember: In Weak Demand, price keeps climbing while volume quietly fades."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Fading demand that lacks the energy to sustain the advance"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Fading demand that lacks the energy to sustain the advance.\n\nWhy: An advance needs a steady supply of new buyers. When volume shrinks as price rises, fewer buyers are stepping in at each higher level. The trend may still move up for a while, but it is running on less energy. That makes it vulnerable: if sellers become more active, there may not be enough demand to absorb them.\n\nWhy not the others:\nA – Quiet institutional buying is associated with accumulation phases, usually near bottoms, not shrinking volume in an advance.\nB – Healthy consolidation is a pause in price, not a rise with steadily falling volume.\nC – Smart money building positions ahead of a breakout describes accumulation, not fading demand.\n\nRemember: Rising price on falling volume = a trend running on fumes."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "The trend is facing weak demand and may be destabilizing"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The trend is facing weak demand and may be destabilizing.\n\nWhy: A divergence occurs when two things that normally move together go separate ways. In a healthy uptrend, price and volume rise together. In Phase 2, price keeps rising while volume falls. That split shows the advance is no longer backed by growing demand. The trend is becoming unstable and is more at risk of rolling over.\n\nWhy not the others:\nA – A healthy, sustainable uptrend has price and volume rising together, not diverging.\nB – Long-term investors accumulating would show up as rising volume on advances.\nC – A new strong uptrend starts with expanding volume, not shrinking volume.\n\nRemember: Price and volume splitting apart is a warning that the trend is wobbling."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Satisfied holders sell only at higher bids, while fewer buyers will pay up"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Satisfied holders sell only at higher bids, while fewer buyers will pay up.\n\nWhy: In the Weak Demand phase, the market is complacent, meaning relaxed and unworried. Holders are happy with their gains and feel no urgency to sell, so they only part with shares at higher prices. At the same time, fewer buyers are willing to pay those higher prices. Price can still drift up, but on light volume, because neither side is acting aggressively.\n\nWhy not the others:\nA – Aggressive selling met by aggressive buying would create heavy volume, not a quiet complacent market.\nB – Panic liquidation belongs to a declining phase, not to a complacent uptrend.\nC – Heavy institutional buying would create strong demand and higher volume.\n\nRemember: Complacent market: sellers in no hurry, buyers in short supply."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "A sign of capitulation bottom"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A bearish indication.\n\nWhy: When price falls and volume rises at the same time, more and more traders are selling and accepting lower prices. That rising participation on the way down shows supply is strong and growing. Under Gartley's rules this combination is bearish, because it confirms the decline has real force behind it.\n\nWhy not the others:\nA – More volume on declines confirms selling pressure, so it is not bullish.\nB – The combination clearly favours sellers, so it is not neutral.\nD – A capitulation bottom is a special climax event; rising volume on declines in general is simply bearish.\n\nRemember: Falling price on rising volume = sellers are piling in."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Volume dries up after a long, extended decline"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The primary price trend breaks down below support and the uptrend reverses.\n\nWhy: Phase 3 (Strong Supply) is when the market actually turns down. The weakening seen in Phase 2 finally gives way: price breaks below support, a level that held before, and the uptrend reverses into a downtrend. From there, falling prices with rising volume show sellers are firmly in charge.\n\nWhy not the others:\nA – Volume can expand in different phases; Phase 3 is defined by the trend breaking down, not by volume alone.\nB – Consolidation below resistance is not a breakdown and does not start Phase 3.\nD – Volume drying up after a long decline describes Phase 4, Weak Supply.\n\nRemember: Strong Supply starts when support breaks and the uptrend turns down."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "That supply is strong and growing"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. That supply is strong and growing.\n\nWhy: In Phase 3, prices are falling. When volume rises at the same time, more sellers are joining in and are willing to accept lower prices. Rising volume on a decline is the downside version of strong demand in an uptrend: it confirms the move has force behind it.\n\nWhy not the others:\nA – Aggressive buyers would push prices up, not down.\nB – Rising volume on declines confirms the downtrend; it does not signal a reversal.\nC – Price support by market makers is not what rising volume in a decline shows.\n\nRemember: In a falling market, rising volume means sellers are gaining strength."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "They are waiting for technical support levels"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. They are willing to accept ever lower prices for their stock.\n\nWhy: In Phase 3 (Strong Supply), sellers are eager to get out. Instead of waiting for better prices, they keep lowering their asking prices to find buyers. That willingness to sell lower and lower, along with rising volume, is what pushes the downtrend forward.\n\nWhy not the others:\nB – Holding out for higher prices describes complacent sellers in the Weak Demand phase.\nC – Sellers refusing to sell would reduce supply and slow the decline.\nD – Waiting for support levels is passive behaviour; strong supply means active, eager selling.\n\nRemember: Strong Supply: sellers keep cutting their price to get out."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Bullish"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Bullish.\n\nWhy: In Gartley's rules, a decline on shrinking volume means fewer traders are bothering to sell. Selling pressure is drying up. Prices may still edge lower, but the force behind the fall is weakening. That makes the condition bullish, because it suggests the decline may be nearing its end.\n\nWhy not the others:\nA – Shrinking volume on declines shows weakening, not strengthening, supply.\nB – The price-volume relationship carries a clear bullish tilt, not a neutral one.\nC – Distribution is informed selling near tops, not a quiet decline with fading volume.\n\nRemember: Declines on shrinking volume mean sellers are running out."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Falling prices on diminishing volume"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Falling prices on diminishing volume.\n\nWhy: Phase 4 (Weak Supply) is the late part of a downtrend. Prices are still falling, but volume is shrinking. Fewer sellers are left and they are less eager. The decline is losing its force, which often sets the stage for a bottom and, eventually, a new Strong Demand phase.\n\nWhy not the others:\nA – Rising prices on rising volume describe Phase 1, Strong Demand.\nB – Sideways prices on heavy volume may signal a base or top, but it is not the definition of Weak Supply.\nC – Sideways prices on rising volume describe base building at the end of the cycle, not Phase 4 itself.\n\nRemember: Weak Supply: price still falling, volume fading."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Bull trap and bear trap"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A panic sell-off or a dull, lackluster decline.\n\nWhy: Weak Supply means sellers are running out, and this can look two different ways. In a panic, the last remaining holders dump shares all at once in a sharp, fast drop, after which few sellers are left. In a dull decline, price slides slowly on light volume because nobody cares much. Both drain the remaining supply and lead toward a bottom.\n\nWhy not the others:\nA – Slow grind and fast rally mixes up directions; the fast form of Weak Supply is a sell-off, not a rally.\nC – Accumulation and distribution are broader market phases, not forms of Weak Supply.\nD – Bull and bear traps are chart patterns, not the forms this phase takes.\n\nRemember: Supply runs out either in a sudden panic or in a slow, boring drift."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "One to two years"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Only days.\n\nWhy: A panic sell-off is a sharp, emotional rush to sell. It is intense, which is why it cannot last long. On intermediate and short-term timeframes, a panic phase of Weak Supply typically burns out within a few days, as the last sellers dump their shares at once. After that, there is little supply left to push prices lower.\n\nWhy not the others:\nB – Several weeks is too long for a true panic; panics are brief.\nC – Several months describes a slow decline, not a panic.\nD – One to two years fits long-term trends, not a short-term panic sell-off.\n\nRemember: Panics are violent but short: think days, not months."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "It is marked by rising volume as sellers capitulate"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It is less often a quick panic and can drag on in a dull, lackluster way.\n\nWhy: In long-term (primary or secular) trends of individual stocks, the end of a decline is often not dramatic. Instead of a quick panic, the stock may slide slowly for a long time with little interest from buyers or sellers. Volume stays light because holders have little reason to act. This dull drift slowly exhausts supply before a base forms.\n\nWhy not the others:\nA – A sharp, few-day panic bottom is more typical of shorter timeframes.\nC – Phase 4 is not usually skipped; supply must be exhausted before Strong Demand can begin.\nD – Weak Supply is defined by diminishing, not rising, volume.\n\nRemember: In long-term charts, the end of a decline is often a slow fade, not a crash."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Distribution by informed holders is beginning"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A base may be forming, as apathy drains the energy the downtrend needs.\n\nWhy: Apathy means not caring. When sellers become apathetic, few are bothering to sell, so volume dries up. A downtrend needs active selling to keep going. Without it, prices stop falling much and start to move sideways. That sideways area, called a base, is where the next uptrend often begins.\n\nWhy not the others:\nA – Apathetic sellers are not regrouping; their lack of activity slows the decline.\nB – Selling pressure is fading, not quietly building.\nD – Distribution happens near tops by informed sellers, not at the apathetic end of a decline.\n\nRemember: When sellers stop caring, the downtrend loses its engine."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Volume continuing to contract as price makes marginal new lows"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Neutral prices after a meaningful decline with volume beginning to rise.\n\nWhy: At the end of Weak Supply, prices have fallen a long way and sellers are exhausted. The first sign of a turn is that price stops falling and moves sideways, while volume starts to pick up. Higher volume without lower prices means new buyers are absorbing whatever supply remains. That is the transition toward Strong Demand.\n\nWhy not the others:\nB – New lows on high volume show strong supply, not its end.\nC – A break of major resistance usually comes later, once Strong Demand is underway.\nD – Contracting volume with marginal new lows is still Weak Supply, not its end.\n\nRemember: Bottoms announce themselves as flat prices with volume starting to rise."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Continued bearish momentum"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Accumulation and the formation of a base.\n\nWhy: After a long decline, XYZ stops falling and moves sideways, while volume grows. More shares are changing hands, yet price is not dropping, so buyers are absorbing all the selling. This quiet buying at low prices is called accumulation, and the sideways range it creates is a base. Bases like this often come before a new uptrend.\n\nWhy not the others:\nB – Distribution happens after advances; here sellers cannot push price lower.\nC – A bull trap is a failed breakout, not a sideways range with rising volume.\nD – Prices are no longer falling, so bearish momentum is not continuing.\n\nRemember: Flat price plus rising volume after a decline = buyers quietly accumulating."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The weight of the cargo the plane carries"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The thrust needed to maintain flight and trajectory.\n\nWhy: In the airplane analogy, the trend is the plane's flight path and volume is the engine's thrust. A plane needs thrust to stay in the air and to climb; a trend needs volume, meaning active participation, to keep moving. The analogy helps you picture why trends weaken when volume fades.\n\nWhy not the others:\nB – Altitude is like the price level reached, not the volume behind it.\nC – The compass heading is like the trend's direction, which volume does not set.\nD – Cargo weight is not part of the analogy; volume is the power, not the load.\n\nRemember: Volume is the engine; without thrust the trend cannot keep flying."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "The trend strengthens, because lower volume means less selling"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The trend risks stalling, like a plane without increased thrust.\n\nWhy: To climb more steeply, a plane needs more thrust from its engines. If it pulls its nose up without adding power, it loses speed and can stall. In the same way, if a price trend speeds up or steepens but volume does not rise with it, the move lacks the participation needed to sustain it and is at risk of failing.\n\nWhy not the others:\nA – Without more volume, acceleration is unsustainable, so it does not keep accelerating.\nC – Steepening without volume support makes the trend less stable, not more.\nD – Lower volume means less participation overall, not just less selling.\n\nRemember: A steeper climb needs more thrust: rising price needs rising volume."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Capitulation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Accumulation.\n\nWhy: In this price-volume cycle framework, a sustained uptrend is described as a phase of accumulation: buyers are steadily absorbing shares, and demand outweighs supply, so price keeps rising. The label describes the overall balance of the trend, with buyers collecting positions faster than sellers release them.\n\nWhy not the others:\nA – Distribution, with sellers releasing shares, is associated with a downtrend in this framework.\nC – Equilibrium means balance, which would produce a sideways market, not a sustained uptrend.\nD – Capitulation is a burst of surrender selling, usually at the end of a decline.\n\nRemember: In this framework: uptrend = accumulation, downtrend = distribution."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Consolidation"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Distribution.\n\nWhy: In this framework, a sustained downtrend reflects distribution: holders are releasing shares into the market, and supply outweighs demand, so price keeps falling. It is the mirror image of an uptrend being viewed as accumulation.\n\nWhy not the others:\nA – Accumulation is linked to uptrends in this framework.\nB – Base building happens when a decline ends and price moves sideways, not during a sustained downtrend.\nD – Consolidation is a sideways pause, not a sustained decline.\n\nRemember: Downtrend = supply outweighs demand = distribution."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "That a breakout in the trend's direction is imminent"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. An impending change in trend.\n\nWhy: A trend needs participation to continue. When volume falls off, fewer traders are pushing price in the trend's direction. The trend may keep going for a while out of momentum, but its support is fading. That is why low volume is seen as a warning that the trend may soon change direction or stall.\n\nWhy not the others:\nB – Healthy continuation is backed by solid volume, not low volume.\nC – Strong institutional buying would show up as higher, not lower, volume.\nD – Breakouts in the trend's direction are more convincing on high volume, not low.\n\nRemember: Low volume is a warning light that the trend's support is fading."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "As a buying opportunity"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It casts doubt on the validity of the move.\n\nWhy: When price breaks a trend, for example by dropping through an uptrend line, volume shows how many traders took part. A break on low volume means only a small number of trades caused it. That makes it more likely to be a false break that price soon recovers from. A break on high volume is more convincing because it shows broad commitment.\n\nWhy not the others:\nB – A low-volume break is weak evidence, not a strong reversal signal.\nC – Confirmation of a trend change needs stronger participation than low volume shows.\nD – A doubtful break is not automatically a buying opportunity; it calls for caution and more evidence.\n\nRemember: A trend break on thin volume deserves suspicion."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Phase 4: Weak Supply - bottoming formation"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Phase 2: Weak Demand - early distribution with trend destabilizing.\n\nWhy: The stock is still making new highs, so the uptrend is intact on price alone. But each rally comes on about 30% less volume than the one before, meaning fewer buyers are joining at higher prices. Price rising while volume falls is the classic divergence of Phase 2 (Weak Demand). It is the early stage of distribution, when the trend is becoming unstable even though it has not yet broken.\n\nWhy not the others:\nA – Strong Demand would show rallies on expanding, not shrinking, volume.\nB – Strong Supply requires the uptrend to break down; here price is still making new highs.\nD – Weak Supply is the late part of a downtrend, not an advance to new highs.\n\nRemember: New highs on shrinking volume = Weak Demand; the trend is losing its fuel."
   }
 ]

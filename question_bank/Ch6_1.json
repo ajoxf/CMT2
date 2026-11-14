@@ -9,7 +9,8 @@
       "252 days"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 30 days\n\nWhy: The VIX is built from the prices of S&P 500 index options and expresses how much volatility the options market expects. It is designed to look 30 calendar days ahead, blending options with expirations around that horizon so the measure stays at a constant 30-day window. The figure is then quoted as an annualized percentage, which is why you must scale it down to estimate moves over shorter periods.\n\nWhy not the others:\nA – Seven days is far shorter than the VIX's standard horizon; separate short-dated indexes exist for that.\nC – A 90-day horizon belongs to a different, longer-dated volatility index, not the VIX.\nD – 252 is the number of trading days in a year, used for annualizing, not the VIX's look-ahead window.\n\nRemember: VIX = the options market's 30-day expected volatility, quoted as an annual percentage."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Market fear and uncertainty"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Market fear and uncertainty\n\nWhy: When investors grow worried, they buy index put options to protect their portfolios. That demand raises option prices, and higher option prices mean higher implied volatility, so the VIX rises. When investors feel safe, demand for protection falls and the VIX drops. This is why the VIX is often called the \"fear gauge\": it rises with uncertainty and falls with calm.\n\nWhy not the others:\nA – Confidence and complacency show up as low VIX readings, not what the index represents as it rises.\nB – Greed and speculation usually coincide with a falling or low VIX.\nC – The VIX measures expected volatility, not price momentum or strength.\n\nRemember: VIX up = fear up; VIX down = calm or complacency."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Elevated demand for downside protection"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Market complacency and low expected volatility\n\nWhy: A VIX of 12 means options are priced for about 12% annualized volatility, which is low by historical standards. Options are cheap because few investors feel the need for protection. That points to calm conditions and, at extremes, complacency, which means investors may be underestimating risk. Low readings are not a sell signal by themselves, but they show a relaxed market.\n\nWhy not the others:\nA – Extreme fear produces high VIX readings, often above 30 or 40.\nC – A low VIX means low, not high, expected volatility.\nD – Strong demand for downside protection pushes option prices and the VIX higher.\n\nRemember: A VIX in the low teens signals calm and possible complacency."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "High fear and uncertainty in the market"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. High fear and uncertainty in the market\n\nWhy: A VIX above 30 means options are priced for 30% or more annualized volatility, well above normal levels. That happens when investors are rushing to buy protection and expect large price swings, usually during sharp declines or crises. Such readings reflect high fear. Contrarians also watch them, since very high fear often appears near market lows.\n\nWhy not the others:\nA – Stability is associated with low VIX readings.\nB – A low-volatility environment shows up as a low VIX, not above 30.\nC – Bullish complacency is linked with low readings, the opposite of this.\n\nRemember: VIX above 30 = fear is high and big swings are expected."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Only call premiums rose, while puts became cheaper"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Option premiums rose sharply as expected volatility surged\n\nWhy: An implied-volatility index is worked out from option prices. If it jumps from 18 to 75, the options market is pricing in much larger future swings, and that can only happen if option premiums have risen a lot. Option value depends heavily on expected volatility: the more the underlying might move, the more valuable the right to buy or sell it. So both calls and puts became more expensive, with puts usually leading in a crash.\n\nWhy not the others:\nB – Selling protection would push premiums and implied volatility down, not up.\nC – Implied volatility is derived from option prices, so a big move in one means a big move in the other.\nD – Higher implied volatility raises both call and put premiums, not just calls.\n\nRemember: Implied volatility up = option premiums up."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "6.93%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 6.93%\n\nWhy: The VIX is an annual figure. Volatility grows with the square root of time, so to scale it to a shorter period you divide by the square root of the number of those periods in a year. With 12 months: √12 ≈ 3.464. One-month move = 24 ÷ 3.464 ≈ 6.93%. So about two-thirds of the time, the index should finish the month within roughly ±6.93% of today's level.\n\nWhy not the others:\nA – 1.51% is 24 ÷ √252, the expected one-day move, not one month.\nB – 2.00% is 24 ÷ 12, which divides by time instead of the square root of time.\nC – 3.33% is 24 ÷ √52, the expected one-week move.\n\nRemember: Scale volatility by the square root of time: monthly move = VIX ÷ √12."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Positively correlated in rallies and negatively in declines"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Inversely correlated\n\nWhy: Inverse correlation means the two tend to move in opposite directions. When stocks fall, investors buy protection and expect bigger swings, so the VIX rises. When stocks rise steadily, fear fades and the VIX tends to fall. This opposite movement is one of the most consistent relationships in markets, which is why the VIX is used as a fear gauge.\n\nWhy not the others:\nB – A positive correlation would mean both rise together, which is unusual.\nC – The relationship is strong, not absent.\nD – The VIX tends to fall in rallies and rise in declines; it does not flip to a positive link in rallies.\n\nRemember: Stocks down, VIX up; stocks up, VIX down."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "A strong, healthy trend that is likely to accelerate"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Market complacency and potential for a volatility spike\n\nWhy: Very low VIX readings mean options are cheap and investors see little risk. That calm can make the market vulnerable: when few are hedged, an unexpected shock can cause a sudden rush for protection and a sharp jump in the VIX. Because volatility tends to return to its average over time, extremely low readings often come before rises in volatility, even if timing is uncertain.\n\nWhy not the others:\nA – Absent fear is complacency, which contrarians treat as a warning, not a buy signal.\nB – Volatility tends to revert to average, so very low readings do not usually last indefinitely.\nD – A low VIX does not, by itself, show that a trend is healthy or about to accelerate.\n\nRemember: Extreme low VIX = complacency, and calm can break suddenly."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Periods of unusually low realized volatility"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Market sell-offs or declines\n\nWhy: The VIX rises when investors rush to buy protection and expect larger swings. That happens most often when stocks are falling sharply, because declines tend to be fast and frightening. Rallies usually happen more calmly. So a sudden jump in the VIX almost always lines up with a sell-off in the stock market.\n\nWhy not the others:\nB – Rallies usually come with a falling or steady VIX.\nC – Sideways markets tend to have low or falling volatility expectations.\nD – A spike in the VIX normally accompanies a rise, not a fall, in actual price swings.\n\nRemember: VIX spikes go hand in hand with sell-offs."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "4.62%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 2.22%\n\nWhy: Convert the annual VIX into a weekly figure by dividing by the square root of the number of weeks in a year. √52 ≈ 7.211. Weekly move = 16 ÷ 7.211 ≈ 2.22%. So roughly two-thirds of the time, the index would be expected to stay within about ±2.22% over the next week.\n\nWhy not the others:\nA – 0.31% is 16 ÷ 52, dividing by time rather than the square root of time.\nB – 1.01% is 16 ÷ √252, the expected one-day move.\nD – 4.62% is 16 ÷ √12, the expected one-month move.\n\nRemember: Weekly move = VIX ÷ √52 (about VIX ÷ 7.2)."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "15.0%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 15.0%\n\nWhy: A quarter is one-fourth of a year, so there are 4 quarters per year. Divide the annual volatility by the square root of 4: √4 = 2. Quarterly move = 30 ÷ 2 = 15.0%. Notice that a quarter is a quarter of the time, but the expected move is half the annual figure, because volatility grows with the square root of time.\n\nWhy not the others:\nA – 1.9% is 30 ÷ √252, a one-day move.\nB – 7.5% is 30 ÷ 4, dividing by time instead of its square root.\nC – 8.7% is 30 ÷ √12, a one-month move.\n\nRemember: Quarter of the time = half the volatility, since √4 = 2."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "VIX tends to return to average levels after extreme readings"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. VIX tends to return to average levels after extreme readings\n\nWhy: Mean reversion means a value tends to drift back toward its long-run average. The VIX is a good example. Fear spikes cannot last forever, because markets calm down, so high readings tend to fall back. Very low readings tend to rise eventually, because calm cannot last forever either. This is different from a stock price, which can trend for years; volatility tends to swing around a typical level.\n\nWhy not the others:\nA – Elevated readings tend to fade over time; they do not stay high forever.\nB – Continuing in the direction of the last move describes momentum, the opposite of mean reversion.\nC – The VIX has no built-in upward drift; it fluctuates around a long-run level.\n\nRemember: The VIX is like a rubber band: stretched readings tend to snap back."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "2,966 to 3,034"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 2,844 to 3,156\n\nWhy: First convert the annual figure to one month: 18 ÷ √12 = 18 ÷ 3.464 ≈ 5.20%. Then turn that into index points: 3,000 × 0.0520 ≈ 156 points. The one-standard-deviation range is 3,000 − 156 = 2,844 to 3,000 + 156 = 3,156. There is roughly a 68% chance the index finishes the month inside that band.\n\nWhy not the others:\nA – This uses the full 18% annual figure (540 points), a one-year range.\nC – This uses 18 ÷ 12 = 1.5% (45 points), dividing by time instead of the square root of time.\nD – This uses 18 ÷ √252 ≈ 1.13% (34 points), which is a one-day range.\n\nRemember: Range = price × (VIX ÷ √12), added to and subtracted from today's price."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Implied volatility from S&P 500 index options"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Implied volatility from S&P 500 index options\n\nWhy: The VIX is calculated from the prices of a wide range of S&P 500 index options, both puts and calls. Option prices contain the market's expectation of future volatility, called implied volatility. The VIX formula pulls that expectation out and expresses it as a single annualized percentage. It is forward-looking, because it reflects what traders are willing to pay for protection now.\n\nWhy not the others:\nA – Past price movements give historical (realized) volatility, which is backward-looking and not what the VIX uses.\nB – Trading volume is not an input to the VIX.\nC – VIX futures are traded on the VIX; they are not used to calculate it.\n\nRemember: VIX comes from option prices, so it is forward-looking."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "The next 12 months"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The next 30 days\n\nWhy: Implied volatility looks forward. The VIX uses S&P 500 options with expirations around 30 days away and blends them to represent expected volatility over the coming 30 calendar days. It tells you what traders are paying for protection over the next month, not what happened in the last one.\n\nWhy not the others:\nA – The past 30 days would be historical volatility, which the VIX does not measure.\nB – A 90-day outlook belongs to a different volatility index.\nD – A 12-month outlook is not what the VIX measures, even though the number is annualized.\n\nRemember: The VIX looks forward 30 days, even though it is quoted in annual terms."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "About 260 points"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. About 57 points\n\nWhy: Convert the annual VIX to one trading day by dividing by √252. √252 ≈ 15.87. Daily move = 15 ÷ 15.87 ≈ 0.945%. In index points: 6,000 × 0.00945 ≈ 56.7, or about 57 points. A handy shortcut is that √252 is close to 16, so the daily move is roughly the VIX divided by 16.\n\nWhy not the others:\nA – About 4 points comes from 15 ÷ 252 ≈ 0.06%, dividing by time instead of the square root of time.\nC – About 125 points is 15 ÷ √52 ≈ 2.08%, a one-week move.\nD – About 260 points is 15 ÷ √12 ≈ 4.33%, a one-month move.\n\nRemember: Daily move ≈ VIX ÷ 16 (because √252 ≈ 16)."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "A neutral reading with little sentiment value"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Extreme fear and potential buying opportunity\n\nWhy: A contrarian looks for moments when the crowd's emotions are at an extreme and bets against them. A VIX above 40 shows panic: investors are paying very high prices for protection. Historically, such extreme fear has often appeared near market lows, because by then most of the selling has already happened. A contrarian therefore sees it as a possible buying opportunity, not a reason to sell.\n\nWhy not the others:\nA – Selling into extreme fear is following the crowd, the opposite of a contrarian approach.\nC – Waiting for even higher fear is not the contrarian reading; the extreme itself is the signal.\nD – A reading above 40 is an extreme with strong sentiment value, not neutral.\n\nRemember: For contrarians, extreme fear (very high VIX) can signal opportunity."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "About ±40%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About ±11.5%\n\nWhy: First find one standard deviation for one month: 20 ÷ √12 = 20 ÷ 3.464 ≈ 5.77%. A 95% range is about two standard deviations, so double it: 2 × 5.77% ≈ 11.5%. The index would be expected to stay within about ±11.5% of its current level over the month roughly 95% of the time, under the normal-distribution assumption.\n\nWhy not the others:\nA – ±3.3% is 2 × (20 ÷ 12), dividing by time rather than the square root of time.\nB – ±5.8% is only one standard deviation, which covers about 68%, not 95%.\nD – ±40% is two standard deviations over a full year.\n\nRemember: 95% ≈ two standard deviations, so double the one-month move."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "68%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 32%\n\nWhy: Under a normal (bell-curve) distribution, about 68% of outcomes fall within one standard deviation of the average. That leaves 100% − 68% = 32% outside the range, split roughly 16% above and 16% below. So a one-standard-deviation VIX range will be broken, in one direction or the other, about one month in three.\n\nWhy not the others:\nA – 5% is the share outside a two-standard-deviation range.\nB – 16% is the chance of finishing outside on one side only, not either side.\nD – 68% is the chance of finishing inside the range.\n\nRemember: One standard deviation holds about 68%, so about 32% falls outside."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "No, it measures expected volatility, not direction"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. No, it measures expected volatility, not direction\n\nWhy: The VIX tells you how big the market's swings are expected to be, not which way they will go. A VIX of 20 implies an expected range in either direction. It is true the VIX tends to rise when stocks fall, but that is a tendency, not a forecast of direction. Large expected moves could come from a sharp rally as well as a decline.\n\nWhy not the others:\nA – A rising VIX does not forecast a decline of any specific size.\nB – It does not predict direction over one day either.\nC – The VIX uses both puts and calls, and even puts alone would not reveal direction.\n\nRemember: The VIX measures how far, not which way."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "The long-run historical average of VIX"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. How VIX futures prices vary across expirations\n\nWhy: VIX futures let traders bet on where the VIX will be on future dates. Lining up these contracts from the nearest expiration to the furthest gives a curve called the term structure. Its shape shows how volatility expectations differ between the near term and the longer term. An upward-sloping curve is normal in calm markets; a downward slope appears during stress.\n\nWhy not the others:\nA – A chart of spot VIX over time is a history, not a term structure.\nB – The calculation formula for spot VIX is a different topic.\nD – The long-run average is a single number, not a curve across expirations.\n\nRemember: Term structure = VIX futures prices lined up by expiration date."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "VIX is at all-time highs"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Longer-term futures are more expensive than near-term futures\n\nWhy: Contango means the futures curve slopes upward: contracts further in the future are priced higher than nearer ones. This is the usual state for VIX futures in calm markets. Today's volatility is low, but traders expect it may rise over time toward its average and pay a premium for uncertainty further out. It is the normal shape of the curve.\n\nWhy not the others:\nA – Near-term futures priced above longer-term ones is backwardation, the opposite.\nC – A flat curve, with equal prices, is neither contango nor backwardation.\nD – Contango is typical of calm markets, not record-high VIX levels.\n\nRemember: Contango = curve slopes up, later contracts cost more; normal for calm markets."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "A bullish market trend"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Near-term volatility expectations are higher than longer-term\n\nWhy: Backwardation means the futures curve slopes downward: near-term contracts cost more than later ones. For VIX futures, this happens during market stress, when fear is high right now and traders expect it to calm down over time. Because volatility tends to revert to its average, a spike today is priced as temporary, so longer-dated contracts trade lower.\n\nWhy not the others:\nA – Calm, normal conditions produce contango, not backwardation.\nB – Long-dated expectations above near-term ones describes contango.\nD – Backwardation usually accompanies market stress and declines, not bullish trends.\n\nRemember: Backwardation = fear is highest right now."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The range calculation ignores the current level of the index"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Real returns have fatter tails and negative skew, so extreme moves happen more often than predicted\n\nWhy: The VIX range assumes returns follow a normal bell curve. Real market returns have \"fat tails,\" meaning extreme moves happen more often than a bell curve predicts. They also show negative skew, meaning large drops are more common than large jumps of the same size. So a one-standard-deviation range gives a useful rough guide but can underestimate the risk of a very large move, especially to the downside.\n\nWhy not the others:\nB – The VIX is based on option-implied volatility, not historical volatility.\nC – The square-root-of-time rule is the standard scaling method; it is not the main reason for underestimating risk.\nD – The range is applied to the current index level, so it does not ignore it.\n\nRemember: Markets have fat tails: big moves happen more often than the bell curve says."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "About 104%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. About 14.4%\n\nWhy: Work backwards. First turn the point move into a percentage: 90 ÷ 4,500 = 2% for one week. To annualize, multiply by the square root of the number of weeks in a year: √52 ≈ 7.211. Annual volatility = 2% × 7.211 ≈ 14.4%. This is the reverse of dividing an annual figure by √52 to get a weekly move.\n\nWhy not the others:\nA – About 6.9% is 2% × √12, which treats the move as monthly.\nC – About 31.7% is 2% × √252, which treats the move as daily.\nD – About 104% is 2% × 52, multiplying by time instead of its square root.\n\nRemember: To annualize, multiply by the square root of periods per year."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "A typical pattern with no informational value"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Potential underlying weakness or concern despite rising prices\n\nWhy: Usually the VIX falls as stocks climb, because fear fades. If the index makes new highs while the VIX rises, investors are buying more protection even as prices rise. That suggests nervousness beneath the surface, a divergence from the normal pattern. It does not guarantee a decline, but it is a warning that confidence in the rally may be weaker than prices suggest.\n\nWhy not the others:\nB – Bullish confirmation would show the VIX falling or staying low as prices rise.\nC – A rising VIX means hedging demand is increasing, not falling.\nD – Because it breaks the normal opposite relationship, it carries useful information.\n\nRemember: New highs with a rising VIX hint at hidden worry."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Sell volatility (e.g., short VIX futures) or buy equities"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Sell volatility (e.g., short VIX futures) or buy equities\n\nWhy: Mean reversion means the VIX tends to fall back toward its average after extreme spikes. A trader expecting that would bet on volatility declining, for example by selling VIX futures. Because stocks often recover as fear fades, buying equities is another way to express the same view. Such positions carry real risk if the spike grows further, so sizing and risk control matter.\n\nWhy not the others:\nA – Buying VIX calls bets on volatility rising further, the opposite of mean reversion.\nB – Buying straddles adds exposure to rising volatility (vega is sensitivity to volatility), also the wrong direction.\nC – Going to cash expresses no view and does not act on the mean-reversion expectation.\n\nRemember: Expecting the VIX to fall back means selling volatility, not buying it."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Treasury bond yields"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. VIX futures contracts, not spot VIX\n\nWhy: The spot VIX is a calculated number, not something you can buy directly. Products like VXX get their exposure by holding VIX futures, usually short-dated ones, and regularly rolling them into later contracts. Their returns therefore follow the futures, not the spot index. Futures can behave quite differently from spot VIX, especially when the futures curve is steep.\n\nWhy not the others:\nA – You cannot hold spot VIX directly, so these products cannot track it exactly.\nC – They track volatility futures, not S&P 500 returns.\nD – Treasury yields have nothing to do with these products' design.\n\nRemember: VIX ETPs hold futures, so they track futures, not spot VIX."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Tracking error versus the S&P 500 index"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Contango decay causing losses over time even if VIX stays flat\n\nWhy: In contango, later-dated VIX futures cost more than near-dated ones. A long VIX product must regularly sell the expiring, cheaper contract and buy the next, more expensive one. As each contract drifts down toward the lower spot level by expiration, the product loses value. This \"roll cost\" can steadily erode returns, even if the spot VIX itself does not change.\n\nWhy not the others:\nA – These products hold futures, not stocks, so there is no credit risk from index companies.\nC – Long VIX products generally gain, not lose, when VIX rises.\nD – They are not designed to track the S&P 500, so tracking error against it is not the key risk.\n\nRemember: In contango, long VIX products bleed value from rolling futures."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "About 3,050"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. About 2,659\n\nWhy: First convert the annual VIX into a one-month figure: 22 ÷ √12 = 22 ÷ 3.464 ≈ 6.35%. Then convert to points: 2,500 × 0.0635 ≈ 159. The upper one-standard-deviation level is 2,500 + 159 ≈ 2,659. Selling calls near that strike means the index would need an unusually large rally, beyond one standard deviation, to reach it within the month.\n\nWhy not the others:\nA – About 2,535 uses 22 ÷ √252 ≈ 1.39%, a one-day move.\nB – About 2,546 uses 22 ÷ 12 ≈ 1.83%, dividing by time instead of the square root of time.\nD – About 3,050 uses the full 22% annual figure, a one-year move.\n\nRemember: Upper 1-SD monthly level = price × (1 + VIX ÷ √12 ÷ 100)."
   }
 ]

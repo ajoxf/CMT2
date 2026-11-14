@@ -9,7 +9,8 @@
       "Between 15-20%"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Less than 1%.\n\nWhy: Most trading ideas look promising at first but fail once they are tested properly. They may not hold up on fresh data, may not beat costs, or may only work in one market or period. Experienced developers report that fewer than one idea in a hundred makes it through every stage of testing to live trading. This high failure rate is normal and shows why rigorous filtering matters.\n\nWhy not the others:\nA – 5% overstates how many ideas survive full testing.\nB – 10% would mean one in ten ideas succeed, which is far too optimistic.\nD – 15–20% would imply testing is a light filter, when it is actually very strict.\n\nRemember: Almost all ideas fail testing — expect fewer than 1% to go live."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Adaptability to changing conditions"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Achieving a win rate above 70%.\n\nWhy: Core system objectives describe qualities that make a system durable and usable: robustness (works across different markets and time periods), scalability (can handle more capital) and adaptability (copes with changing conditions). A high win rate is not a core goal, because profitability depends on how big wins are compared with losses, not just how often you win. Many good trend systems win less than half the time.\n\nWhy not the others:\nA – Robustness is a core objective; a system should not depend on one narrow data set.\nC – Scalability is a core objective, so the system can grow with capital.\nD – Adaptability is a core objective, since markets change over time.\n\nRemember: Win rate alone is not an objective; robustness, scalability and adaptability are."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Keep drawdowns small relative to returns"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Annual return of 6%–9%, max drawdown under 6%.\n\nWhy: A good objective has numbers you can check against test results. 'Annual return of 6–9% and a maximum drawdown (the largest peak-to-trough fall in equity) under 6%' can be measured exactly. Vague words like 'strong', 'most' or 'small' cannot be tested, so you cannot tell if a system passed or failed.\n\nWhy not the others:\nA – 'Strong returns' and 'low risk' have no numbers, so they cannot be measured.\nB – 'Outperform most peers' is vague and depends on others' results.\nD – 'Small relative to returns' gives no specific threshold.\n\nRemember: Objectives must have numbers you can check."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Drawdown objectives matter mainly for scalping and arbitrage systems"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Drawdown drives sizing, so a lower figure allows more leverage for one risk limit.\n\nWhy: Maximum drawdown is the largest fall in account value from a peak. A trader sets a risk limit, such as 'I can accept a 21% drawdown'. Allowed leverage = target drawdown ÷ tested drawdown. With a 21% limit, System A allows 21 ÷ 7 = 3.0x, while System B allows 21 ÷ 21 = 1.0x. With similar returns, System A can earn more for the same risk.\n\nWhy not the others:\nA – Drawdown and win rate are different measures; a low drawdown does not imply a high win rate.\nC – A lower drawdown does not guarantee a higher profit factor, and nothing in testing is guaranteed.\nD – Drawdown matters for every system type, not just scalping or arbitrage.\n\nRemember: Smaller drawdown → more room to size up within the same risk limit."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "2.0 to 20.0"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 1.25 to 10.0.\n\nWhy: Profit factor = gross profit ÷ gross loss. Below about 1.25, the edge is too thin to survive real-world costs and bad luck. Above about 10, results are so good they are probably the product of curve fitting (tuning to past data). So a screening range of 1.25 to 10.0 filters out both weak and suspicious systems.\n\nWhy not the others:\nA – A lower bound of 1.0 is breakeven, too low to cover costs and errors.\nC – An upper bound of 15 lets in results that are likely over-fitted.\nD – 2.0 to 20.0 rejects many sound systems and accepts suspicious ones.\n\nRemember: Accept profit factors from about 1.25 to 10."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "A mean-reversion rather than a trend model"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Probable curve fitting.\n\nWhy: A profit factor above 10 means gross profits are more than ten times gross losses. Real markets are noisy, so results that good usually mean the rules were fitted to quirks of past data rather than a lasting edge. Such systems tend to fall apart on new data.\n\nWhy not the others:\nA – Unrealistically good results are a warning, not proof of robustness.\nB – An over-fitted system is dangerous to leverage because its real risk is unknown.\nD – Profit factor does not tell you the model type.\n\nRemember: Too good to be true usually means curve fitting."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "12.0 (1,200%)"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 3.0 (300%).\n\nWhy: The Calmar ratio measures return per unit of worst-case pain. Calmar = annualized return ÷ maximum drawdown. Here Calmar = 18% ÷ 6% = 3.0. A higher number means more reward for each unit of drawdown.\n\nWhy not the others:\nA – 0.33 comes from dividing drawdown by return (6 ÷ 18), which is upside down.\nB – 1.08 adds the numbers in an odd way and does not match the formula.\nD – 12.0 subtracts (18 − 6) instead of dividing.\n\nRemember: Calmar = annual return ÷ max drawdown."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Winning trades divided by total trades"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Annualized returns divided by maximum drawdown.\n\nWhy: The Calmar ratio compares how much a system earns per year with the largest peak-to-trough loss it suffered. It answers: 'How much return do I get for the worst pain?' It is a simple, popular risk-adjusted measure.\n\nWhy not the others:\nA – Total profit ÷ total loss is the profit factor.\nC – Average win ÷ average loss is the win/loss ratio.\nD – Winning trades ÷ total trades is the win rate.\n\nRemember: Calmar ties return to worst drawdown."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "80-90%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 30–50%.\n\nWhy: Trend-following systems enter in the direction of a move and hold until it ends. Many entries get stopped out by false starts, so they lose often. But when a big trend comes, the winner is large. That is why they typically win only 30–50% of trades yet can still be profitable.\n\nWhy not the others:\nA – 10–20% is lower than typical for trend followers.\nC – 60–70% is more typical of mean reversion systems.\nD – 80–90% is typical of scalping, not trend following.\n\nRemember: Trend followers lose often but win big."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "2.2"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 2.2.\n\nWhy: To break even, average win × win rate must equal average loss × loss rate. With a 38% win rate, the loss rate is 62%. Breakeven ratio = 0.62 ÷ 0.38 = 1.63. Only 2.2 is above that. Check: 0.38 × 2.2 = 0.836 > 0.62, so the system has a positive expectancy.\n\nWhy not the others:\nA – 0.5: 0.38 × 0.5 = 0.19, far below 0.62, so it loses money.\nB – 0.8: 0.38 × 0.8 = 0.304, still below 0.62.\nC – 1.0: 0.38 × 1.0 = 0.38, still a losing system.\n\nRemember: Low win rate needs large wins: here above 1.63 to break even."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Pairs trading model"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Trend-following model.\n\nWhy: A trend-following model looks for markets already moving in one direction and joins that move, hoping it continues. It cuts trades that fail and holds those that keep working. The edge comes from capturing persistent directional moves.\n\nWhy not the others:\nA – Mean reversion bets on price returning to average, the opposite idea.\nB – Scalping takes many tiny, short trades, not longer trends.\nD – Pairs trading profits from the spread between two related assets.\n\nRemember: Trend following: buy strength, sell weakness, ride the move."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Scalping trading"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Mean reversion model.\n\nWhy: A mean reversion model assumes prices that stretch far from their usual level (the 'mean' or average) tend to snap back. It buys when price is unusually low and sells when it is unusually high. It often wins frequently but with small gains.\n\nWhy not the others:\nA – Trend following expects moves to continue, not reverse.\nB – Arbitrage exploits price differences for the same asset across markets.\nD – Scalping focuses on very short, small trades, not reversion to an average.\n\nRemember: Mean reversion: stretched prices snap back."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Many very short-term trades seeking small gains"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Many very short-term trades seeking small gains.\n\nWhy: Scalping means taking a large number of quick trades, often seconds to minutes long, aiming for small profits each time. Because each gain is small, costs and execution speed matter a lot. Scalpers usually win often but make little per trade.\n\nWhy not the others:\nA – Holding for weeks describes trend following or swing trading.\nB – Few large trades with high reward-to-risk is the opposite of scalping.\nC – Buying one asset and shorting a related one is pairs trading.\n\nRemember: Scalping: many tiny, fast trades."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Going long one asset and short a correlated one together"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Going long one asset and short a correlated one together.\n\nWhy: Pairs trading takes two assets that usually move together. When their price gap widens unusually, the trader buys the weaker one and sells the stronger, betting the gap will narrow. Because one position is long and one is short, much of the overall market risk cancels.\n\nWhy not the others:\nA – Trading one asset on two time frames is multi-time-frame analysis.\nB – Combining a stock and its call option is an options strategy, not pairs trading.\nC – Requiring two indicators to agree is a confirmation rule.\n\nRemember: Pairs trading: long one, short its partner, bet on the gap."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Short-term order-flow imbalances"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Price differences for the same asset across markets.\n\nWhy: Arbitrage looks for the same asset (or very close equivalents) priced differently in two places. The trader buys where it is cheaper and sells where it is dearer, locking in the difference. The gaps are usually small and close quickly.\n\nWhy not the others:\nA – Sustained directional moves are the target of trend following.\nC – Prices reverting to an average is mean reversion.\nD – Short-term order-flow imbalances are more the focus of scalping.\n\nRemember: Arbitrage: same asset, two prices, capture the gap."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Trading several uncorrelated markets together"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Combining technical, fundamental and quantitative inputs.\n\nWhy: Fusion analysis blends different types of information into one decision process. For example, a system might use fundamental data to choose markets, technical signals for timing, and quantitative screens for filters. The goal is a richer, more robust view than any single method alone.\n\nWhy not the others:\nA – Using several time frames is multi-time-frame analysis, still purely technical.\nB – Blending two technical model types is not the same as mixing different disciplines.\nD – Trading uncorrelated markets is diversification.\n\nRemember: Fusion = technical + fundamental + quantitative."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "60-minute"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 60-minute.\n\nWhy: Calmar ratio = return ÷ maximum drawdown. 5-min: 12 ÷ 6 = 2.0. 15-min: 18 ÷ 5 = 3.6. 30-min: 20 ÷ 8 = 2.5. 60-min: 21 ÷ 4 = 5.25. The 60-minute interval has the highest ratio, meaning the most return for each unit of drawdown. A sweet-spot analysis looks for that best balance, not the highest raw return.\n\nWhy not the others:\nA – 5-minute gives 2.0, the lowest ratio.\nB – 15-minute gives 3.6, good but below 5.25.\nC – 30-minute gives 2.5; its higher drawdown cancels the higher return.\n\nRemember: Pick the setting with the best return per unit of drawdown."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "To estimate slippage and commission costs"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. To judge whether exits add value apart from entry skill.\n\nWhy: If you replace the real entry rule with random entries but keep the exit rules, any profit left must come from the exits. This isolates the exits and shows whether they truly help. If random entries plus your exits still make money, the exits are adding real value.\n\nWhy not the others:\nB – Execution speed is not what random entries measure.\nC – The goal is to separate entry and exit value, not to increase trade count.\nD – Slippage and commissions are estimated separately.\n\nRemember: Random entries test the exits."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "50"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 30.\n\nWhy: With too few trades, results may just be luck. Thirty trades is commonly treated as the bare minimum for basic statistics to mean anything. It is a floor, not an ideal; more trades give more confidence. Below 30, a couple of unusual trades can swing the averages so much that the test says little.\n\nWhy not the others:\nA – 10 trades are far too few to rule out luck.\nB – 20 trades are still below the usual statistical minimum.\nD – 50 trades is better, but the absolute minimum is 30.\n\nRemember: 30 trades minimum; more is better."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "100 or more"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 100 or more.\n\nWhy: While 30 trades is the bare minimum, a much larger sample makes results more reliable. 100 or more trades reduces the chance that a few lucky or unlucky trades distort the picture. That is why 100+ is considered ideal. A bigger sample also covers more market conditions, which makes the test fairer.\n\nWhy not the others:\nA – 30 is the minimum, not the ideal.\nB – 50 is better than 30 but still below the ideal.\nC – 75 is closer, but the ideal benchmark is 100 or more.\n\nRemember: Minimum 30, ideal 100+."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "80-90%"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 80–90%.\n\nWhy: Scalpers aim for many small, quick gains and exit fast. Because targets are close, they hit them often, so the win rate is very high — typically 80–90%. The trade-off is that the losses, when they occur, can be larger than the average win, so discipline on losses is key.\n\nWhy not the others:\nA – 30–50% is typical of trend following.\nB – 50–70% is closer to mean reversion.\nC – 70–80% is high, but scalping is typically even higher.\n\nRemember: Scalping wins very often, but each win is small."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "2.00x"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 1.67x.\n\nWhy: Maximum leverage = target maximum drawdown ÷ tested maximum drawdown. Here it is 20% ÷ 12% = 1.67. At 1.67x, the expected worst drawdown becomes about 12% × 1.67 = 20%, which matches the risk limit. Going above this figure would expose the account to more drawdown than the trader accepted.\n\nWhy not the others:\nA – 1.25x is too conservative for these numbers.\nB – 1.50x gives about 18% drawdown, below the limit but not the maximum.\nD – 2.00x would push drawdown to about 24%, above the 20% target.\n\nRemember: Max leverage = target drawdown ÷ tested drawdown."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "They improve returns mainly for mean-reversion models"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They seldom boost returns but guard against catastrophic losses.\n\nWhy: A protective stop exits a trade once losses reach a set level. In testing, stops often cut trades that would have recovered, so they rarely improve total returns. Their real job is insurance: they prevent one disastrous trade from wiping out the account.\n\nWhy not the others:\nA – Cutting losers early often also cuts trades that would have recovered, so returns rarely rise.\nB – Stops can and do affect returns; they are not neutral.\nD – There is no special link between stops raising returns and mean reversion.\n\nRemember: Stops are insurance, not a return booster."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Pausing during drawdowns tends to raise the system's volatility"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Skipped trades may include the few big winners behind long-run returns.\n\nWhy: Many systems earn most of their profit from a small number of large winners, often right after a losing streak. If a trader overrides the system during a drawdown, they may miss exactly those winners. The tested results only hold if every signal is taken.\n\nWhy not the others:\nB – An override may even reduce trades; costs are not the main issue.\nC – Position sizing can still be calculated; that is not the concern.\nD – Pausing does not inherently raise volatility; the danger is missing winners.\n\nRemember: Skip the losers, miss the winners — follow the system."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Real-time analysis"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Historical backtesting.\n\nWhy: A backtest runs rules on past data, often the same data used to design them. This makes results look as good as possible, but they may include hindsight and ignore real-world frictions. Later stages like out-of-sample and walk-forward testing are tougher and more realistic.\n\nWhy not the others:\nA – Walk-forward analysis is designed to be more realistic, not more flattering.\nC – Out-of-sample testing uses unseen data, which tends to lower results.\nD – Real-time testing shows actual conditions, which is the most realistic.\n\nRemember: Backtests flatter; later tests reveal reality."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "10 years"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 7 years.\n\nWhy: Out-of-sample data = 30% × 10 years = 3 years. In-sample (for optimisation) = 10 − 3 = 7 years. The rules are tuned on the 7 years, then checked on the final 3 years the system has never seen. Keeping the latest data unseen gives an honest check on recent conditions.\n\nWhy not the others:\nA – 3 years is the out-of-sample portion, not the in-sample.\nB – 5 years would be a 50/50 split, not 70/30.\nD – 10 years would leave no data for out-of-sample testing.\n\nRemember: In-sample = total − out-of-sample."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Optimizing on one window, then testing on the next unseen window, repeatedly"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Optimizing on one window, then testing on the next unseen window, repeatedly.\n\nWhy: Walk forward analysis splits history into rolling windows. The system is optimized on one window, then tested on the next window it has not seen. The process steps forward and repeats, building a record of performance on unseen data.\n\nWhy not the others:\nA – Testing only the most recent year is a single test, not a rolling one.\nB – Optimizing and confirming on the same data is classic curve fitting.\nC – Reshuffling trade sequences is Monte Carlo analysis.\n\nRemember: WFA: optimize, test forward, roll, repeat."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "It typically produces higher profit factors than backtests"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. It re-optimizes as conditions change, reflecting adaptation.\n\nWhy: Markets change over time. Walk forward analysis re-optimizes on each new window, mimicking how a trader would update a system in real life. The test results then show how well the system adapts, using only data that would have been available at the time.\n\nWhy not the others:\nA – WFA needs more computing, since it runs many optimizations.\nC – WFA usually needs more data, not less.\nD – WFA tends to give lower, more realistic results than a backtest.\n\nRemember: WFA tests adaptation on unseen data."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "It ignores changing market conditions"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It can take months or years to collect enough trades.\n\nWhy: Real-time (forward) testing runs the system on live data as it arrives. It is the most realistic test, but you must wait for trades to happen. For a slower system, gathering 30 or more trades can take a long time.\n\nWhy not the others:\nA – Real-time testing is more realistic than backtesting, not less.\nB – Real-time testing naturally includes actual costs.\nD – Real-time testing experiences changing conditions directly.\n\nRemember: Real-time tests are realistic but slow."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "50-100"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 30–50.\n\nWhy: In real-time analysis, a sample of about 30 to 50 trades is generally accepted as the minimum to judge performance. Fewer trades leave too much room for luck. This range balances the need for evidence against the time it takes to collect live trades.\n\nWhy not the others:\nA – 10–20 trades are too few to separate skill from luck.\nB – 20–30 is still below the usual consensus.\nD – 50–100 is better but goes beyond the stated minimum.\n\nRemember: Real-time: about 30–50 trades minimum."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Greater impact in most cases"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Greater impact in most cases.\n\nWhy: An entry decides when you get in, but an exit decides how much you keep or lose. Exits control the size of winners and losers, which drives total profit. That is why testing often finds exits matter more than entries.\n\nWhy not the others:\nA – Entries matter, but exits usually shape the profit more.\nB – Tests typically show exits have the larger effect.\nC – Exits affect both the win rate and the size of wins and losses.\n\nRemember: Exits make the money; entries just open the door."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Sizing positions to recent volatility"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Over-optimizing rules to past data so results are unrealistic.\n\nWhy: Curve fitting means tweaking rules and parameters until they match past price data almost perfectly. The system then 'learns' random noise, not a real pattern. It looks great in a backtest but usually fails on new data.\n\nWhy not the others:\nA – Smoothing equity through diversification is a valid risk tool, not curve fitting.\nC – Fitting a regression line is a trend tool, not this concept.\nD – Volatility-based sizing is a position-sizing method.\n\nRemember: Curve fitting = fitting the noise, not the signal."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Pairs trading"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Momentum trading.\n\nWhy: The five common trading models are trend-following, mean reversion, scalping, pairs trading and arbitrage. Momentum is closely related to trend following but is not listed as its own model in this set. So it is the odd one out. Knowing the five by name makes this kind of 'odd one out' question quick to answer.\n\nWhy not the others:\nB – Trend-following is one of the five models.\nC – Mean reversion is one of the five models.\nD – Pairs trading is one of the five models.\n\nRemember: Five models: trend, mean reversion, scalping, pairs, arbitrage."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "10 to 15"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 3 to 5.\n\nWhy: Profit factor = gross profit ÷ gross loss. Systems with very low factors have little room for error; systems above about 10 are often over-fitted. The most reliable strategies tend to sit in the middle, around 3 to 5: strong but believable.\n\nWhy not the others:\nA – 1 to 2 is acceptable but leaves a thin margin.\nC – 6 to 8 is unusually high and starts to raise doubts.\nD – 10 to 15 strongly suggests curve fitting.\n\nRemember: Reliable systems: profit factor about 3–5."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "To lower total commissions"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To reduce drawdowns and improve risk-adjusted returns.\n\nWhy: Diversification spreads capital across markets or strategies that do not all move together. When one loses, another may gain, so the total equity curve is smoother. This lowers drawdowns and improves return per unit of risk.\n\nWhy not the others:\nA – Adding markets does not necessarily raise absolute returns.\nB – More trades may result, but that is a side effect, not the purpose.\nD – Diversification usually adds trades, and with them more commissions, so it does not lower total costs.\n\nRemember: Diversify to smooth the ride, not to boost raw return."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Liquidity and slippage"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Returns and drawdowns.\n\nWhy: A sweet-spot analysis tests the same model across settings (such as bar intervals) to find the one with the best balance of reward and risk. The usual measure is return compared with drawdown, often the Calmar ratio. The best setting is not always the one with the highest return.\n\nWhy not the others:\nB – Win rate and frequency are secondary, not the main balance.\nC – Entry and exit timing are tested separately in entry/exit tests.\nD – Liquidity and slippage matter, but they are not the sweet-spot focus.\n\nRemember: Sweet spot = best return for the drawdown."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Re-optimize on all the data and retest"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Discard the strategy and move on.\n\nWhy: Walk forward analysis tests the system on data it has not seen. If it fails here, the earlier good results were probably due to curve fitting. Changing goals or adding leverage only hides the problem. The disciplined choice is to drop the idea.\n\nWhy not the others:\nA – Loosening objectives lowers standards to fit a weak result.\nB – More leverage magnifies a failed system's losses.\nD – Re-optimizing on all data invites more curve fitting.\n\nRemember: Fail walk-forward → discard and move on."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "They matter only for illiquid futures"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Their cumulative drag can erase an active system's edge.\n\nWhy: Slippage is the gap between the expected price and the actual fill price. Commissions are trading fees. Each is small per trade, but a system that trades often pays them many times. Added together, they can turn a profitable backtest into a losing live system.\n\nWhy not the others:\nB – Buy-and-hold trades rarely, so costs matter much less there.\nC – Historical prices do not include your own costs.\nD – Costs matter in all markets, not only illiquid ones.\n\nRemember: Small costs × many trades = big drag."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Is greater than 1.0"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Is greater than 1.0.\n\nWhy: Trend followers win only about 30–50% of the time. To be profitable with that many losses, their average winner must be bigger than their average loser. So the average win ÷ average loss ratio is above 1.0.\n\nWhy not the others:\nA – A ratio of 1.0 with a sub-50% win rate would lose money.\nB – Trend followers do not have high win rates to offset small wins.\nC – The ratio always matters for profitability, whatever the win rate.\n\nRemember: Trend following: small losses, big wins."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Is less than 1.0"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Is less than 1.0.\n\nWhy: Mean reversion models win often, taking quick profits as price snaps back. But when price keeps moving away, losses can be larger. So the average winner is usually smaller than the average loser, a ratio below 1.0, offset by a high win rate.\n\nWhy not the others:\nA – A ratio above 1.0 is typical of trend following.\nB – Mean reversion wins are usually smaller than losses, not equal.\nC – Mean reversion has a high, not low, win rate.\n\nRemember: Mean reversion: many small wins, fewer bigger losses."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "It is the key input for deciding position size and allowable leverage"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It is the key input for deciding position size and allowable leverage.\n\nWhy: Historical maximum drawdown shows the worst equity loss seen in testing. By comparing it with how much drawdown you can tolerate, you set leverage: max leverage = target drawdown ÷ tested drawdown. It therefore drives how big your positions can be.\n\nWhy not the others:\nA – Trade frequency comes from the rules, not the drawdown.\nB – Stop distance is set per trade, not by the overall drawdown.\nC – Profit targets are rule settings, not sizing inputs.\n\nRemember: Drawdown drives sizing."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Scale complexity with the number of years tested"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Keep it simple enough to explain in plain English.\n\nWhy: Simple entry rules have fewer parameters, so they are less likely to be over-fitted to past data. If you can explain the rule clearly in a sentence, it probably captures a real behaviour, not a chance pattern. Simplicity also makes the system easier to trust and follow.\n\nWhy not the others:\nB – Adding parameters until results stop improving is a path to curve fitting.\nC – One parameter per regime adds complexity and overfitting risk.\nD – Complexity should not grow just because more data is tested.\n\nRemember: Simple rules travel better to new data."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "Greater overfitting risk with little predictive value"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Greater overfitting risk with little predictive value.\n\nWhy: Each parameter gives the system another way to bend to past data. With many parameters, it can fit random noise almost perfectly. The result looks excellent historically but has little ability to predict future prices. A good rule of thumb is to use as few parameters as the idea really needs.\n\nWhy not the others:\nA – More parameters do not necessarily produce more signals.\nB – Execution speed is not the main concern.\nC – Trade count may change, but the key danger is overfitting.\n\nRemember: More parameters, more overfitting."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "Revised after each losing month"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Measurable and specific.\n\nWhy: Objectives should be precise enough to test, such as a target return range and a maximum drawdown. Specific numbers let you judge clearly whether a system passes. Vague goals let weak systems slip through. Writing them down before testing also stops you from moving the goalposts later.\n\nWhy not the others:\nB – Broad goals cannot be checked against results.\nC – Comparing to others' results is not specific to your needs.\nD – Changing objectives after losses invites bias.\n\nRemember: Objectives: specific numbers you can measure."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "They rarely raise returns but may improve risk-adjusted returns"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They rarely raise returns but may improve risk-adjusted returns.\n\nWhy: A profit target closes a winning trade at a set level. This often cuts off the occasional big winner, so total returns rarely rise. But it can smooth the equity curve and lower volatility, which may improve return per unit of risk.\n\nWhy not the others:\nA – Banking gains early usually caps big winners, so absolute returns seldom rise.\nB – Targets can be useful, so avoiding them entirely is too strict.\nC – Stop-losses are the main tool for limiting losses, not targets.\n\nRemember: Targets smooth the ride but cap big wins."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "Lower the number of trades taken per year"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Trade correlated assets with different strategies or time frames.\n\nWhy: Diversification does not only come from trading different markets. Using different strategies (such as trend and mean reversion) or different time frames on the same or similar markets can also give returns that do not move together. That still smooths the overall equity curve.\n\nWhy not the others:\nB – Increasing size in one market concentrates risk.\nC – Concentrating in one market is the opposite of diversification.\nD – Fewer trades do not create diversification.\n\nRemember: Diversify by strategy or time frame too."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "3.0x"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 2.5x.\n\nWhy: Maximum leverage = target drawdown ÷ tested drawdown = 20% ÷ 8% = 2.5. At 2.5x, expected worst drawdown is about 8% × 2.5 = 20%, matching the limit. Using more than 2.5x would push the expected worst loss past what the trader decided to accept.\n\nWhy not the others:\nA – 1.5x would give about 12% drawdown, under-using the risk budget.\nB – 2.0x gives about 16%, still below the 20% limit.\nD – 3.0x gives about 24%, above the 20% target.\n\nRemember: Target ÷ tested drawdown = max leverage."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "Total profit minus total loss"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Gross profit divided by gross loss.\n\nWhy: Profit factor adds up all winning trades (gross profit) and divides by the total of all losing trades (gross loss). A value above 1.0 means the system made more than it lost. For example, gross profit of $30,000 and gross loss of $10,000 gives 3.0.\n\nWhy not the others:\nB – Net profit per trade is the average trade, not profit factor.\nC – Average win ÷ average loss is the win/loss ratio.\nD – Profit minus loss is net profit, not a ratio.\n\nRemember: Profit factor = gross profit ÷ gross loss."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Results improve only in walk-forward testing"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Results become more realistic and often decline.\n\nWhy: Each stage removes some of the hindsight in earlier tests. Backtests use data the rules were built on, out-of-sample uses unseen data, walk-forward repeats that, and real-time uses live data. Each step is more realistic, so results usually drop. A system that still meets its goals at the end of this chain is far more trustworthy.\n\nWhy not the others:\nA – More realistic tests usually lower results.\nC – Results rarely stay the same as tests get tougher.\nD – Walk-forward usually lowers, not raises, results.\n\nRemember: Tougher tests, more realistic, lower results."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "To evaluate where stop-loss levels belong"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To isolate how well the entry signals work.\n\nWhy: If every trade exits after a fixed number of bars (say 5–10), the exit has no 'skill' built in. Any edge left must come from the entry rule. This shows whether the entry signals are genuinely useful. It is the mirror image of random-entry testing, which isolates the exits instead.\n\nWhy not the others:\nA – The goal is not to increase trade count.\nB – Computing time is not the aim.\nD – Stop-loss placement is tested separately.\n\nRemember: Fixed-bar exits test the entries."
   }
 ]

@@ -9,7 +9,8 @@
       "To pick which single stock will lead the next rally"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. To understand how the market is reaching its levels and assess trend health\n\nWhy: An index chart only tells you where the market is. Market internals (breadth, volume and leadership data) tell you how it got there: are most stocks taking part, or are a few heavyweights doing the lifting? A trend supported by broad participation is healthier and more likely to last than one carried by a handful of names. Internals are therefore a check on the quality of the trend you see on the price chart.\n\nWhy not the others:\nB – Internals describe the health of a move; they do not produce precise price targets.\nC – Breadth data supplements price analysis; it is never meant to replace the price chart.\nD – Internals summarise the whole market, so they are not a tool for picking one future leader.\n\nRemember: Price shows where the market is; internals show how healthy the trip there was."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "The ratio of new highs to new lows"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A cumulative sum of each day's advancing issues minus declining issues\n\nWhy: Each day you take the number of stocks that rose (advancers) and subtract the number that fell (decliners). That daily figure is called net advances. You then add it to the previous day's total, so the line keeps a running score. For example, if yesterday's ADL was 5,000 and today 1,800 stocks rose and 1,200 fell, today's ADL = 5,000 + (1,800 − 1,200) = 5,600. The absolute level is meaningless; its direction and its agreement with price are what matter.\n\nWhy not the others:\nB – Advancers divided by total issues is a percentage-of-advancers measure for one day, not a cumulative line.\nC – Up volume minus down volume is a volume indicator, not the advance-decline line.\nD – The ratio of new highs to new lows is a leadership measure, a different data set entirely.\n\nRemember: The ADL is a running total of (advancers − decliners), day after day."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "It leads at bottoms but tends to lag at major tops"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. It often lags behind popular indexes at bottoms but helps identify tops\n\nWhy: At major tops, the average stock usually starts to weaken before the big-cap weighted indexes do, so the ADL tends to stop rising and diverge from price. That makes it a useful warning tool near tops. At bottoms, the picture is different: the ADL often keeps falling or bases slowly, so it frequently turns up after the index has already turned. In short, its warning value is strongest at peaks.\n\nWhy not the others:\nA – The ADL does not reliably lead at both turns; its record at bottoms is weaker.\nB – Saying it lags at both ignores its well-known value in flagging tops early through divergence.\nD – This reverses the actual pattern: it is more helpful at tops and tends to lag at bottoms.\n\nRemember: The ADL is a good top-spotter but a slow bottom-spotter."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Volume in the index's largest constituents only"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Up volume or net volume, because bulls are driving the trend\n\nWhy: In an uptrend, buyers are the force pushing prices higher. Up volume is the volume traded in stocks that rose, and net volume is up volume minus down volume. If the index makes new highs while up volume or net volume makes lower highs, the buying pressure behind the trend is fading, which is an early warning. Watching the side of the market that drives the trend tells you whether that driver is getting tired.\n\nWhy not the others:\nA – Down volume matters more when diagnosing downtrends; in an uptrend the key question is whether buying is drying up.\nB – Total volume mixes buying and selling, so it hides which side is weakening.\nD – Looking only at the largest stocks defeats the purpose of measuring broad market pressure.\n\nRemember: Watch the volume of the side driving the trend: up volume in uptrends."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Total exchange volume, without regard to direction"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A short-term oscillator such as the slow stochastic turning up from oversold\n\nWhy: The advance-decline line holding above its prior low while price nears its correction low is a positive sign: the broad market is not confirming fresh weakness. That tells you conditions are supportive, but not exactly when to act. A short-term oscillator, such as a stochastic, measures short-term momentum; when it turns up from its oversold zone, it signals that selling pressure is easing right now. The ADL gives the \"what,\" the oscillator refines the \"when.\"\n\nWhy not the others:\nA – A 200-week average is a very slow, long-term tool and is useless for short-term entry timing.\nC – Dividend yield versus bond yields is a valuation comparison, not a timing trigger.\nD – Total volume without direction cannot tell you whether buyers or sellers are taking control.\n\nRemember: Use breadth for the health check and a short-term oscillator for the timing."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Raw volume lags price by several sessions"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Daily readings are noisy; smoothing exposes the underlying trend\n\nWhy: Daily up and down volume jumps around a lot because of news, option expiration, holidays and other one-off events. A single day can look extreme without meaning much. A moving average averages several days together, which irons out those random spikes so the real direction of buying or selling pressure becomes visible. Divergences against price are also far easier to see on a smooth line than on jagged daily bars.\n\nWhy not the others:\nA – A moving average keeps the same units as the raw data; it does not turn volume into price.\nC – Raw daily volume can be plotted under an index chart without any problem.\nD – Smoothing actually adds a little lag; it is not used to fix lag.\n\nRemember: Smooth noisy volume data so the trend, not the noise, does the talking."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Divergences in total volume, since direction matters less near bottoms"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Divergences in down volume\n\nWhy: In a downtrend, sellers are the force pushing prices lower. Down volume is the volume in stocks that fell. If the index makes a new low but down volume is smaller than at the previous low, sellers are losing energy. That positive divergence is an early clue that the decline may be close to exhausting itself. It is the mirror image of watching up volume in an uptrend.\n\nWhy not the others:\nA – Up volume divergences are the key watch item in uptrends, where buyers drive the move.\nC – Net volume can help, but the question asks which component matters most for bottoms: down volume.\nD – Direction matters a great deal; total volume blends buyers and sellers and hides the seller fatigue you are looking for.\n\nRemember: In a downtrend, watch whether sellers (down volume) are running out of steam."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "The 10-day SMA of the absolute value of (advancers - decliners)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The 10-day SMA of the absolute value of (advancers - decliners)\n\nWhy: Each day you compute advancers minus decliners, then take the absolute value, which simply drops the minus sign. So a day with 400 more decliners than advancers counts the same as a day with 400 more advancers. You then average those numbers over 10 days with a simple moving average (SMA). The indicator measures how lopsided the market is, not which direction it is leaning.\n\nWhy not the others:\nA – Without the absolute value, up and down days would cancel out, which defeats the indicator's purpose.\nB – No ratio is squared in this calculation.\nC – A cumulative sum describes the advance-decline line, not this indicator.\n\nRemember: Absolute Breadth = average size of the daily breadth imbalance, ignoring direction."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "High readings are bullish only when advancers dominate"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Lopsided sessions are constructive whichever side dominates\n\nWhy: The idea is that conviction matters more than direction. Very one-sided days, whether huge advances or heavy washout declines, show that investors are acting decisively. A broad washout often clears out sellers and sets up a bottom, while a broad advance shows strong demand. Balanced, indecisive days, where half the stocks rise and half fall, are seen as less constructive. That is why the indicator ignores the sign and focuses on size.\n\nWhy not the others:\nA – This is backwards: high readings are considered bullish and low readings bearish.\nC – The absolute value means there are no negative readings to ignore; every reading counts.\nD – High readings are treated as bullish regardless of which side dominated.\n\nRemember: One-sided markets show conviction; split markets show indecision."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "A market ready to make a significant upward breakout"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. An indecisive market where roughly half the stocks are up and half are down\n\nWhy: A split tape means advancers and decliners are about equal, so the market has no clear direction. The \"tape\" is old slang for the stream of trade prices. When the tape is split, buyers and sellers are evenly matched and neither side is in control. On the Absolute Breadth Index, this shows up as low readings because the daily difference between advancers and decliners is small.\n\nWhy not the others:\nA – Strong bullish momentum would show many more advancers than decliners, not an even split.\nC – Thin volume is a separate idea; a split tape is about the balance of advancing and declining issues.\nD – A split tape signals indecision, not an imminent upside breakout.\n\nRemember: Split tape = half up, half down = no one in control."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "An optimal buying opportunity"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A bearish condition indicating indecision or a split tape\n\nWhy: The Absolute Breadth Index measures how big the gap is between advancers and decliners, ignoring direction. Low readings mean the gap is small day after day: roughly as many stocks fall as rise. That is a split, indecisive tape. Under the principle that one-sided markets show conviction, a lack of one-sidedness is read as a bearish or at least unconstructive condition.\n\nWhy not the others:\nB – A strong trend usually produces lopsided days, which give high readings, not low ones.\nC – Clear conviction is shown by high readings, the opposite of this case.\nD – Low readings are not treated as a buy signal; high readings are the constructive ones.\n\nRemember: Low Absolute Breadth readings mean a split, indecisive tape."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "5:1"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. 4:1\n\nWhy: An 80% day means 80% of the stocks (or volume) moved in one direction and 20% in the other. Convert that to a ratio by dividing the two parts: 80 ÷ 20 = 4, so the ratio is 4:1. By the same logic, a 90% day is 90 ÷ 10 = 9:1. These ratios are a quick way to describe how one-sided a session was.\n\nWhy not the others:\nA – 2:1 means about 67% versus 33% (2 ÷ 3 ≈ 67%), far less lopsided.\nB – 3:1 equals 75% versus 25%, not 80%.\nD – 5:1 equals about 83% versus 17%, slightly more than 80%.\n\nRemember: Percentage day to ratio: divide the big share by the small share (80/20 = 4:1)."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "They usually precede a prolonged sideways range"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They reflect capitulation or euphoria, often near turning points\n\nWhy: An 80% or 90% day is a session where almost all stocks or volume move the same way. Such extremes happen when emotions run high: panic selling (capitulation, when sellers give up) or rush-to-buy enthusiasm (euphoria). Those emotional extremes often occur close to important turning points, especially at the start of new moves after a washout. They are clues, not precise timing signals.\n\nWhy not the others:\nA – They often appear near turning points but do not pinpoint the exact end of a trend.\nB – Strong up days are frequently seen at the start of rallies near bottoms, not mainly at tops.\nD – They signal intense activity, the opposite of a quiet sideways range.\n\nRemember: 80% and 90% days are emotional extremes that often cluster near turns."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "That the 200-day moving average is no longer a relevant indicator"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A warning sign that few large-cap stocks are carrying the index while most struggle\n\nWhy: The S&P 500 is weighted by market value, so a few very large companies can push it to new highs on their own. If only 40% of its members are above their 200-day moving averages, most stocks are in weak long-term shape. That is narrow participation: the index looks strong, but the average stock does not. Narrow rallies are more fragile because they depend on a small group of leaders.\n\nWhy not the others:\nA – A healthy broad rally would show a large majority of stocks above their 200-day averages.\nC – Weak participation argues for caution, not for adding long exposure.\nD – The 200-day average remains a standard long-term trend gauge; a weak reading is information, not a failure of the tool.\n\nRemember: New index highs with weak participation mean a few generals and no army."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "It cannot indicate participation"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. About 75%\n\nWhy: This indicator counts what share of stocks are trading above their own 200-day moving average, a common long-term trend line. In a healthy primary (major) uptrend, most stocks are in their own uptrends, so the reading is high. Around 75% means three out of four stocks are participating, which is broad support for the rally. Low readings would mean the advance rests on few stocks.\n\nWhy not the others:\nB – About 20% means most stocks are in long-term downtrends, which fits a bear market.\nC – About 35% shows a minority participating, a sign of narrow or weak markets.\nD – Measuring participation is exactly what this indicator is designed to do.\n\nRemember: Healthy bull markets have most stocks, roughly three in four, above their 200-day lines."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "200-day moving average"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 50-day moving average\n\nWhy: Different moving average lengths match different time horizons. Short averages like 20 days reflect short-term swings. The 50-day average captures moves lasting several weeks to a few months, which is what \"intermediate-term\" means. The 200-day average reflects the long-term or primary trend. So for an intermediate view of participation, the percentage of stocks above their 50-day average is the usual choice.\n\nWhy not the others:\nA – A 20-day average reflects short-term moves and is too sensitive for intermediate analysis.\nC – A 100-day average is not the standard choice for this indicator; it sits between the common settings.\nD – The 200-day average is the standard for long-term analysis.\n\nRemember: 20-day = short term, 50-day = intermediate, 200-day = long term."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "New highs and new lows as a percentage of issues traded"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A cumulative running total, like an advance-decline line\n\nWhy: New 52-week highs and lows are counts of stocks hitting yearly extremes. They are useful when viewed day by day, as a net figure (highs minus lows), or as a percentage of issues, because those show the current balance of leadership. Adding them up into a running total does not work well, because the data spikes and swings unevenly and the cumulative line drifts in a way that hides the current state of leadership. That makes the cumulative version the least helpful form.\n\nWhy not the others:\nA – Raw daily counts are a standard way to see leadership at a glance.\nB – Net new highs is a widely used, useful summary of leadership.\nD – Expressing them as a percentage adjusts for changes in the number of listed issues, which improves comparability.\n\nRemember: Highs and lows are read as current counts, nets or percentages, not as a running total."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "That the rally will accelerate further"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A classic negative divergence often preceding corrections\n\nWhy: A new 52-week high in a stock is a sign of leadership. If the index climbs to a new high but fewer stocks are hitting new highs than at the previous peak, leadership is shrinking. The index is being lifted by fewer and fewer names. That disagreement between price and internals is called a negative divergence, and it often appears before corrections or tops.\n\nWhy not the others:\nB – Confirmation would require more, or at least as many, stocks making new highs.\nC – Narrowing leadership is a warning, not a bullish rotation signal.\nD – A shrinking group of leaders usually means the rally is tiring, not accelerating.\n\nRemember: Higher index highs with fewer stocks at new highs is a classic warning."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "10-day MA of new highs divided by 10-day MA of new lows"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 10-day MA of new highs divided by the sum of (new highs + new lows)\n\nWhy: The indicator asks: of all the stocks reaching a yearly extreme, what share are reaching highs rather than lows? You smooth the new highs and the new lows each with a 10-day moving average, then divide the smoothed highs by the smoothed highs plus lows. For example, if the 10-day averages are 60 highs and 20 lows, the reading is 60 ÷ (60 + 20) = 75%. The result always lies between 0% and 100%.\n\nWhy not the others:\nA – Dividing by total issues traded is a different \"percentage of issues\" measure.\nC – Subtracting lows from highs gives a net new highs figure, not a percentage.\nD – Dividing highs by lows gives a ratio that is unbounded, not a 0–100% reading.\n\nRemember: Appel's indicator = highs ÷ (highs + lows), both smoothed over 10 days."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "When it breaks below 70% from above"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. When it breaks below 70% from above\n\nWhy: The indicator shows what share of stocks hitting yearly extremes are hitting highs. Above 70% means leadership is strongly on the upside. When the reading falls back below 70% after being above it, the share of new highs is shrinking relative to new lows. That loss of upside leadership is the signal that a rally is losing strength.\n\nWhy not the others:\nA – A rise above 50% shows improving leadership, not weakening.\nB – A reading above 80% reflects very strong leadership, not a weakening rally.\nC – The 30% level is the buy-side threshold used near bottoms, not the rally-weakening signal.\n\nRemember: Appel's new-high percentage: drop below 70% = rally tiring; rise above 30% = bottom forming."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "When it reaches 10% or lower"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. When it moves back above 30% from below\n\nWhy: During declines, most stocks hitting yearly extremes are hitting lows, so the reading sinks toward the low end of its 0–100% range. When it climbs back above 30% from below, the share of new highs is recovering and selling pressure in the leadership data is easing. That recovery from a depressed level is treated as a sign of a good buying opportunity near bottoms.\n\nWhy not the others:\nA – Moving above 70% from below is a strong-market reading, not the bottom-buying signal.\nB – Crossing below 50% shows deterioration, not a bottom.\nD – A reading of 10% or lower shows the market is still weak; the signal comes when it recovers, not while it is sinking.\n\nRemember: Buy signals come when the indicator recovers above 30%, not while it is falling."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "International market data"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Exchange-level data like NYSE or Nasdaq\n\nWhy: The indicator relies on counts of stocks making new 52-week highs and lows. Those counts are meaningful when there are many stocks in the group, as on a whole exchange with thousands of listings. With a small group, such as one sector, the counts are tiny and jump around, so percentages become erratic. Broad exchange data gives stable, statistically meaningful readings.\n\nWhy not the others:\nA – Individual sectors have too few stocks to produce reliable new-high and new-low counts.\nB – Limiting the data to small caps narrows the universe without any added benefit.\nD – Nothing makes international data the best fit; the key need is a large, broad universe.\n\nRemember: Breadth and leadership counts work best on large universes like whole exchanges."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Combining multiple indicators for confirmation and timing"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Combining multiple indicators for confirmation and timing\n\nWhy: Each breadth or leadership indicator has blind spots and gives false signals at times. When several independent measures, such as the advance-decline line, new highs and lows, and volume, point the same way, the message is more trustworthy. Some tools are better at judging health while others are better for timing, so using them together gives both confirmation and better entry or exit points.\n\nWhy not the others:\nA – Relying on the single loudest signal ignores conflicting evidence and raises the risk of a false signal.\nB – The ADL alone has known weaknesses, such as lagging at bottoms.\nC – Leadership indicators alone miss information carried by breadth and volume.\n\nRemember: Breadth works best as a team: look for several indicators agreeing."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "A neutral reading with no significance"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A negative divergence warning that buying pressure is fading\n\nWhy: Net up-volume is up volume minus down volume; a 13-day average smooths it. If the index keeps making higher peaks but the smoothed net up-volume makes lower peaks each time, less and less buying power is behind each new high. Price and the indicator disagree, which is a negative divergence. Three falling peaks against three rising price peaks is a strong warning that the uptrend is running out of fuel.\n\nWhy not the others:\nA – Confirmation would require the volume measure to make higher peaks along with price.\nC – A positive divergence happens at lows, when price falls but the indicator does not; this is the opposite.\nD – Repeated disagreement between price and volume is significant, not neutral.\n\nRemember: Rising price peaks with falling volume peaks means buyers are tiring."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Single-day data cannot be plotted on a weekly chart"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. To capture the full week's market activity and avoid distorted readings\n\nWhy: A weekly chart should summarise all five sessions. If you use only Friday's breadth figure, one day stands in for the whole week, and an unusual Friday can give a false picture. Proper aggregation means adding up each day's advancers, decliners or volumes across the week (or using weekly price changes), so the weekly bar reflects what really happened over the full period.\n\nWhy not the others:\nB – Friday's volume level is not the reason; the issue is that one day cannot represent five.\nC – Weekly breadth can be shown as counts or percentages; the format is not the point.\nD – Single-day data can be plotted on any chart; plotting is not the problem.\n\nRemember: A weekly reading should reflect the whole week, not just Friday."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Neither; the pace depends only on the index's volatility level"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Markets top slowly and bottom quickly\n\nWhy: Tops usually form through a gradual process. Optimism fades slowly, leadership narrows and the market can drift sideways for months as fewer stocks participate. That slow rolling over is why breadth divergences often show up before tops. Bottoms tend to be sharp, because fear spreads quickly and selling becomes panicky, then reverses fast. This difference in pace is why tools like the ADL warn well at tops but are less helpful at bottoms.\n\nWhy not the others:\nB – This reverses the typical pattern: tops are drawn out, bottoms are abrupt.\nC – Tops and bottoms are usually driven by different emotions and form at different speeds.\nD – Volatility plays a part, but the general tendency (slow tops, fast bottoms) holds across markets.\n\nRemember: Greed fades slowly, fear strikes fast: slow tops, quick bottoms."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "One-sided market activity often marking the beginning of significant moves"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. One-sided market activity often marking the beginning of significant moves\n\nWhy: An advance-decline ratio of 5:1 means five stocks rose for every one that fell; 10:1 is even more extreme. Such days show broad, decisive buying across almost the whole market. When this kind of intense participation appears, especially after a decline, it often signals that a powerful new advance is starting. These are thrust-type readings, which tend to occur near the start of strong moves rather than near their end.\n\nWhy not the others:\nA – Equilibrium would be a ratio near 1:1, not 5:1 or 10:1.\nB – Ratios this extreme describe major market-wide events, not minor fluctuations.\nC – Strong breadth readings often mark the start of a move rather than an overbought condition that reverses at once.\n\nRemember: Extreme one-sided breadth often lights the fuse of a big move."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "They show conviction, whether from broad advances or washout declines"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They show conviction, whether from broad advances or washout declines\n\nWhy: The Absolute Breadth Index ignores direction, so a high reading can come from either strong up days or strong down days. Either way, investors are acting decisively. Broad advances show eager buying, while broad declines can be washouts that flush out sellers and set up a bottom. Both are seen as more constructive than a split, indecisive market, which is why high readings are treated as bullish.\n\nWhy not the others:\nA – High readings do not require that only advancers exist; big declining days count too.\nB – The indicator uses issue counts, not volume, so its readings are not about volume.\nC – High readings happen in many conditions; the reasoning is about conviction, not about when they occur.\n\nRemember: High Absolute Breadth = decisive action, in either direction."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "The number of market makers providing liquidity"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. How many stocks are contributing to the index movement\n\nWhy: Participation describes how widely a market move is shared. If an index rises and most of its stocks rise too, participation is broad and the move is healthy. If only a few large stocks are rising, participation is narrow and the move is fragile. Breadth tools, like the advance-decline line or the percentage of stocks above a moving average, are ways to measure participation.\n\nWhy not the others:\nA – Participation refers to stocks taking part in a move, not to how many retail traders are active.\nC – Average trading volume measures activity, not how many stocks join the move.\nD – Market makers supply liquidity; their number has nothing to do with breadth participation.\n\nRemember: Participation = how many stocks are joining the move."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "They are typically ignored"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They are typically ignored\n\nWhy: An 80% or 90% day compares upside against downside activity: up volume against down volume, or advancers against decliners. Unchanged issues are not on either side, so they are left out of the calculation. For example, with 1,800 advancers, 200 decliners and 100 unchanged, the upside share is 1,800 ÷ (1,800 + 200) = 90%. Leaving out unchanged issues keeps the focus on the balance between buyers and sellers.\n\nWhy not the others:\nA – Counting unchanged issues as advancers would wrongly inflate the upside share.\nB – Counting them as declining would wrongly inflate the downside share.\nC – No volume weighting of unchanged issues is used in this calculation.\n\nRemember: For 80% and 90% days, compare up against down and leave unchanged issues out."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "(Advancers + Decliners) / Total Issues"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Advancers / (Advancers + Decliners)\n\nWhy: To express breadth as a percentage, you ask what share of the stocks that moved actually moved up. The stocks that moved are advancers plus decliners, so the formula is advancers divided by that total. For example, 1,500 advancers and 500 decliners gives 1,500 ÷ (1,500 + 500) = 75%. The result always falls between 0% and 100%, which makes readings easy to compare over time.\n\nWhy not the others:\nA – Advancers ÷ decliners is the advance-decline ratio (here 3:1), not a percentage.\nC – Advancers − decliners is net advances, a raw count, not a percentage.\nD – (Advancers + decliners) ÷ total issues measures how many stocks moved at all, not which way.\n\nRemember: Percentage of advancers = advancers ÷ (advancers + decliners)."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "The ADL is simply lagging and will catch up with price"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The index keeps grinding higher while fewer stocks participate, suggesting weakness\n\nWhy: A negative divergence at a top means price makes a new high but the advance-decline line does not. The index is still rising, often because a few large stocks are lifting it, while the typical stock has stopped advancing. This narrowing of participation shows that the rally's foundation is weakening and often comes before a top.\n\nWhy not the others:\nB – A divergence warns of weakness; it does not predict acceleration.\nC – Adding to longs ignores the warning that participation is shrinking.\nD – Assuming the ADL will simply \"catch up\" dismisses one of the most useful warning signals breadth provides.\n\nRemember: Index up, ADL not: the army is quietly retreating."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "(Advancers - Decliners) / Total Issues"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. (Advancers - Decliners) / Total Issues\n\nWhy: Net breadth is advancers minus decliners. To express it as a percentage, divide by the total number of issues traded so readings are comparable even if the number of listed stocks changes. For example, with 1,600 advancers, 1,000 decliners and 3,000 total issues: (1,600 − 1,000) ÷ 3,000 = 20%. A positive result means more stocks rose than fell.\n\nWhy not the others:\nA – Advancers ÷ total issues gives the share of stocks that rose, not the net figure.\nB – Decliners ÷ total issues gives the share that fell, not the net figure.\nC – (Advancers + decliners) ÷ total issues measures how many stocks moved at all, ignoring direction.\n\nRemember: Net breadth percent = (advancers − decliners) ÷ total issues."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "It provides objective price targets"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It often marks tops and bottoms with pinpoint accuracy using daily or weekly data\n\nWhy: Leadership data, meaning counts of new 52-week highs and lows, reacts quickly to changes beneath the surface. When the market's leaders start to fade, new highs shrink before the index itself turns. Divergences between price and new highs or lows therefore tend to give timely warnings, and on daily or weekly charts they often line up closely with actual turning points.\n\nWhy not the others:\nB – Divergences in leadership data work on daily as well as weekly charts.\nC – No indicator removes the need for confirmation from other tools.\nD – Divergences warn about turns; they do not give objective price targets.\n\nRemember: Leadership divergences give some of the sharpest warnings of tops and bottoms."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Irrelevant unless new highs exceed new lows"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Bearish — an indecisive, split tape\n\nWhy: A breadth indicator like the Absolute Breadth Index sits near its lowest readings when each day's advancers and decliners are about equal. That is a split tape: no side has control. The principle that \"one-sided markets are bullish\" treats decisive, lopsided sessions as constructive and balanced, indecisive sessions as unconstructive. Two weeks of such balance therefore reads as a bearish condition.\n\nWhy not the others:\nA – Under this principle, balance is read as indecision, not as healthy stability.\nB – Rising volume does not change the reading; the indicator is about the balance of issues.\nD – New highs and lows are a separate leadership measure and are not a condition for this reading.\n\nRemember: Balanced breadth = split tape = bearish under the one-sided principle."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Capitulation or euphoria"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Capitulation or euphoria\n\nWhy: On an 80% or 90% day, nearly all stocks or volume move together. Calm, careful trading does not produce that kind of uniformity; strong emotion does. A heavy down day often reflects capitulation, when frightened holders give up and sell at any price. A heavy up day often reflects euphoria or urgent buying. These emotional extremes are why such days often appear near turning points.\n\nWhy not the others:\nA – Careful deliberation produces mixed, balanced sessions, not extreme ones.\nB – Equilibrium would mean roughly equal up and down activity, the opposite of these days.\nC – Rational profit-taking is usually gradual and does not drive almost every stock in one direction.\n\nRemember: 80% and 90% days are the market's emotional extremes: panic or euphoria."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Oscillators filter out the false signals the ADL produces"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The ADL supplies the underlying health assessment while the oscillator sharpens timing\n\nWhy: The advance-decline line is a slow, cumulative measure. It is good at showing whether the broad market supports the trend, but it does not tell you the best moment to act. A short-term oscillator, such as a stochastic, tracks short-term momentum and turns quickly, so it can flag good entry or exit points. Together, the ADL answers \"is the market healthy?\" and the oscillator answers \"is now a good time?\"\n\nWhy not the others:\nB – No oscillator replaces watching the index itself.\nC – The ADL is commonly plotted on daily data.\nD – An oscillator does not filter out ADL false signals; it adds timing information.\n\nRemember: ADL for health, oscillator for timing."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "It removes the need to compare volume with the index"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Daily readings are noisy; smoothing reveals trends and divergences\n\nWhy: Daily net up/down volume, which is up volume minus down volume, swings sharply from day to day. A short exponential moving average (EMA), which weights recent days more heavily, smooths those swings while staying fairly responsive. On the smoothed line, the underlying trend in buying or selling pressure, and any divergences from price, become easy to see.\n\nWhy not the others:\nA – Exchanges publish daily volume figures; analysts smooth the data themselves.\nB – An average keeps the same units as the data; it does not convert volume into price.\nD – The whole point is to compare the smoothed volume with the index, not to stop doing so.\n\nRemember: Smooth daily volume with a short EMA so divergences stand out."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "75% above 200-day MA with index at new highs"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 75% above 200-day MA with index at new highs\n\nWhy: The healthiest condition is one where the index is rising and most stocks are rising with it. With the index at new highs and 75% of stocks above their 200-day moving averages, the long-term uptrend is broad-based. Price and participation agree, which is confirmation. The other choices all show some mismatch between the index and its members.\n\nWhy not the others:\nA – New highs with only 30% of stocks above their 200-day line is narrow, fragile leadership.\nB – A falling index with only half the stocks above their 50-day line is middling at best.\nC – A 90% short-term reading with a flat index may just mean a short-term overbought burst, not a healthy primary trend.\n\nRemember: The healthiest market: index at highs, and most stocks above their long-term averages."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Down volume matters only once a downtrend is confirmed"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Bulls drive the uptrend, so fading up volume shows their exhaustion\n\nWhy: In an uptrend, buyers are the engine. Up volume measures how much trading happens in rising stocks, which reflects buying pressure. If prices keep rising while up volume weakens, the engine is losing power, even if the trend has not yet broken. That is why up volume divergences are the key warning in uptrends. Down volume becomes the key measure in downtrends, where sellers are the engine.\n\nWhy not the others:\nB – Down volume is not unreliable; it simply answers a different question.\nC – The reason is about which side drives the trend, not about which series is more volatile.\nD – Down volume is useful for spotting bottoms during a downtrend, not only after one is confirmed.\n\nRemember: Watch the engine of the trend: up volume in rallies, down volume in declines."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "The average over a period"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Advancing minus declining (or up minus down)\n\nWhy: \"Net\" means the difference between the two sides. Net breadth is advancing issues minus declining issues, and net volume is up volume minus down volume. For example, 1,700 advancers and 1,100 decliners give net breadth of 1,700 − 1,100 = 600. A positive figure means the upside dominated; a negative figure means the downside did.\n\nWhy not the others:\nA – Trading costs have nothing to do with breadth calculations.\nB – Stock splits affect share counts, not the net breadth or net volume concept.\nD – An average over a period is smoothing, not netting.\n\nRemember: Net = up side minus down side."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Extreme one-sided buying that may mark the beginning of a significant move"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Extreme one-sided buying that may mark the beginning of a significant move\n\nWhy: A 10:1 advance-decline ratio means ten stocks rose for every one that fell, an extremely broad advance. When this happens as the market makes new highs, it shows strong, widespread demand behind the breakout. Such intense, one-sided buying tends to be seen near the start of significant advances rather than at their end, because it signals that investors across the market are committing at the same time.\n\nWhy not the others:\nA – Extreme breadth on an up day is not, by itself, a reversal signal.\nB – Very strong breadth tends to precede further gains, not quick reversals.\nC – Blow-off tops usually show narrowing participation, not a broad 10:1 advance.\n\nRemember: A 10:1 day with new highs is a show of broad strength, not exhaustion."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "200-day moving average"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. 200-day moving average\n\nWhy: The 200-day moving average covers roughly ten months of trading and is the standard gauge of a stock's long-term or primary trend. The percentage of stocks above their 200-day averages therefore shows how broadly the long-term uptrend is shared. Shorter averages describe shorter time frames: the 20-day for short term and the 50-day for intermediate term.\n\nWhy not the others:\nA – The 20-day average reflects short-term swings.\nB – The 50-day average is the standard intermediate-term choice.\nC – A 100-day average is not the usual setting for long-term participation.\n\nRemember: For long-term participation, use the 200-day line."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "They work only in trending markets"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. They provide earlier warnings and often mark tops and bottoms with precision\n\nWhy: Leadership indicators track how many stocks are making new 52-week highs or lows. Leaders tend to lose momentum before the broad index rolls over, so new highs often shrink well before price peaks. Likewise, new lows often stop expanding before price bottoms. That early, sensitive behaviour makes leadership data especially useful for spotting divergences that line up closely with turning points.\n\nWhy not the others:\nB – Ease of calculation is not what makes them good for divergence analysis.\nC – Their advantage is early warning, not mainly freedom from large-cap weighting.\nD – They are used to warn about trend changes, so they are not limited to trending markets.\n\nRemember: Leaders weaken first, so leadership data warns early."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "Healthy rotation that confirms the index's strength"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Narrow leadership and potential weakness beneath the index's strength\n\nWhy: Only 30% of stocks being above their 50-day moving averages means most members are in short-to-intermediate downtrends. Yet the index is near its highs, which usually means a few heavily weighted stocks are holding it up. That mismatch is narrow leadership. It does not guarantee a decline, but it shows the rally lacks broad support, which calls for caution.\n\nWhy not the others:\nA – An extremely healthy market would show a large majority of stocks above their averages.\nC – Weak participation is a warning sign, not a buy signal.\nD – Healthy rotation still keeps a fair share of stocks in uptrends; 30% points to deterioration.\n\nRemember: Index near highs with few stocks above their averages = narrow, fragile leadership."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "Raw data is cumulative; net data is a single day's reading"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Raw data is unadjusted; net data shows the difference (advancers minus decliners)\n\nWhy: Raw data means the plain counts as reported: for example, 1,900 advancers and 1,100 decliners. Net data combines the two into one figure by subtracting: 1,900 − 1,100 = 800. Raw data lets you see each side on its own, while net data gives a single summary of which side won and by how much. Both can be used daily, weekly or in smoothed form.\n\nWhy not the others:\nA – Both raw and net data can be daily or weekly; time frame is not the distinction.\nC – The distinction is not about including unchanged issues.\nD – Cumulative versus single-day is a separate choice; either raw or net data can be cumulated.\n\nRemember: Raw = each side's count; net = the difference between them."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "To reduce the lag inherent in the ADL itself"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. To provide confirmation of underlying strength and more precise timing\n\nWhy: The ADL tells you whether broad participation supports the trend, which is a confirmation job. It moves slowly and does not say exactly when to act. Short-term oscillators react quickly to changes in momentum and can mark good entry or exit points. Pairing them gives you both: confidence that the market's foundation is sound, and a sharper moment to act.\n\nWhy not the others:\nA – Neither tool removes the need to watch price.\nB – These tools support price analysis; they do not replace it.\nD – Adding an oscillator does not change the ADL's own lag; it adds a separate timing signal.\n\nRemember: Breadth confirms; oscillators time."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "The indicator is in neutral territory"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The rally is still strong with good leadership participation\n\nWhy: The indicator shows what share of stocks hitting yearly extremes are hitting new highs. A reading of 75% means three out of four such stocks are making highs rather than lows. Because the warning signal comes only when the indicator drops below 70% from above, a 75% reading shows that leadership is still healthy and the rally still has broad support.\n\nWhy not the others:\nA – A high reading is not treated as an overbought sell signal in this indicator.\nB – Narrowing leadership would show up as the reading falling below 70%.\nD – 75% is above the 70% threshold, so it is a strong reading, not neutral.\n\nRemember: Above 70% on Appel's new-high percentage means leadership is still strong."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Divergences between internals and price provide early warnings of potential trend changes"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Divergences between internals and price provide early warnings of potential trend changes\n\nWhy: When price and internals agree, the trend is confirmed. When price keeps going but breadth, volume or leadership stop following, the trend is losing its foundation. These divergences often appear before the price trend actually changes, so they serve as early warnings. They do not tell you exactly when the turn will come, but they alert you to watch closely and manage risk.\n\nWhy not the others:\nA – Internals do not lead price by any fixed, reliable number of days.\nB – Internals add a great deal of information that price alone cannot show.\nC – Internals are useful in short- and intermediate-term analysis too, not only for long-term investing.\n\nRemember: When internals stop agreeing with price, a trend change may be coming."
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
       "Mixed signals: strong short-term thrust but weak broad participation suggesting caution"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Mixed signals: strong short-term thrust but weak broad participation suggesting caution\n\nWhy: A 90% up day is a strong short-term thrust showing intense buying. But new highs with only 35% of stocks above their 200-day moving averages means most stocks remain in long-term downtrends. The two pieces of evidence disagree: short-term momentum is strong, while long-term participation is weak. When indicators conflict, the sensible response is caution and waiting for confirmation, rather than acting boldly in either direction.\n\nWhy not the others:\nA – The evidence is not aligned; the weak participation reading contradicts the bullish thrust.\nB – Weak participation is a reason for caution, not proof that a short position is justified.\nC – No single indicator automatically overrides a conflicting one.\n\nRemember: When short-term thrust and long-term participation disagree, step carefully."
   }
 ]

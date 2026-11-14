@@ -9,7 +9,8 @@
       "At least 3:1"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. At least 2:1.\n\nWhy: A hammer is a single candle with a small real body (the box between open and close) near the top of the day's range and a long lower shadow (the thin line showing how far price fell). The usual rule is that the lower shadow must be at least twice the height of the body. That length is what proves sellers drove price well down and buyers then pushed it most of the way back. A shorter shadow does not show a strong enough rejection of low prices.\n\nWhy not the others:\nA – A 1:1 shadow is too short; the candle would look like an ordinary small-bodied candle, not a clear rejection of lows.\nB – 1.5:1 is still below the standard threshold, so it understates how pronounced the shadow must be.\nD – 3:1 is a stronger-than-required example, not the minimum; hammers with a 2:1 shadow already qualify.\n\nRemember: A hammer's lower shadow should be at least twice its body: long tail, small head."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "The volume accompanying the pattern"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Their position within the trend context.\n\nWhy: A hammer and a hanging man look the same: small body near the top, long lower shadow, little or no upper shadow. What changes the meaning is where they appear. After a decline, the long lower shadow shows buyers rejecting lower prices, a possible bottom (hammer). After a rally, the same shape shows that sellers were able to push price sharply lower during the session, an early warning of weakness at a top (hanging man). Context, not shape, sets the message.\n\nWhy not the others:\nA – Both patterns share the same shadow requirements, so shadow length cannot tell them apart.\nB – Body color can be either white or black for both patterns; it may add nuance but is not the defining difference.\nD – Volume helps judge reliability of either pattern, but it does not decide which pattern you are looking at.\n\nRemember: Same candle, different neighbourhood: at a low it is a hammer, at a high it is a hanging man."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Selling pressure may be too weak for a lasting reversal"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Selling pressure may be too weak for a lasting reversal.\n\nWhy: A shooting star appears after a rally: a small body near the low of the range and a long upper shadow, showing buyers pushed up but sellers drove price back down. Volume tells you how many participants were behind that rejection. On low volume, only a small amount of selling did the job, so there may not be enough supply to turn the whole trend. The pattern is still a warning, but a weaker one that needs confirmation.\n\nWhy not the others:\nA – Low volume weakens, not strengthens, a reversal signal because it shows thin participation.\nB – Light volume is not clear proof that buyers have lost control; it suggests the opposite level of conviction.\nC – Patterns formed on high volume are generally more reliable than those on low volume, not less.\n\nRemember: A reversal candle on thin volume is a whisper, not a shout; wait for confirmation."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "A spinning top appears only in downtrends, a doji in uptrends"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A spinning top has a small body; a doji opens and closes at about the same price.\n\nWhy: Both candles show indecision, but they differ in the body. A spinning top has a small but visible real body, meaning open and close were somewhat apart, with shadows on both sides. A doji has virtually no body at all because the open and close are at, or almost at, the same price, so it looks like a cross or a plus sign. The doji therefore shows an even more perfect balance between buyers and sellers.\n\nWhy not the others:\nA – This reverses the definitions: it is the doji that has no body and the spinning top that has a small one.\nB – Both candles usually have shadows; a doji with no shadows would be a rare four-price doji, not the standard case.\nD – Neither candle is tied to one trend direction; both can appear in uptrends or downtrends.\n\nRemember: Spinning top = small body; doji = no body (open equals close)."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "They show that sellers have taken firm control"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. They show ongoing indecision rather than a decisive turn.\n\nWhy: A single doji after a strong move matters because it is a sudden change: a trending market suddenly stalls with buyers and sellers in balance. When several dojis appear in a row, that balance has become the normal state. The market is simply drifting without conviction, so each new doji tells you nothing new. A reversal signal needs a change in behaviour, and repeated dojis show no change at all.\n\nWhy not the others:\nA – Dojis say nothing about excessive volume; they describe the open-close relationship, and quiet markets often produce them.\nB – Repeated indecision is not evidence of a strong trend continuing; a strong trend produces large-bodied candles.\nD – Sellers in firm control would produce long bearish bodies, not candles with no body.\n\nRemember: One doji after a trend is news; a string of dojis is just a quiet market."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Opening at the high, closing at the low"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Nearly identical and near the high of the session.\n\nWhy: A dragonfly doji looks like a 'T'. The open, the close and the high are all at, or very close to, the same level at the top of the candle, and there is a long lower shadow below. During the session sellers pushed price well down, but buyers brought it all the way back to where it opened. After a decline this rejection of low prices can hint at a bottom.\n\nWhy not the others:\nA – If the open, close and high were all at different levels, the candle would have a body and an upper shadow, so it would not be a dragonfly doji.\nB – Opening and closing at the low with a high above describes the gravestone doji, the upside-down version.\nD – Opening at the high and closing at the low describes a long bearish candle, not a doji.\n\nRemember: Dragonfly = 'T' shape: open, close and high together on top, long tail below."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "It has no shadows at all"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A tall upper shadow with the open and close at or very near the session low.\n\nWhy: A gravestone doji looks like an upside-down 'T'. Price opens near the low, buyers push it up strongly during the session, then sellers drive it all the way back so it closes near the open, at the bottom of the range. The long upper shadow shows that higher prices were rejected. At the top of an uptrend this is read as a possible sign of buying exhaustion.\n\nWhy not the others:\nA – Equal upper and lower shadows describe a long-legged doji, not a gravestone.\nC – A tall lower shadow with no upper shadow is the dragonfly doji, the mirror image.\nD – A doji with no shadows is a four-price doji, where open, high, low and close are all the same.\n\nRemember: Gravestone = tombstone shape: long shadow up top, open and close buried at the low."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "It should only touch the first candle's high"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It should completely engulf the real body of the first bearish candle.\n\nWhy: A bullish engulfing pattern forms in a downtrend over two sessions. The first candle is a bearish (down) candle. The second is a bullish (up) candle whose real body opens below the first body and closes above it, so it fully covers, or 'engulfs', the earlier body. This shows buyers not only stopped the decline but overpowered all the selling of the prior session.\n\nWhy not the others:\nB – A smaller second candle sitting inside the first describes a harami, not an engulfing pattern.\nC – Opening higher and closing at the same level would give a doji-like candle and no engulfing of the prior body.\nD – Merely touching the prior high shows no takeover of the prior body; engulfing concerns the real bodies.\n\nRemember: Engulfing means the second body swallows the first body whole."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "The pattern is invalid"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Strong selling pressure and increased reliability of bearish reversal.\n\nWhy: A bearish engulfing pattern appears after a rally: a bullish candle is followed by a larger bearish candle whose body covers the first body. Volume measures participation. When the engulfing candle forms on heavy volume, many traders were selling, not just a few. That broad commitment makes it more likely the shift from buyers to sellers is real and will last.\n\nWhy not the others:\nA – High volume on a bearish candle signals strong, not weak, selling; it argues against continuation of the uptrend.\nC – A large engulfing body on heavy volume is the opposite of indecision, which shows as small bodies.\nD – High volume does not invalidate the pattern; it strengthens it.\n\nRemember: Big volume behind an engulfing candle means the crowd agrees with the reversal."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "A harami's second candle must gap beyond the first candle's range"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A harami's second body sits inside the first; an engulfing's wraps around it.\n\nWhy: Both are two-candle reversal patterns, but they are built in opposite ways. In a bullish engulfing pattern the second (bullish) body is larger and covers the whole first body. In a bullish harami, a long bearish candle is followed by a small candle whose body fits within the first body. The harami signals that selling momentum has suddenly shrunk; the engulfing shows buyers have taken over.\n\nWhy not the others:\nA – They are different patterns with opposite body relationships, not two names for one pattern.\nB – A harami is a two-candle pattern, just like the engulfing pattern.\nD – A harami's second candle stays inside the first body; gapping beyond the range is not part of the pattern.\n\nRemember: Engulfing = big hugs small; harami = small hides inside big."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Above the halfway point of the first body, but below its open"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Above the halfway point of the first body, but below its open.\n\nWhy: A piercing line is a two-candle bullish reversal in a downtrend. The first candle is a long bearish candle. The second opens lower, then rallies to close above the midpoint of the first body, 'piercing' it, yet not above the first candle's open. If it closed above the first open it would fully cover the body and become a bullish engulfing pattern. The midpoint rule shows buyers recovered more than half of the prior day's loss.\n\nWhy not the others:\nA – Closing below the halfway point shows too weak a recovery; that is a weaker pattern, not a piercing line.\nB – Closing above the first candle's open would engulf the body, making it a bullish engulfing pattern instead.\nC – Closing near the first candle's low shows almost no recovery at all, so no reversal is signalled.\n\nRemember: Piercing line: close past the middle of yesterday's body, but not past its open."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "'Balance', because it shows buyers and sellers in equilibrium"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 'Pregnant', because the second body is held inside the first.\n\nWhy: 'Harami' is an old Japanese word for pregnant. The name pictures the pattern: a large first body (the mother) holding a small second body (the baby) completely inside it. Knowing the meaning helps you remember the structure, since the key rule is that the small body must sit within the first body.\n\nWhy not the others:\nA – 'Harami' does not mean strong, and harami patterns are actually milder signals than engulfing patterns.\nC – The word does not mean shadow, and the pattern is defined by its bodies, not long shadows.\nD – 'Balance' is not the translation; the name describes the shape of one body inside another.\n\nRemember: Harami = pregnant: a small body tucked inside a big one."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Open above the first candle's high and close below the midpoint of its body"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Open above the first candle's high and close below the midpoint of its body.\n\nWhy: Dark cloud cover is the bearish mirror of the piercing line and forms after a rally. The first candle is a long bullish candle. The second opens above the first candle's high, so buyers start strong, but sellers take over and push it down to close below the midpoint of the first body. The gap up that fails shows buyers lost control within a single session.\n\nWhy not the others:\nA – Opening below the first candle's low is a gap down, which has nothing to do with this pattern's failed gap up.\nB – Staying entirely within the first range describes something like a harami, not dark cloud cover.\nC – Closing at the session high would make the second candle bullish, the opposite of a dark cloud.\n\nRemember: Dark cloud: opens above yesterday's high, closes below the middle of yesterday's body."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "It shows indecision and a pause in the downtrend"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It shows indecision and a pause in the downtrend.\n\nWhy: A morning star has three candles: a long bearish candle, then a small-bodied candle (often a gap lower), then a long bullish candle. The small middle candle, called the star, shows that the selling has stalled and buyers and sellers are briefly in balance. It is the turning point between the selling of candle one and the buying of candle three, but by itself it does not confirm anything.\n\nWhy not the others:\nA – The middle candle does not complete the reversal; the strong third candle is what confirms it.\nB – Strong buying pressure is shown by the third candle, not the small middle one.\nC – The star may be a doji or any small-bodied candle; a doji makes it a 'morning doji star' but is not required.\n\nRemember: In a morning star the middle candle is the pause; the third candle is the proof."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Close above the halfway mark of the first candle's body"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Close beneath the halfway mark of the first candle's body.\n\nWhy: An evening star forms after a rally: a long bullish candle, then a small-bodied star, then a bearish candle. For the reversal to be convincing, the third candle should push down deep into the first candle, closing below the midpoint of its body. That shows sellers erased more than half of the strong advance, so control has really changed hands.\n\nWhy not the others:\nA – Closing above the first candle's high would be bullish and would cancel the bearish reading.\nB – Closing near the star's level shows no meaningful selling, so there is no confirmation.\nD – Closing above the halfway mark means sellers recovered less than half the gain, which is too weak.\n\nRemember: Evening star third candle: close below the middle of the first candle's body."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Three candles with long shadows and small bodies"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Three long bullish candles, each opening within the prior body and closing near its high.\n\nWhy: Three white soldiers is a bullish pattern of three consecutive long up candles. Each one opens inside the body of the candle before it, so there is no big gap, and then closes at or near its own high. The steady stair-step of higher closes, with little upper shadow, shows buyers in control day after day, which is why it often marks a strong turn up after a decline.\n\nWhy not the others:\nB – Three bearish candles describe the opposite pattern family (three black crows), and decreasing size would show fading momentum.\nC – The soldiers open within the prior body; gapping above each prior high is not the pattern's definition.\nD – Small bodies with long shadows show indecision, the opposite of the firm buying this pattern shows.\n\nRemember: Three white soldiers: three strong up candles, each starting inside the last and closing near its high."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "When each candle closes near its high"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When it occurs after a strong bullish move, suggesting overextension.\n\nWhy: Three white soldiers is most useful as a reversal after a downtrend or a base, because it shows a fresh wave of buying. If the same pattern appears after price has already climbed a long way, the market may be overbought, meaning prices have risen too fast and the buying may be nearly used up. The pattern may then mark a climax rather than the start of a new move.\n\nWhy not the others:\nB – After a prolonged downtrend is exactly where the pattern is most meaningful as a reversal.\nC – High volume supports the pattern by showing broad buying, so it does not make it unreliable.\nD – Closing near the high is part of the definition and a sign of strength, not of weakness.\n\nRemember: A bullish pattern after a big rally may be exhaustion, not a new beginning."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Each opens and closes at the same level"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Each opens within the prior candle's body and closes at or near its low.\n\nWhy: Three black crows is the bearish mirror of three white soldiers, usually after an uptrend. It consists of three long bearish candles. Each opens inside the body of the candle before it and then sells off to close at or near its low. Three sessions in a row of closing near the lows show sellers in steady control.\n\nWhy not the others:\nB – Opening above the prior close is not the rule; the opens should be inside the prior body.\nC – Opening at the low and closing at the high describes a bullish candle, the opposite of a crow.\nD – Opening and closing at the same level describes dojis, not long bearish candles.\n\nRemember: Three black crows: three long down candles, each opening inside the last and closing near its low."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "A long-legged doji has a large real body"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. A long-legged doji has much longer upper and lower shadows.\n\nWhy: Every doji has an open and close at about the same price. A long-legged doji adds very long shadows both above and below. This means price swung widely in both directions during the session but finished where it started. It shows a lot of uncertainty and a hard tug-of-war, which can be a stronger warning near a top or bottom than an ordinary doji.\n\nWhy not the others:\nA – A doji with no shadows is a four-price doji, not a long-legged doji.\nB – Long-legged dojis can appear in any trend; they are not limited to uptrends.\nD – Any doji, including a long-legged one, has little or no real body by definition.\n\nRemember: Long-legged doji: same open and close, but long legs both ways, showing a big tug-of-war."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "The prevailing trend is likely to resume after a pause"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The prevailing trend is likely to resume after a pause.\n\nWhy: A continuation pattern is a short break inside a trend, after which the trend is expected to carry on. In rising three methods, a long bullish candle is followed by a few small candles that drift lower inside its range, and then another strong bullish candle resumes the advance. The small candles are just a rest, not a reversal.\n\nWhy not the others:\nA – A reversal is the opposite of what a continuation pattern signals.\nB – The pattern has a clear bias: it points toward the existing trend continuing.\nC – It does not signal the end of the trend or a coming range; it signals the trend picking back up.\n\nRemember: Continuation patterns are pauses that refresh the trend, not turns."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Above the close of the first bullish candle"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Inside the high-low span of the first long bullish candle.\n\nWhy: Rising three methods starts with a long bullish candle. Next come about three small candles, usually bearish, that drift lower but stay within the high and low of that first candle. Because sellers cannot push below the first candle's range, the pullback looks weak. A final strong bullish candle then closes above the first candle's close, confirming the uptrend has resumed.\n\nWhy not the others:\nB – If the small candles traded above the first candle's high, they would not be a pullback inside its range.\nC – Falling below the first candle's low would show a deeper decline and break the pattern.\nD – The small candles drift lower, so they typically trade below the first close, within its range.\n\nRemember: In rising three methods, the rest candles stay inside the first big candle's range."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "It must be smaller than the first candle"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. It must break below the low of the first bearish candle.\n\nWhy: Falling three methods is the bearish continuation version. A long bearish candle is followed by a few small candles drifting up within its range, then a final long bearish candle. That final candle must push to a new low, beneath the first candle's low (or at least its close), to show that sellers have taken control again and the downtrend has resumed.\n\nWhy not the others:\nB – Closing above the first candle's high would be bullish and would contradict a bearish continuation.\nC – A doji shows indecision; the final candle needs to be a strong bearish candle.\nD – The final candle should be strong and long, so being smaller than the first adds no confirmation.\n\nRemember: Falling three methods is confirmed when the last candle breaks to new lows below the first."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Volume matters only for continuation patterns"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. High volume shows strong participation, making the reversal more reliable.\n\nWhy: An engulfing pattern claims that one side has overpowered the other in a single session. Volume shows how many people took part in that takeover. If the engulfing candle comes on high volume, the shift is backed by heavy trading and is more likely to be genuine. On low volume, a small number of trades could create the same shape, so it is less trustworthy.\n\nWhy not the others:\nA – Low volume makes reversal patterns less reliable, not more.\nB – High volume on the engulfing candle usually supports the reversal; it is not read as weakening it.\nD – Volume is useful for confirming reversal patterns too, not only continuation patterns.\n\nRemember: Volume is the vote count behind an engulfing candle: more votes, more trust."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "The reversal may not be sustainable due to weak buying pressure"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The reversal may not be sustainable due to weak buying pressure.\n\nWhy: A hammer at a low shows buyers rejected lower prices during the session. If that happened on low volume, only a small amount of buying caused the bounce. That may not be enough demand to turn a whole downtrend. The hammer is still a warning sign, but the odds of a lasting rise are lower, so a trader would want confirmation such as a strong next candle on better volume.\n\nWhy not the others:\nA – A strong, reliable reversal would need stronger participation than low volume shows.\nB – A hammer does not predict immediate continuation down; it hints at a possible turn, just a weak one here.\nC – A hanging man is defined by appearing after an uptrend; volume does not change the pattern's name.\n\nRemember: A hammer on light volume is a weak bounce until more buyers show up."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Bullish momentum is likely to continue"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Buyers pushed higher but sellers took over, hinting at exhaustion.\n\nWhy: In a gravestone doji, price opens near the low, rallies strongly, then falls all the way back to close near the open. At the top of an uptrend this means buyers tried to extend the trend but could not hold the gains, and sellers erased them by the close. That rejection of higher prices suggests buying power may be running out, a possible early sign of a top.\n\nWhy not the others:\nB – Buyers in firm control would close near the high, not give back the whole rally.\nC – Although it is a doji, its shape and its position at a top give it a bearish tilt rather than pure neutrality.\nD – The failed rally argues against continued bullish momentum.\n\nRemember: Gravestone at a top: the rally died during the day and was buried at the open."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "A doji at a new high is reliable without confirmation"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. A doji alone shows indecision; later candles confirm direction.\n\nWhy: A doji only tells you that buyers and sellers ended the session in balance. It does not tell you who will win next. Sometimes a doji leads to a reversal, sometimes the trend simply resumes. Waiting for the next candle or two to move clearly in one direction, for example a strong down candle after a doji at a top, turns a vague hint into actual evidence.\n\nWhy not the others:\nA – A doji does not always signal an immediate reversal; often the trend continues.\nC – Confirmation is useful for most candlestick patterns, not just engulfing ones.\nD – A doji at a new high still needs follow-through; it is not reliable on its own.\n\nRemember: A doji asks a question; the next candles answer it."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "They are structural opposites: an engulfing's second body wraps the first, a harami's sits inside it"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. They are structural opposites: an engulfing's second body wraps the first, a harami's sits inside it.\n\nWhy: Both are two-candle patterns, but they mirror each other in size. In an engulfing pattern the second body is larger and covers the whole first body, showing a forceful takeover. In a harami the second body is small and fits inside the first body, showing that momentum has suddenly shrunk. Each comes in bullish and bearish versions.\n\nWhy not the others:\nA – They are distinct patterns with opposite body relationships, not the same pattern.\nB – Both patterns exist in bullish and bearish versions and can appear in either trend.\nC – A harami is a two-candle pattern; it is not a three-candle version of anything.\n\nRemember: Engulfing and harami are opposites: big second body versus small second body."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Volume has no bearing on this pattern"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. The reversal may be weak, since thin buying participation raises the risk of a false signal.\n\nWhy: A piercing line shows buyers recovering more than half of a big down day. Low volume means few traders took part in that recovery. With little participation, the rebound may not reflect a real change in demand, so it could easily fail. The pattern should be treated with caution and confirmed by later price action or stronger volume.\n\nWhy not the others:\nB – Low volume lowers reliability; a highly reliable reversal would normally come with strong volume.\nC – Low volume on the bullish candle shows weak buying, not proof that sellers are exhausted.\nD – Volume matters for judging how much conviction stands behind any reversal pattern.\n\nRemember: A piercing line on thin volume is a weak recovery; demand needs to show up in size."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "It can form only at major support levels"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Its three candles show the shift from selling to indecision to buying.\n\nWhy: A hammer tells the story of one session: price fell, then recovered. A morning star tells a longer story over three sessions: a strong down candle (sellers in charge), a small star (selling stalls, balance), and then a strong up candle (buyers take charge). Seeing that full sequence gives more evidence that sentiment has truly changed, which makes it more reliable.\n\nWhy not the others:\nA – A three-candle pattern takes longer to form than a one-candle pattern, so it gives a later signal, not an earlier one.\nC – Even reliable patterns benefit from confirmation; the morning star is not exempt.\nD – It can form anywhere after a decline; support improves it but is not required.\n\nRemember: More candles, more story: the morning star shows the whole hand-off from sellers to buyers."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "The pattern is invalid unless the candles gap"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Sellers hold control into each close, with little buying support.\n\nWhy: The close is the price that the market settles on by the end of the session. When each of the three black crows closes at or near its low, buyers never managed to lift the price from its worst level before the bell. A missing lower shadow means no late buying stepped in at all. Three sessions in a row like that show persistent selling pressure.\n\nWhy not the others:\nA – Buyers regaining control would leave long lower shadows and higher closes, not closes at the low.\nC – Three long bearish candles show a strong directional move, not consolidation in a range.\nD – The pattern does not require gaps; each crow normally opens within the prior body.\n\nRemember: Closing at the low, day after day, means sellers own the close."
   }
 ]

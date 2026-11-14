@@ -9,7 +9,8 @@
       "mu <= 0"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. mu <= 0.\n\nWhy: In hypothesis testing, the null hypothesis (H0) is the \"nothing special\" claim that you try to find evidence against. The alternative hypothesis (H1) is what you hope to show. Here the trader wants to show the system's true mean return (mu) is greater than zero, so H1 is mu > 0. The null must cover every other possibility: mu is zero or less, written mu <= 0. If the data are strong enough, you reject H0 in favor of H1.\n\nWhy not the others:\nA – mu > 0 is the alternative hypothesis, the claim you are trying to support.\nB – The null is a statement about the true population mean, not the sample's own average.\nC – mu < 0 alone leaves out mu = 0, so the null would not cover all the \"no edge\" cases.\n\nRemember: The null is the skeptic's view (no edge: mu <= 0); the alternative is what you want to prove."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "To determine the size of the sample needed"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. To measure the probability of observing the test results purely by chance, assuming the null hypothesis is true.\n\nWhy: A p-value answers this question: \"If the null hypothesis were true, how likely would I be to see a result at least as extreme as this one just by luck?\" A small p-value, such as 0.02, means a result this strong would rarely happen by chance alone, so it counts as evidence against the null. A large p-value means the result could easily be luck. The p-value is calculated assuming the null is true.\n\nWhy not the others:\nA – A p-value is not the probability that the alternative is true; it is calculated assuming the null is true.\nC – The average return is the sample mean, not the p-value.\nD – Sample size is chosen in planning (using power analysis), not by the p-value.\n\nRemember: The p-value is \"how surprising is this result if nothing real is going on?\""
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "8.0%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 2.0%.\n\nWhy: The standard error of the mean measures how much a sample average would typically vary from sample to sample. Formula: standard error = sample standard deviation ÷ square root of the number of observations. Here: √16 = 4, and 8% ÷ 4 = 2.0%. So the 2.5% average is uncertain by about 2 percentage points. More trades shrink the standard error because the square root of n grows.\n\nWhy not the others:\nA – 0.5% comes from dividing by 16 instead of by √16.\nC – 4.0% is the square root of n, not the standard error.\nD – 8.0% is the standard deviation of individual trades, before dividing by √n.\n\nRemember: Standard error = s ÷ √n."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Only when the population is perfectly normal"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When sampling randomly and the population SD is unknown.\n\nWhy: A z-test needs the true standard deviation of the whole population, which we almost never know for trading results. When we must estimate the spread from the sample itself, extra uncertainty is added. The Student's t-distribution accounts for that by having fatter tails than the normal curve, especially for small samples. So when the population standard deviation is unknown and estimated from a random sample, the t-test is the right tool.\n\nWhy not the others:\nB – If the population standard deviation were known, a z-test would be appropriate.\nC – With very large samples the t and z results become nearly the same, so size is not the reason to choose t.\nD – The t-test assumes roughly normal data but does not require a perfectly normal population.\n\nRemember: Population SD unknown, estimated from the sample: use t."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Reject H₀ whenever the p-value exceeds 0.50"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. When α > p-value, reject H₀.\n\nWhy: Alpha (α) is the significance level you choose before testing, for example 0.05. It is the largest chance of a false alarm you are willing to accept. The p-value is the probability of a result at least this extreme if the null were true. If the p-value is smaller than alpha, the result is rarer than your cutoff, so you reject the null. Example: p = 0.03 and α = 0.05; since 0.05 > 0.03, reject H0.\n\nWhy not the others:\nA – This is backwards; a p-value larger than alpha means you fail to reject.\nC – Exact equality is a borderline case, not the general decision rule.\nD – A p-value above 0.50 means the result is very ordinary, the opposite of grounds to reject.\n\nRemember: If p is low (below alpha), the null must go."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "9.00"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 1.00.\n\nWhy: The t-statistic measures how many standard errors the sample mean is away from the value claimed by the null hypothesis. Step 1: standard error = 9% ÷ √9 = 9% ÷ 3 = 3%. Step 2: t = (sample mean − 0) ÷ standard error = (3% − 0) ÷ 3% = 1.00. A t of 1.00 means the average is only one standard error above zero, which is weak evidence of an edge.\n\nWhy not the others:\nA – 0.33 comes from dividing the mean by the standard deviation (3 ÷ 9) without the √n step.\nC – 3.00 is the standard error (or the mean), not the t-statistic.\nD – 9.00 is the sample size or standard deviation, not a test statistic.\n\nRemember: t = (mean − null value) ÷ (s ÷ √n)."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Failing to reject the null hypothesis when the alternative is true"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Rejecting the null hypothesis when it is actually true (false positive).\n\nWhy: A Type I error is a false alarm. The null hypothesis is really true, for example the system truly has no edge, but your test says it does. In trading, this means believing a strategy works when its good results were just luck. The chance of a Type I error is set by your significance level, alpha. With α = 0.05, you accept about a 5% chance of a false alarm when the null is true.\n\nWhy not the others:\nB – Correctly rejecting a false null is a correct decision, not an error.\nC – Failing to reject a true null is also a correct decision.\nD – Missing a real effect is a Type II error, not Type I.\n\nRemember: Type I = false positive: seeing an edge that is not there."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Making a calculation error in the test statistic"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Failing to reject H₀ when the alternative is true (false negative).\n\nWhy: A Type II error is a missed discovery. The alternative is actually true, for example the system really does have an edge, but your test does not find enough evidence and you fail to reject the null. This often happens when the sample is small or the data are very noisy. The ability of a test to avoid this mistake is called its power.\n\nWhy not the others:\nA – Rejecting a true null is a Type I error, the false positive.\nB – Failing to reject a true null is a correct decision.\nD – An arithmetic mistake is not what Type I or Type II errors mean.\n\nRemember: Type II = false negative: missing an edge that is really there."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Fail to reject H0; evidence of a positive mean is insufficient"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Fail to reject H0; evidence of a positive mean is insufficient.\n\nWhy: The decision compares the p-value with alpha. Here p ≈ 0.115 and α = 0.05. Since 0.115 is greater than 0.05, the result is not rare enough to rule out luck, so we fail to reject the null. That does not prove the system has no edge. It only means 16 trades do not give strong enough evidence that the true mean is above zero. (Check: standard error = 8% ÷ √16 = 2%; t = 2.5% ÷ 2% = 1.25.)\n\nWhy not the others:\nA – You cannot reject H0 when p is above alpha, and statistics never \"proves\" an edge.\nB – Failing to reject is not the same as accepting H0 or showing there is no edge.\nC – A positive sample mean is not enough by itself; it must be large relative to its standard error.\n\nRemember: p above alpha means \"not enough evidence,\" not \"proven false.\""
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Delete the outlier losing trades and retest"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Recognize low power (possible Type II error) and gather more trades.\n\nWhy: With only 12 trades, the standard error is large, so even a real edge may not produce a significant result. The test has low power, meaning a low chance of detecting an effect that really exists. The failure to reject could be a Type II error (a missed edge). The honest response is to collect more data, ideally new out-of-sample trades, and test again with a larger sample.\n\nWhy not the others:\nA – Failing to reject does not show there is no edge, especially with a small sample.\nC – Changing alpha after seeing the result is a form of cheating that inflates false positives.\nD – Removing losing trades to get the answer you want biases the test.\n\nRemember: A small sample that \"fails\" may just be too small to see the edge."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "-0.80; strong negative"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 0.80; strong positive.\n\nWhy: r² (the coefficient of determination) is the square of the correlation coefficient r. To get r, take the square root: √0.64 = 0.80. The sign of r matches the direction of the regression slope. Since the equity curve slopes upward, r is positive, +0.80. A correlation of 0.80 is strong, meaning equity rises fairly steadily with each trade.\n\nWhy not the others:\nA – 0.41 comes from squaring 0.64 instead of taking its square root.\nC – 0.64 is r², not r.\nD – The slope is upward, so r must be positive, not negative.\n\nRemember: r = √r², with the sign taken from the slope."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Cannot be decided without the mean return"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Reject H0; the linear trend is significant.\n\nWhy: The null hypothesis is that there is no correlation between equity and trade number (true r = 0). The test gives t ≈ 5.8 with 8 degrees of freedom (10 points − 2). The p-value is below 0.001, which is far smaller than α = 0.05. Because the p-value is below alpha, we reject the null and conclude the upward linear trend in the equity curve is statistically significant. (Check: 0.90 × √8 ÷ √(1 − 0.81) = 2.546 ÷ 0.436 ≈ 5.8.)\n\nWhy not the others:\nA – Failing to reject would require p above 0.05; here p is far below it.\nB – We never \"accept\" H0, and here the evidence is strongly against it.\nD – The mean return is not needed; the correlation test uses only r and n.\n\nRemember: When p is below alpha, reject the null."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "t = (x̅ − μ) × √n / n"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. t = (x̅ - μ) / (s / √n).\n\nWhy: The t-statistic measures how far the sample mean (x̅) is from the hypothesized mean (μ), in units of standard error. The standard error is the sample standard deviation (s) divided by the square root of the sample size (√n). So t = (x̅ − μ) ÷ (s ÷ √n). For example, with x̅ = 2%, μ = 0, s = 6% and n = 36: standard error = 6% ÷ 6 = 1%, so t = 2 ÷ 1 = 2.\n\nWhy not the others:\nB – Dividing s by n instead of √n shrinks the standard error far too much.\nC – Leaving out √n ignores sample size, which is central to the test.\nD – This expression has no standard deviation in it, so it cannot measure distance in standard errors.\n\nRemember: t = (mean − hypothesized mean) ÷ (s ÷ √n)."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "n + 1, to correct for small-sample bias"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The number of observations minus 1 (n - 1).\n\nWhy: Degrees of freedom are the number of values that are free to vary once you have calculated something from the data. When testing a mean, you first calculate the sample mean. Once the mean is fixed, only n − 1 of the observations can vary freely; the last one is determined. So a test of one sample mean uses n − 1 degrees of freedom. For example, 20 trades give 19 degrees of freedom.\n\nWhy not the others:\nA – Using n ignores the one degree of freedom lost by estimating the mean.\nB – n − 2 is used for testing a correlation or simple regression, not a single mean.\nD – Adding one is never the correction; estimating parameters removes degrees of freedom.\n\nRemember: Testing a mean: df = n − 1."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Kurtosis matters only for z-tests, not t-tests"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Small samples from a clearly non-normal distribution weaken the t-test's assumptions and power.\n\nWhy: The t-test assumes the sample mean behaves roughly like a normal variable. With large samples that is usually fine. With only 14 trades, the shape of the data matters more. Excess kurtosis of −1.5 means the distribution is clearly not normal (it is flat with thin tails), and a standard deviation several times the mean means the data are very noisy. Together these weaken the test's assumptions and its ability to detect a real edge, so the result should be read with caution.\n\nWhy not the others:\nA – A t-test can be run on fewer than 30 trades; small samples are exactly what it was designed for.\nB – Kurtosis describes the shape of the tails; it does not mean the mean is overstated.\nD – Non-normal shape matters for t-tests too, especially with small samples.\n\nRemember: Small, noisy, non-normal samples make any t-test result shaky."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "The win rate is at least 67%"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Gross profits are at least twice gross losses.\n\nWhy: The profit factor is total money made on winning trades divided by total money lost on losing trades. A profit factor above 2 means the system's gross profits are more than twice its gross losses. For example, $50,000 of profits and $20,000 of losses gives 50,000 ÷ 20,000 = 2.5. A value above 1 means the system is profitable overall; above 2 is generally considered strong.\n\nWhy not the others:\nB – A profit factor above 1 means the system makes money, not loses it.\nC – \"Greater than 2\" means more than twice, not exactly twice.\nD – Profit factor combines win rate and trade size; it does not set a minimum win rate.\n\nRemember: Profit factor = gross profit ÷ gross loss; above 1 is profitable."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "4.5"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 2.0.\n\nWhy: Profit factor = gross profits ÷ gross losses. Imagine 100 trades and an average loss of 1 unit. Winners: 40 trades × 3 units = 120. Losers: 60 trades × 1 unit = 60. Profit factor = 120 ÷ 60 = 2.0. The same result comes from the shortcut (win rate × payoff) ÷ loss rate = (0.40 × 3) ÷ 0.60 = 1.2 ÷ 0.6 = 2.0. A low win rate can still be very profitable if winners are much larger than losers.\n\nWhy not the others:\nA – 1.2 is only the winning side (0.40 × 3), before dividing by the losing side.\nC – 3.0 is the payoff ratio (average winner ÷ average loser), not the profit factor.\nD – 4.5 comes from multiplying the payoff ratio by 0.60 ÷ 0.40, which flips the win and loss rates.\n\nRemember: Profit factor = (win rate × average win) ÷ (loss rate × average loss)."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "α = 0.50 (50%)"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. α = 0.05 (5%).\n\nWhy: The significance level, alpha, is the cutoff for deciding whether a result is unlikely enough to call it \"statistically significant.\" The most widely used convention is 0.05, meaning you accept a 5% chance of a false alarm (rejecting a true null). Stricter studies may use 0.01, and looser exploratory work may use 0.10, but 0.05 is the standard default.\n\nWhy not the others:\nA – 0.01 is a stricter level, used when false alarms are especially costly.\nC – 0.10 is a looser level, sometimes used in exploratory work.\nD – 0.50 would mean accepting a coin-flip chance of a false alarm, which is far too loose.\n\nRemember: The default cutoff for \"significant\" is 5%."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "The right tail is longer, with outliers extending farther on the upside"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. The right tail is longer, with outliers extending farther on the upside.\n\nWhy: Skewness describes whether a distribution is lopsided. Positive skew means the right tail (the high-value side) stretches out farther than the left. For a breakout system, this usually means many small losses and a few very large winners. Those big outliers pull the mean above the median. This pattern is typical of trend-following and breakout strategies that cut losses short and let profits run.\n\nWhy not the others:\nA – Positive skew usually comes with many small losers and a few big winners, not mostly large winners.\nB – In a skewed distribution, the mean and median differ; they are equal in a symmetric one.\nC – Skewness is about the shape of the tails, not the count of wins versus losses.\n\nRemember: Positive skew = a long right tail of rare big winners."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Positively skewed, with a long right tail"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Platykurtic, thinner tails and a flatter peak.\n\nWhy: Kurtosis describes how heavy the tails of a distribution are compared with a normal curve. \"Excess kurtosis\" subtracts the normal curve's value, so a normal distribution has excess kurtosis of 0. A negative value, like −1.2, means thinner tails and a flatter, broader center than normal. That shape is called platykurtic (\"plat\" as in flat). A positive value would be leptokurtic, with fat tails and a sharp peak.\n\nWhy not the others:\nA – Leptokurtic needs positive excess kurtosis, not negative.\nB – Mesokurtic means excess kurtosis near zero, like a normal curve.\nD – Skewness measures lopsidedness; kurtosis does not tell you about skew.\n\nRemember: Negative excess kurtosis = platykurtic = flat and thin-tailed."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Declaring the alternative hypothesis proven"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Collecting additional out-of-sample trades and retesting.\n\nWhy: When a test does not reject the null, the honest options are to accept that the evidence is weak or to gather more evidence. Collecting new trades that were not used to design or test the system (out-of-sample data) and testing again is legitimate. It increases the sample size and the test's power without bending the rules. The other choices all change the test after seeing the result, which makes false positives more likely.\n\nWhy not the others:\nA – Raising alpha after seeing the result moves the goalposts and inflates false alarms.\nC – Removing inconvenient trades biases the sample toward the answer you want.\nD – Failing to reject the null never proves the alternative.\n\nRemember: When evidence is weak, get more data; do not change the rules."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "r = √r² (taking the square root, considering the sign)"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. r = √r² (taking the square root, considering the sign).\n\nWhy: The coefficient of determination, r², is simply the correlation coefficient multiplied by itself. It tells you the share of the variation in one variable that is explained by the other. To get back to r, take the square root of r² and give it the sign of the relationship: positive if the slope rises, negative if it falls. For example, r² = 0.49 gives r = ±0.70.\n\nWhy not the others:\nA – r² is r times r, not two times r.\nB – 1 − r has no special meaning in this relationship.\nC – The slope depends on the units of the variables; r² does not.\n\nRemember: r² is r squared; take the root and keep the slope's sign."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "n - 2"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. n - 2.\n\nWhy: Testing a correlation is closely tied to fitting a straight line through the data. A straight line needs two estimated values: an intercept and a slope. Each estimated value uses up one degree of freedom. So a correlation test with n data points has n − 2 degrees of freedom. For example, 10 points give 8 degrees of freedom.\n\nWhy not the others:\nA – n − 1 is used when testing a single mean, where only one value is estimated.\nB – Using n ignores the values estimated from the data.\nC – n − 3 would apply to models with more estimated values, not a simple correlation.\n\nRemember: Correlation or simple regression test: df = n − 2."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Its profit factor is also exactly 3.0"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. The average winner is three times the average loser.\n\nWhy: The payoff ratio is the average winning trade divided by the average losing trade. Here $600 ÷ $200 = 3.0. It tells you how big wins are compared with losses, but nothing about how often you win. A system with a payoff ratio of 3 can be profitable with a fairly low win rate, because each win makes up for about three losses.\n\nWhy not the others:\nA – How often you win is the win rate, a separate measure.\nB – The payoff ratio is a ratio of dollar amounts, not a percentage return per trade.\nD – Profit factor also depends on win rate, so it equals 3.0 only if wins and losses are equally frequent.\n\nRemember: Payoff ratio = average win ÷ average loss; it ignores how often you win."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Sample sizes in trading are usually too large to be meaningful"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Financial data is incredibly noisy with randomness playing a much larger role than in other fields.\n\nWhy: Statistical inference means drawing conclusions about the true behavior of a system from a limited sample. In markets, random price movement is very large compared with any real edge a strategy might have. That noise can make a worthless system look good, or hide a good system, over a limited number of trades. So traders need careful tests, large samples and caution before trusting results.\n\nWhy not the others:\nA – Prices are recorded very precisely; the problem is randomness, not measurement.\nC – Returns do not follow a known, fixed distribution; that uncertainty is part of the challenge.\nD – Trading samples are usually too small, not too large.\n\nRemember: In markets, noise is loud and edges are quiet."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "We have proven the alternative hypothesis is false"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. We lack sufficient evidence to reject it, but we don't accept it as true.\n\nWhy: Hypothesis testing can only gather evidence against the null hypothesis. If the evidence is not strong enough, we \"fail to reject\" it. That is like a court verdict of \"not guilty\": it does not prove innocence, it only means guilt was not proven. The null might be true, or the sample might simply be too small or noisy to detect a real effect.\n\nWhy not the others:\nA – Tests never prove the null is true.\nC – Failing to reject is not the same as accepting it as fact.\nD – Failing to reject says nothing definite about the alternative being false.\n\nRemember: \"Fail to reject\" means \"not enough evidence,\" not \"proven true.\""
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "60% to 80%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 30% to 50%.\n\nWhy: Trend-following systems usually lose on many trades because markets often move sideways, producing false starts. They make their money on a smaller number of large winning trades during strong trends. As a result, their win rates are typically in the 30% to 50% range. They stay profitable because the average winner is much larger than the average loser.\n\nWhy not the others:\nA – 10% to 30% is lower than is typical for most trend-following systems.\nC – 50% to 60% is more typical of shorter-term or mean-reversion systems.\nD – 60% to 80% is usually associated with mean-reversion or option-selling styles, not trend following.\n\nRemember: Trend followers lose often, win big, and typically win 30% to 50% of the time."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "How far price moved against the position while open"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. How far price moved against the position while open.\n\nWhy: Maximum Adverse Excursion (MAE) is the worst open loss a trade experienced before it was closed. For a long trade, it is the distance from the entry price down to the lowest price reached while the trade was open. Studying MAE across many trades helps set stop-losses: if winning trades rarely move more than a certain amount against you, a stop just beyond that level can cut losers without stopping out good trades.\n\nWhy not the others:\nA – The final gain or loss is the trade's result, not its worst point along the way.\nB – The highest open profit is the Maximum Favorable Excursion (MFE), the opposite measure.\nC – Correlation between trades is a different statistic altogether.\n\nRemember: MAE = the deepest the trade went against you before closing."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "The p-value of the test will be smaller"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. A stricter test needing stronger evidence to reject H0.\n\nWhy: Alpha is the cutoff the p-value must fall below to reject the null. Lowering alpha from 0.05 to 0.01 means the result must be rarer under the null, 1 chance in 100 instead of 5 in 100, before you call it significant. That makes false alarms (Type I errors) less likely, but it also makes real effects harder to detect, which increases the chance of a Type II error.\n\nWhy not the others:\nB – A lower alpha means less tolerance for Type I errors, not more.\nC – A lower alpha raises the standard of evidence.\nD – Alpha is a cutoff you choose; it does not change the p-value the data produce.\n\nRemember: Smaller alpha = stricter test = fewer false alarms, more missed edges."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "0.50"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 0.031.\n\nWhy: Each fair coin flip has a 0.5 chance of heads, and the flips are independent, so you multiply the probabilities. 0.5 × 0.5 × 0.5 × 0.5 × 0.5 = 0.5⁵ = 1 ÷ 32 = 0.03125, which rounds to 0.031. This example shows how a streak that seems unusual still happens about 3% of the time purely by chance, which is why a short run of winning trades does not prove a system works.\n\nWhy not the others:\nA – 0.005 is far too small; it reflects a decimal error.\nC – 0.10 overstates the odds; five heads in a row is rarer than one chance in ten.\nD – 0.50 is the probability of a single head, not five in a row.\n\nRemember: Independent events multiply: 0.5⁵ = 1/32 ≈ 3%."
   }
 ]

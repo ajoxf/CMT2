@@ -9,7 +9,8 @@
       "Fundamental analysis and credit analysis"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Economic, fundamental, quantitative and technical analysis.\n\nWhy: Fusion analysis blends several disciplines so each covers the others' blind spots. The stool image has four legs: economic analysis (the business cycle and macro backdrop), fundamental analysis (company value), quantitative analysis (statistical testing of ideas) and technical analysis (price behavior and timing). A stool with all four legs is steadier than one balanced on a single leg.\n\nWhy not the others:\nA – Technical plus fundamental is only two of the four legs.\nC – Sentiment surveys are one input within technical work, not a separate leg.\nD – Credit analysis is a specialty within fundamental work, not the named combination.\n\nRemember: Four legs: economic, fundamental, quantitative, technical."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "It provides timing and entry/exit signals while fundamental analysis identifies value"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Technical analysis provides timing and entry/exit signals while fundamental analysis identifies value.\n\nWhy: Fundamental analysis answers 'what should I own and why?' by judging whether a company is worth more than its price. It says little about when the market will recognize that value. Technical analysis fills the gap by reading trends, support and resistance to decide when to buy, when to sell and where to manage risk. Together they combine the right asset with the right timing.\n\nWhy not the others:\nA – This reverses the roles; fundamentals find value and technicals supply timing.\nB – Technical analysis is used before and during a trade, not only for post-trade reviews.\nC – Checking earnings estimates is fundamental work, not technical.\n\nRemember: Fundamentals pick what; technicals pick when."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "It removes the need to backtest strategies"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Multiple perspectives help validate or challenge an investment thesis.\n\nWhy: A team mixing technical and fundamental analysts looks at the same idea from different angles. If the fundamentals look strong and the chart confirms it, confidence rises. If they disagree, the team is forced to dig deeper before committing capital. This cross-checking reduces blind spots and the risk of acting on a one-sided view.\n\nWhy not the others:\nA – The point of a team is to use methods outside one's specialty, not to ignore them.\nC – Relying on one lead analyst removes the benefit of several perspectives.\nD – Combining views does not replace the need to test strategies.\n\nRemember: Different lenses catch different mistakes."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Backtesting factor strategies across global markets"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Providing timing, trend identification and risk-management input.\n\nWhy: In a combined team, the technician's job is to read market behavior: what direction the trend is, whether it is strengthening or weakening, and where support and resistance lie. That information guides when to enter or exit and where to set stops, which is risk management. Earnings models and economic forecasts are left to other team members.\n\nWhy not the others:\nA – Earnings models are the fundamental analyst's work.\nC – GDP and business-cycle forecasting is the economist's role.\nD – Large-scale factor backtesting is mainly the quantitative analyst's job.\n\nRemember: The technician in a team brings timing, trend and risk control."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "By concentrating on short-term price movements"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. By combining several analytical approaches into a fuller picture.\n\nWhy: Every discipline sees only part of what moves prices. Economic analysis shows the cycle, fundamentals show value, quantitative work tests whether ideas hold statistically, and technicals show what investors are actually doing. Combining them produces a more complete picture and better-informed decisions than any single method.\n\nWhy not the others:\nA – Fusion still relies on judgment; it does not reduce everything to one score.\nC – Fusion integrates views thoughtfully; it is not a mechanical vote.\nD – Fusion covers all horizons, not just short-term moves.\n\nRemember: Fusion = more complete picture, better decisions."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Quants remove the need for any discretionary judgment"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Technicians contribute pattern recognition while quants provide statistical testing.\n\nWhy: Technicians are skilled at spotting recurring patterns in price and volume. Quantitative analysts are skilled at testing whether such patterns are statistically real and profitable across many cases and periods. Together, an idea can be found by observation and then confirmed or rejected by rigorous testing.\n\nWhy not the others:\nA – Estimating earnings is fundamental work, not a technical or quantitative role.\nB – This reverses the roles of the two specialists.\nD – Statistical testing supports judgment; it does not eliminate it.\n\nRemember: Technicians find patterns; quants test them."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Macroeconomic and business-cycle forecasts"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Price trends, support/resistance and sentiment.\n\nWhy: Only technical analysis studies the market's own behavior directly: which way prices are trending, where buyers and sellers have repeatedly stepped in, and what crowd psychology looks like. These insights complement the other legs, which focus on earnings, balance sheets and the economy.\n\nWhy not the others:\nA – Earnings estimates and revisions come from fundamental analysis.\nC – Balance sheet and cash-flow work is fundamental analysis.\nD – Macro and business-cycle forecasts come from economic analysis.\n\nRemember: Technicians uniquely bring trend, levels and crowd behavior."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Ignore the chart because markets cannot be timed"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Delay the upgrade until the price shows signs of stabilizing or a trend change.\n\nWhy: A stock can be cheap and keep falling; value alone does not stop a downtrend. With no nearby support, there is no clear level where buyers are likely to step in. A fusion-minded technician would suggest waiting for evidence of stabilization, such as a base, a higher low or a trend break, before upgrading, so the call has better timing and lower risk.\n\nWhy not the others:\nA – Ignoring price action risks buying too early into a continuing decline.\nC – A downtrend does not cancel the positive fundamentals; the issue is timing.\nD – Fusion analysis explicitly uses charts for timing.\n\nRemember: Good value plus a falling chart = wait for the turn."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "50%"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. 25% for each discipline.\n\nWhy: With four legs, an equal starting point gives each discipline one quarter of the weight: 100% ÷ 4 = 25%. The analyst then shifts the weights to fit conditions, for example leaning more on economic analysis near a cycle turn or more on technicals when timing is critical.\n\nWhy not the others:\nA – 10% each would total only 40%.\nC – 40% each would total 160%.\nD – 50% each would total 200%.\n\nRemember: Four legs, start equal: 25% each, then adjust."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Assessments of management quality"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Timing, trend strength and behavioral factors.\n\nWhy: Financial statements tell you what a company is worth, but not when the market will agree or how investors feel about the stock right now. Technical analysis fills that gap by reading trend strength, the timing of turns and signs of crowd behavior such as fear or enthusiasm.\n\nWhy not the others:\nA – Financial statement details are the domain of fundamental analysis.\nC – Accounting and audit work is outside technical analysis.\nD – Management quality is judged by fundamental research.\n\nRemember: Technical analysis fills the 'when' and 'how the crowd feels' gaps."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "So that technical signals can be set aside when fundamentals look strong"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. So different perspectives can be shared and integrated into one decision.\n\nWhy: A fusion team only works if its members talk to one another. The economist, fundamental analyst, quant and technician each bring different evidence, and their findings have to be shared, debated and combined into a single investment decision. Without communication the team is just several analysts working in isolation.\n\nWhy not the others:\nA – Defending views separately defeats the purpose of integration.\nB – Automatic majority rule can bury important minority signals.\nD – Fusion does not dismiss technical evidence when fundamentals look good.\n\nRemember: Fusion depends on sharing views, not working in silos."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Mainly as a scientific method for backtesting strategies built on other factors"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Mainly as a scientific method for backtesting strategies built on other factors.\n\nWhy: In fusion analysis the quantitative leg is mostly a testing tool. It takes ideas from the economic, fundamental and technical legs and checks them with data: does this signal actually work, how often, with what risk? So it validates the other legs rather than replacing them.\n\nWhy not the others:\nA – The quant leg supports the other three; it does not replace them.\nB – Management and governance review is fundamental work.\nC – Discretionary chart reading is technical, and the quant leg is systematic, not discretionary.\n\nRemember: The quant leg tests ideas from the other three legs."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Quantitative testing makes the other disciplines redundant"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Analysts must understand and respect methods outside their own discipline.\n\nWhy: The hardest part of fusion is cultural. Fundamental analysts may distrust charts and technicians may discount valuation work. For the approach to work, each specialist needs at least a working knowledge of the others' methods and must take their evidence seriously, especially when it conflicts with their own view.\n\nWhy not the others:\nA – Fundamental data is widely available to everyone on the team.\nB – Technical signals can be produced on any timeframe.\nD – Quant testing supports the other disciplines; it does not make them redundant.\n\nRemember: Fusion requires respect for disciplines that are not your own."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Whenever trading volume is lighter than average"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. When the chart shows a breakdown or strong downtrend despite attractive value.\n\nWhy: A cheap stock can get cheaper. If price breaks below key support or is in a strong downtrend, the market is signaling that sellers are still in control, possibly because of information or sentiment the valuation does not capture. In that case a technician may argue to hold off on buying until the price action improves.\n\nWhy not the others:\nB – A higher P/E is a fundamental factor, not a technical override.\nC – A lower earnings estimate is a fundamental change made by the fundamental analyst.\nD – Light volume alone is not enough reason to override a buy.\n\nRemember: Technicals override value when the chart is breaking down."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "By sizing every position according to its dividend yield"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. By pairing valuation with technical risk tools such as support levels.\n\nWhy: Valuation tells you whether a position is worth owning; technical tools tell you where you are wrong. Support levels, trendlines and stops define a price at which the thesis is likely broken, so losses can be limited. Combining both gives better position selection and better control of downside risk.\n\nWhy not the others:\nB – Fusion adds technical stops to valuation; it does not remove stops.\nC – Concentrating in the cheapest stocks raises, not reduces, risk.\nD – Dividend yield is not a sound basis for sizing every position.\n\nRemember: Value says what to own; support levels say where to get out."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "They are relevant only for intraday traders"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Price and volume behavior can reveal crowd psychology that valuation models miss.\n\nWhy: Valuation models assume investors act on fundamentals. In reality fear, greed and herding often push prices far from value for long periods. Price and volume patterns, such as panic selling or euphoric buying, show this crowd behavior as it happens, adding information that a spreadsheet cannot.\n\nWhy not the others:\nA – Earnings estimates do not capture how investors feel or behave.\nB – Behavioral factors matter to all investors, not just economists.\nD – Behavioral effects matter on long timeframes too, not only intraday.\n\nRemember: Charts show crowd psychology that models cannot."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Technicians focus on accounting quality"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. Fundamentalists study the cause ('what and why'); technicians study the effect ('when and where').\n\nWhy: Fundamental analysts ask what a company is worth and why its value may change: these are causes. Technical analysts study the effect of all those causes as it shows up in price, focusing on when a move happens and where key price levels are. Both are needed for a full picture.\n\nWhy not the others:\nA – This swaps the two focuses.\nC – Technicians focus on price behavior, not only earnings.\nD – Accounting quality is a fundamental topic.\n\nRemember: Fundamentals = cause (what/why); technicals = effect (when/where)."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Economic forecasts are no longer needed for decisions"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Signals that one discipline alone cannot see may be missed.\n\nWhy: Each method has blind spots. A fundamental analyst may miss a deteriorating chart; a technician may miss a weakening balance sheet; both may miss a turn in the economic cycle. Without fusion, the investor relies on one view and is more likely to overlook warnings that another discipline would have caught.\n\nWhy not the others:\nB – Higher turnover is not an inherent result of using a single approach.\nC – Valuation models do not become less accurate just because other methods are not used.\nD – Not using fusion does not make economic forecasts unnecessary.\n\nRemember: One lens = blind spots; several lenses = fewer surprises."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Investigate the divergence and consider waiting for confirmation"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Investigate the divergence and consider waiting for confirmation.\n\nWhy: When technical and fundamental signals disagree, that conflict is information. It may mean the market knows something the model does not, or that the price simply has not caught up to value yet. The fusion approach is to dig into the reason and, often, wait until the signals line up before committing.\n\nWhy not the others:\nA – Always favoring technicals ignores valuable fundamental evidence.\nB – Always favoring fundamentals ignores what price is signaling.\nC – Mechanical averaging skips the analysis the conflict calls for.\n\nRemember: Conflicting signals call for investigation, not automatic rules."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "It replaces economic analysis with technical timing"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Prices reflect both rational valuation and behavioral forces, which call for several analytical lenses.\n\nWhy: Modern prices are shaped by fundamentals and by investor behavior, plus economic conditions. No single method captures all of this. Fusion analysis is effective because it uses several lenses at once: valuation for the rational part, technicals for the behavioral part, economics for the backdrop and quantitative tools for testing.\n\nWhy not the others:\nB – Fusion is useful because markets are not fully efficient.\nC – Fusion usually involves more inputs and assumptions, not fewer.\nD – Fusion combines economic analysis with the others; it does not replace it.\n\nRemember: Markets mix value and emotion, so use more than one lens."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "By treating any price decline as proof the thesis is wrong"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Price action and volume can confirm or question the market's acceptance of the thesis.\n\nWhy: A fundamental thesis is a prediction that other investors will eventually value the stock differently. If rising prices on strong volume follow, the market is accepting the story. If the stock keeps falling or volume dries up on rallies, investors are not yet buying the idea, which is a reason to question it or wait.\n\nWhy not the others:\nB – Recalculating earnings forecasts is fundamental work.\nC – Price is central to technical analysis; volume alone is not enough.\nD – Any single decline does not prove a thesis wrong; context matters.\n\nRemember: Price and volume show whether the market believes the story."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Neither; P/E is purely fundamental"
     ],
     "correct": 1,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: B. The P, because price is observed market behavior.\n\nWhy: The P/E ratio has two parts. Earnings (E) come from the company's accounts and analysts' estimates, which is fundamental data. Price (P) is set by buyers and sellers in the market every day, which is the raw material of technical analysis. So the P/E ratio itself blends fundamental and technical information.\n\nWhy not the others:\nA – Earnings are a fundamental input even when they are estimated.\nC – The two parts come from different sources, so they are not equally technical.\nD – Price is market behavior, so the ratio is not purely fundamental.\n\nRemember: In P/E, the P is the market's vote, which is technical territory."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Shifts in crowd psychology seen in price, volume and momentum"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. Shifts in crowd psychology seen in price, volume and momentum.\n\nWhy: Technical analysis reads sentiment from what investors actually do. Accelerating volume on declines can reveal fear; strong momentum on rising volume can reveal enthusiasm; fading momentum near highs can reveal waning conviction. These behavior-based signals show sentiment as it shifts, not only after the fact.\n\nWhy not the others:\nA – Analyst ratings are one narrow source and come from fundamental research.\nB – Earnings revisions are fundamental data.\nC – Surveys are only one sentiment source, and technicals cover far more.\n\nRemember: Price, volume and momentum show the crowd's mood in real time."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "It improves allocation, timing and risk management by integrating several perspectives"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. It improves allocation, timing and risk management by integrating several perspectives.\n\nWhy: Portfolio construction requires deciding what to own, how much and when, and controlling risk. Economic analysis helps with allocation across assets or sectors, fundamentals help with selection, technicals help with timing and stop levels, and quant work tests the process. Integrating them improves each step.\n\nWhy not the others:\nA – Cost reduction is not the main benefit of fusion.\nB – Fusion supports asset allocation; it does not replace it with stock picking.\nC – The 25% weights are only a starting point and are adjusted to conditions.\n\nRemember: Fusion helps with what, how much, when and how much risk."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Technical analysis alone should decide every sale"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. Fundamentals show when value has been realized while technicals flag weakening price trends.\n\nWhy: Selling is often harder than buying. Fundamental analysis tells you when a stock has reached or passed fair value, so further upside is limited. Technical analysis tells you when the trend is losing strength, through broken trendlines, lower highs or fading momentum. Together they help decide both why and when to sell.\n\nWhy not the others:\nB – This swaps the roles; momentum is technical and value is fundamental.\nC – Waiting for a downgrade can be slow; price often weakens before ratings change.\nD – Fusion uses both disciplines, not technicals alone.\n\nRemember: Sell when value is realized and the chart starts to weaken."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "The put/call ratio on options for the overall market"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Relative strength analysis, such as a ratio chart of the two stocks.\n\nWhy: A pair trade means buying one stock and shorting a related one, profiting from the difference in their performance. A ratio chart (stock A ÷ stock B) shows which one is gaining relative to the other. If the ratio is rising, A is outperforming and is the natural long; B becomes the short.\n\nWhy not the others:\nA – Candlestick patterns on each chart do not directly compare the two stocks.\nB – Sector on-balance volume describes the group, not which stock is stronger.\nD – The market put/call ratio is a broad sentiment gauge, not a pair-ranking tool.\n\nRemember: Pair trades are ranked with a ratio chart: long the stronger, short the weaker."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Only markets with unusually low volatility"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. All market conditions, since the approaches complement each other.\n\nWhy: Fusion analysis is not a tool for one type of market. In trending markets technicals confirm direction and fundamentals confirm the reason; in ranges value helps pick levels and technicals define the boundaries; near turning points economic analysis adds context. Because the disciplines cover each other's gaps, the combination helps in every environment.\n\nWhy not the others:\nA – Tops are one useful case, but the benefit is not limited to them.\nB – Ranges are also only one case.\nD – Fusion is not restricted to low-volatility markets.\n\nRemember: Fusion is an all-weather approach."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "By checking whether the company has raised its dividend"
     ],
     "correct": 0,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: A. By comparing it with technical objectives such as P&F counts or measured moves.\n\nWhy: Technical analysis has its own ways of estimating how far a move can go: point-and-figure counts and measured moves from chart patterns. If the analyst's target lies near these technical objectives, the target gains credibility. If it sits far beyond them, the technician can flag that the market may not get there as quickly as expected.\n\nWhy not the others:\nB – Rebuilding the DCF is fundamental work, not a technical cross-check.\nC – Polling other analysts checks opinions, not market behavior.\nD – A dividend increase does not test a price target.\n\nRemember: Cross-check fundamental targets with technical price objectives."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Quantitative → technical → economic → fundamental"
     ],
     "correct": 2,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: C. Economic → fundamental → technical → quantitative.\n\nWhy: A top-down process starts with the big picture and narrows down. First, economic analysis identifies the stage of the cycle and favored sectors. Next, fundamental analysis picks companies within those sectors. Then technical analysis times entries and exits. Finally, quantitative work tests and checks the overall process.\n\nWhy not the others:\nA – Starting with technicals is a bottom-up path, not top-down.\nB – Fundamentals before economics skips the 'top' of top-down.\nD – Starting with quant and ending with fundamentals reverses the logic.\n\nRemember: Top-down: economy, then company, then timing, then testing."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "An economic rationale: a strong economy lifts producers and carriers alike"
     ],
     "correct": 3,
-    "hasImage": false
+    "hasImage": false,
+    "explanation": "Answer: D. An economic rationale: a strong economy lifts producers and carriers alike.\n\nWhy: Dow reasoned that if industrial companies are making and selling more goods, railroads should be carrying more of those goods. So both averages should rise together in a healthy economy. If one rises and the other does not, the advance is unconfirmed and may not be supported by real economic activity.\n\nWhy not the others:\nA – Seasonal shipping patterns are not the basis of Dow's idea.\nB – Fibonacci relationships play no part in Dow's confirmation principle.\nC – Interest-rate cycles are not the original reasoning.\n\nRemember: Goods made must be shipped, so both averages should confirm each other."
   }
 ]
