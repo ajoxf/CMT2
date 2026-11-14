@@ -4,11 +4,11 @@
     "question": "According to J.M. Hurst's Principle of Cyclicality, what is the most effective approach to cycle analysis across different market segments?",
     "options": [
       "Analyze all securities using the same cycle periods for consistency",
-      "Use a top-down approach starting with broad indices, then sectors, then individual stocks",
       "Start with individual stocks, then build up to sectors and indices",
-      "Analyze each security in isolation, ignoring broader market cycles"
+      "Analyze each security in isolation, ignoring broader market cycles",
+      "Use a top-down approach starting with broad indices, then sectors, then individual stocks"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -16,11 +16,11 @@
     "question": "In the Principle of Harmonicity, what are the most common harmonic relationships to a dominant cycle?",
     "options": [
       "Multiples of 5 and 7",
-      "Multiples of 2 and 3",
       "Multiples of 4 and 6",
+      "Multiples of 2 and 3",
       "Only exact multiples of 10"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -64,23 +64,23 @@
     "question": "What is an 'inversion' in cycle theory?",
     "options": [
       "When a cycle completes in exactly half the expected time period",
-      "When price develops a swing high at an expected cycle low",
       "When the amplitude of a cycle doubles unexpectedly",
+      "When price develops a swing high at an expected cycle low",
       "When a dominant cycle splits into two equal sub-cycles"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 7,
     "question": "What are the two high-probability explanations for an inversion?",
     "options": [
-      "A stronger 2nd harmonic combined with a weaker dominant cycle",
       "A weaker 2nd harmonic with a stronger larger cycle, or a 3rd harmonic present",
+      "A stronger 2nd harmonic combined with a weaker dominant cycle",
       "A sudden lengthening of the dominant cycle's period",
       "A shift of the 2nd harmonic so its troughs align with dominant peaks"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -99,12 +99,12 @@
     "id": 9,
     "question": "Because nested cycle troughs tend to coincide while their crests do not, what does a composite of a dominant cycle and its 2nd and 4th harmonics typically look like?",
     "options": [
-      "Sharp, well-defined lows and broad, multi-peaked (rolling) highs",
       "Sharp, well-defined highs and broad, multi-trough lows",
+      "Sharp, well-defined lows and broad, multi-peaked (rolling) highs",
       "Highs and lows that are symmetrical and identical in shape",
       "A nearly flat line, because the harmonics largely cancel out"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -123,34 +123,34 @@
     "id": 11,
     "question": "In Hurst's Nominal Model, what is the relationship between the 18-month cycle and the 9-month cycle?",
     "options": [
-      "They are unrelated cycles that occur independently",
       "The 9-month cycle is the 2nd harmonic (multiple of 2) of the 18-month cycle",
+      "They are unrelated cycles that occur independently",
       "The 9-month cycle is the 3rd harmonic (multiple of 3) of the 18-month cycle",
-      "The 18-month cycle is always twice the amplitude of the 9-month cycle"
+      "The 9-month cycle is the 18-month cycle shifted by half a period"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 12,
     "question": "What is a key difference between Hurst's and Garrett's nominal models?",
     "options": [
-      "Hurst used trading days while Garrett used calendar days",
       "Hurst used calendar days and multiples of 2 and 3, while Garrett used trading days and only multiples of 3",
+      "Hurst used trading days while Garrett used calendar days",
       "Garrett's model only applies to commodity markets",
       "Hurst's model includes cycles shorter than one week while Garrett's does not"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 13,
     "question": "In Hurst's nominal model, which cycle sits immediately below the 40-week cycle?",
     "options": [
-      "30-week",
-      "20-week",
       "13-week",
-      "26-week"
+      "20-week",
+      "26-week",
+      "30-week"
     ],
     "correct": 1,
     "hasImage": false
@@ -159,36 +159,36 @@
     "id": 14,
     "question": "In Hurst cycle analysis, what does 'left translation' describe?",
     "options": [
-      "The cycle crest forms before the midpoint of the cycle (trough to trough)",
       "The cycle crest forms after the midpoint of the cycle",
       "The cycle trough arrives exactly on schedule",
+      "The cycle crest forms before the midpoint of the cycle (trough to trough)",
       "The cycle amplitude shrinks over time"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "A 40-day cycle repeatedly shows its crest around day 28 rather than day 20. What does this right translation suggest about the underlying longer-term trend?",
     "options": [
-      "It is rising (bullish)",
       "It is falling (bearish)",
       "It is flat",
-      "Nothing; translation carries no trend information"
+      "Nothing; translation carries no trend information",
+      "It is rising (bullish)"
     ],
-    "correct": 0,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 16,
     "question": "In which market environment is left translation (cycle crest forming before the midpoint) most common?",
     "options": [
-      "Bear markets / falling longer-term trend",
       "Bull markets / rising longer-term trend",
       "Only in low-volatility markets",
+      "Bear markets / falling longer-term trend",
       "Only in commodity markets"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -208,11 +208,11 @@
     "question": "When analyzing a potential inversion, what should an analyst examine to determine if the 3rd harmonic scenario is likely?",
     "options": [
       "The volume traded at the inverted point",
-      "Whether price has respected 3rd-harmonic lows in recent dominant cycles",
       "Whether the inversion coincides with an RSI divergence",
+      "Whether price has respected 3rd-harmonic lows in recent dominant cycles",
       "How closely the market tracks other major indices"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -232,35 +232,35 @@
     "question": "Why does the Principle of Variation emphasize that 'cycles within financial markets are messier than theoretical perfection'?",
     "options": [
       "Because cycle theory has no practical value in real markets",
-      "Because cycles fade, harmonics shift, and shocks can distort amplitudes",
       "Because cycles appear only during bull markets",
+      "Because cycles fade, harmonics shift, and shocks can distort amplitudes",
       "Because only one cycle is active at any given time"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 21,
     "question": "If a 100-day dominant cycle has a 2nd harmonic, what is the period of that 2nd harmonic?",
     "options": [
-      "200 days",
-      "75 days",
+      "33 days",
       "50 days",
-      "33 days"
+      "75 days",
+      "200 days"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 22,
     "question": "When estimating a dominant cycle's period from a chart, why do Hurst-based analysts usually measure from trough to trough rather than crest to crest?",
     "options": [
-      "Crests recur at more regular intervals but are harder to see",
       "Nested cycles tend to bottom together, so troughs are sharper than crests",
+      "Crests recur at more regular intervals but are harder to see",
       "Troughs occur on higher volume, which makes them easier to spot",
       "Crest-to-crest spacing measures the 2nd harmonic instead"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "What practical advantage does grouping securities into like-period cycles provide?",
     "options": [
       "It removes the need to study each security's own chart",
-      "It sharpens timing and shows which parts of the market move together",
       "It ensures that every security turns on the same day",
-      "It allows one cycle period to be applied to all markets"
+      "It allows one cycle period to be applied to all markets",
+      "It sharpens timing and shows which parts of the market move together"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -280,35 +280,35 @@
     "question": "Why do cycle-based composites tend to produce 'rolling tops' rather than sharp peaks?",
     "options": [
       "Several component cycles crest at exactly the same moment",
-      "Component cycles crest at different times, so highs form in stages",
       "The dominant cycle inverts at every major market top",
+      "Component cycles crest at different times, so highs form in stages",
       "Every harmonic becomes left translated near major tops"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 25,
     "question": "What should an analyst's approach be when choosing between Hurst's and Garrett's nominal models?",
     "options": [
-      "Use Hurst's model, since calendar days suit every market",
-      "Use Garrett's model, since trading days are always more accurate",
       "Let the data and cycle tools show which cycles are actually present",
+      "Use Hurst's model, since calendar days suit every market",
+      "Use Garrett's model, since trading days are more accurate",
       "Average the turning points projected by the two models"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 26,
     "question": "In a rising market a cycle's crest repeatedly forms after its midpoint. What does this imply about how the cycle spends its time?",
     "options": [
-      "It spends more of the cycle rising than falling",
       "It spends more of the cycle falling than rising",
       "Equal time rising and falling",
-      "The cycle has inverted"
+      "The cycle has inverted",
+      "It spends more of the cycle rising than falling"
     ],
-    "correct": 0,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -317,10 +317,10 @@
     "options": [
       "5 points (same amplitude)",
       "2.5 points (half the amplitude)",
-      "10 points (double the amplitude)",
-      "15 points (triple the amplitude)"
+      "15 points (triple the amplitude)",
+      "10 points (double the amplitude)"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -328,11 +328,11 @@
     "question": "What type of market event can cause a cycle's amplitude to become disproportionate to its period?",
     "options": [
       "Normal day-to-day trading activity",
-      "A major news event or shock that overpowers larger cycles",
       "A switch from daily to weekly data in the analysis",
-      "A change in the cycle's phase relative to its harmonics"
+      "A change in the cycle's phase relative to its harmonics",
+      "A major news event or shock that overpowers larger cycles"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -351,12 +351,12 @@
     "id": 30,
     "question": "A cycle's crests keep forming well before its midpoint (left translation). What is the most likely explanation?",
     "options": [
-      "A longer cycle is in its declining phase, pulling the shorter cycle down",
       "A 3rd harmonic is reinforcing the cycle's high",
+      "A longer cycle is in its declining phase, pulling the shorter cycle down",
       "A longer cycle is rising and lifting the shorter cycle",
       "The cycle's period is shortening over time"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   }
 ]

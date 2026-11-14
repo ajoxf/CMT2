@@ -4,11 +4,11 @@
     "question": "A trader wants to test whether a system's mean trade return is greater than zero. What is the appropriate null hypothesis?",
     "options": [
       "mu > 0",
-      "mu <= 0",
       "mu = sample mean",
-      "mu < 0 only"
+      "mu < 0 only",
+      "mu <= 0"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -39,12 +39,12 @@
     "id": 4,
     "question": "When should a student's t-test be used instead of a z-test?",
     "options": [
+      "When sampling randomly and the population SD is unknown",
       "When the population standard deviation is known",
       "When the sample size is greater than 1,000",
-      "When sampling randomly and the population SD is unknown",
       "Only when the population is perfectly normal"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -75,12 +75,12 @@
     "id": 7,
     "question": "What does a Type I error represent in hypothesis testing?",
     "options": [
+      "Rejecting the null hypothesis when it is actually true (false positive)",
       "Correctly rejecting a false null hypothesis",
       "Failing to reject the null hypothesis when it is true",
-      "Rejecting the null hypothesis when it is actually true (false positive)",
       "Failing to reject the null hypothesis when the alternative is true"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "A trader's breakout system produced 16 trades with mean return 2.5% and sample standard deviation 8%. The one-tailed test gives t = 1.25 (df = 15), p about 0.115. At alpha = 0.05, what is the conclusion?",
     "options": [
       "Reject H0; the edge is statistically proven",
-      "Fail to reject H0; evidence of a positive mean is insufficient",
       "Accept H0; the system has been shown to have no edge",
-      "Reject H0, because the sample mean is positive"
+      "Reject H0, because the sample mean is positive",
+      "Fail to reject H0; evidence of a positive mean is insufficient"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "Regressing a system's cumulative equity against trade number gives r^2 = 0.64 and an upward slope. What is r and how is it described?",
     "options": [
       "0.41; weak",
-      "0.64; moderate",
       "0.80; strong positive",
+      "0.64; moderate",
       "-0.80; strong negative"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -136,11 +136,11 @@
     "question": "An equity curve of 10 points has r = 0.90 with trade number. t = r*sqrt(n-2)/sqrt(1-r^2) is about 5.8 with 8 df (p < 0.001). Conclusion at alpha = 0.05?",
     "options": [
       "Fail to reject H0 of zero correlation",
-      "Reject H0; the linear trend is significant",
       "Accept H0",
+      "Reject H0; the linear trend is significant",
       "Cannot be decided without the mean return"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -160,11 +160,11 @@
     "question": "What does 'degrees of freedom' represent when testing a sample mean?",
     "options": [
       "The total number of observations in the sample",
-      "The number of observations minus 1 (n - 1)",
       "n − 2, because both the mean and variance are estimated",
+      "The number of observations minus 1 (n - 1)",
       "n + 1, to correct for small-sample bias"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -172,23 +172,23 @@
     "question": "A system's 14 trade returns have a standard deviation several times the mean and excess kurtosis of -1.5. Why should a t-test on the mean be interpreted cautiously?",
     "options": [
       "A t-test needs at least 30 trades by definition, so it cannot be run",
-      "Small samples from a clearly non-normal distribution weaken the t-test's assumptions and power",
       "Negative excess kurtosis means the sample mean is overstated",
+      "Small samples from a clearly non-normal distribution weaken the t-test's assumptions and power",
       "Kurtosis matters only for z-tests, not t-tests"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 16,
     "question": "What does a profit factor greater than 2 indicate for a trading system?",
     "options": [
+      "Gross profits are at least twice gross losses",
       "The system loses money overall",
       "The profits are exactly twice the losses",
-      "Gross profits are at least twice gross losses",
       "The win rate is at least 67%"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -220,11 +220,11 @@
     "question": "A breakout system's trade-return distribution shows positive skewness. What does this indicate?",
     "options": [
       "Most trades are large winners, with a few small losers",
-      "The right tail is longer, with outliers extending farther on the upside",
       "The mean equals the median",
-      "Winning and losing trades are equally frequent"
+      "Winning and losing trades are equally frequent",
+      "The right tail is longer, with outliers extending farther on the upside"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -232,11 +232,11 @@
     "question": "A return distribution has excess kurtosis of -1.2. How is it classified?",
     "options": [
       "Leptokurtic, with fat tails and a tall peak",
-      "Platykurtic, thinner tails and a flatter peak",
       "Mesokurtic, like a normal distribution",
+      "Platykurtic, thinner tails and a flatter peak",
       "Positively skewed, with a long right tail"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -256,11 +256,11 @@
     "question": "What is the relationship between the coefficient of determination (r²) and the correlation coefficient (r)?",
     "options": [
       "r² = 2r",
-      "r = √r² (taking the square root, considering the sign)",
       "r² = 1 − r",
-      "r² is the slope of the regression line"
+      "r² is the slope of the regression line",
+      "r = √r² (taking the square root, considering the sign)"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "When testing a correlation coefficient, what are the degrees of freedom?",
     "options": [
       "n - 1",
-      "n - 2",
       "n",
-      "n - 3"
+      "n - 3",
+      "n - 2"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -280,11 +280,11 @@
     "question": "A system's average winning trade is $600 and average losing trade is $200. What does its payoff ratio of 3.0 mean?",
     "options": [
       "It wins three times as often as it loses",
-      "The average winner is three times the average loser",
       "It earns 3% on average per trade",
+      "The average winner is three times the average loser",
       "Its profit factor is also exactly 3.0"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -292,11 +292,11 @@
     "question": "In the context of financial markets, why is statistical inference particularly challenging?",
     "options": [
       "Market prices are recorded too imprecisely to analyze",
-      "Returns follow a known distribution, leaving nothing to infer",
       "Financial data is incredibly noisy with randomness playing a much larger role than in other fields",
+      "Returns follow a known distribution, leaving nothing to infer",
       "Sample sizes in trading are usually too large to be meaningful"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -304,23 +304,23 @@
     "question": "What is the proper interpretation when we 'fail to reject' the null hypothesis?",
     "options": [
       "We have proven the null hypothesis is true",
-      "We accept the null hypothesis as fact",
       "We lack sufficient evidence to reject it, but we don't accept it as true",
+      "We accept the null hypothesis as fact",
       "We have proven the alternative hypothesis is false"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 27,
     "question": "What win-rate range is typical for trend-following systems?",
     "options": [
-      "60% to 80%",
-      "50% to 60%",
+      "10% to 30%",
       "30% to 50%",
-      "10% to 30%"
+      "50% to 60%",
+      "60% to 80%"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -328,33 +328,33 @@
     "question": "For a long trade, what does Maximum Adverse Excursion (MAE) measure?",
     "options": [
       "The trade's final percentage gain or loss",
-      "How far price moved against the position while open",
       "The highest open profit reached during the trade",
-      "The correlation between consecutive trades"
+      "The correlation between consecutive trades",
+      "How far price moved against the position while open"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 29,
     "question": "If a researcher uses alpha = 0.01 instead of 0.05, what does this indicate?",
     "options": [
+      "A stricter test needing stronger evidence to reject H0",
       "Greater tolerance for Type I errors",
       "A lower standard of evidence for rejection",
-      "A stricter test needing stronger evidence to reject H0",
       "The p-value of the test will be smaller"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 30,
     "question": "What is the probability of flipping five consecutive heads with a fair coin?",
     "options": [
-      "0.50",
+      "0.005",
       "0.031",
       "0.10",
-      "0.005"
+      "0.50"
     ],
     "correct": 1,
     "hasImage": false

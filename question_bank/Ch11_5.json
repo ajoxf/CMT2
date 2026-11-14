@@ -4,11 +4,11 @@
     "question": "According to the guideline of alternation in Elliott Wave theory, if wave 2 of an impulse is a sharp retracement, what should you expect for wave 4?",
     "options": [
       "Another sharp retracement with similar characteristics",
-      "A sideways correction such as a flat, triangle, or double three",
       "A deeper zigzag that retraces beyond wave 2's low",
+      "A sideways correction such as a flat, triangle, or double three",
       "A double zigzag of similar depth to wave 2"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -16,11 +16,11 @@
     "question": "What is the key characteristic that distinguishes sharp corrections from sideways corrections in Elliott Wave analysis?",
     "options": [
       "Sharp corrections typically last longer than sideways ones",
-      "Sharp corrections make no new extreme beyond the end of the prior impulse",
       "Sharp corrections retrace exactly half of the prior impulse",
-      "Sharp corrections typically unfold as flats or triangles"
+      "Sharp corrections typically unfold as flats or triangles",
+      "Sharp corrections make no new extreme beyond the end of the prior impulse"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -28,11 +28,11 @@
     "question": "Which correction patterns are typically classified as sideways corrections according to the guideline of alternation?",
     "options": [
       "Single zigzags, double zigzags, and triple zigzags",
-      "Flats, triangles, and double threes",
       "Zigzags followed by ending diagonals",
+      "Flats, triangles, and double threes",
       "Sharp retracements and single abc zigzags"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -41,10 +41,10 @@
     "options": [
       "At the 61.8% retracement of the entire prior impulse",
       "At the starting point of wave 1 of the same degree",
-      "Within the prior fourth wave of one lesser degree, often near its end",
-      "At the level where wave 2 of the same degree ended"
+      "At the level where wave 2 of the same degree ended",
+      "Within the prior fourth wave of one lesser degree, often near its end"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "After connecting the endpoints of waves 2 and 4 in Elliott's channeling technique, where should the parallel line be drawn?",
     "options": [
       "Starting at the beginning of wave 1",
-      "Starting at the end of wave 2",
       "Starting at the end of wave 3",
+      "Starting at the end of wave 2",
       "Starting at the projected end of wave 5"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -76,23 +76,23 @@
     "question": "What does Elliott Wave theory suggest when a fifth wave approaches its upper trendline on declining volume?",
     "options": [
       "The wave will likely penetrate the upper line significantly",
-      "The wave will accelerate and extend beyond normal expectations",
       "The end of the wave will meet or fall short of the trendline",
+      "The wave will accelerate and extend beyond normal expectations",
       "A new impulse wave sequence is beginning"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 8,
     "question": "What is a 'throwover' in Elliott Wave analysis?",
     "options": [
-      "When wave 4 overlaps with wave 1, violating Elliott's rules",
       "When a fifth wave penetrates the upper trendline on heavy volume",
+      "When wave 4 overlaps with wave 1, violating Elliott's rules",
       "When a correction exceeds 100% of the previous impulse",
       "When wave 3 fails to exceed the high of wave 1"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -111,12 +111,12 @@
     "id": 10,
     "question": "In the idealized Elliott Wave progression, what psychological state characterizes the beginning of wave 1?",
     "options": [
-      "Widespread optimism as the crowd recognizes a new bull market",
       "Mostly a rebound from depressed levels; few believe a new trend has begun",
+      "Widespread optimism as the crowd recognizes a new bull market",
       "Broad participation as fundamentals clearly improve",
       "Renewed panic as the prior lows are tested again"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "What typically characterizes the psychology of wave 2 in Elliott Wave theory?",
     "options": [
       "Growing confidence that a new uptrend is under way",
-      "Fear returns as lows are tested; most still see the trend as down",
       "Peak enthusiasm with maximum market participation",
+      "Fear returns as lows are tested; most still see the trend as down",
       "Broadening strength as fundamentals begin to improve"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -159,24 +159,24 @@
     "id": 14,
     "question": "Do sideways corrections typically include a new price extreme that lies beyond the orthodox end of the preceding impulse wave?",
     "options": [
-      "No, sideways corrections never include new price extremes",
-      "Yes, they usually include a new price extreme",
+      "No, a new extreme is what defines a sharp correction",
       "Only in bear markets do they include new price extremes",
-      "Only if the correction is a triangle pattern"
+      "Only if the correction is a triangle pattern",
+      "Yes, they usually include a new price extreme"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "What type of correction pattern are sharp corrections almost always composed of?",
     "options": [
+      "Zigzags (single or double)",
       "Flats and expanded flats",
       "Triangles and wedges",
-      "Zigzags (single or double)",
       "Double threes and complex combinations"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "According to Elliott Wave guidelines, if you observe wave 2 ending at the level of the fourth wave of wave 1, where would you expect wave 4 to end?",
     "options": [
       "At the beginning of wave 1",
-      "Near the level of the fourth wave of wave 3",
       "At exactly 50% retracement of wave 3",
+      "Near the level of the fourth wave of wave 3",
       "At the same level as wave 2"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -196,35 +196,35 @@
     "question": "In the context of parallel channels and diagonal triangles, what do throw-overs in declining markets share with throw-overs in rising markets?",
     "options": [
       "Declining throw-overs occur on light volume instead",
-      "They share the same characteristics, including heavy volume",
       "Throw-overs cannot occur in declining markets",
-      "Declining throw-overs need no channel line to occur"
+      "Declining throw-overs need no channel line to occur",
+      "They share the same characteristics, including heavy volume"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 18,
     "question": "In Elliott wave psychology, what sentiment is typical as a fifth wave completes a major top?",
     "options": [
-      "Widespread fear and talk of crisis",
       "Complacency and confidence, with news flow still largely positive",
-      "Balanced, realistic valuation assessments",
-      "Indifference with very low participation"
+      "Widespread fear, with talk of crisis and recession",
+      "Balanced, realistic assessments of valuation and risk",
+      "Indifference, with very low participation and volume"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 19,
     "question": "In Elliott wave theory, what is characteristic of a wave B rally within a larger correction after a top?",
     "options": [
-      "Broad participation and strong breadth confirm the advance",
       "A narrow, weak rally with non-confirmations, often amid renewed optimism",
+      "Broad participation and strong breadth confirm the advance",
       "A rally that exceeds the prior top on rising breadth",
       "A rally on steadily expanding breadth and volume"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -232,11 +232,11 @@
     "question": "Early in a new decline after a major top, how do many participants typically interpret the first breakdown below prior support?",
     "options": [
       "As confirmation of a major bear market",
-      "As a buying opportunity within an ongoing bull trend",
       "As a reason to exit all equity exposure",
-      "As irrelevant noise"
+      "As irrelevant noise",
+      "As a buying opportunity within an ongoing bull trend"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -244,23 +244,23 @@
     "question": "In a declining Elliott sequence, what characterises the most destructive phase (typically wave C or the third wave down)?",
     "options": [
       "Narrow, selective selling while breadth holds steady",
-      "Broad, persistent declines as fundamentals catch up with price",
       "Choppy sideways trading as optimism slowly returns",
+      "Broad, persistent declines as fundamentals catch up with price",
       "Brief, sharp declines quickly reversed on heavy buying"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 22,
     "question": "If you are analyzing a market and observe that wave 4 is developing as a triangle pattern, what type of correction was wave 2 most likely to have been, according to the guideline of alternation?",
     "options": [
+      "A sharp zigzag retracement",
       "Another triangle to maintain consistency",
       "A flat correction for symmetry",
-      "A sharp zigzag retracement",
       "A double three combination"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "A trader observes wave 5 approaching the upper channel line with volume significantly higher than during wave 3. Based on Elliott Wave guidelines, what should the trader anticipate?",
     "options": [
       "Wave 5 will fall short of the channel line",
-      "A possible throwover penetration of the upper channel line",
       "Immediate reversal without touching the channel",
-      "Extension of wave 5 into a complex pattern"
+      "Extension of wave 5 into a complex pattern",
+      "A possible throwover penetration of the upper channel line"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -280,11 +280,11 @@
     "question": "You're analyzing a corrective fourth wave and want to project where it might find support. According to Elliott Wave depth guidelines, where should you look first?",
     "options": [
       "The 38.2% retracement of wave 3",
-      "The end of wave 2 of the same degree",
       "The fourth wave within wave 3, especially near its end",
+      "The end of wave 2 of the same degree",
       "The start of the entire impulse sequence"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -328,33 +328,33 @@
     "question": "According to Elliott Wave psychology, what typically characterizes wave 3 in terms of market psychology and fundamentals?",
     "options": [
       "Deteriorating fundamentals with persistent pessimism",
-      "Broadening strength, improving fundamentals, and the trend seen as up",
       "Peak optimism with fundamentals already fully discounted",
-      "Confusion and sideways action with mixed signals"
+      "Confusion and sideways action with mixed signals",
+      "Broadening strength, improving fundamentals, and the trend seen as up"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 29,
     "question": "You observe a completed impulse wave where wave 2 was a flat correction that included a new price extreme. For the upcoming wave 4 correction, what should you expect based on alternation guidelines?",
     "options": [
-      "Another flat correction to maintain the pattern",
       "A sharp zigzag correction that does not include a new price extreme",
+      "Another flat correction to maintain the pattern",
       "An extended correction exceeding 78.6% retracement",
       "A triangle that necessarily includes a new price extreme"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 30,
     "question": "How does crowd sentiment at a major Elliott wave bottom (start of wave 1) typically contrast with sentiment at a major top (end of wave 5)?",
     "options": [
-      "Both show balanced, neutral sentiment",
+      "Both show similar, broadly neutral sentiment readings",
       "Bottom: deep pessimism and fear; Top: confidence and complacency",
-      "Bottom: euphoria; Top: panic",
-      "Sentiment is identical; only price differs"
+      "Bottom: rising optimism and greed; Top: fear and pessimism",
+      "Bottom: complacency; Top: deep pessimism and panic"
     ],
     "correct": 1,
     "hasImage": false

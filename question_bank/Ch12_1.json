@@ -3,12 +3,12 @@
     "id": 1,
     "question": "Experienced system developers report that roughly what share of the trading ideas they test ever reach live production?",
     "options": [
-      "Less than 1%",
       "Approximately 5%",
       "Around 10%",
+      "Less than 1%",
       "Between 15-20%"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -28,11 +28,11 @@
     "question": "A developer writes down objectives for a low-drawdown trend-following system. Which objective is properly measurable?",
     "options": [
       "Deliver strong returns in most years with low risk",
-      "Annual return of 6%–9%, max drawdown under 6%",
       "Outperform most peers when markets rise",
+      "Annual return of 6%–9%, max drawdown under 6%",
       "Keep drawdowns small relative to returns"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "A profit factor greater than 10 most strongly suggests:",
     "options": [
       "An exceptionally robust edge",
-      "Probable curve fitting",
       "A system that can safely take high leverage",
+      "Probable curve fitting",
       "A mean-reversion rather than a trend model"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -136,11 +136,11 @@
     "question": "Which trading model assumes that prices which stray far from their typical level will tend to move back toward that average?",
     "options": [
       "Trend-following model",
-      "Mean reversion model",
       "Arbitrage trading",
+      "Mean reversion model",
       "Scalping trading"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -148,11 +148,11 @@
     "question": "Scalping trading is characterized by:",
     "options": [
       "Holding positions for weeks to capture trends",
-      "Many very short-term trades seeking small gains",
       "Few large trades with high reward-to-risk",
-      "Buying one asset while shorting a related one"
+      "Buying one asset while shorting a related one",
+      "Many very short-term trades seeking small gains"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -160,11 +160,11 @@
     "question": "Pairs trading involves:",
     "options": [
       "Trading one asset on two different time frames",
-      "Going long one asset and short a correlated one together",
       "Buying an asset and its call option together",
-      "Using two indicators that must both confirm"
+      "Using two indicators that must both confirm",
+      "Going long one asset and short a correlated one together"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "In trading system development, what is meant by fusion analysis?",
     "options": [
       "Using technical signals across several time frames",
-      "Combining technical, fundamental and quantitative inputs",
       "Blending trend-following and mean-reversion models",
+      "Combining technical, fundamental and quantitative inputs",
       "Trading several uncorrelated markets together"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -207,12 +207,12 @@
     "id": 18,
     "question": "What is the purpose of conducting entry/exit testing with random entries?",
     "options": [
-      "To measure how fast the system executes",
       "To judge whether exits add value apart from entry skill",
+      "To measure how fast the system executes",
       "To raise trade frequency for better statistics",
       "To estimate slippage and commission costs"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -268,23 +268,23 @@
     "question": "What effect do protective stops usually have on a trading system's returns?",
     "options": [
       "They usually raise returns because losing trades are cut early",
-      "They seldom boost returns but guard against catastrophic losses",
       "They lower drawdowns without ever affecting overall returns",
+      "They seldom boost returns but guard against catastrophic losses",
       "They improve returns mainly for mean-reversion models"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 24,
     "question": "What is the primary reason to avoid overriding a fully vetted trading system during losing periods?",
     "options": [
-      "Every override adds commissions that erode the system's net edge",
       "Skipped trades may include the few big winners behind long-run returns",
+      "Every override adds commissions that erode the system's net edge",
       "Manual overrides make the system's position sizing impossible to compute",
       "Pausing during drawdowns tends to raise the system's volatility"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -292,11 +292,11 @@
     "question": "Which testing method typically produces the best-looking results but may not be achievable in real life?",
     "options": [
       "Walk forward analysis",
-      "Out-of-sample testing",
       "Historical backtesting",
+      "Out-of-sample testing",
       "Real-time analysis"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -316,11 +316,11 @@
     "question": "Walk forward analysis (WFA) involves:",
     "options": [
       "Testing only on the most recent year of data, then trading live",
-      "Optimizing on one window, then testing on the next unseen window, repeatedly",
       "Optimizing once on all history, then confirming on the same data",
-      "Testing on randomly reshuffled trade sequences to gauge risk"
+      "Testing on randomly reshuffled trade sequences to gauge risk",
+      "Optimizing on one window, then testing on the next unseen window, repeatedly"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -365,10 +365,10 @@
     "options": [
       "Less impact, because entries determine the edge",
       "About the same impact",
-      "Greater impact in most cases",
-      "Impact on win rate only, not profitability"
+      "Impact on win rate only, not profitability",
+      "Greater impact in most cases"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -387,12 +387,12 @@
     "id": 33,
     "question": "Which of the following is NOT one of the five common trading models discussed?",
     "options": [
-      "Trend-following",
       "Momentum trading",
+      "Trend-following",
       "Mean reversion",
       "Pairs trading"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -412,23 +412,23 @@
     "question": "What is the primary purpose of diversification in trading systems?",
     "options": [
       "To raise absolute returns by adding more markets",
-      "To reduce drawdowns and improve risk-adjusted returns",
       "To increase trade count for better statistics",
+      "To reduce drawdowns and improve risk-adjusted returns",
       "To lower total commissions"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 36,
     "question": "When conducting a sweet spot analysis, what two factors are primarily being balanced?",
     "options": [
-      "Win rate and trade frequency",
       "Returns and drawdowns",
+      "Win rate and trade frequency",
       "Entry timing and exit timing",
       "Liquidity and slippage"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -447,12 +447,12 @@
     "id": 38,
     "question": "Why are slippage and commissions often overlooked but crucial to include in testing?",
     "options": [
-      "They mainly affect long-term buy-and-hold systems",
       "Their cumulative drag can erase an active system's edge",
+      "They mainly affect long-term buy-and-hold systems",
       "They are already embedded in historical prices",
       "They matter only for illiquid futures"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -461,10 +461,10 @@
     "options": [
       "Is about 1.0",
       "Is below 1.0, offset by a high win rate",
-      "Is greater than 1.0",
-      "Is irrelevant if the win rate exceeds 50%"
+      "Is irrelevant if the win rate exceeds 50%",
+      "Is greater than 1.0"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -473,10 +473,10 @@
     "options": [
       "Is greater than 1.0",
       "Is roughly 1.0",
-      "Is less than 1.0",
-      "Must exceed 2.0 to offset a low win rate"
+      "Must exceed 2.0 to offset a low win rate",
+      "Is less than 1.0"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -484,23 +484,23 @@
     "question": "When sizing positions for a tested system, what role does its historical maximum drawdown play?",
     "options": [
       "It sets how often the system is allowed to trade each month",
-      "It is the key input for deciding position size and allowable leverage",
       "It fixes the distance at which stop-loss orders are placed",
-      "It determines the profit target used on each individual trade"
+      "It determines the profit target used on each individual trade",
+      "It is the key input for deciding position size and allowable leverage"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 42,
     "question": "When developing entry rules, what is the recommended approach regarding complexity?",
     "options": [
-      "Add parameters until in-sample results stop improving",
       "Keep it simple enough to explain in plain English",
+      "Add parameters until in-sample results stop improving",
       "Use at least one parameter per market regime",
       "Scale complexity with the number of years tested"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -509,22 +509,22 @@
     "options": [
       "Higher transaction costs from more frequent signals",
       "Slower order execution in live markets",
-      "Greater overfitting risk with little predictive value",
-      "Fewer trades, which weakens the test statistics"
+      "Fewer trades, which weakens the test statistics",
+      "Greater overfitting risk with little predictive value"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 44,
     "question": "Well-constructed trading system objectives should be:",
     "options": [
-      "Broad enough to allow flexibility",
       "Measurable and specific",
+      "Broad enough to allow flexibility",
       "Set relative to other traders' results",
       "Revised after each losing month"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -533,22 +533,22 @@
     "options": [
       "They usually improve absolute returns by banking gains",
       "They should be avoided entirely in systematic trading",
-      "They rarely raise returns but may improve risk-adjusted returns",
-      "They limit drawdowns more effectively than stop-losses"
+      "They limit drawdowns more effectively than stop-losses",
+      "They rarely raise returns but may improve risk-adjusted returns"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 46,
     "question": "What is an alternative way to achieve diversification besides trading uncorrelated assets?",
     "options": [
-      "Increase position size in the single best-performing market",
       "Trade correlated assets with different strategies or time frames",
+      "Increase position size in the single best-performing market",
       "Concentrate capital in one highly liquid market",
       "Lower the number of trades taken per year"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -567,12 +567,12 @@
     "id": 48,
     "question": "How is profit factor calculated?",
     "options": [
-      "Net profit divided by number of trades",
       "Gross profit divided by gross loss",
+      "Net profit divided by number of trades",
       "Average win divided by average loss",
       "Total profit minus total loss"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -580,11 +580,11 @@
     "question": "What happens to trading system success rates as you move from historical backtesting to out-of-sample to walk forward to real-time analysis?",
     "options": [
       "Results usually improve as more data is used",
-      "Results stay about the same",
       "Results become more realistic and often decline",
+      "Results stay about the same",
       "Results improve only in walk-forward testing"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {

@@ -15,24 +15,24 @@
     "id": 2,
     "question": "What does a beta of 1.0 represent?",
     "options": [
+      "The investment tends to move in line with the market on average",
       "The investment tends to move about twice as much as the market",
       "The investment's returns are uncorrelated with the market",
-      "The investment tends to move in line with the market on average",
       "The investment tends to move about half as much as the market"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 3,
     "question": "In the alpha formula α = Rp - (Rf + β × (Rm - Rf)), what does Rf represent?",
     "options": [
-      "Return of the benchmark index over the period",
       "Risk-free rate, often proxied by the 10-year Treasury yield",
+      "Return of the benchmark index over the period",
       "Required return on the portfolio given its beta",
       "Realized return of the fund over the period"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -40,11 +40,11 @@
     "question": "From a technical analyst's point of view, where is alpha most likely to be found?",
     "options": [
       "In assets with the lowest valuations relative to earnings",
-      "In assets with the highest dividend yields",
       "Where identifiable trends let prices beat the market averages for extended periods",
+      "In assets with the highest dividend yields",
       "In assets whose prices fluctuate randomly around fair value"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -52,23 +52,23 @@
     "question": "A technician hunting for alpha wants tools that identify trend breakouts and continuations. Which group of tools best fits that goal?",
     "options": [
       "Valuation ratios such as price-to-earnings and price-to-book",
-      "Moving averages, oscillators and price-envelope tools such as Bollinger Bands",
       "Breadth measures such as the advance-decline line",
-      "Sentiment gauges such as the put/call ratio"
+      "Sentiment gauges such as the put/call ratio",
+      "Moving averages, oscillators and price-envelope tools such as Bollinger Bands"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "How would a strict believer in the Efficient Markets Hypothesis (EMH) view the effort to discover new, predictable trends by studying price action?",
     "options": [
+      "As unlikely to repay the time and effort required",
       "As promising, because prices adjust slowly to news",
       "As worthwhile only in illiquid small-cap stocks",
-      "As unlikely to repay the time and effort required",
       "As useful whenever price signals are confirmed by volume"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -89,10 +89,10 @@
     "options": [
       "Random Walk Theory and Chaos Theory",
       "Modern Portfolio Theory and Capital Asset Pricing Model",
-      "Adaptive Market Hypothesis (AMH) and Fractal Market Hypothesis (FMH)",
-      "Behavioral Finance Model and Prospect Theory"
+      "Behavioral Finance Model and Prospect Theory",
+      "Adaptive Market Hypothesis (AMH) and Fractal Market Hypothesis (FMH)"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "Who articulated the Adaptive Market Hypothesis (AMH)?",
     "options": [
       "Eugene Fama",
-      "Andrew Lo",
       "Harry Markowitz",
+      "Andrew Lo",
       "William Sharpe"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "Under the Adaptive Market Hypothesis, what is the main reason markets fail to adjust efficiently to information?",
     "options": [
       "So much information is released that no one can process it all",
-      "Participants' behavior evolves as expectations and biases shift",
       "Transaction costs keep prices from adjusting to new information",
-      "Regulation stops prices from moving all the way to fair value"
+      "Regulation stops prices from moving all the way to fair value",
+      "Participants' behavior evolves as expectations and biases shift"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -136,23 +136,23 @@
     "question": "Research on trading activity around 52-week extremes found that volume tends to rise when a stock moves beyond its prior 52-week high or low. What does this suggest?",
     "options": [
       "Those price levels carry new information about earnings",
-      "Prior price extremes are psychologically salient reference points that influence trading decisions",
       "Volume is driven mainly by index rebalancing at those levels",
-      "Trading activity is independent of where price sits in its 12-month range"
+      "Trading activity is independent of where price sits in its 12-month range",
+      "Prior price extremes are psychologically salient reference points that influence trading decisions"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 13,
     "question": "Why is the rise in trading volume when a stock moves past its 52-week high or low considered an important finding?",
     "options": [
-      "It reliably signals a change in the company's fundamentals",
       "Trading behavior changes even though the price level reveals nothing new about fundamentals",
+      "It reliably signals a change in the company's fundamentals",
       "It shows these levels usually coincide with earnings announcements",
       "It is explained entirely by institutional selling pressure"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -172,23 +172,23 @@
     "question": "If a market is shown NOT to be weak-form efficient, which statement is most accurate?",
     "options": [
       "Historical prices are fully reflected, so charts add no value",
-      "Some predictability exists in historical price data, which technical methods may exploit",
       "Public fundamental data is no longer priced in",
+      "Some predictability exists in historical price data, which technical methods may exploit",
       "Prices follow a perfect random walk"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 16,
     "question": "Under the Adaptive Market Hypothesis, investors in some markets absorb new information slowly. When such a market is already moving strongly in one direction, what does this imply?",
     "options": [
-      "The trend is more likely to persist than to reverse",
       "The trend should reverse quickly as arbitrageurs step in",
       "Price direction becomes unpredictable until new data arrives",
-      "Volume, rather than price, will absorb the new information"
+      "Volume, rather than price, will absorb the new information",
+      "The trend is more likely to persist than to reverse"
     ],
-    "correct": 0,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -220,11 +220,11 @@
     "question": "In the alpha formula α = Rp − [Rf + β × (Rm − Rf)], what does the term β × (Rm − Rf) represent?",
     "options": [
       "The portfolio's excess return over the benchmark index",
-      "The market risk premium scaled by the portfolio's beta",
       "The risk-free return the portfolio would earn with no risk",
-      "The portfolio's tracking error relative to the index"
+      "The portfolio's tracking error relative to the index",
+      "The market risk premium scaled by the portfolio's beta"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -255,12 +255,12 @@
     "id": 22,
     "question": "A stock has a beta of 1.6 relative to a broad market index. What does this imply when the stock is added to a diversified portfolio?",
     "options": [
-      "It is expected to move about 60% less than the market and lower portfolio volatility",
       "It is expected to move roughly 1.6 times as much as the market and add to portfolio volatility",
+      "It is expected to move about 60% less than the market and lower portfolio volatility",
       "It will outperform the market by 1.6% per year",
       "It has no meaningful relationship with the market's movements"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -280,11 +280,11 @@
     "question": "If a portfolio's beta is 0, its alpha simplifies to which expression?",
     "options": [
       "Rp − Rm",
-      "Rp − Rf",
       "Rm − Rf",
+      "Rp − Rf",
       "Rp"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -328,23 +328,23 @@
     "question": "Why can a portfolio with a lower total return than another still show a similar or higher alpha?",
     "options": [
       "Alpha gives extra credit to portfolios that carry higher volatility",
-      "With a lower beta, less of its return is expected from market exposure",
       "Alpha compares the portfolio only with the risk-free rate, not the market",
+      "With a lower beta, less of its return is expected from market exposure",
       "Alpha ignores the benchmark's return whenever beta is below 1.0"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 29,
     "question": "When a technician presents research claiming a new source of alpha, what should the work do to be persuasive to academically trained professionals?",
     "options": [
+      "Reconcile its results with one or more established models of market behavior",
       "Show the strategy was profitable in the most recent year",
       "Demonstrate a high win rate on a few chart examples",
-      "Reconcile its results with one or more established models of market behavior",
       "Avoid reference to academic models, which reject technical analysis"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "What cognitive bias-related behavior was identified in the 52-week high/low research that suggests informational inefficiency?",
     "options": [
       "Investors traded mainly around earnings announcements",
-      "Investors traded on new 52-week highs or lows even without accompanying fundamental news",
       "Volume rose only when new highs coincided with positive news",
+      "Investors traded on new 52-week highs or lows even without accompanying fundamental news",
       "Investors ignored past price extremes when making decisions"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   }
 ]

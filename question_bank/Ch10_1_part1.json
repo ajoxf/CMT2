@@ -3,12 +3,12 @@
     "id": 1,
     "question": "Why can raw relative strength ratios (security price divided by benchmark price) not be compared directly across different securities?",
     "options": [
-      "They are too volatile from week to week to be meaningful",
       "Their size depends on each pair's price levels, so values have no common meaning",
+      "They are too volatile from week to week to be meaningful",
       "They must first be adjusted for each security's dividend yield",
       "They are valid only on daily data, not on weekly or monthly charts"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -27,12 +27,12 @@
     "id": 3,
     "question": "Index ABC rises steadily for a year, but its relative strength line against the broad market declines over the same period. What does this tell you?",
     "options": [
-      "The price trend is up and the relative trend is also up",
       "Price trend up, relative trend down; the market rose faster",
+      "The price trend is up and the relative trend is also up",
       "The price trend is down and the relative trend is also down",
       "Price trend down, relative trend up; the market fell faster"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -52,11 +52,11 @@
     "question": "Security DEF shows a JdK RS-Ratio reading of 115. How should this be interpreted?",
     "options": [
       "DEF is lagging its benchmark by 15%",
-      "DEF is outperforming its benchmark",
       "DEF's relative performance is neutral versus its benchmark",
-      "DEF is 15% more volatile than its benchmark"
+      "DEF is 15% more volatile than its benchmark",
+      "DEF is outperforming its benchmark"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "What was the main motivation behind the development of Relative Rotation Graphs?",
     "options": [
       "To replace chart-based technical analysis entirely",
-      "To assess a whole universe at once, without thousands of separate comparisons",
       "To build a more accurate version of Wilder's RSI",
+      "To assess a whole universe at once, without thousands of separate comparisons",
       "To forecast absolute price targets for every security in a portfolio"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -89,10 +89,10 @@
     "options": [
       "Moving averages and volume indicators",
       "Price momentum and relative volume",
-      "JdK RS-Ratio and JdK RS-Momentum",
-      "Absolute strength and relative volatility"
+      "Absolute strength and relative volatility",
+      "JdK RS-Ratio and JdK RS-Momentum"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -101,22 +101,22 @@
     "options": [
       "The security is outperforming the benchmark",
       "The security is moving sideways relative to the benchmark",
-      "The security is underperforming the benchmark",
-      "The security has negative absolute returns"
+      "The security has negative absolute returns",
+      "The security is underperforming the benchmark"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 10,
     "question": "On a chart of a security's JdK RS-Ratio, readings well above 100 (for example 104-106) should generally be read as:",
     "options": [
+      "Strong relative performance versus the benchmark",
       "A sign of relative weakness versus the benchmark",
       "Neutral, since only crossings of 100 matter",
-      "Strong relative performance versus the benchmark",
       "An overbought warning that a relative decline is due"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -148,11 +148,11 @@
     "question": "What type of calculation underlies the JdK RS-Momentum indicator?",
     "options": [
       "Simple moving average crossover",
-      "Exponential smoothing",
       "Rate of change approach",
+      "Exponential smoothing",
       "Standard deviation calculation"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -160,47 +160,47 @@
     "question": "How does the JdK RS-Momentum line typically behave relative to the JdK RS-Ratio line?",
     "options": [
       "They turn at the same time and convey the same information",
-      "RS-Momentum tends to lead RS-Ratio, warning of a coming turn",
       "RS-Ratio tends to lead RS-Momentum, confirming turns early",
+      "RS-Momentum tends to lead RS-Ratio, warning of a coming turn",
       "They tend to move in opposite directions to each other"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "When JdK RS-Momentum falls through 100, what is usually happening to the JdK RS-Ratio at about that time?",
     "options": [
-      "It is bottoming and beginning to rise",
       "It is topping out and beginning to decline",
+      "It is bottoming and beginning to rise",
       "It is rising at an accelerating pace",
       "It crosses below 100 at the same moment"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 16,
     "question": "When JdK RS-Momentum rises through 100, what is usually happening to the JdK RS-Ratio?",
     "options": [
-      "It is bottoming and beginning to turn up",
       "It is topping out and beginning to decline",
       "It crosses above 100 at the same moment",
+      "It is bottoming and beginning to turn up",
       "It is rising at an accelerating pace"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 17,
     "question": "Within the RRG framework, which measure serves as the core numerical gauge of relative strength, carrying the greatest weight?",
     "options": [
+      "JdK RS-Ratio",
       "The relative strength line",
       "JdK RS-Momentum",
-      "JdK RS-Ratio",
       "The traditional RSI indicator"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -208,11 +208,11 @@
     "question": "A watchlist shows four sectors with (RS-Ratio, RS-Momentum): A (103, 97), B (102, 101), C (98, 104), D (101, 96). Which sector is both outperforming the benchmark and still gaining relative momentum?",
     "options": [
       "Sector A",
-      "Sector B",
       "Sector C",
-      "Sector D"
+      "Sector D",
+      "Sector B"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -233,22 +233,22 @@
     "options": [
       "Short-term overbought and oversold extremes",
       "Precise entry and exit prices for each trade",
-      "The underlying relative trend, by smoothing out noise",
-      "The point at which RS-Ratio crosses 100"
+      "The point at which RS-Ratio crosses 100",
+      "The underlying relative trend, by smoothing out noise"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 21,
     "question": "Any trading strategy built on relative strength must take into account what?",
     "options": [
-      "Only the direction of the relative strength line",
       "The trend of the benchmark as well as the security",
+      "Only the direction of the relative strength line",
       "Only the security's absolute price trend",
       "The security's volatility relative to the benchmark"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -279,12 +279,12 @@
     "id": 24,
     "question": "What problem does the RRG solve when analyzing large universes of securities?",
     "options": [
-      "It removes any need to study individual charts",
       "It shows an entire universe on one chart rather than many",
+      "It removes any need to study individual charts",
       "It ranks securities by their absolute returns",
       "It forecasts the future price of each security"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -304,11 +304,11 @@
     "question": "Over one quarter, Stock LMN and its benchmark index both gain exactly 12%. Where does LMN's relative strength line (LMN price divided by index level) finish the quarter?",
     "options": [
       "12% higher than where it started",
-      "Unchanged, because the ratio of the two prices is the same",
       "Lower, because the index's point gain is much larger",
-      "24% higher than where it started"
+      "24% higher than where it started",
+      "Unchanged, because the ratio of the two prices is the same"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -327,12 +327,12 @@
     "id": 28,
     "question": "Stock XYZ rises from $40 to $44 while its benchmark index rises from 2,000 to 2,100. What happens to XYZ's relative strength line (XYZ price divided by index level)?",
     "options": [
-      "It rises from 0.0200 to about 0.0210, showing outperformance",
       "It falls, because the index gained far more points than the stock",
       "It stays flat, because both instruments rose",
+      "It rises from 0.0200 to about 0.0210, showing outperformance",
       "It rises from 0.0200 to 0.0220"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "What is the key advantage of the JdK RS-Ratio over raw relative strength ratios?",
     "options": [
       "It is simpler to calculate than a raw ratio",
-      "It is normalized, so every security can be ranked on one scale",
       "It removes the need to choose a benchmark at all",
-      "It responds faster than any momentum indicator"
+      "It responds faster than any momentum indicator",
+      "It is normalized, so every security can be ranked on one scale"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

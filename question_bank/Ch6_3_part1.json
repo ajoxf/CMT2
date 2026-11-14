@@ -3,12 +3,12 @@
     "id": 1,
     "question": "What does a contango structure in VIX futures indicate about market participant sentiment?",
     "options": [
-      "Market participants expect volatility to rise sharply in the near term",
       "Market participants are comfortable with current volatility but uncertain about future levels",
+      "Market participants expect volatility to rise sharply in the near term",
       "Market participants expect an immediate market crash",
       "Market participants believe volatility will remain constant across all maturities"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -16,11 +16,11 @@
     "question": "VIX futures settle at F1 = 14.2, F2 = 14.9 and F3 = 15.4. What is the F3 - F1 spread, and what curve shape does its sign indicate?",
     "options": [
       "-1.2; backwardation",
-      "+0.5; contango",
       "+1.2; contango",
+      "+0.5; contango",
       "+1.2; backwardation"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -28,47 +28,47 @@
     "question": "During a sharp equity sell-off, VIX futures read F1 = 44, F3 = 35, F5 = 29, F7 = 26. What does this curve most likely signal?",
     "options": [
       "Volatility is expected to keep rising for the next seven months",
-      "Extreme near-term risk, with volatility expected to subside over time",
       "Equal uncertainty across all horizons",
+      "Extreme near-term risk, with volatility expected to subside over time",
       "A long-lasting volatility regime above current spot levels"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 4,
     "question": "What happens to the first-month VIX futures contract as it reaches expiration?",
     "options": [
-      "It converges to the VIX Index value",
       "It converges to the third-month futures price",
+      "It converges to the VIX Index value",
       "It converges to realized 30-day S&P 500 volatility",
       "It settles at the average of all listed futures"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 5,
     "question": "An analyst wants a spot reading of S&P 500 implied volatility over roughly the next six months instead of the standard 30-day horizon. Which Cboe measure fits best?",
     "options": [
+      "The 6-month volatility index (VIX6M)",
       "The 9-day volatility index (VIX9D)",
       "The 1-year volatility index (VIX1Y)",
-      "The front-month VIX futures contract",
-      "The 6-month volatility index (VIX6M)"
+      "The front-month VIX futures contract"
     ],
-    "correct": 3,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "A VIX future can trade several points above or below spot VIX for long periods without an obvious arbitrage. Why?",
     "options": [
-      "Arbitrageurs cannot finance the interest-rate carry on the index",
       "Spot VIX cannot be held, so each future prices the VIX expected at its expiry",
+      "Arbitrageurs cannot finance the interest-rate carry on the index",
       "Futures settle on realized volatility, which differs from spot VIX",
       "Exchange price limits stop futures from converging until expiry"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "For several consecutive weeks, every row of a six-month VIX intermonth-spread heat map, from the front pair through the fifth-to-sixth pair, is deep red. What does this most likely describe?",
     "options": [
       "Short-lived stress confined to the front month of the curve",
-      "Broad, persistent backwardation typical of a bear market",
       "A calm uptrend with unusually wide contango",
+      "Broad, persistent backwardation typical of a bear market",
       "Steepening contango as longer-dated futures rally"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "An analyst notices that VIX intermonth spreads, though still positive, have been narrowing below their long-run average for several weeks while the index is near its highs. How should this be interpreted?",
     "options": [
       "As a bullish sign that expected volatility is falling",
-      "As an early warning that the curve may flatten toward backwardation",
       "As irrelevant until at least one spread turns negative",
-      "As confirmation that contango is steepening further"
+      "As confirmation that contango is steepening further",
+      "As an early warning that the curve may flatten toward backwardation"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -172,11 +172,11 @@
     "question": "Spot VIX is 11, well below its long-run average near 19, and the seventh-month VIX future trades at 17.5. What best explains why the far contract sits so far above spot?",
     "options": [
       "Far contracts embed a cost of carrying the index",
-      "The far contract is priced off last year's realized volatility",
       "Volatility tends to mean-revert, so expected VIX further out is higher",
+      "The far contract is priced off last year's realized volatility",
       "The far contract has a larger multiplier, so it trades at a premium"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "Weeks after a crisis begins, F1 has started to fall but the sixth-month VIX future remains well above its pre-crisis level. What does this suggest?",
     "options": [
       "Traders expect the crisis to end within days",
-      "Traders expect elevated uncertainty to persist for months",
       "The curve has already returned to normal, calm contango",
-      "Longer-dated futures react to crises before the front month does"
+      "Longer-dated futures react to crises before the front month does",
+      "Traders expect elevated uncertainty to persist for months"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -196,11 +196,11 @@
     "question": "Studies of the VIX futures curve have found that its slope is a fairly consistent predictor of which of the following?",
     "options": [
       "Currency exchange rate movements",
-      "S&P 500 forward returns",
       "Treasury bond yields",
-      "Corporate earnings growth"
+      "Corporate earnings growth",
+      "S&P 500 forward returns"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -209,10 +209,10 @@
     "options": [
       "The spot VIX Index",
       "The front-month VIX future",
-      "The fourth-month VIX future",
-      "A one-month 30-delta VIX call"
+      "A one-month 30-delta VIX call",
+      "The fourth-month VIX future"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -232,11 +232,11 @@
     "question": "A desk's rule cuts equity exposure on the first day F2 - F1 closes below +0.5. Closes this week (F1/F2): Mon 16.0/17.4, Tue 16.8/17.9, Wed 17.9/18.5, Thu 18.9/19.3, Fri 20.5/20.1. On which day does the rule trigger?",
     "options": [
       "Wednesday",
-      "Thursday",
       "Friday",
-      "It never triggers"
+      "It never triggers",
+      "Thursday"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -244,11 +244,11 @@
     "question": "VIX futures read F1 = 17.0, F2 = 17.6, F3 = 20.4, F4 = 18.3, F5 = 18.6. A national election falls within the third contract's window. What does the kink at F3 most likely show?",
     "options": [
       "Backwardation across the whole curve",
-      "The market is pricing extra volatility around an event in that specific period",
       "Liquidity in the third contract has dried up, distorting its price",
+      "The market is pricing extra volatility around an event in that specific period",
       "Expectations of very low volatility at that horizon"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -267,12 +267,12 @@
     "id": 23,
     "question": "During a prolonged, low-volatility equity uptrend, what would a red/green VIX intermonth-spread heat map most likely show?",
     "options": [
-      "Mostly red, since rising prices increase hedging demand",
       "Mostly dark green, reflecting wide positive spreads",
+      "Mostly red, since rising prices increase hedging demand",
       "Mostly pale green, since low volatility means narrow spreads",
       "Red in the back rows and green in the front row"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -292,23 +292,23 @@
     "question": "An index is in a steady uptrend with the VIX near 13. Which VIX futures curve shape is most typical in this environment?",
     "options": [
       "Backwardation, as hedgers pay up for near-term protection",
-      "Contango, typical of calm uptrends",
       "A flat curve, since the market has no view on future volatility",
-      "Backwardation, since volatility is expected to rise from today's low level"
+      "Backwardation, since volatility is expected to rise from today's low level",
+      "Contango, typical of calm uptrends"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 26,
     "question": "In practical risk management, what advantage does gradual shift monitoring in VIX term structure provide over waiting for full backwardation?",
     "options": [
-      "It confirms a decline only after backwardation is established, cutting false signals",
       "It gives time to put hedges in place before a major decline",
+      "It confirms a decline only after backwardation is established, cutting false signals",
       "It removes the need to watch the S&P 500 price itself",
       "It pinpoints the exact market top"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -327,12 +327,12 @@
     "id": 28,
     "question": "A trader wants a single simple early-warning gauge from VIX futures rather than a full set of spreads. Which measure is a practical choice?",
     "options": [
+      "Following the third-month minus first-month spread",
       "Tracking every intermonth spread at the same time",
       "Watching the absolute level of spot VIX",
-      "Following the third-month minus first-month spread",
       "Watching the daily percentage change in spot VIX"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -340,11 +340,11 @@
     "question": "In a VIX intermonth-spread heat map, what do color and color intensity represent?",
     "options": [
       "Hue shows the spread's sign; intensity shows how far spot VIX is from its average",
-      "Hue shows the spread's sign (green contango, red backwardation); intensity shows spread width",
       "Hue shows whether the S&P 500 rose or fell; intensity shows the size of the move",
+      "Hue shows the spread's sign (green contango, red backwardation); intensity shows spread width",
       "Hue shows contango or backwardation; intensity shows time to expiry"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {

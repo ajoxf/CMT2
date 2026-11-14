@@ -4,11 +4,11 @@
     "question": "How many waves does a motive wave subdivide into?",
     "options": [
       "Three waves",
-      "Five waves",
       "Seven waves",
-      "Nine waves"
+      "Nine waves",
+      "Five waves"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -17,10 +17,10 @@
     "options": [
       "50% of wave 1",
       "61.8% of wave 1",
-      "Less than 100% of wave 1",
-      "78.6% of wave 1"
+      "78.6% of wave 1",
+      "Less than 100% of wave 1"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -40,11 +40,11 @@
     "question": "What are the two types of motive waves identified in Elliott Wave Theory?",
     "options": [
       "Zigzag and flat",
-      "Impulse and diagonal",
       "Triangle and combination",
-      "Extension and truncation"
+      "Extension and truncation",
+      "Impulse and diagonal"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -52,23 +52,23 @@
     "question": "In an impulse wave, what is the critical rule regarding wave 4?",
     "options": [
       "Wave 4 must be shorter than wave 2",
-      "Wave 4 cannot overlap wave 1's territory",
       "Wave 4 must retrace exactly 50% of wave 3",
+      "Wave 4 cannot overlap wave 1's territory",
       "Wave 4 must be a triangle pattern"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "What is an extension in Elliott Wave terminology?",
     "options": [
-      "A wave that fails to reach its target",
       "An elongated impulse with exaggerated subdivisions",
+      "A wave that fails to reach its target",
       "A corrective pattern within a motive wave",
       "The overlap between wave 4 and wave 1"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -88,23 +88,23 @@
     "question": "What is truncation in Elliott Wave analysis?",
     "options": [
       "When wave 3 is the shortest actionary wave",
-      "When wave 4 overlaps the territory of wave 1",
       "When wave 5 fails to move beyond the end of wave 3",
+      "When wave 4 overlaps the territory of wave 1",
       "When a corrective wave turns into a motive wave"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 9,
     "question": "Truncation typically occurs after which type of wave?",
     "options": [
-      "A weak first wave",
-      "A particularly strong third wave",
+      "A weak, shallow first wave",
       "An extended fifth wave",
-      "A diagonal pattern"
+      "A particularly strong third wave",
+      "A sharp, deep second wave"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -112,47 +112,47 @@
     "question": "How can truncation be verified?",
     "options": [
       "By confirming that wave 4 overlaps wave 1's territory",
-      "By noting that the presumed fifth wave contains five subwaves",
       "By measuring the fifth wave's percentage retracement",
-      "By finding an extension within the fifth wave"
+      "By finding an extension within the fifth wave",
+      "By noting that the presumed fifth wave contains five subwaves"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 11,
     "question": "What characteristic distinguishes a diagonal from an impulse?",
     "options": [
-      "Diagonals never allow wave 4 to overlap wave 1's territory",
       "Diagonals show overlap and three-wave subwaves, like corrections",
+      "Diagonals do not allow wave 4 to overlap wave 1's territory",
       "Diagonals occur only in corrective wave positions",
-      "Diagonals always contain an extended third wave inside them"
+      "Diagonals typically contain an extended third wave"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 12,
     "question": "Where does an ending diagonal typically occur?",
     "options": [
+      "In the fifth wave position",
       "In wave 1 position",
       "In wave 2 position",
-      "In wave 3 position",
-      "In the fifth wave position"
+      "In wave 3 position"
     ],
-    "correct": 3,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 13,
     "question": "According to Prechter, where can a leading diagonal appear?",
     "options": [
-      "In the wave 5 position of impulses and wave C of zigzags",
       "In the wave 1 position of impulses and wave A of zigzags",
+      "In the wave 5 position of impulses and wave C of zigzags",
       "In the wave B position of flats and triangles",
       "In the wave 3 position of extended impulses"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -161,10 +161,10 @@
     "options": [
       "An extended third wave",
       "A truncated fifth wave",
-      "A deep retracement",
-      "Another diagonal pattern"
+      "Another diagonal pattern",
+      "A deep retracement"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -172,11 +172,11 @@
     "question": "How many main categories do corrective patterns fall into?",
     "options": [
       "Two categories",
-      "Three categories",
       "Four categories",
+      "Three categories",
       "Five categories"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "What is the wave subdivision structure of a zigzag?",
     "options": [
       "3-3-3",
-      "5-3-5",
       "3-3-5",
+      "5-3-5",
       "5-5-5"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -196,11 +196,11 @@
     "question": "In a single zigzag pattern within a bull market, how is it labeled?",
     "options": [
       "1-2-3",
-      "A-B-C",
       "W-X-Y",
-      "a-b-c-d-e"
+      "a-b-c-d-e",
+      "A-B-C"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -243,12 +243,12 @@
     "id": 21,
     "question": "What is the subwave sequence of a flat correction?",
     "options": [
-      "5-3-5",
       "3-3-5",
       "3-3-3",
+      "5-3-5",
       "5-5-5"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -258,7 +258,7 @@
       "More than zigzags",
       "The same as zigzags",
       "Less than zigzags",
-      "Flats always retrace 100%"
+      "Flats typically retrace the entire preceding impulse"
     ],
     "correct": 2,
     "hasImage": false
@@ -280,11 +280,11 @@
     "question": "In a regular flat correction, where does wave B typically terminate?",
     "options": [
       "Well beyond the start of wave A",
-      "About at the level of the beginning of wave A",
       "Exactly at the 50% retracement of wave A",
+      "About at the level of the beginning of wave A",
       "Far short of the start of wave A"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -303,12 +303,12 @@
     "id": 26,
     "question": "In a running flat, what happens to wave C?",
     "options": [
+      "It falls short of where wave A ended",
       "It extends well beyond the end of wave A",
       "It ends at exactly the same level as wave A",
-      "It falls short of where wave A ended",
       "It unfolds as an ending diagonal"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -316,23 +316,23 @@
     "question": "How many overlapping waves does a triangle pattern contain?",
     "options": [
       "Three waves",
-      "Four waves",
       "Five waves",
+      "Four waves",
       "Seven waves"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 28,
     "question": "What is the subdivision structure of triangle waves?",
     "options": [
-      "5-3-5-3-5",
-      "3-3-5-3-5",
       "3-3-3-3-3",
+      "3-3-5-3-5",
+      "5-3-5-3-5",
       "5-5-5-5-5"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -340,11 +340,11 @@
     "question": "How are the five subwaves of an Elliott triangle labeled?",
     "options": [
       "With numbers (1-2-3-4-5), like an impulse",
-      "With letters (A-B-C-D-E, case depending on degree)",
       "With W-X-Y-X-Z, like a combination",
+      "With letters (A-B-C-D-E, case depending on degree)",
       "With Roman numerals i-ii-iii-iv-v"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "What are the three main categories of triangles?",
     "options": [
       "Ascending, descending, and symmetrical",
-      "Contracting, barrier, and expanding",
       "Regular, expanded, and running",
-      "Single, double, and triple"
+      "Single, double, and triple",
+      "Contracting, barrier, and expanding"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

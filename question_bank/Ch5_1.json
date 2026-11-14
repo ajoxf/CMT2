@@ -4,11 +4,11 @@
     "question": "In a price-volume framework that splits volume by the direction of price, volume recorded on days when price rises is best described as:",
     "options": [
       "Supply volume",
-      "Demand volume",
       "Neutral volume",
-      "Distribution volume"
+      "Distribution volume",
+      "Demand volume"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -16,11 +16,11 @@
     "question": "Volume recorded on days when price falls is best classified as:",
     "options": [
       "Demand volume",
-      "Accumulation volume",
       "Supply volume",
+      "Accumulation volume",
       "Panic volume"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -28,11 +28,11 @@
     "question": "Phase 1 of an uptrend (Strong Demand) is characterized by:",
     "options": [
       "Rising prices with declining volume",
-      "Rising prices on expanding volume",
       "Falling prices on expanding volume",
+      "Rising prices on expanding volume",
       "Sideways prices on expanding volume"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -40,11 +40,11 @@
     "question": "What typically precedes the birth of Phase 1: Strong Demand in a new bull market?",
     "options": [
       "An exhaustion of demand",
-      "A period of consolidation",
       "An exhaustion of supply",
+      "A period of consolidation",
       "High volume distribution"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -52,23 +52,23 @@
     "question": "In Phase 1: Strong Demand, what does higher volume provide to the market?",
     "options": [
       "A warning signal of reversal",
-      "The energy needed to continue higher, confirming the uptrend",
       "Indication of weak hands leaving the market",
+      "The energy needed to continue higher, confirming the uptrend",
       "Evidence of distribution by insiders"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "According to Gartley, when volume tends to decrease during price advances, it is:",
     "options": [
+      "Bearish",
       "Bullish",
       "Neutral",
-      "Bearish",
       "A sign of accumulation"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -76,11 +76,11 @@
     "question": "Phase 2: Weak Demand is also referred to as:",
     "options": [
       "Early accumulation phase",
-      "Late accumulation phase",
       "Early distribution phase",
+      "Late accumulation phase",
       "Panic selling phase"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "What does decreasing volume during price advances (Phase 2: Weak Demand) indicate?",
     "options": [
       "Steady accumulation by institutions buying quietly",
-      "Fading demand that lacks the energy to sustain the advance",
       "Healthy consolidation before the trend continues",
-      "Smart money building positions ahead of a breakout"
+      "Smart money building positions ahead of a breakout",
+      "Fading demand that lacks the energy to sustain the advance"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "In Phase 2: Weak Demand, the divergence between price and volume trends signifies:",
     "options": [
       "A healthy, sustainable uptrend",
-      "The trend is facing weak demand and may be destabilizing",
       "Accumulation by long-term investors",
-      "The beginning of a new strong uptrend"
+      "The beginning of a new strong uptrend",
+      "The trend is facing weak demand and may be destabilizing"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "What characterizes a complacent market in the Weak Demand phase?",
     "options": [
       "Holders sell aggressively into strength while buyers chase every dip",
-      "Satisfied holders sell only at higher bids, while fewer buyers will pay up",
       "Holders liquidate in a panic as buyers withdraw",
-      "Heavy institutional buying absorbs all available supply"
+      "Heavy institutional buying absorbs all available supply",
+      "Satisfied holders sell only at higher bids, while fewer buyers will pay up"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -148,35 +148,35 @@
     "question": "Phase 3: Strong Supply begins when:",
     "options": [
       "Volume expands sharply while the uptrend is still intact",
-      "The primary price trend breaks down below support and the uptrend reverses",
       "Price consolidates in a range just beneath resistance",
+      "The primary price trend breaks down below support and the uptrend reverses",
       "Volume dries up after a long, extended decline"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 14,
     "question": "In Phase 3: Strong Supply, what does rising volume reveal?",
     "options": [
-      "That supply is strong and growing",
       "That buyers are aggressively accumulating",
       "That the downtrend is about to reverse",
-      "That market makers are supporting prices"
+      "That market makers are supporting prices",
+      "That supply is strong and growing"
     ],
-    "correct": 0,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "What indicates sellers' willingness in Phase 3: Strong Supply?",
     "options": [
-      "They are holding for higher prices",
       "They are willing to accept ever lower prices for their stock",
+      "They are holding for higher prices",
       "They are refusing to sell at any price",
       "They are waiting for technical support levels"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -185,10 +185,10 @@
     "options": [
       "Bearish",
       "Neutral",
-      "Bullish",
-      "A sign of distribution"
+      "A sign of distribution",
+      "Bullish"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -196,11 +196,11 @@
     "question": "Phase 4 (Weak Supply) of the price-volume cycle is characterized by:",
     "options": [
       "Rising prices on rising volume",
-      "Falling prices on diminishing volume",
       "Sideways prices on heavy volume",
-      "Sideways prices on rising volume"
+      "Sideways prices on rising volume",
+      "Falling prices on diminishing volume"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -208,23 +208,23 @@
     "question": "The Weak Supply phase can appear in what two primary forms?",
     "options": [
       "Slow grind and fast rally",
-      "Accumulation and distribution",
       "A panic sell-off or a dull, lackluster decline",
+      "Accumulation and distribution",
       "Bull trap and bear trap"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 19,
     "question": "During intermediate and short-term timeframes, how long does Phase 4: Weak Supply typically last when it's a panic sell-off?",
     "options": [
+      "Only days",
       "Several weeks",
       "Several months",
-      "Only days",
       "One to two years"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -255,36 +255,36 @@
     "id": 22,
     "question": "Which observation best signals that a Weak Supply phase is ending and the market is moving back toward Strong Demand?",
     "options": [
-      "Price making new lows on high volume",
       "Neutral prices after a meaningful decline with volume beginning to rise",
+      "Price making new lows on high volume",
       "Price breaking major resistance",
       "Volume continuing to contract as price makes marginal new lows"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 23,
     "question": "After a prolonged decline, Stock XYZ trades sideways in a narrow range while volume steadily expands. This combination most likely indicates:",
     "options": [
-      "Distribution and further decline",
       "Accumulation and the formation of a base",
+      "Distribution and further decline",
       "A bull trap",
       "Continued bearish momentum"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 24,
     "question": "In the airplane analogy for price trends, what does volume represent?",
     "options": [
+      "The thrust needed to maintain flight and trajectory",
       "The altitude reached by the plane during flight",
       "The compass heading that sets the direction",
-      "The thrust needed to maintain flight and trajectory",
       "The weight of the cargo the plane carries"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -292,11 +292,11 @@
     "question": "According to the airplane analogy, what happens if a trend increases its trajectory without a corresponding increase in volume?",
     "options": [
       "The trend accelerates further",
-      "The trend becomes more stable",
       "The trend risks stalling, like a plane without increased thrust",
+      "The trend becomes more stable",
       "The trend strengthens, because lower volume means less selling"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -339,12 +339,12 @@
     "id": 29,
     "question": "How should a low-volume break of a trend be interpreted?",
     "options": [
-      "As a strong reversal signal",
       "It casts doubt on the validity of the move",
+      "As a strong reversal signal",
       "As confirmation of trend change",
       "As a buying opportunity"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "A trader observes a stock making new highs with each successive rally showing 30% less volume than the previous rally. According to the Four Phases framework, this most likely represents:",
     "options": [
       "Phase 1: Strong Demand - a healthy bull market",
-      "Phase 2: Weak Demand - early distribution with trend destabilizing",
       "Phase 3: Strong Supply - beginning of downtrend",
+      "Phase 2: Weak Demand - early distribution with trend destabilizing",
       "Phase 4: Weak Supply - bottoming formation"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   }
 ]

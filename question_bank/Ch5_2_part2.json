@@ -4,11 +4,11 @@
     "question": "The Arms Index (TRIN) is calculated using which formula?",
     "options": [
       "(Advancing stocks / Declining stocks) × (Up volume / Down volume)",
-      "(Advancing stocks / Up volume) / (Declining stocks / Down volume)",
       "(Up volume / Down volume) - (Advancing stocks / Declining stocks)",
-      "(Advancing stocks + Up volume) / (Declining stocks + Down volume)"
+      "(Advancing stocks + Up volume) / (Declining stocks + Down volume)",
+      "(Advancing stocks / Up volume) / (Declining stocks / Down volume)"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -39,24 +39,24 @@
     "id": 4,
     "question": "When the Arms Index (TRIN) reading is greater than 1, what does this suggest?",
     "options": [
-      "Bullish market with strong advancing volume",
       "Bearish: more volume per declining issue than per advancing issue",
+      "Bullish market with strong advancing volume",
       "Neutral market with balanced volume",
       "Overbought conditions requiring caution"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 5,
     "question": "The McClellan Oscillator is calculated as the difference between which two exponential moving averages of net advancers?",
     "options": [
+      "5-day EMA and 35-day EMA",
       "10-day EMA and 20-day EMA",
       "19-day EMA and 39-day EMA",
-      "50-day EMA and 200-day EMA",
-      "5-day EMA and 35-day EMA"
+      "50-day EMA and 200-day EMA"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "The McClellan Oscillator typically oscillates between what range?",
     "options": [
       "0 and 100",
-      "-50 and +50",
       "+100 and -100",
+      "-50 and +50",
       "-200 and +200"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -76,11 +76,11 @@
     "question": "What is the primary use of the McClellan Oscillator?",
     "options": [
       "To identify long-term secular trends",
-      "As an overbought or oversold indicator",
       "To measure volume momentum exclusively",
+      "As an overbought or oversold indicator",
       "To confirm price breakouts in individual stocks"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -99,12 +99,12 @@
     "id": 9,
     "question": "The McClellan Summation Index is best described as:",
     "options": [
-      "A 19-day exponential average of the McClellan Oscillator",
       "A cumulative total of McClellan Oscillator readings, similar to an advance-decline line",
+      "A 19-day exponential average of the McClellan Oscillator",
       "The reciprocal of the McClellan Oscillator, scaled to 100",
       "A momentum indicator built from individual stock prices"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -135,12 +135,12 @@
     "id": 12,
     "question": "A Zweig Breadth Thrust signal occurs when the indicator:",
     "options": [
-      "Crosses above 50%",
       "Moves from under 40% to over 62%",
+      "Crosses above 50%",
       "Reaches 80% or higher",
       "Falls below 30%"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -149,10 +149,10 @@
     "options": [
       "Very common, occurring monthly",
       "Moderately frequent in all market conditions",
-      "Infrequent, and typically near the start of major rallies",
-      "Most reliable as warnings near market tops"
+      "Most reliable as warnings near market tops",
+      "Infrequent, and typically near the start of major rallies"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -160,23 +160,23 @@
     "question": "A breadth-based bottoming method looks for a day on which roughly 90% of volume and issues decline, followed within a short window by one or more days of overwhelming upside breadth. What market behavior is this method designed to detect?",
     "options": [
       "A single gradual capitulation on light volume",
-      "A selling panic followed by a buying panic",
       "A rotation from large caps into small caps",
-      "A breakout above the 200-day average"
+      "A breakout above the 200-day average",
+      "A selling panic followed by a buying panic"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "In Lowry's Reversals methodology, what identifies the selling panic?",
     "options": [
+      "90% declining and down volume days",
       "A breach of major support levels",
       "Three consecutive down days",
-      "90% declining and down volume days",
       "The TRIN reaching 2.0 or higher"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "Once a selling panic has been identified with Lowry's approach, what follow-up evidence confirms a bottom?",
     "options": [
       "A golden cross of moving averages",
-      "One 90% upside day, or several 80% upside days close together",
       "The McClellan Oscillator crossing above zero",
-      "New 52-week highs exceeding new lows"
+      "New 52-week highs exceeding new lows",
+      "One 90% upside day, or several 80% upside days close together"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -197,10 +197,10 @@
     "options": [
       "The ratio of advancing to declining stocks",
       "The ratio of up volume to down volume",
-      "New 52-week lows divided by new 52-week highs",
-      "The ratio of declining volume to advancing volume"
+      "The ratio of declining volume to advancing volume",
+      "New 52-week lows divided by new 52-week highs"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -208,23 +208,23 @@
     "question": "The 40:1 Ratio indicator is described as binary in nature, meaning:",
     "options": [
       "It uses only two data inputs",
-      "It gives either a 'yes' or 'no' reading",
       "It only works in two types of markets",
-      "It requires two confirmations"
+      "It requires two confirmations",
+      "It gives either a 'yes' or 'no' reading"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 19,
     "question": "The 40:1 Ratio often flashes 'yes' in concert with:",
     "options": [
+      "90% down days, when new lows exceed new highs at least 40-fold",
       "Zweig Breadth Thrust signals at the start of rallies",
       "90% up days following a selling climax",
-      "90% down days, when new lows exceed new highs at least 40-fold",
       "Hindenburg Omen signals near market tops"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -232,23 +232,23 @@
     "question": "The High-Low Logic Index, developed by Norman Fosback, is calculated as:",
     "options": [
       "The greater of new highs or new lows divided by total issues",
-      "The smaller of the new-high and new-low counts, divided by total issues traded",
       "New highs minus new lows",
+      "The smaller of the new-high and new-low counts, divided by total issues traded",
       "The absolute value of (new highs - new lows) / total issues"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 21,
     "question": "What is the typical reading level for the High-Low Logic Index?",
     "options": [
+      "Often below 1%",
       "Between 10% and 20%",
       "Around 50%",
-      "Often below 1%",
       "Typically above 5%"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -269,10 +269,10 @@
     "options": [
       "Identify optimal buying opportunities",
       "Measure market volatility",
-      "Forewarn of potential market crashes",
-      "Confirm ongoing bull market trends"
+      "Confirm ongoing bull market trends",
+      "Forewarn of potential market crashes"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -293,10 +293,10 @@
     "options": [
       "Stocks are in an uptrend with a rising 50-day average",
       "The McClellan Oscillator is negative",
-      "The high-low logic reading exceeds 2.2%",
-      "The TRIN must be below 0.5"
+      "The TRIN must be below 0.5",
+      "The high-low logic reading exceeds 2.2%"
     ],
-    "correct": 3,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -316,23 +316,23 @@
     "question": "In the seasonal market cycle analogy, 'fall days' are defined as:",
     "options": [
       "Any day the market declines",
-      "The first notable burst of new lows in a mature bull market",
       "Days when volume declines significantly",
+      "The first notable burst of new lows in a mature bull market",
       "The period immediately after a market peak"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 28,
     "question": "Why does the 'fall day' concept (a first notable surge in new 52-week lows) apply only to a bull market that has already run for some time?",
     "options": [
-      "Early in a new bull market, lingering new lows are residue of the prior bear and are not a warning",
       "New-low counts are unreliable until the 200-day average turns up",
+      "Early in a new bull market, lingering new lows are residue of the prior bear and are not a warning",
       "Early in a bull market, new lows show the rally is already failing",
       "The concept requires a rising 50-day average of new lows"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -351,12 +351,12 @@
     "id": 30,
     "question": "What is the prudent approach when interpreting 'fall days' versus 'spring days'?",
     "options": [
+      "Be on watch for a major top after just one fall day, but wait for both spring day indicators before turning bullish",
       "Wait for three fall days before acting, but only one spring day is needed",
       "Fall days and spring days require equal confirmation",
-      "Be on watch for a major top after just one fall day, but wait for both spring day indicators before turning bullish",
       "Ignore fall days but act immediately on the first spring day"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   }
 ]

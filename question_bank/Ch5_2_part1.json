@@ -3,24 +3,24 @@
     "id": 1,
     "question": "What is the main reason technicians study market internals alongside an index chart?",
     "options": [
-      "To forecast precise price targets for the index",
       "To understand how the market is reaching its levels and assess trend health",
+      "To forecast precise price targets for the index",
       "To replace price-chart analysis with breadth data alone",
       "To pick which single stock will lead the next rally"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 2,
     "question": "How is the Advance-Decline Line (ADL) constructed?",
     "options": [
-      "Advancing issues divided by total issues traded each day",
       "A cumulative sum of each day's advancing issues minus declining issues",
+      "Advancing issues divided by total issues traded each day",
       "The difference between up volume and down volume",
       "The ratio of new highs to new lows"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -40,23 +40,23 @@
     "question": "When looking for divergences between volume indicators and price during an uptrend, which volume component is most important to monitor?",
     "options": [
       "Down volume, because bears provide resistance",
-      "Up volume or net volume, because bulls are driving the trend",
       "Total volume regardless of direction",
+      "Up volume or net volume, because bulls are driving the trend",
       "Volume in the index's largest constituents only"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 5,
     "question": "An index is near a correction low while its advance-decline line holds above its prior low. Which additional tool is most useful for refining the timing of an entry?",
     "options": [
-      "A short-term oscillator such as the slow stochastic turning up from oversold",
       "A 200-week moving average of the index's closing price",
+      "A short-term oscillator such as the slow stochastic turning up from oversold",
       "The index's dividend yield relative to bond yields",
       "Total exchange volume, without regard to direction"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "Why is it recommended to use moving averages when displaying up and down volume rather than raw daily data?",
     "options": [
       "Moving averages convert volume into price units for comparison",
-      "Raw daily volume cannot be plotted alongside an index",
       "Daily readings are noisy; smoothing exposes the underlying trend",
+      "Raw daily volume cannot be plotted alongside an index",
       "Raw volume lags price by several sessions"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -88,11 +88,11 @@
     "question": "The Absolute Breadth Index, developed by Norman Fosback, is calculated as:",
     "options": [
       "The 10-day SMA of (advancers - decliners)",
-      "The 10-day SMA of the absolute value of (advancers - decliners)",
       "The ratio of advancers to decliners squared",
-      "The cumulative sum of daily breadth readings"
+      "The cumulative sum of daily breadth readings",
+      "The 10-day SMA of the absolute value of (advancers - decliners)"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "Which interpretive idea underlies the Absolute Breadth Index?",
     "options": [
       "Low readings are bullish and high readings are bearish",
-      "Only positive readings are significant",
       "Lopsided sessions are constructive whichever side dominates",
+      "Only positive readings are significant",
       "High readings are bullish only when advancers dominate"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -123,12 +123,12 @@
     "id": 11,
     "question": "When the Absolute Breadth Index shows low readings, what market condition does this typically describe?",
     "options": [
+      "A bearish condition indicating indecision or a split tape",
       "A strong trending market",
       "A market with clear directional conviction",
-      "A bearish condition indicating indecision or a split tape",
       "An optimal buying opportunity"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -148,11 +148,11 @@
     "question": "What makes 80% and 90% days significant in market analysis?",
     "options": [
       "They reliably mark the exact end of a trend",
-      "They reflect capitulation or euphoria, often near turning points",
       "They occur mainly at market tops",
+      "They reflect capitulation or euphoria, often near turning points",
       "They usually precede a prolonged sideways range"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -160,23 +160,23 @@
     "question": "What does it indicate when the S&P 500 makes new highs but only 40% of stocks are above their 200-day moving average?",
     "options": [
       "A healthy, broad-based rally",
-      "An optimal time to increase long exposure",
       "A warning sign that few large-cap stocks are carrying the index while most struggle",
+      "An optimal time to increase long exposure",
       "That the 200-day moving average is no longer a relevant indicator"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "Which reading of the percentage of stocks above their 200-day moving average is most consistent with broad participation in a healthy primary uptrend?",
     "options": [
+      "About 75%",
       "About 20%",
       "About 35%",
-      "About 75%",
       "It cannot indicate participation"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -207,12 +207,12 @@
     "id": 18,
     "question": "What does it suggest when the market makes new price highs but fewer stocks achieve new 52-week highs?",
     "options": [
-      "A positive confirmation of the uptrend",
       "A classic negative divergence often preceding corrections",
+      "A positive confirmation of the uptrend",
       "A sign that leadership rotating into large caps is bullish",
       "That the rally will accelerate further"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -220,11 +220,11 @@
     "question": "Gerald Appel's percentage of new highs indicator is calculated as:",
     "options": [
       "Daily new highs divided by the total number of issues traded",
-      "10-day MA of new highs minus 10-day MA of new lows",
       "10-day MA of new highs divided by the sum of (new highs + new lows)",
+      "10-day MA of new highs minus 10-day MA of new lows",
       "10-day MA of new highs divided by 10-day MA of new lows"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -232,11 +232,11 @@
     "question": "According to Gerald Appel's percentage of new highs indicator, when does it signal that a rally is weakening?",
     "options": [
       "When it crosses above 50%",
-      "When it breaks below 70% from above",
       "When it rises above 80%",
-      "When it crosses the 30% level"
+      "When it crosses the 30% level",
+      "When it breaks below 70% from above"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -256,11 +256,11 @@
     "question": "What type of data works best with Gerald Appel's percentage of new highs indicator?",
     "options": [
       "Individual sector data only",
-      "Exchange-level data like NYSE or Nasdaq",
       "Small-cap stocks exclusively",
+      "Exchange-level data like NYSE or Nasdaq",
       "International market data"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "When analyzing breadth and leadership indicators together, what provides the most robust market analysis?",
     "options": [
       "Using only the indicator with the strongest signal",
-      "Combining multiple indicators for confirmation and timing",
       "Relying solely on the ADL",
-      "Using leadership indicators exclusively"
+      "Using leadership indicators exclusively",
+      "Combining multiple indicators for confirmation and timing"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -291,24 +291,24 @@
     "id": 25,
     "question": "Why is it important to properly aggregate weekly data rather than just using Friday's data alone?",
     "options": [
-      "Friday is usually the lowest-volume day of the week",
       "To capture the full week's market activity and avoid distorted readings",
+      "Friday is usually the lowest-volume day of the week",
       "Weekly breadth must be expressed as a percentage, not a count",
       "Single-day data cannot be plotted on a weekly chart"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 26,
     "question": "Which statement best describes market behavior regarding tops and bottoms?",
     "options": [
+      "Markets top slowly and bottom quickly",
       "Markets top quickly and bottom slowly",
       "Markets top and bottom at the same pace",
-      "Markets top slowly and bottom quickly",
       "Neither; the pace depends only on the index's volatility level"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -317,10 +317,10 @@
     "options": [
       "Market equilibrium",
       "Minor intraday fluctuation",
-      "One-sided market activity often marking the beginning of significant moves",
-      "An overbought condition that usually leads to an immediate reversal"
+      "An overbought condition that usually leads to an immediate reversal",
+      "One-sided market activity often marking the beginning of significant moves"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -328,11 +328,11 @@
     "question": "In the Absolute Breadth Index, why are high readings considered bullish?",
     "options": [
       "They indicate that only advancing stocks are present",
-      "They show conviction, whether from broad advances or washout declines",
       "They correlate with unusually high trading volume",
-      "Because they occur mostly during bull markets"
+      "Because they occur mostly during bull markets",
+      "They show conviction, whether from broad advances or washout declines"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -353,10 +353,10 @@
     "options": [
       "They are counted as advancing",
       "They are counted as declining",
-      "They are typically ignored",
-      "They are weighted by volume"
+      "They are weighted by volume",
+      "They are typically ignored"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -375,12 +375,12 @@
     "id": 32,
     "question": "What does a negative divergence between the ADL and price at a market top indicate?",
     "options": [
-      "The uptrend will accelerate",
       "The index keeps grinding higher while fewer stocks participate, suggesting weakness",
+      "The uptrend will accelerate",
       "It is time to add to long positions",
       "The ADL is simply lagging and will catch up with price"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -389,22 +389,22 @@
     "options": [
       "Advancers / Total Issues",
       "Decliners / Total Issues",
-      "(Advancers - Decliners) / Total Issues",
-      "(Advancers + Decliners) / Total Issues"
+      "(Advancers + Decliners) / Total Issues",
+      "(Advancers - Decliners) / Total Issues"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 34,
     "question": "Why is divergence analysis considered particularly powerful with leadership data (new highs and lows)?",
     "options": [
-      "It works only when applied to weekly data",
       "It often marks tops and bottoms with pinpoint accuracy using daily or weekly data",
+      "It works only when applied to weekly data",
       "It removes the need for confirmation from other indicators",
       "It provides objective price targets"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -412,11 +412,11 @@
     "question": "A breadth indicator stays near its lowest readings for two weeks because advancers and decliners are roughly balanced each day. Under the 'one-sided markets are bullish' principle, how should this be read?",
     "options": [
       "Bullish — balance shows stability",
-      "Bearish — an indecisive, split tape",
       "Bullish only if volume is rising",
+      "Bearish — an indecisive, split tape",
       "Irrelevant unless new highs exceed new lows"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -425,10 +425,10 @@
     "options": [
       "Careful deliberation and measured decision-making",
       "Market equilibrium",
-      "Capitulation or euphoria",
-      "Rational profit-taking"
+      "Rational profit-taking",
+      "Capitulation or euphoria"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -447,12 +447,12 @@
     "id": 38,
     "question": "Why do analysts commonly apply a short exponential moving average to daily net up/down volume?",
     "options": [
-      "Daily readings are noisy; smoothing reveals trends and divergences",
       "Exchanges publish only averaged volume figures",
       "It converts volume into the same units as price",
+      "Daily readings are noisy; smoothing reveals trends and divergences",
       "It removes the need to compare volume with the index"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -461,22 +461,22 @@
     "options": [
       "30% above 200-day MA with index at new highs",
       "50% above 50-day MA with declining index",
-      "75% above 200-day MA with index at new highs",
-      "90% above 20-day MA with index unchanged"
+      "90% above 20-day MA with index unchanged",
+      "75% above 200-day MA with index at new highs"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 40,
     "question": "In uptrend analysis, why is it specifically up volume divergence (not down volume) that matters?",
     "options": [
-      "Down volume is unreliable during uptrends",
       "Bulls drive the uptrend, so fading up volume shows their exhaustion",
+      "Down volume is unreliable during uptrends",
       "Up volume is more volatile and therefore more informative",
       "Down volume matters only once a downtrend is confirmed"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -484,11 +484,11 @@
     "question": "What does the 'net' in net volume or net breadth represent?",
     "options": [
       "Volume after deducting trading costs",
-      "Advancing minus declining (or up minus down)",
       "Volume adjusted for stock splits",
+      "Advancing minus declining (or up minus down)",
       "The average over a period"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -496,11 +496,11 @@
     "question": "If you observe the market making new highs with an advance-decline ratio of 10:1, what does this suggest?",
     "options": [
       "The market is about to reverse",
-      "Extreme one-sided buying that may mark the beginning of a significant move",
       "Overextension that usually reverses within a few sessions",
-      "A blow-off that signals an imminent top"
+      "A blow-off that signals an imminent top",
+      "Extreme one-sided buying that may mark the beginning of a significant move"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -519,12 +519,12 @@
     "id": 44,
     "question": "What makes leadership indicators particularly well-suited for divergence analysis compared to some other indicators?",
     "options": [
-      "They are simpler to calculate than breadth indicators",
       "They provide earlier warnings and often mark tops and bottoms with precision",
+      "They are simpler to calculate than breadth indicators",
       "They are less affected by large-cap weighting",
       "They work only in trending markets"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -532,23 +532,23 @@
     "question": "Only 30% of an index's member stocks trade above their own 50-day moving averages, yet the index itself sits close to its highs. What is the most prudent interpretation?",
     "options": [
       "The market is extremely healthy",
-      "This is a strong buy signal",
       "Narrow leadership and potential weakness beneath the index's strength",
+      "This is a strong buy signal",
       "Healthy rotation that confirms the index's strength"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 46,
     "question": "In breadth analysis, what distinguishes 'raw data' from 'net data'?",
     "options": [
-      "Raw data is unadjusted; net data shows the difference (advancers minus decliners)",
       "Raw data is daily; net data is weekly",
+      "Raw data is unadjusted; net data shows the difference (advancers minus decliners)",
       "Raw data includes unchanged issues; net data excludes them",
       "Raw data is cumulative; net data is a single day's reading"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -556,11 +556,11 @@
     "question": "What is the main benefit of pairing the ADL with other tools such as short-term oscillators?",
     "options": [
       "To remove the need to watch price",
-      "To provide confirmation of underlying strength and more precise timing",
       "To replace traditional price analysis",
+      "To provide confirmation of underlying strength and more precise timing",
       "To reduce the lag inherent in the ADL itself"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -568,11 +568,11 @@
     "question": "When Gerald Appel's percentage of new highs indicator is at 75%, what does this suggest about market conditions?",
     "options": [
       "The market is overbought and likely to fall soon",
-      "The rally is still strong with good leadership participation",
       "Leadership is narrowing dangerously",
+      "The rally is still strong with good leadership participation",
       "The indicator is in neutral territory"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -581,10 +581,10 @@
     "options": [
       "Internals consistently lead price by a fixed number of days",
       "Price confirmation matters more, so internals add little",
-      "Divergences between internals and price provide early warnings of potential trend changes",
-      "Internals are useful mainly for long-term investing"
+      "Internals are useful mainly for long-term investing",
+      "Divergences between internals and price provide early warnings of potential trend changes"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -592,11 +592,11 @@
     "question": "A trader observes a 90% up day followed by the market making new highs with only 35% of stocks above their 200-day MA. What is the most appropriate interpretation?",
     "options": [
       "Bullish alignment that justifies adding exposure",
-      "Mixed signals: strong short-term thrust but weak broad participation suggesting caution",
       "Bearish: weak participation cancels the thrust, so go short",
-      "Bullish: the 90% day overrides weak participation"
+      "Bullish: the 90% day overrides weak participation",
+      "Mixed signals: strong short-term thrust but weak broad participation suggesting caution"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

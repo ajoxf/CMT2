@@ -3,24 +3,24 @@
     "id": 1,
     "question": "Which description best fits the volatility risk premium (VRP)?",
     "options": [
-      "The difference between historical and future volatility",
       "Compensation option sellers earn for bearing volatility risk",
+      "The difference between historical and future volatility",
       "The cost of purchasing volatility insurance",
       "The premium paid by option buyers to sellers"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 2,
     "question": "Over a long sample, an index's implied volatility averaged 19 while subsequently realized volatility averaged 15.5. What is the average volatility risk premium, and who is it earned by?",
     "options": [
-      "3.5 points, earned by option sellers",
       "3.5 points, earned by option buyers",
       "34.5 points, earned by option sellers",
+      "3.5 points, earned by option sellers",
       "−3.5 points, earned by option sellers"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -52,23 +52,23 @@
     "question": "Compared with an all-equity buy-and-hold index portfolio, a systematic cash-secured put-writing strategy on the same index would typically show:",
     "options": [
       "A larger maximum drawdown",
-      "A smaller maximum drawdown because collected premium cushions declines",
       "Identical drawdowns",
+      "A smaller maximum drawdown because collected premium cushions declines",
       "A higher standard deviation but identical returns"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "Why does a covered call strategy on an index typically have a beta below 1.0?",
     "options": [
-      "The short call caps upside, so it moves less than the index",
       "It holds no net equity exposure at all",
       "Calls have negative delta, offsetting the stock",
-      "Premiums are reinvested in Treasury bonds"
+      "Premiums are reinvested in Treasury bonds",
+      "The short call caps upside, so it moves less than the index"
     ],
-    "correct": 0,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -76,11 +76,11 @@
     "question": "A portfolio of Index XYZ has annualized standard deviation of 16%. Overlaying a short at-the-money call on the same portfolio would most likely make its standard deviation:",
     "options": [
       "Higher than 16%",
-      "Lower than 16%",
       "Exactly 16%",
-      "Close to zero, because the call fully hedges the portfolio"
+      "Close to zero, because the call fully hedges the portfolio",
+      "Lower than 16%"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -123,12 +123,12 @@
     "id": 11,
     "question": "Over a long bull market, a buy-write (covered call) index strategy typically trails buy-and-hold mainly because:",
     "options": [
-      "Strong rallies above the strike are given up",
       "It pays option premiums each month",
+      "Strong rallies above the strike are given up",
       "It carries a higher beta than the index",
       "It suffers larger drawdowns in declines"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -136,23 +136,23 @@
     "question": "In which environment is implied volatility most likely to fall BELOW subsequently realized volatility?",
     "options": [
       "A calm, steadily rising market with low daily ranges",
-      "A sudden crash in which realized swings outpace the jump in implied volatility",
       "A quiet holiday week with steady premium decay",
-      "A sideways market with shrinking daily ranges"
+      "A sideways market with shrinking daily ranges",
+      "A sudden crash in which realized swings outpace the jump in implied volatility"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 13,
     "question": "Why might an analyst report the median, as well as the mean, of the implied-minus-realized volatility spread?",
     "options": [
-      "Occasional large negative crisis readings skew the mean, so the median is more robust",
       "The mean cannot be calculated when some spreads are negative",
+      "Occasional large negative crisis readings skew the mean, so the median is more robust",
       "The mean is distorted by the annualization factor used for VIX",
       "The median removes the effect of interest rates on option prices"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -160,11 +160,11 @@
     "question": "An investor holding a long position in a broad equity index (or a portfolio highly correlated with it) can harvest the VRP by:",
     "options": [
       "Buying index put options",
-      "Selling index call options",
       "Buying VIX futures",
-      "Shorting the index"
+      "Shorting the index",
+      "Selling index call options"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -207,12 +207,12 @@
     "id": 18,
     "question": "What is the primary benefit of systematic put-writing and covered-call index strategies compared with buy-and-hold of the same index?",
     "options": [
-      "Higher annualized returns",
       "Lower drawdowns and standard deviations",
+      "Higher annualized returns",
       "Higher beta to the index",
       "Greater built-in leverage"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -232,23 +232,23 @@
     "question": "What does 'capturing the VRP' specifically refer to?",
     "options": [
       "Buying options when volatility is low",
-      "Collecting option premiums by selling options",
       "Trading VIX futures",
+      "Collecting option premiums by selling options",
       "Hedging portfolio risk"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 21,
     "question": "If a trader expects implied volatility to remain greater than realized volatility, which strategy is most appropriate?",
     "options": [
+      "Sell call or put options",
       "Buy call options",
       "Buy put options",
-      "Sell call or put options",
       "Buy straddles"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -257,10 +257,10 @@
     "options": [
       "−16%",
       "−10%",
-      "−6%",
-      "+6%"
+      "+6%",
+      "−6%"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -280,11 +280,11 @@
     "question": "Selling option spreads against a portfolio of Treasury securities can be used to:",
     "options": [
       "Remove interest-rate risk from the Treasury holdings",
-      "Lock in a fixed, risk-free return",
       "Capture VRP and enhance returns",
+      "Lock in a fixed, risk-free return",
       "Replace the need for equity exposure in a portfolio"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -293,10 +293,10 @@
     "options": [
       "It increases dramatically",
       "It remains constant",
-      "It can become negative or significantly compressed",
-      "It is unaffected, because implied and realized volatility move together"
+      "It is unaffected, because implied and realized volatility move together",
+      "It can become negative or significantly compressed"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -304,11 +304,11 @@
     "question": "When testing how well implied volatility forecast actual volatility, a 21-day realized volatility measure used for comparison represents:",
     "options": [
       "Forward-looking volatility expectations",
-      "Historical volatility over the subsequent 21 trading days",
       "Average volatility over the past 21 days",
+      "Historical volatility over the subsequent 21 trading days",
       "Annualized volatility"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -340,11 +340,11 @@
     "question": "A portfolio manager implements a covered call strategy. This approach is most suitable when:",
     "options": [
       "Expecting a significant rally in the stock",
-      "Implied volatility is rich relative to expected realized",
       "During extreme market downturns",
+      "Implied volatility is rich relative to expected realized",
       "VIX is above 40 and rising"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -353,10 +353,10 @@
     "options": [
       "Tail risk hedging",
       "Portfolio risk management",
-      "Eliminating all market risk",
-      "Alpha generation strategies"
+      "Alpha generation strategies",
+      "Eliminating all market risk"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -365,10 +365,10 @@
     "options": [
       "Only S&P 500 options",
       "Only equity index options",
-      "Individual stocks and all optionable asset classes",
-      "Only options on assets that also have listed futures"
+      "Only options on assets that also have listed futures",
+      "Individual stocks and all optionable asset classes"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -387,12 +387,12 @@
     "id": 33,
     "question": "During a sudden crisis, realized volatility jumps above the implied volatility priced a month earlier. Which position benefited most?",
     "options": [
+      "Long index options bought before the shock",
       "Short index puts written at the start of the month",
       "Covered calls on the index",
-      "Long index options bought before the shock",
       "Cash-secured puts on the index"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -400,11 +400,11 @@
     "question": "An investor sells put options on the S&P 500 when VIX is at 18. This strategy is attempting to:",
     "options": [
       "Speculate on market decline",
-      "Hedge long equity positions",
       "Capture the volatility risk premium",
+      "Hedge long equity positions",
       "Increase portfolio beta"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -423,24 +423,24 @@
     "id": 36,
     "question": "Two option-writing strategies show betas of 0.55 and 0.65 to the equity index. Which conclusion is best supported?",
     "options": [
-      "They move less than the index, reducing market sensitivity",
       "They are uncorrelated with equities",
       "They outperform the index in every rally",
+      "They move less than the index, reducing market sensitivity",
       "They have lower standard deviations than cash"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 37,
     "question": "When should a trader consider buying volatility through long options positions?",
     "options": [
+      "When implied volatility sits below realized volatility",
       "When VIX is above 40",
       "When implied volatility exceeds realized volatility",
-      "When implied volatility sits below realized volatility",
       "When VIX is below its long-run average"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -448,23 +448,23 @@
     "question": "A covered call (buy-write) strategy involves:",
     "options": [
       "Buying calls and selling puts",
-      "Owning the underlying and selling call options",
       "Selling naked call options",
-      "Buying protective puts"
+      "Buying protective puts",
+      "Owning the underlying and selling call options"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 39,
     "question": "A put-write strategy on an index returns 9% annualized while the index returns 10%, with roughly two-thirds of the index's volatility. On a risk-adjusted basis, the put-write strategy:",
     "options": [
-      "Is clearly inferior",
       "Is likely superior, since it gives up little return for much less risk",
+      "Is clearly inferior",
       "Is equivalent, since returns differ by only 1%",
       "Is inferior, because it earns a lower return"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -472,23 +472,23 @@
     "question": "A trader observes VIX at 15 with 21-day realized volatility historically around 12. The optimal strategy would be to:",
     "options": [
       "Buy volatility through long options",
-      "Sell volatility through short options",
       "Buy straddles to profit from the 3-point gap",
+      "Sell volatility through short options",
       "Buy VIX futures"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 41,
     "question": "An option seller writes an at-the-money index call for a premium of 4.00. At expiration the call is worth 1.50. Ignoring costs, how much of the premium did the seller keep?",
     "options": [
-      "4.00",
       "1.50",
       "2.50",
+      "4.00",
       "5.50"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -497,10 +497,10 @@
     "options": [
       "Eliminate exposure to the underlying's price moves",
       "Earn the VRP regardless of the strategy chosen",
-      "Express directional views without committing to the underlying",
-      "Eliminate volatility exposure"
+      "Eliminate volatility exposure",
+      "Express directional views without committing to the underlying"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -509,10 +509,10 @@
     "options": [
       "When VIX was below 15",
       "When VIX was between 15-20",
-      "When VIX spiked above 40",
-      "During stable market periods"
+      "During stable market periods",
+      "When VIX spiked above 40"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -520,23 +520,23 @@
     "question": "A portfolio with high correlation to the S&P 500 can enhance returns by:",
     "options": [
       "Buying index puts for protection",
-      "Selling call options against the position",
       "Increasing leverage",
+      "Selling call options against the position",
       "Selling the position and buying index futures instead"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 45,
     "question": "The seller of an option in the VRP framework is motivated by:",
     "options": [
-      "Hedging existing positions",
       "Earning the premium for underwriting options",
+      "Hedging existing positions",
       "Protecting against losses",
       "Avoiding market exposure"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -568,11 +568,11 @@
     "question": "A trader implementing VRP capture strategies should monitor:",
     "options": [
       "Only the VIX level",
-      "The spread between implied and realized volatility",
       "Only historical volatility",
-      "The level of interest rates only"
+      "The level of interest rates only",
+      "The spread between implied and realized volatility"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {

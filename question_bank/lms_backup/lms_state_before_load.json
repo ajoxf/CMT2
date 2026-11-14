@@ -1,0 +1,164 @@
+{
+ "course_id": "80f93324-1e9a-4c08-ac20-783bc3f9ae8e",
+ "supabase_project": "fincoursa-lms",
+ "taken": "2026-11-14",
+ "note": "State of the LMS course before the corrected bank was loaded. Every non-empty lesson was verified (md5 of prompts + answer-key pattern) to be an exact copy of the listed original sections_exam1_*.js file in this repo, so those files are the full backup. Empty lessons: Anatomy of Market Bubbles, Charting Multiple Data Sets, Market Profile, Derivatives Sentiment, Inferential Statistics. All lessons had pass_pct 70.",
+ "lessons": [
+  {
+   "lesson_id": "5a1af8f0-5597-45c0-ad54-c2932966cb3e",
+   "prompt_md5": "d386779fd53624b81389fa8042999498",
+   "answer_pattern": "121212121121122112122111002121",
+   "source_file": "sections_exam1_ch1_1.js"
+  },
+  {
+   "lesson_id": "4507a185-19b0-4085-a9be-78bf8831abb2",
+   "prompt_md5": "dd2c4010ac25c8f8e0006d743b1c6e0c",
+   "answer_pattern": "111210211110011111201111112121",
+   "source_file": "sections_exam1_ch1_2.js"
+  },
+  {
+   "lesson_id": "472566bb-9880-49fd-ae00-8529ee61279e",
+   "prompt_md5": "e4e494f78e552a58028ad1facf4815e8",
+   "answer_pattern": "12112111112111121212211211112112112121121222221222",
+   "source_file": "sections_exam1_ch4_1.js"
+  },
+  {
+   "lesson_id": "03154f42-9ac4-4b30-96a5-f29210e4f257",
+   "prompt_md5": "8e59d1a0745f8e749349a80ff44d62f8",
+   "answer_pattern": "121112121011112111111221211212",
+   "source_file": "sections_exam1_ch4_2.js"
+  },
+  {
+   "lesson_id": "65bf1ef0-fb35-4a67-86a6-d6d32989f692",
+   "prompt_md5": "b73fdeca09add2a98c2c0aa330ed841e",
+   "answer_pattern": "111121212221221112211112212222",
+   "source_file": "sections_exam1_ch4_3_1.js"
+  },
+  {
+   "lesson_id": "cf174c90-3ef3-4eb4-b24b-708259571502",
+   "prompt_md5": "7b1e1270bb5b3b2dd5023f8424c234f6",
+   "answer_pattern": "111222212212112211122112121212",
+   "source_file": "sections_exam1_ch4_4.js"
+  },
+  {
+   "lesson_id": "3c2e1770-6b87-49b1-8ba5-5a8b5fc2706e",
+   "prompt_md5": "9568a722830aa11d55d46f465f747d26",
+   "answer_pattern": "121212211112101212212112212011",
+   "source_file": "sections_exam1_ch5_1.js"
+  },
+  {
+   "lesson_id": "8ce50eee-b0b1-470b-ad56-ce95e4f78092",
+   "prompt_md5": "206342641d60c24428206c0d3f991b8a",
+   "answer_pattern": "11211211212212212121211112211211211212211131201121",
+   "source_file": "sections_exam1_ch5_2.js"
+  },
+  {
+   "lesson_id": "eaebf55a-0703-4145-bf1c-3236b682ff13",
+   "prompt_md5": "543fb462797242a0d4659ce3978f3b6e",
+   "answer_pattern": "112231111111111112121111111111",
+   "source_file": "sections_exam1_ch6_1.js"
+  },
+  {
+   "lesson_id": "a70f7a8f-2077-4db0-a995-a345f8f09cb2",
+   "prompt_md5": "ff865e0e4e41fb5de3bc4194e1fdaa4b",
+   "answer_pattern": "11120121120121212111211221131221121121111221101112",
+   "source_file": "sections_exam1_ch6_2.js"
+  },
+  {
+   "lesson_id": "df953906-4ca0-4e11-bd5e-9fd9d7c0cc98",
+   "prompt_md5": "a037bceca8befcdb597041d886ba6923",
+   "answer_pattern": "121131221212122212211121211211",
+   "source_file": "sections_exam1_ch6_3.js"
+  },
+  {
+   "lesson_id": "df87a899-1865-4d2c-95e3-4752bea9d585",
+   "prompt_md5": "298565fd26b66c0fdc32e83dbfea4b86",
+   "answer_pattern": "11111121221122211211112121212112111212311112212111",
+   "source_file": "sections_exam1_ch7_1.js"
+  },
+  {
+   "lesson_id": "3b145594-5887-44e2-a03a-6d9aedee2e81",
+   "prompt_md5": "4f99c6ab1bd39984826e2d53d65b2cf5",
+   "answer_pattern": "120111121212111212111101111111",
+   "source_file": "sections_exam1_ch9_2.js"
+  },
+  {
+   "lesson_id": "b40ea6d4-643a-4fb5-9f92-dc841d790a94",
+   "prompt_md5": "237e0ad031016639447964a31ff9c678",
+   "answer_pattern": "120212112112121122011111112212",
+   "source_file": "sections_exam1_ch9_2_2.js"
+  },
+  {
+   "lesson_id": "06cb6ede-e324-4e9c-9b12-4f801e12a7f0",
+   "prompt_md5": "27ac82ace00f4945167f94319af6cb72",
+   "answer_pattern": "122112211210121112032111212112",
+   "source_file": "sections_exam1_ch9_3_6.js"
+  },
+  {
+   "lesson_id": "acab264c-285c-41a6-89aa-61893660338d",
+   "prompt_md5": "98f6111d7414cd222e1a1014573f78bf",
+   "answer_pattern": "012022121221212112121212111111",
+   "source_file": "sections_exam1_ch9_4.js"
+  },
+  {
+   "lesson_id": "dce0ed4c-8587-4ac2-b0b8-046fa1ab9a15",
+   "prompt_md5": "9c69f0ea9fb268f8c6b00cc5c69fa73e",
+   "answer_pattern": "121211122211211021221101111021",
+   "source_file": "sections_exam1_ch10_1.js"
+  },
+  {
+   "lesson_id": "23b49835-54c8-45d7-931b-7e4cb0d71f26",
+   "prompt_md5": "6af66da82090d3ac0b51386a57670f99",
+   "answer_pattern": "121121211122113121222121111111",
+   "source_file": "sections_exam1_ch10_1_2.js"
+  },
+  {
+   "lesson_id": "7f68313c-7501-4907-b01e-19cb49780f3b",
+   "prompt_md5": "375a0e3107acc4cc54545a594f498016",
+   "answer_pattern": "111211111111112011212111202111",
+   "source_file": "sections_exam1_ch11_1.js"
+  },
+  {
+   "lesson_id": "af1e7773-1a0c-4865-95f4-d93d732dd81c",
+   "prompt_md5": "6080a4a3c61e0222a5a2cc05342ee48d",
+   "answer_pattern": "122111221113122112221231122221",
+   "source_file": "sections_exam1_ch11_4.js"
+  },
+  {
+   "lesson_id": "879394b8-d071-4f17-9e56-dedc4f0bdf46",
+   "prompt_md5": "659de8597802bf01fe88a67132559213",
+   "answer_pattern": "111212212112112112111212121111",
+   "source_file": "sections_exam1_ch11_5.js"
+  },
+  {
+   "lesson_id": "a52146b1-a050-437d-9ba3-49dfa9a502c4",
+   "prompt_md5": "b69b056bf6cdaeaaf07a48ff21571bd8",
+   "answer_pattern": "111111221211111121211111122111",
+   "source_file": "sections_exam1_ch11_6_1.js"
+  },
+  {
+   "lesson_id": "811f88a4-2153-4c57-90bb-43f9be94bf37",
+   "prompt_md5": "b77fee014b509b7f2899eff9a4ab6d5a",
+   "answer_pattern": "01111121112111111123321122112221111121221121212122",
+   "source_file": "sections_exam1_ch12_1.js"
+  },
+  {
+   "lesson_id": "c54768b7-2d7a-4b0b-9cda-f061be141d28",
+   "prompt_md5": "92f52a6ccc0696f282c390a5f180481f",
+   "answer_pattern": "11211220111112122101212121211111111111111011111112",
+   "source_file": "sections_exam1_ch12_1_1.js"
+  },
+  {
+   "lesson_id": "eaf0370b-efd5-46cc-ab91-bf57fa93b813",
+   "prompt_md5": "402f8c072b38e741e0fb884526c60e89",
+   "answer_pattern": "12111212221111131112111111111111111111111101132111",
+   "source_file": "sections_exam1_ch12_2_2.js"
+  },
+  {
+   "lesson_id": "d7e8704c-4868-4b91-ac47-374a384ee1fb",
+   "prompt_md5": "177bfd584af16a63f922d00309006602",
+   "answer_pattern": "11111111112111122121111222121121221222121212111111",
+   "source_file": "sections_exam1_ch12_2_3.js"
+  }
+ ]
+}

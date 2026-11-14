@@ -3,48 +3,48 @@
     "id": 1,
     "question": "According to Gerald Appel, what are the two most important determinations when analyzing the MACD indicator?",
     "options": [
-      "The distance between the MACD lines and the number of crossovers",
       "Whether the MACD line is above or below zero, and whether it is rising or falling",
+      "The distance between the MACD lines and the number of crossovers",
       "The histogram height and the signal line slope",
       "The divergence pattern and the overbought/oversold levels"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 2,
     "question": "According to Appel, when is the market considered MOST favorable for trading?",
     "options": [
+      "When the MACD is above zero and rising",
       "When the MACD is below zero and rising",
       "When the MACD crosses its signal line",
-      "When the MACD is above zero and rising",
       "When the MACD reaches historical extremes"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 3,
     "question": "What is Appel's basic buy signal using MACD?",
     "options": [
-      "MACD crosses above its signal line, preferably while MACD is below zero",
       "The histogram turns positive while MACD is already above zero",
       "MACD crosses above zero, preferably right after a negative divergence",
+      "MACD crosses above its signal line, preferably while MACD is below zero",
       "MACD crosses above its signal line, preferably while far above zero"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 4,
     "question": "According to Appel, when can basic MACD signals be acted on with increased confidence?",
     "options": [
+      "When they follow a positive or negative divergence",
       "When volume confirms the signal",
       "When they occur at historical extremes",
-      "When they follow a positive or negative divergence",
       "When they occur during high volatility periods"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -52,11 +52,11 @@
     "question": "What is Appel's recommended method for avoiding whipsaws and aligning with the trend?",
     "options": [
       "Lengthen the MACD settings so crossovers occur less often",
-      "Act only on signals that agree with the slope of a price MA",
       "Require the histogram to confirm each crossover first",
-      "Act only on signals that occur on above-average volume"
+      "Act only on signals that occur on above-average volume",
+      "Act only on signals that agree with the slope of a price MA"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -65,10 +65,10 @@
     "options": [
       "When the MACD crosses below its signal line",
       "When the MACD crosses below zero",
-      "When the MACD makes a new low",
-      "When price breaks its moving average"
+      "When price breaks its moving average",
+      "When the MACD makes a new low"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -76,23 +76,23 @@
     "question": "In Appel's Two-MACD System, what is the logic behind using different speeds for buy and sell signals?",
     "options": [
       "Markets rise faster than they fall, so a faster MACD is used for sell signals",
-      "Markets tend to fall faster than they rise, so a faster MACD is used for buy signals",
       "A faster MACD gives more signals, so it is reserved for the side with more trades",
+      "Markets tend to fall faster than they rise, so a faster MACD is used for buy signals",
       "A slower MACD is more reliable, so it is used for whichever signal is riskier"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 8,
     "question": "What are Appel's specific settings for the Two-MACD System?",
     "options": [
+      "10, 20, 5 for buy signals and 20, 40, 10 for sell signals",
       "12, 26, 9 for buy signals and 12, 26, 9 for sell signals",
       "13, 26, 9 for buy signals and 19, 39, 9 for sell signals",
-      "19, 39, 9 for buy signals and 13, 26, 9 for sell signals",
-      "10, 20, 5 for buy signals and 20, 40, 10 for sell signals"
+      "19, 39, 9 for buy signals and 13, 26, 9 for sell signals"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "In the Two-MACD System, when should you hold a long position (sell trigger)?",
     "options": [
       "Until the faster MACD crosses back below its signal line",
-      "Until the slower MACD crosses below zero from above",
       "Until the slower MACD rises above zero, then falls below its signal line",
+      "Until the slower MACD crosses below zero from above",
       "Until the faster MACD makes a new low below zero"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "According to Appel, during strong uptrends with no negative divergences, what should traders consider?",
     "options": [
       "Exit on the first sell signal, because strong advances end abruptly",
-      "The first sell signal after a very successful buy can often be ignored",
       "Add to the position on the first sell signal, as it marks a pullback",
-      "Tighten the stop to the latest swing low at every sell signal"
+      "Tighten the stop to the latest swing low at every sell signal",
+      "The first sell signal after a very successful buy can often be ignored"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "What type of market condition does Appel caution that MACD does NOT work well in?",
     "options": [
       "High volatility trending markets",
-      "Gradual, low volatility directional trends",
       "Strongly trending markets with clear momentum",
+      "Gradual, low volatility directional trends",
       "Range-bound markets with clear boundaries"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -136,11 +136,11 @@
     "question": "According to Appel, for buy signals to occur above zero in low volatility trends, what conditions must be met?",
     "options": [
       "Volume must expand sharply on the day the MACD crossover occurs",
-      "Price must first break above its most recent swing high on a closing basis",
       "A strong price case, a clear positive divergence, or a significant trendline break",
+      "Price must first break above its most recent swing high on a closing basis",
       "The histogram must first make a new low below zero before turning up"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -148,11 +148,11 @@
     "question": "What does Dr. Alexander Elder compare instead of the traditional MACD-to-price divergence technique?",
     "options": [
       "The MACD line to its signal line",
-      "The histogram (MACD minus its EMA) to price",
       "MACD zero-line crossovers to price",
-      "The signal line alone to price"
+      "The signal line alone to price",
+      "The histogram (MACD minus its EMA) to price"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -160,23 +160,23 @@
     "question": "How does Dr. Elder describe the MACD histogram's function?",
     "options": [
       "As a trailing stop that follows price at a set distance",
-      "As a volatility filter that screens out quiet markets",
       "As a car's headlight at night, lighting the road ahead",
+      "As a volatility filter that screens out quiet markets",
       "As a rear-view mirror confirming what price already did"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "What does it indicate when the histogram rises above zero according to Elder's interpretation?",
     "options": [
-      "MACD is falling toward its signal line (positive velocity, negative acceleration)",
       "MACD is pulling farther above its signal line (positive velocity and acceleration)",
+      "MACD is falling toward its signal line (positive velocity, negative acceleration)",
       "Price has entered overbought territory and a top is near",
       "MACD has crossed above zero, confirming a new uptrend"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "According to Elder, what is the critical requirement for a valid negative histogram divergence?",
     "options": [
       "The histogram must stay above zero between the two highs",
-      "Between the two highs, the histogram must dip below zero",
       "Price's second high must exceed the first by a set margin",
+      "Between the two highs, the histogram must dip below zero",
       "Volume must be lower on the second price high"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -196,23 +196,23 @@
     "question": "When should a trader sell short according to Elder's histogram divergence technique?",
     "options": [
       "When the histogram crosses below zero",
-      "When price makes a lower high",
       "When the histogram ticks down from its lower high",
+      "When price makes a lower high",
       "When MACD crosses below its signal line"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 18,
     "question": "What is significant about Elder's histogram divergences compared to traditional divergences?",
     "options": [
+      "They are rarer than ordinary divergences, which makes them stronger",
       "They occur more often, giving more trading opportunities",
       "They work only on weekly and monthly charts",
-      "They are rarer than ordinary divergences, which makes them stronger",
       "They lead price by a fixed number of bars"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -232,11 +232,11 @@
     "question": "What is the purpose of Raschke's faster MACD settings?",
     "options": [
       "To filter out noise so that only major trends give signals",
-      "To make momentum spikes, which often mark trend starts or exhaustion, stand out",
       "To align the oscillator with longer-term market cycles",
+      "To make momentum spikes, which often mark trend starts or exhaustion, stand out",
       "To reduce the number of signal-line crossovers"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -256,11 +256,11 @@
     "question": "According to Raschke, what are the three parts required for a valid signal?",
     "options": [
       "Price, volume, and momentum all pointing the same way",
-      "A setup (condition), a trigger, and follow-through (confirmation)",
       "Support, resistance, and a confirming trendline break",
+      "A setup (condition), a trigger, and follow-through (confirmation)",
       "A divergence, a signal-line crossover, and an extreme reading"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -268,23 +268,23 @@
     "question": "What is Raschke's intermediate buy condition in established uptrends?",
     "options": [
       "Price breaks to new highs while the oscillator is above zero",
-      "In an uptrend, price pulls back to its 20-period MA while the oscillator dips below zero",
       "Price pulls back to its 20-period MA while the oscillator makes a new high",
-      "Price falls below its 20-period MA as the oscillator's average turns negative"
+      "Price falls below its 20-period MA as the oscillator's average turns negative",
+      "In an uptrend, price pulls back to its 20-period MA while the oscillator dips below zero"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 24,
     "question": "According to Wilder, when using RSI, what can identify potential tops and bottoms?",
     "options": [
-      "When RSI crosses its 50 midline",
       "When RSI moves beyond 70 or 30 and then crosses back toward 50",
+      "When RSI crosses its 50 midline",
       "When RSI first moves above 70 or below 30",
       "When RSI holds between 40 and 60 for an extended period"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -292,11 +292,11 @@
     "question": "What constitutes a bearish RSI failure swing according to Wilder?",
     "options": [
       "RSI peaks above 70, pulls back, then rallies to a higher peak above 70",
-      "RSI peaks above 70, pulls back, rallies to a lower peak, then breaks its pullback low",
       "RSI falls below 30, bounces, then breaks below its first low",
-      "RSI peaks below 70, pulls back, then rallies above 70 to a new high"
+      "RSI peaks below 70, pulls back, then rallies above 70 to a new high",
+      "RSI peaks above 70, pulls back, rallies to a lower peak, then breaks its pullback low"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -304,11 +304,11 @@
     "question": "According to Cardwell, what is the main criticism of traditional RSI interpretation?",
     "options": [
       "RSI look-back periods should be much longer than 14 bars",
-      "Buying 30, selling 70 and trading divergences misreads RSI in trends",
       "RSI is valid only on weekly and monthly charts, not daily",
-      "Failure swings are the only reliable signal RSI produces"
+      "Failure swings are the only reliable signal RSI produces",
+      "Buying 30, selling 70 and trading divergences misreads RSI in trends"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -316,23 +316,23 @@
     "question": "How does Cardwell interpret RSI levels above 70 and below 30?",
     "options": [
       "As overbought and oversold signals to trade against",
-      "As noise that should be ignored",
       "As signs of strong trending conditions, not reversal signals",
+      "As noise that should be ignored",
       "As confirmation that the trend is exhausted"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 28,
     "question": "According to Cardwell and Brown's range rules, what RSI level should be maintained during uptrends?",
     "options": [
+      "RSI stays above 40",
       "RSI stays above 50",
       "RSI stays above 60",
-      "RSI stays above 40",
       "RSI stays above 70"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "Under Cardwell/Brown range rules, a stock had been holding RSI above 40 in an uptrend. Price now makes a lower low and RSI falls below 30 into oversold territory. How should this be interpreted?",
     "options": [
       "As a positive divergence and buy signal",
-      "As an oversold buying chance in an intact uptrend",
       "As a sign that the bullish RSI range has broken",
+      "As an oversold buying chance in an intact uptrend",
       "As a completed bullish failure swing"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   }
 ]

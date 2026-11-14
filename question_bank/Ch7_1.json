@@ -3,48 +3,48 @@
     "id": 1,
     "question": "According to the SEC requirements, corporate insiders must report their transactions within what timeframe after the activity?",
     "options": [
-      "Within the same trading day",
       "Within two business days",
+      "Within the same trading day",
       "Within five business days",
       "Within ten business days"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 2,
     "question": "What is the primary reason that insider selling is generally considered less significant than insider buying?",
     "options": [
-      "Insider sales must be pre-cleared by regulators, removing their information",
       "Insiders can sell for various personal reasons unrelated to company outlook",
+      "Insider sales must be pre-cleared by regulators, removing their information",
       "Insider selling data is not publicly available",
       "Insider selling is reported with a longer delay than buying"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 3,
     "question": "Over one month, insiders across a market made 60 open-market purchases and 240 open-market sales. The long-run average insider buy/sell ratio is 0.40. What is this month's ratio and how should it be read?",
     "options": [
-      "0.25; below its norm, a less bullish insider reading",
       "4.0; far above its norm, strongly bullish",
       "0.25; above its norm, a bullish reading",
+      "0.25; below its norm, a less bullish insider reading",
       "0.20; in line with its norm, neutral"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 4,
     "question": "Hypothetical Stock DEF has 6,000,000 shares sold short, a float of 40,000,000 shares and average daily volume of 500,000 shares. What are its short interest as a percentage of float and its days-to-cover?",
     "options": [
+      "6.7% of float; 12 days",
       "12% of float; 15 days",
-      "15% of float; 12 days",
       "15% of float; 0.08 days",
-      "6.7% of float; 12 days"
+      "15% of float; 12 days"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -52,11 +52,11 @@
     "question": "How is the 'Days-to-Cover' (DTC) ratio calculated?",
     "options": [
       "Average daily share volume divided by aggregate short interest",
-      "Aggregate short interest divided by average daily share volume",
       "Total shares outstanding divided by short interest",
+      "Aggregate short interest divided by average daily share volume",
       "Short interest divided by total market capitalization"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -64,11 +64,11 @@
     "question": "A high short interest ratio is viewed by some analysts as bullish for which of the following reasons?",
     "options": [
       "It signals strong company fundamentals",
-      "Shorts may be forced to buy back shares, adding demand",
       "It shows institutional confidence in the stock",
+      "Shorts may be forced to buy back shares, adding demand",
       "It typically precedes positive earnings surprises"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -101,10 +101,10 @@
     "options": [
       "Securities and Exchange Commission (SEC)",
       "Financial Industry Regulatory Authority (FINRA)",
-      "American Association of Individual Investors (AAII)",
-      "National Association of Securities Dealers (NASD)"
+      "National Association of Securities Dealers (NASD)",
+      "American Association of Individual Investors (AAII)"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "Studies of a widely followed individual-investor sentiment survey found which reading to be the most useful contrarian signal?",
     "options": [
       "When investors were unusually optimistic",
-      "When investors were unusually pessimistic",
       "When investors described themselves as neutral",
+      "When investors were unusually pessimistic",
       "When investors were evenly split between bullish and bearish"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "In a weekly investor-sentiment survey, an unusually high share of respondents describe themselves as 'neutral'. A contrarian analyst would most likely interpret this as:",
     "options": [
       "A sign that a sharp decline is imminent",
-      "Indecision that has historically preceded above-average gains",
       "Irrelevant, since only bulls and bears matter",
+      "Indecision that has historically preceded above-average gains",
       "Confirmation that the trend will stay flat"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -137,10 +137,10 @@
     "options": [
       "Bullish confirmation, since advisors are aligned with the uptrend",
       "A buy signal, because bears are below 20%",
-      "Caution: bullish readings above about 60% have tended to precede pullbacks",
-      "Neutral, since only bearish extremes carry meaning"
+      "Neutral, since only bearish extremes carry meaning",
+      "Caution: bullish readings above about 60% have tended to precede pullbacks"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -149,10 +149,10 @@
     "options": [
       "As a trend-following indicator",
       "As a momentum indicator",
-      "As a contrarian indicator",
-      "As a volatility indicator"
+      "As a volatility indicator",
+      "As a contrarian indicator"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -183,12 +183,12 @@
     "id": 16,
     "question": "An advisor survey shows bears above 55% for only the handful of times in several decades. Why are such readings considered significant buy signals?",
     "options": [
-      "Because extreme pessimism among advisors is rare and has tended to coincide with major market lows",
       "Because advisors are usually right at extremes",
+      "Because extreme pessimism among advisors is rare and has tended to coincide with major market lows",
       "Because high bearishness forces margin calls",
       "Because the survey measures money actually committed to short positions"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -209,10 +209,10 @@
     "options": [
       "Days-to-cover fell from 10 to 4, so shorts are already covering",
       "Days-to-cover is unchanged because volume is unchanged",
-      "Days-to-cover rose from 4 to 10, and forced covering could add fuel to the breakout",
-      "Days-to-cover rose to 10, which shows the shorts are right and the breakout will fail"
+      "Days-to-cover rose to 10, which shows the shorts are right and the breakout will fail",
+      "Days-to-cover rose from 4 to 10, and forced covering could add fuel to the breakout"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -231,12 +231,12 @@
     "id": 20,
     "question": "Which type of insider acquisition should generally carry less weight than open market purchases?",
     "options": [
-      "Shares acquired through inheritance",
       "Shares acquired through options exercised below market price",
+      "Shares acquired through inheritance",
       "Shares acquired through direct stock purchase plans",
       "Shares acquired through tender offers"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -244,11 +244,11 @@
     "question": "Why do insiders often wait to trade until after earnings announcements?",
     "options": [
       "To obtain better prices after the news",
-      "Company policies restrict trading before earnings releases",
       "The SEC mandates a fixed waiting period",
+      "Company policies restrict trading before earnings releases",
       "To avoid the volatility around the release"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -256,11 +256,11 @@
     "question": "What is the primary purpose of SEC Rule 10b5-1 trading plans for insiders?",
     "options": [
       "To let insiders time sales around earnings releases",
-      "To provide orderly liquidation and avoid insider trading accusations",
       "To increase company stock liquidity",
+      "To provide orderly liquidation and avoid insider trading accusations",
       "To defer capital gains taxes on the shares sold"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -292,23 +292,23 @@
     "question": "Hypothetical Stock ABC has 9,000,000 shares sold short and an average daily trading volume of 1,200,000 shares. What is its days-to-cover (short interest) ratio?",
     "options": [
       "About 0.13 days",
-      "About 7.5 days",
       "About 1.33 days",
+      "About 7.5 days",
       "About 75 days"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 26,
     "question": "Stock XYZ has formed a multi-month rectangle beneath resistance at $40, and four directors have bought shares on the open market in the past month. Which technical approach best complements this insider signal?",
     "options": [
-      "Buy only on a decisive breakout above $40, using insider buying as confirmation",
       "Sell short because insiders are early",
       "Buy now, since insider buying makes a breakout unnecessary",
+      "Buy only on a decisive breakout above $40, using insider buying as confirmation",
       "Short the next test of $40, since resistance has held for months"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -328,11 +328,11 @@
     "question": "What three categories does the Investors Intelligence report classify advisors into?",
     "options": [
       "Bullish, neutral, and bearish",
-      "Bullish, bearish, and expecting a correction",
       "Optimistic, pessimistic, and uncertain",
+      "Bullish, bearish, and expecting a correction",
       "Long, short, and hedged"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -399,12 +399,12 @@
     "id": 34,
     "question": "What type of sentiment indicator approach do surveys represent compared to insider buying and short positions?",
     "options": [
-      "Surveys measure actions while others measure opinions",
       "Surveys measure opinions while others involve capital at risk",
+      "Surveys measure actions while others measure opinions",
       "Surveys are more reliable than action-based indicators",
       "Surveys are less regulated than action-based indicators"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -423,12 +423,12 @@
     "id": 36,
     "question": "An insider buy/sell ratio spiked at two prior bear-market lows but barely rose at a third market low. What lesson does this give?",
     "options": [
-      "The ratio stopped working after the first two lows",
       "No single indicator marks every bottom; combine it with other evidence",
+      "The ratio stopped working after the first two lows",
       "Insiders were wrong at the third low",
       "The ratio works only in bull markets"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -436,35 +436,35 @@
     "question": "What is a legitimate reason an insider might sell shares that doesn't indicate bearish sentiment?",
     "options": [
       "Insider knowledge of negative earnings",
-      "Estate planning or portfolio diversification",
       "Expectation of regulatory problems",
-      "Knowledge of competitor advantages"
+      "Knowledge of competitor advantages",
+      "Estate planning or portfolio diversification"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 38,
     "question": "Has academic research found that top executives earn higher abnormal returns on their insider trades than other insiders?",
     "options": [
+      "No, they do not earn higher returns",
       "Yes, significantly higher returns",
       "Yes, but only marginally higher",
-      "No, they do not earn higher returns",
       "The research did not examine this question"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 39,
     "question": "A weekly individual-investor survey shows 22% bullish, 48% bearish and 30% neutral. What is the bull-bear spread, and how would a contrarian most likely read it?",
     "options": [
+      "-26 points; a potentially bullish contrarian signal",
       "+26 points; a bearish contrarian signal",
       "-26 points; confirmation that further declines are likely",
-      "-26 points; a potentially bullish contrarian signal",
       "-18 points; a neutral reading"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -483,12 +483,12 @@
     "id": 41,
     "question": "When evaluating whether returns after an extreme sentiment reading are meaningful, an analyst should compare them with:",
     "options": [
-      "The best return following any prior extreme reading",
       "The median return over all comparable periods (the baseline)",
+      "The best return following any prior extreme reading",
       "A zero return, since any gain is meaningful",
       "The return of the prior period"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -520,11 +520,11 @@
     "question": "What is the primary risk that motivates short sellers to cover their positions?",
     "options": [
       "Regulatory penalties",
-      "Dividend payments owed to the share lender",
       "Losses from stock price increases",
+      "Dividend payments owed to the share lender",
       "Borrowing costs"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -533,10 +533,10 @@
     "options": [
       "As a standalone indicator",
       "Only with fundamental analysis",
-      "In combination with other independent factors",
-      "Exclusively for short-term trading"
+      "Exclusively for short-term trading",
+      "In combination with other independent factors"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -544,23 +544,23 @@
     "question": "If the short interest ratio for a stock is very high, what does this indicate about investor expectations?",
     "options": [
       "Many investors expect the stock to rise",
-      "Many investors expect the stock to fall",
       "Investors are neutral on the stock",
+      "Many investors expect the stock to fall",
       "Lenders are reluctant to lend the shares"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 47,
     "question": "After a 35% decline, a company's CEO, CFO and two directors buy shares in the open market within two weeks, while one director sells under a pre-arranged 10b5-1 plan. How should this be weighed?",
     "options": [
-      "Bearish on balance, since an insider sale during a decline outweighs routine purchases",
       "Bullish: a cluster of open-market buys after a decline is meaningful, while the planned sale carries little information",
+      "Bearish on balance, since an insider sale during a decline outweighs routine purchases",
       "Neutral, because buying and selling by insiders in the same period cancel each other out",
       "Bearish, because insiders buying after a sharp decline are usually trying to prop up the price"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -568,11 +568,11 @@
     "question": "According to Fisher and Statman, when analysts, newsletter writers and individual investors are all extremely bearish, the market is most likely:",
     "options": [
       "Set to continue declining",
-      "Near a bullish reversal",
       "In equilibrium",
-      "About to see lower volatility"
+      "About to see lower volatility",
+      "Near a bullish reversal"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -580,11 +580,11 @@
     "question": "Why is it important to have a low-latency data source when using insider trading information?",
     "options": [
       "To comply with SEC regulations",
-      "Because a significant portion of abnormal returns accrue quickly after transactions",
       "Because insider filings are removed from public databases after a week",
-      "To match institutional trading speeds"
+      "To match institutional trading speeds",
+      "Because a significant portion of abnormal returns accrue quickly after transactions"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -592,11 +592,11 @@
     "question": "In practical application, if an analyst sees a cluster of insider buying in a stock that is consolidating near resistance, the optimal strategy would be:",
     "options": [
       "Buy immediately regardless of technical patterns",
-      "Wait for resistance to be broken, using insider activity as confirmation",
       "Short the stock near resistance, since insiders are often early",
-      "Disregard the insider activity and rely on technicals alone"
+      "Disregard the insider activity and rely on technicals alone",
+      "Wait for resistance to be broken, using insider activity as confirmation"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

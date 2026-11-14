@@ -16,47 +16,47 @@
     "question": "What is the formula for calculating %b?",
     "options": [
       "%b = (UpperBB - LowerBB) / MiddleBB",
-      "%b = ((Last price - LowerBB) / (UpperBB - LowerBB)) x 100",
       "%b = (Last price - MiddleBB) / Standard Deviation",
+      "%b = ((Last price - LowerBB) / (UpperBB - LowerBB)) x 100",
       "%b = (UpperBB - Last price) / (UpperBB - LowerBB)"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 3,
     "question": "When price is at the upper Bollinger Band, what value does %b equal?",
     "options": [
+      "1 or 100",
       "0",
       "0.5 or 50",
-      "1 or 100",
       "2 or 200"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 4,
     "question": "A stock's Bollinger Bands read: upper band 54, middle band 50, lower band 46. The stock closes at 48. What is its %b?",
     "options": [
+      "0.16 (16)",
       "0.25 (25)",
       "0.50 (50)",
-      "0.75 (75)",
-      "0.16 (16)"
+      "0.75 (75)"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
     "id": 5,
     "question": "What happens to %b when price moves above the upper Bollinger Band?",
     "options": [
+      "It can rise above 100",
       "It stays capped at 100",
       "It resets to 0",
-      "It can rise above 100",
       "It turns negative"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -76,23 +76,23 @@
     "question": "What does the BandWidth indicator measure?",
     "options": [
       "The price position relative to the bands",
-      "The distance between the upper and lower Bollinger Bands",
       "The moving average period",
+      "The distance between the upper and lower Bollinger Bands",
       "The number of trading days in a trend"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 8,
     "question": "What is the formula for BandWidth?",
     "options": [
+      "BandWidth = (UpperBB - LowerBB) / MiddleBB",
       "BandWidth = (UpperBB + LowerBB) / 2",
       "BandWidth = (UpperBB - LowerBB) x MiddleBB",
-      "BandWidth = (UpperBB - LowerBB) / MiddleBB",
       "BandWidth = UpperBB / LowerBB"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -112,11 +112,11 @@
     "question": "What characteristic do volatility cycles exhibit according to Bollinger?",
     "options": [
       "They are mean reverting",
-      "They follow regular economic cycles",
       "They are extreme seeking",
+      "They follow regular economic cycles",
       "They remain constant over time"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -135,12 +135,12 @@
     "id": 12,
     "question": "What is stationarity in the context of Bollinger Bands?",
     "options": [
-      "When price trends steadily in one direction",
       "When a series' mean and variance stay constant over time",
+      "When price trends steadily in one direction",
       "When band width stays fixed regardless of volatility",
       "When price returns to its average after every move"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -149,22 +149,22 @@
     "options": [
       "Individual growth stocks in strong trends",
       "Commodities in persistent supply-driven trends",
-      "Pair-traded assets such as currencies or spreads",
-      "Illiquid real estate investments"
+      "Illiquid real estate investments",
+      "Pair-traded assets such as currencies or spreads"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 14,
     "question": "What constitutes an ideal Two-Bar Reversal pattern?",
     "options": [
-      "Two consecutive bars whose ranges are both smaller than the ATR",
       "Two consecutive bars both greater than the prior range as defined by ATR",
+      "Two consecutive bars whose ranges are both smaller than the ATR",
       "Two bars that close at the same price, one at each band",
       "Two narrow inside bars that follow a single wide-range bar"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -172,11 +172,11 @@
     "question": "In a Two-Bar Reversal at the upper Bollinger Band, what characterizes the first bar?",
     "options": [
       "It closes below the lower Bollinger Band",
-      "It closes at the middle Bollinger Band",
       "It closes above the upper Bollinger Band",
+      "It closes at the middle Bollinger Band",
       "It closes inside the Bollinger Bands"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -209,10 +209,10 @@
     "options": [
       "A brief pause near the upper band, then a resumption higher",
       "The low of the second reversal bar only",
-      "The middle band and potentially the lower band",
-      "A new high above the first bar's close"
+      "A new high above the first bar's close",
+      "The middle band and potentially the lower band"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -244,23 +244,23 @@
     "question": "What defines a Bollinger Band Squeeze?",
     "options": [
       "When price touches both bands simultaneously",
-      "When BandWidth reaches a 125-period low",
       "When the bands become parallel",
-      "When %b equals 50"
+      "When %b equals 50",
+      "When BandWidth reaches a 125-period low"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 22,
     "question": "Why is 125 periods used to identify a Squeeze?",
     "options": [
+      "It represents approximately half a trading year",
       "It's a Fibonacci number",
       "It represents one full trading year",
-      "It represents approximately half a trading year",
       "It's a standard statistical measure"
     ],
-    "correct": 2,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "According to John Bollinger, what is true about The Squeeze?",
     "options": [
       "It is where trends go to die",
-      "It is where trends are born",
       "It indicates a market reversal",
-      "It signals the end of volatility"
+      "It signals the end of volatility",
+      "It is where trends are born"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -304,11 +304,11 @@
     "question": "What defines a Bollinger Band Bulge?",
     "options": [
       "A 125-period low in volatility",
-      "A 125-period high in volatility",
       "When bands become perfectly horizontal",
+      "A 125-period high in volatility",
       "When price consolidates between the bands"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -328,23 +328,23 @@
     "question": "What is the key signal in identifying a Bulge?",
     "options": [
       "When BandWidth touches the upper reference line only",
-      "When BandWidth touches the upper reference line and then turns down",
       "When price breaks above the upper band",
-      "When the moving average flattens"
+      "When the moving average flattens",
+      "When BandWidth touches the upper reference line and then turns down"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 29,
     "question": "How is The Bulge typically used in trading?",
     "options": [
-      "As an entry signal for a new position",
       "To inform an exit or scaling back after a strong move",
+      "As an entry signal for a new position",
       "To add to the position as the trend accelerates",
       "As a signal to reverse at once from long to short"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "In the standard three-panel Bollinger Band chart setup, what is displayed in each panel from top to bottom?",
     "options": [
       "Volume, Price with Bollinger Bands, BandWidth",
-      "Price with Bollinger Bands, %b indicator, BandWidth indicator",
       "%b indicator, BandWidth indicator, Price with Bollinger Bands",
-      "Price with Bollinger Bands, Volume, %b indicator"
+      "Price with Bollinger Bands, Volume, %b indicator",
+      "Price with Bollinger Bands, %b indicator, BandWidth indicator"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

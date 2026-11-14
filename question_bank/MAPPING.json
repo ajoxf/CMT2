@@ -1,0 +1,188 @@
+[
+ {
+  "bank_file": "Ch1_1_part1.json",
+  "toc_unit": "1.1 Alpha and Beta - Outperforming the Benchmarks (Part 1)",
+  "original_file": "sections_exam1_ch1_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch1_1_part2.json",
+  "toc_unit": "1.1 Alpha and Beta - Outperforming the Benchmarks (Part 2)",
+  "original_file": "sections_exam1_ch1_1_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch1_2.json",
+  "toc_unit": "1.2 Fusion Analysis: Technical Analysis as Part of a Team Approach",
+  "original_file": "sections_exam1_ch1_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch4_1.json",
+  "toc_unit": "4.1 Classical Chart Patterns",
+  "original_file": "sections_exam1_ch4_1.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch4_2.json",
+  "toc_unit": "4.2 Candlestick Patterns in the Real World",
+  "original_file": "sections_exam1_ch4_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch4_3.json",
+  "toc_unit": "4.3 Candlestick Analysis in the Real World",
+  "original_file": "sections_exam1_ch4_3_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch4_4.json",
+  "toc_unit": "4.4 Point-and-Figure Pattern Analysis",
+  "original_file": "sections_exam1_ch4_4.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch5_1.json",
+  "toc_unit": "5.1 Price Trend and Volume",
+  "original_file": "sections_exam1_ch5_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch5_2_part1.json",
+  "toc_unit": "5.2 Market Internals (Part 1)",
+  "original_file": "sections_exam1_ch5_2.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch5_2_part2.json",
+  "toc_unit": "5.2 Market Internals (Part 2)",
+  "original_file": "sections_exam1_ch5_2_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch6_1.json",
+  "toc_unit": "6.1 Extrapolating Price from Volatility",
+  "original_file": "sections_exam1_ch6_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch6_2.json",
+  "toc_unit": "6.2 Volatility Risk Premium",
+  "original_file": "sections_exam1_ch6_2.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch6_3_part1.json",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 1)",
+  "original_file": "sections_exam1_ch6_3.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch6_3_part2.json",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 2)",
+  "original_file": "sections_exam1_ch6_4.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch6_3_part3.json",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 3)",
+  "original_file": "sections_exam1_ch6_5.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch7_1.json",
+  "toc_unit": "7.1 Analyzing Sentiment in the Stock Market",
+  "original_file": "sections_exam1_ch7_1.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch8_1.json",
+  "toc_unit": "8.1 Inferential Statistics",
+  "original_file": "sections_exam1_ch8.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch9_1.json",
+  "toc_unit": "9.1 Momentum and Indicator Interpretation Part 1",
+  "original_file": "sections_exam1_ch9_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch9_2_part1.json",
+  "toc_unit": "9.2 Momentum and Indicator Interpretation Part 2 (Set 1: MACD and RSI)",
+  "original_file": "sections_exam1_ch9_2_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch9_2_part2.json",
+  "toc_unit": "9.2 Momentum and Indicator Interpretation Part 2 (Set 2: Stochastics and combining indicators)",
+  "original_file": "sections_exam1_ch9_3_6.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch9_4.json",
+  "toc_unit": "9.4 Practical Applications of Bollinger Bands",
+  "original_file": "sections_exam1_ch9_4.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch10_1_part1.json",
+  "toc_unit": "10.1 Advanced Applications of Relative Strength (Part 1)",
+  "original_file": "sections_exam1_ch10_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch10_1_part2.json",
+  "toc_unit": "10.1 Advanced Applications of Relative Strength (Part 2)",
+  "original_file": "sections_exam1_ch10_1_2.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch11_1.json",
+  "toc_unit": "11.1 Concepts in Cycle Theory",
+  "original_file": "sections_exam1_ch11_1.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch11_2.json",
+  "toc_unit": "11.2 Applied Cycle Analysis",
+  "original_file": "sections_exam1_ch11_6_1.js",
+  "questions": 27
+ },
+ {
+  "bank_file": "Ch11_4.json",
+  "toc_unit": "11.4 The Elliott Wave Principle Part 1",
+  "original_file": "sections_exam1_ch11_4.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch11_5.json",
+  "toc_unit": "11.5 The Elliott Wave Principle Part 2",
+  "original_file": "sections_exam1_ch11_5.js",
+  "questions": 30
+ },
+ {
+  "bank_file": "Ch12_1.json",
+  "toc_unit": "12.1 Trading Systems",
+  "original_file": "sections_exam1_ch12_1.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch12_2_part1.json",
+  "toc_unit": "12.2 Applying Quantitative Techniques (Part 1)",
+  "original_file": "sections_exam1_ch12_1_1.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch12_2_part2.json",
+  "toc_unit": "12.2 Applying Quantitative Techniques (Part 2)",
+  "original_file": "sections_exam1_ch12_2_2.js",
+  "questions": 50
+ },
+ {
+  "bank_file": "Ch12_2_part3.json",
+  "toc_unit": "12.2 Applying Quantitative Techniques (Part 3)",
+  "original_file": "sections_exam1_ch12_2_3.js",
+  "questions": 50
+ }
+]

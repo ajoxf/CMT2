@@ -16,11 +16,11 @@
     "question": "In a Fusion Analysis approach, how does technical analysis complement fundamental analysis?",
     "options": [
       "It identifies undervalued companies while fundamentals provide entry timing",
-      "It provides timing and entry/exit signals while fundamental analysis identifies value",
       "It is used only after a position has been closed, to review results",
-      "It mainly confirms the accuracy of earnings estimates"
+      "It mainly confirms the accuracy of earnings estimates",
+      "It provides timing and entry/exit signals while fundamental analysis identifies value"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -40,11 +40,11 @@
     "question": "When integrating technical analysis into a team framework, what role does the technical analyst typically play?",
     "options": [
       "Building the earnings model for each holding",
-      "Forecasting GDP and the stage of the business cycle",
       "Providing timing, trend identification and risk-management input",
+      "Forecasting GDP and the stage of the business cycle",
       "Backtesting factor strategies across global markets"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -63,12 +63,12 @@
     "id": 6,
     "question": "What is a key benefit of technical analysts working alongside quantitative analysts?",
     "options": [
-      "Technicians contribute pattern recognition while quants provide statistical testing",
       "Technicians estimate earnings while quants set price targets",
       "Quants supply chart patterns while technicians supply statistics",
+      "Technicians contribute pattern recognition while quants provide statistical testing",
       "Quants remove the need for any discretionary judgment"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -76,11 +76,11 @@
     "question": "In Fusion Analysis, what aspect of market analysis do technical analysts uniquely contribute?",
     "options": [
       "Company earnings estimates and revisions",
-      "Balance sheet and cash-flow analysis",
       "Price trends, support/resistance and sentiment",
+      "Balance sheet and cash-flow analysis",
       "Macroeconomic and business-cycle forecasts"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "Why is communication important in a Fusion Analysis team approach?",
     "options": [
       "So that each analyst can defend his own view independently",
-      "So that different perspectives can be shared and integrated into one decision",
       "So that the majority view automatically overrides minority signals",
+      "So that different perspectives can be shared and integrated into one decision",
       "So that technical signals can be set aside when fundamentals look strong"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -136,47 +136,47 @@
     "question": "Within fusion analysis, how is the quantitative 'leg' best characterized?",
     "options": [
       "As a separate forecasting school that replaces the other three legs",
-      "Mainly as a scientific method for backtesting strategies built on other factors",
       "As the analysis of management quality and corporate governance",
-      "As a purely discretionary, chart-reading method of stock selection"
+      "As a purely discretionary, chart-reading method of stock selection",
+      "Mainly as a scientific method for backtesting strategies built on other factors"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 13,
     "question": "What is one challenge of implementing Fusion Analysis in an investment team?",
     "options": [
-      "Analysts must understand and respect methods outside their own discipline",
       "Fundamental data are not available to technical analysts",
       "Technical signals can be generated only on daily charts",
+      "Analysts must understand and respect methods outside their own discipline",
       "Quantitative testing makes the other disciplines redundant"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
     "id": 14,
     "question": "In Fusion Analysis, when might a technical analyst override a fundamental buy signal?",
     "options": [
-      "When the stock's P/E rises above the market average",
       "When the chart shows a breakdown or strong downtrend despite attractive value",
+      "When the stock's P/E rises above the market average",
       "When the fundamental analyst lowers the earnings estimate",
       "Whenever trading volume is lighter than average"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 15,
     "question": "How can Fusion Analysis improve risk management in portfolio management?",
     "options": [
-      "By replacing stop-loss orders with valuation-based limits",
       "By pairing valuation with technical risk tools such as support levels",
+      "By replacing stop-loss orders with valuation-based limits",
       "By concentrating the portfolio in the cheapest available stocks",
       "By sizing every position according to its dividend yield"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -184,11 +184,11 @@
     "question": "What role do behavioral factors play in Fusion Analysis?",
     "options": [
       "They are already captured fully in earnings estimates",
-      "Price and volume behavior can reveal crowd psychology that valuation models miss",
       "They matter only to economists studying the business cycle",
+      "Price and volume behavior can reveal crowd psychology that valuation models miss",
       "They are relevant only for intraday traders"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -207,12 +207,12 @@
     "id": 18,
     "question": "What is a potential drawback of NOT using a Fusion Analysis approach?",
     "options": [
-      "Portfolio turnover tends to become excessive",
       "Signals that one discipline alone cannot see may be missed",
+      "Portfolio turnover tends to become excessive",
       "Valuation models become systematically less accurate",
       "Economic forecasts are no longer needed for decisions"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -221,10 +221,10 @@
     "options": [
       "Always favor the technical signal, since price leads fundamentals",
       "Always favor the fundamental signal, since value wins in the end",
-      "Investigate the divergence and consider waiting for confirmation",
-      "Average the two signals and take a half position automatically"
+      "Average the two signals and take a half position automatically",
+      "Investigate the divergence and consider waiting for confirmation"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -243,12 +243,12 @@
     "id": 21,
     "question": "How can technical analysis help validate fundamental research conclusions?",
     "options": [
-      "By recalculating the analyst's earnings forecasts",
       "Price action and volume can confirm or question the market's acceptance of the thesis",
+      "By recalculating the analyst's earnings forecasts",
       "By looking at volume alone, since price is irrelevant",
       "By treating any price decline as proof the thesis is wrong"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -268,11 +268,11 @@
     "question": "In Fusion Analysis, what can technical analysis reveal about market sentiment?",
     "options": [
       "Only what is shown by changes in analyst ratings",
-      "Shifts in crowd psychology seen in price, volume and momentum",
       "Only what is shown by revisions to earnings estimates",
-      "Only what is reported in surveys of individual investors"
+      "Only what is reported in surveys of individual investors",
+      "Shifts in crowd psychology seen in price, volume and momentum"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -280,35 +280,35 @@
     "question": "How does Fusion Analysis benefit portfolio construction?",
     "options": [
       "It mainly reduces trading costs",
-      "It improves allocation, timing and risk management by integrating several perspectives",
       "It replaces asset allocation with individual stock picking",
-      "It fixes each discipline's weight permanently at 25%"
+      "It fixes each discipline's weight permanently at 25%",
+      "It improves allocation, timing and risk management by integrating several perspectives"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 25,
     "question": "What is the primary advantage of combining technical and fundamental analysis for sell decisions?",
     "options": [
-      "Fundamentals spot fading momentum while technicals judge whether value is realized",
       "Fundamentals show when value has been realized while technicals flag weakening price trends",
+      "Fundamentals spot fading momentum while technicals judge whether value is realized",
       "Sales should wait for a downgrade from the fundamental analyst",
       "Technical analysis alone should decide every sale"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 26,
     "question": "A sector analyst wants to choose the long and short legs of a pair trade between two closely correlated stocks. Which technical tool is best suited to ranking the two?",
     "options": [
-      "Relative strength analysis, e.g. a ratio chart of the two stocks",
       "Candlestick reversal patterns on each stock's daily chart",
       "On-balance volume of the sector index the stocks belong to",
+      "Relative strength analysis, e.g. a ratio chart of the two stocks",
       "The put/call ratio on options for the overall market"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -327,12 +327,12 @@
     "id": 28,
     "question": "How can a technician cross-check a fundamental analyst's 12-month price target?",
     "options": [
-      "By recalculating the analyst's discounted cash flow model",
       "By comparing it with technical objectives such as P&F counts or measured moves",
+      "By recalculating the analyst's discounted cash flow model",
       "By polling other sell-side analysts for their targets",
       "By checking whether the company has raised its dividend"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -340,11 +340,11 @@
     "question": "In a typical top-down fusion analysis process, in what order are the disciplines applied?",
     "options": [
       "Technical → quantitative → fundamental → economic",
-      "Economic → fundamental → technical → quantitative",
       "Fundamental → economic → quantitative → technical",
+      "Economic → fundamental → technical → quantitative",
       "Quantitative → technical → economic → fundamental"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "Dow's principle of confirmation between the industrial and transportation (railroad) averages was originally grounded in what idea?",
     "options": [
       "Seasonal patterns in shipping and manufacturing activity",
-      "An economic rationale: a strong economy lifts producers and carriers alike",
       "Fibonacci relationships between the levels of the two averages",
-      "The idea that interest-rate cycles drive both averages equally"
+      "The idea that interest-rate cycles drive both averages equally",
+      "An economic rationale: a strong economy lifts producers and carriers alike"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]

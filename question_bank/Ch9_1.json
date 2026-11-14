@@ -4,11 +4,11 @@
     "question": "What is the critical difference between a trend reversal in momentum and a trend reversal in price?",
     "options": [
       "A momentum reversal is itself a buy or sell signal, provided it is clearly defined",
-      "A momentum reversal is only a warning; a reversal must be confirmed by price itself",
       "A price reversal usually comes first, with momentum confirming it afterward",
+      "A momentum reversal is only a warning; a reversal must be confirmed by price itself",
       "There is no practical difference, because both reverse at the same time"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -17,10 +17,10 @@
     "options": [
       "Price trendlines break before momentum trendlines",
       "They break simultaneously",
-      "Momentum tends to break its trendlines before price",
-      "There is no predictable relationship"
+      "There is no predictable relationship",
+      "Momentum tends to break its trendlines before price"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -51,24 +51,24 @@
     "id": 5,
     "question": "Why might moving averages be preferred over classical trendlines in modern quantitative analysis?",
     "options": [
-      "Moving averages respond faster than trendline breaks do",
       "Moving averages are objective, removing the judgment in drawing lines",
+      "Moving averages respond faster than trendline breaks do",
       "Moving averages need fewer data points to construct",
       "Trendlines cannot be drawn on momentum indicators"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 6,
     "question": "What is the main challenge when using momentum crossovers with moving averages?",
     "options": [
-      "They lag too much to give timely signals",
       "Momentum is jagged, so crossovers whipsaw often",
+      "They lag too much to give timely signals",
       "Crossovers only occur in trending markets",
       "Crossovers cannot be combined with divergences"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -88,11 +88,11 @@
     "question": "Stock XYZ closes above its rising 40-day moving average. At the same time, the moving average of its momentum indicator is already sloping upward. How should this combination be interpreted?",
     "options": [
       "A weak signal that calls for caution",
-      "A conflicting signal that suggests no action",
       "A good signal to open a long position or cover a short",
+      "A conflicting signal that suggests no action",
       "A signal that the uptrend is exhausted"
     ],
-    "correct": 2,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -100,11 +100,11 @@
     "question": "Overbought and oversold readings on a momentum indicator are best regarded as:",
     "options": [
       "Signals to act on as soon as the threshold is reached",
-      "Conditions that warn of possible change, not signals in themselves",
       "Signals that are valid only when they coincide with a divergence",
+      "Conditions that warn of possible change, not signals in themselves",
       "Readings that carry meaning only in strongly trending markets"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -124,11 +124,11 @@
     "question": "In uptrends, how should overbought and oversold conditions generally be interpreted?",
     "options": [
       "Overbought readings are sell signals; oversold readings are buy signals",
-      "Oversold readings are buy signals; overbought readings show strength",
       "Overbought readings are sell signals; oversold readings warn of failure",
+      "Oversold readings are buy signals; overbought readings show strength",
       "Overbought readings are buy signals; oversold readings are sell signals"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -148,11 +148,11 @@
     "question": "Stock XYZ is in a downtrend. Its RSI's 6-period moving average rises into the overbought zone and then crosses back below the overbought level, at the same moment price rallies up to a former support level and fails there. Why is this a particularly strong short signal?",
     "options": [
       "Because the RSI's moving average also crossed below 50 at that moment",
-      "Because the overbought exit agrees with the trend and old support now acts as resistance",
       "Because an overbought reading in a downtrend warns of an upside breakout",
-      "Because overbought exits are equally reliable whatever the prevailing trend"
+      "Because overbought exits are equally reliable whatever the prevailing trend",
+      "Because the overbought exit agrees with the trend and old support now acts as resistance"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -160,11 +160,11 @@
     "question": "Which behavior of a momentum oscillator such as RSI is characteristic of a persistent downtrend?",
     "options": [
       "It swings evenly between overbought and oversold",
-      "It becomes and stays oversold, rarely reaching overbought",
       "It repeatedly reaches overbought on each rally",
-      "It hovers around the midpoint with few extremes"
+      "It hovers around the midpoint with few extremes",
+      "It becomes and stays oversold, rarely reaching overbought"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -185,10 +185,10 @@
     "options": [
       "A decline that retests and breaks the low preceding the thrust",
       "A lengthy distribution phase that marks the bull market's peak",
-      "After a setback or consolidation, prices generally go higher",
-      "A rapid reversal, since extreme overbought readings mark tops"
+      "A rapid reversal, since extreme overbought readings mark tops",
+      "After a setback or consolidation, prices generally go higher"
     ],
-    "correct": 2,
+    "correct": 3,
     "hasImage": false
   },
   {
@@ -196,23 +196,23 @@
     "question": "Under what circumstance can opening a long position while momentum is overbought be justified?",
     "options": [
       "When the reading follows a positive divergence on a short-term chart",
-      "After a mega-overbought reading, for an investor with a long horizon",
       "Whenever the market is in an established primary uptrend",
-      "When a short-term trader expects the reading to persist for days"
+      "When a short-term trader expects the reading to persist for days",
+      "After a mega-overbought reading, for an investor with a long horizon"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 18,
     "question": "After a mega-overbought reading occurs early in a new bull market, which outcome is most consistent with the concept?",
     "options": [
-      "The correction that follows usually retests the bear-market low",
       "Prices may correct, but the low before the thrust is unlikely to be revisited for years",
+      "The correction that follows usually retests the bear-market low",
       "The bull market typically ends within a few months of the reading",
       "The reading should be faded with a short-term short position"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -231,24 +231,24 @@
     "id": 20,
     "question": "How is a price oscillator (trend deviation indicator) typically calculated?",
     "options": [
-      "(Current price − low of the period) / period range × 100",
       "(Current price, or a short MA, − longer MA) / longer MA × 100",
+      "(Current price − low of the period) / period range × 100",
       "(High − low) / close",
       "(Current MA − MA n periods ago) / MA n periods ago × 100"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 21,
     "question": "What is the major difference between a 1/50 price oscillator and a 50-period ROC?",
     "options": [
-      "The oscillator compares price with the price 50 periods ago; ROC compares it with its 50-period MA",
       "The oscillator compares price with its 50-period MA; ROC compares it with the price 50 periods ago",
+      "The oscillator compares price with the price 50 periods ago; ROC compares it with its 50-period MA",
       "The oscillator is bounded between 0 and 100, whereas ROC is unbounded",
       "The oscillator uses exponential smoothing, whereas ROC uses simple smoothing"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -256,23 +256,23 @@
     "question": "When moving averages are applied to both price and momentum, which combination gives a strong bearish signal?",
     "options": [
       "Price closes below a rising MA while momentum's MA is still rising",
-      "Price closes below a declining MA while momentum's MA is already turning down",
       "Price closes below its MA while momentum is oversold and turning up",
-      "Momentum crosses below zero while price holds above a rising MA"
+      "Momentum crosses below zero while price holds above a rising MA",
+      "Price closes below a declining MA while momentum's MA is already turning down"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   },
   {
     "id": 23,
     "question": "In practical application, what challenge exists when using overbought/oversold crossovers for signal generation?",
     "options": [
-      "In strong trends the opposite extreme is rarely reached, so exits are hard to define",
       "Crossbacks through the overbought or oversold lines happen too often to trade",
       "The overbought and oversold levels must be re-optimized for each security",
+      "In strong trends the opposite extreme is rarely reached, so exits are hard to define",
       "Crossbacks through these levels occur only in strongly trending markets"
     ],
-    "correct": 0,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -315,24 +315,24 @@
     "id": 27,
     "question": "When momentum crosses over its moving average farther from the equilibrium level, what is more likely to occur?",
     "options": [
-      "A major trend reversal",
       "A consolidation or a counter-trend move",
+      "A major trend reversal",
       "A new trend in the crossover's direction",
       "An acceleration of the prevailing trend"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
     "id": 28,
     "question": "Stock XYZ gaps out of a long trading range and its RSI jumps to a reading not seen in many years. What does this most likely represent?",
     "options": [
-      "An exhaustion signal warning of an imminent top",
       "A mega-overbought style thrust that typically precedes further gains",
+      "An exhaustion signal warning of an imminent top",
       "A sign that the breakout is likely to fail back into the range",
       "An overbought sell signal, since RSI is far above its 70 line"
     ],
-    "correct": 1,
+    "correct": 0,
     "hasImage": false
   },
   {
@@ -340,11 +340,11 @@
     "question": "What is the main effect of using a 9-period RSI instead of the standard 14-period RSI?",
     "options": [
       "It smooths the indicator, giving fewer extreme readings",
-      "It becomes more sensitive and reaches extremes more often",
       "It shifts the overbought threshold from 70 down to 50",
+      "It becomes more sensitive and reaches extremes more often",
       "It makes the RSI lag turning points in price by more"
     ],
-    "correct": 1,
+    "correct": 2,
     "hasImage": false
   },
   {
@@ -352,11 +352,11 @@
     "question": "Which analogy best captures a momentum divergence that develops while price is still advancing?",
     "options": [
       "A car accelerating up a hill as its engine works harder",
-      "A car still rolling forward after the driver eases off the gas",
       "A car braking hard and then reversing direction",
-      "A car cruising at a constant speed on a level road"
+      "A car cruising at a constant speed on a level road",
+      "A car still rolling forward after the driver eases off the gas"
     ],
-    "correct": 1,
+    "correct": 3,
     "hasImage": false
   }
 ]
