@@ -15898,6 +15898,69 @@
     }
    },
    "pass2": []
+  },
+  {
+   "bank_file": "Ch6_3_part3.json",
+   "id": 1,
+   "pass1": null,
+   "pass2": [
+    {
+     "change": "replaced_duplicate",
+     "note": "2026-11-14: replaced to remove overlap with Ch6_3_part2 (same scenario/rule tested in both parts)."
+    }
+   ],
+   "before": {
+    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. Roughly how many times larger was the call's percentage gain than spot VIX's percentage gain?",
+    "options": [
+     "About 3x",
+     "About 8x",
+     "About 12.5x",
+     "About 26x"
+    ],
+    "correct": 2
+   }
+  },
+  {
+   "bank_file": "Ch6_3_part3.json",
+   "id": 10,
+   "pass1": null,
+   "pass2": [
+    {
+     "change": "replaced_duplicate",
+     "note": "2026-11-14: replaced to remove overlap with Ch6_3_part2 (same scenario/rule tested in both parts)."
+    }
+   ],
+   "before": {
+    "question": "In the VXTH strategy, what is the portfolio weight allocation when front-month VIX futures trade below 15?",
+    "options": [
+     "0%",
+     "0.5%",
+     "1%",
+     "2%"
+    ],
+    "correct": 0
+   }
+  },
+  {
+   "bank_file": "Ch6_3_part3.json",
+   "id": 14,
+   "pass1": null,
+   "pass2": [
+    {
+     "change": "replaced_duplicate",
+     "note": "2026-11-14: replaced to remove overlap with Ch6_3_part2 (same scenario/rule tested in both parts)."
+    }
+   ],
+   "before": {
+    "question": "An index is at 3,000. An investor holding it buys a 2,850 put for 45 and sells a 3,150 call for 45. If the index ends at 2,600 at expiration, what is the hedged return?",
+    "options": [
+     "-13.3%",
+     "-5.0%",
+     "-3.5%",
+     "0%"
+    ],
+    "correct": 1
+   }
   }
  ]
 }

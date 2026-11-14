@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. Roughly how many times larger was the call's percentage gain than spot VIX's percentage gain?",
+    "question": "A VIX call has a delta of 0.20 and a gamma of 0.05 with respect to its VIX future. If the future rises 4 points, approximately how much does the call's price rise (using delta plus the gamma adjustment)?",
     "options": [
-      "About 3x",
-      "About 8x",
-      "About 12.5x",
-      "About 26x"
+      "About 0.40",
+      "About 0.80",
+      "About 1.20",
+      "About 1.60"
     ],
     "correct": 2,
     "hasImage": false
@@ -109,14 +109,14 @@
   },
   {
     "id": 10,
-    "question": "In the VXTH strategy, what is the portfolio weight allocation when front-month VIX futures trade below 15?",
+    "question": "A $10 million equity portfolio is to be hedged with long VIX futures. Assume that when the index falls 10%, front-month VIX futures rise about 60%. The front-month future is at 20 and each contract has a $1,000 multiplier. Roughly how many contracts would offset the portfolio's loss in such a fall?",
     "options": [
-      "0%",
-      "0.5%",
-      "1%",
-      "2%"
+      "About 50",
+      "About 83",
+      "About 100",
+      "About 167"
     ],
-    "correct": 0,
+    "correct": 1,
     "hasImage": false
   },
   {
@@ -157,12 +157,12 @@
   },
   {
     "id": 14,
-    "question": "An index is at 3,000. An investor holding it buys a 2,850 put for 45 and sells a 3,150 call for 45. If the index ends at 2,600 at expiration, what is the hedged return?",
+    "question": "A trader holds one VIX call struck at 25 into expiration. Spot VIX closes at 31 the evening before settlement, but the special opening quotation used to settle the option on expiration morning is 27. With a $100 multiplier, what does the call pay?",
     "options": [
-      "-13.3%",
-      "-5.0%",
-      "-3.5%",
-      "0%"
+      "$0",
+      "$200",
+      "$600",
+      "$2,000"
     ],
     "correct": 1,
     "hasImage": false

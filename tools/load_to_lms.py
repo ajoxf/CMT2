@@ -37,7 +37,7 @@ CH = {  # chapter ids in the course
 # (section, position, existing lesson id or None to create, title, bank file or None = no questions yet)
 PLAN = [
     (1, 1, "5a1af8f0-5597-45c0-ad54-c2932966cb3e", "1. Alpha and Beta - Outperforming the Benchmarks (Part 1)", "Ch1_1_part1"),
-    (1, 2, None, "1. Alpha and Beta - Outperforming the Benchmarks (Part 2)", "Ch1_1_part2"),
+    (1, 2, "2fa69fff-a355-4ab1-b5a5-de06208a0dc9", "1. Alpha and Beta - Outperforming the Benchmarks (Part 2)", "Ch1_1_part2"),
     (1, 3, "4507a185-19b0-4085-a9be-78bf8831abb2", "2. Fusion Analysis: Technical Analysis as Part of a Team Approach", "Ch1_2"),
     (4, 1, "472566bb-9880-49fd-ae00-8529ee61279e", "1. Classical Chart Patterns", "Ch4_1"),
     (4, 2, "03154f42-9ac4-4b30-96a5-f29210e4f257", "2. Candlestick Patterns in the Real World", "Ch4_2"),
@@ -45,17 +45,17 @@ PLAN = [
     (4, 4, "cf174c90-3ef3-4eb4-b24b-708259571502", "4. Point-and-Figure Pattern Analysis", "Ch4_4"),
     (5, 1, "3c2e1770-6b87-49b1-8ba5-5a8b5fc2706e", "1. Price Trend and Volume", "Ch5_1"),
     (5, 2, "8ce50eee-b0b1-470b-ad56-ce95e4f78092", "2. Market Internals (Part 1)", "Ch5_2_part1"),
-    (5, 3, None, "2. Market Internals (Part 2)", "Ch5_2_part2"),
+    (5, 3, "89aa594a-6503-49e1-8db7-ce4e4743774e", "2. Market Internals (Part 2)", "Ch5_2_part2"),
     (6, 1, "eaebf55a-0703-4145-bf1c-3236b682ff13", "1. Extrapolating Price from Volatility", "Ch6_1"),
     (6, 2, "a70f7a8f-2077-4db0-a995-a345f8f09cb2", "2. Volatility Risk Premium", "Ch6_2"),
-    (6, 3, "df953906-4ca0-4e11-bd5e-9fd9d7c0cc98", "3. Volatility Indexes and VIX Complex (Part 1)", "Ch6_3_part1"),
-    (6, 4, None, "3. Volatility Indexes and VIX Complex (Part 2)", "Ch6_3_part2"),
-    (6, 5, None, "3. Volatility Indexes and VIX Complex (Part 3)", "Ch6_3_part3"),
+    (6, 3, "df953906-4ca0-4e11-bd5e-9fd9d7c0cc98", "3. Volatility Indexes and VIX Complex (Part 1: VIX Futures and Term Structure)", "Ch6_3_part1"),
+    (6, 4, "078dc93e-4041-4ae0-8723-38a023d3a6e9", "3. Volatility Indexes and VIX Complex (Part 2: VIX Options and Hedging)", "Ch6_3_part2"),
+    (6, 5, "da93d225-0e21-4aec-992c-573cb4a0101f", "3. Volatility Indexes and VIX Complex (Part 3: Convexity and Calculations)", "Ch6_3_part3"),
     (7, 1, "df87a899-1865-4d2c-95e3-4752bea9d585", "1. Analyzing Sentiment in the Stock Market", "Ch7_1"),
     (8, 1, "d2b46434-06c1-4bdf-8622-9087444ed473", "1. Inferential Statistics", "Ch8_1"),
     (9, 1, "3b145594-5887-44e2-a03a-6d9aedee2e81", "1. Momentum and Indicator Interpretation Part 1", "Ch9_1"),
     (9, 2, "b40ea6d4-643a-4fb5-9f92-dc841d790a94", "2. Momentum and Indicator Interpretation Part 2 (Set 1)", "Ch9_2_part1"),
-    (9, 3, None, "2. Momentum and Indicator Interpretation Part 2 (Set 2)", "Ch9_2_part2"),
+    (9, 3, "719eaa27-826f-43a2-8c8a-91f0eadac4b0", "2. Momentum and Indicator Interpretation Part 2 (Set 2)", "Ch9_2_part2"),
     (9, 4, "06cb6ede-e324-4e9c-9b12-4f801e12a7f0", "3. Volume Weighted Average Price", None),  # held stochastics set by mistake
     (9, 5, "acab264c-285c-41a6-89aa-61893660338d", "4. Practical Applications of Bollinger Bands", "Ch9_4"),
     (10, 1, "dce0ed4c-8587-4ac2-b0b8-046fa1ab9a15", "1. Advanced Applications of Relative Strength (Part 1)", "Ch10_1_part1"),
@@ -64,8 +64,8 @@ PLAN = [
     (11, 2, "af1e7773-1a0c-4865-95f4-d93d732dd81c", "2. Applied Cycle Analysis", "Ch11_2"),          # held Elliott part 1
     (11, 3, "879394b8-d071-4f17-9e56-dedc4f0bdf46", "3. Analysis of Seasonal Cycles", None),        # held Elliott part 2
     (11, 4, "a52146b1-a050-437d-9ba3-49dfa9a502c4", "4. The Elliott Wave Principle Part 1", "Ch11_4"),  # held cycles set
-    (11, 5, None, "5. The Elliott Wave Principle Part 2", "Ch11_5"),
-    (11, 6, None, "6. The Elliott Wave Principle Part 3", None),
+    (11, 5, "7c1e92f5-4ff5-4c40-bc6b-4ed217b51071", "5. The Elliott Wave Principle Part 2", "Ch11_5"),
+    (11, 6, "a10f062c-2a91-48c9-ae48-580faa5169d3", "6. The Elliott Wave Principle Part 3", None),
     (12, 1, "811f88a4-2153-4c57-90bb-43f9be94bf37", "1. Trading Systems", "Ch12_1"),
     (12, 2, "c54768b7-2d7a-4b0b-9cda-f061be141d28", "2. Applying Quantitative Techniques (Part 1)", "Ch12_2_part1"),
     (12, 3, "eaf0370b-efd5-46cc-ab91-bf57fa93b813", "2. Applying Quantitative Techniques (Part 2)", "Ch12_2_part2"),
@@ -166,6 +166,9 @@ def main():
     for sec, pos, lid, title, bank in plan:
         qs = to_lms(load(bank), bank.lower()) if bank else []
         if lid is None:
+            same = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&title=eq.{urllib.request.quote(title)}&select=id")
+            if same:
+                raise SystemExit(f"Refusing to create a second lesson titled {title!r}; add its id {same[0]['id']} to PLAN.")
             row = api("POST", "/rest/v1/lessons", {"course_id": COURSE, "chapter_id": CH[sec], "title": title, "type": "quiz",
                                                    "position": pos, "is_required": True, "is_preview": False},
                       prefer="return=representation")[0]

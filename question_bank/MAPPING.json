@@ -73,19 +73,19 @@
  },
  {
   "bank_file": "Ch6_3_part1.json",
-  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 1)",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 1: VIX Futures and Term Structure)",
   "original_file": "sections_exam1_ch6_3.js",
   "questions": 30
  },
  {
   "bank_file": "Ch6_3_part2.json",
-  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 2)",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 2: VIX Options and Hedging)",
   "original_file": "sections_exam1_ch6_4.js",
   "questions": 50
  },
  {
   "bank_file": "Ch6_3_part3.json",
-  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 3)",
+  "toc_unit": "6.3 Volatility Indexes and VIX Complex (Part 3: Convexity and Calculations)",
   "original_file": "sections_exam1_ch6_5.js",
   "questions": 30
  },
