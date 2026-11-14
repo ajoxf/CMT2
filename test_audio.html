@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Test - CH12.1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 { color: #333; }
+        .audio-container {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Test - Chapter 12.1</h1>
+
+    <div class="audio-container">
+        <h3>Part 1</h3>
+        <audio controls>
+            <source src="videos/ch12_1_part1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>File: videos/ch12_1_part1.mp3</p>
+    </div>
+
+    <div class="audio-container">
+        <h3>Part 2</h3>
+        <audio controls>
+            <source src="videos/ch12_1_part2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>File: videos/ch12_1_part2.mp3</p>
+    </div>
+
+    <script>
+        // Test if files exist by trying to load them
+        const audio1 = document.querySelectorAll('audio')[0];
+        const audio2 = document.querySelectorAll('audio')[1];
+
+        audio1.addEventListener('error', function(e) {
+            console.error('Error loading Part 1:', e);
+            alert('Error loading Part 1 audio file');
+        });
+
+        audio2.addEventListener('error', function(e) {
+            console.error('Error loading Part 2:', e);
+            alert('Error loading Part 2 audio file');
+        });
+
+        audio1.addEventListener('loadedmetadata', function() {
+            console.log('Part 1 loaded successfully. Duration:', audio1.duration, 'seconds');
+        });
+
+        audio2.addEventListener('loadedmetadata', function() {
+            console.log('Part 2 loaded successfully. Duration:', audio2.duration, 'seconds');
+        });
+    </script>
+</body>
+</html>

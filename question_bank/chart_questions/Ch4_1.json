@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "The chart shows a completed head-and-shoulders top that has just broken its neckline. Using the classical measuring technique (pattern height projected from the neckline), what is the minimum downside price objective?",
+    "options": [
+      "$20",
+      "$28",
+      "$35",
+      "$40"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch4_1_hs_top.png",
+    "concept": "H&S top measured move"
+  },
+  {
+    "id": 102,
+    "question": "The chart shows a rectangle that has just been resolved by a close above resistance. Using the point (dollar) height of the range, what is the minimum upside price objective?",
+    "options": [
+      "$49",
+      "$50",
+      "$52",
+      "$58"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch4_1_rectangle.png",
+    "concept": "Rectangle measured move"
+  },
+  {
+    "id": 103,
+    "question": "The ascending triangle has broken out above resistance. Measuring the pattern at its widest point and projecting from the breakout level, what is the minimum price objective?",
+    "options": [
+      "$53",
+      "$58",
+      "$61",
+      "$66"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_asc_triangle.png",
+    "concept": "Triangle measured target from widest part"
+  },
+  {
+    "id": 104,
+    "question": "A bull flag has formed after a sharp advance and has just broken out. Using the flagpole measured move, what is the price objective?",
+    "options": [
+      "$44",
+      "$46",
+      "$52",
+      "$54"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_flag.png",
+    "concept": "Flag measured move (flagpole from breakout)"
+  },
+  {
+    "id": 105,
+    "question": "The chart shows a potential double bottom. At what level is the pattern confirmed, and what is the classical minimum price objective?",
+    "options": [
+      "Close above 48; minimum target 56",
+      "Second low at 40.5; minimum target 48",
+      "Close above 44 (midpoint); minimum target 52",
+      "Close above 48; minimum target 64"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_double_bottom.png",
+    "concept": "Double bottom confirmation and target"
+  }
+]

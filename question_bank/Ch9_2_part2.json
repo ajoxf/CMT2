@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "When analyzing stochastics, which plot should be used to identify traditional divergences against price?",
+    "options": [
+      "The slower line: %D, or %D Slow in slow and full versions",
+      "The faster %K line, whichever version is used",
+      "Whichever line is nearer an extreme at the time",
+      "The raw stochastic before any smoothing is applied"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "In Lane's approach, after a bearish divergence forms (price makes a higher high while %D makes a lower high), what typically triggers action?",
+    "options": [
+      "%K crossing below %D after the second, lower %D peak",
+      "%D falling below 50 after the second peak",
+      "%K crossing above %D at the second peak",
+      "Price closing above its prior high"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What does a bear setup in an uptrend indicate according to Lane's stochastic interpretation?",
+    "options": [
+      "It raises the odds that the next rally high is a significant top",
+      "It is an immediate signal to sell short",
+      "It confirms that the uptrend has already reversed",
+      "It signals that the uptrend is about to accelerate"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "What does Lane warn about when stochastics reach 0% or 100%?",
+    "options": [
+      "A definitive bottom or top has been reached for the security",
+      "Extreme weakness or strength; the trend usually resumes after a pause",
+      "An immediate reversal in the opposite direction is about to begin",
+      "An overbought or oversold signal that calls for immediate action"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "What are 'hinges' in stochastic analysis?",
+    "options": [
+      "Sharp reversals in the faster plot indicating imminent price reversals",
+      "Points where %K and %D cross while in overbought territory",
+      "Structures that may signal a turn in the indicator's own trend next period",
+      "Divergences that fail to produce a price reversal"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "What are 'warnings' in Lane's stochastic methodology?",
+    "options": [
+      "Crosses of the stochastic through its 50% level",
+      "Hinges that confirm a reversal has already occurred",
+      "Divergences that fail to produce a price reversal",
+      "Sharp reversals in %K or %D that may precede a price turn by a few bars"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "What overbought and oversold levels did Lane specifically mention for stochastics?",
+    "options": [
+      "70% as overbought and 30% as oversold",
+      "75% as overbought and 25% as oversold",
+      "80% as overbought and 20% as oversold",
+      "85% as overbought and 15% as oversold"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "What are the names of Lane's trading strategies for uptrends and downtrends using stochastics?",
+    "options": [
+      "Stochastic Bull and Stochastic Bear",
+      "Stochastic Rise and Stochastic Fall",
+      "Stochastic Swing Up and Stochastic Swing Down",
+      "Stochastic Pop for uptrends and Stochastic Poop for downtrends"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "An analyst compares a 5,3,3 slow stochastic with a 21,3,3 slow stochastic on the same price series. What should she expect?",
+    "options": [
+      "The two will have completely different shapes and turns",
+      "The 21-period version is smoother but has a similar shape",
+      "The longer setting will reach extremes more often",
+      "Only the %D line changes; %K stays identical"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "A bullish stochastic divergence forms, but price continues to fall to new lows after the signal. What is this called?",
+    "options": [
+      "A failed divergence",
+      "A successful divergence",
+      "A hinge",
+      "A warning"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "When combining several indicators, what is the main challenge a technician faces?",
+    "options": [
+      "Finding indicators that work in every market environment",
+      "Choosing one indicator that captures all trend information",
+      "Making sure every indicator confirms the others before acting",
+      "Using enough independent evidence without so many tools that decisions stall"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "What are the five main types of indicators that should provide unique information?",
+    "options": [
+      "Moving averages, oscillators, bands, divergences, and patterns",
+      "Leading, lagging, coincident, confirming, and contrarian",
+      "Trend, momentum, volatility, volume, and trend strength",
+      "Price, volume, open interest, sentiment, and breadth"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "An analyst builds a trend composite that adds +1 for each of four bullish conditions (e.g., price above a fast MA, fast MA above a rising slow MA, a rising trend-strength reading, a breakout signal) and −1 for each bearish counterpart. What does a reading of +4 indicate?",
+    "options": [
+      "High confidence in a strong uptrend",
+      "A moderate trend requiring caution",
+      "An overbought condition requiring sales",
+      "Conflicting evidence"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "In a trend scoring model, which condition is the simplest first check that price is trending up on a short-term basis?",
+    "options": [
+      "Price is above a fast moving average",
+      "ADX is rising",
+      "Price has moved above the upper Bollinger Band",
+      "Volume is above average"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "In a trend scoring model, which moving-average condition best confirms an established uptrend?",
+    "options": [
+      "Price has crossed above the fast MA at least once",
+      "The fast MA is above a slower MA that is itself rising",
+      "Both MAs are flat and close together",
+      "The fast MA is below a slower, rising MA"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "What is the main trade-off when using sensitive indicators with shorter calculation periods?",
+    "options": [
+      "They provide slower signals but with higher accuracy",
+      "They provide faster signals but increase the risk of false or whipsaw signals",
+      "They eliminate lag completely but require more computational power",
+      "They work better in trending markets but fail in ranges"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "What is the consequence of using less sensitive indicators with longer periods?",
+    "options": [
+      "They generate more false signals but react faster",
+      "They lag less but produce more whipsaws",
+      "They reduce false signals but lag, which can hurt reward-to-risk",
+      "They remove lag but reduce signal accuracy"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "What does it indicate when an oscillator gets stuck at the top or bottom of its range?",
+    "options": [
+      "The market is in a strong trend",
+      "The calculation period is too long",
+      "The oscillator is broken and needs recalibration",
+      "The calculation period is too short"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What does it indicate when an oscillator fails to reach the top or bottom of its range?",
+    "options": [
+      "The calculation period is too long",
+      "The calculation period is too short",
+      "The market lacks volatility",
+      "The oscillator is properly calibrated"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "Why is it dangerous to trade against the market's major trend based solely on oscillator signals?",
+    "options": [
+      "Oscillators lag price, so counter-trend signals arrive too late",
+      "Oscillators cannot reach extremes during strong trends",
+      "Extremes can persist in a strong trend, so counter-trend trades keep losing",
+      "Oscillator signals are valid only in sideways markets"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "In bullish markets, which oscillator opportunities deserve the most attention?",
+    "options": [
+      "Overbought signals and negative divergences",
+      "Oversold signals and negative divergences",
+      "Any signal that suggests a reversal",
+      "Oversold signals and positive divergences"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "In bearish trends, what type of opportunities should traders focus on?",
+    "options": [
+      "Oversold signals and positive divergences",
+      "Any bullish reversal signals",
+      "Buying opportunities at support levels",
+      "Overbought signals and negative divergences"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "Why do oscillators work best when combined with other forms of analysis?",
+    "options": [
+      "Because oscillators alone cannot produce any valid signals",
+      "Because oscillator signals are valid only with volume confirmation",
+      "Because the same reading can mean different things in different conditions",
+      "Because oscillator formulas lag price by a fixed number of bars"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "What types of analysis should oscillators be combined with for optimal effectiveness?",
+    "options": [
+      "Pattern recognition, support/resistance, and trend identification",
+      "Moving averages alone, used as a filter for the main trend",
+      "Additional oscillators with similar settings and periods",
+      "Fundamental analysis and macroeconomic indicators"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "What overarching principle should guide the construction of an indicator-based analysis?",
+    "options": [
+      "Use as many indicators as possible for maximum confirmation",
+      "Keep the analysis simple and let price have the final word",
+      "Rely on a single indicator to avoid any conflicting readings",
+      "Avoid indicators entirely and rely only on chart patterns"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "For which purpose are indicators best used?",
+    "options": [
+      "Forecasting the size of the next price move",
+      "Establishing conditions and triggers",
+      "Replacing the analysis of price itself",
+      "Generating fully automatic trade orders"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "In the context of balancing multiple indicators, what is recommended regarding horizontal and vertical volume?",
+    "options": [
+      "Only use horizontal volume",
+      "Only use vertical volume",
+      "Consider both horizontal and vertical volume",
+      "Volume should not be considered with momentum indicators"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "To assess momentum more completely without redundancy, which pairing is most sensible?",
+    "options": [
+      "Two oscillators of the same type with identical settings",
+      "An RSI and a stochastic with matching look-back periods",
+      "Two rate-of-change indicators with different periods",
+      "A bounded index such as RSI plus an unbounded one such as ROC"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "When assembling a multi-indicator view of a market, how is volatility best judged?",
+    "options": [
+      "By oscillator extremes only",
+      "By moving average convergence",
+      "By bar ranges and bands",
+      "By momentum divergences"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "What is a key strength of a trend composite (scoring) model?",
+    "options": [
+      "It can only be used to identify the direction of the trend",
+      "It can be adapted to gauge overbought/oversold and other conditions",
+      "It is valid only when it uses exactly four criteria",
+      "It works only on daily data, not on weekly or monthly charts"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

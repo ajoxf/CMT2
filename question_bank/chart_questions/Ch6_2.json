@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "For most of the sample the green area shows implied volatility above the volatility subsequently realised. What does this persistent gap represent?",
+    "options": [
+      "A positive volatility risk premium: implied volatility usually exceeds the volatility later realised",
+      "A negative volatility risk premium: option buyers are usually over-compensated",
+      "Implied volatility is an unbiased forecast, so the gap is random noise around zero",
+      "Realised volatility leads implied volatility, so implied is usually too low"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vrp_series.png",
+    "concept": "Positive VRP"
+  },
+  {
+    "id": 102,
+    "question": "Around weeks 63\u201372 the shading turns red. Which statement best describes what happened in that window?",
+    "options": [
+      "Option sellers profited most in this window, because implied volatility was rising and they had collected premium at elevated levels",
+      "Implied volatility rose ahead of the shock and fully anticipated the realised move",
+      "The red window marks a calm market in which implied volatility fell below a low realised level",
+      "Realised volatility exceeded what options had priced: the premium turned negative and option sellers lost"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vrp_series.png",
+    "concept": "Negative VRP in stress"
+  },
+  {
+    "id": 103,
+    "question": "Defining the volatility risk premium as implied minus subsequently realised volatility, what is the average monthly VRP over the six months shown?",
+    "options": [
+      "+2.2 vol points",
+      "-2.2 vol points",
+      "+1.2 vol points",
+      "+4.2 vol points"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vrp_compute.png",
+    "concept": "Compute VRP"
+  },
+  {
+    "id": 104,
+    "question": "What does this six-month record imply for a trader who systematically sells one-month index options?",
+    "options": [
+      "Because the average premium is positive, selling options here was effectively a riskless arbitrage",
+      "Option buyers had the edge over the period, because realised volatility exceeded implied on average",
+      "Short-volatility strategies earned the premium in most months, but one stress month gave back a large share of it: the payoff is negatively skewed, so position size and tail risk matter",
+      "The May result shows the premium is a forecasting error that disappears once realised volatility rises"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_vrp_compute.png",
+    "concept": "VRP implication for option sellers"
+  },
+  {
+    "id": 105,
+    "question": "Using the crash and rebound figures annotated, which statement best describes how the buy-write behaved relative to the index?",
+    "options": [
+      "It was protected from most of the crash, because the short calls behave like a protective put once the index falls below the strike",
+      "It fell slightly less than the index thanks to premium, then lagged in the rebound as the calls capped upside",
+      "The buy-write fell more than the index, because short calls add leverage on the downside",
+      "The buy-write outperformed in both phases, because higher implied volatility lifted the premium it collected"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_buywrite_crash.png",
+    "concept": "Buy-write in a crash"
+  }
+]

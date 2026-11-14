@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Two points on the fitted regression line of Fund ABC's returns against Index XYZ's returns are labelled. What is the fund's beta relative to the index?",
+    "options": [
+      "0.72",
+      "0.96",
+      "1.39",
+      "1.48"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_scatter_beta.png",
+    "concept": "Beta as the regression slope"
+  },
+  {
+    "id": 102,
+    "question": "Using the returns and beta shown, what is the portfolio's Jensen's alpha for the year?",
+    "options": [
+      "+1.0%",
+      "+1.9%",
+      "+4.0%",
+      "+8.5%"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_jensen.png",
+    "concept": "Jensen's alpha = Rp \u2212 [Rf + \u03b2(Rm \u2212 Rf)]"
+  },
+  {
+    "id": 103,
+    "question": "After adjusting for each portfolio's beta with the CAPM, which portfolio(s) earned a positive Jensen's alpha over the twelve months?",
+    "options": [
+      "Portfolio B only",
+      "Both A and B",
+      "Neither A nor B",
+      "Portfolio A only"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_two_portfolios.png",
+    "concept": "Raw outperformance vs beta-adjusted alpha"
+  },
+  {
+    "id": 104,
+    "question": "During the correction the index fell 20% from the common peak. If each stock's decline is explained by its sensitivity to the index, which pair of beta estimates is most consistent with the chart?",
+    "options": [
+      "H \u2248 0.67 and L \u2248 2.0",
+      "H \u2248 1.5 and L \u2248 0.5",
+      "H \u2248 1.5 and L \u2248 \u22120.5",
+      "H \u2248 3.0 and L \u2248 1.0"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_drawdown_beta.png",
+    "concept": "High- vs low-beta behaviour in a drawdown"
+  },
+  {
+    "id": 105,
+    "question": "Using the most relevant beta estimate on the chart, what is the expected percentage move in Stock DEF if Index XYZ falls 5% tomorrow (ignoring alpha)?",
+    "options": [
+      "-7.7%",
+      "-6.0%",
+      "-4.4%",
+      "-3.3%"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m1_ch1_ch4_rolling_beta.png",
+    "concept": "Using the current rolling beta"
+  }
+]

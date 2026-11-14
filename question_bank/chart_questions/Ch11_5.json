@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Using the common guideline that wave 3 equals 1.618 times the length of wave 1, projected from the end of wave 2, what is the wave 3 price target?",
+    "options": [
+      "$68.20",
+      "$70.06",
+      "$75.86",
+      "$82.46"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_wave3_target.png",
+    "concept": "Wave 3 Fibonacci projection"
+  },
+  {
+    "id": 102,
+    "question": "Wave 3 is clearly the extended wave in this count. Applying the guideline most appropriate to that situation, what is the wave 5 price target?",
+    "options": [
+      "$68.80",
+      "$74.05",
+      "$75.40",
+      "$76.92"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_wave5_equality.png",
+    "concept": "Wave 5 equality with wave 1"
+  },
+  {
+    "id": 103,
+    "question": "Wave 2 was a sharp three-wave correction lasting four bars and retracing 62% of wave 1. Under the guideline of alternation, what form is wave 4 most likely to take?",
+    "options": [
+      "A sideways correction such as a flat or triangle, likely shallower",
+      "Another sharp zigzag, about as deep as wave 2",
+      "A deep decline back below $96 to mirror the depth of wave 2",
+      "A brief, sharp correction, because wave 4 normally takes less time than wave 2"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_alternation.png",
+    "concept": "Guideline of alternation"
+  },
+  {
+    "id": 104,
+    "question": "Draw a line parallel to the 2\u20134 line (dashed) through the end of wave 3. If wave 5 tops out at that upper channel line on bar 52, what is the approximate price target?",
+    "options": [
+      "About 146",
+      "About 154",
+      "About 164",
+      "About 167"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_channel.png",
+    "concept": "Elliott channelling for wave 5"
+  },
+  {
+    "id": 105,
+    "question": "Wave 4 has begun from the wave 3 high at $252. Based on Elliott guidelines, where is wave 4 most likely to end?",
+    "options": [
+      "Near $245, the high of subwave (iii) of wave 3",
+      "Near $236, the prior fourth wave of lesser degree, subwave (iv)",
+      "Near $220, the wave 1 high, which wave 4 normally tests",
+      "Near $210, the end of wave 2, matching the depth of the earlier correction"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_prior_fourth.png",
+    "concept": "Wave 4 and the prior fourth wave of lesser degree"
+  }
+]

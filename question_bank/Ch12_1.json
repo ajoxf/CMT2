@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Experienced system developers report that roughly what share of the trading ideas they test ever reach live production?",
+    "options": [
+      "Approximately 5%",
+      "Around 10%",
+      "Less than 1%",
+      "Between 15-20%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT typically listed as a core trading system objective?",
+    "options": [
+      "Robustness across markets and periods",
+      "Achieving a win rate above 70%",
+      "Scalability to larger capital",
+      "Adaptability to changing conditions"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "A developer writes down objectives for a low-drawdown trend-following system. Which objective is properly measurable?",
+    "options": [
+      "Deliver strong returns in most years with low risk",
+      "Outperform most peers when markets rise",
+      "Annual return of 6%–9%, max drawdown under 6%",
+      "Keep drawdowns small relative to returns"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "System A has a 7% maximum drawdown in testing and System B a 21% maximum drawdown, with similar annual returns. Why would a developer usually set a tight drawdown objective and prefer System A?",
+    "options": [
+      "A lower drawdown signals a higher win rate, which is the main objective",
+      "Drawdown drives sizing, so a lower figure allows more leverage for one risk limit",
+      "A lower drawdown guarantees a higher profit factor and Calmar ratio",
+      "Drawdown objectives matter mainly for scalping and arbitrage systems"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "In go/no-go screening of a trading system, which profit factor range is generally treated as acceptable?",
+    "options": [
+      "1.0 to 5.0",
+      "1.25 to 10.0",
+      "1.5 to 15.0",
+      "2.0 to 20.0"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "A profit factor greater than 10 most strongly suggests:",
+    "options": [
+      "An exceptionally robust edge",
+      "A system that can safely take high leverage",
+      "Probable curve fitting",
+      "A mean-reversion rather than a trend model"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "A strategy earned an annualized return of 18% with a maximum drawdown of 6%. What is its Calmar ratio?",
+    "options": [
+      "0.33 (33%)",
+      "1.08 (108%)",
+      "3.0 (300%)",
+      "12.0 (1,200%)"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "How is the Calmar ratio calculated?",
+    "options": [
+      "Total profit divided by total loss",
+      "Annualized returns divided by maximum drawdown",
+      "Average win divided by average loss",
+      "Winning trades divided by total trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "For a trend-following model, what is the typical winning percentage range?",
+    "options": [
+      "10-20%",
+      "30-50%",
+      "60-70%",
+      "80-90%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "A trend-following system wins 38% of the time. Which average-win to average-loss ratio is most consistent with that profile being profitable?",
+    "options": [
+      "0.5",
+      "0.8",
+      "1.0",
+      "2.2"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "Which trading model seeks to profit from persistent directional price moves by entering in the direction of an established trend?",
+    "options": [
+      "Mean reversion model",
+      "Scalping model",
+      "Trend-following model",
+      "Pairs trading model"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "Which trading model assumes that prices which stray far from their typical level will tend to move back toward that average?",
+    "options": [
+      "Trend-following model",
+      "Arbitrage trading",
+      "Mean reversion model",
+      "Scalping trading"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "Scalping trading is characterized by:",
+    "options": [
+      "Holding positions for weeks to capture trends",
+      "Few large trades with high reward-to-risk",
+      "Buying one asset while shorting a related one",
+      "Many very short-term trades seeking small gains"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "Pairs trading involves:",
+    "options": [
+      "Trading one asset on two different time frames",
+      "Buying an asset and its call option together",
+      "Using two indicators that must both confirm",
+      "Going long one asset and short a correlated one together"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "Arbitrage trading profits from:",
+    "options": [
+      "Sustained directional price moves",
+      "Price differences for the same asset across markets",
+      "Prices reverting to a historical average",
+      "Short-term order-flow imbalances"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "In trading system development, what is meant by fusion analysis?",
+    "options": [
+      "Using technical signals across several time frames",
+      "Blending trend-following and mean-reversion models",
+      "Combining technical, fundamental and quantitative inputs",
+      "Trading several uncorrelated markets together"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "A sweet-spot analysis of one model across bar intervals gives: 5-min return 12%/drawdown 6%; 15-min 18%/5%; 30-min 20%/8%; 60-min 21%/4%. Which interval gives the best Calmar ratio?",
+    "options": [
+      "5-minute",
+      "15-minute",
+      "30-minute",
+      "60-minute"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "What is the purpose of conducting entry/exit testing with random entries?",
+    "options": [
+      "To judge whether exits add value apart from entry skill",
+      "To measure how fast the system executes",
+      "To raise trade frequency for better statistics",
+      "To estimate slippage and commission costs"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What is the absolute minimum number of trades required for a go/no-go test?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "50"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "What is the ideal number of trades for validating a trading system?",
+    "options": [
+      "30 or more",
+      "50 or more",
+      "75 or more",
+      "100 or more"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What is the typical winning percentage for scalping models?",
+    "options": [
+      "30-50%",
+      "50-70%",
+      "70-80%",
+      "80-90%"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "If a trading system has a maximum drawdown of 12% from testing and the target maximum acceptable drawdown is 20%, what is the maximum leverage?",
+    "options": [
+      "1.25x",
+      "1.50x",
+      "1.67x",
+      "2.00x"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "What effect do protective stops usually have on a trading system's returns?",
+    "options": [
+      "They usually raise returns because losing trades are cut early",
+      "They lower drawdowns without ever affecting overall returns",
+      "They seldom boost returns but guard against catastrophic losses",
+      "They improve returns mainly for mean-reversion models"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "What is the primary reason to avoid overriding a fully vetted trading system during losing periods?",
+    "options": [
+      "Skipped trades may include the few big winners behind long-run returns",
+      "Every override adds commissions that erode the system's net edge",
+      "Manual overrides make the system's position sizing impossible to compute",
+      "Pausing during drawdowns tends to raise the system's volatility"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "Which testing method typically produces the best-looking results but may not be achievable in real life?",
+    "options": [
+      "Walk forward analysis",
+      "Historical backtesting",
+      "Out-of-sample testing",
+      "Real-time analysis"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "A developer has 10 years of data and reserves the most recent 30% as out-of-sample. How many years are used for optimization (in-sample)?",
+    "options": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "Walk forward analysis (WFA) involves:",
+    "options": [
+      "Testing only on the most recent year of data, then trading live",
+      "Optimizing once on all history, then confirming on the same data",
+      "Testing on randomly reshuffled trade sequences to gauge risk",
+      "Optimizing on one window, then testing on the next unseen window, repeatedly"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "What is a major advantage of walk forward analysis over standard backtesting?",
+    "options": [
+      "It needs much less computing time than a single backtest",
+      "It re-optimizes as conditions change, reflecting adaptation",
+      "It needs less historical data to produce reliable results",
+      "It typically produces higher profit factors than backtests"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "What is the major drawback of real-time analysis?",
+    "options": [
+      "It is less accurate than backtesting",
+      "It cannot include slippage and commissions",
+      "It can take months or years to collect enough trades",
+      "It ignores changing market conditions"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "What is the consensus minimum number of trades needed for meaningful statistics in real-time analysis?",
+    "options": [
+      "10-20",
+      "20-30",
+      "30-50",
+      "50-100"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "Compared with entry rules, how strongly do exit rules usually influence a system's profitability?",
+    "options": [
+      "Less impact, because entries determine the edge",
+      "About the same impact",
+      "Impact on win rate only, not profitability",
+      "Greater impact in most cases"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "What does 'curve fitting' in trading systems refer to?",
+    "options": [
+      "Smoothing the equity curve through diversification",
+      "Over-optimizing rules to past data so results are unrealistic",
+      "Fitting a regression line to price to define trend",
+      "Sizing positions to recent volatility"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is NOT one of the five common trading models discussed?",
+    "options": [
+      "Momentum trading",
+      "Trend-following",
+      "Mean reversion",
+      "Pairs trading"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "The most reliable trading strategies typically have profit factors in what range?",
+    "options": [
+      "1 to 2",
+      "3 to 5",
+      "6 to 8",
+      "10 to 15"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "What is the primary purpose of diversification in trading systems?",
+    "options": [
+      "To raise absolute returns by adding more markets",
+      "To increase trade count for better statistics",
+      "To reduce drawdowns and improve risk-adjusted returns",
+      "To lower total commissions"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "When conducting a sweet spot analysis, what two factors are primarily being balanced?",
+    "options": [
+      "Returns and drawdowns",
+      "Win rate and trade frequency",
+      "Entry timing and exit timing",
+      "Liquidity and slippage"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "If walk forward analysis does NOT produce positive results that meet objectives, what should you do?",
+    "options": [
+      "Loosen the objectives to fit the results",
+      "Apply more leverage to reach the return goal",
+      "Discard the strategy and move on",
+      "Re-optimize on all the data and retest"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "Why are slippage and commissions often overlooked but crucial to include in testing?",
+    "options": [
+      "Their cumulative drag can erase an active system's edge",
+      "They mainly affect long-term buy-and-hold systems",
+      "They are already embedded in historical prices",
+      "They matter only for illiquid futures"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "For trend-following models, the average winner divided by average loser typically:",
+    "options": [
+      "Is about 1.0",
+      "Is below 1.0, offset by a high win rate",
+      "Is irrelevant if the win rate exceeds 50%",
+      "Is greater than 1.0"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "For mean reversion models, the average winner divided by average loser typically:",
+    "options": [
+      "Is greater than 1.0",
+      "Is roughly 1.0",
+      "Must exceed 2.0 to offset a low win rate",
+      "Is less than 1.0"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "When sizing positions for a tested system, what role does its historical maximum drawdown play?",
+    "options": [
+      "It sets how often the system is allowed to trade each month",
+      "It fixes the distance at which stop-loss orders are placed",
+      "It determines the profit target used on each individual trade",
+      "It is the key input for deciding position size and allowable leverage"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "When developing entry rules, what is the recommended approach regarding complexity?",
+    "options": [
+      "Keep it simple enough to explain in plain English",
+      "Add parameters until in-sample results stop improving",
+      "Use at least one parameter per market regime",
+      "Scale complexity with the number of years tested"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "What is the danger of using too many parameters in a trading system?",
+    "options": [
+      "Higher transaction costs from more frequent signals",
+      "Slower order execution in live markets",
+      "Fewer trades, which weakens the test statistics",
+      "Greater overfitting risk with little predictive value"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "Well-constructed trading system objectives should be:",
+    "options": [
+      "Measurable and specific",
+      "Broad enough to allow flexibility",
+      "Set relative to other traders' results",
+      "Revised after each losing month"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "Which statement about profit targets in trading systems is most accurate?",
+    "options": [
+      "They usually improve absolute returns by banking gains",
+      "They should be avoided entirely in systematic trading",
+      "They limit drawdowns more effectively than stop-losses",
+      "They rarely raise returns but may improve risk-adjusted returns"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "What is an alternative way to achieve diversification besides trading uncorrelated assets?",
+    "options": [
+      "Trade correlated assets with different strategies or time frames",
+      "Increase position size in the single best-performing market",
+      "Concentrate capital in one highly liquid market",
+      "Lower the number of trades taken per year"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "In the formula for maximum leverage (Target drawdown / Drawdown from tests), if target is 20% and tested drawdown is 8%, what is the maximum leverage?",
+    "options": [
+      "1.5x",
+      "2.0x",
+      "2.5x",
+      "3.0x"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "How is profit factor calculated?",
+    "options": [
+      "Gross profit divided by gross loss",
+      "Net profit divided by number of trades",
+      "Average win divided by average loss",
+      "Total profit minus total loss"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "What happens to trading system success rates as you move from historical backtesting to out-of-sample to walk forward to real-time analysis?",
+    "options": [
+      "Results usually improve as more data is used",
+      "Results become more realistic and often decline",
+      "Results stay about the same",
+      "Results improve only in walk-forward testing"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "When replacing exits with a fixed bar exit (5-10 bars) during entry/exit testing, what is the primary purpose?",
+    "options": [
+      "To raise trade frequency for statistics",
+      "To reduce computing time during tests",
+      "To isolate how well the entry signals work",
+      "To evaluate where stop-loss levels belong"
+    ],
+    "correct": 2,
+    "hasImage": false
+  }
+]

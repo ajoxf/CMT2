@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "At point A the bulls-minus-bears spread reaches the value annotated as the index falls. How should a contrarian interpret this reading?",
+    "options": [
+      "The survey confirms the downtrend, so new short positions are favoured",
+      "Bullish because survey respondents have been correct at major turns",
+      "Bearish sentiment is extreme: as a contrarian indicator this is bullish, best acted on once price begins to turn up",
+      "Neutral, because a bulls-minus-bears spread only has meaning above +30"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_bull_bear.png",
+    "concept": "Bull-bear spread extreme"
+  },
+  {
+    "id": 102,
+    "question": "In the shaded months several different insiders bought shares in the open market after a large decline. What is the best interpretation?",
+    "options": [
+      "Bullish: clustered open-market buying near a low is more informative than routine insider selling",
+      "Bearish, because insiders typically buy to support the price ahead of bad news",
+      "Not informative, because insider selling outnumbered insider buying in most months of the chart, so the net balance is still negative",
+      "Bullish only if insider selling stops completely, since selling is the more reliable signal"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_insider_cluster.png",
+    "concept": "Insider buying cluster"
+  },
+  {
+    "id": 103,
+    "question": "What is the short interest ratio (days to cover) for October?",
+    "options": [
+      "0.13 days",
+      "6.00 days",
+      "7.75 days",
+      "8.86 days"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_short_interest.png",
+    "concept": "Short interest ratio"
+  },
+  {
+    "id": 104,
+    "question": "The 10-day average equity-only put/call ratio peaks at the value annotated as the index makes its low. What is the best interpretation, and why is the equity-only ratio preferred here?",
+    "options": [
+      "Heavy put buying confirms the decline, so the reading is bearish; the equity-only ratio is used because it includes institutional hedging",
+      "The spike shows complacency, a contrarian bearish reading, because puts are cheap at market lows",
+      "It is a bullish reading only if the index put/call ratio reaches the same level, since index options reflect speculators",
+      "Heavy put buying by speculators signals excessive fear, a contrarian bullish reading; the equity-only ratio is used because index options are dominated by institutional hedging"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_put_call.png",
+    "concept": "Equity put/call extreme"
+  },
+  {
+    "id": 105,
+    "question": "Using the annotated values, by how much has margin debt fallen from its peak, and how should the pattern relative to the index be read?",
+    "options": [
+      "Down about 16% from its peak while the index makes a new high: leverage is being withdrawn, a non-confirmation that has often preceded tops",
+      "Down about 14% from its peak while the index makes a new high: leverage is being withdrawn, a non-confirmation that has often preceded tops",
+      "Down about 14% from its peak: lower leverage removes forced-selling risk, confirming the new high",
+      "Down about 16% from its peak: falling margin debt is a contrarian buy signal at new highs"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_margin_debt.png",
+    "concept": "Margin debt divergence"
+  }
+]

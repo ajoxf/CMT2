@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary difference between single-candle patterns and multi-candle patterns in terms of market context?",
+    "options": [
+      "Single candles show broad context, while multi-candle patterns give only a snapshot",
+      "Single candles give a quick but narrow read; multi-candle patterns show sentiment over time",
+      "Single candles need confirmation, while multi-candle patterns never do",
+      "Single candles take longer to form than multi-candle patterns"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "A doji candle appears after a strong uptrend. What does this most likely indicate?",
+    "options": [
+      "Strong bullish continuation is imminent",
+      "A bearish reversal has been confirmed",
+      "Indecision, and a possible loss of upside momentum",
+      "Buyers have regained full control of the trend"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What is the structural characteristic of a hammer candlestick pattern?",
+    "options": [
+      "Small body at the top with a long lower shadow",
+      "Large body at the bottom with a long upper shadow",
+      "Equal-sized body with shadows on both sides",
+      "Large body in the middle with short shadows"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "In the morning star pattern, what is the sequence of the three candles?",
+    "options": [
+      "Large bullish, small indecision, large bearish candle",
+      "Three consecutive bullish candles",
+      "Three consecutive bearish candles",
+      "Large bearish, small indecision, large bullish candle"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "What is the main limitation of relying solely on isolated candlestick patterns?",
+    "options": [
+      "They form too slowly to be useful",
+      "They are unreliable in all market conditions",
+      "They require volume data that is rarely available",
+      "They may give false signals without confirmation from later candles"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "A bullish engulfing pattern prints in the middle of a two-month trading range, well away from both support and resistance, on average volume. How much weight should it carry?",
+    "options": [
+      "High; engulfing patterns are reliable wherever they occur in the range",
+      "It should be read as a bearish signal because the range has not broken",
+      "It is only meaningful if the next session gaps lower",
+      "Little on its own; without a nearby support level or confirmation it is low-probability"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "What does a shooting star pattern indicate when it appears after an uptrend?",
+    "options": [
+      "A bullish continuation, as buyers pushed prices higher intraday",
+      "A pause that typically leads to sideways consolidation",
+      "A neutral signal with no directional implication",
+      "A bearish reversal signal, as sellers erased the early gains by the close"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "Why are multi-candle patterns generally more reliable than single-candle patterns?",
+    "options": [
+      "They form more quickly, giving earlier signals",
+      "They do not need confirmation from later price action",
+      "They combine information from several sessions, filtering out one-off noise",
+      "They appear mainly at major market tops"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "When a hammer pattern appears at a support level, what is the strongest interpretation?",
+    "options": [
+      "Sellers are about to push decisively through the level",
+      "Buyers rejected lower prices, so support may hold and a reversal is possible",
+      "The market is showing indecision with no bias",
+      "The downtrend is likely to accelerate from here"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "What does a bullish engulfing pattern near a support level indicate?",
+    "options": [
+      "Selling pressure is overwhelming buying pressure",
+      "Buying pressure is overtaking selling, so the decline may be losing momentum",
+      "The support level has failed and lower prices are likely",
+      "The market will remain range-bound around support"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "If bearish patterns form at a support level, what does this typically suggest?",
+    "options": [
+      "Support may be failing, and the decline could continue",
+      "Support is being reinforced and should hold",
+      "A strong bullish reversal is about to begin",
+      "Price will consolidate quietly at this level"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "A shooting star pattern appears near a resistance level. What is the most likely outcome?",
+    "options": [
+      "The resistance level is holding and a downward reversal is likely as sellers regained control",
+      "The resistance will break and price will rise significantly",
+      "The market will move sideways",
+      "A bullish breakout is imminent"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "What does a bearish engulfing pattern near resistance typically signal?",
+    "options": [
+      "Buyers are in control and the advance should continue",
+      "Sellers are overpowering buyers, pointing to a possible reversal lower",
+      "The market is indecisive at resistance",
+      "A new support level is forming"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "When bullish patterns form at a resistance level, what might this indicate?",
+    "options": [
+      "Resistance may give way and price could break through and keep rising",
+      "Sellers are likely to defend the level again",
+      "A bearish reversal is likely",
+      "The pattern is invalid at resistance"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "Why are candlestick patterns more meaningful when they occur near support or resistance levels?",
+    "options": [
+      "Patterns are easier to recognize at these levels",
+      "These are levels where price has reacted before, so a pattern there carries more weight",
+      "Volume is always higher at these levels",
+      "Support and resistance remove the need for confirmation"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "What characterizes an unconfirmed candlestick pattern?",
+    "options": [
+      "It has already been validated by a follow-through move",
+      "It is any pattern formed on below-average volume",
+      "It is any pattern formed away from support or resistance",
+      "It appears on the chart but has not yet been validated by follow-up price movement"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "A hammer pattern appears at the bottom of a downtrend but the next few candles show continued downward movement. What type of pattern is this?",
+    "options": [
+      "A confirmed bullish reversal",
+      "A bullish continuation pattern",
+      "A confirmed hanging man",
+      "An unconfirmed pattern that failed"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "What is the primary advantage of waiting for pattern confirmation before trading?",
+    "options": [
+      "It gives a better entry price",
+      "It lowers the chance of acting on a false signal, at the cost of a later entry",
+      "It removes the need to consider support and resistance",
+      "It allows a wider stop-loss without extra risk"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "How does a confirmed pattern differ from an unconfirmed pattern in terms of risk?",
+    "options": [
+      "Confirmed patterns carry more risk because the market has already moved",
+      "Unconfirmed patterns carry less risk because entry is earlier",
+      "Confirmed patterns carry less risk of a false signal because price has already moved as expected",
+      "Both carry the same risk of failure"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "What should traders primarily rely on when dealing with unconfirmed patterns?",
+    "options": [
+      "Other tools such as volume, moving averages or oscillators",
+      "Entering immediately on the pattern alone",
+      "The color of the pattern's candles alone",
+      "A larger position size to offset the uncertainty"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "In practical implementation, which scenario represents the best trading opportunity?",
+    "options": [
+      "An unconfirmed hammer pattern in the middle of a trend",
+      "An isolated doji with no context",
+      "A confirmed bullish engulfing pattern at a support level with increasing volume",
+      "Any candlestick pattern without considering support or resistance"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "What is the key characteristic of the three black crows pattern?",
+    "options": [
+      "Three bullish candles in a row, each closing near its high",
+      "Three bearish candles, each gapping below the prior candle's low",
+      "Three long bearish candles, each opening in or near the prior body and closing near its low",
+      "Three small-bodied bearish candles with long lower shadows"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "An evening star pattern forms near a resistance level and is followed by continued bearish candles. How should this be interpreted?",
+    "options": [
+      "As a confirmed bearish reversal with high reliability for downward movement",
+      "As an unconfirmed pattern requiring more data",
+      "As a bullish continuation signal",
+      "As a neutral pattern with no trading implications"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "What is the main disadvantage of multi-candle patterns compared to single-candle patterns?",
+    "options": [
+      "They take longer to form, so early parts of a move may be missed",
+      "They are generally less reliable than single candles",
+      "They convey less information about sentiment",
+      "They are easier to misread than single candles"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "In a strong downtrend, a morning star pattern forms at a key support level. The third candle is a strong bullish candle with high volume. What action is most appropriate?",
+    "options": [
+      "Short the market, since the downtrend is strong",
+      "Consider a long position, given a confirmed reversal at support",
+      "Wait for a fourth, bearish candle before acting",
+      "Treat it as a continuation of the downtrend"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "What makes the interplay between multiple candles in a pattern valuable for traders?",
+    "options": [
+      "It lets traders skip support and resistance analysis",
+      "It shortens the time needed to spot a signal",
+      "It ensures the following move will be large",
+      "Several candles give more evidence that a reversal or continuation is genuine"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "A trader identifies a doji at the same level where price has reversed three times in the past. What additional factor would strengthen the reversal signal?",
+    "options": [
+      "Decreasing volume on the next candle",
+      "A gap in the direction opposite to the expected reversal",
+      "Follow-through by the next candle(s) in the reversal direction, ideally on rising volume",
+      "A second doji immediately afterward"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "What is the significance of a bullish engulfing pattern where the larger bullish candle completely engulfs the previous bearish candle?",
+    "options": [
+      "It shows a strong sentiment shift as buyers overwhelm sellers",
+      "It shows that buying pressure is fading",
+      "It shows indecision between buyers and sellers",
+      "It confirms that the downtrend will continue"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "When analyzing candlestick patterns for practical trading, which combination provides the highest probability setup?",
+    "options": [
+      "A single hammer at a new low, entered immediately",
+      "A confirmed multi-candle pattern in the middle of a trading range",
+      "A confirmed multi-candle pattern at key support or resistance, with rising volume",
+      "An unconfirmed engulfing pattern at support on light volume"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "A resistance level has been tested multiple times, and a bearish engulfing pattern forms followed by two additional bearish candles with increasing volume. What is the most comprehensive interpretation?",
+    "options": [
+      "An unconfirmed pattern that needs more data",
+      "A likely upside break of resistance",
+      "A confirmed bearish reversal at resistance, favoring further decline",
+      "A sign the market will stay range-bound at this level"
+    ],
+    "correct": 2,
+    "hasImage": false
+  }
+]

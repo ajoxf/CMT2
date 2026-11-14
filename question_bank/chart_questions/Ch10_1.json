@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "The stock's price has risen over the period, but its relative strength line has fallen. What is the correct conclusion?",
+    "options": [
+      "The stock has risen in absolute terms but underperformed the benchmark, which rose faster",
+      "The stock has outperformed the benchmark",
+      "The benchmark has fallen while the stock has risen",
+      "The stock has outperformed, because its price trend is up"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch10_1_rs_line.png",
+    "concept": "Absolute vs relative performance"
+  },
+  {
+    "id": 102,
+    "question": "Which sector is currently in the IMPROVING quadrant (relative trend still below the benchmark, but relative momentum above 100)?",
+    "options": [
+      "Sector A",
+      "Sector B",
+      "Sector C",
+      "Sector D"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch10_1_2_rrg.png",
+    "concept": "RRG quadrant reading"
+  },
+  {
+    "id": 103,
+    "question": "Sector A has just crossed into the WEAKENING quadrant. What does that tell you?",
+    "options": [
+      "Its relative trend is now below the benchmark",
+      "It has started a new period of leadership",
+      "It has moved from LAGGING and is starting to outperform",
+      "It is still outperforming on relative trend, but its relative momentum has dropped below 100, so outperformance is losing steam"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch10_1_2_rrg.png",
+    "concept": "Leading to weakening rotation"
+  },
+  {
+    "id": 104,
+    "question": "At the right edge, the RS line has moved above its prior high while the stock's price is still below its own prior high. How is this best interpreted?",
+    "options": [
+      "The RS line is leading: the stock is outperforming the index, a sign of leadership that often precedes a price breakout",
+      "The stock is underperforming the index, because its price is below its prior high",
+      "A bearish divergence: price has failed to confirm the RS line's new high, so the stock should be sold into strength",
+      "The stock's price has made a new high relative to its own history"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_rs_leads.png",
+    "concept": "RS line leads price"
+  },
+  {
+    "id": 105,
+    "question": "Using the printed start and end values, which sector's relative-strength ratio (sector \u00f7 Index XYZ) improved more over the quarter, and by approximately how much did that ratio change?",
+    "options": [
+      "Sector P: its RS ratio rose about 2.3%, the larger gain because its price rose by more points",
+      "Sector Q: its RS ratio rose about 5.0%",
+      "Sector Q: its RS ratio rose about 4.5%",
+      "Sector P: its RS ratio rose about 12.5%"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_rs_rank.png",
+    "concept": "Ranking by RS ratio change"
+  }
+]

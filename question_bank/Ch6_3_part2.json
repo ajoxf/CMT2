@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What makes long VIX calls the most widely used volatility instrument for protecting equity portfolios?",
+    "options": [
+      "They tend to rise when the S&P 500 rises, adding upside",
+      "Their value is unaffected by the S&P 500, so they purely diversify",
+      "They track realized volatility, so they lock in past swings",
+      "They tend to move inversely to the S&P 500, gaining in corrections"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "An investor owns an index at 4,000 and buys a put struck at 3,800 for 60 points. At expiration the index is at 3,400. What is the net loss on the hedged position, as a percentage of 4,000?",
+    "options": [
+      "5.0%",
+      "6.5%",
+      "15.0%",
+      "16.5%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "Why do VIX puts generally trade in lower volume than VIX calls?",
+    "options": [
+      "Equity hedgers mainly want exposure to rising volatility",
+      "Exchange position limits are much tighter on VIX puts",
+      "VIX puts gain in sell-offs, which makes them too expensive",
+      "VIX puts can only be exercised into VIX futures"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "A skew gauge comparing two-month VIX calls and puts of equal (25) delta climbs to an all-time high. This most likely reflects:",
+    "options": [
+      "Expectations that volatility will soon collapse",
+      "Rising demand for VIX puts relative to VIX calls",
+      "Heavier demand for VIX calls than puts as crash protection",
+      "Falling implied volatility across all VIX strikes"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "How does the put/call volume relationship for VIX options differ from S&P 500 options?",
+    "options": [
+      "In both markets, put volume dominates during crises",
+      "VIX put volume surges in crises as traders bet on a rebound",
+      "In both markets, call volume dominates during crises",
+      "VIX call volume exceeds put volume in crises, the reverse of SPX options"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "An index is at 5,000. An investor holding it buys a 4,750 put for 70 and sells a 5,500 call for 30, both with the same expiration. If the index finishes at 5,800, what is the hedged position's return?",
+    "options": [
+      "9.2%",
+      "10.0%",
+      "15.2%",
+      "16.0%"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "A manager holds a concentrated technology portfolio and hedges it with S&P 500 puts. In a sell-off the portfolio drops 18% while the S&P 500 falls only 8%, so the puts recover only part of the loss. What risk does this illustrate?",
+    "options": [
+      "Basis risk: the hedge's gains do not match the holding's losses",
+      "Liquidity risk: the puts cannot be sold quickly at fair prices",
+      "Counterparty risk: the option seller may fail to pay",
+      "Assignment risk: the puts may be exercised against the holder"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "At expiration, what is the absolute value of the delta of a deep in-the-money S&P 500 put?",
+    "options": [
+      "0",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "After the S&P 500 rallies well above a protective put's strike, what does 'rolling up' the hedge mean?",
+    "options": [
+      "Replacing the put with a higher-strike put near the market",
+      "Adding more put contracts at the same strike as the index rises",
+      "Exercising the put early to lock in its remaining value",
+      "Selling a call against the put to pay for the protection"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "What does a high SPX put/call ratio typically indicate as a contrarian signal?",
+    "options": [
+      "A market top is near",
+      "Neutral conditions",
+      "Confirmation that the downtrend will continue",
+      "Excessive pessimism, a potential bullish signal"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "Which description matches a quarterly collar program of the CLL3M type?",
+    "options": [
+      "A quarterly 5% OTM put partly funded by a quarterly 10% OTM call",
+      "A monthly 5% out-of-the-money put with no call sold",
+      "A quarterly 10% out-of-the-money put with no call sold",
+      "A monthly put spread funded by selling a 10% OTM call"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "A trader buys one VIX call struck at 25 for $1.50. VIX options carry a $100 multiplier. If the VIX settles at 40 at expiration, what is the profit?",
+    "options": [
+      "$150",
+      "$1,350",
+      "$1,500",
+      "$3,850"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. What was the percentage gain on a long front-month VIX future?",
+    "options": [
+      "26%",
+      "162.5%",
+      "200%",
+      "262.5%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. What was the percentage gain on the VIX call?",
+    "options": [
+      "260%",
+      "1,040%",
+      "2,500%",
+      "2,600%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. Roughly what fraction of spot VIX's percentage move did the front-month future capture?",
+    "options": [
+      "About 40%",
+      "About 60%",
+      "About 80%",
+      "About 100%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "Historically, which VIX futures curve shape has prevailed most of the time?",
+    "options": [
+      "Backwardation, because hedging demand is persistent",
+      "A flat curve, with contango and backwardation equally common",
+      "Contango, roughly two-thirds to three-quarters of the time",
+      "Contango, almost 100% of the time"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "What is the main disadvantage of holding long VIX futures during contango periods?",
+    "options": [
+      "Each roll sells a cheaper expiring contract to buy a pricier one",
+      "Futures lose value only when spot VIX rises above them",
+      "In contango the expiring future settles above its purchase price",
+      "Daily margin is charged at the spot VIX level, not the future"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "An ETF continuously holds short-term VIX futures, rolling them monthly. Over several years with the curve mostly in contango, what price pattern is most likely?",
+    "options": [
+      "A steady uptrend that tracks the VIX's long-run average",
+      "A mirror image of the equity index at all times",
+      "Brief spikes during sell-offs within a long-term downtrend",
+      "A flat line, since contango and backwardation cancel out"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What is the portfolio weight of VIX calls in the VXTH strategy when front-month VIX futures trade between 15 and 30?",
+    "options": [
+      "0%",
+      "0.5%",
+      "1%",
+      "2%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "In the VXTH strategy, what happens when the first-month VIX futures value exceeds 50?",
+    "options": [
+      "Portfolio weight increases to 2%",
+      "Portfolio weight increases to 1.5%",
+      "VIX calls are liquidated",
+      "Portfolio weight remains at 0.5%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What delta VIX call options does the VXTH strategy use?",
+    "options": [
+      "15-delta",
+      "25-delta",
+      "30-delta",
+      "50-delta"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "Hypothetical 15-year backtest. H (index plus dynamic VIX-call overlay): annualized return 8.4%, standard deviation 16.1%, downside deviation 7.6%, maximum drawdown -31%. P (index plus monthly protective puts): 6.1%, 11.0%, 7.2%, -33%. Q (index plus quarterly collar): 5.2%, 8.7%, 5.5%, -22%. U (unhedged index): 8.8%, 14.0%, 9.9%, -48%. How does H compare with U?",
+    "options": [
+      "Slightly lower return, smaller drawdown, but higher SD",
+      "Higher return and lower standard deviation than U",
+      "Lower return and a deeper drawdown than U",
+      "Same standard deviation as U, but a lower return"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "Hypothetical 15-year backtest. H (index plus dynamic VIX-call overlay): annualized return 8.4%, standard deviation 16.1%, downside deviation 7.6%, maximum drawdown -31%. P (index plus monthly protective puts): 6.1%, 11.0%, 7.2%, -33%. Q (index plus quarterly collar): 5.2%, 8.7%, 5.5%, -22%. U (unhedged index): 8.8%, 14.0%, 9.9%, -48%. By how many percentage points did H reduce maximum drawdown versus U?",
+    "options": [
+      "7",
+      "17",
+      "27",
+      "31"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "Hypothetical 15-year backtest. H (index plus dynamic VIX-call overlay): annualized return 8.4%, standard deviation 16.1%, downside deviation 7.6%, maximum drawdown -31%. P (index plus monthly protective puts): 6.1%, 11.0%, 7.2%, -33%. Q (index plus quarterly collar): 5.2%, 8.7%, 5.5%, -22%. U (unhedged index): 8.8%, 14.0%, 9.9%, -48%. Why can H show a higher standard deviation than U yet a lower downside deviation?",
+    "options": [
+      "Its VIX calls cut returns in every single month",
+      "Downside deviation always exceeds standard deviation for hedged strategies",
+      "Call payoffs in sell-offs add upside dispersion, which downside deviation ignores",
+      "U had no negative months, so its downside deviation is understated"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "Which description fits the PPUT protective-put benchmark?",
+    "options": [
+      "Each month buys an SPX put struck about 5% below the index",
+      "Each quarter buys an SPX put struck about 10% below the index",
+      "Each month sells an SPX put about 5% below the index for income",
+      "Each month buys a put spread between 2.5% and 5% below the index"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "What is the key feature of the PPUT3M strategy?",
+    "options": [
+      "Monthly 5% out-of-the-money puts",
+      "Quarterly 5% out-of-the-money puts financed by a 10% out-of-the-money call",
+      "Quarterly 10% out-of-the-money SPX puts",
+      "Monthly 10% out-of-the-money puts"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "In the CLL collar program, how is most of the long put's premium paid for?",
+    "options": [
+      "Through margin borrowing against the index holding",
+      "By writing an SPX call about 10% above the index, same expiry",
+      "By writing additional puts about 10% below the index",
+      "By selling VIX calls with the same expiration date"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "What characterizes the CLLZ (zero-cost collar) strategy?",
+    "options": [
+      "A 5% out-of-the-money put financed by a 10% out-of-the-money call",
+      "A long put and a long call at the same strike",
+      "A put spread with no call, paid for in cash",
+      "A put spread (long ~2.5% OTM put, short ~5% OTM put) funded by selling a call"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "Hypothetical 15-year backtest. H (index plus dynamic VIX-call overlay): annualized return 8.4%, standard deviation 16.1%, downside deviation 7.6%, maximum drawdown -31%. P (index plus monthly protective puts): 6.1%, 11.0%, 7.2%, -33%. Q (index plus quarterly collar): 5.2%, 8.7%, 5.5%, -22%. U (unhedged index): 8.8%, 14.0%, 9.9%, -48%. Using annualized return divided by the absolute maximum drawdown, which strategy scores highest?",
+    "options": [
+      "H",
+      "U",
+      "Q",
+      "P"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "Hypothetical 15-year backtest. H (index plus dynamic VIX-call overlay): annualized return 8.4%, standard deviation 16.1%, downside deviation 7.6%, maximum drawdown -31%. P (index plus monthly protective puts): 6.1%, 11.0%, 7.2%, -33%. Q (index plus quarterly collar): 5.2%, 8.7%, 5.5%, -22%. U (unhedged index): 8.8%, 14.0%, 9.9%, -48%. An investor whose priority is the smallest drawdown and lowest downside deviation, accepting a lower return, would prefer which strategy?",
+    "options": [
+      "H",
+      "Q",
+      "P",
+      "U"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "How are standard VIX options exercised and settled?",
+    "options": [
+      "American-style, settled in VIX futures",
+      "American-style, physically settled in index shares",
+      "European-style, cash-settled",
+      "European-style, settled in S&P 500 futures"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "S&P 500 options trade at 20% implied volatility while volatility subsequently realized averages 15%. A volatility trader who systematically sells such options is trying to capture what?",
+    "options": [
+      "Roll yield earned from a backwardated VIX curve",
+      "The volatility risk premium of implied over realized volatility",
+      "The dividend yield of the underlying S&P 500 index",
+      "Basis risk between the options and the index holding"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "In the context of VIX options during a sell-off, 'convexity' refers to:",
+    "options": [
+      "A one-for-one linear relationship with the VIX",
+      "The tendency of VIX futures to lag behind spot VIX",
+      "An accelerating, outsized gain in value as the VIX climbs",
+      "The steady loss of option value from time decay"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "Why do VIX calls typically show more convexity than VIX futures in a volatility spike?",
+    "options": [
+      "Their delta is fixed at 1 throughout the spike",
+      "They are priced off spot VIX rather than futures",
+      "They have no time decay, unlike VIX futures",
+      "Their own implied volatility rises in spikes, amplifying gains"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "In the VXTH design, why is the VIX-call weight cut when the front-month future is very high and dropped entirely above 50?",
+    "options": [
+      "Calls have zero delta once the VIX future exceeds 50",
+      "The strategy wants maximum exposure at the volatility peak",
+      "A higher VIX lowers option premiums, so fewer calls are needed",
+      "Volatility tends to mean-revert after extreme spikes"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "What is the primary advantage of SPX put options over VIX calls for hedging?",
+    "options": [
+      "They are always cheaper than VIX calls of similar size",
+      "They move with the index itself, without basis risk",
+      "They offer more convexity than VIX calls in crashes",
+      "They trade in much greater volume than VIX options"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "Spot VIX is 14 while the two-month VIX future is 17. Relative to its pricing reference, a two-month VIX call struck at 17 is best described as:",
+    "options": [
+      "Deep out-of-the-money, because spot VIX is only 14",
+      "Deep in-the-money, because spot VIX is below the strike",
+      "Worthless, because spot VIX is below the strike",
+      "Roughly at-the-money, since it is priced off the 17 future"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "Compared with buying a protective put alone, what is the main economic cost of adding a short out-of-the-money call to form a collar?",
+    "options": [
+      "A higher upfront premium",
+      "Gains above the call strike are given up",
+      "A lower floor than the put alone provides",
+      "Loss of the put's protection"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "Why are long VIX futures a poor choice as a permanent hedge for a long-term index holding?",
+    "options": [
+      "They tend to rise when equities rise",
+      "Repeated roll costs in contango markets steadily erode returns",
+      "Their losses are capped at the premium, which limits the hedge",
+      "They converge to the S&P 500 at expiry"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "A $40 million index portfolio follows VXTH-style rules. The front-month VIX future is at 34. How much should be held in one-month 30-delta VIX calls?",
+    "options": [
+      "$0",
+      "$200,000",
+      "$400,000",
+      "$600,000"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "What is the key trade-off when implementing protective put strategies like PPUT?",
+    "options": [
+      "Higher returns in exchange for deeper drawdowns",
+      "Lower long-run returns in exchange for smaller drawdowns and volatility",
+      "Similar returns with lower volatility, since the puts pay for themselves",
+      "Lower volatility but deeper drawdowns"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "On a given day S&P 500 options trade 0.9 million puts and 1.8 million calls. How would a contrarian read this put/call ratio?",
+    "options": [
+      "Ratio 2.0; extreme fear, a bullish contrarian sign",
+      "Ratio 0.5; a neutral reading with no signal",
+      "Ratio 2.0; bearish, a sign the trend will continue",
+      "Ratio 0.5; bullish excess, a possible market top"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "In risk management, the 'tail risk' that VIX calls are meant to hedge refers to:",
+    "options": [
+      "Day-to-day noise in prices around the trend",
+      "Rare, extreme losses in the left tail of returns",
+      "The near-certain small losses from time decay",
+      "The steady cost of rolling VIX futures in contango"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "A VIX call has a delta of 0.30 with respect to its underlying VIX future. If that future rises 2 points, by approximately how much should the option price change, other things equal?",
+    "options": [
+      "+$0.15",
+      "+$0.30",
+      "+$0.60",
+      "+$2.00"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "The VXTH overlay buys 30-delta VIX calls. Which description of these options is most accurate?",
+    "options": [
+      "Relatively cheap out-of-the-money calls",
+      "Deep in-the-money calls that move one-for-one with VIX futures",
+      "At-the-money calls with a delta of about 0.50",
+      "Puts that profit when implied volatility falls"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "What is the primary benefit of the VXTH strategy's dynamic approach?",
+    "options": [
+      "It holds a constant hedge so protection is never missing",
+      "It hedges only when tail risk is elevated, limiting drag",
+      "It buys the most calls when the VIX is at its highest",
+      "It swaps the equity holding into VIX futures during stress"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "What distinguishes VIX calls from VIX futures in terms of risk management during crises?",
+    "options": [
+      "VIX calls cap the loss at the premium and show greater convexity",
+      "VIX futures offer more convexity and capped losses",
+      "VIX calls track spot VIX one-for-one",
+      "VIX futures avoid any roll cost"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "Monthly returns of a strategy are +6%, -3%, +1%, -4%. Using a 0% minimum acceptable return and dividing by the total number of months, what is the downside deviation?",
+    "options": [
+      "1.75%",
+      "2.5%",
+      "3.5%",
+      "5.0%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "What is the central goal of a well-designed equity risk-management strategy?",
+    "options": [
+      "Eliminate every loss, whatever the cost to upside",
+      "Limit losses while giving up as little upside as possible",
+      "Maximize the hedge payoff in each and every crash",
+      "Keep hedging cost at zero by always using collars"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "A hedged portfolio's month-end values are 100, 120, 90, 110, 84, 130. What is its maximum drawdown?",
+    "options": [
+      "-36%",
+      "-30%",
+      "-25%",
+      "-16%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

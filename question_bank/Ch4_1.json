@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "According to Richard W. Schabacker, what are the three critical questions a trader must answer before taking a position?",
+    "options": [
+      "When to enter, when to exit, and what size position to take",
+      "When the price move started, which direction prices should move, and how far the movement can carry",
+      "What pattern is forming, what is the volume, and what is the trend",
+      "What is the risk, what is the reward, and what is the probability"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "How do Schabacker and Edwards & Magee recommend treating price targets measured from classical chart patterns?",
+    "options": [
+      "As rough guidelines for potential, not as rules",
+      "As precise objectives that should trigger automatic exits",
+      "As valid only for reversal patterns",
+      "As useless and best ignored"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What are the main reasons a classical chartist might prefer a semi-log price scale to a linear one?",
+    "options": [
+      "Breakouts register sooner and long-term trends are easier to analyze",
+      "It makes every pattern easier to recognize visually",
+      "It produces larger downside price targets than a linear scale",
+      "It displays the volume histogram more accurately"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "Why do many classical chartists measure downside pattern targets in percentage terms but upside targets in points or dollars?",
+    "options": [
+      "Both choices produce the most aggressive targets",
+      "Both choices give conservative targets, because a given point move is a larger percentage at lower prices",
+      "Percentage moves are larger at higher prices, so downside targets come out bigger",
+      "Point measurements are more accurate on semi-log charts"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "For bearish chart patterns, what measurement approach generates conservative price targets?",
+    "options": [
+      "Measuring in points or dollars",
+      "Measuring using Fibonacci ratios",
+      "Measuring using percentage changes",
+      "Measuring using ATR multiples"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "How is the price target calculated for a Head and Shoulders Top pattern?",
+    "options": [
+      "Add the depth from head to neckline to the neckline level",
+      "Multiply the neckline by the pattern width",
+      "Subtract twice the depth from the neckline",
+      "Subtract the percentage distance from the head to neckline from the neckline"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "Stock XYZ forms a head-and-shoulders top with the head at $80 and the neckline at $60. Measuring the pattern depth in percentage terms, as is common for bearish setups, what is the price objective after the neckline breaks?",
+    "options": [
+      "$40",
+      "$45",
+      "$48",
+      "$52"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "For a head-and-shoulders bottom, how is the upside price target conventionally measured to keep it conservative?",
+    "options": [
+      "As a percentage change from the neckline",
+      "With Fibonacci extensions",
+      "As twice the pattern depth",
+      "As an absolute point or dollar distance added to the neckline"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "What was Edwards and Magee's method for setting a price objective on a symmetrical triangle?",
+    "options": [
+      "Measure the widest point and project it from the breakout level",
+      "Extend a line from the first rally's high, parallel to the lower boundary",
+      "Apply the 3% rule from the apex of the triangle",
+      "Double the base width of the triangle and add it to the apex"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "How does the modern classical chartist approach differ from Edwards and Magee's method for symmetrical triangles?",
+    "options": [
+      "Modern chartists no longer use triangles to set targets",
+      "They add the depth at the widest point to the breakout level",
+      "They measure every triangle target in percentage terms",
+      "They project the target from the apex instead of the breakout"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "A symmetrical triangle's widest part spans $40 to $48. Price breaks out above the upper trendline at $46. Using the modern 'depth at widest point' method, what is the target?",
+    "options": [
+      "$52",
+      "$54",
+      "$56",
+      "$62"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "For ascending and descending triangles, how is the price target calculated?",
+    "options": [
+      "By drawing a parallel line from the start of the first rally",
+      "By applying the 3% rule to the horizontal boundary",
+      "By doubling the pattern's duration and projecting forward",
+      "By adding or subtracting the widest depth from the breakout level"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "A descending triangle has a flat support line at $60 and its first (highest) reaction high at $75. Price breaks down through $60. Measuring the depth as a percentage, what is the price objective?",
+    "options": [
+      "$45",
+      "$48",
+      "$50",
+      "$52"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "According to Richard W. Schabacker, what does a larger and clearer chart pattern imply?",
+    "options": [
+      "The pattern is less reliable",
+      "The pattern will fail more often",
+      "The price move that follows its completion is likely to be larger",
+      "The trading timeframe should be shortened"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "With tight and lengthy chart patterns like rectangles, price can be expected to extend how many times the initial price target calculation?",
+    "options": [
+      "1 to 1.5 times",
+      "2 to 3 times",
+      "4 to 5 times",
+      "5 to 10 times"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "A stock trades in a rectangle between $40 and $50 for over a year, then breaks down through $40. Measuring the depth as a percentage of the upper boundary, what is the initial price objective?",
+    "options": [
+      "$30",
+      "$32",
+      "$34",
+      "$36"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "For flag and pennant patterns, where is the first measurement taken to calculate price targets?",
+    "options": [
+      "From the start of the overall trend to the flag",
+      "From where price leaves the previous congestion to the peak of the flag/pennant",
+      "From the lowest point to the highest point of the flag",
+      "From the breakout point to the flag's low"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "What percentage did Edwards and Magee suggest as the trigger for a breakout confirmation?",
+    "options": [
+      "1% daily close",
+      "2% daily close",
+      "3% daily close",
+      "5% daily close"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What is the main problem with using the 3% breakout confirmation rule for higher-priced stocks?",
+    "options": [
+      "It's too conservative",
+      "It generates too many false signals",
+      "It results in acting too late following a breakout",
+      "It doesn't work on semi-log charts"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "Using the Edwards & Magee 3% rule, at what closing price would a breakout above resistance at $250 be confirmed?",
+    "options": [
+      "$253.00",
+      "$257.50",
+      "$260.00",
+      "$265.00"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What alternative method is suggested for confirming breakouts that adjusts for the instrument's daily volatility?",
+    "options": [
+      "Standard deviation multiples",
+      "Bollinger Band width",
+      "Average True Range (ATR) multiples",
+      "Volume-weighted measurements"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "An inverse head-and-shoulders has its neckline at $80. Under the 3% close rule, what close confirms the breakout?",
+    "options": [
+      "$80.80",
+      "$82.40",
+      "$83.00",
+      "$84.00"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "A breakout is confirmed on a close at $52. The pattern target is $60 and the protective stop is at $48. What is the reward-to-risk ratio?",
+    "options": [
+      "0.5",
+      "1.5",
+      "2.0",
+      "3.0"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "A trade has a potential reward of $6 per share and a potential risk of $4 per share. Which statement is correct?",
+    "options": [
+      "The reward-to-risk ratio is 0.67, so potential profit is two-thirds of potential loss",
+      "The reward-to-risk ratio is 1.5, so potential profit is 150% of potential loss",
+      "The reward-to-risk ratio is 2.5",
+      "The ratio cannot be computed without the win rate"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "If the chart pattern and its price target are fixed, how can a trader improve the reward-to-risk ratio of a breakout trade?",
+    "options": [
+      "By waiting longer for a stronger confirmation close",
+      "By entering earlier, using a tighter stop, or both",
+      "By increasing the position size on the trade",
+      "By using leverage to magnify the potential gain"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "What is Average True Range (ATR)?",
+    "options": [
+      "The average of opening and closing prices",
+      "A volatility indicator showing average price variation within a given lookback period",
+      "The difference between the high and low of a trading session",
+      "A momentum indicator"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "How is True Range calculated?",
+    "options": [
+      "The current high minus the current low, with no other comparison",
+      "The average of the last 14 sessions' high−low ranges",
+      "The largest of high−low, |high−prior close| and |low−prior close|",
+      "The high minus the low plus the close minus the open"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "A rectangle's upper boundary is at $100 and the 10-day ATR is $4. A trader uses a 0.5×ATR buffer for both entry and stop. Where are the buy-stop entry and protective stop placed?",
+    "options": [
+      "Entry $100, stop $96",
+      "Entry $102, stop $98",
+      "Entry $103, stop $97",
+      "Entry $104, stop $96"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "Continuing: entry is a buy-stop at $102, the stop is $98, and the pattern target is $112. What is the reward-to-risk ratio?",
+    "options": [
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.3"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "Why is the ATR-based approach described as both 'objective' and 'adaptive'?",
+    "options": [
+      "It's objective because it can be applied across asset classes, adaptive because it reflects the instrument's volatility",
+      "It's objective because it uses mathematics, adaptive because it changes daily",
+      "It's objective because Edwards and Magee approved it, adaptive because traders can adjust it",
+      "It's objective because it eliminates emotion, adaptive because it follows trends"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "What are classical chart patterns fundamentally representing?",
+    "options": [
+      "Pauses or consolidations within uptrends or downtrends",
+      "Random price fluctuations with no supply/demand meaning",
+      "Footprints of institutional accumulation only",
+      "The activity of market makers managing inventory"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "What are the two different trading strategies that can be applied to chart patterns?",
+    "options": [
+      "Long-term and short-term strategies",
+      "Trend-following and contrarian strategies",
+      "Momentum and value strategies",
+      "Mean reversion (rangebound) and breakout strategies"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "What does a mean reversion strategy involve when trading a rangebound pattern?",
+    "options": [
+      "Buying breakouts and selling breakdowns from the range",
+      "Holding one position through the entire consolidation",
+      "Waiting to trade until after the breakout has occurred",
+      "Selling near the top and buying near the bottom until a breakout"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "After a long decline, a stock rises back above its 40-week moving average and makes its first swing high. What should a range trader begin watching for?",
+    "options": [
+      "An immediate continuation of the rally to new highs",
+      "A head-and-shoulders bottom forming below the average",
+      "A retest of the prior low before any consolidation",
+      "A sideways range above the average, capped near that swing high"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "In an established trading range, a large black candle at the upper boundary completely covers the prior week's white body. What is the appropriate range-trading response?",
+    "options": [
+      "Buy, expecting an upside breakout",
+      "Do nothing until a doji appears",
+      "Sell or short near resistance, expecting a move back toward support",
+      "Buy at market and place a stop above the high"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "What is a bearish engulfing candlestick pattern?",
+    "options": [
+      "A small candle followed by a downside gap the next session",
+      "A single candle with a long upper shadow and small body",
+      "A two-candle outside reversal where a black body covers the prior white body",
+      "Three consecutive down candles closing near their lows"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "In the same trading range, price falls back to the lower boundary and forms a bullish engulfing candle. What does a range trader typically do?",
+    "options": [
+      "Add to the short position in anticipation of a breakdown",
+      "Exit all positions and wait for a confirmed breakout",
+      "Short more, because support has clearly failed",
+      "Cover the short and consider going long toward the upper boundary"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "Why does a trading range become more reliable to trade after price has tested both its upper and lower boundaries at least twice?",
+    "options": [
+      "Because volume must then decline",
+      "Because repeated reactions confirm where supply and demand are concentrated",
+      "Because a breakout becomes impossible",
+      "Because moving averages flatten exactly at the boundaries"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "A candle at range resistance has a small real body near its low and a long upper shadow. What is this candle and its implication?",
+    "options": [
+      "Hammer; a bullish breakout is likely",
+      "Bullish harami; continuation higher",
+      "Shooting star; resistance may hold",
+      "Dragonfly doji; demand is strong"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "When price approaches resistance in a rangebound pattern, what two scenarios should traders monitor for?",
+    "options": [
+      "A gap up or a gap down at the open",
+      "A breakout, or a pullback toward support",
+      "A rise or fall in volume on the approach",
+      "A higher high or a lower low on the next swing"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "Inside a rectangle, a pullback stops short of the lower boundary at a rising 40-week moving average. What does this suggest?",
+    "options": [
+      "The range has failed and a breakdown is under way",
+      "The moving average is irrelevant inside a rectangle",
+      "Demand is strengthening, with the average acting as support",
+      "A bearish reversal pattern has been confirmed"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "In a rectangle, price returns to test resistance more and more often, with shallower pullbacks each time. What does this most likely reflect?",
+    "options": [
+      "Weakening demand as buyers tire near the top of the range",
+      "An imminent breakdown through the range's lower boundary",
+      "Sellers steadily gaining control of the resistance area",
+      "Impatient buyers absorbing supply, favoring an upside break"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "A rectangle that forms during an uptrend ends with a confirmed breakout above its upper boundary. How is the pattern classified?",
+    "options": [
+      "Bearish reversal",
+      "Bullish continuation",
+      "Bearish continuation",
+      "Neutral, no classification possible"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "Which characteristic of a rectangle most increases the chance that the eventual move will exceed the basic measured target?",
+    "options": [
+      "A long, tight consolidation",
+      "A very short, loose pattern",
+      "Declining volume after the breakout",
+      "A breakout on a gap that is filled the next day"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "An index trades between 1,000 and 1,500 for several years, then breaks out above 1,500. The basic target is 2,000. Given that tight, lengthy patterns can reach two to three times the initial measurement, what range is a reasonable extended objective?",
+    "options": [
+      "2,500 to 3,000",
+      "2,000 exactly",
+      "1,750 to 2,000",
+      "4,000 to 5,000"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "For flag and pennant consolidations, what type of price movement precedes their formation?",
+    "options": [
+      "Slow, gradual movements",
+      "Sideways, choppy movements",
+      "Gap-filled movements",
+      "Fast, steady, and steep price movements"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "A stock gaps above a minor high to end a downtrend, rallies sharply, then drifts lower in a narrow, slightly downward-sloping channel on lighter volume. What pattern is most likely forming?",
+    "options": [
+      "Bear flag",
+      "Head-and-shoulders top",
+      "Bull flag",
+      "Descending triangle"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "A stock leaves a congestion area at $40 and rallies to $46 before a small flag forms. The flag breaks out at $45. What is the minimum price objective?",
+    "options": [
+      "$49",
+      "$51",
+      "$52",
+      "$57"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "How is the practice of classical charting and technical analysis best described?",
+    "options": [
+      "A craft in which practitioners use the tools they trust",
+      "A pure science governed by exact, testable rules",
+      "An art form with no structure or method",
+      "A mathematical system of precise calculations"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "When should a trader switch from a rangebound trading strategy to a breakout strategy?",
+    "options": [
+      "After a confirmed breakout takes place",
+      "After the first test of resistance",
+      "When volume increases",
+      "When the moving average flattens"
+    ],
+    "correct": 0,
+    "hasImage": false
+  }
+]

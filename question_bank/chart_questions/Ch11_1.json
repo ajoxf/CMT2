@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "The cycle's peak occurs well after the midpoint between its two troughs. What is this called, and what does it usually say about the underlying longer-term trend?",
+    "options": [
+      "Right translation; the longer trend is bullish",
+      "Left translation; the longer trend is bearish",
+      "Right translation; the longer trend is bearish",
+      "Left translation; the longer trend is bullish"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch11_1_right_translation.png",
+    "concept": "Cycle translation"
+  },
+  {
+    "id": 102,
+    "question": "The marked troughs T1\u2013T5 belong to the same dominant cycle. Using the average trough-to-trough period of the four completed cycles, around which bar is the next cycle trough (T6) due?",
+    "options": [
+      "Around bar 163",
+      "Around bar 173",
+      "Around bar 180",
+      "Around bar 214"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_period_projection.png",
+    "concept": "Measuring cycle period trough-to-trough and projecting the next trough"
+  },
+  {
+    "id": 103,
+    "question": "The upper series is exactly the sum of Cycle 1 and Cycle 2. Which cycle principle does this illustrate, and what does it imply about the deepest lows of the composite (dotted lines)?",
+    "options": [
+      "Principle of synchronicity; the deepest lows occur because the two cycles have the same period",
+      "Principle of proportionality; Cycle 2 has the larger amplitude, so its troughs set the deepest lows",
+      "Principle of summation; the deepest lows come where both cycles bottom together",
+      "Principle of harmonicity; the deepest lows occur where Cycle 2 peaks while Cycle 1 bottoms"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_summation.png",
+    "concept": "Principle of summation"
+  },
+  {
+    "id": 104,
+    "question": "Measure each cycle trough to trough. How many complete Cycle C periods fit into one Cycle A period, and which principle describes the regular relationship between neighbouring cycles?",
+    "options": [
+      "Two; the principle of harmonicity",
+      "Four; the principle of proportionality",
+      "Eight; the principle of nominality",
+      "Four; the principle of harmonicity"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_harmonicity.png",
+    "concept": "Principle of harmonicity"
+  },
+  {
+    "id": 105,
+    "question": "Each cycle peaks before its midpoint (dashed lines) and each trough is below the one before. How is this best interpreted, and what is expected of the next cycle trough?",
+    "options": [
+      "Right translation in a bullish longer-term trend; the next trough is likely to be higher than T4",
+      "Left translation in a bearish longer-term trend; the next trough is likely to be lower than T4",
+      "Left translation showing early strength; the next trough is likely to be higher than T4",
+      "Cycle inversion; the next peak is likely to occur where a trough was expected"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_left_translation.png",
+    "concept": "Left translation and trend"
+  }
+]

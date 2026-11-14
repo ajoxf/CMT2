@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "The index makes a higher high at the end of the chart, while its advance-decline line makes a lower high. What does this indicate?",
+    "options": [
+      "Narrowing participation: a bearish breadth divergence warning of a weakening advance",
+      "Broad participation confirms the new high",
+      "A bullish breadth divergence that often marks a bottom",
+      "A breadth thrust signal"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch5_2_ad_divergence.png",
+    "concept": "A-D line divergence"
+  },
+  {
+    "id": 102,
+    "question": "The index rises from about 4,800 to a new high near 4,950, while the percentage of members above their 200-day moving average falls from 78% to 54%. What does this indicate?",
+    "options": [
+      "Confirmation of the new high, because more than half of the members remain above their 200-day moving average, the usual threshold for a healthy market",
+      "A bullish signal, because the indicator has reset from overbought and has room to rise",
+      "An oversold reading that typically marks an intermediate bottom",
+      "A bearish breadth divergence: the advance rests on narrowing leadership"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_pct_above_200.png",
+    "concept": "% above 200-day MA divergence"
+  },
+  {
+    "id": 103,
+    "question": "Read the new-highs and new-lows counts annotated at High 2. What is the net new highs (NH \u2212 NL) reading on that day, and what does it imply?",
+    "options": [
+      "+215; total new-high and new-low activity is rising, confirming the trend",
+      "-25; net new highs turned negative at a price high, a bearish non-confirmation",
+      "+25; net new highs remain positive, confirming the new price high",
+      "-25; negative net new highs at a price high is a bullish sign of a washed-out market"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_nh_nl.png",
+    "concept": "New highs - new lows"
+  },
+  {
+    "id": 104,
+    "question": "The McClellan Summation Index is the running total of the daily McClellan Oscillator. Using the Summation Index value marked and the four subsequent oscillator readings annotated, what is the Summation Index at the end of the chart?",
+    "options": [
+      "6,480",
+      "6,796",
+      "6,810",
+      "6,986"
+    ],
+    "correct": 3,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_mcclellan.png",
+    "concept": "McClellan Summation Index"
+  },
+  {
+    "id": 105,
+    "question": "A breadth thrust is defined here as the 10-day EMA of advances / (advances + declines) rising from below 40% to above 61.5% within 10 trading days. Using the annotated days, did a breadth thrust occur?",
+    "options": [
+      "No: the count must start from the first reading below 40% (day 32), so the move took 14 days, too slow",
+      "Yes, but it is bearish: after 5 days of heavy buying the market is overbought and due to fall",
+      "Yes: the move from below 40% to above 61.5% took 5 trading days, within the 10-day window; a bullish signal",
+      "No: the daily ratio must exceed 61.5% on a single day, so the 5-day average move does not count"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m2_ch5_ch7_breadth_thrust.png",
+    "concept": "Breadth thrust"
+  }
+]

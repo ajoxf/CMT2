@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "What does the narrowing of the bands in shaded region Z represent, and what does it imply?",
+    "options": [
+      "A trend that has ended; prices will stay range-bound",
+      "A signal that the prior trend will resume in the same direction",
+      "A volatility contraction (squeeze) that often precedes an expansion in volatility; the direction of the breakout must come from other evidence",
+      "A bullish signal, because narrow bands mean the stock is consolidating above its average"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch9_4_squeeze.png",
+    "concept": "Bollinger squeeze"
+  },
+  {
+    "id": 102,
+    "question": "Using the values printed on the chart, what is %b for the last bar?",
+    "options": [
+      "0.31",
+      "0.34",
+      "0.69",
+      "1.29"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/ch9_4_percent_b.png",
+    "concept": "%b calculation"
+  },
+  {
+    "id": 103,
+    "question": "In the shaded period, closes repeatedly press against the upper band while staying above the middle band. What does this indicate?",
+    "options": [
+      "Each tag of the upper band is an overbought condition and a sell signal",
+      "Price is 'walking the band', a sign of trend strength rather than a sell signal",
+      "The bands are in a squeeze, which signals that a volatility breakout is about to begin",
+      "Price must return to the lower band before the uptrend can continue"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_walk_band.png",
+    "concept": "Walking the upper band"
+  },
+  {
+    "id": 104,
+    "question": "Using the printed values, what is BandWidth, (upper \u2212 lower) \u00f7 middle, for the last bar?",
+    "options": [
+      "3.6%",
+      "6.9%",
+      "7.1%",
+      "7.4%"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_bandwidth.png",
+    "concept": "BandWidth calculation"
+  },
+  {
+    "id": 105,
+    "question": "Low 2 is slightly below low 1 in price, but low 1 closed outside the lower band while low 2 closed inside it. What is this pattern and what confirms it?",
+    "options": [
+      "A Bollinger W-bottom, confirmed by a strong rally above the high between the two lows",
+      "A breakdown: the new price low shows the downtrend will continue",
+      "A W-bottom that is invalid, because the second price low is lower than the first and so no higher low has formed",
+      "A double top, confirmed when price falls back below the middle band"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m3_ch8_ch12_w_bottom.png",
+    "concept": "Bollinger W-bottom"
+  }
+]

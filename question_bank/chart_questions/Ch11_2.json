@@ -1,0 +1,72 @@
+[
+  {
+    "id": 101,
+    "question": "Project a time window for the next cycle low as the last trough plus the average period, plus or minus the largest deviation of any single completed period from that average. Which window results?",
+    "options": [
+      "Bars 182\u2013188",
+      "Bars 199\u2013211",
+      "Bars 202\u2013208",
+      "Bars 205\u2013211"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_projection_window.png",
+    "concept": "Cycle-low projection window"
+  },
+  {
+    "id": 102,
+    "question": "The current cycle began at T4. Price has now fallen below the T4 low. How should a cycle analyst read this?",
+    "options": [
+      "The cycle has failed; the next-longer cycle is likely turning down, a bearish warning",
+      "Right translation is confirmed, so the longer-term trend is still bullish",
+      "The break marks the new cycle trough, so a long position can be taken immediately",
+      "The cycle period has simply lengthened; the break carries no trend information"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_failed_cycle.png",
+    "concept": "Failed cycle"
+  },
+  {
+    "id": 103,
+    "question": "Using the stated scale, a 1\u00d71 (one price unit per time unit) line is drawn up from the week-3 low. Where is that line in week 18, and what does price's position relative to it suggest?",
+    "options": [
+      "$55; price is above the 1\u00d71, so the advance remains strong",
+      "$76; price is below the 1\u00d71, suggesting the advance has lost momentum",
+      "$70; price is below the 1\u00d71, suggesting the advance has lost momentum",
+      "$70; trading below the 1\u00d71 shows a steeper, stronger trend than a 45\u00b0 advance"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_gann_1x1.png",
+    "concept": "Gann-style 1x1 price/time line"
+  },
+  {
+    "id": 104,
+    "question": "A DeMark-style buy setup needs nine consecutive closes, each below the close four bars earlier, starting after a bearish price flip; any bar that fails the test cancels the count. A count begins at bar 10. On which bar is a completed nine-bar buy setup first recorded?",
+    "options": [
+      "Bar 18",
+      "Bar 19",
+      "Bar 24",
+      "Bar 25"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_td_setup.png",
+    "concept": "TD-style setup count"
+  },
+  {
+    "id": 105,
+    "question": "Rescaled-range analysis gives a Hurst exponent of about 0.22 for one series and about 0.77 for the other. Which statement matches the charts?",
+    "options": [
+      "P has H \u2248 0.77: persistent, so it suits trend-following; Q has H \u2248 0.22: anti-persistent",
+      "P has H \u2248 0.22: anti-persistent (mean-reverting); Q has H \u2248 0.77: persistent, suiting trend-following",
+      "Q has H \u2248 0.22; an exponent below 0.5 indicates persistence, so Q suits trend-following",
+      "Q has H \u2248 0.77; an exponent above 0.5 means moves tend to reverse, so Q suits mean-reversion"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/cmtl2-qbank/charts/m4_ch11_hurst.png",
+    "concept": "Hurst exponent: persistent vs anti-persistent"
+  }
+]
