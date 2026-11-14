@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "What is the definition of alpha in portfolio management?",
+    "options": [
+      "The total return of a portfolio over a given period",
+      "The return a portfolio earns in excess of (or short of) its benchmark index",
+      "The portfolio's volatility relative to the market",
+      "The portion of return explained by the portfolio's market exposure"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "What does a beta of 1.0 represent?",
+    "options": [
+      "The investment tends to move about twice as much as the market",
+      "The investment's returns are uncorrelated with the market",
+      "The investment tends to move in line with the market on average",
+      "The investment tends to move about half as much as the market"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "In the alpha formula α = Rp - (Rf + β × (Rm - Rf)), what does Rf represent?",
+    "options": [
+      "Return of the benchmark index over the period",
+      "Risk-free rate, often proxied by the 10-year Treasury yield",
+      "Required return on the portfolio given its beta",
+      "Realized return of the fund over the period"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "From a technical analyst's point of view, where is alpha most likely to be found?",
+    "options": [
+      "In assets with the lowest valuations relative to earnings",
+      "In assets with the highest dividend yields",
+      "Where identifiable trends let prices beat the market averages for extended periods",
+      "In assets whose prices fluctuate randomly around fair value"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "A technician hunting for alpha wants tools that identify trend breakouts and continuations. Which group of tools best fits that goal?",
+    "options": [
+      "Valuation ratios such as price-to-earnings and price-to-book",
+      "Moving averages, oscillators and price-envelope tools such as Bollinger Bands",
+      "Breadth measures such as the advance-decline line",
+      "Sentiment gauges such as the put/call ratio"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "How would a strict believer in the Efficient Markets Hypothesis (EMH) view the effort to discover new, predictable trends by studying price action?",
+    "options": [
+      "As promising, because prices adjust slowly to news",
+      "As worthwhile only in illiquid small-cap stocks",
+      "As unlikely to repay the time and effort required",
+      "As useful whenever price signals are confirmed by volume"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "How did Eugene Fama himself characterize the Efficient Markets Hypothesis when asked whether markets are efficient?",
+    "options": [
+      "As an exact description of how prices behave at all times",
+      "As a useful approximation that, like any model, is not entirely true",
+      "As a theory that applies only to large-cap U.S. equities",
+      "As a hypothesis that has been decisively disproven"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "What are the two other market-modeling approaches mentioned besides EMH?",
+    "options": [
+      "Random Walk Theory and Chaos Theory",
+      "Modern Portfolio Theory and Capital Asset Pricing Model",
+      "Adaptive Market Hypothesis (AMH) and Fractal Market Hypothesis (FMH)",
+      "Behavioral Finance Model and Prospect Theory"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "Who articulated the Adaptive Market Hypothesis (AMH)?",
+    "options": [
+      "Eugene Fama",
+      "Andrew Lo",
+      "Harry Markowitz",
+      "William Sharpe"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "Under the Adaptive Market Hypothesis, what is the main reason markets fail to adjust efficiently to information?",
+    "options": [
+      "So much information is released that no one can process it all",
+      "Participants' behavior evolves as expectations and biases shift",
+      "Transaction costs keep prices from adjusting to new information",
+      "Regulation stops prices from moving all the way to fair value"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "In Andrew Lo's adaptive framework, when is a market said to be informationally inefficient?",
+    "options": [
+      "When new information arrives faster than usual",
+      "When trading volume is unusually low for a long period",
+      "When price moves reflect behavioral biases more than new information",
+      "When prices follow a random walk around fair value"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "Research on trading activity around 52-week extremes found that volume tends to rise when a stock moves beyond its prior 52-week high or low. What does this suggest?",
+    "options": [
+      "Those price levels carry new information about earnings",
+      "Prior price extremes are psychologically salient reference points that influence trading decisions",
+      "Volume is driven mainly by index rebalancing at those levels",
+      "Trading activity is independent of where price sits in its 12-month range"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "Why is the rise in trading volume when a stock moves past its 52-week high or low considered an important finding?",
+    "options": [
+      "It reliably signals a change in the company's fundamentals",
+      "Trading behavior changes even though the price level reveals nothing new about fundamentals",
+      "It shows these levels usually coincide with earnings announcements",
+      "It is explained entirely by institutional selling pressure"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "A researcher finds that daily returns of an emerging-market equity index are serially correlated and fail tests of weak-form efficiency. What is the most direct implication for technicians?",
+    "options": [
+      "Past price data may contain exploitable information, so technical rules could earn excess returns",
+      "Only insider information can generate excess returns in that market",
+      "Fundamental analysis must also be useless in that market",
+      "The market is still semi-strong-form efficient, so charts add nothing"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "If a market is shown NOT to be weak-form efficient, which statement is most accurate?",
+    "options": [
+      "Historical prices are fully reflected, so charts add no value",
+      "Some predictability exists in historical price data, which technical methods may exploit",
+      "Public fundamental data is no longer priced in",
+      "Prices follow a perfect random walk"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "Under the Adaptive Market Hypothesis, investors in some markets absorb new information slowly. When such a market is already moving strongly in one direction, what does this imply?",
+    "options": [
+      "The trend is more likely to persist than to reverse",
+      "The trend should reverse quickly as arbitrageurs step in",
+      "Price direction becomes unpredictable until new data arrives",
+      "Volume, rather than price, will absorb the new information"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "An equal-weighted portfolio holds four stocks with betas of 0.8, 1.0, 1.4 and 1.8. What is the portfolio beta?",
+    "options": [
+      "1.00",
+      "1.25",
+      "1.40",
+      "5.00"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "Portfolio A returned 22% while its benchmark returned 12%. The risk-free rate was 4% and the portfolio beta is 1.5. What is the portfolio's alpha?",
+    "options": [
+      "4%",
+      "6%",
+      "10%",
+      "18%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "In the alpha formula α = Rp − [Rf + β × (Rm − Rf)], what does the term β × (Rm − Rf) represent?",
+    "options": [
+      "The portfolio's excess return over the benchmark index",
+      "The market risk premium scaled by the portfolio's beta",
+      "The risk-free return the portfolio would earn with no risk",
+      "The portfolio's tracking error relative to the index"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "Using CAPM, what is the expected (required) return of a stock with beta 1.2 if the risk-free rate is 3% and the expected market return is 10%?",
+    "options": [
+      "8.4%",
+      "10.0%",
+      "11.4%",
+      "12.0%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "An analyst wants to compare the alpha of two portfolio managers. Which practice makes the comparison most meaningful?",
+    "options": [
+      "Using each manager's preferred benchmark and own estimate of the risk-free rate",
+      "Using the same period, benchmark and risk-free rate for both",
+      "Comparing total returns only, since alpha already ignores risk",
+      "Using the higher-beta portfolio's benchmark for both managers"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "A stock has a beta of 1.6 relative to a broad market index. What does this imply when the stock is added to a diversified portfolio?",
+    "options": [
+      "It is expected to move about 60% less than the market and lower portfolio volatility",
+      "It is expected to move roughly 1.6 times as much as the market and add to portfolio volatility",
+      "It will outperform the market by 1.6% per year",
+      "It has no meaningful relationship with the market's movements"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "Which type of equity portfolio would typically be expected to have a beta well below 1.0?",
+    "options": [
+      "Semiconductor stocks",
+      "Regulated utility stocks",
+      "Small-cap biotech stocks",
+      "Leveraged long index ETFs"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "If a portfolio's beta is 0, its alpha simplifies to which expression?",
+    "options": [
+      "Rp − Rm",
+      "Rp − Rf",
+      "Rm − Rf",
+      "Rp"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "A portfolio has beta 0.5. If the market's return exceeds the risk-free rate by 10%, what excess return over the risk-free rate does CAPM attribute to market exposure?",
+    "options": [
+      "2.5%",
+      "5%",
+      "10%",
+      "20%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "Over the same period the market returned 14% and the risk-free rate was 4%. Portfolio X (beta 1.4) returned 30%; Portfolio Y (beta 0.5) returned 18%. Which statement is correct?",
+    "options": [
+      "X alpha 12%, Y alpha 9%",
+      "X alpha 16%, Y alpha 4%",
+      "X alpha 18%, Y alpha 9%",
+      "Both have alpha of 12%"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "The market returned 12% and the risk-free rate was 4%. A portfolio with beta 0.5 returned 10%. Which statement is correct?",
+    "options": [
+      "It has negative alpha because it lagged the market",
+      "It has positive alpha of 2% despite lagging the market",
+      "Its alpha is −2%",
+      "Alpha cannot be computed without the portfolio's standard deviation"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "Why can a portfolio with a lower total return than another still show a similar or higher alpha?",
+    "options": [
+      "Alpha gives extra credit to portfolios that carry higher volatility",
+      "With a lower beta, less of its return is expected from market exposure",
+      "Alpha compares the portfolio only with the risk-free rate, not the market",
+      "Alpha ignores the benchmark's return whenever beta is below 1.0"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "When a technician presents research claiming a new source of alpha, what should the work do to be persuasive to academically trained professionals?",
+    "options": [
+      "Show the strategy was profitable in the most recent year",
+      "Demonstrate a high win rate on a few chart examples",
+      "Reconcile its results with one or more established models of market behavior",
+      "Avoid reference to academic models, which reject technical analysis"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "What cognitive bias-related behavior was identified in the 52-week high/low research that suggests informational inefficiency?",
+    "options": [
+      "Investors traded mainly around earnings announcements",
+      "Investors traded on new 52-week highs or lows even without accompanying fundamental news",
+      "Volume rose only when new highs coincided with positive news",
+      "Investors ignored past price extremes when making decisions"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

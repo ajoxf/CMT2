@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Why is testing exit rules harder than testing entry rules?",
+    "options": [
+      "Exit rules need far more computing power to evaluate",
+      "An exit only applies once a position is open, so it depends on entry",
+      "Exit rules cannot use the same indicators as entries",
+      "Exit signals occur much less often than entry signals"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "What are the two states that swing charts can have, making them ideal for trend identification?",
+    "options": [
+      "Rising and sideways",
+      "Strong and weak",
+      "Up and down",
+      "Trending and ranging"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What makes swing charts well suited as objective trend-change exit indicators?",
+    "options": [
+      "They have many intermediate states for added nuance",
+      "Two states, with fixed rules defining a change of direction",
+      "They are based on closing prices, ignoring highs and lows",
+      "They lead price turns by design rather than lagging"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "What is a volatility swing?",
+    "options": [
+      "A swing that reverses based on changes in volume",
+      "A swing that reverses only after a move of set ATRs from the last turn",
+      "A swing whose turns are set by a volatility index level",
+      "A swing that reverses after a fixed percentage price move"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "An exit uses a volatility swing chart: the swing turns down only after price falls more than a set number of ATRs from the last top, and the trade is closed once a prior swing low is broken. Raising the ATR multiple from 2 to 4 would most likely:",
+    "options": [
+      "Cause more frequent and earlier exits from trades",
+      "Produce fewer reversals and later exits, giving trades more room",
+      "Have no effect, since exits depend on swing lows only",
+      "Increase exits during strong, steady trends"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "Regardless of what a test without stops shows, what is the guiding principle about stops in live trading?",
+    "options": [
+      "Stops are needed only in volatile markets",
+      "Stops can be skipped if the no-stop test performs well",
+      "Stops should always be in place, whatever the tests show",
+      "Stops should be added only after optimization"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "Why should the first strategy test always be run WITHOUT stops?",
+    "options": [
+      "Stops are unimportant until the system goes live",
+      "Baseline results are needed to choose suitable stop types",
+      "Stops cannot be coded until exit rules are final",
+      "Stops always reduce returns, so they distort the test"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "What is the recommended starting position size for an equally weighted allocation strategy?",
+    "options": [
+      "1-2% (50-100 securities)",
+      "2-3% (33-50 securities)",
+      "4-5% (20-25 securities)",
+      "10% (10 securities)"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "Roughly how many holdings are usually regarded as enough for a portfolio to be well diversified?",
+    "options": [
+      "10 to 15",
+      "15 to 20",
+      "20 to 25",
+      "30 to 40"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "What does the equity plot (cumulative returns plot) display in strategy testing?",
+    "options": [
+      "Only the value of holdings",
+      "Only the cash balance",
+      "Total portfolio value: cash plus holdings",
+      "Strategy return minus benchmark return"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "A strategy's equity chart shows the cash balance building up for long stretches after positions are closed, with little being redeployed. What is the most likely explanation?",
+    "options": [
+      "Positions are exited but entries are not generating new trades",
+      "The strategy is fully invested throughout the test",
+      "Commissions are absorbing most of the cash balance",
+      "Stops are triggering too rarely to free capital"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "A signal test produced 1,600 well-distributed signals, but the strategy test with 5% positions executed only 700 trades because capital was fully committed. What adjustment could capture more signals?",
+    "options": [
+      "Increase position size to 10% of equity",
+      "Reduce position size so more positions are held",
+      "Lengthen the holding period of each trade",
+      "Narrow the universe to the strongest signals"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "What do rolling returns measure in strategy testing?",
+    "options": [
+      "Expected future returns projected from the test",
+      "Returns over a fixed look-back, measured on every day",
+      "The rate of change of the equity curve",
+      "The rolling correlation with the benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "Why are rolling returns considered more realistic than the equity plot for evaluation?",
+    "options": [
+      "They are simpler and faster to calculate",
+      "They show if returns were steady, not just start to end",
+      "They remove the need for separate risk measures",
+      "They automatically adjust returns for inflation"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "What does the drawdown (underwater) plot show?",
+    "options": [
+      "The total decline in portfolio value since the start",
+      "Each decline of the equity curve below its most recent high",
+      "The correlation with market volatility",
+      "The percentage of losing trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "A strategy's equity peaks at $2.4 million and later falls to $1.32 million before recovering to a new high. What is the maximum drawdown?",
+    "options": [
+      "18%",
+      "45%",
+      "55%",
+      "82%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "Using monthly returns, how is the annualized (arithmetic) return typically calculated?",
+    "options": [
+      "Average daily return × 252",
+      "Average monthly return × 12",
+      "Average monthly return × √12",
+      "Total return ÷ number of years"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "What is the formula for annualized volatility from monthly returns?",
+    "options": [
+      "Monthly Standard Deviation × 12",
+      "Monthly Standard Deviation × √12",
+      "Monthly Standard Deviation / 12",
+      "Monthly Standard Deviation × 252"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What does CAGR (Compound Annual Growth Rate) represent?",
+    "options": [
+      "The simple average of yearly returns",
+      "Total return expressed as a compounded annual rate",
+      "The median of the yearly returns in the test",
+      "The average monthly return multiplied by 12"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "In a strategy report, 'maximum drawdown recovery time' (MDD days) is best defined as:",
+    "options": [
+      "The average number of days taken to recover from all drawdowns",
+      "The longest time needed to regain a prior equity peak after a drawdown",
+      "The total number of days in the test period",
+      "The median holding period of losing trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What is the purpose of calculating risk-adjusted returns?",
+    "options": [
+      "To remove risk from the portfolio",
+      "To show the return at the benchmark's volatility",
+      "To maximize return regardless of risk",
+      "To estimate the risk-free rate"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "What does M² (Modigliani risk-adjusted performance) measure?",
+    "options": [
+      "The total return of the portfolio over the test",
+      "Portfolio return rescaled to benchmark volatility, then compared",
+      "The volatility of the portfolio relative to the benchmark",
+      "The correlation of the portfolio with the market"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "What does a positive alpha indicate in CAPM analysis?",
+    "options": [
+      "The strategy has higher volatility than the benchmark",
+      "Return above what its beta predicts versus the benchmark",
+      "The strategy is perfectly correlated with the market",
+      "The strategy has a beta below 1"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "What does a beta of 1 indicate about a strategy?",
+    "options": [
+      "The strategy carries no market risk at all",
+      "It tends to move by the same proportion as the market",
+      "The strategy outperforms the market over time",
+      "The strategy has zero correlation with the market"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "What are the two main drivers that affect beta?",
+    "options": [
+      "Alpha and total returns",
+      "Correlation and volatility",
+      "Price level and volume",
+      "Drawdown and win rate"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "What does r² (coefficient of determination) measure in regression analysis?",
+    "options": [
+      "The strategy's total return over the test",
+      "How tightly points fit the regression line",
+      "The slope of the regression line versus the market",
+      "The maximum drawdown relative to the benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "What is the profit factor formula?",
+    "options": [
+      "Net Profit / Gross Loss",
+      "Gross Profit / Gross Loss",
+      "Gross Profit / Number of Trades",
+      "Net Profit / Total Capital"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "What profit factor value would indicate that losses equal profits?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Greater than 2"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "Why is average percentage return per trade a better gauge than average dollar profit per trade?",
+    "options": [
+      "Percentage returns are easier to calculate for each trade",
+      "Position sizes grow with reinvestment, so only percentages stay comparable",
+      "Percentage returns already account for stops and slippage",
+      "Percentage figures are always larger than dollar figures"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "A strategy's longest winning trade was held for many years. Why is this a concern?",
+    "options": [
+      "The strategy is too conservative with its exits",
+      "One trade may supply too much of the profit to recur",
+      "The exit rules are too aggressive for trends",
+      "The position sizing must be miscalculated"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "What is the expected value formula in trading?",
+    "options": [
+      "(Win Percent × Avg Win) + (Loss Percent × Avg Loss)",
+      "(Win Percent × Avg Win) - (Loss Percent × Avg Loss)",
+      "Win Percent / Loss Percent",
+      "Avg Win - Avg Loss"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "Why is it a warning sign if the largest single profit is close to the strategy's total profit?",
+    "options": [
+      "It shows the strategy captures large trends very well",
+      "No single trade should drive results; that outlier may not recur",
+      "It suggests the strategy's exits are too conservative",
+      "It means the exit strategy is already close to optimal"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "What is Max Adverse Excursion (MAE)?",
+    "options": [
+      "The largest closed loss on any single trade",
+      "The worst open loss during trades that ended profitable",
+      "The maximum drawdown of the whole portfolio",
+      "The longest string of consecutive losing trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "How can MAE help when setting stops?",
+    "options": [
+      "It determines the optimal position size for each trade",
+      "Stops set beyond winners' typical MAE rarely cut them off early",
+      "It sets the risk-free rate used in the Sharpe ratio",
+      "It measures the trade's correlation with the benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "What is Max Favorable Excursion (MFE)?",
+    "options": [
+      "The average closed profit of winning trades",
+      "The peak open profit during profitable trades",
+      "The total gross profit across all trades",
+      "The largest closed profit on any trade"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "What does the 'R' in R-Multiples represent, as popularized by Van K. Tharp?",
+    "options": [
+      "Return",
+      "Risk",
+      "Ratio",
+      "Regression"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "When using a stop, how is risk defined for R-Multiple calculation?",
+    "options": [
+      "The total position size",
+      "Entry price minus stop price",
+      "The total portfolio value",
+      "One ATR of the security"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "A trader buys at $50 with a stop at $46 and later exits at $62. What is the trade's R-multiple?",
+    "options": [
+      "1.24R",
+      "2R",
+      "3R",
+      "12R"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "What is the goal for average R-Multiple in a trading strategy?",
+    "options": [
+      "Average R above 0, so the system breaks even",
+      "Average R above 1, so average profit exceeds average risk",
+      "Average R below 1, keeping risk per trade small",
+      "Average R of exactly 1, balancing profit and risk"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "What does the Sharpe ratio measure?",
+    "options": [
+      "Total return earned per unit of maximum drawdown",
+      "Excess return over the risk-free rate per unit of volatility",
+      "Excess return per unit of systematic risk (beta)",
+      "Return relative to downside deviation only"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "How do the Sharpe and Sortino ratios differ?",
+    "options": [
+      "Sharpe uses monthly returns, while Sortino uses annual",
+      "Sharpe uses total volatility, Sortino only downside volatility",
+      "Sharpe uses beta, while Sortino uses standard deviation",
+      "Sortino ignores the risk-free rate, while Sharpe subtracts it"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "What does the Information ratio measure?",
+    "options": [
+      "Total portfolio return",
+      "Active return relative to tracking error",
+      "Excess return per unit of beta",
+      "Return per unit of downside deviation"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "What distinguishes the Treynor ratio from the Sharpe ratio?",
+    "options": [
+      "Uses beta instead of standard deviation",
+      "Uses gross instead of net returns",
+      "Ignores the risk-free rate",
+      "Uses downside deviation instead of standard deviation"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "When can the Treynor ratio NOT be used?",
+    "options": [
+      "When returns are negative",
+      "When beta is negative",
+      "When volatility is high",
+      "When the risk-free rate is zero"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "What does the Calmar ratio compare?",
+    "options": [
+      "Total return to standard deviation",
+      "Average annual return to maximum drawdown",
+      "Winning trades to losing trades",
+      "Gross profit to gross loss"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "System A has an SQN of 1.7 and System B an SQN of 3.4, both based on 200 trades. Using Tharp's general guide, which statement is correct?",
+    "options": [
+      "A is excellent, B below average",
+      "A is below average, B excellent",
+      "Both are average",
+      "A is good, B superb"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "What is the minimum number of trades for SQN to be deemed reliable?",
+    "options": [
+      "10 trades",
+      "20 trades",
+      "30 trades",
+      "50 trades"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "A strategy has a Sharpe ratio of 0.6 but a Sortino ratio of 2.2. What is the most likely explanation?",
+    "options": [
+      "The calculation is wrong; the two should be close",
+      "Much of its volatility is upside, while downside deviation is small",
+      "The strategy must have had no losing trades at all",
+      "The Sortino ratio ignores the risk-free rate entirely"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "A no-stop strategy's winning trades show a maximum adverse excursion of −70% and a maximum favorable excursion of +90%, though the average win is only +12%. What should be investigated?",
+    "options": [
+      "Increasing position sizes to lift the average win",
+      "A protective stop plus an exit capturing more of the gain",
+      "Removing the entry filter to raise trade count",
+      "A longer holding period so winners can run further"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "If a strategy has high gross profit but also high gross loss resulting in low net profit, what should be investigated?",
+    "options": [
+      "Increasing position sizes to lift net profit",
+      "Better filters and stops that cut losses while preserving gross profit",
+      "Removing exit rules so that winners run longer",
+      "Adding more securities to the universe for more trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

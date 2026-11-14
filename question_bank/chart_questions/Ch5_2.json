@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "The index makes a higher high at the end of the chart, while its advance-decline line makes a lower high. What does this indicate?",
+    "options": [
+      "Broad participation confirms the new high",
+      "A bullish breadth divergence that often marks a bottom",
+      "Narrowing participation: a bearish breadth divergence warning of a weakening advance",
+      "A breadth thrust signal"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch5_2_ad_divergence.png",
+    "concept": "A-D line divergence"
+  }
+]

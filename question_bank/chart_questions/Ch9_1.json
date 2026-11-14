@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "Price makes a higher high at the end of the chart while RSI makes a lower high. What is this called and how should it be used?",
+    "options": [
+      "A hidden bullish divergence that favours adding to long positions",
+      "Bearish (negative) divergence; a warning of fading momentum that needs price confirmation, such as a break of support",
+      "Bullish (positive) divergence; momentum is confirming the new high",
+      "Positive reversal; it signals the uptrend will accelerate"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch9_2_rsi_divergence.png",
+    "concept": "RSI bearish divergence"
+  }
+]

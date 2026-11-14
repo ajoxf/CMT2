@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "This trade distribution has many small losses and a few very large winners. Which type of trading model typically produces this profile?",
+    "options": [
+      "Mean-reversion model with a high win rate",
+      "Trend-following model: low win rate, positively skewed results",
+      "Market-making model with symmetric results",
+      "A breakout model, which must have a win rate above 50% to be profitable"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch12_1_trade_hist.png",
+    "concept": "Trend-following trade profile"
+  }
+]

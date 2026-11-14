@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "In the three-step investment process, what role does quantitative analysis primarily serve?",
+    "options": [
+      "It generates ideas that technical analysis then confirms",
+      "It objectively measures and compares ideas, helping counter bias",
+      "It replaces the need for primary data",
+      "It mainly serves to automate order execution"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "What is the primary difference between primary and secondary information in the investment process?",
+    "options": [
+      "Primary is paid data, secondary is free data",
+      "Primary is raw data, secondary is derived data",
+      "Primary is historical data, secondary is real-time data",
+      "Primary is qualitative, secondary is quantitative"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "When screening a new trading signal, what minimum probability of gain is commonly recommended as a target?",
+    "options": [
+      "50%",
+      "55%",
+      "60%",
+      "65%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "Which type of rule returns only a true or false result and is used to ignore signals that don't meet certain criteria?",
+    "options": [
+      "Trigger Rules",
+      "Filter Rules",
+      "Value Rules",
+      "Ranking Rules"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "What does a trigger rule identify in quantitative analysis?",
+    "options": [
+      "The prevailing long-term trend direction",
+      "The specific event when a condition is first met",
+      "The ranking of signals triggered on the same day",
+      "A condition that must stay true for signals to count"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "If you need to rank multiple signals triggered on the same day, which type of rule would you use?",
+    "options": [
+      "Trigger Rules",
+      "Filter Rules",
+      "Value Rules",
+      "Exit Rules"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "On a Relative Rotation Graph, a security moving out of the Lagging quadrant typically passes next into which quadrant (clockwise rotation)?",
+    "options": [
+      "Leading",
+      "Weakening",
+      "Improving",
+      "It must return to the centre first"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "Why should shorter time frames generally be avoided when trading costs are high?",
+    "options": [
+      "They produce many signals, so costs eat into returns",
+      "They are less accurate than longer time frames",
+      "They cannot be backtested reliably",
+      "They need larger accounts to trade"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "How should a security's leverage influence the choice of data time frame for a trading idea?",
+    "options": [
+      "Highly leveraged securities favour longer time frames",
+      "Highly leveraged securities favour shorter time frames",
+      "Leverage only affects position size, not time frame",
+      "Leveraged securities should use monthly data"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "What is the 'signal-to-noise ratio' concept as applied to market trends?",
+    "options": [
+      "The ratio of winning signals to losing signals",
+      "How clearly tradable trends stand out from short-term fluctuation",
+      "The ratio of trading volume to the size of price changes",
+      "The correlation between two indicators on the same chart"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "Why are shorter time frames more susceptible to noise in trading signals?",
+    "options": [
+      "They have less historical data available for testing",
+      "News- and opinion-driven moves swamp the tradable trend",
+      "They lag price more than longer time frames do",
+      "They require faster execution than most traders have"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "A signal test measures returns 21 trading days after each signal across 50,000 signals. Which pair of statistics best summarises whether the idea is worth pursuing?",
+    "options": [
+      "Number of signals and the test's start date",
+      "Mean return and probability of gain, with dispersion",
+      "Highest single-signal return and its date",
+      "Benchmark return and the number of securities"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "An analyst's minimum probability-of-gain target is 60%. A first signal test shows a 0.7% mean 21-day return, a 55% probability of gain and 45,000 signals. What is the most appropriate conclusion?",
+    "options": [
+      "Accept it; 45,000 signals make the result reliable",
+      "It misses the target as tested; refine with filters or reject",
+      "Accept it, because the mean 21-day return is positive",
+      "Reject it, because that many signals implies overfitting"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "A relative-strength entry signal fires even when both the stock and the benchmark are falling. Which filter rule best addresses this?",
+    "options": [
+      "Rank signals by ATR",
+      "Require the benchmark to be above a short moving average",
+      "Delay every signal by five days",
+      "Require the stock to be in the Leading quadrant"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "Adding a filter to a signal test lowers the mean return from 1.1% to 0.9% and the probability of gain from 57% to 56%, while cutting signals by a third. What does this suggest?",
+    "options": [
+      "The filter improved the edge",
+      "The filter adds no value; its hypothesis is unsupported",
+      "Keep it, since fewer signals mean lower costs",
+      "The filter is valid but needs a longer holding period"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "Signal test X: mean 21-day return 2.4%, probability of gain 58%, 2,100 signals. Signal test Y: mean 0.6%, probability of gain 57%, 55,000 signals. Which statement is most reasonable?",
+    "options": [
+      "Y, because more signals make it more reliable",
+      "X has a stronger per-signal edge, but its signal count needs checking",
+      "They are similar, since probabilities of gain are nearly equal",
+      "Neither can be judged until both are optimized"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "A signal produces an average return of 2.0% per 21-trading-day holding period. Compounding over twelve such periods per year, the approximate annualized return is:",
+    "options": [
+      "24.0%",
+      "26.8%",
+      "21.0%",
+      "12.0%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "An analyst notices that RRG entry signals work best when the security's tail is pointing upward and is well away from the chart centre. Which pair of filters would capture this?",
+    "options": [
+      "Above-average volume and an RSI reading above 50",
+      "An upward-heading filter and a minimum distance-from-centre filter",
+      "A 200-day moving-average filter combined with a time stop",
+      "A benchmark trend filter plus a momentum-based value rule"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "Adding two restrictive filters reduces an idea's signal count from 60,000 to 2,000. What should the analyst check next?",
+    "options": [
+      "Whether the mean return per signal has fallen",
+      "Whether enough well-spread signals remain to stay invested",
+      "Whether the probability of gain is now above 50%",
+      "Whether the holding period should now be shortened"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "A highly filtered rule generates only about 600 signals over 20 years across a large-cap universe. What is the main concern?",
+    "options": [
+      "Too many signals to manage at once",
+      "Too few opportunities, leaving capital idle",
+      "Near-certain overfitting of the filters",
+      "A holding period that is too short"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "When interpreting a signal-test profit distribution, a strongly leptokurtic (tall, narrow peak) shape is generally read as meaning:",
+    "options": [
+      "The results are unreliable and should be rejected",
+      "The outcomes are spread evenly across the whole range",
+      "Returns cluster tightly around the mean, so are more repeatable",
+      "The distribution has a long tail of large losses"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "What does the 'history bar' visualization show in the signal test results?",
+    "options": [
+      "The price history of the security over the test",
+      "Each signal, drawn up for a profit and down for a loss",
+      "The correlation with the benchmark over time",
+      "The cumulative equity of the full strategy"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "A history bar of signal outcomes shows losing signals bunched into a few distinct periods rather than scattered randomly. What does this suggest?",
+    "options": [
+      "The idea has no edge and should be dropped",
+      "A regime filter could switch the rule off then",
+      "The 21-day holding period is too short",
+      "The universe must contain survivorship bias"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "In a signal-test Monte Carlo, an analyst repeatedly draws a small random sample of signals, compounds their returns, and repeats thousands of times. What is produced?",
+    "options": [
+      "A single best-case forecast for the strategy",
+      "A distribution of possible compounded outcomes",
+      "An optimized set of parameter values",
+      "An estimate of the strategy's beta to the market"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "What is the desired characteristic of a Monte Carlo plot distribution?",
+    "options": [
+      "Negative skew",
+      "Zero skew (normal distribution)",
+      "Positive skew",
+      "Bimodal distribution"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "Why is it important to visualize your rule before testing it?",
+    "options": [
+      "To choose the optimal parameter values",
+      "To confirm the rule captures the intended setup",
+      "To estimate trading costs",
+      "To select the benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "Below roughly what number of signals is a signal test generally considered too thin to rely on?",
+    "options": [
+      "Fewer than 100 signals",
+      "Fewer than 500 signals",
+      "Fewer than 1,000 signals",
+      "Fewer than 5,000 signals"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "Why might accurate testing tools calculate statistics on a daily basis even when using weekly signals?",
+    "options": [
+      "To create more data points for the statistics",
+      "To mirror real practice, where stops are monitored daily",
+      "To reduce the computing requirements of the test",
+      "To remove look-ahead bias present in weekly data"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "What does survivorship bias in data refer to?",
+    "options": [
+      "The tendency to study only winning trades in results",
+      "Leaving delisted or failed securities out of historical data",
+      "Favouring strategies that have survived longest live",
+      "Overweighting the most recent market conditions"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "In the quantitative process outlined, which step comes immediately after 'Visualize the rule'?",
+    "options": [
+      "Define your exit rules",
+      "Signal testing",
+      "Strategy testing",
+      "Optimization"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "What is the standard deviation measuring in signal test results?",
+    "options": [
+      "Price volatility of the security",
+      "Dispersion of individual signal returns",
+      "Correlation with the benchmark",
+      "Volatility of the benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "In a signal test chart, the average signal-return line rises in a virtually straight line across the holding period. This indicates:",
+    "options": [
+      "The signal has no predictive power",
+      "The idea captures a persistent trend over the period",
+      "The returns come mostly from one outlier",
+      "The strategy is overfit"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "In a signal test chart, the benchmark return line stays consistently below the average signal-return line. What does this mean?",
+    "options": [
+      "The benchmark is declining",
+      "The signal outperforms the benchmark",
+      "The signal is more volatile than the benchmark",
+      "The benchmark has a higher risk-adjusted return"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "A trigger rule is written to fire on the day a security's RRG position moves from the Lagging quadrant into the Improving quadrant. What is the trading idea behind it?",
+    "options": [
+      "Buy securities that have led the benchmark for months",
+      "Buy securities whose relative trend has just begun to improve",
+      "Sell securities weakening against the benchmark",
+      "Buy securities whose relative strength has peaked"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "Why is it recommended NOT to add filter rules the first time you test a new idea?",
+    "options": [
+      "Filters cut signals too much to test",
+      "To set a baseline before adding complexity",
+      "Filters must be optimized first",
+      "Filters bias the probability of gain upward"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "What is the main advantage of using quantitative tools over manual analysis in Excel?",
+    "options": [
+      "They are always more accurate than any spreadsheet model",
+      "They give fast results and handle universe and survivorship issues",
+      "They remove the need for a clear, testable hypothesis",
+      "They prevent overfitting automatically by design"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "When should you consider using longer time frames for your analysis?",
+    "options": [
+      "When the security being traded is highly leveraged",
+      "When preserving the account matters most or costs are high",
+      "When more frequent signals and trades are wanted",
+      "When the trading account is small"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "What makes quantitative analysis an 'iterative process' rather than a single test?",
+    "options": [
+      "The same test must be repeated for validity",
+      "Each result guides small adjustments to the idea",
+      "Each iteration must use a new universe",
+      "Optimization requires several passes"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "On an RRG, what does a filter on the tail's 'heading' (direction of travel) let an analyst do?",
+    "options": [
+      "Measure the security's absolute price volatility",
+      "Restrict signals to securities rotating in a chosen direction",
+      "Calculate the beta of the security to the benchmark",
+      "Rank signals by their distance from the chart centre"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "On an RRG, a filter requiring a minimum distance from the chart centre selects securities that:",
+    "options": [
+      "Are moving roughly in line with the benchmark",
+      "Show larger relative-strength deviation from the benchmark",
+      "Have just crossed into the Leading quadrant",
+      "Have the highest absolute price momentum"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "An analyst switches a signal test from daily bars to weekly bars and changes nothing else. What is the most likely effect?",
+    "options": [
+      "More signals and shorter trades",
+      "Fewer signals and longer trades",
+      "The same signals with identical holding periods",
+      "Signals can no longer be tested because indicators only work on daily data"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "What is a key difference between signal testing and strategy testing?",
+    "options": [
+      "Signal tests judge entries alone; strategy tests add exits, stops and sizing",
+      "Signal tests use live money, while strategy tests are hypothetical",
+      "Signal tests use daily data, while strategy tests use weekly data",
+      "Signal tests need a benchmark, while strategy tests do not"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "Why is a very large signal count (tens of thousands) acceptable for an entry idea?",
+    "options": [
+      "It proves the rule has not been overfit",
+      "Signals will be available whenever capital frees up",
+      "It implies the rule has a high win rate",
+      "It allows the exit rules to be simplified"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "In a signal test chart, the average signal-return line is already rising sharply before day 0 (the trigger). What does this suggest?",
+    "options": [
+      "The signal lags and captures moves too late",
+      "The absolute trend is already turning up",
+      "The test must contain look-ahead bias",
+      "The benchmark is falling during that window"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "If you wanted to delay a signal by 6 days based on test results, what would be the rationale?",
+    "options": [
+      "To reduce the number of signals",
+      "Because returns after day 6 were much better than before",
+      "To avoid earnings announcements",
+      "Because the first 6 days showed the largest gains"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "What role can artificial intelligence (A.I.) assistants play in modern quantitative analysis?",
+    "options": [
+      "They replace the need for analysts in the process",
+      "They help analysts code ideas, so non-programmers can test them",
+      "They are useful only for high-frequency trading",
+      "They can only be used to choose a suitable benchmark"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "Why is it important to know your risk limits before beginning the quantitative process?",
+    "options": [
+      "To calculate the exact size of every position",
+      "To reject ideas that trade too often or too wildly for you",
+      "To set the optimal leverage before testing",
+      "To decide which asset class to research first"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "A broad RRG entry rule has a modest mean return. After adding direction and distance filters, the mean return triples while the signal count falls sharply. What drove the improvement?",
+    "options": [
+      "Switching the test from daily to weekly data",
+      "Filters that kept only the higher-quality signals",
+      "A longer holding period for each signal",
+      "Changing to a broader benchmark index"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "A trader has a small account and low trading costs and is choosing a data time frame for a new idea. Which choice is generally favoured?",
+    "options": [
+      "A longer time frame",
+      "A shorter time frame",
+      "Monthly data only",
+      "Weekly data, to cut trading costs"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "In the full quantitative process, which steps come after 'Strategy testing'?",
+    "options": [
+      "Define rules and visualize",
+      "Select universe and define risk limits",
+      "Analyze the results and optimization",
+      "Signal testing and define exits"
+    ],
+    "correct": 2,
+    "hasImage": false
+  }
+]

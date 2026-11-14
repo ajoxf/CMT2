@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the author that articulated the Fractal Market Hypothesis (FMH)?",
+    "options": [
+      "Andrew Lo",
+      "Eugene Fama",
+      "Edgar Peters",
+      "Edson Gould"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "The Fractal Market Hypothesis attributes market stability mainly to which condition?",
+    "options": [
+      "All investors sharing the same information and time horizon",
+      "Participants with many different investment horizons providing liquidity to one another",
+      "Central bank intervention during selloffs",
+      "High-frequency traders arbitraging away all mispricings"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What was Edgar Peters's primary ambition in developing the FMH?",
+    "options": [
+      "To explain why returns are normally distributed",
+      "To explain how investors behave during crises",
+      "To show that all investors share a single time horizon",
+      "To justify passive index investing"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "Under the Fractal Market Hypothesis, what is the main source of periods of market uncertainty?",
+    "options": [
+      "The release of major fundamental news, regardless of who receives it",
+      "Changes in government regulation of trading and disclosure",
+      "Diverse investors acting on different sets of information",
+      "Investors converging on a single shared estimate of value"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "Under the Fractal Market Hypothesis, what is likely when a large share of investors interpret market conditions differently and cannot agree on how to respond?",
+    "options": [
+      "Liquidity improves as more viewpoints trade against each other",
+      "Prices become more stable as disagreements offset",
+      "Prices become less stable and volatility tends to rise",
+      "Volatility falls because buyers and sellers balance out"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "Which EMH assumption does Edgar Peters consider flawed?",
+    "options": [
+      "That prices react instantly to all new public information",
+      "That all investors rely on one common pool of past prices",
+      "That transaction costs are small enough to ignore",
+      "That short selling is available to every investor"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "In the Fractal Market Hypothesis, what does it mean for prices to be 'memory associative'?",
+    "options": [
+      "Prices depend only on the most recent trading session",
+      "Prices depend on recent news and on the asset's full price history",
+      "Prices are unrelated to any past information or price data",
+      "Prices depend only on fundamentals, not on past price behavior"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "Research supporting the FMH has used a statistical method that classifies a market as being in one of two states, such as high-risk or low-risk. What is that method?",
+    "options": [
+      "Moving average convergence divergence (MACD)",
+      "Relative strength index (RSI)",
+      "Markov regime switching model",
+      "Bollinger Bands"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "Why have some technicians treated a utility stock average as an early indicator for the broader equity market?",
+    "options": [
+      "Utilities have the highest earnings growth of any sector",
+      "Utilities are rate-sensitive income investments, so they tend to turn before industrial stocks",
+      "Utilities make up the largest weight in most equity indexes",
+      "Utility stocks have the highest beta in the market"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "In supply-and-demand terms, what does 'investor demand' for a security mean?",
+    "options": [
+      "A broad willingness among holders to sell the security",
+      "Buying interest strong enough to push the price higher",
+      "The total number of shares that changed hands in a session",
+      "The number of shares currently sold short in the security"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "In supply-and-demand terms, what does 'supply' of a security mean?",
+    "options": [
+      "Investors are buying aggressively and lifting offers",
+      "Buyers and sellers are in balance at the current price",
+      "Selling interest strong enough to push the price lower",
+      "The number of shares the company has outstanding"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "Returns within groups of related securities (for example, stocks in the same industry) tend to be correlated. How is this anomaly interpreted in supply-and-demand terms?",
+    "options": [
+      "Each stock is priced independently on its own fundamentals",
+      "Pressure spreads across similar securities, so group trends may persist",
+      "The correlation simply reflects differences in company size",
+      "The correlation confirms that the EMH holds for groups of stocks"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "What does the mean reversion anomaly suggest investors may be able to anticipate?",
+    "options": [
+      "Recent winners tend to keep outperforming",
+      "Recent top-performing portfolios tend to lag later, while recent laggards tend to do better",
+      "Prices return to their 200-day moving average within a month",
+      "All stocks converge to the market's average P/E"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "Viewed through supply and demand, why might last period's best-performing stocks tend to lag and the worst performers rebound?",
+    "options": [
+      "Profit-taking in winners adds supply; bargain hunting adds demand for losers",
+      "Index providers routinely remove recent winners from their benchmarks",
+      "Recent losers tend to report better earnings in the following year",
+      "Rules prevent short sellers from targeting recent top performers"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "What does the 'underreaction to news' anomaly imply about price trends?",
+    "options": [
+      "Prices overshoot on news and then reverse",
+      "Prices adjust fully on the day the news is released",
+      "After positive or negative news, prices may keep trending in the same direction",
+      "Only negative news produces lasting trends"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "A company reports clearly positive news, but its stock drifts higher over several weeks instead of repricing at once. Which supply/demand explanation fits this underreaction?",
+    "options": [
+      "Order flow drives price for a while, as many investors initially discount the news",
+      "All investors process the news instantly and in the same way",
+      "The news was already fully priced in before it was released",
+      "Short sellers keep the price from rising quickly after the news"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "What does the 'size effect' anomaly predict?",
+    "options": [
+      "Large-cap stocks beat small caps on a risk-adjusted basis",
+      "Small caps beat large caps only before adjusting for volatility",
+      "Smaller companies tend to beat larger ones even after allowing for their greater volatility",
+      "Company size has no effect on returns"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "Small stocks have tended to outperform large stocks. Which observation would a technician most likely use as evidence that demand for a small, thinly traded stock is improving?",
+    "options": [
+      "A sustained rise in its trading volume relative to its own average",
+      "A fall in its dividend yield",
+      "A decline in the number of analysts covering it",
+      "An increase in its share count"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "According to the P/E ratio (value investing) anomaly, what tends to predict greater outperformance?",
+    "options": [
+      "Higher P/E ratios",
+      "Lower P/E ratios",
+      "P/E ratios near the market average",
+      "P/E ratios predict volatility but not returns"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "How is the low P/E (value) anomaly explained in supply-and-demand terms?",
+    "options": [
+      "Strong demand for high P/E stocks keeps them persistently underpriced",
+      "Prolonged weak demand, or steady selling, leaves some stocks underpriced",
+      "Heavy buying of low P/E stocks pushes them into overvaluation",
+      "Low P/E companies issue more new shares, raising the supply of stock"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What does the 'January effect' anomaly describe?",
+    "options": [
+      "Large-cap stocks tend to lead in the first weeks of the year",
+      "Small-cap stocks tend to lead in the first weeks of the year",
+      "Stocks tend to decline in January after a year-end rally",
+      "Small-cap stocks tend to lag in the first weeks of the year"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "How is the January effect explained in supply-and-demand terms?",
+    "options": [
+      "Heavy selling of small caps in January creates bargains for buyers",
+      "Strong early-year buying of smaller companies creates opportunities",
+      "Demand for small caps weakens in January as tax selling resumes",
+      "Index rebalancing of large caps in January lifts smaller stocks"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "According to the 'patterns in volatility' anomaly, how does volatility in falling markets compare with volatility in rising markets?",
+    "options": [
+      "Falling markets are less volatile than rising markets",
+      "Both are equally volatile",
+      "Falling markets tend to be more volatile than rising markets",
+      "Volatility depends only on the time of day, not market direction"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "Why might volatility tend to be higher in declining markets than in rising ones, in supply/demand terms?",
+    "options": [
+      "Bursts of excess supply create larger swings, while demand-driven volatility tends to fade faster",
+      "Excess demand in rallies creates more lasting volatility than selling",
+      "Volatility is unrelated to order imbalance",
+      "Lower volume in declines reduces the size of price swings"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "According to the patterns in volatility anomaly, when during the trading day is volatility typically higher?",
+    "options": [
+      "Only around scheduled economic releases",
+      "Around midday when volume is lightest",
+      "During the opening and closing minutes",
+      "Evenly throughout the session"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "Studies supporting the Fractal Market Hypothesis typically look for evidence that:",
+    "options": [
+      "Price behavior differs by horizon and shifts between stable and unstable regimes",
+      "Returns are normally distributed at every investment horizon",
+      "All investors operate on a single common time horizon",
+      "Volatility stays constant across both calm and crisis periods"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "According to the Fractal Market Hypothesis, what tends to happen in a crisis when long-horizon investors stop buying and most participants switch to short horizons?",
+    "options": [
+      "Liquidity dries up and price instability rises",
+      "The market becomes more efficient",
+      "Volatility falls as consensus builds",
+      "Prices stabilize because short-term traders supply liquidity"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "Which body of theory should technical analysts and researchers understand well when trying to build a credible case for a new source of alpha?",
+    "options": [
+      "The EMH alone, since it is the most widely accepted model",
+      "The EMH along with the competing models, such as the AMH and FMH",
+      "Fundamental analysis alone, since it drives long-term value",
+      "Quantitative finance alone, since it supplies the statistical tests"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "When are trend tools such as moving averages, oscillators and price envelopes most likely to produce dependable alpha?",
+    "options": [
+      "Equally in all market conditions",
+      "Only in bull markets",
+      "When documented market anomalies are present",
+      "When the market is fully efficient"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "What is the main difficulty with applying supply and demand concepts in technical analysis?",
+    "options": [
+      "Supply and demand can be observed only in futures markets",
+      "No one has precisely defined how much buying or selling causes a given price effect",
+      "Volume directly measures demand, so there is no real difficulty",
+      "Supply and demand affect only long-term prices"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

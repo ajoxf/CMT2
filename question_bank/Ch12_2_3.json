@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What does an R-Multiple measure of 0.1 indicate about a trading strategy?",
+    "options": [
+      "The strategy is highly profitable per unit of risk",
+      "Too much risk is taken relative to the reward per trade",
+      "Risk management is close to optimal",
+      "The strategy wins on only 10% of trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "From a Dow Theory perspective, why should stops be used in trading?",
+    "options": [
+      "To permit more leverage on each position",
+      "To exit if an apparent secondary correction becomes a primary reversal",
+      "To exit every time a minor trend turns against the trade",
+      "To lock in gains whenever price makes a new high"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "What are the two main types of stops in trading?",
+    "options": [
+      "Entry stops and exit stops",
+      "Fixed stops and trailing stops",
+      "Profit stops and loss stops",
+      "Time stops and price stops"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "What is the primary purpose of fixed stops?",
+    "options": [
+      "To lock in profits as they build up",
+      "Set at entry and left unchanged as a safety net",
+      "To trail price higher as the trade gains",
+      "To determine the position size of the trade"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "Where do traders typically position their price stops?",
+    "options": [
+      "At round-number price levels, where orders cluster",
+      "At prior support or resistance levels",
+      "At the entry price, to remove all risk",
+      "A fixed distance below the day's high"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "How is the level of a fixed percent stop determined?",
+    "options": [
+      "From a set share of the portfolio's total value",
+      "From the maximum loss accepted, e.g. 20% below $100 = $80",
+      "As a percentage of the benchmark's return",
+      "From a multiple of the security's ATR"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of time stops in a trading strategy?",
+    "options": [
+      "To lock in profits after a set gain",
+      "To exit after a set period so capital isn't left idle",
+      "To keep positions open as long as possible",
+      "To avoid losses from overnight price gaps"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "When would a time stop be particularly useful based on signal testing results?",
+    "options": [
+      "When signals perform poorly at first, then recover",
+      "When returns are strong for about 10 days and then flatten",
+      "When market volatility is unusually high",
+      "When the strategy's drawdowns are large"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "What is a key characteristic of trailing stops?",
+    "options": [
+      "They stay fixed at the level set on entry",
+      "They follow price as trades gain, moving only one way",
+      "They are always set 10% below the entry price",
+      "They move up and down together with price"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "How does a trailing percent stop behave when price moves favorably?",
+    "options": [
+      "It stays at the level set when the trade opened",
+      "It resets to the new high less the percentage, never lower",
+      "It moves to break-even and stays there",
+      "It is removed once the trade turns profitable"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "A long position is opened at $60 with a 15% trailing stop. The price rises to a high of $90, then falls to $80. Where is the stop?",
+    "options": [
+      "$51.00",
+      "$68.00",
+      "$76.50",
+      "$80.00"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "Why would a volatility stop be preferable to a fixed percentage stop across different securities?",
+    "options": [
+      "It is simpler to calculate and update than a percentage stop",
+      "One percentage can be too tight for volatile stocks, too loose for quiet ones",
+      "It removes the need for separate position-sizing rules",
+      "It prevents losses from overnight price gaps entirely"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "What is the most common volatility stop calculation?",
+    "options": [
+      "One-ATR",
+      "Two-ATR",
+      "Three-ATR",
+      "Half-ATR"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "How does an equity stop differ from a percent trailing stop?",
+    "options": [
+      "It tracks each position separately, like a percent stop",
+      "It watches total equity and exits everything if a drawdown limit hits",
+      "It applies to long positions only, never to shorts",
+      "It adjusts only when the security's price gaps"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of profit targets in trading?",
+    "options": [
+      "To cut losses at a preset level",
+      "To exit all or part of a trade at a set profit",
+      "To delay exits until a trend confirms",
+      "To add to winning positions at set gains"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "Adding a trailing stop to a long-only stock strategy is most likely to have which effect on annual volatility of strategy returns?",
+    "options": [
+      "Increase it, because more trades are taken",
+      "Reduce it, because large open losses are cut short",
+      "Leave it unchanged",
+      "Increase it, because stopped trades realize losses"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "A no-stop strategy had a 60% maximum drawdown. After adding a 25% trailing stop on every position, which result is most plausible?",
+    "options": [
+      "Maximum drawdown rises above 60% as more trades occur",
+      "Maximum drawdown falls materially, though maybe not to 25%",
+      "Maximum drawdown falls to exactly 25%, the stop level",
+      "Maximum drawdown is unaffected, since stops act per trade"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "After stops are added to a fully invested strategy, the number of trades rises even though the entry rules are unchanged. Why?",
+    "options": [
+      "Stops create new entry signals on their own",
+      "Stopped-out positions free capital for pending signals",
+      "The universe expanded to include more securities",
+      "Stops make the entry rules trigger more often"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "How would adding a 25% stop typically change a strategy's maximum adverse excursion (MAE), previously −80%?",
+    "options": [
+      "MAE becomes more negative as trades are cut",
+      "MAE shrinks to roughly the stop distance, gaps aside",
+      "MAE is unaffected because stops act after exit",
+      "MAE turns positive for every trade"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "After adding stops, a strategy's win rate drops from 53% to 47%, while average win is $24,000 and average loss $10,000. Is the change acceptable?",
+    "options": [
+      "No, win rate must stay above 50%",
+      "Yes, expectancy remains clearly positive",
+      "No, expectancy turns negative",
+      "Only if the average loss also falls"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "In quantitative analysis, what is meant by data mining?",
+    "options": [
+      "Using software to analyze very large market data sets",
+      "Searching data exhaustively for patterns that may be mere coincidence",
+      "Collecting tick and price data directly from exchanges",
+      "Storing clean historical price data for later testing"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "What is the main danger of extensive data mining when building a strategy?",
+    "options": [
+      "Higher software and data costs",
+      "Spurious patterns that fail in live trading",
+      "Too few parameters to capture the edge",
+      "Look-ahead bias in the price data"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "An analyst tests 5,000 parameter combinations and selects the best. Why should the result be treated with suspicion?",
+    "options": [
+      "The wider the search, the likelier the winner reflects chance",
+      "More tests give more reliable best results",
+      "Large searches eliminate the risk of overfitting",
+      "The best result tends to persist in live trading"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "An optimization varies an RSI look-back from 8 to 20 in steps of 2. How many test runs are required?",
+    "options": [
+      "6",
+      "7",
+      "10",
+      "13"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "If each parameter in an optimization has 10 steps and you're optimizing 3 parameters, how many total tests are required?",
+    "options": [
+      "30 tests",
+      "100 tests",
+      "1,000 tests",
+      "10,000 tests"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "An optimization has three parameters with 8 values each, and one backtest takes 2 minutes. About how long will a full grid search take?",
+    "options": [
+      "48 minutes",
+      "About 8.5 hours",
+      "About 17 hours",
+      "About 7 days"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "What is overfitting in quantitative strategy development?",
+    "options": [
+      "Holding too many securities in the portfolio",
+      "Tuning parameters too closely to past data",
+      "Using too many filter rules on entries",
+      "Applying excessive leverage to positions"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "Strategy A uses one loose trend rule; Strategy B uses 12 finely tuned parameters that match every past turn; Strategy C uses a few parameters capturing the main trend changes. Which is the best balance between under- and over-fitting?",
+    "options": [
+      "Strategy A",
+      "Strategy B",
+      "Strategy C",
+      "Strategies B and C are equally good"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "What is 'robustness' in the context of optimization?",
+    "options": [
+      "High returns at the single optimal value",
+      "Similar results for neighbouring parameter values",
+      "Profits in every year of the test",
+      "Identical results on every time frame"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "Which optimization result would point to a lack of robustness?",
+    "options": [
+      "All tested parameter values produce broadly similar results",
+      "One look-back far outperforms neighbours like 9 and 11, hinting at luck",
+      "Returns are steady across the years in the test",
+      "Several parameter sets work about equally well"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 31,
+    "question": "Where is optimization generally considered more useful than on entry-signal parameters?",
+    "options": [
+      "Moving-average and oscillator look-back lengths",
+      "Portfolio inputs such as position size and stop levels",
+      "The choice of benchmark for comparing results",
+      "Threshold values used in entry filter rules"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "A strategy has a weak average R-multiple and a long-holding ATR exit. Which change set is most consistent with improving risk control while keeping capital working?",
+    "options": [
+      "Remove all stops and add leverage to lift average returns",
+      "Swap the slow exit for a percent trailing stop and resize positions",
+      "Add more entry indicators and tighter filters",
+      "Lengthen the ATR exit to hold winners longer"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "Strategy V1 total return is 400% with 18% volatility; V2 is 520% with 21% volatility over the same 20 years. Which statement is correct?",
+    "options": [
+      "V2 is better on every measure, since it returned more",
+      "V2 earned more at higher volatility; compare risk-adjusted measures",
+      "V1 earned the higher total return",
+      "V1 is better on every measure, since it was less volatile"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "A strategy's average R-multiple rises from 0.1R to 0.7R after protective stops are introduced. What is the best interpretation?",
+    "options": [
+      "The >1R target has now been reached",
+      "Reward per unit of risk improved, still below 1R",
+      "The strategy is now taking more risk per trade",
+      "Stops lowered the average R-multiple"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "Which average R-multiple threshold implies that average profit exceeds the average amount risked?",
+    "options": [
+      "Above 0R",
+      "Above 0.5R",
+      "Above 1R",
+      "Above 3R"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "Gross profit $6.0M and gross loss $1.5M. What is the profit factor?",
+    "options": [
+      "1.5",
+      "3.0",
+      "4.0",
+      "4.5"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "After a change, gross profit falls from $10M to $9M but gross loss falls from $5M to $2M. What happens to net profit?",
+    "options": [
+      "Falls from $5M to $4M",
+      "Rises from $5M to $7M",
+      "Unchanged at $5M",
+      "Falls to $2M"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "Removing a fast exit and relying on a wide trailing stop usually affects the trade count how?",
+    "options": [
+      "Trades rise because positions are held longer and gain more",
+      "Trades fall as positions are held longer and capital turns over less",
+      "Trade count is unaffected because entries are unchanged",
+      "Trades rise because stops trigger more often"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "An updated strategy has strong per-trade statistics but only about 14 trades a year across a large universe. What is the key remaining issue?",
+    "options": [
+      "Too many losing trades relative to winners",
+      "Too few opportunities to keep a portfolio fully used",
+      "Volatility too high for the target drawdown",
+      "A profit factor that has fallen below 1"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "Win rate 45%, average win $70,000, average loss $15,000. What is the expectancy per trade?",
+    "options": [
+      "$23,250",
+      "$31,500",
+      "$55,000",
+      "$8,250"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "With a 25% trailing stop on each position and no price gaps, roughly what is the worst percentage loss expected on any single trade?",
+    "options": [
+      "About 5%",
+      "About 25%",
+      "About 50%",
+      "Unlimited"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "An equity chart shows the cash balance staying low even though the strategy now takes fewer trades. What does this suggest?",
+    "options": [
+      "Capital is sitting idle in cash",
+      "Capital is used more fully despite fewer trades",
+      "The strategy has stopped trading",
+      "Stops are no longer being triggered at all"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "If a trailing stop is sometimes called a 'ratchet stop', what does this metaphor emphasize?",
+    "options": [
+      "It can move both up and down",
+      "It moves only one way (up for longs)",
+      "It adjusts to volatility changes",
+      "It resets at each day's close"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "What is the relationship between the number of optimization dimensions and computational requirements?",
+    "options": [
+      "Linear: each dimension adds a fixed number of tests",
+      "Inverse: more dimensions need fewer tests",
+      "Exponential: tests multiply with each added dimension",
+      "None: run counts do not depend on dimensions"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "When is it rare for optimization results to be repeated in live trading?",
+    "options": [
+      "When the strategy is robust",
+      "When the strategy is overfitted",
+      "When position sizing is used",
+      "When stops are used"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "What is the key issue with selecting the parameter set that yielded the best historical return?",
+    "options": [
+      "It takes far too long to compute",
+      "The parameters are fit to the test data",
+      "It always reduces trade frequency",
+      "It relies on too few trades"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "Every position in a portfolio carries a 25% trailing stop, yet the backtest shows a 38% portfolio drawdown. Which explanation is valid?",
+    "options": [
+      "The stops cannot have been active during the backtest",
+      "Gaps through stops and losses on reinvested capital compound",
+      "Trailing stops widen automatically as prices rise",
+      "Portfolio drawdown is measured on gross profit only"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "A no-stop strategy reports an 'excellent' SQN mainly because it has thousands of trades with very similar small R-multiples. After stops and sizing changes, SQN falls to a 'good' level. How should this be read?",
+    "options": [
+      "The strategy has definitely got worse and needs rework",
+      "The lower SQN is likely more realistic; don't rely on one measure",
+      "SQN cannot change when stops and sizing are added",
+      "The strategy should now be abandoned"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "What is the goal when searching for optimal parameters in strategy development?",
+    "options": [
+      "The best historical return",
+      "Good results across periods and universes",
+      "The fewest trades possible",
+      "The largest number of signals generated"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "A stock trades at $80 and its ATR is $2.50. Where is a two-ATR volatility stop for a new long position?",
+    "options": [
+      "$77.50",
+      "$75.00",
+      "$72.50",
+      "$78.00"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

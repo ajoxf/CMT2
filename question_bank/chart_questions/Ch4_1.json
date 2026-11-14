@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "question": "The chart shows a completed head-and-shoulders top that has just broken its neckline. Using the classical measuring technique (pattern height projected from the neckline), what is the minimum downside price objective?",
+    "options": [
+      "$20",
+      "$28",
+      "$35",
+      "$40"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch4_1_hs_top.png",
+    "concept": "H&S top measured move"
+  },
+  {
+    "id": 102,
+    "question": "The chart shows a rectangle that has just been resolved by a close above resistance. Using the point (dollar) height of the range, what is the minimum upside price objective?",
+    "options": [
+      "$49",
+      "$50",
+      "$52",
+      "$58"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch4_1_rectangle.png",
+    "concept": "Rectangle measured move"
+  }
+]

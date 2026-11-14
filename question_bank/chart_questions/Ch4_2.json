@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "question": "Which two-candle pattern is shown in the highlighted box at the end of this decline?",
+    "options": [
+      "Bullish engulfing",
+      "Bearish harami",
+      "Dark cloud cover",
+      "Tweezer top"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch4_2_engulfing.png",
+    "concept": "Bullish engulfing recognition"
+  },
+  {
+    "id": 102,
+    "question": "The highlighted candle has a small real body near the top of its range and a lower shadow more than twice the body length. Given the trend in which it appears, how should it be classified, and what does it require before acting on it?",
+    "options": [
+      "A hammer; it is bullish and needs no confirmation",
+      "A hanging man; it is a potential top warning that needs bearish confirmation on the next session",
+      "A shooting star; it confirms the uptrend will continue",
+      "An inverted hammer; it signals an immediate downside breakaway gap"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch4_2_hanging_man.png",
+    "concept": "Hammer vs hanging man context"
+  }
+]

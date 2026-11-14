@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "question": "Using the index level and VIX shown, and the square-root-of-time rule (12 months per year), what is the approximate one-standard-deviation expected move over the next month?",
+    "options": [
+      "\u00b1120 points",
+      "\u00b1249 points",
+      "\u00b1499 points",
+      "\u00b1864 points"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch6_1_vix_cone.png",
+    "concept": "VIX to 1-month expected range"
+  },
+  {
+    "id": 102,
+    "question": "Under the normal-distribution assumption, roughly what share of the time should the index finish the month inside the one-standard-deviation band shown, and what is the main caveat?",
+    "options": [
+      "About 68%; real returns have fatter tails, so large moves occur more often than predicted",
+      "About 95%; the band is a two-standard-deviation band",
+      "About 50%, because VIX measures the median expected move",
+      "About 68%, and because VIX is a forward-looking estimate the normal model tends to overstate large moves"
+    ],
+    "correct": 0,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch6_1_vix_cone.png",
+    "concept": "1-sigma probability and fat tails"
+  }
+]

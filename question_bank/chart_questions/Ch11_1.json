@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "The cycle's peak occurs well after the midpoint between its two troughs. What is this called, and what does it usually say about the underlying longer-term trend?",
+    "options": [
+      "Left translation; the longer trend is bearish",
+      "Right translation; the longer trend is bullish",
+      "Right translation; the longer trend is bearish",
+      "Left translation; the longer trend is bullish"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch11_1_right_translation.png",
+    "concept": "Cycle translation"
+  }
+]

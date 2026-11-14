@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "What is the maximum drawdown shown on this equity curve, measured from peak?",
+    "options": [
+      "20%",
+      "30%",
+      "44%",
+      "46%"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch12_2_drawdown.png",
+    "concept": "Maximum drawdown"
+  }
+]

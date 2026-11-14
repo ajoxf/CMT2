@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "In the point-and-figure chart, column C5 rises to 28. Columns C1 and C3 both topped at 25. Which signal did C5 generate when it printed an X at 26?",
+    "options": [
+      "A double-bottom sell signal",
+      "A triple-top buy signal, since it exceeded two prior X-column highs at the same level",
+      "A bearish catapult",
+      "No signal, because a 3-box reversal has not occurred"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch4_4_pf_triple_top.png",
+    "concept": "P&F triple-top breakout"
+  }
+]

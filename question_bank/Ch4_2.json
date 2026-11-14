@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "In a hammer candlestick pattern, what is the minimum ratio of the lower shadow to the real body?",
+    "options": [
+      "At least 1:1",
+      "At least 2:1",
+      "At least 3:1",
+      "At least 1.5:1"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "What is the primary psychological difference between a hammer and a hanging man candlestick?",
+    "options": [
+      "The length of their shadows",
+      "The color of their real bodies",
+      "Their position within the trend context",
+      "The volume accompanying the pattern"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "When a shooting star pattern forms with low volume, what does this most likely indicate?",
+    "options": [
+      "The reversal signal is stronger than usual",
+      "Selling pressure may be too weak for a lasting reversal",
+      "Buyers have clearly lost control of the trend",
+      "The pattern is more reliable than on high volume"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "What distinguishes a spinning top from a standard doji?",
+    "options": [
+      "A spinning top has no real body, while a doji has a small one",
+      "A spinning top has a small body; a doji opens and closes at about the same price",
+      "A spinning top has long shadows, while a doji has none",
+      "A spinning top appears only in downtrends, a doji in uptrends"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "Why do multiple dojis appearing consecutively lose their significance?",
+    "options": [
+      "They indicate that trading volume is excessive",
+      "They show ongoing indecision rather than a decisive turn",
+      "They signal that the trend will continue strongly",
+      "They show that sellers have taken firm control"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "In a dragonfly doji, where are the opening, closing, and high prices located?",
+    "options": [
+      "All at different levels",
+      "Opening and closing at the low, high at the top",
+      "Nearly identical and near the high of the session",
+      "Opening at the high, closing at the low"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "Which feature sets a gravestone doji apart from other doji types?",
+    "options": [
+      "Its upper and lower shadows are of equal length",
+      "A tall upper shadow with the open and close at or very near the session low",
+      "A tall lower shadow with no upper shadow",
+      "It has no shadows at all"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "In a bullish engulfing pattern, how should the second candle relate to the first candle?",
+    "options": [
+      "It should be smaller than the first candle",
+      "It should open higher and close at the same level",
+      "It should completely engulf the real body of the first bearish candle",
+      "It should only touch the first candle's high"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "What does high volume during the formation of a bearish engulfing pattern indicate?",
+    "options": [
+      "Weak selling pressure and likely continuation of uptrend",
+      "Strong selling pressure and increased reliability of bearish reversal",
+      "Indecision in the market",
+      "The pattern is invalid"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "How does a bullish harami differ structurally from a bullish engulfing pattern?",
+    "options": [
+      "A harami's second body sits inside the first; an engulfing's wraps around it",
+      "They are identical patterns known by different names",
+      "A harami needs three candles, while an engulfing pattern needs two",
+      "A harami's second candle must gap beyond the first candle's range"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "In a piercing line pattern, where must the second (bullish) candle close relative to the first (bearish) candle?",
+    "options": [
+      "Below the halfway point of the first candle's body",
+      "Above the halfway point of the first body, but below its open",
+      "Above the open of the first candle's body",
+      "At or near the low of the first candle"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "What is the Japanese meaning of 'harami' and why is it relevant to the pattern's appearance?",
+    "options": [
+      "'Strong', because the pattern signals powerful reversals",
+      "'Pregnant', because the second body is held inside the first",
+      "'Shadow', because the pattern has long shadows",
+      "'Balance', because it shows buyers and sellers in equilibrium"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "In a dark cloud cover pattern, how should the second (bearish) candle open and close?",
+    "options": [
+      "Open below the first candle's low and close near that level",
+      "Open above the first candle's high and close below the midpoint of its body",
+      "Open and close entirely within the first candle's range",
+      "Open near the first body's midpoint and close at the session high"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "What is the primary significance of the second small-bodied candle in a morning star pattern?",
+    "options": [
+      "It confirms that the reversal is already complete",
+      "It shows indecision and a pause in the downtrend",
+      "It shows strong buying pressure taking over",
+      "It invalidates the pattern unless it is a doji"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "In an evening star pattern, what must the third candle do to confirm the bearish reversal?",
+    "options": [
+      "Close above the first candle's high",
+      "Close near the second candle's level",
+      "Close beneath the halfway mark of the first candle's body",
+      "Close above the halfway mark of the first candle's body"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "What is the key structural characteristic of the three white soldiers pattern?",
+    "options": [
+      "Three bearish candles of decreasing size",
+      "Three long bullish candles, each opening within the prior body and closing near its high",
+      "Three bullish candles, each gapping above the prior candle's high",
+      "Three candles with long shadows and small bodies"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "When does a three white soldiers pattern become potentially unreliable?",
+    "options": [
+      "When it appears after a prolonged downtrend",
+      "When it occurs after a strong bullish move, suggesting overextension",
+      "When accompanied by high volume",
+      "When each candle closes near its high"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "In the three black crows pattern, where should each successive candle open and close?",
+    "options": [
+      "Each opens above the prior close and closes lower",
+      "Each opens within the prior candle's body and closes at or near its low",
+      "Each opens at the low and closes at the high",
+      "Each opens and closes at the same level"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "What differentiates a long-legged doji from a standard doji?",
+    "options": [
+      "A long-legged doji has no shadows at all",
+      "A long-legged doji has much longer upper and lower shadows",
+      "A long-legged doji appears only in uptrends",
+      "A long-legged doji has a large real body"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "What is the main message of a continuation pattern such as rising three methods?",
+    "options": [
+      "An immediate trend reversal is underway",
+      "The prevailing trend is likely to resume after a pause",
+      "The market has become indecisive with no bias",
+      "The trend has ended and a range will follow"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "In a rising three methods pattern, where should the three small bearish candles trade?",
+    "options": [
+      "Above the high of the first bullish candle",
+      "Inside the high-low span of the first long bullish candle",
+      "Below the low of the first bullish candle",
+      "Above the close of the first bullish candle"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "What does the final candle in a falling three methods pattern need to confirm?",
+    "options": [
+      "It must close above the first candle's high",
+      "It must be a doji",
+      "It must break below the low of the first bearish candle",
+      "It must be smaller than the first candle"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "Why is volume particularly important when validating engulfing patterns?",
+    "options": [
+      "Low volume makes the pattern more reliable",
+      "High volume signals exhaustion and weakens the pattern",
+      "High volume shows strong participation, making the reversal more reliable",
+      "Volume matters only for continuation patterns"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "If a hammer pattern forms on low volume at the bottom of a downtrend, what is the most likely outcome?",
+    "options": [
+      "A strong and reliable bullish reversal",
+      "The reversal may not be sustainable due to weak buying pressure",
+      "An immediate trend continuation downward",
+      "The pattern becomes a hanging man"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "What psychological shift does a gravestone doji at the top of an uptrend represent?",
+    "options": [
+      "Buyers remain firmly in control of the trend",
+      "Pure indecision with no directional implication",
+      "Buyers pushed higher but sellers took over, hinting at exhaustion",
+      "Bullish momentum is likely to continue"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "In practical trading, why should a trader wait for confirmation after identifying a doji pattern?",
+    "options": [
+      "A doji always signals an immediate reversal",
+      "A doji alone shows indecision; later candles confirm direction",
+      "Confirmation is needed only for engulfing patterns",
+      "A doji at a new high is reliable without confirmation"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "How are harami and engulfing patterns related?",
+    "options": [
+      "They are identical patterns",
+      "They are structural opposites: an engulfing's second body wraps the first, a harami's sits inside it",
+      "Harami patterns work only in uptrends and engulfing patterns only in downtrends",
+      "A harami is the three-candle version of an engulfing pattern"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "When analyzing a piercing line pattern with low volume, what should a trader conclude?",
+    "options": [
+      "The bullish reversal is highly reliable",
+      "Low volume shows sellers are exhausted, strengthening the pattern",
+      "The reversal may be weak, since thin buying participation raises the risk of a false signal",
+      "Volume has no bearing on this pattern"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "What makes the morning star a more reliable reversal signal than a single hammer?",
+    "options": [
+      "It forms faster and gives an earlier signal",
+      "Its three candles show the shift from selling to indecision to buying",
+      "It requires no confirmation from later candles",
+      "It can form only at major support levels"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "In a three black crows pattern, what does each candle closing at or near its low (little or no lower shadow) indicate?",
+    "options": [
+      "Buyers are regaining control by each close",
+      "Sellers hold control into each close, with little buying support",
+      "The market is consolidating within a range",
+      "The pattern is invalid unless the candles gap"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]

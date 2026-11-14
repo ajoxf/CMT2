@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "question": "What event occurs at point X on the MACD panel?",
+    "options": [
+      "MACD crosses below its signal line above zero, a bearish signal",
+      "MACD crosses above its signal line while still below zero, an early bullish signal",
+      "MACD crosses above the zero line",
+      "The histogram makes a bearish divergence"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch9_2_2_macd_cross.png",
+    "concept": "MACD signal-line crossover"
+  },
+  {
+    "id": 102,
+    "question": "What does the stochastic oscillator show at point Y?",
+    "options": [
+      "%K crosses below %D in overbought territory",
+      "%K crosses above %D in or near oversold territory, a potential buy setup best taken in the direction of the larger trend",
+      "%D crosses above 80, confirming a new uptrend",
+      "A failure swing that signals a top"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch9_3_6_stoch_cross.png",
+    "concept": "Stochastic crossover in oversold zone"
+  }
+]

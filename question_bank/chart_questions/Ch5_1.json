@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "question": "Each successive rally in this chart reaches a higher price high, but volume is lighter on each rally. What is the most appropriate interpretation?",
+    "options": [
+      "The advance is confirmed and buying pressure is increasing",
+      "Demand is weakening beneath the uptrend, a warning that the trend may be nearing exhaustion",
+      "Lighter volume shows sellers are absent, which confirms the advance",
+      "It signals an immediate reversal, so the position should be reversed short now"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch5_1_volume_divergence.png",
+    "concept": "Volume non-confirmation"
+  }
+]

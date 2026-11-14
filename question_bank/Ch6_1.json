@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "The VIX index measures the implied volatility of the S&P 500 over what time period?",
+    "options": [
+      "7 days",
+      "30 days",
+      "90 days",
+      "252 days"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "What does the VIX index represent in terms of market sentiment?",
+    "options": [
+      "Market confidence and complacency",
+      "Market fear and uncertainty",
+      "Market greed and speculation",
+      "Market momentum and strength"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "A VIX reading of 12 would typically indicate:",
+    "options": [
+      "Extreme market fear",
+      "High volatility expected",
+      "Market complacency and low expected volatility",
+      "Elevated demand for downside protection"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "A VIX reading above 30 typically suggests:",
+    "options": [
+      "Market stability",
+      "Low volatility environment",
+      "High fear and uncertainty in the market",
+      "Strong bullish sentiment and complacency"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "Index ABC's implied-volatility index jumps from 18 to 75 during a market crash. What does this imply about option prices on the index?",
+    "options": [
+      "Option premiums fell as hedgers sold their protection",
+      "Option premiums rose sharply as expected volatility surged",
+      "Option prices were largely unaffected by the change",
+      "Only call premiums rose, while puts became cheaper"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "An implied-volatility index (annualized, 30-day) reads 24. Using the square-root-of-time rule with 12 months per year, what is the approximate one-standard-deviation move expected over the next month?",
+    "options": [
+      "2.00%",
+      "6.93%",
+      "1.51%",
+      "3.33%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "The relationship between VIX and S&P 500 is typically:",
+    "options": [
+      "Positively correlated",
+      "Inversely correlated",
+      "No correlation",
+      "Positively correlated in rallies and negatively in declines"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "When the VIX is at extreme lows, it often suggests:",
+    "options": [
+      "A buying opportunity, since fear is absent",
+      "Market complacency and potential for a volatility spike",
+      "Continued low volatility for the foreseeable future",
+      "A strong, healthy trend that is likely to accelerate"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "What does a spike in VIX typically coincide with in equity markets?",
+    "options": [
+      "Market rallies",
+      "Market sell-offs or declines",
+      "Sideways consolidation",
+      "Periods of unusually low realized volatility"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "With a VIX reading of 16 and 52 weeks in a year, what is the approximate one-standard-deviation price move expected over the next week?",
+    "options": [
+      "0.31%",
+      "4.62%",
+      "2.22%",
+      "1.01%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "A volatility index reads 30. Treating a quarter as one-fourth of a year, what is the approximate one-standard-deviation move implied for the next quarter?",
+    "options": [
+      "15.0%",
+      "7.5%",
+      "8.7%",
+      "1.9%"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "What does mean reversion in VIX suggest?",
+    "options": [
+      "VIX will stay elevated indefinitely",
+      "VIX tends to return to average levels after extreme readings",
+      "VIX tends to keep trending in the direction of its last move",
+      "VIX drifts steadily higher over time"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "Hypothetical Index Q closes at 3,000 and its 30-day implied-volatility index reads 18. What is the approximate one-standard-deviation price range expected over the next month?",
+    "options": [
+      "2,460 to 3,540",
+      "2,955 to 3,045",
+      "2,966 to 3,034",
+      "2,844 to 3,156"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "The VIX is calculated using:",
+    "options": [
+      "Historical price movements of the index",
+      "Implied volatility from S&P 500 index options",
+      "Trading volume in the index constituents",
+      "VIX futures prices"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "The S&P 500 options used to compute VIX reflect expected volatility over what period?",
+    "options": [
+      "The past 30 days",
+      "The next 30 days",
+      "The next 90 days",
+      "The next 12 months"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "An index stands at 6,000 and the VIX is 15. Assuming 252 trading days per year, roughly how many index points is the expected one-standard-deviation move for the next trading day?",
+    "options": [
+      "About 57 points",
+      "About 4 points",
+      "About 260 points",
+      "About 125 points"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "A contrarian trader might view a VIX above 40 as:",
+    "options": [
+      "Confirmation of a new bear market; sell into strength",
+      "Extreme fear and potential buying opportunity",
+      "A reason to wait for VIX to rise further before acting",
+      "A neutral reading with little sentiment value"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "The VIX is 20. A trader wants the percentage move that should contain the index over the next month with roughly 95% probability (two standard deviations). Which is closest?",
+    "options": [
+      "About ±5.8%",
+      "About ±11.5%",
+      "About ±3.3%",
+      "About ±40%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "A trader computes a one-standard-deviation, 30-day expected range for an index from the VIX. Assuming normally distributed returns, what is the approximate probability that the index finishes the month OUTSIDE that range (on either side)?",
+    "options": [
+      "68%",
+      "16%",
+      "32%",
+      "5%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "Can the VIX predict the exact direction of future S&P 500 moves?",
+    "options": [
+      "Yes; a rising VIX forecasts a decline equal in size to the VIX",
+      "Yes, but only over the next trading day",
+      "No, it measures expected volatility, not direction",
+      "Yes, because VIX is computed only from put options"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "What is 'VIX term structure'?",
+    "options": [
+      "The shape of the spot VIX chart over time",
+      "How VIX futures prices vary across expirations",
+      "The formula used to calculate spot VIX",
+      "The long-run historical average of VIX"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "When VIX futures are in 'contango', it means:",
+    "options": [
+      "Near-term futures are more expensive than longer-term futures",
+      "Longer-term futures are more expensive than near-term futures",
+      "All futures have the same price",
+      "VIX is at all-time highs"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "When VIX futures are in 'backwardation', it suggests:",
+    "options": [
+      "Market calm and normal conditions",
+      "Near-term volatility expectations are higher than longer-term",
+      "Long-dated volatility expectations exceed near-term expectations",
+      "A bullish market trend"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "Why might a one-standard-deviation range derived from the VIX understate the risk of a large price move?",
+    "options": [
+      "The VIX is computed from historical rather than option-implied volatility",
+      "The square-root-of-time rule overstates volatility for short horizons",
+      "Real returns have fatter tails and negative skew, so extreme moves happen more often than predicted",
+      "The range calculation ignores the current level of the index"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "Options on an index priced at 4,500 imply a one-standard-deviation move of about 90 points over the next week. Using 52 weeks per year, what annualized implied volatility does this correspond to?",
+    "options": [
+      "About 6.9%",
+      "About 104%",
+      "About 31.7%",
+      "About 14.4%"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "If the S&P 500 is making new highs but VIX is rising, this could indicate:",
+    "options": [
+      "Strong bullish confirmation",
+      "Potential underlying weakness or concern despite rising prices",
+      "Confirmation that hedging demand is falling",
+      "A typical pattern with no informational value"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "VIX has spiked to an extreme reading far above its long-run average. A trader who expects mean reversion would most logically:",
+    "options": [
+      "Buy VIX call options to ride the spike",
+      "Sell volatility (e.g., short VIX futures) or buy equities",
+      "Buy long-dated index straddles to add vega",
+      "Exit all positions and wait in cash"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "VIX Exchange-Traded Products (ETPs) like VXX track:",
+    "options": [
+      "The spot VIX index directly",
+      "VIX futures contracts, not spot VIX",
+      "S&P 500 returns",
+      "Treasury bond yields"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "What is a key risk when holding long VIX ETPs like VXX?",
+    "options": [
+      "Credit risk from the index's constituent companies",
+      "Contango decay causing losses over time even if VIX stays flat",
+      "Losses whenever spot VIX rises",
+      "Tracking error versus the S&P 500 index"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "An index trades at 2,500 with the VIX at 22. A covered-call writer wants to sell 30-day calls struck near the upper one-standard-deviation level implied by the VIX. Which level is closest to that target?",
+    "options": [
+      "About 2,659",
+      "About 2,546",
+      "About 3,050",
+      "About 2,535"
+    ],
+    "correct": 0,
+    "hasImage": false
+  }
+]

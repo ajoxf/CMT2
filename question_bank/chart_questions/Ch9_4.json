@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "question": "What does the narrowing of the bands in shaded region Z represent, and what does it imply?",
+    "options": [
+      "A trend that has ended; prices will stay range-bound",
+      "A volatility contraction (squeeze) that often precedes an expansion in volatility; the direction of the breakout must come from other evidence",
+      "A signal that the prior trend will resume in the same direction",
+      "A bullish signal, because narrow bands mean the stock is consolidating above its average"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch9_4_squeeze.png",
+    "concept": "Bollinger squeeze"
+  },
+  {
+    "id": 102,
+    "question": "Using the values printed on the chart, what is %b for the last bar?",
+    "options": [
+      "0.31",
+      "0.34",
+      "0.69",
+      "1.29"
+    ],
+    "correct": 2,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch9_4_percent_b.png",
+    "concept": "%b calculation"
+  }
+]

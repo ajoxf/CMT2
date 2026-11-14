@@ -1,0 +1,44 @@
+[
+  {
+    "id": 101,
+    "question": "The stock's price has risen over the period, but its relative strength line has fallen. What is the correct conclusion?",
+    "options": [
+      "The stock has outperformed the benchmark",
+      "The stock has risen in absolute terms but underperformed the benchmark, which rose faster",
+      "The benchmark has fallen while the stock has risen",
+      "The stock has outperformed, because its price trend is up"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch10_1_rs_line.png",
+    "concept": "Absolute vs relative performance"
+  },
+  {
+    "id": 102,
+    "question": "Which sector is currently in the IMPROVING quadrant (relative trend still below the benchmark, but relative momentum above 100)?",
+    "options": [
+      "Sector A",
+      "Sector B",
+      "Sector C",
+      "Sector D"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch10_1_2_rrg.png",
+    "concept": "RRG quadrant reading"
+  },
+  {
+    "id": 103,
+    "question": "Sector A has just crossed into the WEAKENING quadrant. What does that tell you?",
+    "options": [
+      "Its relative trend is now below the benchmark",
+      "It is still outperforming on relative trend, but its relative momentum has dropped below 100, so outperformance is losing steam",
+      "It has started a new period of leadership",
+      "It has moved from LAGGING and is starting to outperform"
+    ],
+    "correct": 1,
+    "hasImage": true,
+    "image": "question_bank/chart_questions/img/ch10_1_2_rrg.png",
+    "concept": "Leading to weakening rotation"
+  }
+]

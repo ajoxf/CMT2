@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "question": "According to the Presidential cycle pattern, during which years does the stock market tend to show the STRONGEST performance?",
+    "options": [
+      "First year and mid-term election year",
+      "Pre-election year and election year",
+      "Mid-term election year and pre-election year",
+      "Election year and first year of new term"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "The so-called four-year cycle in stocks is, in practice, closer to which periodicity?",
+    "options": [
+      "A 200-week cycle",
+      "A 3.5-year or 180-week cycle",
+      "A 4.5-year or 240-week cycle",
+      "A 3-year or 156-week cycle"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "A market exhibits a 180-week cycle, with a confirmed cycle peak at week 0. Approximately when would the next two cycle peaks be expected?",
+    "options": [
+      "Weeks 90 and 180",
+      "Weeks 180 and 360 (about 3.5 and 7 years out)",
+      "Weeks 240 and 480",
+      "Weeks 52 and 104"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "Stock index XYZ falls 30% over 30 calendar days and then reverses sharply. In Gann-style price-time analysis, what relationship does this decline illustrate?",
+    "options": [
+      "A 2x1 relationship (two units of price per unit of time)",
+      "A 1x1 relationship (price and time units in balance, i.e. squaring of price and time)",
+      "A 1x2 relationship",
+      "No relationship; Gann ignores time"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "W.D. Gann's 'Gann Fans' are designed to measure which of the following relationships?",
+    "options": [
+      "Only one unit of price per unit of time",
+      "One, two, three, and four units of price per unit of time and vice versa",
+      "Exclusively Fibonacci ratios of price to time",
+      "Only inverse relationships of time to price"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "An index is falling toward a 61.8% Fibonacci retracement target, but a 1x1 price-time square is completed about 4% above that level and price reverses. What lesson does this illustrate?",
+    "options": [
+      "Fibonacci levels are always reached before a reversal",
+      "A price-time confluence can mark a low before a pure price retracement target is touched",
+      "Reversals only occur exactly at Fibonacci levels",
+      "Time is irrelevant when a Fibonacci target is in play"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "A stock falls for 8 trading days, bounces, then resumes its decline. Using the time-doubling idea sometimes applied in price-time analysis, roughly how long might the second leg last?",
+    "options": [
+      "About 4 days",
+      "About 8 days",
+      "About 16 days",
+      "About 32 days"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "In Gann-influenced analysis, why might a sharp decline terminate even after breaking a well-watched prior low?",
+    "options": [
+      "Because prior lows always hold",
+      "Because a confluence of price and time (e.g., percentage decline equal to number of days) can mark exhaustion independently of chart support",
+      "Because moving averages always stop declines",
+      "Because fundamentals turn positive at that moment"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "What is the main caution when extrapolating a fixed-period cycle (e.g., 180 weeks) into the future?",
+    "options": [
+      "Cycle periods and amplitudes vary, so projected turns are windows to be confirmed by price action",
+      "Cycle projections are exact to the day",
+      "Projections are only valid for currencies",
+      "Cycles cannot be projected at all"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "Cycle analysts often invoke the idea that what has happened before must happen again at regular periods. What belief does this express?",
+    "options": [
+      "That cycles are random and cannot be anticipated",
+      "That natural periodicities have no bearing on human affairs",
+      "That events tend to recur at regular intervals, so nature's periodicity can extend to human and market affairs",
+      "That cycles apply only to astronomical events, not markets"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "Cycles are best defined as:",
+    "options": [
+      "Random fluctuations in market prices",
+      "Rhythms that repeat with predictable regularity",
+      "Unpredictable patterns influenced solely by news events",
+      "Linear progressions without repetition"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "Which group is made up of figures best known for pioneering work on market and economic cycles?",
+    "options": [
+      "Benjamin Graham, Warren Buffett, and Peter Lynch",
+      "Clement Juglar, Edward Dewey, J.M. Hurst, and W.D. Gann",
+      "Charles Dow, Ralph Nelson Elliott, and Richard Wyckoff",
+      "John Murphy, Martin Pring, and Steve Nison"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "Evidence of reliable cycles in stock prices challenges which hypothesis?",
+    "options": [
+      "The efficient market hypothesis for all timeframes",
+      "The random-walk hypothesis for short- and long-term stock price movements",
+      "The dividend discount model",
+      "The capital asset pricing model"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "Why are economic explanations such as rising GDP and low unemployment considered weak explanations for cyclical market advances?",
+    "options": [
+      "Economic data is always inaccurate",
+      "These factors do not reliably line up with cyclical peaks and troughs in markets",
+      "GDP and unemployment are not measured correctly",
+      "Cycles depend only on astrological factors"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "Edward Dewey's approach to cycle analysis emphasized which of the following?",
+    "options": [
+      "Ignoring historical data in favor of current sentiment",
+      "A systematic approach to analyzing historical data to identify repeating patterns",
+      "Exclusive focus on short-term trading patterns",
+      "Random selection of entry and exit points"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "J.M. Hurst's view that cycles are nested within one another implies that:",
+    "options": [
+      "Only long-term cycles are relevant",
+      "Shorter cycles sit inside longer cycles, so similar structures appear across time frames",
+      "Cycles never repeat at different timeframes",
+      "Short cycles are unrelated to long cycles"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "What does a Hurst exponent (developed by hydrologist H.E. Hurst) greater than 0.5 indicate about a time series?",
+    "options": [
+      "Mean-reverting (anti-persistent) behaviour",
+      "Random-walk behaviour",
+      "Persistent (trending) behaviour",
+      "Market inefficiency only"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "W.D. Gann's theory emphasized that market movements follow which principle?",
+    "options": [
+      "Purely random events with no predictable patterns",
+      "Natural laws and patterns influenced by time and price",
+      "Only fundamental analysis factors",
+      "Exclusively psychological factors with no mathematical basis"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "In W.D. Gann's methodology, what significance does the 45-degree angle hold?",
+    "options": [
+      "It has no particular significance in his work",
+      "It represents only resistance levels, never support",
+      "It represents support and resistance levels where prices often revert over time",
+      "It only applies to commodity markets, not stocks"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "Which unconventional element did W.D. Gann incorporate into his market cycle analysis?",
+    "options": [
+      "Only earnings reports and GDP data",
+      "Astrological principles and celestial movements",
+      "Exclusively central bank policies",
+      "Social media sentiment only"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "Tom DeMark's Sequential Indicator is designed to identify what market condition?",
+    "options": [
+      "Only bullish continuation patterns",
+      "Potential price exhaustion points by tracking consecutive closing direction",
+      "Long-term secular trends only",
+      "Daily volume patterns exclusively"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "How does TD Combo's countdown differ from TD Sequential's?",
+    "options": [
+      "Combo's countdown starts with the first bar of the completed setup and uses stricter qualifying conditions",
+      "Combo uses volume instead of price",
+      "Combo works only in bear markets",
+      "Combo needs no setup phase"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "Because cycles seldom line up perfectly with every major price turn, how should they be used?",
+    "options": [
+      "Not at all, because they are useless for market timing",
+      "In combination with other tools rather than as standalone signals",
+      "By relying on a single dominant cycle only",
+      "Only after accepting that price movements are entirely random"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "What does a Hurst exponent below 0.5 suggest about a price series?",
+    "options": [
+      "Strong trending behaviour",
+      "Imminent crash",
+      "Mean-reverting (anti-persistent) behaviour",
+      "Pure random walk"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "Within the four-year Presidential cycle, which half of a term has historically produced weaker stock market returns?",
+    "options": [
+      "The first two years (post-election and midterm)",
+      "The last two years (pre-election and election)",
+      "Returns are evenly distributed",
+      "Only the election year"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "The Juglar cycle, named after one of the early pioneers of cycle study, describes a recurring economic fluctuation of roughly what length?",
+    "options": [
+      "About 40 months",
+      "About 7 to 11 years",
+      "About 18 years",
+      "About 50 to 60 years"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "After an initial 10-day decline and a bounce, an analyst using price-time methods projects possible time targets for the next leg. Which approach is consistent with that method?",
+    "options": [
+      "Project proportional time multiples of the first leg (e.g., 1x or 2x, ~10 or ~20 days) and watch for price-time confluence",
+      "Assume the second leg will last exactly 10 days",
+      "Ignore time and use only price targets",
+      "Assume no further decline is possible"
+    ],
+    "correct": 0,
+    "hasImage": false
+  }
+]

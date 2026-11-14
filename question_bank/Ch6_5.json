@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Over four weeks an index falls from 3,500 to 2,800. Spot VIX rises from 16 to 48, the front-month VIX future from 16 to 42, and a near-dated VIX call from $0.40 to $10.40. Roughly how many times larger was the call's percentage gain than spot VIX's percentage gain?",
+    "options": [
+      "About 3x",
+      "About 8x",
+      "About 12.5x",
+      "About 26x"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "question": "Spot VIX holds steady at 15 for a month. A trader bought the front-month VIX future at 18.0 at the start of the month and holds it to settlement. What is the percentage return?",
+    "options": [
+      "0%",
+      "+20.0%",
+      "-16.7%",
+      "-20.0%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "question": "During a crisis, spot VIX is 35 and the front-month future is 31. If spot VIX stays at 35 through expiration, what return does a long position in that future earn?",
+    "options": [
+      "-11.4%",
+      "0%",
+      "+12.9%",
+      "+11.4%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "question": "A VIX call bought for $0.50 gains 3,000% during a volatility spike. What is its new price?",
+    "options": [
+      "$1.50",
+      "$3.00",
+      "$15.00",
+      "$15.50"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "question": "An exchange-traded product holds a short position in short-term VIX futures, rebalanced daily. Over a long period dominated by contango with occasional spikes, what pattern is most likely?",
+    "options": [
+      "Steady losses with occasional large gains in spikes",
+      "A price that tracks spot VIX one-for-one over time",
+      "Gradual roll gains punctuated by sharp losses in spikes",
+      "Gains in all conditions, with no exposure to spikes"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "question": "A long VIX futures fund loses about 5% of its value to contango roll each month while spot VIX stays roughly unchanged. Compounded over 12 months, approximately what cumulative loss results?",
+    "options": [
+      "60%",
+      "5%",
+      "46%",
+      "54%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "question": "VIX futures carry a $1,000 multiplier per index point. A trader long one contract sees the price rise from 18.00 to 26.00. What is the gain?",
+    "options": [
+      "$80",
+      "$800",
+      "$8,000",
+      "$26,000"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "question": "A $10 million portfolio wants VIX calls that pay about $1 million in total if the VIX settles at 40. Each call contract would pay $2,000 at that level and costs $120 today. What is the approximate upfront cost?",
+    "options": [
+      "$6,000",
+      "$120,000",
+      "$60,000",
+      "$600,000"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "question": "A $5 million equity portfolio falls 20% in a crash. Separately, VIX calls bought for $50,000 are worth $650,000 at the low. What is the net change relative to the $5 million?",
+    "options": [
+      "-20%",
+      "-8%",
+      "-7%",
+      "-12%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "question": "In the VXTH strategy, what is the portfolio weight allocation when front-month VIX futures trade below 15?",
+    "options": [
+      "0%",
+      "0.5%",
+      "1%",
+      "2%"
+    ],
+    "correct": 0,
+    "hasImage": false
+  },
+  {
+    "id": 11,
+    "question": "Apart from rising implied volatility, what option feature makes an out-of-the-money VIX call's gains accelerate as the VIX keeps climbing?",
+    "options": [
+      "Its delta stays fixed at 0.30 as the VIX rises",
+      "Time decay adds to its value as the spike unfolds",
+      "Positive gamma: its delta rises toward 1 as it goes in the money",
+      "Its vega falls to zero as the VIX rises, removing drag"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "question": "A manager keeps 1% of the portfolio in one-month VIX calls every month regardless of conditions. In a calm year, 10 of the 12 monthly purchases expire worthless and the other two just return their cost. Roughly what is the annual drag on returns?",
+    "options": [
+      "1%",
+      "5%",
+      "10%",
+      "12%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 13,
+    "question": "The index is at 4,200. An investor buys a 4,000-strike put for 50 points to protect a long index position. Ignoring other costs, what index level at expiration is needed for the hedged position to break even?",
+    "options": [
+      "4,000",
+      "4,150",
+      "4,250",
+      "4,050"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 14,
+    "question": "An index is at 3,000. An investor holding it buys a 2,850 put for 45 and sells a 3,150 call for 45. If the index ends at 2,600 at expiration, what is the hedged return?",
+    "options": [
+      "-13.3%",
+      "-3.5%",
+      "0%",
+      "-5.0%"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 15,
+    "question": "An index is at 4,000. A zero-cost collar of the CLLZ type buys a 3,900 put, sells a 3,800 put and sells a call above the market, for zero net premium. If the index ends at 3,500, what is the hedged return?",
+    "options": [
+      "-2.5%",
+      "-10.0%",
+      "-12.5%",
+      "-5.0%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 16,
+    "question": "Why do protective put and collar programs usually show a lower beta to the S&P 500 than buy-and-hold?",
+    "options": [
+      "They hold fewer shares than a buy-and-hold position",
+      "Their options damp the index's moves in both directions",
+      "Their short calls add leverage when the index rallies",
+      "They hold VIX futures, which carry a negative beta"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 17,
+    "question": "The risk-free rate is 2%. A collar program returns 6% with 9% standard deviation; buy-and-hold returns 9% with 15% standard deviation. Which has the higher Sharpe ratio?",
+    "options": [
+      "The collar, 0.67 vs 0.60",
+      "Buy-and-hold, 0.47 vs 0.44",
+      "The collar, 0.47 vs 0.44",
+      "They are equal"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 18,
+    "question": "A hedger compares VIX calls struck at 20 and at 30 when the front-month future is 17. What is the main trade-off of choosing the 30 strike?",
+    "options": [
+      "It costs more but pays off in smaller volatility spikes",
+      "It pays off sooner because it is further out-of-the-money",
+      "It is cheaper but needs a much larger spike to pay off",
+      "It removes basis risk relative to the 20-strike call"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 19,
+    "question": "In a calm, slowly rising market, what is the main ongoing cost of continuously holding protective options?",
+    "options": [
+      "Margin calls on the long options",
+      "Time decay of the option premiums as they approach expiry",
+      "Lost dividends on the index",
+      "Rising implied volatility lifting the premiums"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 20,
+    "question": "A portfolio holds 95% in the index and 5% in short-term VIX futures. In one week the index falls 4% and the VIX futures gain 30%. What is the portfolio's return?",
+    "options": [
+      "-4.0%",
+      "-5.3%",
+      "-2.3%",
+      "+1.5%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 21,
+    "question": "A one-month at-the-money S&P 500 put costs 2.0% of the index. With implied volatility unchanged, roughly what would a three-month at-the-money put cost?",
+    "options": [
+      "6.0%",
+      "3.5%",
+      "2.0%",
+      "0.7%"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 22,
+    "question": "An investor holds a 3,800 SPX put after the index rallied to 4,400; the put is now worth 5. To keep protection about 5% below the market, the investor sells it and buys a 4,180 put for 55. What is the net cost of this roll?",
+    "options": [
+      "5",
+      "50",
+      "55",
+      "60"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 23,
+    "question": "Over six months the S&P 500 declines 15% in a slow grind while the VIX rises only from 15 to 20. Which hedge most likely performed better?",
+    "options": [
+      "OTM VIX calls, because any decline makes them soar",
+      "VIX calls, because the VIX and S&P 500 move inversely",
+      "S&P 500 puts, because they pay on the index level itself",
+      "VIX futures held through the contango period"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 24,
+    "question": "A hedger buys a VIX 20 call for 1.80 and sells a VIX 35 call for 0.50 with the same expiration. What is the maximum profit per unit at expiration?",
+    "options": [
+      "15.00",
+      "1.30",
+      "13.70",
+      "16.30"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 25,
+    "question": "An investor owns the index at 4,000 and sells a 4,100 call for 60 (a buy-write). If the index ends at 3,700, what is the position's loss as a percentage of 4,000?",
+    "options": [
+      "7.5%",
+      "8.5%",
+      "6.0%",
+      "1.5%"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 26,
+    "question": "Why do buy-write (covered call) and put-write programs not function as tail-risk hedges?",
+    "options": [
+      "They need VIX futures to implement and roll",
+      "They are long volatility, so they lag in calm markets",
+      "They cap losses at the strike of the option sold",
+      "They are short volatility and keep most crash losses"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 27,
+    "question": "An investor wants a fixed floor under an S&P 500 holding and refuses to cap upside. Which hedge fits best?",
+    "options": [
+      "A zero-cost collar",
+      "A buy-write",
+      "A protective SPX put bought outright",
+      "A short VIX futures position"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 28,
+    "question": "A $2.4 million portfolio moves one-for-one with the S&P 500 (beta 1.0). The index is at 4,800 and SPX options have a $100 multiplier. How many put contracts are needed to cover the portfolio's notional value?",
+    "options": [
+      "50",
+      "48",
+      "5",
+      "500"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 29,
+    "question": "In the VXTH design, what happens to the VIX calls when they reach expiration?",
+    "options": [
+      "The position is closed and VIX futures are bought instead",
+      "They are held until the VIX future crosses 50",
+      "The strategy waits a full quarter before buying again",
+      "They are rolled into new one-month 30-delta VIX calls"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 30,
+    "question": "Which pair names two option-based methods for protecting a long S&P 500 portfolio against downside risk?",
+    "options": [
+      "Selling SPX puts and selling VIX calls",
+      "Buying SPX calls and selling VIX puts",
+      "Buying VIX calls and buying SPX puts",
+      "Selling SPX calls and buying VIX puts"
+    ],
+    "correct": 2,
+    "hasImage": false
+  }
+]

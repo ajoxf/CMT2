@@ -1,0 +1,362 @@
+[
+  {
+    "id": 31,
+    "question": "In a Relative Rotation Graph (RRG), what do the axes represent?",
+    "options": [
+      "X-axis shows price, Y-axis shows volume",
+      "X-axis shows JdK RS-Ratio, Y-axis shows JdK RS-Momentum",
+      "X-axis shows time, Y-axis shows relative strength",
+      "X-axis shows volatility, Y-axis shows momentum"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 32,
+    "question": "At what value do the axes intersect on a Relative Rotation Graph, and what does this represent?",
+    "options": [
+      "At 0, the level where relative momentum is zero",
+      "At 50, the median reading across the whole universe",
+      "At 100, the benchmark, where relative performance is neutral",
+      "At 1.00, the raw ratio of security to benchmark"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 33,
+    "question": "Which quadrant on an RRG contains securities that are in a relative uptrend AND the trend is still becoming stronger?",
+    "options": [
+      "IMPROVING (top left)",
+      "LEADING (top right)",
+      "WEAKENING (bottom right)",
+      "LAGGING (bottom left)"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 34,
+    "question": "A security has a JdK RS-Ratio of 105 and JdK RS-Momentum of 95. Which quadrant is it in and what does this indicate?",
+    "options": [
+      "LEADING - it is outperforming and gaining strength",
+      "WEAKENING - it is still outperforming but losing momentum",
+      "IMPROVING - it is underperforming but gaining momentum",
+      "LAGGING - it is underperforming and losing momentum"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 35,
+    "question": "In which direction do securities typically rotate around the benchmark on an RRG?",
+    "options": [
+      "Counter-clockwise",
+      "Back and forth along the horizontal axis",
+      "Clockwise",
+      "Diagonally between opposite quadrants"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 36,
+    "question": "What did plotting relative strength measures on a scatter plot make visible that line charts had obscured?",
+    "options": [
+      "That sector returns are perfectly correlated over time",
+      "That securities rotate from outperformance to underperformance and back",
+      "That relative momentum precedes price by a fixed number of periods",
+      "That relative trends rarely change once they are established"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 37,
+    "question": "On a standard RRG, which quadrant contains securities with JdK RS-Ratio below 100 and JdK RS-Momentum below 100?",
+    "options": [
+      "Leading",
+      "Improving",
+      "Weakening",
+      "Lagging"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 38,
+    "question": "What does the 'tail' on an RRG represent?",
+    "options": [
+      "Projected future positions of the security",
+      "The recent observations, showing the path and pace of rotation",
+      "The security's high-low volatility range over the period",
+      "Its correlation with the benchmark over time"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 39,
+    "question": "On a weekly RRG with a five-point tail, what does each point on the tail represent?",
+    "options": [
+      "One day",
+      "One week",
+      "One month",
+      "One quarter"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 40,
+    "question": "When studying the rotation of a single sector over a long period, which RRG display is most suitable?",
+    "options": [
+      "Show all sectors with long tails for maximum information",
+      "Show just one or two securities with a long tail",
+      "Use short tails regardless of the number of securities",
+      "Show all sectors, each with a single-point tail"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 41,
+    "question": "What is the ideal theoretical rotation sequence for a security on an RRG?",
+    "options": [
+      "Move counter-clockwise through all four quadrants in turn",
+      "Move from Leading directly to Lagging and back again",
+      "Move clockwise through all four quadrants in turn",
+      "Oscillate between the Improving and Weakening quadrants"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 42,
+    "question": "What does a 'sub-rotation' on the right-hand side of an RRG (from LEADING to WEAKENING and back to LEADING) indicate?",
+    "options": [
+      "The relative uptrend has ended and a downtrend has begun",
+      "The security is about to move into the Lagging quadrant",
+      "A strong relative trend is pausing in a correction within the larger trend",
+      "The benchmark has reversed its absolute trend direction"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 43,
+    "question": "A security's RRG tail moves from Lagging into Improving, then hooks back into Lagging without ever reaching Leading. What is this called?",
+    "options": [
+      "A completed full rotation through all four quadrants",
+      "A left-side sub-rotation that never reaches the Leading quadrant",
+      "A failed breakout from the Leading quadrant",
+      "A right-side sub-rotation within a relative uptrend"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 44,
+    "question": "Some charting tools color each price bar according to the RRG quadrant the security was in at that time. What does the bar color convey?",
+    "options": [
+      "The security's volume relative to its average",
+      "Which RRG quadrant the security occupied",
+      "Whether price is above its moving average",
+      "The direction of the security's absolute trend"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 45,
+    "question": "An analyst redraws an RRG of the same ten sectors, switching the benchmark from a cap-weighted index to an equal-weighted index. Why might the sectors' positions on the chart change?",
+    "options": [
+      "Because RRG coordinates depend on the benchmark's trading volume",
+      "Because the clockwise rotation reverses under an equal-weighted benchmark",
+      "They cannot change, because RRG positions are absolute measures",
+      "Because all RRG values are measured relative to the chosen benchmark"
+    ],
+    "correct": 3,
+    "hasImage": false
+  },
+  {
+    "id": 46,
+    "question": "When a security rotates from LEADING into WEAKENING and then back into LEADING without entering LAGGING, what can you conclude?",
+    "options": [
+      "The relative uptrend has fully reversed into a downtrend",
+      "The correction was not deep enough to make it an underperformer",
+      "The security has moved into a relative downtrend",
+      "The rotation has passed through the Improving quadrant"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 47,
+    "question": "According to research on RRG rotational probabilities, what is the most likely next quadrant for a security currently in LEADING?",
+    "options": [
+      "Improving",
+      "Lagging",
+      "Weakening",
+      "It is equally likely to go anywhere"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 48,
+    "question": "Rotational research on RRGs found that securities in LAGGING most often move next into which quadrant?",
+    "options": [
+      "Leading, by crossing diagonally",
+      "Improving",
+      "Weakening",
+      "They usually remain in Lagging"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 49,
+    "question": "According to the rotational probabilities research, which type of rotation is rarely observed?",
+    "options": [
+      "From Leading down into Weakening as momentum fades",
+      "From Lagging up into Improving as momentum recovers",
+      "Counter-clockwise moves, such as Leading back to Improving",
+      "From Weakening down into Lagging as the ratio falls"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 50,
+    "question": "A security in WEAKENING can either roll on into LAGGING or hook back up into LEADING. What did rotational research find?",
+    "options": [
+      "Hooking back up into Leading is the more common outcome",
+      "Moving into Lagging happens every time, without exception",
+      "Lagging is more common, but returns to Leading are frequent",
+      "Weakening securities usually jump directly to Improving"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 51,
+    "question": "Why are rotations from LEADING to WEAKENING and from LAGGING to IMPROVING so common in practice?",
+    "options": [
+      "Because RS-Ratio always turns before RS-Momentum",
+      "Because these moves are defined to occur at fixed time intervals",
+      "Because RS-Momentum turns before RS-Ratio, so the momentum line of 100 is crossed first",
+      "Because the benchmark itself rotates clockwise each cycle"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 52,
+    "question": "Rotational research found that the most predictable next moves begin from which quadrants?",
+    "options": [
+      "WEAKENING and IMPROVING",
+      "LEADING and LAGGING",
+      "LEADING only",
+      "No quadrant shows a predictable next move"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 53,
+    "question": "A strategy buys only securities that are already in the LEADING quadrant. Why does rotational research suggest this can be late?",
+    "options": [
+      "Because Leading securities typically jump straight into the Lagging quadrant",
+      "Because Leading securities are usually overvalued on fundamental measures",
+      "Because Leading most often rolls into Weakening, so much of the gain may be past",
+      "Because RRG positions remain valid for only a single bar of data"
+    ],
+    "correct": 2,
+    "hasImage": false
+  },
+  {
+    "id": 54,
+    "question": "On an RRG tail, which end represents the most recent observation?",
+    "options": [
+      "The start of the tail, farthest from the marker",
+      "The head, marked at the end of the tail",
+      "The point closest to the chart's center",
+      "The point farthest from the chart's center"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 55,
+    "question": "Why are RRGs built as scatter plots rather than as time-series line charts?",
+    "options": [
+      "Scatter plots remove the need to choose a benchmark for each security",
+      "Two normalized measures plotted against each other place many securities on one chart",
+      "Line charts cannot display relative strength between two securities",
+      "Scatter plots project each security's future price path directly"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 56,
+    "question": "If you want to view the relative interaction and rotation of all sectors in a universe, what tail configuration is recommended?",
+    "options": [
+      "One or two securities with long tails",
+      "All sectors visible with shorter tails",
+      "No tails at all",
+      "All sectors with maximum length tails"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 57,
+    "question": "What does an RRG fundamentally depict about the securities plotted on it?",
+    "options": [
+      "The absolute performance of each security",
+      "The rotation of relative trends, not necessarily performance",
+      "Price movements without reference to a benchmark",
+      "Projected price targets for each security"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 58,
+    "question": "A security has JdK RS-Ratio of 95 and JdK RS-Momentum of 105. Based on the quadrant it's in, what is the most likely next move?",
+    "options": [
+      "It is in Lagging and will most likely move into Improving",
+      "It is in Improving and will most likely move into Leading",
+      "It is in Weakening and will most likely move into Lagging",
+      "It is in Improving and will most likely fall back into Lagging"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 59,
+    "question": "An RRG plots the top-level GICS classifications of the S&P 500 against the index. What does each point represent?",
+    "options": [
+      "An individual stock",
+      "An economic sector",
+      "A currency pair",
+      "A country index"
+    ],
+    "correct": 1,
+    "hasImage": false
+  },
+  {
+    "id": 60,
+    "question": "On an RRG, Sector P plots at (RS-Ratio 101, RS-Momentum 100.5) and Sector Q at (108, 104). What does this suggest?",
+    "options": [
+      "P is stronger because it sits closer to the center",
+      "Q has a much stronger relative trend; P is behaving much like the benchmark",
+      "Both are equally strong because they share the same quadrant",
+      "Q is about to enter Lagging because it is far from the center"
+    ],
+    "correct": 1,
+    "hasImage": false
+  }
+]
