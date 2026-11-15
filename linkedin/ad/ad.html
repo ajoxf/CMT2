@@ -1,0 +1,87 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap">
+<style>
+  :root { --lime:#d6fd3b; --ink:#0b0b0b; --muted:rgba(255,255,255,.62); --line:rgba(255,255,255,.14); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { width:1080px; height:1350px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; overflow:hidden; }
+  .ad { position:relative; width:1080px; height:1350px; padding:64px 72px; display:flex; flex-direction:column; }
+  .bg { position:absolute; inset:0; background:url(bg.jpg) center/cover; filter:saturate(.8); }
+  .shade { position:absolute; inset:0; background:
+      linear-gradient(180deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.86) 38%, rgba(0,0,0,.97) 62%, #000 100%),
+      radial-gradient(700px 420px at 85% 30%, rgba(214,253,59,.10), transparent 70%); }
+  .ad > *:not(.bg):not(.shade) { position:relative; }
+  .top { display:flex; justify-content:space-between; align-items:center; }
+  .top img { height:40px; }
+  .chip { border:1.5px solid var(--lime); color:var(--lime); border-radius:999px; padding:9px 20px; font-size:17px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+  .eyebrow { margin-top:72px; font-size:22px; font-weight:500; color:var(--muted); letter-spacing:.01em; }
+  h1 { margin-top:14px; font-size:76px; font-weight:700; line-height:1.0; letter-spacing:-.035em; }
+  h1 em { font-style:normal; color:var(--lime); }
+  .sub { margin-top:22px; font-size:23px; line-height:1.4; color:rgba(255,255,255,.8); }
+  .hero { display:flex; gap:44px; align-items:flex-start; justify-content:space-between; } .hero .txt { flex:1; }
+  .card { flex:none; width:330px; margin-top:64px; background:#fff; color:var(--ink); border-radius:18px; padding:18px 18px 16px;
+          box-shadow:0 30px 70px rgba(0,0,0,.6); transform:rotate(3deg); }
+  .card .q { font-size:14px; font-weight:700; line-height:1.35; }
+  .card .q span { display:block; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:#6b7280; margin-bottom:5px; }
+  .card img { display:block; width:100%; margin-top:10px; border:1px solid #e5e7eb; border-radius:8px; }
+  .opt { margin-top:7px; border:1px solid #e5e7eb; border-radius:8px; padding:8px 10px; font-size:12.5px; display:flex; gap:8px; }
+  .opt.ok { border-color:#16a34a; background:#ecfdf3; }
+  .opt b { color:#6b7280; }
+  .stats { margin-top:84px; display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .stat { padding:28px 0 26px; }
+  .stat + .stat { padding-left:32px; border-left:1px solid var(--line); }
+  .num { font-size:56px; font-weight:700; letter-spacing:-.03em; line-height:1; }
+  .num small { font-size:30px; color:var(--lime); }
+  .lbl { margin-top:10px; font-size:19px; color:var(--muted); line-height:1.35; }
+  .offer { margin-top:56px; display:flex; gap:28px; align-items:stretch; }
+  .price { background:var(--lime); color:var(--ink); border-radius:20px; padding:26px 30px; min-width:300px; }
+  .price .k { font-size:15px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+  .price .v { font-size:92px; font-weight:900; letter-spacing:-.045em; line-height:1; margin-top:8px; }
+  .price .d { margin-top:10px; font-size:18px; font-weight:500; }
+  .perks { flex:1; display:flex; flex-direction:column; justify-content:center; gap:20px; }
+  .perk { display:flex; gap:16px; align-items:flex-start; font-size:24px; line-height:1.3; }
+  .perk svg { flex:none; margin-top:3px; }
+  .perk span { color:var(--muted); font-size:19px; display:block; margin-top:2px; }
+  .cta { margin-top:56px; display:flex; align-items:center; justify-content:space-between; }
+  .btn { background:var(--lime); color:var(--ink); border-radius:14px; padding:20px 30px; font-size:24px; font-weight:700; }
+  .url { font-size:22px; color:#fff; font-weight:500; }
+  .fine { margin-top:auto; font-size:14.5px; color:rgba(255,255,255,.45); line-height:1.45; }
+</style></head>
+<body><div class="ad">
+  <div class="bg"></div><div class="shade"></div>
+
+  <div class="top"><img src="logo.png" alt="FinCoursa"><div class="chip">Founding offer</div></div>
+
+  <div class="hero"><div class="txt">
+  <div class="eyebrow">FinCoursa.com is live</div>
+  <h1>CMT <em>Level II</em><br>Question Bank</h1>
+  <p class="sub">Exam-style practice built by industry practitioners, for real chart reading in real markets.</p>
+  </div>
+
+  <div class="card">
+    <div class="q"><span>Technical Indicators</span>Price makes a higher high while RSI makes a lower high. What is this called?</div>
+    <img src="chart.png" alt="">
+    <div class="opt"><b>A</b> Positive reversal</div>
+    <div class="opt ok"><b>B</b> Bearish divergence</div>
+    <div class="opt"><b>C</b> Range shift</div>
+  </div></div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">1,100<small>+</small></div><div class="lbl">Level II questions</div></div>
+    <div class="stat"><div class="num">115</div><div class="lbl">Chart-reading questions</div></div>
+    <div class="stat"><div class="num" style="font-size:40px;line-height:56px">Practice<small> / </small>Exam</div><div class="lbl">With answer explanations</div></div>
+  </div>
+
+  <div class="offer">
+    <div class="price"><div class="k">Introductory price</div><div class="v">$79</div><div class="d">Valid till 16 December 2026</div></div>
+    <div class="perks">
+      <div class="perk"><svg width="26" height="26" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#d6fd3b"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#000" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>100% cashback ($79) as credit<span>Towards your future FinCoursa courses</span></div></div>
+      <div class="perk"><svg width="26" height="26" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#d6fd3b"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#000" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>Founding members: 10% off<span>Your next 3 course purchases. Limited places.</span></div></div>
+    </div>
+  </div>
+
+  <div class="cta"><div class="url">fincoursa.com/courses/cmtl2-qbank</div><div class="btn">Start practising &rarr;</div></div>
+  <div class="fine">Cashback is issued as FinCoursa credit, not cash. Prices exclude applicable taxes. CMT is a registered mark of the CMT Association, which does not endorse this product.</div>
+</div></body></html>
