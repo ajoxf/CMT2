@@ -39,7 +39,7 @@ def hero_html(n):
 {svg}
 </div></body></html>"""
 
-F = "font-family:'Satoshi',Arial,Helvetica,sans-serif"
+F = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased"
 def T(size, color="#ffffff", weight="400", lh=None, extra=""):
     return f"{F};font-size:{size}px;line-height:{lh or round(size*1.45)}px;color:{color};font-weight:{weight};{extra}"
 
@@ -53,8 +53,8 @@ def email_html(n, v, unsubscribe, header_h):
     def perk(label, html, last=False):
         return (f'<!--[if mso]><td width="216" valign="top"><![endif]--><div style="display:inline-block;width:100%;max-width:216px;vertical-align:top">'
                 f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-top:16px;padding-right:{0 if last else 16}px">'
-                f'<p style="margin:0;{T(11, lime, "700", 16, "letter-spacing:1.6px;text-transform:uppercase")}">{label}</p>'
-                f'<p style="margin:5px 0 0 0;{T(15, "#e5e5e5", "400", 22)}">{html}</p></td></tr></table></div><!--[if mso]></td><![endif]-->')
+                f'<p style="margin:0;{T(11, lime, "700", 16, "letter-spacing:1.5px;text-transform:uppercase")}">{label}</p>'
+                f'<p style="margin:5px 0 0 0;{T(15, "#bdbdbd", "400", 23)}">{html}</p></td></tr></table></div><!--[if mso]></td><![endif]-->')
     unsub = ""
     if unsubscribe:
         unsub = (f'<tr><td style="{pad};padding-top:6px;padding-bottom:30px"><p style="margin:0;{T(12, "#8a8a8a", "400", 18)}">'
@@ -66,32 +66,33 @@ def email_html(n, v, unsubscribe, header_h):
 <table role="presentation" width="720" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="width:100%;max-width:720px;background-color:#000000">
 <tr><td><a href="{home}" target="_blank" style="display:block"><img src="{U}/v3-{n}-head.jpg" width="720" alt="FinCoursa. Just launched: fincoursa.com" border="0" style="display:block;width:100%;max-width:720px;height:auto;border:0"></a></td></tr>
 <tr><td><a href="{course}" target="_blank" style="display:block"><img src="{U}/v3-{n}-hero.jpg" width="720" alt="CMT Level II Question Bank" border="0" style="display:block;width:100%;max-width:720px;height:auto;border:0"></a></td></tr>
-<tr><td style="{pad};padding-top:6px"><p style="margin:0;{T(17, "#e5e5e5", "400", 26)}">1,100+ exam-style questions, 115 chart questions, and every answer explained. Practice mode to learn, timed exam mode to prove it.</p></td></tr>
+<tr><td style="{pad};padding-top:6px"><p style="margin:0;{T(18, "#d4d4d4", "400", 28, "letter-spacing:-0.1px")}"><span style="color:#ffffff;font-weight:600">1,100+ exam-style questions</span>, 115 chart questions, and every answer explained. Practice mode to learn, timed exam mode to prove it.</p></td></tr>
 <tr><td style="{pad};padding-top:22px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-<td width="48%" valign="top" bgcolor="{lime}" style="background-color:{lime};border-radius:14px;padding-top:16px;padding-bottom:16px;padding-left:16px;padding-right:12px">
-<p style="margin:0;{T(10, "#0a0a0a", "700", 14, "letter-spacing:1.4px;text-transform:uppercase")}">Launch offer for CMT candidates</p>
-<p style="margin:6px 0 0 0;{T(40, "#0a0a0a", "900", 44, "letter-spacing:-1.5px")}">$79 <span style="{T(16, "#0a0a0a", "500", 20, "text-decoration:line-through;opacity:.55;letter-spacing:0")}">$249</span></p>
-<p style="margin:8px 0 0 0;{T(16, "#0a0a0a", "700", 20)}">Access for 90 days</p>
-<p style="margin:4px 0 0 0;{T(13, "#0a0a0a", "500", 18)}">Limited time: ends 16 December 2026</p></td>
+<td width="48%" valign="top" bgcolor="{lime}" style="background-color:{lime};border-radius:16px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:16px">
+<p style="margin:0;{T(11, "#0a0a0a", "700", 15, "letter-spacing:1.3px;text-transform:uppercase;opacity:.8")}">Launch offer for CMT candidates</p>
+<p style="margin:6px 0 0 0;{T(46, "#0a0a0a", "700", 50, "letter-spacing:-1.8px")}">$79 <span style="{T(17, "#0a0a0a", "500", 20, "text-decoration:line-through;opacity:.5;letter-spacing:0")}">$249</span></p>
+<p style="margin:8px 0 0 0;{T(16, "#0a0a0a", "600", 22)}">Access for 90 days</p>
+<p style="margin:4px 0 0 0;{T(13, "#0a0a0a", "400", 19, "opacity:.75")}">Limited time: ends 16 December 2026</p></td>
 <td width="4%" style="font-size:0;line-height:0">&nbsp;</td>
-<td width="48%" valign="top" bgcolor="#111111" style="background-color:#111111;border:1px solid #2e2e2e;border-radius:14px;padding-top:16px;padding-bottom:16px;padding-left:16px;padding-right:12px">
-<p style="margin:0;{T(10, "#cfcfcf", "700", 14, "letter-spacing:1.4px;text-transform:uppercase")}">Through the June exam</p>
-<p style="margin:6px 0 0 0;{T(40, "#ffffff", "900", 44, "letter-spacing:-1.5px")}">$129</p>
-<p style="margin:8px 0 0 0;{T(16, "#ffffff", "700", 20)}">Access until 30 June 2027</p>
-<p style="margin:4px 0 0 0;{T(13, "#cfcfcf", "500", 18)}">Covers the June 2027 exam</p></td>
+<td width="48%" valign="top" bgcolor="#111111" style="background-color:#111111;border:1px solid #2e2e2e;border-radius:16px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:16px">
+<p style="margin:0;{T(11, "#bdbdbd", "700", 15, "letter-spacing:1.3px;text-transform:uppercase")}">Through the June exam</p>
+<p style="margin:6px 0 0 0;{T(46, "#ffffff", "700", 50, "letter-spacing:-1.8px")}">$129</p>
+<p style="margin:8px 0 0 0;{T(16, "#ffffff", "600", 22)}">Access until 30 June 2027</p>
+<p style="margin:4px 0 0 0;{T(13, "#a3a3a3", "400", 19)}">Covers the June 2027 exam</p></td>
 </tr></table></td></tr>
-<tr><td style="{pad};padding-top:8px;font-size:0;line-height:0"><!--[if mso]><table role="presentation" width="648" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->{perk("Cashback", "<strong style='color:#ffffff'>75% back as credit</strong>, or 100% when you share feedback and a review.*")}{perk("Downside capped", "Sit December 2026 and don't pass? <strong style='color:#ffffff'>Free extension to June 2027.</strong>&dagger;")}{perk("Paper-trade first", "<strong style='color:#ffffff'>A free sample set</strong> from every section, charts included. No payment needed.", True)}<!--[if mso]></tr></table><![endif]--></td></tr>
+<tr><td style="{pad};padding-top:26px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #262626;font-size:0;line-height:0;height:1px">&nbsp;</td></tr></table></td></tr>
+<tr><td style="{pad};padding-top:4px;font-size:0;line-height:0"><!--[if mso]><table role="presentation" width="648" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->{perk("Cashback", "<strong style='color:#ffffff;font-weight:600'>75% back as credit</strong>, or 100% when you share feedback and a review.*")}{perk("Downside capped", "Sit December 2026 and don't pass? <strong style='color:#ffffff;font-weight:600'>Free extension to June 2027.</strong>&dagger;")}{perk("Paper-trade first", "<strong style='color:#ffffff;font-weight:600'>A free sample set</strong> from every section, charts included. No payment needed.", True)}<!--[if mso]></tr></table><![endif]--></td></tr>
 <tr><td style="{pad};padding-top:26px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-<td width="48%" align="center" style="border:1.5px solid #8a8a8a;border-radius:999px"><a href="{sample}" target="_blank" style="display:block;padding-top:14px;padding-bottom:14px;{T(17, "#ffffff", "700", 22, "text-decoration:none")}">Test-drive it free</a></td>
+<td width="48%" align="center" style="border:1.5px solid #5c5c5c;border-radius:999px"><a href="{sample}" target="_blank" style="display:block;padding-top:15px;padding-bottom:15px;{T(16, "#ffffff", "600", 22, "text-decoration:none;letter-spacing:0.2px")}">Test-drive it free</a></td>
 <td width="4%" style="font-size:0;line-height:0">&nbsp;</td>
-<td width="48%" align="center" bgcolor="{lime}" style="background-color:{lime};border-radius:999px"><a href="{buy}" target="_blank" style="display:block;padding-top:14px;padding-bottom:14px;{T(17, "#0a0a0a", "700", 22, "text-decoration:none")}">Buy &rarr;</a></td>
+<td width="48%" align="center" bgcolor="{lime}" style="background-color:{lime};border-radius:999px"><a href="{buy}" target="_blank" style="display:block;padding-top:15px;padding-bottom:15px;{T(16, "#0a0a0a", "700", 22, "text-decoration:none;letter-spacing:0.2px")}">Buy &rarr;</a></td>
 </tr><tr>
 <td align="center" style="padding-top:8px;{T(12, muted, "400", 16)}">No payment needed</td><td></td>
 <td align="center" style="padding-top:8px;{T(12, muted, "400", 16)}">Straight to checkout</td>
 </tr></table></td></tr>
-<tr><td style="{pad};padding-top:26px"><p style="margin:0;{T(12, "#8a8a8a", "400", 18)}">* Credit, not cash: usable on future FinCoursa courses until 31 January 2027, not withdrawable or refundable. &dagger; Proof of result required. Prices exclude taxes. Not affiliated with or endorsed by the CMT Association.</p></td></tr>
+<tr><td style="{pad};padding-top:26px"><p style="margin:0;{T(12, "#737373", "400", 18)}">* Credit, not cash: usable on future FinCoursa courses until 31 January 2027, not withdrawable or refundable. &dagger; Proof of result required. Prices exclude taxes. Not affiliated with or endorsed by the CMT Association.</p></td></tr>
 <tr><td style="{pad};padding-top:14px;padding-bottom:{'8' if unsubscribe else '30'}px"><p style="margin:0;{T(13, muted, "400", 20)}">FinCoursa &middot; <a href="{home}" style="color:{lime};text-decoration:underline">fincoursa.com</a> &middot; Questions? Reply to this email.</p></td></tr>
 {unsub}
 </table></td></tr></table></body></html>"""
