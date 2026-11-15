@@ -20,12 +20,12 @@
   .eyebrow { margin-top:76px; font-size:17px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--lime); }
   h1 { margin-top:18px; font-size:92px; font-weight:500; line-height:.98; letter-spacing:-.045em; }
   h1 em { font-style:normal; font-weight:700; color:var(--lime); }
-  .sub { margin-top:26px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
+  .sub { margin-top:16px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
   .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
 
-  .chart { margin-top:26px; height:222px; overflow:visible; }
+  .chart { margin-top:18px; height:222px; overflow:visible; }
 
-  .prices { margin-top:26px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
+  .prices { margin-top:22px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
   .tile { border:1px solid var(--line); border-radius:20px; padding:24px 28px; background:rgba(255,255,255,.035); }
   .tile.hl { background:var(--lime); color:var(--ink); border-color:var(--lime); }
   .tile .k { font-size:14px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; opacity:.75; }
@@ -49,17 +49,27 @@
   .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
   .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
   .fine { margin-top:22px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
+  .ribbon { margin:-60px -72px 0; padding:19px 72px; background:var(--lime); color:var(--ink); font-size:21px; display:flex; align-items:center; gap:12px; }
+  .ribbon b { font-weight:900; }
+  .ribbon .dot2 { width:9px; height:9px; border-radius:50%; background:var(--ink); flex:none; }
+  .top { margin-top:30px; }
+  .top .r { font-size:17px; color:var(--muted); letter-spacing:.02em; }
+  .product { margin-top:40px; font-size:86px; font-weight:700; line-height:.98; letter-spacing:-.045em; }
+  .product em { font-style:normal; color:var(--lime); }
+  h1 { margin-top:16px !important; font-size:40px !important; font-weight:500 !important; line-height:1.15 !important; letter-spacing:-.025em !important; color:rgba(255,255,255,.9); }
+  h1 br { display:none; }
 </style></head>
 <body><div class="ad">
   <div class="bg"></div><div class="shade"></div>
 
+  <div class="ribbon"><span class="dot2"></span><span><b>fincoursa.com has launched.</b> Limited-time launch offer for CMT candidates.</span></div>
   <div class="top">
-    <img src="logo.png" alt="FinCoursa">
-    <div class="bell"><span class="dot"></span>Opening bell: <b><a href="https://fincoursa.com/?v=pdf" style="color:#fff;text-decoration:none">fincoursa.com is live</a></b></div>
+    <a href="https://fincoursa.com/?v=pdf"><img src="logo.png" alt="FinCoursa"></a>
+    <div class="r">For the December 2026 and June 2027 exams</div>
   </div>
 
-  <div class="eyebrow">CMT Level II Question Bank</div>
-  <h1>Buy the dip<br>in <em>exam stress.</em></h1>
+  <div class="product">CMT <em>Level II</em><br>Question Bank</div>
+  <h1>Buy the dip in <em>exam stress.</em></h1>
   <p class="sub">1,100+ exam-style questions<span>/</span>115 chart questions<span>/</span>every answer explained<br>Practice mode to learn, timed exam mode to prove it</p>
 
   <svg class="chart" viewBox="0 14 936 222" fill="none">
@@ -77,7 +87,7 @@
   </svg>
 
   <div class="prices">
-    <div class="tile hl"><div class="k">Launch price</div><div class="v"><strong>$79</strong><s>$249</s><i>90 days</i></div><div class="d">Offer ends 31 January 2027</div></div>
+    <div class="tile hl"><div class="k">Launch offer &middot; limited time</div><div class="v"><strong>$79</strong><s>$249</s><i>90 days</i></div><div class="d">Ends 31 January 2027</div></div>
     <div class="tile"><div class="k">Through the June exam</div><div class="v"><strong>$129</strong><i>to 30 June 2027</i></div><div class="d">One fee, two exam windows</div></div>
   </div>
 
