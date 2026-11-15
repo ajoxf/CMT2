@@ -23,9 +23,9 @@
   .sub { margin-top:26px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
   .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
 
-  .chart { margin-top:30px; height:250px; overflow:visible; }
+  .chart { margin-top:26px; height:222px; overflow:visible; }
 
-  .prices { margin-top:30px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
+  .prices { margin-top:26px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
   .tile { border:1px solid var(--line); border-radius:20px; padding:24px 28px; background:rgba(255,255,255,.035); }
   .tile.hl { background:var(--lime); color:var(--ink); border-color:var(--lime); }
   .tile .k { font-size:14px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; opacity:.75; }
@@ -40,7 +40,11 @@
   .perk p { margin-top:9px; font-size:19px; line-height:1.4; color:var(--soft); }
   .perk p b { color:#fff; font-weight:700; }
 
-  .cta { margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:28px; border-top:1px solid var(--line); }
+  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:28px; border-top:1px solid var(--line); }
+  .cta .c { display:flex; flex-direction:column; align-items:center; gap:12px; }
+  .cta .u { font-size:16.5px; color:var(--muted); }
+  .btn { display:block; width:100%; text-align:center; text-decoration:none; }
+  .btn.ghost { background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.55); }
   .cta .l { font-size:19px; color:var(--muted); line-height:1.45; }
   .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
   .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
@@ -58,7 +62,7 @@
   <h1>Make your score<br>a <em>higher high.</em></h1>
   <p class="sub">1,100+ exam-style questions<span>/</span>115 chart questions<span>/</span>every answer explained<br>Practice mode to learn, timed exam mode to prove it</p>
 
-  <svg class="chart" viewBox="0 0 936 250" fill="none">
+  <svg class="chart" viewBox="0 14 936 222" fill="none">
     <defs>
       <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6fd3b" stop-opacity=".22"/><stop offset="1" stop-color="#d6fd3b" stop-opacity="0"/></linearGradient>
     </defs>
@@ -87,8 +91,8 @@
   </div>
 
   <div class="cta">
-    <div class="l">Try before you trade<b><a href="https://fincoursa.com/go/cmt-free-sample?v=pdf" style="color:#fff;text-decoration:none">fincoursa.com/go/cmt-free-sample</a></b></div>
-    <a class="btn" href="https://fincoursa.com/go/cmt-free-sample?v=pdf" style="text-decoration:none">Take 50 free questions &rarr;</a>
+    <div class="c"><a class="btn ghost" href="https://fincoursa.com/go/cmt-free-sample?v=pdf">Try 50 free questions</a><div class="u">fincoursa.com/go/cmt-free-sample</div></div>
+    <div class="c"><a class="btn" href="https://fincoursa.com/courses/cmtl2-qbank?v=pdf">Buy the course &rarr;</a><div class="u">fincoursa.com/courses/cmtl2-qbank</div></div>
   </div>
   <div class="fine">* Credit, not cash: usable on future FinCoursa courses, not withdrawable or refundable. &dagger; Proof of result required. Prices exclude taxes. Not affiliated with or endorsed by the CMT Association.</div>
 </div></body></html>
