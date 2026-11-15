@@ -1,0 +1,96 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap">
+<style>
+  :root { --lime:#d6fd3b; --ink:#0a0a0a; --muted:rgba(255,255,255,.58); --soft:rgba(255,255,255,.78); --line:rgba(255,255,255,.12); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { width:1080px; height:1350px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; overflow:hidden; }
+  .ad { position:relative; width:1080px; height:1350px; padding:60px 72px 52px; display:flex; flex-direction:column; }
+  .bg { position:absolute; inset:0; background:url(bg.jpg) center 30%/cover; filter:saturate(.7) brightness(.9); }
+  .shade { position:absolute; inset:0; background:
+      linear-gradient(180deg, rgba(0,0,0,.80) 0%, rgba(0,0,0,.90) 34%, rgba(0,0,0,.97) 56%, #000 100%); }
+  .ad > *:not(.bg):not(.shade) { position:relative; }
+
+  .top { display:flex; justify-content:space-between; align-items:center; }
+  .top img { height:36px; }
+  .bell { display:flex; align-items:center; gap:12px; font-size:18px; color:var(--soft); }
+  .bell b { color:#fff; font-weight:700; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--lime); box-shadow:0 0 0 6px rgba(214,253,59,.18), 0 0 18px rgba(214,253,59,.7); }
+
+  .eyebrow { margin-top:76px; font-size:17px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--lime); }
+  h1 { margin-top:18px; font-size:92px; font-weight:500; line-height:.98; letter-spacing:-.045em; }
+  h1 em { font-style:normal; font-weight:700; color:var(--lime); }
+  .sub { margin-top:26px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
+  .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
+
+  .chart { margin-top:26px; height:222px; overflow:visible; }
+
+  .prices { margin-top:26px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
+  .tile { border:1px solid var(--line); border-radius:20px; padding:24px 28px; background:rgba(255,255,255,.035); }
+  .tile.hl { background:var(--lime); color:var(--ink); border-color:var(--lime); }
+  .tile .k { font-size:14px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; opacity:.75; }
+  .tile .v { margin-top:8px; display:flex; align-items:baseline; gap:14px; }
+  .tile .v strong { font-size:66px; font-weight:900; letter-spacing:-.045em; line-height:1; }
+  .tile .v s { font-size:24px; font-weight:500; opacity:.55; }
+  .tile .v i { font-style:normal; font-size:20px; font-weight:500; }
+  .tile .d { margin-top:6px; font-size:17px; font-weight:500; opacity:.8; }
+
+  .perks { margin-top:30px; display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+  .perk .k { font-size:13.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--lime); }
+  .perk p { margin-top:9px; font-size:19px; line-height:1.4; color:var(--soft); }
+  .perk p b { color:#fff; font-weight:700; }
+
+  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:28px; border-top:1px solid var(--line); }
+  .cta .c { display:flex; flex-direction:column; align-items:center; gap:12px; }
+  .cta .u { font-size:16.5px; color:var(--muted); }
+  .btn { display:block; width:100%; text-align:center; text-decoration:none; }
+  .btn.ghost { background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.55); }
+  .cta .l { font-size:19px; color:var(--muted); line-height:1.45; }
+  .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
+  .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
+  .fine { margin-top:22px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
+</style></head>
+<body><div class="ad">
+  <div class="bg"></div><div class="shade"></div>
+
+  <div class="top">
+    <img src="logo.png" alt="FinCoursa">
+    <div class="bell"><span class="dot"></span>Opening bell: <b><a href="https://fincoursa.com/?v=pdf" style="color:#fff;text-decoration:none">fincoursa.com is live</a></b></div>
+  </div>
+
+  <div class="eyebrow">CMT Level II Question Bank</div>
+  <h1>Range-bound prep?<br>Time for a <em>breakout.</em></h1>
+  <p class="sub">1,100+ exam-style questions<span>/</span>115 chart questions<span>/</span>every answer explained<br>Practice mode to learn, timed exam mode to prove it</p>
+
+  <svg class="chart" viewBox="0 14 936 222" fill="none">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6fd3b" stop-opacity=".22"/><stop offset="1" stop-color="#d6fd3b" stop-opacity="0"/></linearGradient></defs>
+    <g stroke="rgba(255,255,255,.07)"><line x1="0" y1="60" x2="936" y2="60"/><line x1="0" y1="130" x2="936" y2="130"/><line x1="0" y1="200" x2="936" y2="200"/></g>
+    <path d="M0 154 L936 154" stroke="rgba(255,255,255,.4)" stroke-width="1.5" stroke-dasharray="6 7"/>
+    <path d="M0 186 L60 160 L120 188 L180 158 L240 190 L300 162 L360 186 L420 160 L480 184 L540 158 L600 176 L650 128 L700 140 L770 86 L820 96 L900 36 L900 250 L0 250 Z" fill="url(#g)"/>
+    <path d="M0 186 L60 160 L120 188 L180 158 L240 190 L300 162 L360 186 L420 160 L480 184 L540 158 L600 176 L650 128 L700 140 L770 86 L820 96 L900 36" stroke="#d6fd3b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <g font-family="Satoshi, sans-serif" font-size="16" fill="rgba(255,255,255,.62)">
+      <text x="0" y="144">Resistance: "I know the theory"</text>
+      <circle cx="300" cy="162" r="6" fill="#000" stroke="#fff" stroke-width="2"/><text x="270" y="214">Practice</text>
+      <circle cx="650" cy="128" r="6" fill="#000" stroke="#fff" stroke-width="2"/><text x="550" y="112">Breakout</text>
+      <circle cx="900" cy="36" r="9" fill="#d6fd3b"/><circle cx="900" cy="36" r="18" fill="#d6fd3b" fill-opacity=".18"/>
+      <text x="868" y="42" text-anchor="end" fill="#fff" font-weight="700" font-size="18">Exam day</text>
+    </g>
+  </svg>
+
+  <div class="prices">
+    <div class="tile hl"><div class="k">Launch price</div><div class="v"><strong>$79</strong><s>$249</s><i>90 days</i></div><div class="d">Offer ends 31 January 2027</div></div>
+    <div class="tile"><div class="k">Through the June exam</div><div class="v"><strong>$129</strong><i>to 30 June 2027</i></div><div class="d">One fee, two exam windows</div></div>
+  </div>
+
+  <div class="perks">
+    <div class="perk"><div class="k">Cashback</div><p><b>75% back as credit</b>, or 100% when you share feedback and a review*</p></div>
+    <div class="perk"><div class="k">Downside capped</div><p>Sit December 2026 and don't pass? <b>Free extension to June 2027</b>&dagger;</p></div>
+    <div class="perk"><div class="k">Paper-trade first</div><p><b>A free sample set</b> from every section, charts included. No payment needed.</p></div>
+  </div>
+
+  <div class="cta">
+    <div class="c"><a class="btn ghost" href="https://fincoursa.com/go/cmt-free-sample?v=pdf">Test-drive it free</a><div class="u">fincoursa.com/go/cmt-free-sample</div></div>
+    <div class="c"><a class="btn" href="https://fincoursa.com/checkout?course=cmtl2-qbank&amp;v=pdf">Buy the course &rarr;</a><div class="u">Straight to checkout</div></div>
+  </div>
+  <div class="fine">* Credit, not cash: usable on future FinCoursa courses, not withdrawable or refundable. &dagger; Proof of result required. Prices exclude taxes. Not affiliated with or endorsed by the CMT Association.</div>
+</div></body></html>
