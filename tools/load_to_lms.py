@@ -37,6 +37,7 @@ CH = {  # chapter ids in the course
 # (section, position, existing lesson id or None to create, title, bank file or None = no questions yet)
 # lessons students don't need to complete (optional practice)
 OPTIONAL = {"Ch6_3_stretch"}
+COMING_SOON = " (Coming Soon)"
 
 PLAN = [
     (1, 1, "5a1af8f0-5597-45c0-ad54-c2932966cb3e", "1. Alpha and Beta - Outperforming the Benchmarks (Part 1)", "Ch1_1_part1"),
@@ -186,17 +187,21 @@ def main():
         return
     for sec, pos, lid, title, bank in plan:
         qs = to_lms(load(bank), bank.lower()) if bank else []
+        # units without questions yet are shown as "Coming Soon" and don't count toward completion
+        if not bank and not title.endswith(COMING_SOON):
+            title += COMING_SOON
+        required = bool(bank) and bank not in OPTIONAL
         if lid is None:
             same = api("GET", f"/rest/v1/lessons?chapter_id=eq.{CH[sec]}&title=eq.{urllib.request.quote(title)}&select=id")
             if same:
                 raise SystemExit(f"Refusing to create a second lesson titled {title!r}; add its id {same[0]['id']} to PLAN.")
             row = api("POST", "/rest/v1/lessons", {"course_id": COURSE, "chapter_id": CH[sec], "title": title, "type": "quiz",
-                                                   "position": pos, "is_required": bank not in OPTIONAL, "is_preview": False},
+                                                   "position": pos, "is_required": required, "is_preview": False},
                       prefer="return=representation")[0]
             lid = row["id"]
             api("POST", "/rest/v1/lesson_bodies", {"lesson_id": lid, "body": {"text": "", "files": [], "pass_pct": 70, "questions": qs}})
         else:
-            api("PATCH", f"/rest/v1/lessons?id=eq.{lid}", {"title": title, "position": pos, "is_required": bank not in OPTIONAL})
+            api("PATCH", f"/rest/v1/lessons?id=eq.{lid}", {"title": title, "position": pos, "is_required": required})
             cur = api("GET", f"/rest/v1/lesson_bodies?lesson_id=eq.{lid}&select=body")
             body = dict(cur[0]["body"] or {}) if cur else {}
             body.update({"pass_pct": body.get("pass_pct", 70), "questions": qs})
