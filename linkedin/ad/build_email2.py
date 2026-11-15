@@ -7,8 +7,8 @@ VARIANTS = ["higher-high", "buy-the-dip", "breakout", "signal"]
 
 HERO_CSS = """
 * { box-sizing:border-box; margin:0; padding:0; }
-body { width:600px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; }
-.hero { position:relative; width:600px; padding:26px 30px 6px; overflow:hidden; }
+body { width:720px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; }
+.hero { position:relative; width:720px; padding:28px 36px 6px; overflow:hidden; }
 .bg { position:absolute; inset:0; background:url(../bg.jpg) center 30%/cover; filter:saturate(.7) brightness(.9); }
 .shade { position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,.78) 0%, rgba(0,0,0,.9) 45%, #000 100%); }
 .hero > *:not(.bg):not(.shade) { position:relative; }
@@ -20,9 +20,9 @@ body { width:600px; background:#000; font-family:"Satoshi",system-ui,sans-serif;
 .lockup { margin-top:34px; display:flex; align-items:center; gap:11px; font-size:21px; font-weight:700; letter-spacing:-.01em; }
 .lockup::before { content:""; width:4px; height:22px; border-radius:2px; background:#d6fd3b; }
 .lockup em, h1 em { font-style:normal; color:#d6fd3b; }
-h1 { margin-top:14px; font-size:54px; font-weight:500; line-height:1; letter-spacing:-.04em; }
+h1 { margin-top:14px; font-size:60px; font-weight:500; line-height:1; letter-spacing:-.04em; }
 h1 em { font-weight:700; }
-svg { display:block; margin-top:18px; width:540px; height:auto; overflow:visible; }
+svg { display:block; margin-top:18px; width:648px; height:auto; overflow:visible; }
 """
 
 def hero_html(n):
@@ -49,10 +49,12 @@ def email_html(n, v, unsubscribe, header_h):
     sample = f"https://fincoursa.com/go/cmt-free-sample?v={v}"
     buy = f"https://fincoursa.com/go/cmt-launch-buy?v={v}"
     lime, muted = "#d6fd3b", "#a3a3a3"
-    pad = "padding-left:30px;padding-right:30px"
-    def perk(label, html):
-        return (f'<tr><td style="{pad};padding-top:14px"><p style="margin:0;{T(11, lime, "700", 16, "letter-spacing:1.6px;text-transform:uppercase")}">{label}</p>'
-                f'<p style="margin:4px 0 0 0;{T(16, "#e5e5e5", "400", 24)}">{html}</p></td></tr>')
+    pad = "padding-left:36px;padding-right:36px"
+    def perk(label, html, last=False):
+        return (f'<!--[if mso]><td width="216" valign="top"><![endif]--><div style="display:inline-block;width:100%;max-width:216px;vertical-align:top">'
+                f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-top:16px;padding-right:{0 if last else 16}px">'
+                f'<p style="margin:0;{T(11, lime, "700", 16, "letter-spacing:1.6px;text-transform:uppercase")}">{label}</p>'
+                f'<p style="margin:5px 0 0 0;{T(15, "#e5e5e5", "400", 22)}">{html}</p></td></tr></table></div><!--[if mso]></td><![endif]-->')
     unsub = ""
     if unsubscribe:
         unsub = (f'<tr><td style="{pad};padding-top:6px;padding-bottom:30px"><p style="margin:0;{T(12, "#8a8a8a", "400", 18)}">'
@@ -61,9 +63,9 @@ def email_html(n, v, unsubscribe, header_h):
 <body style="margin:0;padding:0;background-color:#000000">
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#000000">fincoursa.com is live. CMT Level II Question Bank: 1,100+ questions, 115 chart questions, US$79 launch price until 16 December 2026.</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="background-color:#000000"><tr><td align="center">
-<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="width:100%;max-width:600px;background-color:#000000">
-<tr><td><a href="{home}" target="_blank" style="display:block"><img src="{U}/v2-{n}-head.jpg" width="600" alt="FinCoursa. Just launched: fincoursa.com" border="0" style="display:block;width:100%;max-width:600px;height:auto;border:0"></a></td></tr>
-<tr><td><a href="{course}" target="_blank" style="display:block"><img src="{U}/v2-{n}-hero.jpg" width="600" alt="CMT Level II Question Bank" border="0" style="display:block;width:100%;max-width:600px;height:auto;border:0"></a></td></tr>
+<table role="presentation" width="720" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="width:100%;max-width:720px;background-color:#000000">
+<tr><td><a href="{home}" target="_blank" style="display:block"><img src="{U}/v3-{n}-head.jpg" width="720" alt="FinCoursa. Just launched: fincoursa.com" border="0" style="display:block;width:100%;max-width:720px;height:auto;border:0"></a></td></tr>
+<tr><td><a href="{course}" target="_blank" style="display:block"><img src="{U}/v3-{n}-hero.jpg" width="720" alt="CMT Level II Question Bank" border="0" style="display:block;width:100%;max-width:720px;height:auto;border:0"></a></td></tr>
 <tr><td style="{pad};padding-top:6px"><p style="margin:0;{T(17, "#e5e5e5", "400", 26)}">1,100+ exam-style questions, 115 chart questions, and every answer explained. Practice mode to learn, timed exam mode to prove it.</p></td></tr>
 <tr><td style="{pad};padding-top:22px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
@@ -79,9 +81,7 @@ def email_html(n, v, unsubscribe, header_h):
 <p style="margin:8px 0 0 0;{T(16, "#ffffff", "700", 20)}">Access until 30 June 2027</p>
 <p style="margin:4px 0 0 0;{T(13, "#cfcfcf", "500", 18)}">Covers the June 2027 exam</p></td>
 </tr></table></td></tr>
-{perk("Cashback", "<strong style='color:#ffffff'>75% back as credit</strong>, or 100% when you share feedback and a review.*")}
-{perk("Downside capped", "Sit December 2026 and don't pass? <strong style='color:#ffffff'>Free extension to June 2027.</strong>&dagger;")}
-{perk("Paper-trade first", "<strong style='color:#ffffff'>A free sample set</strong> from every section, charts included. No payment needed.")}
+<tr><td style="{pad};padding-top:8px;font-size:0;line-height:0"><!--[if mso]><table role="presentation" width="648" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->{perk("Cashback", "<strong style='color:#ffffff'>75% back as credit</strong>, or 100% when you share feedback and a review.*")}{perk("Downside capped", "Sit December 2026 and don't pass? <strong style='color:#ffffff'>Free extension to June 2027.</strong>&dagger;")}{perk("Paper-trade first", "<strong style='color:#ffffff'>A free sample set</strong> from every section, charts included. No payment needed.", True)}<!--[if mso]></tr></table><![endif]--></td></tr>
 <tr><td style="{pad};padding-top:26px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
 <td width="48%" align="center" style="border:1.5px solid #8a8a8a;border-radius:999px"><a href="{sample}" target="_blank" style="display:block;padding-top:14px;padding-bottom:14px;{T(17, "#ffffff", "700", 22, "text-decoration:none")}">Test-drive it free</a></td>
@@ -99,7 +99,7 @@ def email_html(n, v, unsubscribe, header_h):
 js = """
 const { chromium } = require('playwright');
 (async()=>{const b=await chromium.launch();const out={};
-for (const n of %s) { const p=await b.newPage({viewport:{width:600,height:800},deviceScaleFactor:2});
+for (const n of %s) { const p=await b.newPage({viewport:{width:720,height:800},deviceScaleFactor:2});
   await p.goto('file://'+process.cwd()+'/email/hero-'+n+'.html',{waitUntil:'networkidle'}); await p.evaluate(()=>document.fonts.ready);
   const h=await p.evaluate(()=>({hero:Math.ceil(document.querySelector('.hero').getBoundingClientRect().height), head:Math.round(document.querySelector('.top').getBoundingClientRect().bottom+12)}));
   await p.locator('.hero').screenshot({path:'email/hero-'+n+'.png'}); out[n]=h; }
@@ -113,8 +113,8 @@ sizes = json.loads(subprocess.check_output(["node", "email/_hero.js"]).decode().
 for n in VARIANTS:
     im = Image.open(f"email/hero-{n}.png").convert("RGB")
     cut = sizes[n]["head"] * 2
-    im.crop((0, 0, 1200, cut)).save(f"email/v2-{n}-head.jpg", quality=88, optimize=True, progressive=True)
-    im.crop((0, cut, 1200, im.height)).save(f"email/v2-{n}-hero.jpg", quality=88, optimize=True, progressive=True)
+    im.crop((0, 0, 1440, cut)).save(f"email/v3-{n}-head.jpg", quality=88, optimize=True, progressive=True)
+    im.crop((0, cut, 1440, im.height)).save(f"email/v3-{n}-hero.jpg", quality=88, optimize=True, progressive=True)
     open(f"email/email-{n}.html", "w").write(email_html(n, "email", False, cut))
     open(f"email/broadcast-{n}.html", "w").write(email_html(n, "broadcast", True, cut))
 print(sizes)
