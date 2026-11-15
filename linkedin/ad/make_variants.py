@@ -47,6 +47,6 @@ common = common.replace('<a class="btn" href="https://fincoursa.com/courses/cmtl
   '<a class="btn" href="https://fincoursa.com/checkout?course=cmtl2-qbank&amp;v=pdf">Buy the course &rarr;</a><div class="u">Straight to checkout</div>')
 assert common.count('Test-drive it free')==1 and common.count('checkout?course')==1 and 'Paper-trade first' in common
 for name,(h1,sv) in variants.items():
-    s = common.replace(lines[h1_i].strip(), f'<h1>{h1.replace("<br>", " ")}</h1>').replace(old_svg, sv)
+    s = common.replace(lines[h1_i].strip(), f'<h1>{h1}</h1>').replace(old_svg, sv)
     open(f'ad-{name}.html','w').write(s)
 print('ok')
