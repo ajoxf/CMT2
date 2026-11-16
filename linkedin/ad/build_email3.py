@@ -5,7 +5,7 @@ from PIL import Image
 U = "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/site/ads/email"
 VARIANTS = ["higher-high", "buy-the-dip", "breakout", "signal"]
 LIME = "#d6fd3b"
-REV = 7  # bump when the images change, so Gmail does not show cached copies
+REV = 8  # bump when the images change, so Gmail does not show cached copies
 
 def hero_css(w, pad, logo, pill, lock, h1, lab):
     return f"""
@@ -20,8 +20,10 @@ body {{ width:{w}px; background:#000; font-family:"Satoshi",system-ui,sans-serif
 .live {{ display:flex; align-items:center; gap:7px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:5px 11px; font-size:{pill}px; color:rgba(255,255,255,.8); background:rgba(214,253,59,.06); white-space:nowrap; }}
 .live b {{ color:#fff; font-weight:700; }}
 .dot {{ width:7px; height:7px; border-radius:50%; background:{LIME}; box-shadow:0 0 0 3px rgba(214,253,59,.18), 0 0 10px rgba(214,253,59,.7); }}
-.lockup {{ margin-top:{round(pad*1.15)}px; display:flex; align-items:center; gap:10px; font-size:{lock}px; font-weight:700; letter-spacing:-.01em; }}
-.lockup::before {{ content:""; width:4px; height:{lock+1}px; border-radius:2px; background:{LIME}; }}
+.lockup {{ margin-top:{round(pad*1.15)}px; display:flex; align-items:stretch; gap:10px; font-size:{lock}px; font-weight:700; letter-spacing:-.01em; line-height:1.15; }}
+.lockup::before {{ content:""; width:4px; flex:none; border-radius:2px; background:{LIME}; }}
+.lockup span {{ display:flex; flex-direction:column; gap:3px; }}
+.lockup small {{ font-size:{round(lock*.66)}px; font-weight:500; color:rgba(255,255,255,.72); letter-spacing:0; }}
 .lockup em, h1 em {{ font-style:normal; color:{LIME}; }}
 h1 {{ margin-top:12px; font-size:{h1}px; font-weight:500; line-height:1.02; letter-spacing:-.04em; }}
 h1 em {{ font-weight:700; }}
@@ -60,7 +62,7 @@ def hero_html(n, mobile):
     return f"""<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap"><style>{css}</style></head>
 <body><div class="hero"><div class="bg"></div><div class="shade"></div>
 <div class="top"><img src="../logo.png" alt=""><div class="live"><span class="dot"></span>Just launched: <b>fincoursa.com</b></div></div>
-<div class="lockup"><span>CMT <em>Level II</em> Question Bank</span></div>
+<div class="lockup"><span><small>Chartered Market Technician (CMT)</small><b><em>Level II</em> Question Bank</b></span></div>
 <h1>{h1}</h1>
 {svg}
 </div></body></html>"""

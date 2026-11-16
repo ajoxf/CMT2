@@ -20,10 +20,10 @@
   .eyebrow { margin-top:76px; font-size:17px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--lime); }
   h1 { margin-top:18px; font-size:92px; font-weight:500; line-height:.98; letter-spacing:-.045em; }
   h1 em { font-style:normal; font-weight:700; color:var(--lime); }
-  .sub { margin-top:26px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
+  .sub { margin-top:20px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
   .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
 
-  .chart { margin-top:26px; height:222px; overflow:visible; }
+  .chart { margin-top:16px; height:214px; overflow:visible; }
 
   .prices { margin-top:18px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
   .tile { border:1px solid var(--line); border-radius:20px; padding:20px 28px; background:rgba(255,255,255,.035); }
@@ -53,8 +53,10 @@
   .live { display:flex; align-items:center; gap:12px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:10px 20px; font-size:18px; color:var(--soft); background:rgba(214,253,59,.06); }
   .live b { color:#fff; font-weight:700; }
   .live a { color:#fff; text-decoration:none; font-weight:700; }
-  .lockup { margin-top:38px; display:flex; align-items:center; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; }
-  .lockup::before { content:""; width:6px; height:34px; border-radius:3px; background:var(--lime); }
+  .lockup { margin-top:34px; display:flex; align-items:stretch; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; line-height:1.1; }
+  .lockup::before { content:""; width:6px; flex:none; border-radius:3px; background:var(--lime); }
+  .lockup span { display:flex; flex-direction:column; gap:4px; }
+  .lockup small { font-size:21px; font-weight:500; color:var(--soft); letter-spacing:0; }
   .lockup em { font-style:normal; color:var(--lime); }
   .lockup + h1 { margin-top:20px; }
   .refer { margin-top:18px; white-space:nowrap; display:flex; align-items:center; gap:14px; font-size:17.5px; color:var(--soft); }
@@ -70,7 +72,7 @@
     <div class="live"><span class="dot"></span>Just launched: <a href="https://fincoursa.com/?v=pdf">fincoursa.com</a></div>
   </div>
 
-  <div class="lockup"><span>CMT <em>Level II</em> Question Bank</span></div>
+  <div class="lockup"><span><small>Chartered Market Technician (CMT)</small><b><em>Level II</em> Question Bank</b></span></div>
   <h1>Buy the dip<br>in <em>exam stress.</em></h1>
   <p class="sub">1,100+ exam-style questions<span>/</span>115 chart questions<span>/</span>every answer explained<br>Practice mode to learn, timed exam mode to prove it</p>
 

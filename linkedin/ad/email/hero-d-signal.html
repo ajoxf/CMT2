@@ -10,8 +10,10 @@ body { width:720px; background:#000; font-family:"Satoshi",system-ui,sans-serif;
 .live { display:flex; align-items:center; gap:7px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:5px 11px; font-size:13.5px; color:rgba(255,255,255,.8); background:rgba(214,253,59,.06); white-space:nowrap; }
 .live b { color:#fff; font-weight:700; }
 .dot { width:7px; height:7px; border-radius:50%; background:#d6fd3b; box-shadow:0 0 0 3px rgba(214,253,59,.18), 0 0 10px rgba(214,253,59,.7); }
-.lockup { margin-top:41px; display:flex; align-items:center; gap:10px; font-size:21px; font-weight:700; letter-spacing:-.01em; }
-.lockup::before { content:""; width:4px; height:22px; border-radius:2px; background:#d6fd3b; }
+.lockup { margin-top:41px; display:flex; align-items:stretch; gap:10px; font-size:21px; font-weight:700; letter-spacing:-.01em; line-height:1.15; }
+.lockup::before { content:""; width:4px; flex:none; border-radius:2px; background:#d6fd3b; }
+.lockup span { display:flex; flex-direction:column; gap:3px; }
+.lockup small { font-size:14px; font-weight:500; color:rgba(255,255,255,.72); letter-spacing:0; }
 .lockup em, h1 em { font-style:normal; color:#d6fd3b; }
 h1 { margin-top:12px; font-size:60px; font-weight:500; line-height:1.02; letter-spacing:-.04em; }
 h1 em { font-weight:700; }
@@ -19,7 +21,7 @@ svg { display:block; margin-top:16px; width:648px; height:auto; overflow:visible
 </style></head>
 <body><div class="hero"><div class="bg"></div><div class="shade"></div>
 <div class="top"><img src="../logo.png" alt=""><div class="live"><span class="dot"></span>Just launched: <b>fincoursa.com</b></div></div>
-<div class="lockup"><span>CMT <em>Level II</em> Question Bank</span></div>
+<div class="lockup"><span><small>Chartered Market Technician (CMT)</small><b><em>Level II</em> Question Bank</b></span></div>
 <h1>Less noise.<br><em>More signal.</em></h1>
 <svg viewBox="0 14 936 222" fill="none">
     <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6fd3b" stop-opacity=".22"/><stop offset="1" stop-color="#d6fd3b" stop-opacity="0"/></linearGradient></defs>
