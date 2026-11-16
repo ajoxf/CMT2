@@ -5,6 +5,7 @@ from PIL import Image
 U = "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/site/ads/email"
 VARIANTS = ["higher-high", "buy-the-dip", "breakout", "signal"]
 LIME = "#d6fd3b"
+OFF = "68% off"  # (249 - 79) / 249
 REV = 8  # bump when the images change, so Gmail does not show cached copies
 
 def hero_css(w, pad, logo, pill, lock, h1, lab):
@@ -103,7 +104,8 @@ def email_html(n, v, unsubscribe):
     def row(inner):
         return f'<!--[if mso]><table role="presentation" width="648" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->{inner}<!--[if mso]></tr></table><![endif]-->'
     def tile(bg, border, k_color, label, price, strike, access, note, fg, note_color):
-        s = f'<span style="{T(17, fg, "500", 20, "text-decoration:line-through;opacity:.5;letter-spacing:0")}">{strike}</span>' if strike else ""
+        s = (f'<span style="{T(22, fg, "500", 24, "text-decoration:line-through;opacity:.5;letter-spacing:0")}">{strike}</span> '
+             f'<span style="display:inline-block;vertical-align:middle;background-color:#0a0a0a;border-radius:999px;padding:3px 10px;{T(13, LIME, "700", 18, "letter-spacing:.3px")}">{OFF}</span>') if strike else ""
         return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="tile" bgcolor="{bg}" style="background-color:{bg};{border}border-radius:16px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:16px">'
                 f'<p style="margin:0;{T(11, k_color, "700", 15, "letter-spacing:1.3px;text-transform:uppercase")}">{label}</p>'
                 f'<p class="price" style="margin:6px 0 0 0;{T(46, fg, "700", 50, "letter-spacing:-1.8px")}">{price} {s}</p>'

@@ -7,7 +7,7 @@ fincoursa.com is live, and our first release is for CMT Level II candidates.
 The Chartered Market Technician (CMT) Level II Question Bank: 1,100+ exam-style questions mapped to the curriculum, 115 chart questions where you read the chart to find the answer, and a clear explanation for every option.
 
 Launch offer for CMT candidates, until 16 December 2026:
-- US$79 for 90 days (standard US$249), or US$129 through the June 2027 exam
+- US$79 for 90 days (standard US$249, 68% off), or US$129 through the June 2027 exam
 - 75% back as FinCoursa credit, or 100% when you share feedback and a review
 - Sit December 2026 and don't pass? We extend your access free to June 2027
 
@@ -50,7 +50,7 @@ FinCoursa teaches technical finance and AI in finance the way practitioners use 
 - Practice mode to learn as you go, and timed exam mode to see where you stand
 
 **Launch offer for CMT candidates, until 16 December 2026**
-- US$79 for 90 days (standard US$249), or US$129 with access through the June 2027 exam
+- US$79 for 90 days (standard US$249, 68% off), or US$129 with access through the June 2027 exam
 - 75% of your fee back as FinCoursa credit, or 100% when you share feedback and a review*
 - Pass or extend: sit the December 2026 exam and don't pass, and we extend your access free through June 2027**
 
