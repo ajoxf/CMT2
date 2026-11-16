@@ -14,6 +14,8 @@ Launch offer for CMT candidates, until 16 December 2026:
 Test-drive it free first: https://fincoursa.com/go/cmt-free-sample?v=whatsapp
 Buy: https://fincoursa.com/checkout?course=cmtl2-qbank&v=whatsapp
 
+Know someone who may benefit? Share this and earn a referral: 10% of their purchase back as credit. Get your link: https://fincoursa.com/refer
+
 Credit, not cash, usable until 31 January 2027. Proof of result needed for the extension. Prices exclude taxes.
 
 ### Short version (for groups and forwards)
@@ -55,6 +57,8 @@ FinCoursa teaches technical finance and AI in finance the way practitioners use 
 Not sure yet? Paper-trade it first. The free sample covers every section of the curriculum, charts included, and needs no payment.
 
 [Test-drive it free](https://fincoursa.com/go/cmt-free-sample?v=email)  |  [Buy](https://fincoursa.com/checkout?course=cmtl2-qbank&v=email)
+
+Know someone who may benefit? Share this and earn a referral: 10% of what your friend pays comes back to you as FinCoursa credit. [Get your share link](https://fincoursa.com/refer?v=email)
 
 Wishing you a strong trend into exam day,
 

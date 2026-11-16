@@ -5,7 +5,7 @@
   :root { --lime:#d6fd3b; --ink:#0a0a0a; --muted:rgba(255,255,255,.58); --soft:rgba(255,255,255,.78); --line:rgba(255,255,255,.12); }
   * { box-sizing:border-box; margin:0; padding:0; }
   body { width:1080px; height:1350px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; overflow:hidden; }
-  .ad { position:relative; width:1080px; height:1350px; padding:60px 72px 52px; display:flex; flex-direction:column; }
+  .ad { position:relative; width:1080px; height:1350px; padding:52px 72px 44px; display:flex; flex-direction:column; }
   .bg { position:absolute; inset:0; background:url(bg.jpg) center 30%/cover; filter:saturate(.7) brightness(.9); }
   .shade { position:absolute; inset:0; background:
       linear-gradient(180deg, rgba(0,0,0,.80) 0%, rgba(0,0,0,.90) 34%, rgba(0,0,0,.97) 56%, #000 100%); }
@@ -41,7 +41,7 @@
   .perk p { margin-top:9px; font-size:19px; line-height:1.4; color:var(--soft); }
   .perk p b { color:#fff; font-weight:700; }
 
-  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:28px; border-top:1px solid var(--line); }
+  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:24px; border-top:1px solid var(--line); }
   .cta .c { display:flex; flex-direction:column; align-items:center; gap:12px; }
   .cta .u { font-size:16.5px; color:var(--muted); }
   .btn { display:block; width:100%; text-align:center; text-decoration:none; }
@@ -49,14 +49,18 @@
   .cta .l { font-size:19px; color:var(--muted); line-height:1.45; }
   .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
   .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
-  .fine { margin-top:22px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
+  .fine { margin-top:16px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
   .live { display:flex; align-items:center; gap:12px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:10px 20px; font-size:18px; color:var(--soft); background:rgba(214,253,59,.06); }
   .live b { color:#fff; font-weight:700; }
   .live a { color:#fff; text-decoration:none; font-weight:700; }
-  .lockup { margin-top:50px; display:flex; align-items:center; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; }
+  .lockup { margin-top:38px; display:flex; align-items:center; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; }
   .lockup::before { content:""; width:6px; height:34px; border-radius:3px; background:var(--lime); }
   .lockup em { font-style:normal; color:var(--lime); }
   .lockup + h1 { margin-top:20px; }
+  .refer { margin-top:18px; white-space:nowrap; display:flex; align-items:center; gap:14px; font-size:17.5px; color:var(--soft); }
+  .refer::before { content:""; width:4px; height:24px; border-radius:2px; background:var(--lime); flex:none; }
+  .refer b { color:#fff; font-weight:700; }
+  .refer a { color:var(--lime); font-weight:700; text-decoration:none; }
 </style></head>
 <body><div class="ad">
   <div class="bg"></div><div class="shade"></div>
@@ -102,5 +106,6 @@
     <div class="c"><a class="btn ghost" href="https://fincoursa.com/go/cmt-free-sample?v=pdf">Test-drive it free</a><div class="u">fincoursa.com/go/cmt-free-sample</div></div>
     <div class="c"><a class="btn" href="https://fincoursa.com/checkout?course=cmtl2-qbank&amp;v=pdf">Buy &rarr;</a><div class="u">Straight to checkout</div></div>
   </div>
+  <div class="refer"><span><b>Know someone who may benefit?</b> Share this and earn a referral: 10% back as credit. <a href="https://fincoursa.com/refer?v=pdf">fincoursa.com/refer</a></span></div>
   <div class="fine">* Credit, not cash: usable on future FinCoursa courses until 31 January 2027, not withdrawable or refundable. &dagger; Proof of result required. Prices exclude taxes. Not affiliated with or endorsed by the CMT Association.</div>
 </div></body></html>
