@@ -5,7 +5,6 @@ from PIL import Image
 U = "https://ifmpyoebramjefhpxqjl.supabase.co/storage/v1/object/public/course-images/site/ads/email"
 VARIANTS = ["higher-high", "buy-the-dip", "breakout", "signal"]
 LIME = "#d6fd3b"
-OFF = "68% off"  # (249 - 79) / 249
 REV = 8  # bump when the images change, so Gmail does not show cached copies
 
 def hero_css(w, pad, logo, pill, lock, h1, lab):
@@ -103,9 +102,9 @@ def email_html(n, v, unsubscribe):
                 f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td {g}>{inner}</td></tr></table></div><!--[if mso]></td><![endif]-->')
     def row(inner):
         return f'<!--[if mso]><table role="presentation" width="648" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->{inner}<!--[if mso]></tr></table><![endif]-->'
-    def tile(bg, border, k_color, label, price, strike, access, note, fg, note_color):
+    def tile(bg, border, k_color, label, price, strike, access, note, fg, note_color, off="", off_bg="#0a0a0a", off_fg=LIME):
         s = (f'<span style="{T(22, fg, "500", 24, "text-decoration:line-through;opacity:.5;letter-spacing:0")}">{strike}</span> '
-             f'<span style="display:inline-block;vertical-align:middle;background-color:#0a0a0a;border-radius:999px;padding:3px 10px;{T(13, LIME, "700", 18, "letter-spacing:.3px")}">{OFF}</span>') if strike else ""
+             f'<span style="display:inline-block;vertical-align:middle;background-color:{off_bg};border-radius:999px;padding:3px 10px;{T(13, off_fg, "700", 18, "letter-spacing:.3px")}">{off}</span>') if strike else ""
         return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="tile" bgcolor="{bg}" style="background-color:{bg};{border}border-radius:16px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:16px">'
                 f'<p style="margin:0;{T(11, k_color, "700", 15, "letter-spacing:1.3px;text-transform:uppercase")}">{label}</p>'
                 f'<p class="price" style="margin:6px 0 0 0;{T(46, fg, "700", 50, "letter-spacing:-1.8px")}">{price} {s}</p>'
@@ -138,7 +137,7 @@ def email_html(n, v, unsubscribe):
 <tr><td class="desk">{img(f"v3-{n}-head.jpg", 720, "FinCoursa. Just launched: fincoursa.com", home)}{img(f"v3-{n}-hero.jpg", 720, "CMT Level II Question Bank", course)}</td></tr>
 <!--[if !mso]><!--><tr><td><div {mob}>{img(f"m-{n}-head.jpg", 400, "FinCoursa. Just launched: fincoursa.com", home)}{img(f"m-{n}-hero.jpg", 400, "CMT Level II Question Bank", course)}</div></td></tr><!--<![endif]-->
 <tr><td class="px lead-td" style="padding-left:36px;padding-right:36px;padding-top:6px;font-size:0;line-height:0">{row(col(324, bullets([("1,100+", "exam-style questions"), ("115", "chart questions")])) + col(324, bullets([("Every answer", "explained"), ("Practice and timed exam", "modes")]), gap=False))}</td></tr>
-<tr><td class="px sect" style="padding-left:36px;padding-right:36px;padding-top:22px;font-size:0;line-height:0">{row(col(330, tile(LIME, "", "#3a4a00", "Launch offer for CMT candidates", "$79", "$249", "Access for 90 days", "Limited time: ends 16 December 2026", "#0a0a0a", "#3a4a00")) + col(318, tile("#111111", "border:1px solid #2e2e2e;", "#bdbdbd", "Through the June exam", "$129", "", "Access until 30 June 2027", "Covers the June 2027 exam", "#ffffff", "#a3a3a3"), gap=False))}</td></tr>
+<tr><td class="px sect" style="padding-left:36px;padding-right:36px;padding-top:22px;font-size:0;line-height:0">{row(col(330, tile(LIME, "", "#3a4a00", "Launch offer for CMT candidates", "$79", "$249", "Access for 90 days", "Limited time: ends 16 December 2026", "#0a0a0a", "#3a4a00", off="68% off")) + col(318, tile("#111111", "border:1px solid #2e2e2e;", "#bdbdbd", "Through the June exam", "$129", "$249", "Access until 30 June 2027", "Covers the June 2027 exam", "#ffffff", "#a3a3a3", off="48% off", off_bg=LIME, off_fg="#0a0a0a"), gap=False))}</td></tr>
 <tr><td {px};padding-top:14px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #262626;font-size:0;line-height:0;height:1px">&nbsp;</td></tr></table></td></tr>
 <tr><td {px};padding-top:0;font-size:0;line-height:0">{row(col(216, perk("Cashback", f"{b}75% back as credit</strong>, or 100% when you share feedback and a review.*")) + col(216, perk("Downside capped", f"Sit December 2026 and don't pass? {b}Free extension to June 2027.</strong>&dagger;")) + col(216, perk("Paper-trade first", f"{b}A free sample set</strong> from every section, charts included. No payment needed."), gap=False))}</td></tr>
 <tr><td class="px sect" style="padding-left:36px;padding-right:36px;padding-top:26px;font-size:0;line-height:0">{row(col(330, button(sample, "Test-drive it free", "#000000", "#ffffff", "#5c5c5c", "No payment needed")) + col(318, button(buy, "Buy &rarr;", LIME, "#0a0a0a", LIME, "Straight to checkout"), gap=False))}</td></tr>
