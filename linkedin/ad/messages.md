@@ -67,3 +67,39 @@ FinCoursa
 fincoursa.com
 
 <small>* Credit, not cash. It can be used on future FinCoursa courses until 31 January 2027 and can't be withdrawn, refunded or transferred. ** Proof of your result is required. Prices exclude applicable taxes. FinCoursa is not affiliated with or endorsed by the CMT Association.</small>
+
+---
+
+# Community: complimentary sample questions (before enrolment opens)
+
+Images (whatsapp/): FinCoursa-CMT-Level-II-free-sample.jpg ("Practice questions, on us."), -zero-cost-basis.jpg,
+-free-float.jpg, -first-candles.jpg. Email design in Admin -> Emails: "Community: Practice questions, on us".
+Use v=community-whatsapp, v=community-linkedin etc. on the link so sign-ups show per channel.
+
+## WhatsApp (send the image, paste this as the caption)
+
+To support everyone preparing for the Chartered Market Technician (CMT) Level II exam, we have made a sample set from the FinCoursa Question Bank complimentary.
+
+- Exam-style questions from every section of the curriculum
+- Chart questions, where you read the chart to find the answer
+- Every answer explained, including why the other options are wrong
+
+Free FinCoursa account, no payment needed:
+https://fincoursa.com/go/cmt-free-sample?v=community-whatsapp
+
+Preparing with others? Please pass this on to your study group. It is free for every CMT candidate.
+
+### Short version (for groups and forwards)
+
+For the CMT community: complimentary CMT Level II practice questions, charts included, every answer explained. Free account, no payment needed.
+https://fincoursa.com/go/cmt-free-sample?v=community-whatsapp
+
+## Email
+
+Subject options
+1. CMT Level II practice questions, on us
+2. Zero cost basis. All upside: free CMT Level II practice questions
+3. A free float for the CMT community
+4. Your first candles are on us
+
+Preview text: A complimentary CMT Level II sample set: questions from every section, charts included, every answer explained.

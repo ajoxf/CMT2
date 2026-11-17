@@ -1,0 +1,105 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap">
+<style>
+  :root { --lime:#d6fd3b; --ink:#0a0a0a; --muted:rgba(255,255,255,.58); --soft:rgba(255,255,255,.78); --line:rgba(255,255,255,.12); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { width:1080px; height:1350px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; overflow:hidden; }
+  .ad { position:relative; width:1080px; height:1350px; padding:52px 72px 44px; display:flex; flex-direction:column; }
+  .bg { position:absolute; inset:0; background:url(bg.jpg) center 30%/cover; filter:saturate(.7) brightness(.9); }
+  .shade { position:absolute; inset:0; background:
+      linear-gradient(180deg, rgba(0,0,0,.80) 0%, rgba(0,0,0,.90) 34%, rgba(0,0,0,.97) 56%, #000 100%); }
+  .ad > *:not(.bg):not(.shade) { position:relative; }
+
+  .top { display:flex; justify-content:space-between; align-items:center; }
+  .top img { height:36px; }
+  .bell { display:flex; align-items:center; gap:12px; font-size:18px; color:var(--soft); }
+  .bell b { color:#fff; font-weight:700; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--lime); box-shadow:0 0 0 6px rgba(214,253,59,.18), 0 0 18px rgba(214,253,59,.7); }
+
+  .eyebrow { margin-top:76px; font-size:17px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--lime); }
+  h1 { margin-top:18px; font-size:92px; font-weight:500; line-height:.98; letter-spacing:-.045em; }
+  h1 em { font-style:normal; font-weight:700; color:var(--lime); }
+  .sub { margin-top:20px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
+  .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
+
+  .chart { margin-top:16px; height:214px; overflow:visible; }
+
+  .prices { margin-top:18px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
+  .tile { border:1px solid var(--line); border-radius:20px; padding:20px 28px; background:rgba(255,255,255,.035); }
+  .tile.hl { background:var(--lime); color:var(--ink); border-color:var(--lime); }
+  .tile .k { font-size:14px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; opacity:.75; }
+  .tile .v { margin-top:8px; display:flex; align-items:baseline; gap:14px; }
+  .tile .v strong { font-size:60px; font-weight:900; letter-spacing:-.045em; line-height:1; }
+  .tile .v s { font-size:32px; font-weight:500; opacity:.55; text-decoration-thickness:2px; }
+  .tile:not(.hl) .v .off { background:var(--lime); color:var(--ink); }
+  .tile .v .off { align-self:center; font-style:normal; font-size:17px; font-weight:700; letter-spacing:.02em; background:var(--ink); color:var(--lime); border-radius:999px; padding:6px 14px; }
+  .tile .v i { font-style:normal; font-size:20px; font-weight:500; }
+  .tile .acc { margin-top:8px; font-size:20px; font-weight:700; }
+  .tile .d { margin-top:4px; font-size:17px; font-weight:500; opacity:.8; }
+
+  .perks { margin-top:24px; display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+  .perk .k { font-size:13.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--lime); }
+  .perk p { margin-top:9px; font-size:19px; line-height:1.4; color:var(--soft); }
+  .perk p b { color:#fff; font-weight:700; }
+
+  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:24px; border-top:1px solid var(--line); }
+  .cta.one { grid-template-columns:1fr; } .cta.one .btn { font-size:26px; padding:24px 32px; }
+  .cta .c { display:flex; flex-direction:column; align-items:center; gap:12px; }
+  .cta .u { font-size:16.5px; color:var(--muted); }
+  .btn { display:block; width:100%; text-align:center; text-decoration:none; }
+  .btn.ghost { background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.55); }
+  .cta .l { font-size:19px; color:var(--muted); line-height:1.45; }
+  .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
+  .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
+  .fine { margin-top:16px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
+  .live { display:flex; align-items:center; gap:12px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:10px 20px; font-size:18px; color:var(--soft); background:rgba(214,253,59,.06); }
+  .live b { color:#fff; font-weight:700; }
+  .live a { color:#fff; text-decoration:none; font-weight:700; }
+  .lockup { margin-top:34px; display:flex; align-items:stretch; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; line-height:1.1; }
+  .lockup::before { content:""; width:6px; flex:none; border-radius:3px; background:var(--lime); }
+  .lockup span { display:flex; flex-direction:column; gap:4px; }
+  .lockup small { font-size:21px; font-weight:500; color:var(--soft); letter-spacing:0; }
+  .lockup em { font-style:normal; color:var(--lime); }
+  .lockup + h1 { margin-top:20px; }
+  .refer { margin-top:18px; white-space:nowrap; display:flex; align-items:center; gap:14px; font-size:17.5px; color:var(--soft); }
+  .refer::before { content:""; width:4px; height:24px; border-radius:2px; background:var(--lime); flex:none; }
+  .refer b { color:#fff; font-weight:700; }
+  .refer a { color:var(--lime); font-weight:700; text-decoration:none; }
+</style></head>
+<body><div class="ad">
+  <div class="bg"></div><div class="shade"></div>
+
+  <div class="top">
+    <img src="logo.png" alt="FinCoursa">
+    <div class="live"><span class="dot"></span>Complimentary for the <b>CMT community</b></div>
+  </div>
+
+  <div class="lockup"><span><small>Chartered Market Technician (CMT)</small><b><em>Level II</em> Question Bank</b></span></div>
+  <h1>Your first 50 candles<br>are <em>on us.</em></h1>
+  <p class="sub">To support everyone preparing for CMT Level II, we are making a sample<br>set complimentary: questions from every section, charts included,<br>and every answer explained.</p>
+
+  <svg class="chart" viewBox="0 14 936 222" fill="none">
+    <g stroke="rgba(255,255,255,.07)"><line x1="0" y1="60" x2="936" y2="60"/><line x1="0" y1="130" x2="936" y2="130"/><line x1="0" y1="200" x2="936" y2="200"/></g>
+    <line x1="20" y1="175" x2="20" y2="206" stroke="#d6fd3b" stroke-width="2"/><rect x="11" y="184" width="18" height="16" rx="2" fill="#d6fd3b"/><line x1="57" y1="164" x2="57" y2="191" stroke="#d6fd3b" stroke-width="2"/><rect x="48" y="168" width="18" height="16" rx="2" fill="#d6fd3b"/><line x1="94" y1="145" x2="94" y2="173" stroke="#d6fd3b" stroke-width="2"/><rect x="85" y="149" width="18" height="19" rx="2" fill="#d6fd3b"/><line x1="131" y1="122" x2="131" y2="152" stroke="#d6fd3b" stroke-width="2"/><rect x="122" y="130" width="18" height="19" rx="2" fill="#d6fd3b"/><line x1="168" y1="122" x2="168" y2="149" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="159" y="130" width="18" height="13" rx="2" fill="rgba(255,255,255,.45)"/><line x1="205" y1="127" x2="205" y2="146" stroke="#d6fd3b" stroke-width="2"/><rect x="196" y="134" width="18" height="8" rx="2" fill="#d6fd3b"/><line x1="242" y1="119" x2="242" y2="140" stroke="#d6fd3b" stroke-width="2"/><rect x="233" y="123" width="18" height="11" rx="2" fill="#d6fd3b"/><line x1="279" y1="96" x2="279" y2="130" stroke="#d6fd3b" stroke-width="2"/><rect x="270" y="103" width="18" height="20" rx="2" fill="#d6fd3b"/><line x1="316" y1="79" x2="316" y2="108" stroke="#d6fd3b" stroke-width="2"/><rect x="307" y="86" width="18" height="17" rx="2" fill="#d6fd3b"/><line x1="353" y1="77" x2="353" y2="106" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="344" y="86" width="18" height="13" rx="2" fill="rgba(255,255,255,.45)"/><line x1="390" y1="82" x2="390" y2="102" stroke="#d6fd3b" stroke-width="2"/><rect x="381" y="87" width="18" height="11" rx="2" fill="#d6fd3b"/><line x1="427" y1="78" x2="427" y2="101" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="418" y="87" width="18" height="8" rx="2" fill="rgba(255,255,255,.45)"/><line x1="464" y1="92" x2="464" y2="111" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="455" y="95" width="18" height="12" rx="2" fill="rgba(255,255,255,.45)"/><line x1="501" y1="97" x2="501" y2="121" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="492" y="106" width="18" height="8" rx="2" fill="rgba(255,255,255,.45)"/><line x1="538" y1="89" x2="538" y2="120" stroke="#d6fd3b" stroke-width="2"/><rect x="529" y="98" width="18" height="17" rx="2" fill="#d6fd3b"/><line x1="575" y1="76" x2="575" y2="106" stroke="#d6fd3b" stroke-width="2"/><rect x="566" y="85" width="18" height="13" rx="2" fill="#d6fd3b"/><line x1="612" y1="70" x2="612" y2="89" stroke="#d6fd3b" stroke-width="2"/><rect x="603" y="74" width="18" height="11" rx="2" fill="#d6fd3b"/><line x1="649" y1="67" x2="649" y2="86" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="640" y="74" width="18" height="6" rx="2" fill="rgba(255,255,255,.45)"/><line x1="686" y1="57" x2="686" y2="87" stroke="#d6fd3b" stroke-width="2"/><rect x="677" y="61" width="18" height="18" rx="2" fill="#d6fd3b"/><line x1="723" y1="43" x2="723" y2="66" stroke="#d6fd3b" stroke-width="2"/><rect x="714" y="47" width="18" height="14" rx="2" fill="#d6fd3b"/><line x1="760" y1="42" x2="760" y2="68" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="751" y="47" width="18" height="11" rx="2" fill="rgba(255,255,255,.45)"/><line x1="797" y1="36" x2="797" y2="66" stroke="#d6fd3b" stroke-width="2"/><rect x="788" y="45" width="18" height="14" rx="2" fill="#d6fd3b"/><line x1="834" y1="19" x2="834" y2="50" stroke="#d6fd3b" stroke-width="2"/><rect x="825" y="23" width="18" height="22" rx="2" fill="#d6fd3b"/><line x1="871" y1="18" x2="871" y2="34" stroke="rgba(255,255,255,.45)" stroke-width="2"/><rect x="862" y="23" width="18" height="7" rx="2" fill="rgba(255,255,255,.45)"/>
+    <g font-family="Satoshi, sans-serif" font-size="16" fill="rgba(255,255,255,.62)"><text x="20" y="246">Day one</text>
+      <circle cx="871" cy="30" r="18" fill="#d6fd3b" fill-opacity=".18"/><text x="838" y="36" text-anchor="end" fill="#fff" font-weight="700" font-size="18">Exam day</text></g>
+  </svg>
+
+  <div class="prices">
+    <div class="tile hl"><div class="k">Complimentary sample set</div><div class="v"><strong>Free</strong><i>50 questions</i></div><div class="acc">Start today, at your own pace</div><div class="d">Free FinCoursa account. No payment needed.</div></div>
+    <div class="tile"><div class="k">The full Question Bank</div><div class="v"><strong>1,100+</strong><i>questions</i></div><div class="acc">115 chart questions, timed exam mode</div><div class="d">Enrolment opens soon</div></div>
+  </div>
+
+  <div class="perks">
+    <div class="perk"><div class="k">Every section</div><p><b>Exam-style questions</b> across the Level II curriculum</p></div>
+    <div class="perk"><div class="k">Chart questions</div><p><b>Read the chart</b> to find the answer, as in the exam</p></div>
+    <div class="perk"><div class="k">Explained</div><p><b>Why each option</b> is right or wrong, not just the answer</p></div>
+  </div>
+
+  <div class="cta one">
+    <div class="c"><a class="btn" href="https://fincoursa.com/go/cmt-free-sample?v=community-pdf">Get the free questions &rarr;</a><div class="u">fincoursa.com/go/cmt-free-sample</div></div>
+  </div>
+  <div class="refer"><span><b>Preparing with others?</b> Pass this on to your study group. It is free for every CMT candidate.</span></div>
+  <div class="fine">The complimentary sample needs a free FinCoursa account; no card or payment details are asked for. Not affiliated with or endorsed by the CMT Association.</div>
+</div></body></html>

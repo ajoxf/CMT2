@@ -1,0 +1,115 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap">
+<style>
+  :root { --lime:#d6fd3b; --ink:#0a0a0a; --muted:rgba(255,255,255,.58); --soft:rgba(255,255,255,.78); --line:rgba(255,255,255,.12); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { width:1080px; height:1350px; background:#000; font-family:"Satoshi",system-ui,sans-serif; color:#fff; overflow:hidden; }
+  .ad { position:relative; width:1080px; height:1350px; padding:52px 72px 44px; display:flex; flex-direction:column; }
+  .bg { position:absolute; inset:0; background:url(bg.jpg) center 30%/cover; filter:saturate(.7) brightness(.9); }
+  .shade { position:absolute; inset:0; background:
+      linear-gradient(180deg, rgba(0,0,0,.80) 0%, rgba(0,0,0,.90) 34%, rgba(0,0,0,.97) 56%, #000 100%); }
+  .ad > *:not(.bg):not(.shade) { position:relative; }
+
+  .top { display:flex; justify-content:space-between; align-items:center; }
+  .top img { height:36px; }
+  .bell { display:flex; align-items:center; gap:12px; font-size:18px; color:var(--soft); }
+  .bell b { color:#fff; font-weight:700; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--lime); box-shadow:0 0 0 6px rgba(214,253,59,.18), 0 0 18px rgba(214,253,59,.7); }
+
+  .eyebrow { margin-top:76px; font-size:17px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--lime); }
+  h1 { margin-top:18px; font-size:92px; font-weight:500; line-height:.98; letter-spacing:-.045em; }
+  h1 em { font-style:normal; font-weight:700; color:var(--lime); }
+  .sub { margin-top:20px; font-size:23px; line-height:1.5; color:var(--soft); font-weight:400; }
+  .sub span { color:rgba(255,255,255,.3); padding:0 10px; }
+
+  .chart { margin-top:16px; height:214px; overflow:visible; }
+
+  .prices { margin-top:18px; display:grid; grid-template-columns:1.15fr 1fr; gap:18px; }
+  .tile { border:1px solid var(--line); border-radius:20px; padding:20px 28px; background:rgba(255,255,255,.035); }
+  .tile.hl { background:var(--lime); color:var(--ink); border-color:var(--lime); }
+  .tile .k { font-size:14px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; opacity:.75; }
+  .tile .v { margin-top:8px; display:flex; align-items:baseline; gap:14px; }
+  .tile .v strong { font-size:60px; font-weight:900; letter-spacing:-.045em; line-height:1; }
+  .tile .v s { font-size:32px; font-weight:500; opacity:.55; text-decoration-thickness:2px; }
+  .tile:not(.hl) .v .off { background:var(--lime); color:var(--ink); }
+  .tile .v .off { align-self:center; font-style:normal; font-size:17px; font-weight:700; letter-spacing:.02em; background:var(--ink); color:var(--lime); border-radius:999px; padding:6px 14px; }
+  .tile .v i { font-style:normal; font-size:20px; font-weight:500; }
+  .tile .acc { margin-top:8px; font-size:20px; font-weight:700; }
+  .tile .d { margin-top:4px; font-size:17px; font-weight:500; opacity:.8; }
+
+  .perks { margin-top:24px; display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+  .perk .k { font-size:13.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--lime); }
+  .perk p { margin-top:9px; font-size:19px; line-height:1.4; color:var(--soft); }
+  .perk p b { color:#fff; font-weight:700; }
+
+  .cta { margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-top:24px; border-top:1px solid var(--line); }
+  .cta.one { grid-template-columns:1fr; } .cta.one .btn { font-size:26px; padding:24px 32px; }
+  .cta .c { display:flex; flex-direction:column; align-items:center; gap:12px; }
+  .cta .u { font-size:16.5px; color:var(--muted); }
+  .btn { display:block; width:100%; text-align:center; text-decoration:none; }
+  .btn.ghost { background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.55); }
+  .cta .l { font-size:19px; color:var(--muted); line-height:1.45; }
+  .cta .l b { display:block; color:#fff; font-size:23px; font-weight:500; }
+  .btn { background:var(--lime); color:var(--ink); border-radius:999px; padding:19px 32px; font-size:22px; font-weight:700; white-space:nowrap; }
+  .fine { margin-top:16px; font-size:13.5px; color:rgba(255,255,255,.4); line-height:1.5; }
+  .live { display:flex; align-items:center; gap:12px; border:1.5px solid rgba(214,253,59,.55); border-radius:999px; padding:10px 20px; font-size:18px; color:var(--soft); background:rgba(214,253,59,.06); }
+  .live b { color:#fff; font-weight:700; }
+  .live a { color:#fff; text-decoration:none; font-weight:700; }
+  .lockup { margin-top:34px; display:flex; align-items:stretch; gap:16px; font-size:32px; font-weight:700; letter-spacing:-.015em; line-height:1.1; }
+  .lockup::before { content:""; width:6px; flex:none; border-radius:3px; background:var(--lime); }
+  .lockup span { display:flex; flex-direction:column; gap:4px; }
+  .lockup small { font-size:21px; font-weight:500; color:var(--soft); letter-spacing:0; }
+  .lockup em { font-style:normal; color:var(--lime); }
+  .lockup + h1 { margin-top:20px; }
+  .refer { margin-top:18px; white-space:nowrap; display:flex; align-items:center; gap:14px; font-size:17.5px; color:var(--soft); }
+  .refer::before { content:""; width:4px; height:24px; border-radius:2px; background:var(--lime); flex:none; }
+  .refer b { color:#fff; font-weight:700; }
+  .refer a { color:var(--lime); font-weight:700; text-decoration:none; }
+</style></head>
+<body><div class="ad">
+  <div class="bg"></div><div class="shade"></div>
+
+  <div class="top">
+    <img src="logo.png" alt="FinCoursa">
+    <div class="live"><span class="dot"></span>Complimentary for the <b>CMT community</b></div>
+  </div>
+
+  <div class="lockup"><span><small>Chartered Market Technician (CMT)</small><b><em>Level II</em> Question Bank</b></span></div>
+  <h1>A free float<br>for the <em>community.</em></h1>
+  <p class="sub">To support everyone preparing for CMT Level II, we are making a sample<br>set complimentary: questions from every section, charts included,<br>and every answer explained.</p>
+
+  <svg class="chart" viewBox="0 14 936 222" fill="none">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6fd3b" stop-opacity=".22"/><stop offset="1" stop-color="#d6fd3b" stop-opacity="0"/></linearGradient>
+    </defs>
+    <g stroke="rgba(255,255,255,.07)"><line x1="0" y1="60" x2="936" y2="60"/><line x1="0" y1="130" x2="936" y2="130"/><line x1="0" y1="200" x2="936" y2="200"/></g>
+    <path d="M0 214 L70 196 L120 208 L190 170 L250 186 L330 138 L390 156 L470 112 L540 128 L620 86 L690 100 L770 58 L820 66 L900 30 L900 250 L0 250 Z" fill="url(#g)"/>
+    <path d="M0 214 L70 196 L120 208 L190 170 L250 186 L330 138 L390 156 L470 112 L540 128 L620 86 L690 100 L770 58 L820 66 L900 30" stroke="#d6fd3b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M120 208 L900 70" stroke="rgba(255,255,255,.35)" stroke-width="1.5" stroke-dasharray="6 7"/>
+    <g font-family="Satoshi, sans-serif" font-size="16" fill="rgba(255,255,255,.62)">
+      <circle cx="120" cy="208" r="6" fill="#000" stroke="#fff" stroke-width="2"/><text x="132" y="236">Day one</text>
+      <circle cx="390" cy="156" r="6" fill="#000" stroke="#fff" stroke-width="2"/><text x="402" y="184">Free sample</text>
+      <circle cx="690" cy="100" r="6" fill="#000" stroke="#fff" stroke-width="2"/><text x="702" y="128">Full practice</text>
+      <circle cx="900" cy="30" r="9" fill="#d6fd3b"/><circle cx="900" cy="30" r="18" fill="#d6fd3b" fill-opacity=".18"/>
+      <text x="868" y="36" text-anchor="end" fill="#fff" font-weight="700" font-size="18">Exam day</text>
+    </g>
+  </svg>
+
+  <div class="prices">
+    <div class="tile hl"><div class="k">Complimentary for CMT candidates</div><div class="v"><strong>Free</strong><i>sample set</i></div><div class="acc">Start today, at your own pace</div><div class="d">Free FinCoursa account. No payment needed.</div></div>
+    <div class="tile"><div class="k">The full Question Bank</div><div class="v"><strong>1,100+</strong><i>questions</i></div><div class="acc">115 chart questions, timed exam mode</div><div class="d">Enrolment opens soon</div></div>
+  </div>
+
+  <div class="perks">
+    <div class="perk"><div class="k">Every section</div><p><b>Exam-style questions</b> across the Level II curriculum</p></div>
+    <div class="perk"><div class="k">Chart questions</div><p><b>Read the chart</b> to find the answer, as in the exam</p></div>
+    <div class="perk"><div class="k">Explained</div><p><b>Why each option</b> is right or wrong, not just the answer</p></div>
+  </div>
+
+  <div class="cta one">
+    <div class="c"><a class="btn" href="https://fincoursa.com/go/cmt-free-sample?v=community-pdf">Get the free questions &rarr;</a><div class="u">fincoursa.com/go/cmt-free-sample</div></div>
+  </div>
+  <div class="refer"><span><b>Preparing with others?</b> Pass this on to your study group. It is free for every CMT candidate.</span></div>
+  <div class="fine">The complimentary sample needs a free FinCoursa account; no card or payment details are asked for. Not affiliated with or endorsed by the CMT Association.</div>
+</div></body></html>
