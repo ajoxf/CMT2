@@ -1,0 +1,14 @@
+New listing.
+
+{{note_text}}
+
+FinCoursa is now a CMT Association Participating Prep Provider.
+
+You can find us on the CMT Association's prep providers page: https://cmtassociation.org/cmt-program/prep-providers/
+Thank you to the CMT community for your support.
+
+Visit CMT Prep: https://fincoursa.com/cmt?utm_source=email&utm_medium=email&utm_campaign=cmt-ppp-listing&utm_content={{tag}}
+
+FinCoursa is a CMT Association Participating Prep Provider. This does not imply endorsement, authorisation, accreditation or exclusivity by the CMT Association. CMT and Chartered Market Technician are trademarks of the CMT Association.
+Questions? Reply to this email.
+Unsubscribe: {{unsubscribe_url}}
